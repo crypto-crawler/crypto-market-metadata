@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+  schedule:
+    # Run everyday
+    - cron: "0 0 * * *"
+
+jobs:
+    crawler:
+        name: Fetch markets
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions-rs/toolchain@v1
+              with:
+                  toolchain: nightly
+                  override: true
+            - uses: actions-rs/cargo@v1
+              with:
+                  command: build
+                  args: --release
+            - name: Scrape markets
+              run: ./target/release/crypto-markets-data
+            - name: Commit files
+              run: |
+                git config --local user.email "action@github.com"
+                git config --local user.name "GitHub Action"
+                git add ./data/
+                git commit -am "Added new data by Github Action" || true
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                force: true
+    test:
+        name: Cargo test
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions-rs/toolchain@v1
+              with:
+                  toolchain: nightly
+                  override: true
+            - uses: actions-rs/cargo@v1
+              with:
+                  command: test
+    fmt:
+        name: Cargo fmt
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions-rs/toolchain@v1
+              with:
+                  toolchain: nightly
+                  override: true
+                  components: rustfmt
+            - uses: actions-rs/cargo@v1
+              with:
+                  command: fmt
+                  args: -- --check
+
+    check:
+        name: Cargo check
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions-rs/toolchain@v1
+              with:
+                  toolchain: nightly
+                  override: true
+            - uses: actions-rs/cargo@v1
+              with:
+                  command: check
+
+    clippy:
+        name: Cargo clippy
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions-rs/toolchain@v1
+              with:
+                  toolchain: nightly
+                  override: true
+                  components: clippy
+            - uses: actions-rs/cargo@v1
+              with:
+                  command: clippy
