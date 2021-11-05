@@ -1,2 +1,208 @@
-{"exchange":"binance","market_type":"linear_future","symbol":"BTCUSDT_211231","base_id":"BTC","quote_id":"USDT","settle_id":"USDT","base":"BTC","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0002,"taker":0.0004},"precision":{"tick_size":0.1,"lot_size":0.001},"quantity_limit":{"min":0.001,"max":500.0},"contract_value":1.0,"delivery_date":1640937600000,"info":{}}
-{"exchange":"binance","market_type":"linear_future","symbol":"ETHUSDT_211231","base_id":"ETH","quote_id":"USDT","settle_id":"USDT","base":"ETH","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0002,"taker":0.0004},"precision":{"tick_size":0.01,"lot_size":0.001},"quantity_limit":{"min":0.001,"max":10000.0},"contract_value":1.0,"delivery_date":1640937600000,"info":{}}
+[
+  {
+    "exchange": "binance",
+    "market_type": "linear_future",
+    "symbol": "BTCUSDT_211231",
+    "base_id": "BTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1640937600000,
+    "info": {
+      "baseAsset": "BTC",
+      "baseAssetPrecision": 8,
+      "contractType": "CURRENT_QUARTER",
+      "deliveryDate": 1640937600000,
+      "filters": [
+        {
+          "filterType": "PRICE_FILTER",
+          "maxPrice": "1000000",
+          "minPrice": "576.3",
+          "tickSize": "0.1"
+        },
+        {
+          "filterType": "LOT_SIZE",
+          "maxQty": "500",
+          "minQty": "0.001",
+          "stepSize": "0.001"
+        },
+        {
+          "filterType": "MARKET_LOT_SIZE",
+          "maxQty": "3",
+          "minQty": "0.001",
+          "stepSize": "0.001"
+        },
+        {
+          "filterType": "MAX_NUM_ORDERS",
+          "limit": 200
+        },
+        {
+          "filterType": "MAX_NUM_ALGO_ORDERS",
+          "limit": 10
+        },
+        {
+          "filterType": "MIN_NOTIONAL",
+          "notional": "5"
+        },
+        {
+          "filterType": "PERCENT_PRICE",
+          "multiplierDecimal": "4",
+          "multiplierDown": "0.9500",
+          "multiplierUp": "1.0500"
+        }
+      ],
+      "liquidationFee": "0.017500",
+      "maintMarginPercent": "2.5000",
+      "marginAsset": "USDT",
+      "marketTakeBound": "0.05",
+      "onboardDate": 1632211200000,
+      "orderTypes": [
+        "LIMIT",
+        "MARKET",
+        "STOP",
+        "STOP_MARKET",
+        "TAKE_PROFIT",
+        "TAKE_PROFIT_MARKET",
+        "TRAILING_STOP_MARKET"
+      ],
+      "pair": "BTCUSDT",
+      "pricePrecision": 1,
+      "quantityPrecision": 3,
+      "quoteAsset": "USDT",
+      "quotePrecision": 8,
+      "requiredMarginPercent": "5.0000",
+      "settlePlan": 0,
+      "status": "TRADING",
+      "symbol": "BTCUSDT_211231",
+      "timeInForce": [
+        "GTC",
+        "IOC",
+        "FOK",
+        "GTX"
+      ],
+      "triggerProtect": "0.0500",
+      "underlyingSubType": [],
+      "underlyingType": "COIN"
+    }
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_future",
+    "symbol": "ETHUSDT_211231",
+    "base_id": "ETH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1640937600000,
+    "info": {
+      "baseAsset": "ETH",
+      "baseAssetPrecision": 8,
+      "contractType": "CURRENT_QUARTER",
+      "deliveryDate": 1640937600000,
+      "filters": [
+        {
+          "filterType": "PRICE_FILTER",
+          "maxPrice": "100000",
+          "minPrice": "41.10",
+          "tickSize": "0.01"
+        },
+        {
+          "filterType": "LOT_SIZE",
+          "maxQty": "10000",
+          "minQty": "0.001",
+          "stepSize": "0.001"
+        },
+        {
+          "filterType": "MARKET_LOT_SIZE",
+          "maxQty": "50",
+          "minQty": "0.001",
+          "stepSize": "0.001"
+        },
+        {
+          "filterType": "MAX_NUM_ORDERS",
+          "limit": 200
+        },
+        {
+          "filterType": "MAX_NUM_ALGO_ORDERS",
+          "limit": 10
+        },
+        {
+          "filterType": "MIN_NOTIONAL",
+          "notional": "5"
+        },
+        {
+          "filterType": "PERCENT_PRICE",
+          "multiplierDecimal": "4",
+          "multiplierDown": "0.9500",
+          "multiplierUp": "1.0500"
+        }
+      ],
+      "liquidationFee": "0.017500",
+      "maintMarginPercent": "2.5000",
+      "marginAsset": "USDT",
+      "marketTakeBound": "0.30",
+      "onboardDate": 1632211200000,
+      "orderTypes": [
+        "LIMIT",
+        "MARKET",
+        "STOP",
+        "STOP_MARKET",
+        "TAKE_PROFIT",
+        "TAKE_PROFIT_MARKET",
+        "TRAILING_STOP_MARKET"
+      ],
+      "pair": "ETHUSDT",
+      "pricePrecision": 2,
+      "quantityPrecision": 3,
+      "quoteAsset": "USDT",
+      "quotePrecision": 8,
+      "requiredMarginPercent": "5.0000",
+      "settlePlan": 0,
+      "status": "TRADING",
+      "symbol": "ETHUSDT_211231",
+      "timeInForce": [
+        "GTC",
+        "IOC",
+        "FOK",
+        "GTX"
+      ],
+      "triggerProtect": "0.0500",
+      "underlyingSubType": [],
+      "underlyingType": "COIN"
+    }
+  }
+]

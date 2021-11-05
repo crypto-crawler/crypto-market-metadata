@@ -36,10 +36,12 @@ fn main() {
                     .open(Path::new("./data").join(format!("{}.{}.json", exchange, market_type)))
                     .unwrap();
                 let mut buf_writer = std::io::BufWriter::new(f_out);
-                for mut market in markets {
-                    market.info = serde_json::Map::new(); // clear raw info
-                    writeln!(buf_writer, "{}", serde_json::to_string(&market).unwrap()).unwrap();
-                }
+                writeln!(
+                    buf_writer,
+                    "{}",
+                    serde_json::to_string_pretty(&markets).unwrap()
+                )
+                .unwrap();
             }
         }
     }

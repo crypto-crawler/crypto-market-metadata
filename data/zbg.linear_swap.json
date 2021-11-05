@@ -1,16 +1,562 @@
-{"exchange":"zbg","market_type":"linear_swap","symbol":"AXS_USDT","base_id":"AXS","quote_id":"USDT","settle_id":"USDT","base":"AXS","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.01,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"BCH_USDT","base_id":"BCH","quote_id":"USDT","settle_id":"USDT","base":"BCH","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.05,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"BSV_USDT","base_id":"BSV","quote_id":"USDT","settle_id":"USDT","base":"BSV","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.05,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"BTC_USDT","base_id":"BTC","quote_id":"USDT","settle_id":"USDT","base":"BTC","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.5,"lot_size":1.0},"contract_value":0.01,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"DOGE_USDT","base_id":"DOGE","quote_id":"USDT","settle_id":"USDT","base":"DOGE","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":1e-6,"lot_size":1.0},"contract_value":100.0,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"DOT_USDT","base_id":"DOT","quote_id":"USDT","settle_id":"USDT","base":"DOT","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.001,"lot_size":1.0},"contract_value":1.0,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"EOS_USDT","base_id":"EOS","quote_id":"USDT","settle_id":"USDT","base":"EOS","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.001,"lot_size":1.0},"contract_value":1.0,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"ETC_USDT","base_id":"ETC","quote_id":"USDT","settle_id":"USDT","base":"ETC","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.001,"lot_size":1.0},"contract_value":1.0,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"ETH_USDT","base_id":"ETH","quote_id":"USDT","settle_id":"USDT","base":"ETH","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.05,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"FIL_USDT","base_id":"FIL","quote_id":"USDT","settle_id":"USDT","base":"FIL","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.001,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"ICP_USDT","base_id":"ICP","quote_id":"USDT","settle_id":"USDT","base":"ICP","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.01,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"LINK_USDT","base_id":"LINK","quote_id":"USDT","settle_id":"USDT","base":"LINK","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.001,"lot_size":1.0},"contract_value":1.0,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"LTC_USDT","base_id":"LTC","quote_id":"USDT","settle_id":"USDT","base":"LTC","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.01,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"SUSHI_USDT","base_id":"SUSHI","quote_id":"USDT","settle_id":"USDT","base":"SUSHI","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.001,"lot_size":1.0},"contract_value":1.0,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"UNI_USDT","base_id":"UNI","quote_id":"USDT","settle_id":"USDT","base":"UNI","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.0004,"taker":0.0006},"precision":{"tick_size":0.001,"lot_size":1.0},"contract_value":0.1,"info":{}}
-{"exchange":"zbg","market_type":"linear_swap","symbol":"XRP_USDT","base_id":"XRP","quote_id":"USDT","settle_id":"USDT","base":"XRP","quote":"USDT","settle":"USDT","active":true,"margin":true,"fees":{"maker":0.00025,"taker":0.00075},"precision":{"tick_size":0.0001,"lot_size":1.0},"contract_value":10.0,"info":{}}
+[
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "AXS_USDT",
+    "base_id": "AXS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AXS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 1000021,
+      "commodityName": "axs",
+      "contractId": 1000021,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.01",
+      "symbol": "AXS_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "BCH_USDT",
+    "base_id": "BCH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BCH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 6,
+      "commodityName": "bch",
+      "contractId": 1000011,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.05",
+      "symbol": "BCH_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "BSV_USDT",
+    "base_id": "BSV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BSV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 1000005,
+      "commodityName": "bsv",
+      "contractId": 1000013,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.05",
+      "symbol": "BSV_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "BTC_USDT",
+    "base_id": "BTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.5,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {
+      "commodityId": 2,
+      "commodityName": "btc",
+      "contractId": 1000000,
+      "contractUnit": "0.010000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.5",
+      "symbol": "BTC_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "DOGE_USDT",
+    "base_id": "DOGE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DOGE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {
+      "commodityId": 1000020,
+      "commodityName": "doge",
+      "contractId": 1000020,
+      "contractUnit": "100.000000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.000001",
+      "symbol": "DOGE_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "DOT_USDT",
+    "base_id": "DOT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DOT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {
+      "commodityId": 1000016,
+      "commodityName": null,
+      "contractId": 1000016,
+      "contractUnit": "1.000000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.001",
+      "symbol": "DOT_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "EOS_USDT",
+    "base_id": "EOS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EOS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {
+      "commodityId": 3,
+      "commodityName": "eos",
+      "contractId": 1000009,
+      "contractUnit": "1.000000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.001",
+      "symbol": "EOS_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "ETC_USDT",
+    "base_id": "ETC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {
+      "commodityId": 5,
+      "commodityName": "etc",
+      "contractId": 1000012,
+      "contractUnit": "1.000000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.001",
+      "symbol": "ETC_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "ETH_USDT",
+    "base_id": "ETH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 1,
+      "commodityName": "eth",
+      "contractId": 1000002,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.05",
+      "symbol": "ETH_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "FIL_USDT",
+    "base_id": "FIL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FIL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 1000017,
+      "commodityName": "fil",
+      "contractId": 1000017,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.001",
+      "symbol": "FIL_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "ICP_USDT",
+    "base_id": "ICP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ICP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 1000022,
+      "commodityName": "icp",
+      "contractId": 1000022,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.01",
+      "symbol": "ICP_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "LINK_USDT",
+    "base_id": "LINK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LINK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {
+      "commodityId": 1000019,
+      "commodityName": "link",
+      "contractId": 1000019,
+      "contractUnit": "1.000000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.001",
+      "symbol": "LINK_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "LTC_USDT",
+    "base_id": "LTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 9,
+      "commodityName": "ltc",
+      "contractId": 1000008,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.01",
+      "symbol": "LTC_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "SUSHI_USDT",
+    "base_id": "SUSHI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SUSHI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {
+      "commodityId": 1000018,
+      "commodityName": "sushi",
+      "contractId": 1000018,
+      "contractUnit": "1.000000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.001",
+      "symbol": "SUSHI_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "UNI_USDT",
+    "base_id": "UNI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UNI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {
+      "commodityId": 1000015,
+      "commodityName": null,
+      "contractId": 1000015,
+      "contractUnit": "0.100000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000400000000000000",
+      "priceTick": "0.001",
+      "symbol": "UNI_USDT",
+      "takerFeeRatio": "0.000600000000000000"
+    }
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "linear_swap",
+    "symbol": "XRP_USDT",
+    "base_id": "XRP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XRP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {
+      "commodityId": 1000000,
+      "commodityName": "xrp",
+      "contractId": 1000010,
+      "contractUnit": "10.000000000000000000",
+      "currencyId": 7,
+      "currencyName": "usdt",
+      "lotSize": "1.000000000000000000",
+      "makerFeeRatio": "0.000250000000000000",
+      "priceTick": "0.0001",
+      "symbol": "XRP_USDT",
+      "takerFeeRatio": "0.000750000000000000"
+    }
+  }
+]

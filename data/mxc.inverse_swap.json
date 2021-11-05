@@ -1,2 +1,140 @@
-{"exchange":"mxc","market_type":"inverse_swap","symbol":"BTC_USD","base_id":"BTC","quote_id":"USD","settle_id":"BTC","base":"BTC","quote":"USD","settle":"BTC","active":true,"margin":true,"fees":{"maker":0.0002,"taker":0.0006},"precision":{"tick_size":0.5,"lot_size":1.0},"quantity_limit":{"min":1.0,"max":10000.0},"contract_value":100.0,"info":{}}
-{"exchange":"mxc","market_type":"inverse_swap","symbol":"ETH_USD","base_id":"ETH","quote_id":"USD","settle_id":"ETH","base":"ETH","quote":"USD","settle":"ETH","active":true,"margin":true,"fees":{"maker":0.0002,"taker":0.0006},"precision":{"tick_size":0.05,"lot_size":1.0},"quantity_limit":{"min":1.0,"max":100000.0},"contract_value":10.0,"info":{}}
+[
+  {
+    "exchange": "mxc",
+    "market_type": "inverse_swap",
+    "symbol": "BTC_USD",
+    "base_id": "BTC",
+    "quote_id": "USD",
+    "settle_id": "BTC",
+    "base": "BTC",
+    "quote": "USD",
+    "settle": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.5,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 100.0,
+    "info": {
+      "amountScale": 8,
+      "askLimitPriceRate": 0.1,
+      "baseCoin": "BTC",
+      "bidLimitPriceRate": 0.1,
+      "contractSize": 100.0,
+      "displayName": "BTC_USD永续",
+      "displayNameEn": "BTC_USD SWAP",
+      "indexOrigin": [
+        "BITSTAMP",
+        "COINBASE",
+        "BITFINEX",
+        "FTX",
+        "KRAKEN",
+        "BITTREX"
+      ],
+      "initialMarginRate": 0.01,
+      "isHidden": false,
+      "isHot": true,
+      "isNew": false,
+      "maintenanceMarginRate": 0.005,
+      "makerFeeRate": 0.0002,
+      "maxLeverage": 100,
+      "maxVol": 10000,
+      "minLeverage": 1,
+      "minVol": 1,
+      "positionOpenType": 3,
+      "priceCoefficientVariation": 0.1,
+      "priceScale": 2,
+      "priceUnit": 0.5,
+      "quoteCoin": "USD",
+      "riskBaseVol": 2000,
+      "riskIncrImr": 0.005,
+      "riskIncrMmr": 0.005,
+      "riskIncrVol": 2000,
+      "riskLevelLimit": 5,
+      "settleCoin": "BTC",
+      "state": 0,
+      "symbol": "BTC_USD",
+      "takerFeeRate": 0.0006,
+      "volScale": 0,
+      "volUnit": 1
+    }
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "inverse_swap",
+    "symbol": "ETH_USD",
+    "base_id": "ETH",
+    "quote_id": "USD",
+    "settle_id": "ETH",
+    "base": "ETH",
+    "quote": "USD",
+    "settle": "ETH",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {
+      "amountScale": 8,
+      "askLimitPriceRate": 0.1,
+      "baseCoin": "ETH",
+      "bidLimitPriceRate": 0.1,
+      "contractSize": 10.0,
+      "displayName": "ETH_USD永续",
+      "displayNameEn": "ETH_USD SWAP",
+      "indexOrigin": [
+        "BITSTAMP",
+        "COINBASE",
+        "BITFINEX",
+        "FTX",
+        "KRAKEN",
+        "BITTREX"
+      ],
+      "initialMarginRate": 0.01,
+      "isHidden": false,
+      "isHot": true,
+      "isNew": false,
+      "maintenanceMarginRate": 0.005,
+      "makerFeeRate": 0.0002,
+      "maxLeverage": 100,
+      "maxVol": 100000,
+      "minLeverage": 1,
+      "minVol": 1,
+      "positionOpenType": 3,
+      "priceCoefficientVariation": 0.1,
+      "priceScale": 2,
+      "priceUnit": 0.05,
+      "quoteCoin": "USD",
+      "riskBaseVol": 20000,
+      "riskIncrImr": 0.005,
+      "riskIncrMmr": 0.005,
+      "riskIncrVol": 20000,
+      "riskLevelLimit": 5,
+      "settleCoin": "ETH",
+      "state": 0,
+      "symbol": "ETH_USD",
+      "takerFeeRate": 0.0006,
+      "volScale": 0,
+      "volUnit": 1
+    }
+  }
+]
