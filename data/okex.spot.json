@@ -5085,6 +5085,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "IMX-USDT",
+    "base_id": "IMX",
+    "quote_id": "USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "INT-BTC",
     "base_id": "INT",
     "quote_id": "BTC",
@@ -5815,6 +5838,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
+    "symbol": "LEASH-USDT",
+    "base_id": "LEASH",
+    "quote_id": "USDT",
+    "base": "LEASH",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -8516,6 +8562,29 @@
     "base_id": "RVN",
     "quote_id": "USDT",
     "base": "RVN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
+    "symbol": "SAMO-USDT",
+    "base_id": "SAMO",
+    "quote_id": "USDT",
+    "base": "SAMO",
     "quote": "USDT",
     "active": true,
     "margin": true,

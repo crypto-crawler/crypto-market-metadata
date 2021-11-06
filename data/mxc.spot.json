@@ -8138,6 +8138,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "DTO_USDT",
+    "base_id": "DTO",
+    "quote_id": "USDT",
+    "base": "DTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "DVC_USDT",
     "base_id": "DVC",
     "quote_id": "USDT",
@@ -12376,6 +12400,30 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "IMX_USDT",
+    "base_id": "IMX",
+    "quote_id": "USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,

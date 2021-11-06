@@ -11588,6 +11588,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DXCT_ETH",
+    "base_id": "DXCT",
+    "quote_id": "ETH",
+    "base": "DXCT",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DXCT_USDT",
+    "base_id": "DXCT",
+    "quote_id": "USDT",
+    "base": "DXCT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DX_ETH",
     "base_id": "DX",
     "quote_id": "ETH",
@@ -17950,6 +17990,46 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IMX_ETH",
+    "base_id": "IMX",
+    "quote_id": "ETH",
+    "base": "IMX",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IMX_USDT",
+    "base_id": "IMX",
+    "quote_id": "USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -27786,6 +27866,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PIZA_USDT",
+    "base_id": "PIZA",
+    "quote_id": "USDT",
+    "base": "PIZA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PI_BTC",
     "base_id": "PI",
     "quote_id": "BTC",
@@ -29469,6 +29569,26 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "QUACK_USDT",
+    "base_id": "QUACK",
+    "quote_id": "USDT",
+    "base": "QUACK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
     },
     "info": {}
   },
