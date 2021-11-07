@@ -1497,6 +1497,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "rmsc_usdt",
+    "base_id": "rmsc",
+    "quote_id": "usdt",
+    "base": "RMSC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "sana_qc",
     "base_id": "sana",
     "quote_id": "qc",
