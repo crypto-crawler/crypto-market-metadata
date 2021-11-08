@@ -31855,6 +31855,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SAO_USDT",
+    "base_id": "SAO",
+    "quote_id": "USDT",
+    "base": "SAO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SASHIMI_ETH",
     "base_id": "SASHIMI",
     "quote_id": "ETH",
