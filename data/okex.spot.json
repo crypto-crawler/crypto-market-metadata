@@ -8029,6 +8029,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "POLYDOGE-USDT",
+    "base_id": "POLYDOGE",
+    "quote_id": "USDT",
+    "base": "POLYDOGE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "PPT-USDT",
     "base_id": "PPT",
     "quote_id": "USDT",

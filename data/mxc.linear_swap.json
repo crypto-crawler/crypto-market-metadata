@@ -3450,7 +3450,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 200000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -3480,6 +3480,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
+    "symbol": "UMA_USDT",
+    "base_id": "UMA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UMA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 300000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
