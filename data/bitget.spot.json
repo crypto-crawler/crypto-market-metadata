@@ -202,6 +202,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ATOM_USDT",
+    "base_id": "ATOM",
+    "quote_id": "USDT",
+    "base": "ATOM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "AXS_USDT",
     "base_id": "AXS",
     "quote_id": "USDT",
@@ -855,6 +875,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "DOT_USDT",
+    "base_id": "DOT",
+    "quote_id": "USDT",
+    "base": "DOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "info": {}

@@ -12368,6 +12368,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ENS_ETH",
+    "base_id": "ENS",
+    "quote_id": "ETH",
+    "base": "ENS",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ENS_USDT",
+    "base_id": "ENS",
+    "quote_id": "USDT",
+    "base": "ENS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ENV_USDT",
     "base_id": "ENV",
     "quote_id": "USDT",
@@ -37449,6 +37489,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "UFO_USDT",
+    "base_id": "UFO",
+    "quote_id": "USDT",
+    "base": "UFO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.1
     },
     "info": {}
   },

@@ -700,5 +700,31 @@
     },
     "contract_value": 1.0,
     "info": {}
+  },
+  {
+    "exchange": "dydx",
+    "market_type": "linear_swap",
+    "symbol": "ZRX-USD",
+    "base_id": "ZRX",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "ZRX",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
   }
 ]

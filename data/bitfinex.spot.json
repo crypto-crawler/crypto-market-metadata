@@ -1856,7 +1856,7 @@
     "base": "COMP",
     "quote": "USD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.002
@@ -1880,7 +1880,7 @@
     "base": "COMP",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.002
@@ -5144,7 +5144,7 @@
     "base": "MKR",
     "quote": "USD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.002
@@ -5155,7 +5155,31 @@
     },
     "quantity_limit": {
       "min": 0.0008,
-      "max": 250.0
+      "max": 2500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tMKRUST",
+    "base_id": "MKR",
+    "quote_id": "UST",
+    "base": "MKR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 2500.0
     },
     "info": {}
   },
@@ -6488,7 +6512,7 @@
     "base": "SHIB",
     "quote": "USD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.002
@@ -6512,7 +6536,7 @@
     "base": "SHIB",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.002

@@ -947,6 +947,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "CERE_USDT",
+    "base_id": "CERE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CERE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "CFX_USDT",
     "base_id": "CFX",
     "quote_id": "USDT",
@@ -1514,6 +1541,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ENS_USDT",
+    "base_id": "ENS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ENS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "EOS_USDT",
     "base_id": "EOS",
     "quote_id": "USDT",
@@ -1968,6 +2022,33 @@
       "max": 5000000.0
     },
     "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "IMX_USDT",
+    "base_id": "IMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

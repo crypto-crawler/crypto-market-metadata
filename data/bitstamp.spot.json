@@ -1882,6 +1882,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "sxpeur",
+    "base_id": "SXP",
+    "quote_id": "EUR",
+    "base": "SXP",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "sxpusd",
+    "base_id": "SXP",
+    "quote_id": "USD",
+    "base": "SXP",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "umabtc",
     "base_id": "UMA",
     "quote_id": "BTC",
