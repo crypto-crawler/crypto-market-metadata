@@ -2351,6 +2351,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "LPT_USDT",
+    "base_id": "LPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "LRC_USDT",
     "base_id": "LRC",
     "quote_id": "USDT",

@@ -1282,6 +1282,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "IMX_USDT",
+    "base_id": "IMX",
+    "quote_id": "USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "JST_USDT",
     "base_id": "JST",
     "quote_id": "USDT",
@@ -1675,6 +1695,26 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "MOVR_USDT",
+    "base_id": "MOVR",
+    "quote_id": "USDT",
+    "base": "MOVR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "info": {}

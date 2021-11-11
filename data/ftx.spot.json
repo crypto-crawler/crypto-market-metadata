@@ -135,7 +135,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 100000000.0
+      "lot_size": 10000000.0
     },
     "info": {}
   },
@@ -282,6 +282,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "ALEPH/USD",
+    "base_id": "ALEPH",
+    "quote_id": "USD",
+    "base": "ALEPH",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "ALGOBEAR/USD",
     "base_id": "ALGOBEAR",
     "quote_id": "USD",
@@ -415,7 +435,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 10000.0
+      "lot_size": 1000.0
     },
     "info": {}
   },
@@ -814,7 +834,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.000025,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "info": {}
@@ -1074,7 +1094,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00005,
+      "tick_size": 0.000025,
       "lot_size": 1.0
     },
     "info": {}
@@ -1094,7 +1114,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00005,
+      "tick_size": 0.000025,
       "lot_size": 1.0
     },
     "info": {}
@@ -2514,7 +2534,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.0005,
+      "tick_size": 0.00025,
       "lot_size": 0.1
     },
     "info": {}
@@ -2534,7 +2554,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.0005,
+      "tick_size": 0.00025,
       "lot_size": 0.1
     },
     "info": {}
@@ -3034,7 +3054,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.05,
+      "tick_size": 0.025,
       "lot_size": 0.001
     },
     "info": {}
@@ -3054,7 +3074,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.05,
+      "tick_size": 0.025,
       "lot_size": 0.001
     },
     "info": {}
@@ -3275,7 +3295,7 @@
     },
     "precision": {
       "tick_size": 0.001,
-      "lot_size": 0.1
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -3294,7 +3314,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.025,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "info": {}
@@ -3374,7 +3394,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.005,
       "lot_size": 0.01
     },
     "info": {}
@@ -3496,6 +3516,26 @@
     "precision": {
       "tick_size": 0.00005,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
+    "symbol": "ENS/USD",
+    "base_id": "ENS",
+    "quote_id": "USD",
+    "base": "ENS",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.005,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -4982,6 +5022,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "JET/USD",
+    "base_id": "JET",
+    "quote_id": "USD",
+    "base": "JET",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "JST/USD",
     "base_id": "JST",
     "quote_id": "USD",
@@ -5075,7 +5135,7 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 1000.0
+      "lot_size": 100.0
     },
     "info": {}
   },
@@ -5095,7 +5155,7 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 1000.0
+      "lot_size": 100.0
     },
     "info": {}
   },
@@ -5114,7 +5174,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00025,
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "info": {}
@@ -5134,7 +5194,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00025,
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "info": {}
@@ -5395,7 +5455,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 100000000.0
+      "lot_size": 10000000.0
     },
     "info": {}
   },
@@ -5415,7 +5475,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 100000000.0
+      "lot_size": 10000000.0
     },
     "info": {}
   },
@@ -5595,7 +5655,7 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 100.0
+      "lot_size": 1000.0
     },
     "info": {}
   },
@@ -5615,7 +5675,7 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 100.0
+      "lot_size": 1000.0
     },
     "info": {}
   },
@@ -5634,7 +5694,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00005,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "info": {}
@@ -5654,7 +5714,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00005,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "info": {}
@@ -5914,7 +5974,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00025,
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "info": {}
@@ -6034,7 +6094,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 5e-8,
       "lot_size": 1000.0
     },
     "info": {}
@@ -6054,7 +6114,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 0.05,
       "lot_size": 0.001
     },
     "info": {}
@@ -6174,7 +6234,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.05,
+      "tick_size": 0.025,
       "lot_size": 0.001
     },
     "info": {}
@@ -6494,7 +6554,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.025,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "info": {}
@@ -6815,6 +6875,26 @@
     },
     "precision": {
       "tick_size": 0.000025,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
+    "symbol": "PORT/USD",
+    "base_id": "PORT",
+    "quote_id": "USD",
+    "base": "PORT",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0005,
       "lot_size": 0.1
     },
     "info": {}
@@ -7242,6 +7322,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "SLND/USD",
+    "base_id": "SLND",
+    "quote_id": "USD",
+    "base": "SLND",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "SLP/USD",
     "base_id": "SLP",
     "quote_id": "USD",
@@ -7502,6 +7602,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "STARS/USD",
+    "base_id": "STARS",
+    "quote_id": "USD",
+    "base": "STARS",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "STEP/USD",
     "base_id": "STEP",
     "quote_id": "USD",
@@ -7714,7 +7834,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-8,
+      "tick_size": 1e-8,
       "lot_size": 1000.0
     },
     "info": {}
@@ -7795,7 +7915,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 10000000.0
+      "lot_size": 1000000.0
     },
     "info": {}
   },
@@ -7814,7 +7934,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 2.5e-6,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "info": {}
@@ -8074,7 +8194,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 2.5e-7,
+      "tick_size": 1e-7,
       "lot_size": 100.0
     },
     "info": {}
@@ -8654,7 +8774,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 2.5e-6,
+      "tick_size": 5e-6,
       "lot_size": 10.0
     },
     "info": {}
@@ -8854,7 +8974,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0005,
       "lot_size": 0.1
     },
     "info": {}
@@ -8874,7 +8994,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0005,
       "lot_size": 0.1
     },
     "info": {}
@@ -9154,7 +9274,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 5e-6,
       "lot_size": 10.0
     },
     "info": {}
@@ -9294,7 +9414,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-6,
+      "tick_size": 2.5e-6,
       "lot_size": 10.0
     },
     "info": {}
@@ -9314,7 +9434,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-6,
+      "tick_size": 2.5e-6,
       "lot_size": 10.0
     },
     "info": {}

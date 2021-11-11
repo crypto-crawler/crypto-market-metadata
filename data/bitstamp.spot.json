@@ -522,6 +522,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "celeur",
+    "base_id": "CEL",
+    "quote_id": "EUR",
+    "base": "CEL",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "celusd",
+    "base_id": "CEL",
+    "quote_id": "USD",
+    "base": "CEL",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "chzeur",
     "base_id": "CHZ",
     "quote_id": "EUR",
@@ -1655,6 +1695,46 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "rgteur",
+    "base_id": "RGT",
+    "quote_id": "EUR",
+    "base": "RGT",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "rgtusd",
+    "base_id": "RGT",
+    "quote_id": "USD",
+    "base": "RGT",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
       "lot_size": 0.00001
     },
     "info": {}
