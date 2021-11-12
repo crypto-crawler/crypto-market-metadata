@@ -7178,6 +7178,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "NFT-USDT",
+    "base_id": "NFT",
+    "quote_id": "USDT",
+    "base": "NFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "NMR-USDT",
     "base_id": "NMR",
     "quote_id": "USDT",

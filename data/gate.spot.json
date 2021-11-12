@@ -4502,6 +4502,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BETU_ETH",
+    "base_id": "BETU",
+    "quote_id": "ETH",
+    "base": "BETU",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BETU_USDT",
+    "base_id": "BETU",
+    "quote_id": "USDT",
+    "base": "BETU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BFC_ETH",
     "base_id": "BFC",
     "quote_id": "ETH",
@@ -10708,6 +10748,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DOE_USDT",
+    "base_id": "DOE",
+    "quote_id": "USDT",
+    "base": "DOE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DOGE3L_USDT",
     "base_id": "DOGE3L",
     "quote_id": "USDT",
@@ -10780,7 +10840,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "info": {}
@@ -15711,6 +15771,26 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GGG_USDT",
+    "base_id": "GGG",
+    "quote_id": "USDT",
+    "base": "GGG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -28500,6 +28580,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "POLYDOGE_USDT",
+    "base_id": "POLYDOGE",
+    "quote_id": "USDT",
+    "base": "POLYDOGE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
     },
     "info": {}
   },
