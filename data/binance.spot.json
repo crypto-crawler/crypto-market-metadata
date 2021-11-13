@@ -2066,6 +2066,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "ANKRBUSD",
+    "base_id": "ANKR",
+    "quote_id": "BUSD",
+    "base": "ANKR",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "ANKRPAX",
     "base_id": "ANKR",
     "quote_id": "PAX",
@@ -9007,7 +9031,7 @@
     "quote_id": "AUD",
     "base": "CAKE",
     "quote": "AUD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -13196,6 +13220,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 100000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "DOTETH",
+    "base_id": "DOT",
+    "quote_id": "ETH",
+    "base": "DOT",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -21362,6 +21410,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "KP3RUSDT",
+    "base_id": "KP3R",
+    "quote_id": "USDT",
+    "base": "KP3R",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92230.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "KSMAUD",
     "base_id": "KSM",
     "quote_id": "AUD",
@@ -23330,6 +23402,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "MANABRL",
+    "base_id": "MANA",
+    "quote_id": "BRL",
+    "base": "MANA",
+    "quote": "BRL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "MANABTC",
     "base_id": "MANA",
     "quote_id": "BTC",
@@ -23660,6 +23756,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 9000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "MATICETH",
+    "base_id": "MATIC",
+    "quote_id": "ETH",
+    "base": "MATIC",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -31039,7 +31159,7 @@
     "quote_id": "AUD",
     "base": "RUNE",
     "quote": "AUD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -31436,6 +31556,54 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 9000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SANDETH",
+    "base_id": "SAND",
+    "quote_id": "ETH",
+    "base": "SAND",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SANDTRY",
+    "base_id": "SAND",
+    "quote_id": "TRY",
+    "base": "SAND",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
     },
     "info": {}
   },
@@ -33127,7 +33295,7 @@
     "quote_id": "BUSD",
     "base": "STORJ",
     "quote": "BUSD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -33135,11 +33303,11 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01,
-      "max": 900000.0
+      "min": 1.0,
+      "max": 9222448.0
     },
     "info": {}
   },
@@ -36727,7 +36895,7 @@
     "quote_id": "AUD",
     "base": "UNI",
     "quote": "AUD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,

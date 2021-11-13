@@ -301,6 +301,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "btm_qc",
+    "base_id": "btm",
+    "quote_id": "qc",
+    "base": "BTM",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "btmc_zt",
     "base_id": "btmc",
     "quote_id": "zt",
@@ -1336,6 +1359,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "near_usdt",
+    "base_id": "near",
+    "quote_id": "usdt",
+    "base": "NEAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "neo_usdt",
     "base_id": "neo",
     "quote_id": "usdt",
@@ -1842,6 +1888,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "xlm_qc",
+    "base_id": "xlm",
+    "quote_id": "qc",
+    "base": "XLM",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "xlm_usdt",
     "base_id": "xlm",
     "quote_id": "usdt",
@@ -1957,11 +2026,11 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
-    "symbol": "xt_usdt",
-    "base_id": "xt",
-    "quote_id": "usdt",
-    "base": "XT",
-    "quote": "USDT",
+    "symbol": "xwc_qc",
+    "base_id": "xwc",
+    "quote_id": "qc",
+    "base": "XWC",
+    "quote": "QC",
     "active": true,
     "margin": false,
     "fees": {
@@ -1969,7 +2038,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
