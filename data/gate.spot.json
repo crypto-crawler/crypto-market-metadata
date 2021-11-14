@@ -28326,6 +28326,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PLACE_USDT",
+    "base_id": "PLACE",
+    "quote_id": "USDT",
+    "base": "PLACE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PLA_ETH",
     "base_id": "PLA",
     "quote_id": "ETH",
@@ -33049,6 +33069,26 @@
     "precision": {
       "tick_size": 1e-9,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SHILL_USDT",
+    "base_id": "SHILL",
+    "quote_id": "USDT",
+    "base": "SHILL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
     },
     "info": {}
   },

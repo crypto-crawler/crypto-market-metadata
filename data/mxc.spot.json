@@ -2378,30 +2378,6 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
-    "symbol": "BAGS_USDT",
-    "base_id": "BAGS",
-    "quote_id": "USDT",
-    "base": "BAGS",
-    "quote": "USDT",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.001
-    },
-    "quantity_limit": {
-      "min": 5.0,
-      "max": 5000000.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "mxc",
-    "market_type": "spot",
     "symbol": "BAKE3L_USDT",
     "base_id": "BAKE3L",
     "quote_id": "USDT",
@@ -3471,6 +3447,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "BLT_USDT",
+    "base_id": "BLT",
+    "quote_id": "USDT",
+    "base": "BLT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -6279,6 +6279,54 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "CRO3L_USDT",
+    "base_id": "CRO3L",
+    "quote_id": "USDT",
+    "base": "CRO3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "CRO3S_USDT",
+    "base_id": "CRO3S",
+    "quote_id": "USDT",
+    "base": "CRO3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -24279,6 +24327,54 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "TRADE_ETH",
+    "base_id": "TRADE",
+    "quote_id": "ETH",
+    "base": "TRADE",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "TRADE_USDT",
+    "base_id": "TRADE",
+    "quote_id": "USDT",
+    "base": "TRADE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
