@@ -462,29 +462,6 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
-    "symbol": "dash_qc",
-    "base_id": "dash",
-    "quote_id": "qc",
-    "base": "DASH",
-    "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.001
-    },
-    "quantity_limit": {
-      "min": 0.001
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
     "symbol": "dash_usdt",
     "base_id": "dash",
     "quote_id": "usdt",
@@ -646,6 +623,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "dot_usdt",
+    "base_id": "dot",
+    "quote_id": "usdt",
+    "base": "DOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "dydx_usdt",
     "base_id": "dydx",
     "quote_id": "usdt",
@@ -686,29 +686,6 @@
     },
     "quantity_limit": {
       "min": 0.01
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
-    "symbol": "ens_usdt",
-    "base_id": "ens",
-    "quote_id": "usdt",
-    "base": "ENS",
-    "quote": "USDT",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
-    },
-    "quantity_limit": {
-      "min": 0.001
     },
     "info": {}
   },
@@ -1846,6 +1823,29 @@
     "base_id": "xem",
     "quote_id": "qc",
     "base": "XEM",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
+    "symbol": "xlm_qc",
+    "base_id": "xlm",
+    "quote_id": "qc",
+    "base": "XLM",
     "quote": "QC",
     "active": true,
     "margin": false,
