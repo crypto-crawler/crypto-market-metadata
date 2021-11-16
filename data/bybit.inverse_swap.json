@@ -2,6 +2,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "BITUSD",
+    "base_id": "BIT",
+    "quote_id": "USD",
+    "settle_id": "BIT",
+    "base": "BIT",
+    "quote": "USD",
+    "settle": "BIT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "BTCUSD",
     "base_id": "BTC",
     "quote_id": "USD",

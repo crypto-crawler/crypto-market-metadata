@@ -462,6 +462,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "dash_qc",
+    "base_id": "dash",
+    "quote_id": "qc",
+    "base": "DASH",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "dash_usdt",
     "base_id": "dash",
     "quote_id": "usdt",
@@ -686,6 +709,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
+    "symbol": "ens_usdt",
+    "base_id": "ens",
+    "quote_id": "usdt",
+    "base": "ENS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -1152,29 +1198,6 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
-    "symbol": "ltc_qc",
-    "base_id": "ltc",
-    "quote_id": "qc",
-    "base": "LTC",
-    "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.001
-    },
-    "quantity_limit": {
-      "min": 0.001
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
     "symbol": "ltc_usdt",
     "base_id": "ltc",
     "quote_id": "usdt",
@@ -1468,6 +1491,29 @@
     },
     "quantity_limit": {
       "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
+    "symbol": "rmsc_usdt",
+    "base_id": "rmsc",
+    "quote_id": "usdt",
+    "base": "RMSC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1e-6
     },
     "info": {}
   },
@@ -1985,29 +2031,6 @@
     "quote_id": "qc",
     "base": "XWC",
     "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.01
-    },
-    "quantity_limit": {
-      "min": 0.01
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
-    "symbol": "xwc_usdt",
-    "base_id": "xwc",
-    "quote_id": "usdt",
-    "base": "XWC",
-    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {

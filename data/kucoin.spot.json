@@ -8714,6 +8714,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FLUX-BTC",
+    "base_id": "FLUX",
+    "quote_id": "BTC",
+    "base": "FLUX",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FLUX-USDT",
     "base_id": "FLUX",
     "quote_id": "USDT",
@@ -14336,7 +14360,7 @@
     "base": "NEAR",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -18416,7 +18440,7 @@
     "base": "SLP",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
