@@ -2,29 +2,6 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
-    "symbol": "520_qc",
-    "base_id": "520",
-    "quote_id": "qc",
-    "base": "520",
-    "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 0.1
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
     "symbol": "a5t_usdt",
     "base_id": "a5t",
     "quote_id": "usdt",
@@ -439,6 +416,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "cru_usdt",
+    "base_id": "cru",
+    "quote_id": "usdt",
+    "base": "CRU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "cspr_usdt",
     "base_id": "cspr",
     "quote_id": "usdt",
@@ -521,7 +521,7 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0001
@@ -1198,6 +1198,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "ltc_qc",
+    "base_id": "ltc",
+    "quote_id": "qc",
+    "base": "LTC",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "ltc_usdt",
     "base_id": "ltc",
     "quote_id": "usdt",
@@ -1428,29 +1451,6 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
-    "symbol": "qtum_qc",
-    "base_id": "qtum",
-    "quote_id": "qc",
-    "base": "QTUM",
-    "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 0.01
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
     "symbol": "qtum_usdt",
     "base_id": "qtum",
     "quote_id": "usdt",
@@ -1514,6 +1514,29 @@
     },
     "quantity_limit": {
       "min": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
+    "symbol": "safemoon_usdt",
+    "base_id": "safemoon",
+    "quote_id": "usdt",
+    "base": "SAFEMOON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -1698,29 +1721,6 @@
     },
     "quantity_limit": {
       "min": 0.1
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
-    "symbol": "uni_usdt",
-    "base_id": "uni",
-    "quote_id": "usdt",
-    "base": "UNI",
-    "quote": "USDT",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 0.0001
     },
     "info": {}
   },
@@ -2020,29 +2020,6 @@
     },
     "quantity_limit": {
       "min": 0.001
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
-    "symbol": "xwc_qc",
-    "base_id": "xwc",
-    "quote_id": "qc",
-    "base": "XWC",
-    "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.01
-    },
-    "quantity_limit": {
-      "min": 0.01
     },
     "info": {}
   },

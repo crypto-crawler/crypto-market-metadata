@@ -893,6 +893,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "KEEPUSDT",
+    "base_id": "KEEP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KEEP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 75000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "KSMUSDT",
     "base_id": "KSM",
     "quote_id": "USDT",

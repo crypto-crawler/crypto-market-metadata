@@ -1122,6 +1122,26 @@
   {
     "exchange": "bithumb",
     "market_type": "spot",
+    "symbol": "BUX-USDT",
+    "base_id": "BUX",
+    "quote_id": "USDT",
+    "base": "BUX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
     "symbol": "BXA-USDT",
     "base_id": "BXA",
     "quote_id": "USDT",
@@ -2876,6 +2896,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "GHC-USDT",
+    "base_id": "GHC",
+    "quote_id": "USDT",
+    "base": "GHC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "info": {}
   },
