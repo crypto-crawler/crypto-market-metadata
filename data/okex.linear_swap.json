@@ -1221,6 +1221,29 @@
   {
     "exchange": "okex",
     "market_type": "linear_swap",
+    "symbol": "IMX-USDT-SWAP",
+    "base_id": "IMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "linear_swap",
     "symbol": "IOST-USDT-SWAP",
     "base_id": "IOST",
     "quote_id": "USDT",

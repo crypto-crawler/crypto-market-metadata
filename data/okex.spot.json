@@ -9616,6 +9616,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "TOWN-USDT",
+    "base_id": "TOWN",
+    "quote_id": "USDT",
+    "base": "TOWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "TRA-USDT",
     "base_id": "TRA",
     "quote_id": "USDT",

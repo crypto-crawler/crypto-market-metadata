@@ -1566,6 +1566,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "GALA-PERP",
+    "base_id": "GALA",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "GALA",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.000025,
+      "lot_size": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "GRT-PERP",
     "base_id": "GRT",
     "quote_id": "USD",

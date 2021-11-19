@@ -353,6 +353,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "CHRUSDT",
+    "base_id": "CHR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CHR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 36000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "CHZUSDT",
     "base_id": "CHZ",
     "quote_id": "USDT",
@@ -1237,6 +1264,33 @@
     "quantity_limit": {
       "min": 10.0,
       "max": 3000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "SLPUSDT",
+    "base_id": "SLP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SLP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 400000.0
     },
     "contract_value": 1.0,
     "info": {}
