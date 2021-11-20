@@ -7148,6 +7148,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CATGIRL_USDT",
+    "base_id": "CATGIRL",
+    "quote_id": "USDT",
+    "base": "CATGIRL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CBK_BTC",
     "base_id": "CBK",
     "quote_id": "BTC",
@@ -10320,7 +10340,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -18710,6 +18730,46 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IONX_ETH",
+    "base_id": "IONX",
+    "quote_id": "ETH",
+    "base": "IONX",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IONX_USDT",
+    "base_id": "IONX",
+    "quote_id": "USDT",
+    "base": "IONX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -36795,46 +36855,6 @@
   {
     "exchange": "gate",
     "market_type": "spot",
-    "symbol": "SYN_ETH",
-    "base_id": "SYN",
-    "quote_id": "ETH",
-    "base": "SYN",
-    "quote": "ETH",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.001
-    },
-    "info": {}
-  },
-  {
-    "exchange": "gate",
-    "market_type": "spot",
-    "symbol": "SYN_USDT",
-    "base_id": "SYN",
-    "quote_id": "USDT",
-    "base": "SYN",
-    "quote": "USDT",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
-    },
-    "info": {}
-  },
-  {
-    "exchange": "gate",
-    "market_type": "spot",
     "symbol": "SYS_ETH",
     "base_id": "SYS",
     "quote_id": "ETH",
@@ -41114,6 +41134,46 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XCV_ETH",
+    "base_id": "XCV",
+    "quote_id": "ETH",
+    "base": "XCV",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XCV_USDT",
+    "base_id": "XCV",
+    "quote_id": "USDT",
+    "base": "XCV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}

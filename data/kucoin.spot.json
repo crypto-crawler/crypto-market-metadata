@@ -11000,7 +11000,7 @@
     "base": "IOTX",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -14118,6 +14118,30 @@
     "base_id": "MODEFI",
     "quote_id": "USDT",
     "base": "MODEFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MONI-USDT",
+    "base_id": "MONI",
+    "quote_id": "USDT",
+    "base": "MONI",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -17384,7 +17408,7 @@
     "base": "QNT",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -19808,7 +19832,7 @@
     "base": "SUPER",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -20971,6 +20995,54 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "TRADE-BTC",
+    "base_id": "TRADE",
+    "quote_id": "BTC",
+    "base": "TRADE",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "TRADE-USDT",
+    "base_id": "TRADE",
+    "quote_id": "USDT",
+    "base": "TRADE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -22483,6 +22555,54 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "VLX-BTC",
+    "base_id": "VLX",
+    "quote_id": "BTC",
+    "base": "VLX",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "VLX-USDT",
+    "base_id": "VLX",
+    "quote_id": "USDT",
+    "base": "VLX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

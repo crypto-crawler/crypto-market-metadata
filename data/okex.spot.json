@@ -1428,6 +1428,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "BLOK-USDT",
+    "base_id": "BLOK",
+    "quote_id": "USDT",
+    "base": "BLOK",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "BNT-BTC",
     "base_id": "BNT",
     "quote_id": "BTC",

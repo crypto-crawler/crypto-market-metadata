@@ -758,6 +758,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "BOBA_USDT",
+    "base_id": "BOBA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BOBA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "BP_USDT",
     "base_id": "BP",
     "quote_id": "USDT",
@@ -2643,6 +2670,60 @@
       "max": 200000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
+    "symbol": "MBOX_USDT",
+    "base_id": "MBOX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MBOX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
+    "symbol": "MELI_USDT",
+    "base_id": "MELI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MELI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
