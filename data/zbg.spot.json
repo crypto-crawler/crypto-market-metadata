@@ -646,6 +646,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "dot_qc",
+    "base_id": "dot",
+    "quote_id": "qc",
+    "base": "DOT",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "dot_usdt",
     "base_id": "dot",
     "quote_id": "usdt",
@@ -1451,29 +1474,6 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
-    "symbol": "qtum_qc",
-    "base_id": "qtum",
-    "quote_id": "qc",
-    "base": "QTUM",
-    "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 0.01
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
     "symbol": "qtum_usdt",
     "base_id": "qtum",
     "quote_id": "usdt",
@@ -1974,29 +1974,6 @@
     },
     "quantity_limit": {
       "min": 0.01
-    },
-    "info": {}
-  },
-  {
-    "exchange": "zbg",
-    "market_type": "spot",
-    "symbol": "xrp_qc",
-    "base_id": "xrp",
-    "quote_id": "qc",
-    "base": "XRP",
-    "quote": "QC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.002,
-      "taker": 0.002
-    },
-    "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 1.0
-    },
-    "quantity_limit": {
-      "min": 1.0
     },
     "info": {}
   },
