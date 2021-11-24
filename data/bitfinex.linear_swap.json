@@ -245,6 +245,33 @@
   {
     "exchange": "bitfinex",
     "market_type": "linear_swap",
+    "symbol": "tBTCF0:EUTF0",
+    "base_id": "BTCF0",
+    "quote_id": "EUTF0",
+    "settle_id": "EUTF0",
+    "base": "BTC",
+    "quote": "EURT",
+    "settle": "EURT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 2000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
     "symbol": "tBTCF0:USTF0",
     "base_id": "BTCF0",
     "quote_id": "USTF0",
@@ -454,6 +481,33 @@
     "quantity_limit": {
       "min": 0.0008,
       "max": 100.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
+    "symbol": "tETHF0:EUTF0",
+    "base_id": "ETHF0",
+    "quote_id": "EUTF0",
+    "settle_id": "EUTF0",
+    "base": "ETH",
+    "quote": "EURT",
+    "settle": "EURT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 5000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -886,6 +940,60 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
+    "symbol": "tOMGF0:USTF0",
+    "base_id": "OMGF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "OMG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
+    "symbol": "tSHIBF0:USTF0",
+    "base_id": "SHIBF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "SHIB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 5000000000.0
     },
     "contract_value": 1.0,
     "info": {}

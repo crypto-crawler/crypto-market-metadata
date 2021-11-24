@@ -2,6 +2,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "1EARTH-USDT",
+    "base_id": "1EARTH",
+    "quote_id": "USDT",
+    "base": "1EARTH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "1INCH-USDT",
     "base_id": "1INCH",
     "quote_id": "USDT",
@@ -416,7 +440,7 @@
     "base": "ADA",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -3584,7 +3608,7 @@
     "base": "BTC",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -7760,7 +7784,7 @@
     "base": "EOS",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -8312,7 +8336,7 @@
     "base": "ETH",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -11978,6 +12002,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "LIKE-USDT",
+    "base_id": "LIKE",
+    "quote_id": "USDT",
+    "base": "LIKE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "LINK-BTC",
     "base_id": "LINK",
     "quote_id": "BTC",
@@ -12116,6 +12164,54 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 9999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "LIT-BTC",
+    "base_id": "LIT",
+    "quote_id": "BTC",
+    "base": "LIT",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "LIT-USDT",
+    "base_id": "LIT",
+    "quote_id": "USDT",
+    "base": "LIT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -13651,6 +13747,54 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MFT-BTC",
+    "base_id": "MFT",
+    "quote_id": "BTC",
+    "base": "MFT",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MFT-USDT",
+    "base_id": "MFT",
+    "quote_id": "USDT",
+    "base": "MFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -24152,7 +24296,7 @@
     "base": "XRP",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

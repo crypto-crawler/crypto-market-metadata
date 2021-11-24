@@ -416,6 +416,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "comc_qc",
+    "base_id": "comc",
+    "quote_id": "qc",
+    "base": "COMC",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "comp_usdt",
     "base_id": "comp",
     "quote_id": "usdt",
@@ -544,6 +567,29 @@
     },
     "precision": {
       "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
+    "symbol": "doge_qc",
+    "base_id": "doge",
+    "quote_id": "qc",
+    "base": "DOGE",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -1997,6 +2043,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
+    "symbol": "xt_usdt",
+    "base_id": "xt",
+    "quote_id": "usdt",
+    "base": "XT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
