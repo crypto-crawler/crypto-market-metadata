@@ -62,6 +62,66 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "adabtc",
+    "base_id": "ADA",
+    "quote_id": "BTC",
+    "base": "ADA",
+    "quote": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "adaeur",
+    "base_id": "ADA",
+    "quote_id": "EUR",
+    "base": "ADA",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "adausd",
+    "base_id": "ADA",
+    "quote_id": "USD",
+    "base": "ADA",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "algobtc",
     "base_id": "ALGO",
     "quote_id": "BTC",
