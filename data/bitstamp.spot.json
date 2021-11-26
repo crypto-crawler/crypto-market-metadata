@@ -1882,6 +1882,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "slpeur",
+    "base_id": "SLP",
+    "quote_id": "EUR",
+    "base": "SLP",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "slpusd",
+    "base_id": "SLP",
+    "quote_id": "USD",
+    "base": "SLP",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "snxbtc",
     "base_id": "SNX",
     "quote_id": "BTC",

@@ -18457,6 +18457,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ICONS_ETH",
+    "base_id": "ICONS",
+    "quote_id": "ETH",
+    "base": "ICONS",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ICONS_USDT",
+    "base_id": "ICONS",
+    "quote_id": "USDT",
+    "base": "ICONS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ICP3L_USDT",
     "base_id": "ICP3L",
     "quote_id": "USDT",
@@ -43865,6 +43905,46 @@
     "base_id": "ZKS",
     "quote_id": "USDT",
     "base": "ZKS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZLK_ETH",
+    "base_id": "ZLK",
+    "quote_id": "ETH",
+    "base": "ZLK",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZLK_USDT",
+    "base_id": "ZLK",
+    "quote_id": "USDT",
+    "base": "ZLK",
     "quote": "USDT",
     "active": true,
     "margin": false,

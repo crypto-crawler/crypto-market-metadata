@@ -94,6 +94,29 @@
   {
     "exchange": "okex",
     "market_type": "inverse_swap",
+    "symbol": "AVAX-USD-SWAP",
+    "base_id": "AVAX",
+    "quote_id": "USD",
+    "settle_id": "AVAX",
+    "base": "AVAX",
+    "quote": "USD",
+    "settle": "AVAX",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "inverse_swap",
     "symbol": "BCH-USD-SWAP",
     "base_id": "BCH",
     "quote_id": "USD",
@@ -531,6 +554,29 @@
   {
     "exchange": "okex",
     "market_type": "inverse_swap",
+    "symbol": "MANA-USD-SWAP",
+    "base_id": "MANA",
+    "quote_id": "USD",
+    "settle_id": "MANA",
+    "base": "MANA",
+    "quote": "USD",
+    "settle": "MANA",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "inverse_swap",
     "symbol": "NEO-USD-SWAP",
     "base_id": "NEO",
     "quote_id": "USD",
@@ -592,6 +638,52 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "inverse_swap",
+    "symbol": "SAND-USD-SWAP",
+    "base_id": "SAND",
+    "quote_id": "USD",
+    "settle_id": "SAND",
+    "base": "SAND",
+    "quote": "USD",
+    "settle": "SAND",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "inverse_swap",
+    "symbol": "SOL-USD-SWAP",
+    "base_id": "SOL",
+    "quote_id": "USD",
+    "settle_id": "SOL",
+    "base": "SOL",
+    "quote": "USD",
+    "settle": "SOL",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
