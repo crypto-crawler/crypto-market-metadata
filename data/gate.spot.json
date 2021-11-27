@@ -7708,6 +7708,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CHEQ_USDT",
+    "base_id": "CHEQ",
+    "quote_id": "USDT",
+    "base": "CHEQ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CHESS_ETH",
     "base_id": "CHESS",
     "quote_id": "ETH",
@@ -38775,6 +38795,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TRVL_USDT",
+    "base_id": "TRVL",
+    "quote_id": "USDT",
+    "base": "TRVL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TRX3L_USDT",
     "base_id": "TRX3L",
     "quote_id": "USDT",
@@ -41854,6 +41894,46 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XDC_ETH",
+    "base_id": "XDC",
+    "quote_id": "ETH",
+    "base": "XDC",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XDC_USDT",
+    "base_id": "XDC",
+    "quote_id": "USDT",
+    "base": "XDC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}

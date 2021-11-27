@@ -393,6 +393,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "ALCX-USDT",
+    "base_id": "ALCX",
+    "quote_id": "USDT",
+    "base": "ALCX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "ALGO-BTC",
     "base_id": "ALGO",
     "quote_id": "BTC",
@@ -2808,6 +2831,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "CVX-USDT",
+    "base_id": "CVX",
+    "quote_id": "USDT",
+    "base": "CVX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "DAI-USDT",
     "base_id": "DAI",
     "quote_id": "USDT",
@@ -3744,7 +3790,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -6879,52 +6925,6 @@
   {
     "exchange": "okex",
     "market_type": "spot",
-    "symbol": "MOF-BTC",
-    "base_id": "MOF",
-    "quote_id": "BTC",
-    "base": "MOF",
-    "quote": "BTC",
-    "active": true,
-    "margin": true,
-    "fees": {
-      "maker": 0.0008,
-      "taker": 0.001
-    },
-    "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 0.001
-    },
-    "quantity_limit": {
-      "min": 10.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "okex",
-    "market_type": "spot",
-    "symbol": "MOF-USDT",
-    "base_id": "MOF",
-    "quote_id": "USDT",
-    "base": "MOF",
-    "quote": "USDT",
-    "active": true,
-    "margin": true,
-    "fees": {
-      "maker": 0.0008,
-      "taker": 0.001
-    },
-    "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 1e-6
-    },
-    "quantity_limit": {
-      "min": 10.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "okex",
-    "market_type": "spot",
     "symbol": "MON-USDT",
     "base_id": "MON",
     "quote_id": "USDT",
@@ -7931,6 +7931,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
+    "symbol": "PEOPLE-USDT",
+    "base_id": "PEOPLE",
+    "quote_id": "USDT",
+    "base": "PEOPLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
