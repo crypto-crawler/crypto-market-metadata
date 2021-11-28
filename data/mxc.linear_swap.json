@@ -1514,6 +1514,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "DORA_USDT",
+    "base_id": "DORA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DORA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 150000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "DOT_USDT",
     "base_id": "DOT",
     "quote_id": "USDT",
@@ -3242,6 +3269,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "PEOPLE_USDT",
+    "base_id": "PEOPLE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PEOPLE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "PIT_USDT",
     "base_id": "PIT",
     "quote_id": "USDT",
@@ -3424,6 +3478,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 15000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
+    "symbol": "RNDR_USDT",
+    "base_id": "RNDR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RNDR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000.0
     },
     "contract_value": 1.0,
     "info": {}

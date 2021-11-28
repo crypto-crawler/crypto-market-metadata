@@ -24686,6 +24686,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MNY_USDT",
+    "base_id": "MNY",
+    "quote_id": "USDT",
+    "base": "MNY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MOBI_BTC",
     "base_id": "MOBI",
     "quote_id": "BTC",
@@ -28759,6 +28779,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PEOPLE_USDT",
+    "base_id": "PEOPLE",
+    "quote_id": "USDT",
+    "base": "PEOPLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
