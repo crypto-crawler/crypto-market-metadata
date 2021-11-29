@@ -13568,6 +13568,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ETERNAL_USDT",
+    "base_id": "ETERNAL",
+    "quote_id": "USDT",
+    "base": "ETERNAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ETH2_ETH",
     "base_id": "ETH2",
     "quote_id": "ETH",
@@ -30500,6 +30520,26 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "QANX_USDT",
+    "base_id": "QANX",
+    "quote_id": "USDT",
+    "base": "QANX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
     },
     "info": {}
   },
