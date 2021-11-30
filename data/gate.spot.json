@@ -20417,6 +20417,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "KMA_ETH",
+    "base_id": "KMA",
+    "quote_id": "ETH",
+    "base": "KMA",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KMA_USDT",
+    "base_id": "KMA",
+    "quote_id": "USDT",
+    "base": "KMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "KMON_USDT",
     "base_id": "KMON",
     "quote_id": "USDT",
