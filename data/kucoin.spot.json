@@ -9080,7 +9080,7 @@
     "base": "FLOW",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -11336,7 +11336,7 @@
     "base": "JASMY",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -11803,6 +11803,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "KIN-USDT",
+    "base_id": "KIN",
+    "quote_id": "USDT",
+    "base": "KIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -14834,54 +14858,6 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
-    "symbol": "MWAT-BTC",
-    "base_id": "MWAT",
-    "quote_id": "BTC",
-    "base": "MWAT",
-    "quote": "BTC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.005,
-      "taker": 0.005
-    },
-    "precision": {
-      "tick_size": 1e-9,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 1.0,
-      "max": 10000000000.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "kucoin",
-    "market_type": "spot",
-    "symbol": "MWAT-ETH",
-    "base_id": "MWAT",
-    "quote_id": "ETH",
-    "base": "MWAT",
-    "quote": "ETH",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.005,
-      "taker": 0.005
-    },
-    "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 1.0,
-      "max": 10000000000.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "kucoin",
-    "market_type": "spot",
     "symbol": "MXC-USDT",
     "base_id": "MXC",
     "quote_id": "USDT",
@@ -15164,30 +15140,6 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 99999999999999.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "kucoin",
-    "market_type": "spot",
-    "symbol": "NEBL-BTC",
-    "base_id": "NEBL",
-    "quote_id": "BTC",
-    "base": "NEBL",
-    "quote": "BTC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.005,
-      "taker": 0.005
-    },
-    "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-6
-    },
-    "quantity_limit": {
-      "min": 0.01,
-      "max": 10000000000.0
     },
     "info": {}
   },
@@ -17203,6 +17155,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "POLC-USDT",
+    "base_id": "POLC",
+    "quote_id": "USDT",
+    "base": "POLC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -19898,6 +19874,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "SRM-BTC",
+    "base_id": "SRM",
+    "quote_id": "BTC",
+    "base": "SRM",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SRM-USDT",
+    "base_id": "SRM",
+    "quote_id": "USDT",
+    "base": "SRM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "STC-BTC",
     "base_id": "STC",
     "quote_id": "BTC",
@@ -20192,7 +20216,7 @@
     "base": "STX",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -21643,54 +21667,6 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000000000.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "kucoin",
-    "market_type": "spot",
-    "symbol": "TRTL-BTC",
-    "base_id": "TRTL",
-    "quote_id": "BTC",
-    "base": "TRTL",
-    "quote": "BTC",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.005,
-      "taker": 0.005
-    },
-    "precision": {
-      "tick_size": 1e-10,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 100.0,
-      "max": 10000000000.0
-    },
-    "info": {}
-  },
-  {
-    "exchange": "kucoin",
-    "market_type": "spot",
-    "symbol": "TRTL-ETH",
-    "base_id": "TRTL",
-    "quote_id": "ETH",
-    "base": "TRTL",
-    "quote": "ETH",
-    "active": true,
-    "margin": false,
-    "fees": {
-      "maker": 0.005,
-      "taker": 0.005
-    },
-    "precision": {
-      "tick_size": 1e-10,
-      "lot_size": 0.0001
-    },
-    "quantity_limit": {
-      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -24735,6 +24711,30 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XTAG-USDT",
+    "base_id": "XTAG",
+    "quote_id": "USDT",
+    "base": "XTAG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {

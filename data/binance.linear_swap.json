@@ -1487,6 +1487,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "ENSUSDT",
+    "base_id": "ENS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ENS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "EOSUSDT",
     "base_id": "EOS",
     "quote_id": "USDT",

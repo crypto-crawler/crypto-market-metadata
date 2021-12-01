@@ -1442,6 +1442,78 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "ALCXBTC",
+    "base_id": "ALCX",
+    "quote_id": "BTC",
+    "base": "ALCX",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ALCXBUSD",
+    "base_id": "ALCX",
+    "quote_id": "BUSD",
+    "base": "ALCX",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 92233.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ALCXUSDT",
+    "base_id": "ALCX",
+    "quote_id": "USDT",
+    "base": "ALCX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 92233.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "ALGOBIDR",
     "base_id": "ALGO",
     "quote_id": "BIDR",
@@ -2168,7 +2240,7 @@
     "base": "ANKR",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -7651,7 +7723,7 @@
     },
     "quantity_limit": {
       "min": 0.00001,
-      "max": 921.0
+      "max": 305.0
     },
     "info": {}
   },
@@ -14288,7 +14360,7 @@
     "base": "ENJ",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -15859,7 +15931,7 @@
     },
     "quantity_limit": {
       "min": 0.0001,
-      "max": 92232.0
+      "max": 23055.0
     },
     "info": {}
   },
@@ -34352,7 +34424,7 @@
     "base": "STPT",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001

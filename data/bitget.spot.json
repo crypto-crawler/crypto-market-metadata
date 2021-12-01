@@ -442,6 +442,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BIOT_USDT",
+    "base_id": "BIOT",
+    "quote_id": "USDT",
+    "base": "BIOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BNB_USDT",
     "base_id": "BNB",
     "quote_id": "USDT",
