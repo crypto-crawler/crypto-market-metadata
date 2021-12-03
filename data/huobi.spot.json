@@ -16826,6 +16826,54 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "sofibtc",
+    "base_id": "sofi",
+    "quote_id": "btc",
+    "base": "SOFI",
+    "quote": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 373538.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "sofiusdt",
+    "base_id": "sofi",
+    "quote_id": "usdt",
+    "base": "SOFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 373538.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "solbtc",
     "base_id": "sol",
     "quote_id": "btc",

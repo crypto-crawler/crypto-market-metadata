@@ -3802,6 +3802,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BATH_ETH",
+    "base_id": "BATH",
+    "quote_id": "ETH",
+    "base": "BATH",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BATH_USDT",
+    "base_id": "BATH",
+    "quote_id": "USDT",
+    "base": "BATH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BAT_BTC",
     "base_id": "BAT",
     "quote_id": "BTC",
@@ -24546,6 +24586,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MINT_USDT",
+    "base_id": "MINT",
+    "quote_id": "USDT",
+    "base": "MINT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MIR_ETH",
     "base_id": "MIR",
     "quote_id": "ETH",
@@ -25760,6 +25820,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MYRA_USDT",
+    "base_id": "MYRA",
+    "quote_id": "USDT",
+    "base": "MYRA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -43815,6 +43895,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "YCT_USDT",
+    "base_id": "YCT",
+    "quote_id": "USDT",
+    "base": "YCT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
     },
     "info": {}
   },

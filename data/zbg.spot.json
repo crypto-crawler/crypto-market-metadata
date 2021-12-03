@@ -301,6 +301,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "btm_qc",
+    "base_id": "btm",
+    "quote_id": "qc",
+    "base": "BTM",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "btmc_zt",
     "base_id": "btmc",
     "quote_id": "zt",
@@ -1652,6 +1675,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
+    "symbol": "uni_usdt",
+    "base_id": "uni",
+    "quote_id": "usdt",
+    "base": "UNI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },

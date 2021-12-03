@@ -202,6 +202,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ATOM_ETH",
+    "base_id": "ATOM",
+    "quote_id": "ETH",
+    "base": "ATOM",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ATOM_USDT",
     "base_id": "ATOM",
     "quote_id": "USDT",
@@ -2795,6 +2815,26 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "XRP_ETH",
+    "base_id": "XRP",
+    "quote_id": "ETH",
+    "base": "XRP",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
