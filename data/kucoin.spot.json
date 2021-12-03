@@ -17474,6 +17474,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "POND-BTC",
+    "base_id": "POND",
+    "quote_id": "BTC",
+    "base": "POND",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "POND-USDT",
+    "base_id": "POND",
+    "quote_id": "USDT",
+    "base": "POND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "POWR-BTC",
     "base_id": "POWR",
     "quote_id": "BTC",
@@ -18752,7 +18800,7 @@
     "base": "RSR",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -22394,6 +22442,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "UNIC-USDT",
+    "base_id": "UNIC",
+    "quote_id": "USDT",
+    "base": "UNIC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "UNO-BTC",
     "base_id": "UNO",
     "quote_id": "BTC",
@@ -23234,6 +23306,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "VR-USDT",
+    "base_id": "VR",
+    "quote_id": "USDT",
+    "base": "VR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "VRA-BTC",
     "base_id": "VRA",
     "quote_id": "BTC",
@@ -23840,7 +23936,7 @@
     "base": "WOO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -24608,7 +24704,7 @@
     "base": "XPR",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

@@ -3053,6 +3053,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "NFT_USDT",
+    "base_id": "NFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 1000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "NKN_USDT",
     "base_id": "NKN",
     "quote_id": "USDT",
@@ -3642,6 +3669,33 @@
       "max": 50000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
+    "symbol": "SFP_USDT",
+    "base_id": "SFP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SFP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 200000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

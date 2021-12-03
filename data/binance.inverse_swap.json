@@ -353,6 +353,33 @@
   {
     "exchange": "binance",
     "market_type": "inverse_swap",
+    "symbol": "GALAUSD_PERP",
+    "base_id": "GALA",
+    "quote_id": "USD",
+    "settle_id": "GALA",
+    "base": "GALA",
+    "quote": "USD",
+    "settle": "GALA",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
     "symbol": "LINKUSD_PERP",
     "base_id": "LINK",
     "quote_id": "USD",
