@@ -1,3 +1,3 @@
 # crypto-markets-data
 
-Crawl trading markets from crypto exchanges everyday
+Scrape cryptocurrency markets metadata from exchanges everyday.
