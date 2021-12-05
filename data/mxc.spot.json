@@ -12674,6 +12674,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "GF_USDT",
+    "base_id": "GF",
+    "quote_id": "USDT",
+    "base": "GF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "GHC_USDT",
     "base_id": "GHC",
     "quote_id": "USDT",

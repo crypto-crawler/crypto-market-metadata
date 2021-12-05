@@ -21297,6 +21297,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LAND_USDT",
+    "base_id": "LAND",
+    "quote_id": "USDT",
+    "base": "LAND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LARIX_ETH",
     "base_id": "LARIX",
     "quote_id": "ETH",
@@ -28859,6 +28879,26 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ORO_USDT",
+    "base_id": "ORO",
+    "quote_id": "USDT",
+    "base": "ORO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
