@@ -39715,6 +39715,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TT_ETH",
+    "base_id": "TT",
+    "quote_id": "ETH",
+    "base": "TT",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TT_USDT",
+    "base_id": "TT",
+    "quote_id": "USDT",
+    "base": "TT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TULIP_ETH",
     "base_id": "TULIP",
     "quote_id": "ETH",

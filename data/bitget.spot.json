@@ -202,6 +202,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ATOM_BTC",
+    "base_id": "ATOM",
+    "quote_id": "BTC",
+    "base": "ATOM",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ATOM_ETH",
     "base_id": "ATOM",
     "quote_id": "ETH",
@@ -546,6 +566,26 @@
     "base_id": "BOTTO",
     "quote_id": "USDT",
     "base": "BOTTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "BPRIVA_USDT",
+    "base_id": "BPRIVA",
+    "quote_id": "USDT",
+    "base": "BPRIVA",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -1506,6 +1546,26 @@
     "base_id": "IMX",
     "quote_id": "USDT",
     "base": "IMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "JASMY_USDT",
+    "base_id": "JASMY",
+    "quote_id": "USDT",
+    "base": "JASMY",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -2655,7 +2715,7 @@
     },
     "precision": {
       "tick_size": 1e-10,
-      "lot_size": 0.0001
+      "lot_size": 0.01
     },
     "info": {}
   },

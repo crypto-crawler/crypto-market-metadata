@@ -2,6 +2,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "1INCHUSDT",
+    "base_id": "1INCH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1INCH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "AAVEUSDT",
     "base_id": "AAVE",
     "quote_id": "USDT",
@@ -1082,6 +1109,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "GRTUSDT",
+    "base_id": "GRT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GRT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 60000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "GTCUSDT",
     "base_id": "GTC",
     "quote_id": "USDT",
@@ -1615,6 +1669,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 400000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "REQUSDT",
+    "base_id": "REQ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "REQ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
     },
     "contract_value": 1.0,
     "info": {}
