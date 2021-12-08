@@ -494,7 +494,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -4634,6 +4634,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CIRUS-ETH",
+    "base_id": "CIRUS",
+    "quote_id": "ETH",
+    "base": "CIRUS",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CIRUS-USDT",
     "base_id": "CIRUS",
     "quote_id": "USDT",
@@ -7958,7 +7982,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -11864,7 +11888,7 @@
     "base": "KEEP",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -13502,7 +13526,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -14025,6 +14049,30 @@
     "quote": "USDT",
     "active": true,
     "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MATIC-UST",
+    "base_id": "MATIC",
+    "quote_id": "UST",
+    "base": "MATIC",
+    "quote": "UST",
+    "active": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -17042,6 +17090,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PEL-USDT",
+    "base_id": "PEL",
+    "quote_id": "USDT",
+    "base": "PEL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "PERP-BTC",
     "base_id": "PERP",
     "quote_id": "BTC",
@@ -19898,6 +19970,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "SOL-UST",
+    "base_id": "SOL",
+    "quote_id": "UST",
+    "base": "SOL",
+    "quote": "UST",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "SOL3L-USDT",
     "base_id": "SOL3L",
     "quote_id": "USDT",
@@ -20216,7 +20312,7 @@
     "base": "SRM",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -23222,7 +23318,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {

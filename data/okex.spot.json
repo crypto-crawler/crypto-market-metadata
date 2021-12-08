@@ -8420,6 +8420,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "RACA-USDT",
+    "base_id": "RACA",
+    "quote_id": "USDT",
+    "base": "RACA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "REN-BTC",
     "base_id": "REN",
     "quote_id": "BTC",

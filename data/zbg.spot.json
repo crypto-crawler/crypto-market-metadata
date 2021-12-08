@@ -255,6 +255,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "btc3l_usdt",
+    "base_id": "btc3l",
+    "quote_id": "usdt",
+    "base": "BTC3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "btc_qc",
     "base_id": "btc",
     "quote_id": "qc",

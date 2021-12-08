@@ -13008,6 +13008,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "EMPIRE_ETH",
+    "base_id": "EMPIRE",
+    "quote_id": "ETH",
+    "base": "EMPIRE",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "EMPIRE_USDT",
+    "base_id": "EMPIRE",
+    "quote_id": "USDT",
+    "base": "EMPIRE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ENJ3L_USDT",
     "base_id": "ENJ3L",
     "quote_id": "USDT",
@@ -25006,6 +25046,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MLT_USDT",
+    "base_id": "MLT",
+    "quote_id": "USDT",
+    "base": "MLT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MMM_USDT",
+    "base_id": "MMM",
+    "quote_id": "USDT",
+    "base": "MMM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MM_ETH",
     "base_id": "MM",
     "quote_id": "ETH",
@@ -25338,7 +25418,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.001
     },
     "info": {}
