@@ -1336,6 +1336,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "nabox_usdt",
+    "base_id": "nabox",
+    "quote_id": "usdt",
+    "base": "NABOX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "nac_usdt",
     "base_id": "nac",
     "quote_id": "usdt",

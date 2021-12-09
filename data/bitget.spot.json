@@ -2722,6 +2722,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "TONCOIN_USDT",
+    "base_id": "TONCOIN",
+    "quote_id": "USDT",
+    "base": "TONCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "TRX_BTC",
     "base_id": "TRX",
     "quote_id": "BTC",
@@ -2815,6 +2835,26 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "VVS_USDT",
+    "base_id": "VVS",
+    "quote_id": "USDT",
+    "base": "VVS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
