@@ -5090,6 +5090,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CREDI-USDT",
+    "base_id": "CREDI",
+    "quote_id": "USDT",
+    "base": "CREDI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CRO-BTC",
     "base_id": "CRO",
     "quote_id": "BTC",
@@ -8384,7 +8408,7 @@
     "base": "ETC",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -22226,6 +22250,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "TRVL-USDT",
+    "base_id": "TRVL",
+    "quote_id": "USDT",
+    "base": "TRVL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "TRX-BTC",
     "base_id": "TRX",
     "quote_id": "BTC",
@@ -25904,7 +25952,7 @@
     "base": "ZEN",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

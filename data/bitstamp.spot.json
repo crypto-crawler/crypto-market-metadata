@@ -1762,6 +1762,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "perpeur",
+    "base_id": "PERP",
+    "quote_id": "EUR",
+    "base": "PERP",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "perpusd",
+    "base_id": "PERP",
+    "quote_id": "USD",
+    "base": "PERP",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "rgteur",
     "base_id": "RGT",
     "quote_id": "EUR",
