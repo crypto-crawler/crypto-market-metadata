@@ -4942,6 +4942,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BIN_ETH",
+    "base_id": "BIN",
+    "quote_id": "ETH",
+    "base": "BIN",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BIN_USDT",
+    "base_id": "BIN",
+    "quote_id": "USDT",
+    "base": "BIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BIRD_ETH",
     "base_id": "BIRD",
     "quote_id": "ETH",
@@ -10808,6 +10848,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DEVT_USDT",
+    "base_id": "DEVT",
+    "quote_id": "USDT",
+    "base": "DEVT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DEXE_ETH",
     "base_id": "DEXE",
     "quote_id": "ETH",
@@ -11201,6 +11261,26 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DIVER_USDT",
+    "base_id": "DIVER",
+    "quote_id": "USDT",
+    "base": "DIVER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}

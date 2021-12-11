@@ -802,6 +802,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "dydxeur",
+    "base_id": "DYDX",
+    "quote_id": "EUR",
+    "base": "DYDX",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "dydxusd",
+    "base_id": "DYDX",
+    "quote_id": "USD",
+    "base": "DYDX",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "enjeur",
     "base_id": "ENJ",
     "quote_id": "EUR",
@@ -1866,6 +1906,46 @@
     "base_id": "SAND",
     "quote_id": "USD",
     "base": "SAND",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "sgbeur",
+    "base_id": "SGB",
+    "quote_id": "EUR",
+    "base": "SGB",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "sgbusd",
+    "base_id": "SGB",
+    "quote_id": "USD",
+    "base": "SGB",
     "quote": "USD",
     "active": true,
     "margin": true,
