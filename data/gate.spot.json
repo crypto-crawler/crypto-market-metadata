@@ -7528,6 +7528,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CELL_ETH",
+    "base_id": "CELL",
+    "quote_id": "ETH",
+    "base": "CELL",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CELL_USDT",
+    "base_id": "CELL",
+    "quote_id": "USDT",
+    "base": "CELL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CELO_USDT",
     "base_id": "CELO",
     "quote_id": "USDT",
