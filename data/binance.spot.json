@@ -24242,6 +24242,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "MANABIDR",
+    "base_id": "MANA",
+    "quote_id": "BIDR",
+    "base": "MANA",
+    "quote": "BIDR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 9223371110.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "MANABRL",
     "base_id": "MANA",
     "quote_id": "BRL",
@@ -32948,6 +32972,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SANDBIDR",
+    "base_id": "SAND",
+    "quote_id": "BIDR",
+    "base": "SAND",
+    "quote": "BIDR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 9223371110.0
     },
     "info": {}
   },

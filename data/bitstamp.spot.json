@@ -1182,6 +1182,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "galaeur",
+    "base_id": "GALA",
+    "quote_id": "EUR",
+    "base": "GALA",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "galausd",
+    "base_id": "GALA",
+    "quote_id": "USD",
+    "base": "GALA",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "gbpeur",
     "base_id": "GBP",
     "quote_id": "EUR",
