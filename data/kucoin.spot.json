@@ -2024,7 +2024,7 @@
     "base": "AUDIO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -9746,6 +9746,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GAFI-USDT",
+    "base_id": "GAFI",
+    "quote_id": "USDT",
+    "base": "GAFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GALAX-USDT",
     "base_id": "GALAX",
     "quote_id": "USDT",
@@ -10256,7 +10280,7 @@
     "base": "GODS",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

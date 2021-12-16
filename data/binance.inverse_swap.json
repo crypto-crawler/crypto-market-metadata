@@ -515,6 +515,33 @@
   {
     "exchange": "binance",
     "market_type": "inverse_swap",
+    "symbol": "NEARUSD_PERP",
+    "base_id": "NEAR",
+    "quote_id": "USD",
+    "settle_id": "NEAR",
+    "base": "NEAR",
+    "quote": "USD",
+    "settle": "NEAR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
     "symbol": "SANDUSD_PERP",
     "base_id": "SAND",
     "quote_id": "USD",

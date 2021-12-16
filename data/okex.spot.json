@@ -10858,6 +10858,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "WOO-USDT",
+    "base_id": "WOO",
+    "quote_id": "USDT",
+    "base": "WOO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "WTC-BTC",
     "base_id": "WTC",
     "quote_id": "BTC",
