@@ -2000,6 +2000,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "FREE_USDT",
+    "base_id": "FREE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FREE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "FTM_USDT",
     "base_id": "FTM",
     "quote_id": "USDT",
@@ -3964,6 +3991,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
+    "symbol": "SSS_USDT",
+    "base_id": "SSS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SSS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
     },
     "contract_value": 0.1,
     "info": {}
