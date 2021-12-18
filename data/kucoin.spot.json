@@ -3824,7 +3824,7 @@
     "base": "BTT",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -4507,6 +4507,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "CHMB-USDT",
+    "base_id": "CHMB",
+    "quote_id": "USDT",
+    "base": "CHMB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -8336,7 +8360,7 @@
     "base": "ERN",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -8886,6 +8910,30 @@
     "base_id": "EXRD",
     "quote_id": "USDT",
     "base": "EXRD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "FALCONS-USDT",
+    "base_id": "FALCONS",
+    "quote_id": "USDT",
+    "base": "FALCONS",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -10579,6 +10627,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "H3RO3S-USDT",
+    "base_id": "H3RO3S",
+    "quote_id": "USDT",
+    "base": "H3RO3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -15638,7 +15710,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -19640,7 +19712,7 @@
     "base": "SFP",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -22795,6 +22867,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "UFO-USDT",
+    "base_id": "UFO",
+    "quote_id": "USDT",
+    "base": "UFO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10000.0,
       "max": 10000000000.0
     },
     "info": {}

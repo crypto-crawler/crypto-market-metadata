@@ -8558,6 +8558,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "RAY-USDT",
+    "base_id": "RAY",
+    "quote_id": "USDT",
+    "base": "RAY",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "REN-BTC",
     "base_id": "REN",
     "quote_id": "BTC",
@@ -9058,6 +9081,29 @@
     },
     "quantity_limit": {
       "min": 50000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
+    "symbol": "SIS-USDT",
+    "base_id": "SIS",
+    "quote_id": "USDT",
+    "base": "SIS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -10875,6 +10921,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
+    "symbol": "WSB-USDT",
+    "base_id": "WSB",
+    "quote_id": "USDT",
+    "base": "WSB",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
