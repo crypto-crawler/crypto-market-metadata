@@ -3266,6 +3266,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "BCMC_USDT",
+    "base_id": "BCMC",
+    "quote_id": "USDT",
+    "base": "BCMC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "BDP_USDT",
     "base_id": "BDP",
     "quote_id": "USDT",
@@ -25058,6 +25082,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "SEA_USDT",
+    "base_id": "SEA",
+    "quote_id": "USDT",
+    "base": "SEA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "SENSO_BTC",
     "base_id": "SENSO",
     "quote_id": "BTC",
@@ -30112,6 +30160,30 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "WAGMI_USDT",
+    "base_id": "WAGMI",
+    "quote_id": "USDT",
+    "base": "WAGMI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
     },
     "quantity_limit": {
       "min": 5.0,
