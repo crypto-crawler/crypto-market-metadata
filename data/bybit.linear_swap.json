@@ -191,6 +191,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "ARUSDT",
+    "base_id": "AR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 400.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "ATOMUSDT",
     "base_id": "ATOM",
     "quote_id": "USDT",

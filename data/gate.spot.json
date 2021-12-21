@@ -11468,6 +11468,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DMS_ETH",
+    "base_id": "DMS",
+    "quote_id": "ETH",
+    "base": "DMS",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DMS_USDT",
+    "base_id": "DMS",
+    "quote_id": "USDT",
+    "base": "DMS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DMTR_USDT",
     "base_id": "DMTR",
     "quote_id": "USDT",
@@ -38235,6 +38275,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "STZ_USDT",
+    "base_id": "STZ",
+    "quote_id": "USDT",
+    "base": "STZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SUKU_BTC",
     "base_id": "SUKU",
     "quote_id": "BTC",
@@ -42414,6 +42474,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WAM_USDT",
+    "base_id": "WAM",
+    "quote_id": "USDT",
+    "base": "WAM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
