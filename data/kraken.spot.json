@@ -830,6 +830,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AVAX/EUR",
+    "base_id": "AVAX",
+    "quote_id": "ZEUR",
+    "base": "AVAX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AVAX/USD",
+    "base_id": "AVAX",
+    "quote_id": "ZUSD",
+    "base": "AVAX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AXS/EUR",
     "base_id": "AXS",
     "quote_id": "ZEUR",

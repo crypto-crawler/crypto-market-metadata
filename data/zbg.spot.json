@@ -393,6 +393,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "btv_usdt",
+    "base_id": "btv",
+    "quote_id": "usdt",
+    "base": "BTV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "bzz_usdt",
     "base_id": "bzz",
     "quote_id": "usdt",

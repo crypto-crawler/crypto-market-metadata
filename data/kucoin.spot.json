@@ -3506,6 +3506,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BONDLY-ETH",
+    "base_id": "BONDLY",
+    "quote_id": "ETH",
+    "base": "BONDLY",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BONDLY-USDT",
+    "base_id": "BONDLY",
+    "quote_id": "USDT",
+    "base": "BONDLY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BOSON-ETH",
     "base_id": "BOSON",
     "quote_id": "ETH",
@@ -9938,6 +9986,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GEEQ-USDT",
+    "base_id": "GEEQ",
+    "quote_id": "USDT",
+    "base": "GEEQ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GENS-USDT",
     "base_id": "GENS",
     "quote_id": "USDT",
@@ -12200,7 +12272,7 @@
     "base": "KLAY",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -21830,7 +21902,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-10,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -22904,7 +22976,7 @@
     "base": "UMA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

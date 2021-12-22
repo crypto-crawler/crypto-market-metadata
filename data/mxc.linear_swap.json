@@ -326,6 +326,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "ANY_USDT",
+    "base_id": "ANY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ANY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "ARPA_USDT",
     "base_id": "ARPA",
     "quote_id": "USDT",
