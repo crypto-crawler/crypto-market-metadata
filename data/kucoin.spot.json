@@ -17210,6 +17210,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ORC-USDT",
+    "base_id": "ORC",
+    "quote_id": "USDT",
+    "base": "ORC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ORN-USDT",
     "base_id": "ORN",
     "quote_id": "USDT",
@@ -17550,6 +17574,30 @@
     "base_id": "PEL",
     "quote_id": "USDT",
     "base": "PEL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "PEOPLE-USDT",
+    "base_id": "PEOPLE",
+    "quote_id": "USDT",
+    "base": "PEOPLE",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -18770,6 +18818,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RACEFI-USDT",
+    "base_id": "RACEFI",
+    "quote_id": "USDT",
+    "base": "RACEFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "RBTC-BTC",
     "base_id": "RBTC",
     "quote_id": "BTC",
@@ -19184,7 +19256,7 @@
     "base": "RLC",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
