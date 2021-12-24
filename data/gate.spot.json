@@ -36615,6 +36615,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SNTR_ETH",
+    "base_id": "SNTR",
+    "quote_id": "ETH",
+    "base": "SNTR",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SNTR_USDT",
+    "base_id": "SNTR",
+    "quote_id": "USDT",
+    "base": "SNTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SNT_BTC",
     "base_id": "SNT",
     "quote_id": "BTC",
@@ -39769,6 +39809,26 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TIP_USDT",
+    "base_id": "TIP",
+    "quote_id": "USDT",
+    "base": "TIP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
     },
     "info": {}
   },

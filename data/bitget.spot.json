@@ -1542,6 +1542,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FIL_ETH",
+    "base_id": "FIL",
+    "quote_id": "ETH",
+    "base": "FIL",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FIL_USDT",
     "base_id": "FIL",
     "quote_id": "USDT",
@@ -1576,6 +1596,26 @@
     "precision": {
       "tick_size": 1e-10,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "FREE_USDT",
+    "base_id": "FREE",
+    "quote_id": "USDT",
+    "base": "FREE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -3196,6 +3236,26 @@
     "precision": {
       "tick_size": 1e-10,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "TRX_ETH",
+    "base_id": "TRX",
+    "quote_id": "ETH",
+    "base": "TRX",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
     },
     "info": {}
   },
