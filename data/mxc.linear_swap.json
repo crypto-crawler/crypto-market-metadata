@@ -345,7 +345,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 150000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -3966,6 +3966,33 @@
       "max": 100000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
+    "symbol": "SPA_USDT",
+    "base_id": "SPA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SPA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {

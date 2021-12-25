@@ -1942,6 +1942,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "KIN_USDT",
+    "base_id": "KIN",
+    "quote_id": "USDT",
+    "base": "KIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "KNC_USDT",
     "base_id": "KNC",
     "quote_id": "USDT",
@@ -2195,6 +2215,26 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "MAN_USDT",
+    "base_id": "MAN",
+    "quote_id": "USDT",
+    "base": "MAN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "info": {}

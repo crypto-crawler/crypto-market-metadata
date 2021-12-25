@@ -1602,6 +1602,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ALTB_USDT",
+    "base_id": "ALTB",
+    "quote_id": "USDT",
+    "base": "ALTB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ALU_ETH",
     "base_id": "ALU",
     "quote_id": "ETH",
@@ -20217,6 +20237,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "IZI_ETH",
+    "base_id": "IZI",
+    "quote_id": "ETH",
+    "base": "IZI",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IZI_USDT",
+    "base_id": "IZI",
+    "quote_id": "USDT",
+    "base": "IZI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "JASMY_ETH",
     "base_id": "JASMY",
     "quote_id": "ETH",
@@ -31939,6 +31999,26 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PYM_USDT",
+    "base_id": "PYM",
+    "quote_id": "USDT",
+    "base": "PYM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
