@@ -715,6 +715,29 @@
   {
     "exchange": "okex",
     "market_type": "spot",
+    "symbol": "AR-USDT",
+    "base_id": "AR",
+    "quote_id": "USDT",
+    "base": "AR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
     "symbol": "ARDR-BTC",
     "base_id": "ARDR",
     "quote_id": "BTC",
@@ -9380,6 +9403,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okex",
+    "market_type": "spot",
+    "symbol": "SOS-USDT",
+    "base_id": "SOS",
+    "quote_id": "USDT",
+    "base": "SOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000000.0
     },
     "info": {}
   },
