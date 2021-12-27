@@ -1466,6 +1466,54 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "APX3L_USDT",
+    "base_id": "APX3L",
+    "quote_id": "USDT",
+    "base": "APX3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "APX3S_USDT",
+    "base_id": "APX3S",
+    "quote_id": "USDT",
+    "base": "APX3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "APX_USDT",
     "base_id": "APX",
     "quote_id": "USDT",
@@ -18711,7 +18759,7 @@
     },
     "precision": {
       "tick_size": 1e-12,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
@@ -26306,6 +26354,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "SIW_USDT",
+    "base_id": "SIW",
+    "quote_id": "USDT",
+    "base": "SIW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "SKILL_USDT",
     "base_id": "SKILL",
     "quote_id": "USDT",
@@ -31010,6 +31082,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "VIPER_USDT",
+    "base_id": "VIPER",
+    "quote_id": "USDT",
+    "base": "VIPER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "VKR_USDT",
     "base_id": "VKR",
     "quote_id": "USDT",
@@ -33278,7 +33374,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {

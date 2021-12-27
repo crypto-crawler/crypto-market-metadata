@@ -1589,6 +1589,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "people_usdt",
+    "base_id": "people",
+    "quote_id": "usdt",
+    "base": "PEOPLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "qtum_qc",
     "base_id": "qtum",
     "quote_id": "qc",

@@ -3809,6 +3809,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "SOS_USDT",
+    "base_id": "SOS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SOS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 100000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "SRM_USDT",
     "base_id": "SRM",
     "quote_id": "USDT",
