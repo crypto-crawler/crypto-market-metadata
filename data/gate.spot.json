@@ -18437,6 +18437,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HEART_USDT",
+    "base_id": "HEART",
+    "quote_id": "USDT",
+    "base": "HEART",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HEGIC_ETH",
     "base_id": "HEGIC",
     "quote_id": "ETH",
@@ -21190,6 +21210,46 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KINT_ETH",
+    "base_id": "KINT",
+    "quote_id": "ETH",
+    "base": "KINT",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KINT_USDT",
+    "base_id": "KINT",
+    "quote_id": "USDT",
+    "base": "KINT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -38719,6 +38779,46 @@
     "base_id": "SUPER",
     "quote_id": "USDT",
     "base": "SUPER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SUPE_ETH",
+    "base_id": "SUPE",
+    "quote_id": "ETH",
+    "base": "SUPE",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SUPE_USDT",
+    "base_id": "SUPE",
+    "quote_id": "USDT",
+    "base": "SUPE",
     "quote": "USDT",
     "active": true,
     "margin": false,
