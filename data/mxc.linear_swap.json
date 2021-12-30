@@ -1001,6 +1001,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "BTS_USDT",
+    "base_id": "BTS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "BTT_USDT",
     "base_id": "BTT",
     "quote_id": "USDT",
@@ -2073,7 +2100,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 150000.0
     },
     "contract_value": 100.0,
     "info": {}

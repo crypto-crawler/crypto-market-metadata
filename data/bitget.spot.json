@@ -282,6 +282,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "AURY_USDT",
+    "base_id": "AURY",
+    "quote_id": "USDT",
+    "base": "AURY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "AVAX_USDT",
     "base_id": "AVAX",
     "quote_id": "USDT",
@@ -1616,6 +1636,26 @@
     "precision": {
       "tick_size": 1e-10,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "FOR_USDT",
+    "base_id": "FOR",
+    "quote_id": "USDT",
+    "base": "FOR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
     },
     "info": {}
   },

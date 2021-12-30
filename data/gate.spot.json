@@ -42161,6 +42161,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "VADER_ETH",
+    "base_id": "VADER",
+    "quote_id": "ETH",
+    "base": "VADER",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "VADER_USDT",
+    "base_id": "VADER",
+    "quote_id": "USDT",
+    "base": "VADER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VAI_ETH",
     "base_id": "VAI",
     "quote_id": "ETH",
