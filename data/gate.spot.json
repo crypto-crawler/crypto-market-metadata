@@ -10188,6 +10188,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CWEB_USDT",
+    "base_id": "CWEB",
+    "quote_id": "USDT",
+    "base": "CWEB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CWS_ETH",
     "base_id": "CWS",
     "quote_id": "ETH",
@@ -16857,6 +16877,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GASDAO_USDT",
+    "base_id": "GASDAO",
+    "quote_id": "USDT",
+    "base": "GASDAO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GAS_BTC",
     "base_id": "GAS",
     "quote_id": "BTC",
@@ -23250,6 +23290,26 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LOA_USDT",
+    "base_id": "LOA",
+    "quote_id": "USDT",
+    "base": "LOA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}

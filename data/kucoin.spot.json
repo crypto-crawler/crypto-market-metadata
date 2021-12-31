@@ -5810,6 +5810,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CWEB-USDT",
+    "base_id": "CWEB",
+    "quote_id": "USDT",
+    "base": "CWEB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CWS-USDT",
     "base_id": "CWS",
     "quote_id": "USDT",
@@ -6710,7 +6734,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-10,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -12920,7 +12944,7 @@
     "base": "LINA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -17107,6 +17131,54 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "OOKI-BTC",
+    "base_id": "OOKI",
+    "quote_id": "BTC",
+    "base": "OOKI",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "OOKI-USDT",
+    "base_id": "OOKI",
+    "quote_id": "USDT",
+    "base": "OOKI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
