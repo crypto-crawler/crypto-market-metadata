@@ -874,7 +874,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.0025,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "info": {}
@@ -5522,6 +5522,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "KSOS/USD",
+    "base_id": "KSOS",
+    "quote_id": "USD",
+    "base": "KSOS",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 5e-7,
+      "lot_size": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "LEO/USD",
     "base_id": "LEO",
     "quote_id": "USD",
@@ -7896,6 +7916,26 @@
     "precision": {
       "tick_size": 0.0025,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
+    "symbol": "SOS/USD",
+    "base_id": "SOS",
+    "quote_id": "USD",
+    "base": "SOS",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 100000.0
     },
     "info": {}
   },

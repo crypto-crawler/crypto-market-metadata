@@ -1934,6 +1934,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "KSOS-PERP",
+    "base_id": "KSOS",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "KSOS",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 5e-7,
+      "lot_size": 100.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "LEO-PERP",
     "base_id": "LEO",
     "quote_id": "USD",
@@ -3100,6 +3123,29 @@
     "precision": {
       "tick_size": 0.0025,
       "lot_size": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
+    "symbol": "SOS-PERP",
+    "base_id": "SOS",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "SOS",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 100000.0
     },
     "contract_value": 1.0,
     "info": {}

@@ -11228,6 +11228,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DFY_ETH",
+    "base_id": "DFY",
+    "quote_id": "ETH",
+    "base": "DFY",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DFY_USDT",
+    "base_id": "DFY",
+    "quote_id": "USDT",
+    "base": "DFY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DF_ETH",
     "base_id": "DF",
     "quote_id": "ETH",
@@ -46614,6 +46654,46 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZODI_ETH",
+    "base_id": "ZODI",
+    "quote_id": "ETH",
+    "base": "ZODI",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZODI_USDT",
+    "base_id": "ZODI",
+    "quote_id": "USDT",
+    "base": "ZODI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
