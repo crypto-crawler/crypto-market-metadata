@@ -5402,6 +5402,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "BTC_USDC",
+    "base_id": "BTC",
+    "quote_id": "USDC",
+    "base": "BTC",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 3000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "BTC_USDT",
     "base_id": "BTC",
     "quote_id": "USDT",
@@ -11948,6 +11972,30 @@
     "quantity_limit": {
       "min": 5e-6,
       "max": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "ETH_USDC",
+    "base_id": "ETH",
+    "quote_id": "USDC",
+    "base": "ETH",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 3000000.0
     },
     "info": {}
   },
