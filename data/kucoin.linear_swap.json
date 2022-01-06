@@ -876,6 +876,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "IMXUSDTM",
+    "base_id": "IMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "IOSTUSDTM",
     "base_id": "IOST",
     "quote_id": "USDT",
@@ -1216,6 +1239,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "NFTUSDTM",
+    "base_id": "NFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {

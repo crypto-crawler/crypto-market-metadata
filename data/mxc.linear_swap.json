@@ -3863,6 +3863,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "RVN_USDT",
+    "base_id": "RVN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RVN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 400000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "SAND_USDT",
     "base_id": "SAND",
     "quote_id": "USDT",
