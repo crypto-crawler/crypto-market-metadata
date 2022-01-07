@@ -1704,6 +1704,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "PEOPLE-USDT",
+    "base_id": "PEOPLE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PEOPLE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "QNT-USDT",
     "base_id": "QNT",
     "quote_id": "USDT",
@@ -1975,6 +1998,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "SOS-USDT",
+    "base_id": "SOS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SOS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {

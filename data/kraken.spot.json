@@ -4004,6 +4004,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "KINT/EUR",
+    "base_id": "KINT",
+    "quote_id": "ZEUR",
+    "base": "KINT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.05
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "KINT/USD",
+    "base_id": "KINT",
+    "quote_id": "ZUSD",
+    "base": "KINT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.05
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "KNC/ETH",
     "base_id": "KNC",
     "quote_id": "XETH",

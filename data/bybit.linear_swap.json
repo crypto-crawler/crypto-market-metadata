@@ -2108,6 +2108,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "RVNUSDT",
+    "base_id": "RVN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RVN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 80000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "SANDUSDT",
     "base_id": "SAND",
     "quote_id": "USDT",

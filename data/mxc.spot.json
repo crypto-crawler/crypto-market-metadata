@@ -5642,6 +5642,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "BTRFLY_USDT",
+    "base_id": "BTRFLY",
+    "quote_id": "USDT",
+    "base": "BTRFLY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "BTS3L_USDT",
     "base_id": "BTS3L",
     "quote_id": "USDT",
@@ -14606,8 +14630,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 0.00001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
@@ -22202,6 +22226,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "NTX_USDT",
+    "base_id": "NTX",
+    "quote_id": "USDT",
+    "base": "NTX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "NU3L_USDT",
     "base_id": "NU3L",
     "quote_id": "USDT",
@@ -25298,6 +25346,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "RAIDER_USDT",
+    "base_id": "RAIDER",
+    "quote_id": "USDT",
+    "base": "RAIDER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "RAK_USDT",
     "base_id": "RAK",
     "quote_id": "USDT",
@@ -26799,6 +26871,30 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "SCT_USDT",
+    "base_id": "SCT",
+    "quote_id": "USDT",
+    "base": "SCT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

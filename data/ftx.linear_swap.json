@@ -2854,6 +2854,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "RON-PERP",
+    "base_id": "RON",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "RON",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "ROOK-PERP",
     "base_id": "ROOK",
     "quote_id": "USD",
