@@ -1957,6 +1957,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "shib_usdt",
+    "base_id": "shib",
+    "quote_id": "usdt",
+    "base": "SHIB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "sol3l_usdt",
     "base_id": "sol3l",
     "quote_id": "usdt",
