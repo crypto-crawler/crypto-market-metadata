@@ -27218,6 +27218,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "SFM_USDT",
+    "base_id": "SFM",
+    "quote_id": "USDT",
+    "base": "SFM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "SFP3L_USDT",
     "base_id": "SFP3L",
     "quote_id": "USDT",
