@@ -1152,6 +1152,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BAT/JPY",
+    "base_id": "BAT",
+    "quote_id": "ZJPY",
+    "base": "BAT",
+    "quote": "JPY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BAT/USD",
     "base_id": "BAT",
     "quote_id": "ZUSD",
@@ -3360,6 +3383,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "GLMR/EUR",
+    "base_id": "GLMR",
+    "quote_id": "ZEUR",
+    "base": "GLMR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "GLMR/USD",
+    "base_id": "GLMR",
+    "quote_id": "ZUSD",
+    "base": "GLMR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "GNO/ETH",
     "base_id": "GNO",
     "quote_id": "XETH",
@@ -4385,6 +4454,29 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.2
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LINK/JPY",
+    "base_id": "LINK",
+    "quote_id": "ZJPY",
+    "base": "LINK",
+    "quote": "JPY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -5742,6 +5834,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "OMG/JPY",
+    "base_id": "OMG",
+    "quote_id": "ZJPY",
+    "base": "OMG",
+    "quote": "JPY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
       "lot_size": 1e-8
     },
     "quantity_limit": {

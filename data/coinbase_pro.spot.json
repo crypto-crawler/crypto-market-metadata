@@ -4250,6 +4250,30 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "GFI-USD",
+    "base_id": "GFI",
+    "quote_id": "USD",
+    "base": "GFI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 72000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "GNT-USDC",
     "base_id": "GNT",
     "quote_id": "USDC",
