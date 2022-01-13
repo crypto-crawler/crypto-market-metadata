@@ -1290,6 +1290,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "imx_usdt",
+    "base_id": "imx",
+    "quote_id": "usdt",
+    "base": "IMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "kerri_usdt",
     "base_id": "kerri",
     "quote_id": "usdt",
