@@ -17337,6 +17337,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GENS_USDT",
+    "base_id": "GENS",
+    "quote_id": "USDT",
+    "base": "GENS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GFI_ETH",
     "base_id": "GFI",
     "quote_id": "ETH",
@@ -29826,6 +29846,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ONIT_USDT",
+    "base_id": "ONIT",
+    "quote_id": "USDT",
+    "base": "ONIT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ONS_ETH",
     "base_id": "ONS",
     "quote_id": "ETH",
@@ -39789,6 +39829,46 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SVT_ETH",
+    "base_id": "SVT",
+    "quote_id": "ETH",
+    "base": "SVT",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SVT_USDT",
+    "base_id": "SVT",
+    "quote_id": "USDT",
+    "base": "SVT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
     },
     "info": {}
   },

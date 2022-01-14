@@ -5522,6 +5522,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CTC-BTC",
+    "base_id": "CTC",
+    "quote_id": "BTC",
+    "base": "CTC",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "CTC-USDT",
+    "base_id": "CTC",
+    "quote_id": "USDT",
+    "base": "CTC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CTI-ETH",
     "base_id": "CTI",
     "quote_id": "ETH",
@@ -10287,6 +10335,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "GLMR-BTC",
+    "base_id": "GLMR",
+    "quote_id": "BTC",
+    "base": "GLMR",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "quantity_limit": {

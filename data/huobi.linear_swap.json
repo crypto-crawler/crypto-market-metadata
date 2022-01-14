@@ -462,6 +462,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "CELO-USDT",
+    "base_id": "CELO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CELO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "CELR-USDT",
     "base_id": "CELR",
     "quote_id": "USDT",
@@ -1290,6 +1313,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "LPT-USDT",
+    "base_id": "LPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "LRC-USDT",
     "base_id": "LRC",
     "quote_id": "USDT",
@@ -1561,6 +1607,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "NFT-USDT",
+    "base_id": "NFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000000.0,
     "info": {}
   },
   {

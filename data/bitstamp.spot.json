@@ -1182,6 +1182,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "ftmeur",
+    "base_id": "FTM",
+    "quote_id": "EUR",
+    "base": "FTM",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "ftmusd",
+    "base_id": "FTM",
+    "quote_id": "USD",
+    "base": "FTM",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "ftteur",
     "base_id": "FTT",
     "quote_id": "EUR",
