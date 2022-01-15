@@ -1796,6 +1796,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "nu_usdt",
+    "base_id": "nu",
+    "quote_id": "usdt",
+    "base": "NU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "people_usdt",
     "base_id": "people",
     "quote_id": "usdt",
