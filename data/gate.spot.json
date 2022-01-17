@@ -43621,6 +43621,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "VOXEL_USDT",
+    "base_id": "VOXEL",
+    "quote_id": "USDT",
+    "base": "VOXEL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VRA_BTC",
     "base_id": "VRA",
     "quote_id": "BTC",
