@@ -731,6 +731,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "CREAMUSDT",
+    "base_id": "CREAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CREAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 250.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "CROUSDT",
     "base_id": "CRO",
     "quote_id": "USDT",

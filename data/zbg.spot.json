@@ -2,6 +2,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "1inch_usdt",
+    "base_id": "1inch",
+    "quote_id": "usdt",
+    "base": "1INCH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "520_qc",
     "base_id": "520",
     "quote_id": "qc",
