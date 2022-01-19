@@ -3061,6 +3061,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "SCRT-PERP",
+    "base_id": "SCRT",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "SCRT",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "SECO-PERP",
     "base_id": "SECO",
     "quote_id": "USD",

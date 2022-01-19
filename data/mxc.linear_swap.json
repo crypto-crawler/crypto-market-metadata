@@ -4025,6 +4025,33 @@
   {
     "exchange": "mxc",
     "market_type": "linear_swap",
+    "symbol": "SCRT_USDT",
+    "base_id": "SCRT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SCRT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "linear_swap",
     "symbol": "SC_USDT",
     "base_id": "SC",
     "quote_id": "USDT",
