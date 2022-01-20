@@ -9708,6 +9708,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CRTS_ETH",
+    "base_id": "CRTS",
+    "quote_id": "ETH",
+    "base": "CRTS",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CRTS_USDT",
+    "base_id": "CRTS",
+    "quote_id": "USDT",
+    "base": "CRTS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CRT_USDT",
     "base_id": "CRT",
     "quote_id": "USDT",
@@ -16437,6 +16477,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FRR_USDT",
+    "base_id": "FRR",
+    "quote_id": "USDT",
+    "base": "FRR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FSN_ETH",
     "base_id": "FSN",
     "quote_id": "ETH",
@@ -21331,6 +21391,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KASTA_USDT",
+    "base_id": "KASTA",
+    "quote_id": "USDT",
+    "base": "KASTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
     },
     "info": {}
   },

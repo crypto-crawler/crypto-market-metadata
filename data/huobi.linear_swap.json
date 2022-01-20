@@ -1221,6 +1221,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "JST-USDT",
+    "base_id": "JST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "JST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "KAVA-USDT",
     "base_id": "KAVA",
     "quote_id": "USDT",
@@ -1295,6 +1318,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "LINK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "LOOKS-USDT",
+    "base_id": "LOOKS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LOOKS",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
