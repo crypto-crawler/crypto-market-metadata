@@ -2696,7 +2696,7 @@
     "base": "BAND",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -8622,6 +8622,30 @@
     "base_id": "ERSDL",
     "quote_id": "USDT",
     "base": "ERSDL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ERTHA-USDT",
+    "base_id": "ERTHA",
+    "quote_id": "USDT",
+    "base": "ERTHA",
     "quote": "USDT",
     "active": true,
     "margin": false,

@@ -33046,6 +33046,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PSY_ETH",
+    "base_id": "PSY",
+    "quote_id": "ETH",
+    "base": "PSY",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PSY_USDT",
+    "base_id": "PSY",
+    "quote_id": "USDT",
+    "base": "PSY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PUNDIX_ETH",
     "base_id": "PUNDIX",
     "quote_id": "ETH",
@@ -41407,7 +41447,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
