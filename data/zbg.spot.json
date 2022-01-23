@@ -2693,6 +2693,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "xym_qc",
+    "base_id": "xym",
+    "quote_id": "qc",
+    "base": "XYM",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "yfi_usdt",
     "base_id": "yfi",
     "quote_id": "usdt",
