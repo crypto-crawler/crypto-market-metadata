@@ -2,6 +2,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "10000NFTUSDT",
+    "base_id": "10000NFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "10000NFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "1INCHUSDT",
     "base_id": "1INCH",
     "quote_id": "USDT",
@@ -1406,6 +1433,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "HNTUSDT",
+    "base_id": "HNT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HNT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 420.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "ICPUSDT",
     "base_id": "ICP",
     "quote_id": "USDT",
@@ -1777,6 +1831,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 400.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "LOOKSUSDT",
+    "base_id": "LOOKS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LOOKS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 6000.0
     },
     "contract_value": 1.0,
     "info": {}
