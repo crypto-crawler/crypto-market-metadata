@@ -2754,8 +2754,8 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "info": {}
   },
@@ -4676,6 +4676,26 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "OOGI-USDT",
+    "base_id": "OOGI",
+    "quote_id": "USDT",
+    "base": "OOGI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
     },
     "info": {}
   },

@@ -600,6 +600,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "cart_usdt",
+    "base_id": "cart",
+    "quote_id": "usdt",
+    "base": "CART",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "chz_usdt",
     "base_id": "chz",
     "quote_id": "usdt",

@@ -482,6 +482,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ACA_USDT",
+    "base_id": "ACA",
+    "quote_id": "USDT",
+    "base": "ACA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ACE_USDT",
     "base_id": "ACE",
     "quote_id": "USDT",
@@ -44314,6 +44334,26 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "VR_USDT",
+    "base_id": "VR",
+    "quote_id": "USDT",
+    "base": "VR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
