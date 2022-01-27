@@ -1280,7 +1280,7 @@
     "base": "ALPHA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -15914,6 +15914,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MTS-USDT",
+    "base_id": "MTS",
+    "quote_id": "USDT",
+    "base": "MTS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MTV-BTC",
     "base_id": "MTV",
     "quote_id": "BTC",
@@ -17000,7 +17024,7 @@
     "base": "NU",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
