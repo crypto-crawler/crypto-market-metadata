@@ -162,6 +162,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ALPHA_USDT",
+    "base_id": "ALPHA",
+    "quote_id": "USDT",
+    "base": "ALPHA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ANKR_USDT",
     "base_id": "ANKR",
     "quote_id": "USDT",
@@ -1014,7 +1034,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "info": {}
@@ -1894,7 +1914,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -2114,7 +2134,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -2314,7 +2334,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -3054,7 +3074,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -3314,7 +3334,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -3754,8 +3774,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 0.0001
+      "tick_size": 1e-9,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -3834,7 +3854,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "info": {}
@@ -3874,8 +3894,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
-      "lot_size": 0.01
+      "tick_size": 1e-11,
+      "lot_size": 0.1
     },
     "info": {}
   },
