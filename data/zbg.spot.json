@@ -2325,6 +2325,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "tvk_usdt",
+    "base_id": "tvk",
+    "quote_id": "usdt",
+    "base": "TVK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "uni_usdt",
     "base_id": "uni",
     "quote_id": "usdt",
