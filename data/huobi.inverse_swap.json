@@ -117,6 +117,29 @@
   {
     "exchange": "huobi",
     "market_type": "inverse_swap",
+    "symbol": "AVAX-USD",
+    "base_id": "AVAX",
+    "quote_id": "USD",
+    "settle_id": "AVAX",
+    "base": "AVAX",
+    "quote": "USD",
+    "settle": "AVAX",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "inverse_swap",
     "symbol": "BAND-USD",
     "base_id": "BAND",
     "quote_id": "USD",
@@ -615,6 +638,29 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "inverse_swap",
+    "symbol": "LUNA-USD",
+    "base_id": "LUNA",
+    "quote_id": "USD",
+    "settle_id": "LUNA",
+    "base": "LUNA",
+    "quote": "USD",
+    "settle": "LUNA",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
