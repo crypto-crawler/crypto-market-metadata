@@ -386,6 +386,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "ACM_USDT",
+    "base_id": "ACM",
+    "quote_id": "USDT",
+    "base": "ACM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "AC_USDT",
     "base_id": "AC",
     "quote_id": "USDT",
@@ -6710,8 +6734,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.001
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
@@ -29439,7 +29463,7 @@
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 0.0001
+      "lot_size": 0.00001
     },
     "quantity_limit": {
       "min": 5.0,

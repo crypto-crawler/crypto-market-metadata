@@ -4058,6 +4058,78 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "FIDA-EUR",
+    "base_id": "FIDA",
+    "quote_id": "EUR",
+    "base": "FIDA",
+    "quote": "EUR",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 36000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "FIDA-USD",
+    "base_id": "FIDA",
+    "quote_id": "USD",
+    "base": "FIDA",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 36000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "FIDA-USDT",
+    "base_id": "FIDA",
+    "quote_id": "USDT",
+    "base": "FIDA",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 36000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "FIL-BTC",
     "base_id": "FIL",
     "quote_id": "BTC",
@@ -6842,6 +6914,78 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ORCA-EUR",
+    "base_id": "ORCA",
+    "quote_id": "EUR",
+    "base": "ORCA",
+    "quote": "EUR",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 29000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "ORCA-USD",
+    "base_id": "ORCA",
+    "quote_id": "USD",
+    "base": "ORCA",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 29000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "ORCA-USDT",
+    "base_id": "ORCA",
+    "quote_id": "USDT",
+    "base": "ORCA",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 29000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ORN-BTC",
     "base_id": "ORN",
     "quote_id": "BTC",
@@ -8102,12 +8246,12 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 18000.0,
-      "max": 50000000000.0
+      "max": 200000000000.0
     },
     "info": {}
   },
