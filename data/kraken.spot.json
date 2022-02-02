@@ -393,6 +393,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AKT/EUR",
+    "base_id": "AKT",
+    "quote_id": "ZEUR",
+    "base": "AKT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 3.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AKT/USD",
+    "base_id": "AKT",
+    "quote_id": "ZUSD",
+    "base": "AKT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 3.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ALGO/ETH",
     "base_id": "ALGO",
     "quote_id": "XETH",

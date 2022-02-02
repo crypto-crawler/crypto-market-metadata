@@ -11888,6 +11888,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DIO_USDT",
+    "base_id": "DIO",
+    "quote_id": "USDT",
+    "base": "DIO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DIS_ETH",
     "base_id": "DIS",
     "quote_id": "ETH",
@@ -27540,6 +27560,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MPL_USDT",
+    "base_id": "MPL",
+    "quote_id": "USDT",
+    "base": "MPL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
     },
     "info": {}
   },
