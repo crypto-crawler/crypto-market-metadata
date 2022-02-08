@@ -18518,7 +18518,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -19766,7 +19766,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -23762,6 +23762,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "NETT_USDT",
+    "base_id": "NETT",
+    "quote_id": "USDT",
+    "base": "NETT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "NEW_USDT",
     "base_id": "NEW",
     "quote_id": "USDT",
@@ -27410,6 +27434,30 @@
   {
     "exchange": "mxc",
     "market_type": "spot",
+    "symbol": "QTZ_USDT",
+    "base_id": "QTZ",
+    "quote_id": "USDT",
+    "base": "QTZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
     "symbol": "QUACK_USDT",
     "base_id": "QUACK",
     "quote_id": "USDT",
@@ -28647,6 +28695,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "ROUTE_USDT",
+    "base_id": "ROUTE",
+    "quote_id": "USDT",
+    "base": "ROUTE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -31431,6 +31503,30 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mxc",
+    "market_type": "spot",
+    "symbol": "SSX_USDT",
+    "base_id": "SSX",
+    "quote_id": "USDT",
+    "base": "SSX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
