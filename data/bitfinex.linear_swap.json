@@ -758,6 +758,33 @@
   {
     "exchange": "bitfinex",
     "market_type": "linear_swap",
+    "symbol": "tICPF0:USTF0",
+    "base_id": "ICPF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "ICP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
     "symbol": "tIOTF0:USTF0",
     "base_id": "IOTF0",
     "quote_id": "USTF0",
@@ -967,6 +994,33 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
+    "symbol": "tNEARF0:USTF0",
+    "base_id": "NEARF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "NEAR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 25000.0
     },
     "contract_value": 1.0,
     "info": {}

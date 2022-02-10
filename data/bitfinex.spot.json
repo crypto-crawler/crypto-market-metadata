@@ -1658,6 +1658,30 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tCCDBTC",
+    "base_id": "CCD",
+    "quote_id": "BTC",
+    "base": "CCD",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 150000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tCCDUSD",
     "base_id": "CCD",
     "quote_id": "USD",
@@ -5107,6 +5131,30 @@
     },
     "quantity_limit": {
       "min": 0.06,
+      "max": 50000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tLUNA:ETH",
+    "base_id": "LUNA",
+    "quote_id": "ETH",
+    "base": "LUNA",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
       "max": 50000.0
     },
     "info": {}
