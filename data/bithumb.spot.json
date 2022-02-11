@@ -1222,6 +1222,66 @@
   {
     "exchange": "bithumb",
     "market_type": "spot",
+    "symbol": "CCD-BTC",
+    "base_id": "CCD",
+    "quote_id": "BTC",
+    "base": "CCD",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "CCD-ETH",
+    "base_id": "CCD",
+    "quote_id": "ETH",
+    "base": "CCD",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "CCD-USDT",
+    "base_id": "CCD",
+    "quote_id": "USDT",
+    "base": "CCD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
     "symbol": "CENT-BTC",
     "base_id": "CENT",
     "quote_id": "BTC",
