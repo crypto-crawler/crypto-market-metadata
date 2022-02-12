@@ -1722,6 +1722,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FIL_BTC",
+    "base_id": "FIL",
+    "quote_id": "BTC",
+    "base": "FIL",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FIL_ETH",
     "base_id": "FIL",
     "quote_id": "ETH",
@@ -4015,6 +4035,26 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "WEMIX_USDT",
+    "base_id": "WEMIX",
+    "quote_id": "USDT",
+    "base": "WEMIX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "info": {}

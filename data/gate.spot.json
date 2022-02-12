@@ -18117,6 +18117,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GMEE_ETH",
+    "base_id": "GMEE",
+    "quote_id": "ETH",
+    "base": "GMEE",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GMEE_USDT",
+    "base_id": "GMEE",
+    "quote_id": "USDT",
+    "base": "GMEE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GMPD_USDT",
     "base_id": "GMPD",
     "quote_id": "USDT",
@@ -29270,6 +29310,46 @@
     "base_id": "NOS",
     "quote_id": "USDT",
     "base": "NOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NRFB_ETH",
+    "base_id": "NRFB",
+    "quote_id": "ETH",
+    "base": "NRFB",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NRFB_USDT",
+    "base_id": "NRFB",
+    "quote_id": "USDT",
+    "base": "NRFB",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -48595,6 +48675,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZONE_USDT",
+    "base_id": "ZONE",
+    "quote_id": "USDT",
+    "base": "ZONE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
