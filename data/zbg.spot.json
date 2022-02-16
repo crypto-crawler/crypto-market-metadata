@@ -209,6 +209,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "alcx_usdt",
+    "base_id": "alcx",
+    "quote_id": "usdt",
+    "base": "ALCX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "algo_usdt",
     "base_id": "algo",
     "quote_id": "usdt",

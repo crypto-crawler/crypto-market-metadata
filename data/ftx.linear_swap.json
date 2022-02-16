@@ -2302,6 +2302,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "MINA-PERP",
+    "base_id": "MINA",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "MINA",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00025,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "MKR-PERP",
     "base_id": "MKR",
     "quote_id": "USD",

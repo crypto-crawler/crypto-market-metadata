@@ -6302,6 +6302,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BRISE_USDT",
+    "base_id": "BRISE",
+    "quote_id": "USDT",
+    "base": "BRISE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BRKL_USDT",
     "base_id": "BRKL",
     "quote_id": "USDT",
@@ -29638,8 +29658,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.001
+      "tick_size": 1e-10,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -29658,7 +29678,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -41209,6 +41229,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SWFTC_USDT",
+    "base_id": "SWFTC",
+    "quote_id": "USDT",
+    "base": "SWFTC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
