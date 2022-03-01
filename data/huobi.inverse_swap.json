@@ -186,6 +186,29 @@
   {
     "exchange": "huobi",
     "market_type": "inverse_swap",
+    "symbol": "BNB-USD",
+    "base_id": "BNB",
+    "quote_id": "USD",
+    "settle_id": "BNB",
+    "base": "BNB",
+    "quote": "USD",
+    "settle": "BNB",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "inverse_swap",
     "symbol": "BSV-USD",
     "base_id": "BSV",
     "quote_id": "USD",
@@ -454,6 +477,52 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "inverse_swap",
+    "symbol": "FTM-USD",
+    "base_id": "FTM",
+    "quote_id": "USD",
+    "settle_id": "FTM",
+    "base": "FTM",
+    "quote": "USD",
+    "settle": "FTM",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "inverse_swap",
+    "symbol": "GALA-USD",
+    "base_id": "GALA",
+    "quote_id": "USD",
+    "settle_id": "GALA",
+    "base": "GALA",
+    "quote": "USD",
+    "settle": "GALA",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 10.0,

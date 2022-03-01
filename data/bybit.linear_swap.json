@@ -29,6 +29,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "1000BTTUSDT",
+    "base_id": "1000BTT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1000BTT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 5000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "1INCHUSDT",
     "base_id": "1INCH",
     "quote_id": "USDT",
@@ -218,6 +245,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "API3USDT",
+    "base_id": "API3",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "API3",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 3000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "ARUSDT",
     "base_id": "AR",
     "quote_id": "USDT",
@@ -346,6 +400,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 5000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "BANDUSDT",
+    "base_id": "BAND",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BAND",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 6000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -697,6 +778,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "CKBUSDT",
+    "base_id": "CKB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CKB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 1500000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1649,6 +1757,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "JSTUSDT",
+    "base_id": "JST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "JST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "KAVAUSDT",
     "base_id": "KAVA",
     "quote_id": "USDT",
@@ -2054,6 +2189,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "MKRUSDT",
+    "base_id": "MKR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MKR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.5,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 20.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "NEARUSDT",
     "base_id": "NEAR",
     "quote_id": "USDT",
@@ -2101,6 +2263,33 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 1000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "OCEANUSDT",
+    "base_id": "OCEAN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OCEAN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2209,6 +2398,60 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 6000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "RAYUSDT",
+    "base_id": "RAY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RAY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 7000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "REEFUSDT",
+    "base_id": "REEF",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "REEF",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 2000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2344,6 +2587,33 @@
     "quantity_limit": {
       "min": 10.0,
       "max": 400000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "RSS3USDT",
+    "base_id": "RSS3",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RSS3",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2695,6 +2965,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 5000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "SUNUSDT",
+    "base_id": "SUN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SUN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 800000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3099,7 +3396,7 @@
     },
     "quantity_limit": {
       "min": 0.0001,
-      "max": 1.0
+      "max": 1.5
     },
     "contract_value": 1.0,
     "info": {}

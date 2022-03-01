@@ -494,8 +494,8 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
-      "lot_size": 0.001
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -1414,8 +1414,8 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -2096,6 +2096,46 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "DIGAU-BTC",
+    "base_id": "DIGAU",
+    "quote_id": "BTC",
+    "base": "DIGAU",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "DIGAU-USDT",
+    "base_id": "DIGAU",
+    "quote_id": "USDT",
+    "base": "DIGAU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -3536,6 +3576,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "IQN-USDT",
+    "base_id": "IQN",
+    "quote_id": "USDT",
+    "base": "IQN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -7116,6 +7176,46 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "XELS-BTC",
+    "base_id": "XELS",
+    "quote_id": "BTC",
+    "base": "XELS",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
+    "symbol": "XELS-USDT",
+    "base_id": "XELS",
+    "quote_id": "USDT",
+    "base": "XELS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
     },
     "info": {}
   },

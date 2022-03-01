@@ -1154,6 +1154,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tBMNBTC",
+    "base_id": "BMN",
+    "quote_id": "BTC",
+    "base": "BMN",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tBMNUSD",
+    "base_id": "BMN",
+    "quote_id": "USD",
+    "base": "BMN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tBNTUSD",
     "base_id": "BNT",
     "quote_id": "USD",
@@ -3914,6 +3962,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tGBPEUT",
+    "base_id": "GBP",
+    "quote_id": "EUT",
+    "base": "GBP",
+    "quote": "EURT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tGBPUST",
+    "base_id": "GBP",
+    "quote_id": "UST",
+    "base": "GBP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tGNOUSD",
     "base_id": "GNO",
     "quote_id": "USD",
@@ -4580,6 +4676,30 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tJPYUST",
+    "base_id": "JPY",
+    "quote_id": "UST",
+    "base": "JPY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 50000000.0
     },
     "info": {}
   },

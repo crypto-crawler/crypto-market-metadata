@@ -38,7 +38,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -62,7 +62,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -86,7 +86,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -110,7 +110,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -398,7 +398,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -602,6 +602,30 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ALICE-USD",
+    "base_id": "ALICE",
+    "quote_id": "USD",
+    "base": "ALICE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 33000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "AMP-USD",
     "base_id": "AMP",
     "quote_id": "USD",
@@ -734,7 +758,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -758,7 +782,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -782,7 +806,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -902,7 +926,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -1526,7 +1550,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1550,7 +1574,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1574,7 +1598,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1598,7 +1622,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -1694,7 +1718,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -1814,7 +1838,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1838,7 +1862,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1934,7 +1958,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -2102,7 +2126,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.1,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -2174,7 +2198,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2222,7 +2246,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2246,7 +2270,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2270,7 +2294,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2342,7 +2366,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2510,7 +2534,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2534,7 +2558,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2558,7 +2582,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2846,7 +2870,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -3086,7 +3110,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -3182,7 +3206,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -3398,7 +3422,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -3638,7 +3662,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -3662,7 +3686,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -3758,7 +3782,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -3782,7 +3806,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -4046,7 +4070,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.1,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -4406,7 +4430,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -4526,7 +4550,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4550,7 +4574,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -5006,7 +5030,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -5918,7 +5942,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -6038,7 +6062,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -6326,7 +6350,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -6566,7 +6590,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -6662,7 +6686,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -6758,7 +6782,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -7046,7 +7070,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -7190,7 +7214,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -7214,7 +7238,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -7286,7 +7310,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -7502,7 +7526,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -7862,7 +7886,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -7886,7 +7910,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -8102,7 +8126,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -8150,7 +8174,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -8198,7 +8222,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -8222,7 +8246,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -8246,7 +8270,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -8774,7 +8798,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -8798,7 +8822,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -8822,7 +8846,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -8846,7 +8870,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -8870,7 +8894,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -9302,7 +9326,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -9350,7 +9374,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -9686,7 +9710,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -9734,7 +9758,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -9830,7 +9854,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -9998,7 +10022,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10238,7 +10262,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10262,7 +10286,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10358,7 +10382,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10406,7 +10430,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10454,7 +10478,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -10790,7 +10814,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10886,7 +10910,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -10910,7 +10934,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -10934,7 +10958,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -11174,7 +11198,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.0001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
