@@ -27046,6 +27046,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "METAN_USDT",
+    "base_id": "METAN",
+    "quote_id": "USDT",
+    "base": "METAN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "METAX_ETH",
     "base_id": "METAX",
     "quote_id": "ETH",

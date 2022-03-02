@@ -802,6 +802,46 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "ATOM/USD",
+    "base_id": "ATOM",
+    "quote_id": "USD",
+    "base": "ATOM",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0025,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
+    "symbol": "ATOM/USDT",
+    "base_id": "ATOM",
+    "quote_id": "USDT",
+    "base": "ATOM",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0025,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "ATOMBEAR/USD",
     "base_id": "ATOMBEAR",
     "quote_id": "USD",
@@ -1434,7 +1474,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-7,
+      "tick_size": 2.5e-7,
       "lot_size": 100.0
     },
     "info": {}
@@ -1454,7 +1494,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-7,
+      "tick_size": 2.5e-7,
       "lot_size": 100.0
     },
     "info": {}
@@ -1494,8 +1534,8 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.025,
-      "lot_size": 0.001
+      "tick_size": 0.05,
+      "lot_size": 0.0001
     },
     "info": {}
   },
@@ -3894,7 +3934,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00005,
       "lot_size": 1.0
     },
     "info": {}
@@ -5154,7 +5194,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00025,
+      "tick_size": 0.0005,
       "lot_size": 0.1
     },
     "info": {}
@@ -5554,7 +5594,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.000025,
+      "tick_size": 0.00005,
       "lot_size": 1.0
     },
     "info": {}
@@ -5574,7 +5614,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.000025,
+      "tick_size": 0.00005,
       "lot_size": 1.0
     },
     "info": {}
@@ -6216,6 +6256,46 @@
     "precision": {
       "tick_size": 0.00025,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
+    "symbol": "LUNA/USD",
+    "base_id": "LUNA",
+    "quote_id": "USD",
+    "base": "LUNA",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
+    "symbol": "LUNA/USDT",
+    "base_id": "LUNA",
+    "quote_id": "USDT",
+    "base": "LUNA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -8694,7 +8774,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0025,
       "lot_size": 0.01
     },
     "info": {}
