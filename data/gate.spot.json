@@ -9988,6 +9988,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CRO3L_USDT",
+    "base_id": "CRO3L",
+    "quote_id": "USDT",
+    "base": "CRO3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CRO3S_USDT",
+    "base_id": "CRO3S",
+    "quote_id": "USDT",
+    "base": "CRO3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CRO_USDT",
     "base_id": "CRO",
     "quote_id": "USDT",
@@ -12040,7 +12080,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-8,
       "lot_size": 0.001
     },
     "info": {}
@@ -12060,7 +12100,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -25091,6 +25131,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LOOT_USDT",
+    "base_id": "LOOT",
+    "quote_id": "USDT",
+    "base": "LOOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "info": {}
   },
@@ -45069,6 +45129,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "UPI_USDT",
+    "base_id": "UPI",
+    "quote_id": "USDT",
+    "base": "UPI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
