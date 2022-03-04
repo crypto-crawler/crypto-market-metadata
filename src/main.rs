@@ -20,7 +20,7 @@ fn main() {
         "kraken",
         "kucoin",
         "mxc",
-        "okex",
+        "okx",
         "zbg",
     ];
     for exchange in exchanges {
