@@ -2954,6 +2954,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "API3TRY",
+    "base_id": "API3",
+    "quote_id": "TRY",
+    "base": "API3",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "API3USDT",
     "base_id": "API3",
     "quote_id": "USDT",
@@ -19898,6 +19922,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "GLMRBNB",
+    "base_id": "GLMR",
+    "quote_id": "BNB",
+    "base": "GLMR",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "GLMRBTC",
     "base_id": "GLMR",
     "quote_id": "BTC",
@@ -26834,6 +26882,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "MBOXTRY",
+    "base_id": "MBOX",
+    "quote_id": "TRY",
+    "base": "MBOX",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "MBOXUSDT",
     "base_id": "MBOX",
     "quote_id": "USDT",
@@ -31039,18 +31111,18 @@
     "quote_id": "BUSD",
     "base": "PAXG",
     "quote": "BUSD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.01,
-      "lot_size": 1e-6
+      "tick_size": 1.0,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1e-6,
+      "min": 0.0001,
       "max": 9000.0
     },
     "info": {}

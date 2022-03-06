@@ -1,0 +1,132 @@
+[
+  {
+    "exchange": "kraken",
+    "market_type": "inverse_swap",
+    "symbol": "pi_bchusd",
+    "base_id": "bch",
+    "quote_id": "usd",
+    "settle_id": "bch",
+    "base": "BCH",
+    "quote": "USD",
+    "settle": "BCH",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "inverse_swap",
+    "symbol": "pi_ethusd",
+    "base_id": "eth",
+    "quote_id": "usd",
+    "settle_id": "eth",
+    "base": "ETH",
+    "quote": "USD",
+    "settle": "ETH",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "inverse_swap",
+    "symbol": "pi_ltcusd",
+    "base_id": "ltc",
+    "quote_id": "usd",
+    "settle_id": "ltc",
+    "base": "LTC",
+    "quote": "USD",
+    "settle": "LTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "inverse_swap",
+    "symbol": "pi_xbtusd",
+    "base_id": "xbt",
+    "quote_id": "usd",
+    "settle_id": "xbt",
+    "base": "BTC",
+    "quote": "USD",
+    "settle": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.5,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "inverse_swap",
+    "symbol": "pi_xrpusd",
+    "base_id": "xrp",
+    "quote_id": "usd",
+    "settle_id": "xrp",
+    "base": "XRP",
+    "quote": "USD",
+    "settle": "XRP",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  }
+]
