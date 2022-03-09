@@ -2693,6 +2693,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "wtf_usdt",
+    "base_id": "wtf",
+    "quote_id": "usdt",
+    "base": "WTF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "xch_usdt",
     "base_id": "xch",
     "quote_id": "usdt",

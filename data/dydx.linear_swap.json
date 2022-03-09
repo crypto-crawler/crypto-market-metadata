@@ -314,6 +314,32 @@
   {
     "exchange": "dydx",
     "market_type": "linear_swap",
+    "symbol": "ENJ-USD",
+    "base_id": "ENJ",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "ENJ",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "dydx",
+    "market_type": "linear_swap",
     "symbol": "EOS-USD",
     "base_id": "EOS",
     "quote_id": "USD",
