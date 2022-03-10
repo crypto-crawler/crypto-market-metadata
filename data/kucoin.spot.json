@@ -4082,6 +4082,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BULL-USDT",
+    "base_id": "BULL",
+    "quote_id": "USDT",
+    "base": "BULL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BURGER-BTC",
     "base_id": "BURGER",
     "quote_id": "BTC",
@@ -11600,7 +11624,7 @@
     "base": "HOTCROSS",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -19760,7 +19784,7 @@
     "base": "RANKER",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -20432,7 +20456,7 @@
     "base": "ROUTE",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -21032,7 +21056,7 @@
     "base": "SHILL",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

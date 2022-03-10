@@ -1497,6 +1497,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "justice_usdt",
+    "base_id": "justice",
+    "quote_id": "usdt",
+    "base": "JUSTICE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "kerri_usdt",
     "base_id": "kerri",
     "quote_id": "usdt",

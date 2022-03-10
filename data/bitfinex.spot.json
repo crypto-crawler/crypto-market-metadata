@@ -6554,6 +6554,30 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tPOLC:UST",
+    "base_id": "POLC",
+    "quote_id": "UST",
+    "base": "POLC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tQRDO:USD",
     "base_id": "QRDO",
     "quote_id": "USD",
@@ -7111,6 +7135,30 @@
     "quote_id": "USD",
     "base": "SHFT",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSHFT:UST",
+    "base_id": "SHFT",
+    "quote_id": "UST",
+    "base": "SHFT",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {
