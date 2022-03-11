@@ -2394,6 +2394,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "sos_usdt",
+    "base_id": "sos",
+    "quote_id": "usdt",
+    "base": "SOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "suku_usdt",
     "base_id": "suku",
     "quote_id": "usdt",
