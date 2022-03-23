@@ -19,7 +19,7 @@ fn main() {
         "huobi",
         "kraken",
         "kucoin",
-        "mxc",
+        "mexc",
         "okx",
         "zbg",
     ];
