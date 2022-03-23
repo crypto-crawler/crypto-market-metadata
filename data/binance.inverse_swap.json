@@ -56,6 +56,33 @@
   {
     "exchange": "binance",
     "market_type": "inverse_swap",
+    "symbol": "ALGOUSD_PERP",
+    "base_id": "ALGO",
+    "quote_id": "USD",
+    "settle_id": "ALGO",
+    "base": "ALGO",
+    "quote": "USD",
+    "settle": "ALGO",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
     "symbol": "ATOMUSD_PERP",
     "base_id": "ATOM",
     "quote_id": "USD",
@@ -488,6 +515,33 @@
   {
     "exchange": "binance",
     "market_type": "inverse_swap",
+    "symbol": "ICXUSD_PERP",
+    "base_id": "ICX",
+    "quote_id": "USD",
+    "settle_id": "ICX",
+    "base": "ICX",
+    "quote": "USD",
+    "settle": "ICX",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
     "symbol": "LINKUSD_PERP",
     "base_id": "LINK",
     "quote_id": "USD",
@@ -665,6 +719,33 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
+    "symbol": "RUNEUSD_PERP",
+    "base_id": "RUNE",
+    "quote_id": "USD",
+    "settle_id": "RUNE",
+    "base": "RUNE",
+    "quote": "USD",
+    "settle": "RUNE",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {

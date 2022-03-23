@@ -830,6 +830,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "APE/EUR",
+    "base_id": "APE",
+    "quote_id": "ZEUR",
+    "base": "APE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "APE/USD",
+    "base_id": "APE",
+    "quote_id": "ZUSD",
+    "base": "APE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ASTR/EUR",
     "base_id": "ASTR",
     "quote_id": "ZEUR",
@@ -4159,6 +4205,52 @@
     },
     "quantity_limit": {
       "min": 3.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ICP/EUR",
+    "base_id": "ICP",
+    "quote_id": "ZEUR",
+    "base": "ICP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.25
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ICP/USD",
+    "base_id": "ICP",
+    "quote_id": "ZUSD",
+    "base": "ICP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.25
     },
     "info": {}
   },

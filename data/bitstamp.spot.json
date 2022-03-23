@@ -322,6 +322,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "avaxeur",
+    "base_id": "AVAX",
+    "quote_id": "EUR",
+    "base": "AVAX",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "avaxusd",
+    "base_id": "AVAX",
+    "quote_id": "USD",
+    "base": "AVAX",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "axseur",
     "base_id": "AXS",
     "quote_id": "EUR",
@@ -2556,6 +2596,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "wbtcbtc",
+    "base_id": "WBTC",
+    "quote_id": "BTC",
+    "base": "WBTC",
+    "quote": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "info": {}
   },

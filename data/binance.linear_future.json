@@ -58,6 +58,34 @@
   {
     "exchange": "binance",
     "market_type": "linear_future",
+    "symbol": "BTCUSDT_220624",
+    "base_id": "BTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1656057600000,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_future",
     "symbol": "ETHUSDT_211231",
     "base_id": "ETH",
     "quote_id": "USDT",
@@ -109,6 +137,34 @@
     },
     "contract_value": 1.0,
     "delivery_date": 1648195200000,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_future",
+    "symbol": "ETHUSDT_220624",
+    "base_id": "ETH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1656057600000,
     "info": {}
   }
 ]

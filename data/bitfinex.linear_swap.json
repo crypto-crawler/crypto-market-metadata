@@ -110,6 +110,33 @@
   {
     "exchange": "bitfinex",
     "market_type": "linear_swap",
+    "symbol": "tAPEF0:USTF0",
+    "base_id": "APEF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "APE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 50000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
     "symbol": "tATOF0:USTF0",
     "base_id": "ATOF0",
     "quote_id": "USTF0",
@@ -655,6 +682,33 @@
     "quote_id": "USTF0",
     "settle_id": "USTF0",
     "base": "FTM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
+    "symbol": "tGALAF0:USTF0",
+    "base_id": "GALAF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "GALA",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

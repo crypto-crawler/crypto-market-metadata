@@ -1658,6 +1658,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "APE-USDT",
+    "base_id": "APE",
+    "quote_id": "USDT",
+    "base": "APE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "API3-USDT",
     "base_id": "API3",
     "quote_id": "USDT",
@@ -6656,7 +6680,7 @@
     "base": "DEGO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -10809,6 +10833,30 @@
     "quote": "USDT",
     "active": true,
     "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "GMT-USDT",
+    "base_id": "GMT",
+    "quote_id": "USDT",
+    "base": "GMT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -15314,6 +15362,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MELOS-USDT",
+    "base_id": "MELOS",
+    "quote_id": "USDT",
+    "base": "MELOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MEM-USDT",
     "base_id": "MEM",
     "quote_id": "USDT",
@@ -15392,7 +15464,7 @@
     "base": "MFT",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -19640,7 +19712,7 @@
     "base": "QRDO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -19766,7 +19838,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -19784,7 +19856,7 @@
     "base": "RANKER",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -20456,7 +20528,7 @@
     "base": "ROUTE",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -21056,7 +21128,7 @@
     "base": "SHILL",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -21691,6 +21763,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SON-USDT",
+    "base_id": "SON",
+    "quote_id": "USDT",
+    "base": "SON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -23312,7 +23408,7 @@
     "base": "TLOS",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -27392,7 +27488,7 @@
     "base": "XYO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
