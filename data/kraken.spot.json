@@ -10260,6 +10260,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "XRT/EUR",
+    "base_id": "XRT",
+    "quote_id": "ZEUR",
+    "base": "XRT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XRT/USD",
+    "base_id": "XRT",
+    "quote_id": "ZUSD",
+    "base": "XRT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "XTZ/AUD",
     "base_id": "XTZ",
     "quote_id": "ZAUD",
