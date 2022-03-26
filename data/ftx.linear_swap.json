@@ -1681,6 +1681,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "GLMR-PERP",
+    "base_id": "GLMR",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "GLMR",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00025,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "GMT-PERP",
     "base_id": "GMT",
     "quote_id": "USD",
@@ -2502,6 +2525,29 @@
     "precision": {
       "tick_size": 0.000025,
       "lot_size": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
+    "symbol": "MOB-PERP",
+    "base_id": "MOB",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "MOB",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
     },
     "contract_value": 1.0,
     "info": {}

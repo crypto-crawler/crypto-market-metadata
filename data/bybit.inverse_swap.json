@@ -2,6 +2,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "ADAUSD",
+    "base_id": "ADA",
+    "quote_id": "USD",
+    "settle_id": "ADA",
+    "base": "ADA",
+    "quote": "USD",
+    "settle": "ADA",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 150000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "BITUSD",
     "base_id": "BIT",
     "quote_id": "USD",
@@ -130,6 +157,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "SOLUSD",
+    "base_id": "SOL",
+    "quote_id": "USD",
+    "settle_id": "SOL",
+    "base": "SOL",
+    "quote": "USD",
+    "settle": "SOL",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 150000.0
     },
     "contract_value": 1.0,
     "info": {}

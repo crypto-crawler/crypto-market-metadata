@@ -12410,6 +12410,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "DUEL_USDT",
+    "base_id": "DUEL",
+    "quote_id": "USDT",
+    "base": "DUEL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "DUSK3L_USDT",
     "base_id": "DUSK3L",
     "quote_id": "USDT",
@@ -26871,6 +26895,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "NPAS_USDT",
+    "base_id": "NPAS",
+    "quote_id": "USDT",
+    "base": "NPAS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {

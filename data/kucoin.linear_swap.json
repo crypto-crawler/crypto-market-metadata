@@ -1129,6 +1129,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "JASMYUSDTM",
+    "base_id": "JASMY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "JASMY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "KEEPUSDTM",
     "base_id": "KEEP",
     "quote_id": "USDT",
@@ -1814,6 +1837,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "SRMUSDTM",
+    "base_id": "SRM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SRM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
