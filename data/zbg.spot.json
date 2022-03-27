@@ -1451,6 +1451,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "glmr_usdt",
+    "base_id": "glmr",
+    "quote_id": "usdt",
+    "base": "GLMR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "gno_usdt",
     "base_id": "gno",
     "quote_id": "usdt",
