@@ -12248,6 +12248,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DEUS_USDT",
+    "base_id": "DEUS",
+    "quote_id": "USDT",
+    "base": "DEUS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DEVT_USDT",
     "base_id": "DEVT",
     "quote_id": "USDT",

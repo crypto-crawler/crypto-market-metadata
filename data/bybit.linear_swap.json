@@ -1163,6 +1163,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "DGBUSDT",
+    "base_id": "DGB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DGB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "DOGEUSDT",
     "base_id": "DOGE",
     "quote_id": "USDT",
@@ -1696,6 +1723,33 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 420.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "HOTUSDT",
+    "base_id": "HOT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HOT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 5000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3161,6 +3215,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "STMXUSDT",
+    "base_id": "STMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 500000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "STORJUSDT",
     "base_id": "STORJ",
     "quote_id": "USDT",
@@ -3748,6 +3829,33 @@
     "quantity_limit": {
       "min": 10.0,
       "max": 300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "ZRXUSDT",
+    "base_id": "ZRX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZRX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 20000.0
     },
     "contract_value": 1.0,
     "info": {}

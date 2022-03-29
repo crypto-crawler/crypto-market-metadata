@@ -842,6 +842,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BOT_USDT",
+    "base_id": "BOT",
+    "quote_id": "USDT",
+    "base": "BOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BPRIVA_USDT",
     "base_id": "BPRIVA",
     "quote_id": "USDT",
