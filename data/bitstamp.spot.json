@@ -1482,6 +1482,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "imxeur",
+    "base_id": "IMX",
+    "quote_id": "EUR",
+    "base": "IMX",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "imxusd",
+    "base_id": "IMX",
+    "quote_id": "USD",
+    "base": "IMX",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "kncbtc",
     "base_id": "KNC",
     "quote_id": "BTC",
@@ -1815,6 +1855,46 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "nexoeur",
+    "base_id": "NEXO",
+    "quote_id": "EUR",
+    "base": "NEXO",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "nexousd",
+    "base_id": "NEXO",
+    "quote_id": "USD",
+    "base": "NEXO",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
       "lot_size": 0.01
     },
     "info": {}
