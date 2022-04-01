@@ -4646,6 +4646,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "STEPN_USDT",
+    "base_id": "STEPN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STEPN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "STMX_USDT",
     "base_id": "STMX",
     "quote_id": "USDT",

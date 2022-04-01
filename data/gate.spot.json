@@ -3342,6 +3342,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ATM_USDT",
+    "base_id": "ATM",
+    "quote_id": "USDT",
+    "base": "ATM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ATOLO_USDT",
+    "base_id": "ATOLO",
+    "quote_id": "USDT",
+    "base": "ATOLO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ATOM3L_USDT",
     "base_id": "ATOM3L",
     "quote_id": "USDT",
@@ -50094,6 +50134,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XY_USDT",
+    "base_id": "XY",
+    "quote_id": "USDT",
+    "base": "XY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}

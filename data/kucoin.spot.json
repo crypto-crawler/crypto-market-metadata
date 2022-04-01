@@ -3530,6 +3530,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BNC-USDT",
+    "base_id": "BNC",
+    "quote_id": "USDT",
+    "base": "BNC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BNS-BTC",
     "base_id": "BNS",
     "quote_id": "BTC",
@@ -12355,6 +12379,54 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "JAM-ETH",
+    "base_id": "JAM",
+    "quote_id": "ETH",
+    "base": "JAM",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "JAM-USDT",
+    "base_id": "JAM",
+    "quote_id": "USDT",
+    "base": "JAM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}

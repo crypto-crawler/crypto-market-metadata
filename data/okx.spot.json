@@ -7569,6 +7569,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "OKDOT1-DOT",
+    "base_id": "OKDOT1",
+    "quote_id": "DOT",
+    "base": "OKDOT1",
+    "quote": "DOT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "OKDOT2-DOT",
+    "base_id": "OKDOT2",
+    "quote_id": "DOT",
+    "base": "OKDOT2",
+    "quote": "DOT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "OKT-BTC",
     "base_id": "OKT",
     "quote_id": "BTC",
@@ -9656,6 +9702,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "T-USDT",
+    "base_id": "T",
+    "quote_id": "USDT",
+    "base": "T",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
