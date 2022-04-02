@@ -1957,6 +1957,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "IOST-PERP",
+    "base_id": "IOST",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "IOST",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "IOTA-PERP",
     "base_id": "IOTA",
     "quote_id": "USD",
@@ -1973,6 +1996,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
+    "symbol": "JASMY-PERP",
+    "base_id": "JASMY",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "JASMY",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 2.5e-6,
+      "lot_size": 100.0
     },
     "contract_value": 1.0,
     "info": {}
