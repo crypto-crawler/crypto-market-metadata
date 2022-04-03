@@ -968,6 +968,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "dia_usdt",
+    "base_id": "dia",
+    "quote_id": "usdt",
+    "base": "DIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "dog_usdt",
     "base_id": "dog",
     "quote_id": "usdt",
