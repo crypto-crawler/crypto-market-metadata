@@ -866,6 +866,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tB2MUSD",
+    "base_id": "B2M",
+    "quote_id": "USD",
+    "base": "B2M",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tB2MUST",
+    "base_id": "B2M",
+    "quote_id": "UST",
+    "base": "B2M",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tBALUSD",
     "base_id": "BAL",
     "quote_id": "USD",
