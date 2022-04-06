@@ -366,6 +366,32 @@
   {
     "exchange": "dydx",
     "market_type": "linear_swap",
+    "symbol": "ETC-USD",
+    "base_id": "ETC",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "ETC",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "dydx",
+    "market_type": "linear_swap",
     "symbol": "ETH-USD",
     "base_id": "ETH",
     "quote_id": "USD",

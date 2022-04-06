@@ -2440,6 +2440,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "rlc_usdt",
+    "base_id": "rlc",
+    "quote_id": "usdt",
+    "base": "RLC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "rss3_usdt",
     "base_id": "rss3",
     "quote_id": "usdt",
