@@ -24056,7 +24056,7 @@
     "base": "KDA",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -24080,7 +24080,7 @@
     "base": "KDA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -27536,7 +27536,7 @@
     "base": "MBL",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -28940,6 +28940,78 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 900000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "MULTIBTC",
+    "base_id": "MULTI",
+    "quote_id": "BTC",
+    "base": "MULTI",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "MULTIBUSD",
+    "base_id": "MULTI",
+    "quote_id": "BUSD",
+    "base": "MULTI",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "MULTIUSDT",
+    "base_id": "MULTI",
+    "quote_id": "USDT",
+    "base": "MULTI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 9222449.0
     },
     "info": {}
   },

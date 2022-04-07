@@ -13328,6 +13328,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DOGE5L_USDT",
+    "base_id": "DOGE5L",
+    "quote_id": "USDT",
+    "base": "DOGE5L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DOGE5S_USDT",
+    "base_id": "DOGE5S",
+    "quote_id": "USDT",
+    "base": "DOGE5S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DOGEDASH_ETH",
     "base_id": "DOGEDASH",
     "quote_id": "ETH",
@@ -28159,6 +28199,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MENGO_USDT",
+    "base_id": "MENGO",
+    "quote_id": "USDT",
+    "base": "MENGO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
