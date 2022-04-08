@@ -30286,6 +30286,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NAP_USDT",
+    "base_id": "NAP",
+    "quote_id": "USDT",
+    "base": "NAP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NAS_BTC",
     "base_id": "NAS",
     "quote_id": "BTC",
@@ -47955,6 +47975,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WALLET_USDT",
+    "base_id": "WALLET",
+    "quote_id": "USDT",
+    "base": "WALLET",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
