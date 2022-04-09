@@ -110,6 +110,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "ACHUSDT",
+    "base_id": "ACH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ACH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 720000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "ADAUSDT",
     "base_id": "ADA",
     "quote_id": "USDT",
@@ -535,6 +562,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 15000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "BALUSDT",
+    "base_id": "BAL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BAL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.005,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 750.0
     },
     "contract_value": 1.0,
     "info": {}

@@ -3836,6 +3836,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "WOOUSDT",
+    "base_id": "WOO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WOO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "XEMUSDT",
     "base_id": "XEM",
     "quote_id": "USDT",
