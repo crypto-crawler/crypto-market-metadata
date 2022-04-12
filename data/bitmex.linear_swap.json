@@ -278,6 +278,29 @@
   {
     "exchange": "bitmex",
     "market_type": "linear_swap",
+    "symbol": "GMTUSDT",
+    "base_id": "GMT",
+    "quote_id": "USDT",
+    "settle_id": "USDt",
+    "base": "GMT",
+    "quote": "USDT",
+    "settle": "USDt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1000.0
+    },
+    "contract_value": 0.00001,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "linear_swap",
     "symbol": "LINKUSDT",
     "base_id": "LINK",
     "quote_id": "USDT",
