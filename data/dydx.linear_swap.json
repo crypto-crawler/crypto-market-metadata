@@ -496,6 +496,32 @@
   {
     "exchange": "dydx",
     "market_type": "linear_swap",
+    "symbol": "LUNA-USD",
+    "base_id": "LUNA",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "LUNA",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "dydx",
+    "market_type": "linear_swap",
     "symbol": "MATIC-USD",
     "base_id": "MATIC",
     "quote_id": "USD",
@@ -541,6 +567,32 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "dydx",
+    "market_type": "linear_swap",
+    "symbol": "NEAR-USD",
+    "base_id": "NEAR",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "NEAR",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}

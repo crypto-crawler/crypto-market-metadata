@@ -15748,6 +15748,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ESG_USDT",
+    "base_id": "ESG",
+    "quote_id": "USDT",
+    "base": "ESG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ESS_ETH",
     "base_id": "ESS",
     "quote_id": "ETH",
@@ -51855,6 +51875,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZMT_USDT",
+    "base_id": "ZMT",
+    "quote_id": "USDT",
+    "base": "ZMT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
