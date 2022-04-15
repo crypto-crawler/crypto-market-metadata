@@ -4882,6 +4882,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BBF_USDT",
+    "base_id": "BBF",
+    "quote_id": "USDT",
+    "base": "BBF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BCDN_ETH",
     "base_id": "BCDN",
     "quote_id": "ETH",
@@ -30120,6 +30140,46 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MULTI_ETH",
+    "base_id": "MULTI",
+    "quote_id": "ETH",
+    "base": "MULTI",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MULTI_USDT",
+    "base_id": "MULTI",
+    "quote_id": "USDT",
+    "base": "MULTI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
     },
     "info": {}
   },

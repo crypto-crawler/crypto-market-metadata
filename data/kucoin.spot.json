@@ -3746,6 +3746,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BNX-USDT",
+    "base_id": "BNX",
+    "quote_id": "USDT",
+    "base": "BNX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BOA-USDT",
     "base_id": "BOA",
     "quote_id": "USDT",
@@ -10472,7 +10496,7 @@
     "base": "FXS",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -26018,6 +26042,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "VISION-USDT",
+    "base_id": "VISION",
+    "quote_id": "USDT",
+    "base": "VISION",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "VLX-BTC",
     "base_id": "VLX",
     "quote_id": "BTC",
@@ -28411,6 +28459,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ZBC-USDT",
+    "base_id": "ZBC",
+    "quote_id": "USDT",
+    "base": "ZBC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
