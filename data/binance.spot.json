@@ -20690,6 +20690,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "GMTTRY",
+    "base_id": "GMT",
+    "quote_id": "TRY",
+    "base": "GMT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 922327.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "GMTUSDT",
     "base_id": "GMT",
     "quote_id": "USDT",
@@ -44587,6 +44611,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 92233.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "WAVESTRY",
+    "base_id": "WAVES",
+    "quote_id": "TRY",
+    "base": "WAVES",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
       "max": 92233.0
     },
     "info": {}

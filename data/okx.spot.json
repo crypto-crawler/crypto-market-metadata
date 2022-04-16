@@ -7546,6 +7546,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "NYM-USDT",
+    "base_id": "NYM",
+    "quote_id": "USDT",
+    "base": "NYM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "OKB-BTC",
     "base_id": "OKB",
     "quote_id": "BTC",

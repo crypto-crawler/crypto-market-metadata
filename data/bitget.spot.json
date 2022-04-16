@@ -1014,8 +1014,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.0001
+      "tick_size": 1e-9,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -2462,6 +2462,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "GLM_USDT",
+    "base_id": "GLM",
+    "quote_id": "USDT",
+    "base": "GLM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "GMT_USDT",
     "base_id": "GMT",
     "quote_id": "USDT",
@@ -3602,6 +3622,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "NFT_USDT",
+    "base_id": "NFT",
+    "quote_id": "USDT",
+    "base": "NFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "NKN_USDT",
     "base_id": "NKN",
     "quote_id": "USDT",
@@ -3636,6 +3676,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "NYM_USDT",
+    "base_id": "NYM",
+    "quote_id": "USDT",
+    "base": "NYM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -5095,6 +5155,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "TUSD_USDT",
+    "base_id": "TUSD",
+    "quote_id": "USDT",
+    "base": "TUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "info": {}

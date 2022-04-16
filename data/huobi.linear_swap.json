@@ -1198,6 +1198,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "GLMR-USDT",
+    "base_id": "GLMR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GLMR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "GMT-USDT",
     "base_id": "GMT",
     "quote_id": "USDT",
@@ -1906,6 +1929,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "NYM-USDT",
+    "base_id": "NYM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NYM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -2708,6 +2754,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "XCN-USDT",
+    "base_id": "XCN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XCN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
