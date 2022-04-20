@@ -110,6 +110,33 @@
   {
     "exchange": "bitfinex",
     "market_type": "linear_swap",
+    "symbol": "tANCF0:USTF0",
+    "base_id": "ANCF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "ANC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
     "symbol": "tAPEF0:USTF0",
     "base_id": "APEF0",
     "quote_id": "USTF0",
@@ -508,6 +535,33 @@
     "quantity_limit": {
       "min": 0.4,
       "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
+    "symbol": "tETCF0:USTF0",
+    "base_id": "ETCF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "ETC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1291,6 +1345,33 @@
     "quantity_limit": {
       "min": 0.08,
       "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
+    "symbol": "tWAVESF0:USTF0",
+    "base_id": "WAVESF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "WAVES",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 50000.0
     },
     "contract_value": 1.0,
     "info": {}
