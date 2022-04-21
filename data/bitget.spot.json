@@ -1962,6 +1962,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ELT_USDT",
+    "base_id": "ELT",
+    "quote_id": "USDT",
+    "base": "ELT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ENJ_BTC",
     "base_id": "ENJ",
     "quote_id": "BTC",
@@ -2674,8 +2694,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1.0,
-      "lot_size": 1.0
+      "tick_size": 0.001,
+      "lot_size": 0.001
     },
     "info": {}
   },
