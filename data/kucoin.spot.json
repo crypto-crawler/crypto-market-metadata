@@ -8432,7 +8432,7 @@
     "base": "ELON",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -11683,6 +11683,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HAWK-USDT",
+    "base_id": "HAWK",
+    "quote_id": "USDT",
+    "base": "HAWK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -20426,6 +20450,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RACA-USDT",
+    "base_id": "RACA",
+    "quote_id": "USDT",
+    "base": "RACA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "RACEFI-USDT",
     "base_id": "RACEFI",
     "quote_id": "USDT",
@@ -24794,6 +24842,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "TRVL-BTC",
+    "base_id": "TRVL",
+    "quote_id": "BTC",
+    "base": "TRVL",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "TRVL-USDT",
     "base_id": "TRVL",
     "quote_id": "USDT",
@@ -28459,6 +28531,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XWG-USDT",
+    "base_id": "XWG",
+    "quote_id": "USDT",
+    "base": "XWG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}

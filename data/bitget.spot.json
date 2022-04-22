@@ -2322,6 +2322,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FLUX_USDT",
+    "base_id": "FLUX",
+    "quote_id": "USDT",
+    "base": "FLUX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FOR_USDT",
     "base_id": "FOR",
     "quote_id": "USDT",
@@ -5576,6 +5596,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "VT_USDT",
+    "base_id": "VT",
+    "quote_id": "USDT",
+    "base": "VT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
     },
     "info": {}
   },
