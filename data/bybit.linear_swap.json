@@ -191,6 +191,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "AGLDUSDT",
+    "base_id": "AGLD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AGLD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 15000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "ALGOUSDT",
     "base_id": "ALGO",
     "quote_id": "USDT",
@@ -1453,6 +1480,33 @@
     "quantity_limit": {
       "min": 10.0,
       "max": 300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "DODOUSDT",
+    "base_id": "DODO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DODO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 80000.0
     },
     "contract_value": 1.0,
     "info": {}

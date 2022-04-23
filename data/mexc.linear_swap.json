@@ -3701,6 +3701,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "NYM_USDT",
+    "base_id": "NYM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NYM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "O3_USDT",
     "base_id": "O3",
     "quote_id": "USDT",
