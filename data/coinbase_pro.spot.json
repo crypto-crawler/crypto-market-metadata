@@ -9170,6 +9170,54 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ROSE-USD",
+    "base_id": "ROSE",
+    "quote_id": "USD",
+    "base": "ROSE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 970000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "ROSE-USDT",
+    "base_id": "ROSE",
+    "quote_id": "USDT",
+    "base": "ROSE",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 970000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "SHIB-EUR",
     "base_id": "SHIB",
     "quote_id": "EUR",
