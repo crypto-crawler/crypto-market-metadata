@@ -2831,6 +2831,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ENJ/JPY",
+    "base_id": "ENJ",
+    "quote_id": "ZJPY",
+    "base": "ENJ",
+    "quote": "JPY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ENJ/USD",
     "base_id": "ENJ",
     "quote_id": "ZUSD",

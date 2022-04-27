@@ -2302,6 +2302,26 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FITFI_USDT",
+    "base_id": "FITFI",
+    "quote_id": "USDT",
+    "base": "FITFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FLOKI_USDT",
     "base_id": "FLOKI",
     "quote_id": "USDT",
@@ -3736,6 +3756,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "MOONEY_USDT",
+    "base_id": "MOONEY",
+    "quote_id": "USDT",
+    "base": "MOONEY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },

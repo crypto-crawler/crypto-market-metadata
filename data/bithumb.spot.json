@@ -162,6 +162,26 @@
   {
     "exchange": "bithumb",
     "market_type": "spot",
+    "symbol": "ABYSS-USDT",
+    "base_id": "ABYSS",
+    "quote_id": "USDT",
+    "base": "ABYSS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bithumb",
+    "market_type": "spot",
     "symbol": "ADA-USDT",
     "base_id": "ADA",
     "quote_id": "USDT",
@@ -5274,8 +5294,8 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "info": {}
   },

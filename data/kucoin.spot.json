@@ -13658,6 +13658,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "KNC-USDT",
+    "base_id": "KNC",
+    "quote_id": "USDT",
+    "base": "KNC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "KOK-USDT",
     "base_id": "KOK",
     "quote_id": "USDT",
@@ -19922,6 +19946,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "POSI-USDT",
+    "base_id": "POSI",
+    "quote_id": "USDT",
+    "base": "POSI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "POWR-BTC",
     "base_id": "POWR",
     "quote_id": "BTC",
@@ -23048,7 +23096,7 @@
     "base": "STG",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
