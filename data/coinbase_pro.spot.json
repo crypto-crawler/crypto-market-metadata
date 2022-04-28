@@ -2527,14 +2527,14 @@
     "quote_id": "USD",
     "base": "BUSD",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -5138,6 +5138,54 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "GMT-USD",
+    "base_id": "GMT",
+    "quote_id": "USD",
+    "base": "GMT",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 75000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "GMT-USDT",
+    "base_id": "GMT",
+    "quote_id": "USDT",
+    "base": "GMT",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 75000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "GNT-USDC",
     "base_id": "GNT",
     "quote_id": "USDC",
@@ -5300,6 +5348,54 @@
     "quantity_limit": {
       "min": 0.96,
       "max": 2100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "GST-USD",
+    "base_id": "GST",
+    "quote_id": "USD",
+    "base": "GST",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 55000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "GST-USDT",
+    "base_id": "GST",
+    "quote_id": "USDT",
+    "base": "GST",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 55000.0
     },
     "info": {}
   },
