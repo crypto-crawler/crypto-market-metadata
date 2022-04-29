@@ -795,7 +795,7 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 1.0
+      "lot_size": 10.0
     },
     "info": {}
   },
@@ -815,7 +815,7 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 1.0
+      "lot_size": 10.0
     },
     "info": {}
   },
@@ -1915,7 +1915,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 10000000.0
+      "lot_size": 100000000.0
     },
     "info": {}
   },
@@ -1935,7 +1935,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 10000000.0
+      "lot_size": 100000000.0
     },
     "info": {}
   },
@@ -2014,7 +2014,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0005,
       "lot_size": 0.01
     },
     "info": {}
@@ -3762,6 +3762,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "DOT/JPY",
+    "base_id": "DOT",
+    "quote_id": "JPY",
+    "base": "DOT",
+    "quote": "JPY",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "DOT/USD",
     "base_id": "DOT",
     "quote_id": "USD",
@@ -3815,7 +3835,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 10000.0
+      "lot_size": 100000.0
     },
     "info": {}
   },
@@ -4555,7 +4575,7 @@
     },
     "precision": {
       "tick_size": 1.0,
-      "lot_size": 0.0001
+      "lot_size": 0.00001
     },
     "info": {}
   },
@@ -7435,7 +7455,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 10000000.0
+      "lot_size": 1000000.0
     },
     "info": {}
   },
