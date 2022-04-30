@@ -1703,6 +1703,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DAR_USDT",
+    "base_id": "DAR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DAR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "DASH_USDT",
     "base_id": "DASH",
     "quote_id": "USDT",

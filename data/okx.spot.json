@@ -4165,6 +4165,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "FAME-USDT",
+    "base_id": "FAME",
+    "quote_id": "USDT",
+    "base": "FAME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "FIL-BTC",
     "base_id": "FIL",
     "quote_id": "BTC",
@@ -10070,6 +10093,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TON-USDT",
+    "base_id": "TON",
+    "quote_id": "USDT",
+    "base": "TON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
