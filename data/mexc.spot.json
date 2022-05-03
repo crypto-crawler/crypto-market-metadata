@@ -16562,6 +16562,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "FAVOR_USDT",
+    "base_id": "FAVOR",
+    "quote_id": "USDT",
+    "base": "FAVOR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "FAYRE_USDT",
     "base_id": "FAYRE",
     "quote_id": "USDT",
@@ -24366,6 +24390,30 @@
     "base_id": "KXA",
     "quote_id": "USDT",
     "base": "KXA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "KZEN_USDT",
+    "base_id": "KZEN",
+    "quote_id": "USDT",
+    "base": "KZEN",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -33134,7 +33182,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
