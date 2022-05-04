@@ -1466,6 +1466,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "AMA_USDT",
+    "base_id": "AMA",
+    "quote_id": "USDT",
+    "base": "AMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "AMB_USDT",
     "base_id": "AMB",
     "quote_id": "USDT",
@@ -4358,7 +4382,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-11,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10490,6 +10514,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "CREO_USDT",
+    "base_id": "CREO",
+    "quote_id": "USDT",
+    "base": "CREO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "CRF_USDT",
     "base_id": "CRF",
     "quote_id": "USDT",
@@ -12974,7 +13022,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -47774,7 +47822,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
