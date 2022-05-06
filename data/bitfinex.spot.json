@@ -7250,6 +7250,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tSAND:USD",
+    "base_id": "SAND",
+    "quote_id": "USD",
+    "base": "SAND",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSAND:UST",
+    "base_id": "SAND",
+    "quote_id": "UST",
+    "base": "SAND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tSANETH",
     "base_id": "SAN",
     "quote_id": "ETH",

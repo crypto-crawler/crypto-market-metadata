@@ -184,6 +184,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "AUDIOUSDT_UMCBL",
+    "base_id": "AUDIO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AUDIO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "AVAXUSDT_UMCBL",
     "base_id": "AVAX",
     "quote_id": "USDT",
@@ -990,6 +1016,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "MTLUSDT_UMCBL",
+    "base_id": "MTL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MTL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "NEARUSDT_UMCBL",
     "base_id": "NEAR",
     "quote_id": "USDT",
@@ -1217,6 +1269,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "SXPUSDT_UMCBL",
+    "base_id": "SXP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SXP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}

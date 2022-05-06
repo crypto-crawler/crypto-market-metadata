@@ -2027,6 +2027,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "GALUSDT",
+    "base_id": "GAL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GAL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "GMTUSDT",
     "base_id": "GMT",
     "quote_id": "USDT",

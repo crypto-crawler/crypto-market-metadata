@@ -20450,6 +20450,102 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "GALBNB",
+    "base_id": "GAL",
+    "quote_id": "BNB",
+    "base": "GAL",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "GALBTC",
+    "base_id": "GAL",
+    "quote_id": "BTC",
+    "base": "GAL",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "GALBUSD",
+    "base_id": "GAL",
+    "quote_id": "BUSD",
+    "base": "GAL",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "GALUSDT",
+    "base_id": "GAL",
+    "quote_id": "USDT",
+    "base": "GAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "GASBTC",
     "base_id": "GAS",
     "quote_id": "BTC",
@@ -29096,7 +29192,7 @@
     "base": "MOB",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -29120,7 +29216,7 @@
     "base": "MOB",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -30464,7 +30560,7 @@
     "base": "NEXO",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -30488,7 +30584,7 @@
     "base": "NEXO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -35546,6 +35642,78 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "REIBNB",
+    "base_id": "REI",
+    "quote_id": "BNB",
+    "base": "REI",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "REIETH",
+    "base_id": "REI",
+    "quote_id": "ETH",
+    "base": "REI",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "REIUSDT",
+    "base_id": "REI",
+    "quote_id": "USDT",
+    "base": "REI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "RENBNB",
     "base_id": "REN",
     "quote_id": "BNB",
@@ -38816,7 +38984,7 @@
     "base": "SRM",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -39680,7 +39848,7 @@
     "base": "STX",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -45824,7 +45992,7 @@
     "base": "WOO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001

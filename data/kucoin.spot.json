@@ -10778,6 +10778,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GAL-USDT",
+    "base_id": "GAL",
+    "quote_id": "USDT",
+    "base": "GAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GALAX-USDT",
     "base_id": "GALA",
     "quote_id": "USDT",
@@ -19874,6 +19898,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PLY-USDT",
+    "base_id": "PLY",
+    "quote_id": "USDT",
+    "base": "PLY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "PMON-USDT",
     "base_id": "PMON",
     "quote_id": "USDT",
@@ -21518,7 +21566,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {

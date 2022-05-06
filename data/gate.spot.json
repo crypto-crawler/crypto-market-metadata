@@ -24869,8 +24869,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 0.001
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -24889,8 +24889,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.001
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
@@ -47155,6 +47155,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "UNDEAD_USDT",
+    "base_id": "UNDEAD",
+    "quote_id": "USDT",
+    "base": "UNDEAD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "UNFI_ETH",
     "base_id": "UNFI",
     "quote_id": "ETH",
@@ -52175,6 +52195,26 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZEUM_USDT",
+    "base_id": "ZEUM",
+    "quote_id": "USDT",
+    "base": "ZEUM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },

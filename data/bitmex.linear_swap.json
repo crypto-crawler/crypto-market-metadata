@@ -439,6 +439,29 @@
   {
     "exchange": "bitmex",
     "market_type": "linear_swap",
+    "symbol": "NEARUSDT",
+    "base_id": "NEAR",
+    "quote_id": "USDT",
+    "settle_id": "USDt",
+    "base": "NEAR",
+    "quote": "USDT",
+    "settle": "USDt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1000.0
+    },
+    "contract_value": 0.00001,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "linear_swap",
     "symbol": "SANDUSDT",
     "base_id": "SAND",
     "quote_id": "USDT",

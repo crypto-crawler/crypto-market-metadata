@@ -2756,6 +2756,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "GAL_USDT",
+    "base_id": "GAL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GAL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "GITCOIN_USDT",
     "base_id": "GITCOIN",
     "quote_id": "USDT",
@@ -2886,6 +2913,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "GST_USDT",
+    "base_id": "GST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
