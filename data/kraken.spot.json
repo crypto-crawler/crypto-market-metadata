@@ -3797,6 +3797,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "FET/EUR",
+    "base_id": "FET",
+    "quote_id": "ZEUR",
+    "base": "FET",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 20.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FET/USD",
+    "base_id": "FET",
+    "quote_id": "ZUSD",
+    "base": "FET",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 20.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "FIDA/EUR",
     "base_id": "FIDA",
     "quote_id": "ZEUR",
@@ -8897,6 +8943,52 @@
     },
     "quantity_limit": {
       "min": 0.05
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RUNE/EUR",
+    "base_id": "RUNE",
+    "quote_id": "ZEUR",
+    "base": "RUNE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RUNE/USD",
+    "base_id": "RUNE",
+    "quote_id": "ZUSD",
+    "base": "RUNE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
