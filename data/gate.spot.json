@@ -17317,6 +17317,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FITFI3L_USDT",
+    "base_id": "FITFI3L",
+    "quote_id": "USDT",
+    "base": "FITFI3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FITFI3S_USDT",
+    "base_id": "FITFI3S",
+    "quote_id": "USDT",
+    "base": "FITFI3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FITFI_USDT",
     "base_id": "FITFI",
     "quote_id": "USDT",
@@ -32919,6 +32959,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "OLV_USDT",
+    "base_id": "OLV",
+    "quote_id": "USDT",
+    "base": "OLV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
