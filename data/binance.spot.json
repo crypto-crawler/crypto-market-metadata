@@ -16927,7 +16927,7 @@
     "quote_id": "BTC",
     "base": "EPS",
     "quote": "BTC",
-    "active": true,
+    "active": false,
     "margin": true,
     "fees": {
       "maker": 0.001,
@@ -16951,7 +16951,7 @@
     "quote_id": "BUSD",
     "base": "EPS",
     "quote": "BUSD",
-    "active": true,
+    "active": false,
     "margin": true,
     "fees": {
       "maker": 0.001,
@@ -16975,7 +16975,7 @@
     "quote_id": "USDT",
     "base": "EPS",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": true,
     "fees": {
       "maker": 0.001,
@@ -25455,6 +25455,78 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "LDOBTC",
+    "base_id": "LDO",
+    "quote_id": "BTC",
+    "base": "LDO",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "LDOBUSD",
+    "base_id": "LDO",
+    "quote_id": "BUSD",
+    "base": "LDO",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "LDOUSDT",
+    "base_id": "LDO",
+    "quote_id": "USDT",
+    "base": "LDO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
