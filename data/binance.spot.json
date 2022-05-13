@@ -1327,7 +1327,7 @@
     "quote_id": "BNB",
     "base": "AGLD",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -2407,7 +2407,7 @@
     "quote_id": "BNB",
     "base": "AMP",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -8239,7 +8239,7 @@
     "quote_id": "UST",
     "base": "BNB",
     "quote": "UST",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -9487,7 +9487,7 @@
     "quote_id": "UST",
     "base": "BTC",
     "quote": "UST",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -12655,7 +12655,7 @@
     "quote_id": "BNB",
     "base": "CREAM",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -18055,7 +18055,7 @@
     "quote_id": "UST",
     "base": "ETH",
     "quote": "UST",
-    "active": true,
+    "active": false,
     "margin": true,
     "fees": {
       "maker": 0.001,
@@ -24062,7 +24062,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -24110,7 +24110,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -24158,7 +24158,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -24182,7 +24182,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -24206,7 +24206,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -27247,14 +27247,14 @@
     "quote_id": "AUD",
     "base": "LUNA",
     "quote": "AUD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -27271,14 +27271,14 @@
     "quote_id": "BIDR",
     "base": "LUNA",
     "quote": "BIDR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1.0,
+      "tick_size": 0.01,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -27295,14 +27295,14 @@
     "quote_id": "BNB",
     "base": "LUNA",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -27319,19 +27319,19 @@
     "quote_id": "BRL",
     "base": "LUNA",
     "quote": "BRL",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 922327.0
+      "max": 9221525.0
     },
     "info": {}
   },
@@ -27343,14 +27343,14 @@
     "quote_id": "BTC",
     "base": "LUNA",
     "quote": "BTC",
-    "active": true,
+    "active": false,
     "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -27374,12 +27374,12 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 90000.0
+      "max": 9000000.0
     },
     "info": {}
   },
@@ -27391,14 +27391,14 @@
     "quote_id": "ETH",
     "base": "LUNA",
     "quote": "ETH",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -27415,19 +27415,19 @@
     "quote_id": "EUR",
     "base": "LUNA",
     "quote": "EUR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 90000.0
+      "max": 9000000.0
     },
     "info": {}
   },
@@ -27439,19 +27439,19 @@
     "quote_id": "GBP",
     "base": "LUNA",
     "quote": "GBP",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 90000.0
+      "max": 9000000.0
     },
     "info": {}
   },
@@ -27463,19 +27463,19 @@
     "quote_id": "TRY",
     "base": "LUNA",
     "quote": "TRY",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 92233.0
+      "max": 9221525.0
     },
     "info": {}
   },
@@ -27487,19 +27487,19 @@
     "quote_id": "USDT",
     "base": "LUNA",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 90000.0
+      "max": 9000000.0
     },
     "info": {}
   },
@@ -27511,14 +27511,14 @@
     "quote_id": "UST",
     "base": "LUNA",
     "quote": "UST",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -29239,7 +29239,7 @@
     "quote_id": "BNB",
     "base": "MLN",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -43627,7 +43627,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 913205152.0
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -43651,7 +43651,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 913205152.0
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -44059,7 +44059,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9222449.0
+      "max": 922327.0
     },
     "info": {}
   },
@@ -44143,7 +44143,7 @@
     "quote_id": "USDT",
     "base": "UST",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": true,
     "fees": {
       "maker": 0.001,
