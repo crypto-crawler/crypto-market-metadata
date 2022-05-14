@@ -1520,7 +1520,7 @@
     "base": "ANC",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -5066,6 +5066,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CELT-USDT",
+    "base_id": "CELT",
+    "quote_id": "USDT",
+    "base": "CELT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CERE-USDT",
     "base_id": "CERE",
     "quote_id": "USDT",
@@ -8371,6 +8395,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "DUSK-USDT",
+    "base_id": "DUSK",
+    "quote_id": "USDT",
+    "base": "DUSK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -15704,7 +15752,7 @@
     "base": "LUNA",
     "quote": "BTC",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -15734,7 +15782,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-10,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -15758,7 +15806,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-10,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -15776,7 +15824,7 @@
     "base": "LUNA",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -16514,6 +16562,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MBL-USDT",
+    "base_id": "MBL",
+    "quote_id": "USDT",
+    "base": "MBL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MELOS-USDT",
     "base_id": "MELOS",
     "quote_id": "USDT",
@@ -16736,7 +16808,7 @@
     "base": "MIR",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

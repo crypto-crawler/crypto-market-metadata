@@ -3877,12 +3877,12 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-9,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 100000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6712,7 +6712,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "quantity_limit": {
