@@ -2624,6 +2624,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "sch_usdt",
+    "base_id": "sch",
+    "quote_id": "usdt",
+    "base": "SCH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "sdn_usdt",
     "base_id": "sdn",
     "quote_id": "usdt",

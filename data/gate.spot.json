@@ -15788,6 +15788,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "EPX_ETH",
+    "base_id": "EPX",
+    "quote_id": "ETH",
+    "base": "EPX",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "EPX_USDT",
+    "base_id": "EPX",
+    "quote_id": "USDT",
+    "base": "EPX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "EQX_USDT",
     "base_id": "EQX",
     "quote_id": "USDT",
