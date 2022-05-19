@@ -2081,6 +2081,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "GMTBUSD",
+    "base_id": "GMT",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "GMT",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "GMTUSDT",
     "base_id": "GMT",
     "quote_id": "USDT",
