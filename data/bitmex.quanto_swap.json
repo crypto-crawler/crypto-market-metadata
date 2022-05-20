@@ -48,6 +48,29 @@
   {
     "exchange": "bitmex",
     "market_type": "quanto_swap",
+    "symbol": "APEUSD",
+    "base_id": "APE",
+    "quote_id": "USD",
+    "settle_id": "XBt",
+    "base": "APE",
+    "quote": "USD",
+    "settle": "XBt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.00001,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "quanto_swap",
     "symbol": "AVAXUSD",
     "base_id": "AVAX",
     "quote_id": "USD",
@@ -255,6 +278,29 @@
   {
     "exchange": "bitmex",
     "market_type": "quanto_swap",
+    "symbol": "GALUSD",
+    "base_id": "GAL",
+    "quote_id": "USD",
+    "settle_id": "XBt",
+    "base": "GAL",
+    "quote": "USD",
+    "settle": "XBt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.0001,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "quanto_swap",
     "symbol": "GMTUSD",
     "base_id": "GMT",
     "quote_id": "USD",
@@ -388,6 +434,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1e-6,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "quanto_swap",
+    "symbol": "TRXUSD",
+    "base_id": "TRX",
+    "quote_id": "USD",
+    "settle_id": "XBt",
+    "base": "TRX",
+    "quote": "USD",
+    "settle": "XBt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {

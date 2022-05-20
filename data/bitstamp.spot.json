@@ -2,6 +2,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "1incheur",
+    "base_id": "1INCH",
+    "quote_id": "EUR",
+    "base": "1INCH",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "1inchusd",
+    "base_id": "1INCH",
+    "quote_id": "USD",
+    "base": "1INCH",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "aavebtc",
     "base_id": "AAVE",
     "quote_id": "BTC",
