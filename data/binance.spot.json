@@ -1826,6 +1826,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "ALGOTRY",
+    "base_id": "ALGO",
+    "quote_id": "TRY",
+    "base": "ALGO",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "ALGOTUSD",
     "base_id": "ALGO",
     "quote_id": "TUSD",
@@ -20611,6 +20635,30 @@
     },
     "quantity_limit": {
       "min": 0.001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "GALETH",
+    "base_id": "GAL",
+    "quote_id": "ETH",
+    "base": "GAL",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
       "max": 92141578.0
     },
     "info": {}

@@ -2014,6 +2014,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BRWLUSDT_SPBL",
+    "base_id": "BRWL",
+    "quote_id": "USDT",
+    "base": "BRWL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BRZUSDT_SPBL",
     "base_id": "BRZ",
     "quote_id": "USDT",
@@ -8681,8 +8704,8 @@
     "active": true,
     "margin": false,
     "fees": {
-      "maker": 0.002,
-      "taker": 0.002
+      "maker": 0.001,
+      "taker": 0.001
     },
     "precision": {
       "tick_size": 0.0001,
@@ -12012,6 +12035,29 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "WAXPUSDT_SPBL",
+    "base_id": "WAXP",
+    "quote_id": "USDT",
+    "base": "WAXP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
