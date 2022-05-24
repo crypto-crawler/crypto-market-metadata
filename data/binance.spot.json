@@ -17114,6 +17114,54 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "EPXBUSD",
+    "base_id": "EPX",
+    "quote_id": "BUSD",
+    "base": "EPX",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "EPXUSDT",
+    "base_id": "EPX",
+    "quote_id": "USDT",
+    "base": "EPX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "ERDBNB",
     "base_id": "ERD",
     "quote_id": "BNB",
