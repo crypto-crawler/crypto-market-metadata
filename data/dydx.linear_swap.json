@@ -886,6 +886,32 @@
   {
     "exchange": "dydx",
     "market_type": "linear_swap",
+    "symbol": "XTZ-USD",
+    "base_id": "XTZ",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "XTZ",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "dydx",
+    "market_type": "linear_swap",
     "symbol": "YFI-USD",
     "base_id": "YFI",
     "quote_id": "USD",

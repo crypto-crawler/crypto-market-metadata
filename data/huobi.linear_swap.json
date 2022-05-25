@@ -1175,6 +1175,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "FITFI-USDT",
+    "base_id": "FITFI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FITFI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "FLOW-USDT",
     "base_id": "FLOW",
     "quote_id": "USDT",

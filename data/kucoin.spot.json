@@ -770,6 +770,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AFK-USDC",
+    "base_id": "AFK",
+    "quote_id": "USDC",
+    "base": "AFK",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "AFK-USDT",
+    "base_id": "AFK",
+    "quote_id": "USDT",
+    "base": "AFK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AGIX-BTC",
     "base_id": "AGIX",
     "quote_id": "BTC",
@@ -10898,6 +10946,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FTM-USDC",
+    "base_id": "FTM",
+    "quote_id": "USDC",
+    "base": "FTM",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FTM-USDT",
     "base_id": "FTM",
     "quote_id": "USDT",
@@ -16538,6 +16610,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MATIC-USDC",
+    "base_id": "MATIC",
+    "quote_id": "USDC",
+    "base": "MATIC",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MATIC-USDT",
     "base_id": "MATIC",
     "quote_id": "USDT",
@@ -17991,6 +18087,30 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "NEAR-USDC",
+    "base_id": "NEAR",
+    "quote_id": "USDC",
+    "base": "NEAR",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -26162,6 +26282,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "TRX-USDC",
+    "base_id": "TRX",
+    "quote_id": "USDC",
+    "base": "TRX",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "TRX-USDT",
     "base_id": "TRX",
     "quote_id": "USDT",
@@ -26936,7 +27080,7 @@
     "base": "USDD",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -30379,6 +30523,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ZIL-USDC",
+    "base_id": "ZIL",
+    "quote_id": "USDC",
+    "base": "ZIL",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
