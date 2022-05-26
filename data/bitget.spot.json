@@ -272,7 +272,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -11717,6 +11717,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "USDDUSDT_SPBL",
+    "base_id": "USDD",
+    "quote_id": "USDT",
+    "base": "USDD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

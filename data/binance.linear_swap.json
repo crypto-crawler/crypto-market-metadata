@@ -299,6 +299,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "ANCBUSD",
+    "base_id": "ANC",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "ANC",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "ANCUSDT",
     "base_id": "ANC",
     "quote_id": "USDT",
@@ -1529,6 +1556,33 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
+    "symbol": "DODOBUSD",
+    "base_id": "DODO",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "DODO",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {

@@ -218,6 +218,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "AKROUSDT",
+    "base_id": "AKRO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AKRO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 2000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "ALGOUSDT",
     "base_id": "ALGO",
     "quote_id": "USDT",

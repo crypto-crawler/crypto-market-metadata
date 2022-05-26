@@ -362,6 +362,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ACH-USDT",
+    "base_id": "ACH",
+    "quote_id": "USDT",
+    "base": "ACH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ACOIN-USDT",
     "base_id": "ACOIN",
     "quote_id": "USDT",
@@ -1796,6 +1820,54 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "APE3L-USDT",
+    "base_id": "APE3L",
+    "quote_id": "USDT",
+    "base": "APE3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "APE3S-USDT",
+    "base_id": "APE3S",
+    "quote_id": "USDT",
+    "base": "APE3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999999.0
     },
     "info": {}
   },
@@ -22599,6 +22671,54 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SCRT-BTC",
+    "base_id": "SCRT",
+    "quote_id": "BTC",
+    "base": "SCRT",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SCRT-USDT",
+    "base_id": "SCRT",
+    "quote_id": "USDT",
+    "base": "SCRT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
