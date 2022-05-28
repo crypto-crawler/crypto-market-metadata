@@ -2135,6 +2135,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "GALABUSD",
+    "base_id": "GALA",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "GALA",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "GALAUSDT",
     "base_id": "GALA",
     "quote_id": "USDT",
@@ -4045,6 +4072,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
+    "symbol": "TRXBUSD",
+    "base_id": "TRX",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "TRX",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000000.0
     },
     "contract_value": 1.0,
     "info": {}
