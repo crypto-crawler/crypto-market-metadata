@@ -5594,6 +5594,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tLUNA2:USD",
+    "base_id": "LUNA2",
+    "quote_id": "USD",
+    "base": "LUNA2",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tLUNA2:UST",
+    "base_id": "LUNA2",
+    "quote_id": "UST",
+    "base": "LUNA2",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tLUNA:BTC",
     "base_id": "LUNA",
     "quote_id": "BTC",

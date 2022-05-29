@@ -6442,6 +6442,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "LUNA2/EUR",
+    "base_id": "LUNA2",
+    "quote_id": "ZEUR",
+    "base": "LUNA2",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LUNA2/USD",
+    "base_id": "LUNA2",
+    "quote_id": "ZUSD",
+    "base": "LUNA2",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MANA/ETH",
     "base_id": "MANA",
     "quote_id": "XETH",
