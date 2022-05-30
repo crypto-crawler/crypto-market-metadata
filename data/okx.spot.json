@@ -6833,6 +6833,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "LUNC-USDC",
+    "base_id": "LUNC",
+    "quote_id": "USDC",
+    "base": "LUNC",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 50000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "LUNC-USDT",
+    "base_id": "LUNC",
+    "quote_id": "USDT",
+    "base": "LUNC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 50000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "MAGIC-USDT",
     "base_id": "MAGIC",
     "quote_id": "USDT",
@@ -10967,6 +11013,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "USTC-USDT",
+    "base_id": "USTC",
+    "quote_id": "USDT",
+    "base": "USTC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
