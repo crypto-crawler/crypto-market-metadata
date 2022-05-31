@@ -3890,6 +3890,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "LUNC_USDT",
+    "base_id": "LUNC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LUNC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 10000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "MAKITA_USDT",
     "base_id": "MAKITA",
     "quote_id": "USDT",
@@ -6450,6 +6477,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "USTC_USDT",
+    "base_id": "USTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "USTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
