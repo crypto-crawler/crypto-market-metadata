@@ -21,6 +21,7 @@ fn main() {
         "kucoin",
         "mexc",
         "okx",
+        "zb",
         "zbg",
     ];
     for exchange in exchanges {
