@@ -8593,6 +8593,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "OPUSDT_SPBL",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ORBUSDT_SPBL",
     "base_id": "ORB",
     "quote_id": "USDT",
@@ -9142,6 +9165,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "PRIMEUSDT_SPBL",
+    "base_id": "PRIME",
+    "quote_id": "USDT",
+    "base": "PRIME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -10989,6 +11035,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SXPUSDT_SPBL",
+    "base_id": "SXP",
+    "quote_id": "USDT",
+    "base": "SXP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },

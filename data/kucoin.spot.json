@@ -1250,6 +1250,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ALGO-USDC",
+    "base_id": "ALGO",
+    "quote_id": "USDC",
+    "base": "ALGO",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ALGO-USDT",
     "base_id": "ALGO",
     "quote_id": "USDT",
@@ -3835,6 +3859,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BNB-USDC",
+    "base_id": "BNB",
+    "quote_id": "USDC",
+    "base": "BNB",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
       "max": 10000000000.0
     },
     "info": {}
@@ -13778,6 +13826,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "JASMY-USDC",
+    "base_id": "JASMY",
+    "quote_id": "USDC",
+    "base": "JASMY",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "JASMY-USDT",
     "base_id": "JASMY",
     "quote_id": "USDT",
@@ -13796,6 +13868,54 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "JASMY3L-USDT",
+    "base_id": "JASMY3L",
+    "quote_id": "USDT",
+    "base": "JASMY3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1e16
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "JASMY3S-USDT",
+    "base_id": "JASMY3S",
+    "quote_id": "USDT",
+    "base": "JASMY3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1e17
     },
     "info": {}
   },
@@ -14114,6 +14234,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "KCS-USDC",
+    "base_id": "KCS",
+    "quote_id": "USDC",
+    "base": "KCS",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "KCS-USDT",
     "base_id": "KCS",
     "quote_id": "USDT",
@@ -14151,6 +14295,30 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "KDA-USDC",
+    "base_id": "KDA",
+    "quote_id": "USDC",
+    "base": "KDA",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -19898,6 +20066,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "OP-USDC",
+    "base_id": "OP",
+    "quote_id": "USDC",
+    "base": "OP",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "OP-USDT",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "OPCT-BTC",
     "base_id": "OPCT",
     "quote_id": "BTC",
@@ -21966,6 +22182,30 @@
     "base_id": "RANKER",
     "quote_id": "USDT",
     "base": "RANKER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "RBS-USDT",
+    "base_id": "RBS",
+    "quote_id": "USDT",
+    "base": "RBS",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -24331,6 +24571,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SRBS-USDT",
+    "base_id": "SRBS",
+    "quote_id": "USDT",
+    "base": "SRBS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

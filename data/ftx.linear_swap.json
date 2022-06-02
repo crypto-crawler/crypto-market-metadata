@@ -2877,6 +2877,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "OP-PERP",
+    "base_id": "OP",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "OP",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00025,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "ORBS-PERP",
     "base_id": "ORBS",
     "quote_id": "USD",

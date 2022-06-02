@@ -232,6 +232,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ACH/EUR",
+    "base_id": "ACH",
+    "quote_id": "ZEUR",
+    "base": "ACH",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ACH/USD",
+    "base_id": "ACH",
+    "quote_id": "ZUSD",
+    "base": "ACH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ADA/AUD",
     "base_id": "ADA",
     "quote_id": "ZAUD",
@@ -4947,6 +4993,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "IDEX/EUR",
+    "base_id": "IDEX",
+    "quote_id": "ZEUR",
+    "base": "IDEX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "IDEX/USD",
+    "base_id": "IDEX",
+    "quote_id": "ZUSD",
+    "base": "IDEX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "IMX/EUR",
     "base_id": "IMX",
     "quote_id": "ZEUR",
@@ -8943,6 +9035,52 @@
     },
     "quantity_limit": {
       "min": 0.15
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "REQ/EUR",
+    "base_id": "REQ",
+    "quote_id": "ZEUR",
+    "base": "REQ",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "REQ/USD",
+    "base_id": "REQ",
+    "quote_id": "ZUSD",
+    "base": "REQ",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 50.0
     },
     "info": {}
   },

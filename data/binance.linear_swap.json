@@ -29,6 +29,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "1000LUNCBUSD",
+    "base_id": "1000LUNC",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "1000LUNC",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "1000SHIBUSDT",
     "base_id": "1000SHIB",
     "quote_id": "USDT",
@@ -2918,6 +2945,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "LUNA2BUSD",
+    "base_id": "LUNA2",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "LUNA2",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "LUNABUSD",
     "base_id": "LUNA",
     "quote_id": "BUSD",
@@ -3370,6 +3424,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
+    "symbol": "OPUSDT",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000.0
     },
     "contract_value": 1.0,
     "info": {}

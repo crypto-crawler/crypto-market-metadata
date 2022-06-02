@@ -3247,7 +3247,7 @@
     "quote_id": "BNB",
     "base": "API3",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -27655,19 +27655,19 @@
     "quote_id": "BUSD",
     "base": "LUNA",
     "quote": "BUSD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 913205150.0
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -27775,19 +27775,19 @@
     "quote_id": "USDT",
     "base": "LUNA",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 9000000.0
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -32755,6 +32755,78 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "OPBTC",
+    "base_id": "OP",
+    "quote_id": "BTC",
+    "base": "OP",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "OPBUSD",
+    "base_id": "OP",
+    "quote_id": "BUSD",
+    "base": "OP",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "OPUSDT",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
       "max": 92141578.0
     },
     "info": {}
@@ -41143,7 +41215,7 @@
     "quote_id": "GBP",
     "base": "SXP",
     "quote": "GBP",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -41863,7 +41935,7 @@
     "quote_id": "BNB",
     "base": "TLM",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,

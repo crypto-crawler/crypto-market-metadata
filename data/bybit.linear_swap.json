@@ -2918,6 +2918,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "LUNA2USDT",
+    "base_id": "LUNA2",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LUNA2",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 2000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "LUNAUSDT",
     "base_id": "LUNA",
     "quote_id": "USDT",
@@ -3262,6 +3289,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 400000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "OPUSDT",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 20000.0
     },
     "contract_value": 1.0,
     "info": {}
