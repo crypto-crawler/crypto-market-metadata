@@ -10214,6 +10214,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "STORJ-BTC",
+    "base_id": "STORJ",
+    "quote_id": "BTC",
+    "base": "STORJ",
+    "quote": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "STORJ-USDT",
     "base_id": "STORJ",
     "quote_id": "USDT",

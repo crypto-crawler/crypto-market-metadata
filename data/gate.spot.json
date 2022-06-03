@@ -35406,6 +35406,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PIT_USDT",
+    "base_id": "PIT",
+    "quote_id": "USDT",
+    "base": "PIT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PIXEL_USDT",
     "base_id": "PIXEL",
     "quote_id": "USDT",

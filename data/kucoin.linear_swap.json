@@ -1474,6 +1474,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "LUNCUSDTM",
+    "base_id": "LUNC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LUNC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "MANAUSDTM",
     "base_id": "MANA",
     "quote_id": "USDT",
@@ -1732,6 +1755,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "ONT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "OPUSDTM",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OP",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
