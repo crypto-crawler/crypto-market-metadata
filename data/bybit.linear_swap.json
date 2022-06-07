@@ -839,6 +839,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "BLZUSDT",
+    "base_id": "BLZ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BLZ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 200000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "BNBUSDT",
     "base_id": "BNB",
     "quote_id": "USDT",
@@ -3289,6 +3316,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 400000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "ONTUSDT",
+    "base_id": "ONT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ONT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000.0
     },
     "contract_value": 1.0,
     "info": {}
