@@ -2602,6 +2602,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "shibeur",
+    "base_id": "SHIB",
+    "quote_id": "EUR",
+    "base": "SHIB",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "shibusd",
+    "base_id": "SHIB",
+    "quote_id": "USD",
+    "base": "SHIB",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "skleur",
     "base_id": "SKL",
     "quote_id": "EUR",

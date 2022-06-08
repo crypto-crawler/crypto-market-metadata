@@ -56,6 +56,60 @@
   {
     "exchange": "zb",
     "market_type": "linear_swap",
+    "symbol": "ADA_USDT",
+    "base_id": "ADA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ADA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1e-6,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
+    "symbol": "APE_USDT",
+    "base_id": "APE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "APE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
     "symbol": "BTC_QC",
     "base_id": "BTC",
     "quote_id": "QC",
@@ -265,6 +319,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 9999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
+    "symbol": "SOL_USDT",
+    "base_id": "SOL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SOL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 999999999.0
     },
     "contract_value": 1.0,
     "info": {}

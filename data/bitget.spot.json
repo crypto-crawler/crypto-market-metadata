@@ -4545,6 +4545,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "EVMOSUSDT_SPBL",
+    "base_id": "EVMOS",
+    "quote_id": "USDT",
+    "base": "EVMOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FEVRUSDT_SPBL",
     "base_id": "FEVR",
     "quote_id": "USDT",
