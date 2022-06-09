@@ -2042,6 +2042,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "manaeur",
+    "base_id": "MANA",
+    "quote_id": "EUR",
+    "base": "MANA",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "manausd",
+    "base_id": "MANA",
+    "quote_id": "USD",
+    "base": "MANA",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "maticeur",
     "base_id": "MATIC",
     "quote_id": "EUR",

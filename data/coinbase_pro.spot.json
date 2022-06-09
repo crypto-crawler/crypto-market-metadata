@@ -5930,6 +5930,54 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "INDEX-USD",
+    "base_id": "INDEX",
+    "quote_id": "USD",
+    "base": "INDEX",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 22000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "INDEX-USDT",
+    "base_id": "INDEX",
+    "quote_id": "USDT",
+    "base": "INDEX",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 22000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "INV-EUR",
     "base_id": "INV",
     "quote_id": "EUR",
@@ -11588,6 +11636,54 @@
     "quantity_limit": {
       "min": 0.23,
       "max": 86000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "WAMPL-USD",
+    "base_id": "WAMPL",
+    "quote_id": "USD",
+    "base": "WAMPL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 25000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "WAMPL-USDT",
+    "base_id": "WAMPL",
+    "quote_id": "USDT",
+    "base": "WAMPL",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 25000.0
     },
     "info": {}
   },
