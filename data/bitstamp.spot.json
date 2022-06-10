@@ -1162,6 +1162,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "enseur",
+    "base_id": "ENS",
+    "quote_id": "EUR",
+    "base": "ENS",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "ensusd",
+    "base_id": "ENS",
+    "quote_id": "USD",
+    "base": "ENS",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "eth2eth",
     "base_id": "ETH2",
     "quote_id": "ETH",
@@ -1956,6 +1996,46 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "lrceur",
+    "base_id": "LRC",
+    "quote_id": "EUR",
+    "base": "LRC",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "lrcusd",
+    "base_id": "LRC",
+    "quote_id": "USD",
+    "base": "LRC",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
     },
     "info": {}
   },

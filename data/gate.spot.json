@@ -14,7 +14,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -1774,7 +1774,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
@@ -2434,7 +2434,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -2535,6 +2535,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "AQDC_USDT",
+    "base_id": "AQDC",
+    "quote_id": "USDT",
+    "base": "AQDC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -2674,7 +2694,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
@@ -5354,7 +5374,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "info": {}
@@ -5574,7 +5594,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -6054,7 +6074,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
@@ -6614,7 +6634,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "info": {}
@@ -8000,7 +8020,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
@@ -8260,7 +8280,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -8500,7 +8520,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -11600,7 +11620,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -12820,7 +12840,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -17849,7 +17869,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -17889,7 +17909,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -18069,8 +18089,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
-      "lot_size": 0.001
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -18529,7 +18549,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "info": {}
@@ -18549,7 +18569,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "info": {}
@@ -19649,7 +19669,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -21189,7 +21209,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -23509,7 +23529,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -25689,7 +25709,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-8,
       "lot_size": 0.001
     },
     "info": {}
@@ -25789,7 +25809,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -30178,7 +30198,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
@@ -31098,7 +31118,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -32078,7 +32098,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -32658,7 +32678,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -32838,7 +32858,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
@@ -34258,7 +34278,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "info": {}
@@ -34678,7 +34698,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -34938,7 +34958,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -35338,7 +35358,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -35718,7 +35738,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -36418,7 +36438,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -37707,7 +37727,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -39727,7 +39747,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -41107,7 +41127,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -41787,7 +41807,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -42287,7 +42307,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -44027,7 +44047,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "info": {}
@@ -45627,7 +45647,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 0.001
     },
     "info": {}
@@ -45707,7 +45727,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "info": {}
@@ -49213,7 +49233,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "info": {}
@@ -49893,7 +49913,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -50453,7 +50473,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -51213,7 +51233,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -52433,7 +52453,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}

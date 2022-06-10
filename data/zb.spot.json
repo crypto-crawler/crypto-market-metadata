@@ -6097,6 +6097,52 @@
   {
     "exchange": "zb",
     "market_type": "spot",
+    "symbol": "op_qc",
+    "base_id": "op",
+    "quote_id": "qc",
+    "base": "OP",
+    "quote": "QC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "spot",
+    "symbol": "op_usdt",
+    "base_id": "op",
+    "quote_id": "usdt",
+    "base": "OP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "spot",
     "symbol": "orn_qc",
     "base_id": "orn",
     "quote_id": "qc",

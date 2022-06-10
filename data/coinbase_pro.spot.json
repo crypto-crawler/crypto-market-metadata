@@ -2450,6 +2450,30 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BTCAUCTION-USD",
+    "base_id": "BTC",
+    "quote_id": "USD",
+    "base": "BTCAUCTION",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.000016,
+      "max": 1500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BTRST-BTC",
     "base_id": "BTRST",
     "quote_id": "BTC",
@@ -5935,7 +5959,7 @@
     "quote_id": "USD",
     "base": "INDEX",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -5959,7 +5983,7 @@
     "quote_id": "USDT",
     "base": "INDEX",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -11647,7 +11671,7 @@
     "quote_id": "USD",
     "base": "WAMPL",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -11671,7 +11695,7 @@
     "quote_id": "USDT",
     "base": "WAMPL",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
