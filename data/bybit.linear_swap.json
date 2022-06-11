@@ -4268,6 +4268,33 @@
   {
     "exchange": "bybit",
     "market_type": "inverse_future",
+    "symbol": "TRBUSDT",
+    "base_id": "TRB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TRB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.005,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 2000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
     "symbol": "TRXUSDT",
     "base_id": "TRX",
     "quote_id": "USDT",

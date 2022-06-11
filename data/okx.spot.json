@@ -7822,6 +7822,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "MOVEZ-USDC",
+    "base_id": "MOVEZ",
+    "quote_id": "USDC",
+    "base": "MOVEZ",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "MOVEZ-USDT",
+    "base_id": "MOVEZ",
+    "quote_id": "USDT",
+    "base": "MOVEZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "MOVR-USDT",
     "base_id": "MOVR",
     "quote_id": "USDT",
