@@ -28946,6 +28946,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MESA_ETH",
+    "base_id": "MESA",
+    "quote_id": "ETH",
+    "base": "MESA",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MESA_USDT",
+    "base_id": "MESA",
+    "quote_id": "USDT",
+    "base": "MESA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "METAG_USDT",
     "base_id": "METAG",
     "quote_id": "USDT",
