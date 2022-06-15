@@ -9338,6 +9338,54 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "CEL3L_USDT",
+    "base_id": "CEL3L",
+    "quote_id": "USDT",
+    "base": "CEL3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "CEL3S_USDT",
+    "base_id": "CEL3S",
+    "quote_id": "USDT",
+    "base": "CEL3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "CELO3L_USDT",
     "base_id": "CELO3L",
     "quote_id": "USDT",
@@ -33458,6 +33506,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "OGY_USDT",
+    "base_id": "OGY",
+    "quote_id": "USDT",
+    "base": "OGY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "OG_USDT",
     "base_id": "OG",
     "quote_id": "USDT",
@@ -34502,7 +34574,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -39206,8 +39278,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-12,
-      "lot_size": 1.0
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
@@ -45350,7 +45422,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

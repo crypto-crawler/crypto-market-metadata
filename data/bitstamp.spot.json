@@ -342,6 +342,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "apeeur",
+    "base_id": "APE",
+    "quote_id": "EUR",
+    "base": "APE",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "apeusd",
+    "base_id": "APE",
+    "quote_id": "USD",
+    "base": "APE",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "audiobtc",
     "base_id": "AUDIO",
     "quote_id": "BTC",
@@ -2255,6 +2295,46 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "mpleur",
+    "base_id": "MPL",
+    "quote_id": "EUR",
+    "base": "MPL",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "mplusd",
+    "base_id": "MPL",
+    "quote_id": "USD",
+    "base": "MPL",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "info": {}
