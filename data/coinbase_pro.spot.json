@@ -5114,6 +5114,54 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "FORT-USD",
+    "base_id": "FORT",
+    "quote_id": "USD",
+    "base": "FORT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "FORT-USDT",
+    "base_id": "FORT",
+    "quote_id": "USDT",
+    "base": "FORT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "FORTH-BTC",
     "base_id": "FORTH",
     "quote_id": "BTC",

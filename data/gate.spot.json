@@ -27566,6 +27566,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LUNCH_USDT",
+    "base_id": "LUNCH",
+    "quote_id": "USDT",
+    "base": "LUNCH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LUNC_USDT",
     "base_id": "LUNC",
     "quote_id": "USDT",
@@ -37500,6 +37520,26 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "QRDO_BTC",
+    "base_id": "QRDO",
+    "quote_id": "BTC",
+    "base": "QRDO",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
     },
     "info": {}
   },
