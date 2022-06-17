@@ -1538,6 +1538,30 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tBTC:MXNT",
+    "base_id": "BTC",
+    "quote_id": "MXNT",
+    "base": "BTC",
+    "quote": "MXNT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tBTC:XAUT",
     "base_id": "BTC",
     "quote_id": "XAUT",
@@ -3386,6 +3410,30 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tETH:MXNT",
+    "base_id": "ETH",
+    "quote_id": "MXNT",
+    "base": "ETH",
+    "quote": "MXNT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 2000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tETH:XAUT",
     "base_id": "ETH",
     "quote_id": "XAUT",
@@ -3692,6 +3740,30 @@
     "quantity_limit": {
       "min": 2.0,
       "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tEUT:MXNT",
+    "base_id": "EUT",
+    "quote_id": "MXNT",
+    "base": "EURT",
+    "quote": "MXNT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000.0
     },
     "info": {}
   },
@@ -6116,6 +6188,30 @@
     "quantity_limit": {
       "min": 2.0,
       "max": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tMXNT:USD",
+    "base_id": "MXNT",
+    "quote_id": "USD",
+    "base": "MXNT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000.0
     },
     "info": {}
   },
@@ -8996,6 +9092,30 @@
     "quantity_limit": {
       "min": 2.0,
       "max": 50000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tUST:MXNT",
+    "base_id": "UST",
+    "quote_id": "MXNT",
+    "base": "USDT",
+    "quote": "MXNT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000.0
     },
     "info": {}
   },

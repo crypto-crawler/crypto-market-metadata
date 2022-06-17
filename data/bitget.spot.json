@@ -4958,6 +4958,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FORTUSDT_SPBL",
+    "base_id": "FORT",
+    "quote_id": "USDT",
+    "base": "FORT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FORUSDT_SPBL",
     "base_id": "FOR",
     "quote_id": "USDT",
@@ -4995,6 +5018,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "FOTAUSDT_SPBL",
+    "base_id": "FOTA",
+    "quote_id": "USDT",
+    "base": "FOTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
