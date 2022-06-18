@@ -7615,18 +7615,18 @@
     "quote_id": "BUSD",
     "base": "BLZ",
     "quote": "BUSD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 0.0001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 1.0,
       "max": 9000000.0
     },
     "info": {}
@@ -19106,6 +19106,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "FIROBUSD",
+    "base_id": "FIRO",
+    "quote_id": "BUSD",
+    "base": "FIRO",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "FIROETH",
     "base_id": "FIRO",
     "quote_id": "ETH",
@@ -22784,7 +22808,7 @@
     "base": "HNT",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -31178,6 +31202,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "NKNBUSD",
+    "base_id": "NKN",
+    "quote_id": "BUSD",
+    "base": "NKN",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 9000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "NKNUSDT",
     "base_id": "NKN",
     "quote_id": "USDT",
@@ -32834,6 +32882,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "OPBNB",
+    "base_id": "OP",
+    "quote_id": "BNB",
+    "base": "OP",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "OPBTC",
     "base_id": "OP",
     "quote_id": "BTC",
@@ -32865,6 +32937,30 @@
     "quote": "BUSD",
     "active": true,
     "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "OPEUR",
+    "base_id": "OP",
+    "quote_id": "EUR",
+    "base": "OP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -33272,7 +33368,7 @@
     "base": "PAXG",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
