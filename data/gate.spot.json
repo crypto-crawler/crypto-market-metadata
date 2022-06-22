@@ -11368,6 +11368,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CUBE_USDT",
+    "base_id": "CUBE",
+    "quote_id": "USDT",
+    "base": "CUBE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CUDOS_USDT",
     "base_id": "CUDOS",
     "quote_id": "USDT",
@@ -50195,6 +50215,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WLKN_USDT",
+    "base_id": "WLKN",
+    "quote_id": "USDT",
+    "base": "WLKN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
