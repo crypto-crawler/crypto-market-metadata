@@ -655,7 +655,7 @@
     "quote_id": "USD",
     "base": "ALEPH",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -3890,6 +3890,54 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "DEXT-USD",
+    "base_id": "DEXT",
+    "quote_id": "USD",
+    "base": "DEXT",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1600000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "DEXT-USDT",
+    "base_id": "DEXT",
+    "quote_id": "USDT",
+    "base": "DEXT",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1600000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "DIA-EUR",
     "base_id": "DIA",
     "quote_id": "EUR",
@@ -4250,12 +4298,60 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "DREP-USD",
+    "base_id": "DREP",
+    "quote_id": "USD",
+    "base": "DREP",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 340000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "DREP-USDT",
+    "base_id": "DREP",
+    "quote_id": "USDT",
+    "base": "DREP",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 340000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "DYP-USD",
     "base_id": "DYP",
     "quote_id": "USD",
     "base": "DYP",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -4279,7 +4375,7 @@
     "quote_id": "USDT",
     "base": "DYP",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -4303,7 +4399,7 @@
     "quote_id": "USD",
     "base": "ELA",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -4327,7 +4423,7 @@
     "quote_id": "USDT",
     "base": "ELA",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -6079,7 +6175,7 @@
     "quote_id": "USD",
     "base": "HOPR",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -6103,7 +6199,7 @@
     "quote_id": "USDT",
     "base": "HOPR",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -6572,6 +6668,54 @@
     "quantity_limit": {
       "min": 5.0,
       "max": 11000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "JUP-USD",
+    "base_id": "JUP",
+    "quote_id": "USD",
+    "base": "JUP",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 26000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "JUP-USDT",
+    "base_id": "JUP",
+    "quote_id": "USDT",
+    "base": "JUP",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 26000000.0
     },
     "info": {}
   },
@@ -7519,7 +7663,7 @@
     "quote_id": "USD",
     "base": "MATH",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -7543,7 +7687,7 @@
     "quote_id": "USDT",
     "base": "MATH",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -8108,6 +8252,54 @@
     "quantity_limit": {
       "min": 0.99,
       "max": 330000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "MUSE-USD",
+    "base_id": "MUSE",
+    "quote_id": "USD",
+    "base": "MUSE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 49000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "MUSE-USDT",
+    "base_id": "MUSE",
+    "quote_id": "USDT",
+    "base": "MUSE",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 49000.0
     },
     "info": {}
   },
@@ -9319,7 +9511,7 @@
     "quote_id": "USD",
     "base": "PRQ",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -9343,7 +9535,7 @@
     "quote_id": "USDT",
     "base": "PRQ",
     "quote": "USDT",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -11324,6 +11516,54 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 120000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "TIME-USD",
+    "base_id": "TIME",
+    "quote_id": "USD",
+    "base": "TIME",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 8700.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "TIME-USDT",
+    "base_id": "TIME",
+    "quote_id": "USDT",
+    "base": "TIME",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 8700.0
     },
     "info": {}
   },
