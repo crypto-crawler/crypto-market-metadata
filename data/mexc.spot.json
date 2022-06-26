@@ -31610,6 +31610,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "MWT_USDT",
+    "base_id": "MWT",
+    "quote_id": "USDT",
+    "base": "MWT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "MW_USDT",
     "base_id": "MW",
     "quote_id": "USDT",
