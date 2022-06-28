@@ -434,6 +434,33 @@
   {
     "exchange": "zb",
     "market_type": "linear_swap",
+    "symbol": "LTC_USDT",
+    "base_id": "LTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
     "symbol": "LUNA_USDT",
     "base_id": "LUNA",
     "quote_id": "USDT",
@@ -449,6 +476,33 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
+    "symbol": "MATIC_USDT",
+    "base_id": "MATIC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MATIC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
