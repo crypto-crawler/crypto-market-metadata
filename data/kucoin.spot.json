@@ -4466,6 +4466,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BTC-EUR",
+    "base_id": "BTC",
+    "quote_id": "EUR",
+    "base": "BTC",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.00001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BTC-PAX",
     "base_id": "BTC",
     "quote_id": "PAX",
@@ -9976,6 +10000,30 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 1e-7
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ETH-EUR",
+    "base_id": "ETH",
+    "quote_id": "EUR",
+    "base": "ETH",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.0001,
@@ -27938,6 +27986,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "USDD-TRX",
+    "base_id": "USDD",
+    "quote_id": "TRX",
+    "base": "USDD",
+    "quote": "TRX",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "USDD-USDC",
     "base_id": "USDD",
     "quote_id": "USDC",
@@ -28034,6 +28106,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "USDP-USDT",
+    "base_id": "USDP",
+    "quote_id": "USDT",
+    "base": "USDP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "USDT-BRL",
     "base_id": "USDT",
     "quote_id": "BRL",
@@ -28075,6 +28171,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "USDT-EUR",
+    "base_id": "USDT",
+    "quote_id": "EUR",
+    "base": "USDT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}

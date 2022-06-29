@@ -2942,6 +2942,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARSW_USDT",
+    "base_id": "ARSW",
+    "quote_id": "USDT",
+    "base": "ARSW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARTEM_USDT",
     "base_id": "ARTEM",
     "quote_id": "USDT",
@@ -45969,6 +45989,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TEDDY_USDT",
+    "base_id": "TEDDY",
+    "quote_id": "USDT",
+    "base": "TEDDY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "info": {}
   },
