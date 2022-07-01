@@ -22937,6 +22937,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "INTR_USDT",
+    "base_id": "INTR",
+    "quote_id": "USDT",
+    "base": "INTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "INV_ETH",
     "base_id": "INV",
     "quote_id": "ETH",
@@ -45829,6 +45849,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TARI_USDT",
+    "base_id": "TARI",
+    "quote_id": "USDT",
+    "base": "TARI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
     },
     "info": {}
   },

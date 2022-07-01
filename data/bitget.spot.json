@@ -4660,6 +4660,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "EUROCUSDT_SPBL",
+    "base_id": "EUROC",
+    "quote_id": "USDT",
+    "base": "EUROC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "EVMOSUSDT_SPBL",
     "base_id": "EVMOS",
     "quote_id": "USDT",
@@ -8559,6 +8582,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "OBXUSDT_SPBL",
+    "base_id": "OBX",
+    "quote_id": "USDT",
+    "base": "OBX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

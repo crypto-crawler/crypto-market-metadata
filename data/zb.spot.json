@@ -715,6 +715,29 @@
   {
     "exchange": "zb",
     "market_type": "spot",
+    "symbol": "ast_usdt",
+    "base_id": "ast",
+    "quote_id": "usdt",
+    "base": "AST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "spot",
     "symbol": "atom_qc",
     "base_id": "atom",
     "quote_id": "qc",
@@ -5292,6 +5315,29 @@
   {
     "exchange": "zb",
     "market_type": "spot",
+    "symbol": "metis_usdt",
+    "base_id": "metis",
+    "quote_id": "usdt",
+    "base": "METIS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "spot",
     "symbol": "mina_usdt",
     "base_id": "mina",
     "quote_id": "usdt",
@@ -8801,6 +8847,29 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "spot",
+    "symbol": "xcn_usdt",
+    "base_id": "xcn",
+    "quote_id": "usdt",
+    "base": "XCN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

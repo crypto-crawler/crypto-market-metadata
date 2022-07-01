@@ -5591,6 +5591,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "INTR/EUR",
+    "base_id": "INTR",
+    "quote_id": "ZEUR",
+    "base": "INTR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "INTR/USD",
+    "base_id": "INTR",
+    "quote_id": "ZUSD",
+    "base": "INTR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "JASMY/EUR",
     "base_id": "JASMY",
     "quote_id": "ZEUR",
