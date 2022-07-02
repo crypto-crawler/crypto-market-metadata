@@ -7154,6 +7154,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "BELETH",
+    "base_id": "BEL",
+    "quote_id": "ETH",
+    "base": "BEL",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "BELTRY",
     "base_id": "BEL",
     "quote_id": "TRY",
@@ -26594,6 +26618,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "LITETH",
+    "base_id": "LIT",
+    "quote_id": "ETH",
+    "base": "LIT",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "LITUSDT",
     "base_id": "LIT",
     "quote_id": "USDT",
@@ -35912,7 +35960,7 @@
     "base": "RAMP",
     "quote": "BTC",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -35936,7 +35984,7 @@
     "base": "RAMP",
     "quote": "BUSD",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -35960,7 +36008,7 @@
     "base": "RAMP",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001

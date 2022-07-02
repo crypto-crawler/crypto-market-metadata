@@ -2279,6 +2279,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BTT/EUR",
+    "base_id": "BTT",
+    "quote_id": "ZEUR",
+    "base": "BTT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BTT/USD",
+    "base_id": "BTT",
+    "quote_id": "ZUSD",
+    "base": "BTT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "CFG/EUR",
     "base_id": "CFG",
     "quote_id": "ZEUR",
@@ -2963,6 +3009,52 @@
     },
     "quantity_limit": {
       "min": 0.03
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DENT/EUR",
+    "base_id": "DENT",
+    "quote_id": "ZEUR",
+    "base": "DENT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DENT/USD",
+    "base_id": "DENT",
+    "quote_id": "ZUSD",
+    "base": "DENT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5000.0
     },
     "info": {}
   },
@@ -5907,6 +5999,52 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "KEY/EUR",
+    "base_id": "KEY",
+    "quote_id": "ZEUR",
+    "base": "KEY",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "KEY/USD",
+    "base_id": "KEY",
+    "quote_id": "ZUSD",
+    "base": "KEY",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1000.0
     },
     "info": {}
   },
@@ -11565,6 +11703,52 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UNFI/EUR",
+    "base_id": "UNFI",
+    "quote_id": "ZEUR",
+    "base": "UNFI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UNFI/USD",
+    "base_id": "UNFI",
+    "quote_id": "ZUSD",
+    "base": "UNFI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 2.0
     },
     "info": {}
   },
