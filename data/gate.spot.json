@@ -51221,6 +51221,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "XDB_USDT",
+    "base_id": "XDB",
+    "quote_id": "USDT",
+    "base": "XDB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "XDC_ETH",
     "base_id": "XDC",
     "quote_id": "ETH",
