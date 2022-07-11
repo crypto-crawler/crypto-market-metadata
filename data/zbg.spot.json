@@ -1911,6 +1911,29 @@
   {
     "exchange": "zbg",
     "market_type": "spot",
+    "symbol": "laeeb_usdt",
+    "base_id": "laeeb",
+    "quote_id": "usdt",
+    "base": "LAEEB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zbg",
+    "market_type": "spot",
     "symbol": "lemd_usdt",
     "base_id": "lemd",
     "quote_id": "usdt",
