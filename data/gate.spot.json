@@ -19317,6 +19317,66 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GBPT_BTC",
+    "base_id": "GBPT",
+    "quote_id": "BTC",
+    "base": "GBPT",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GBPT_ETH",
+    "base_id": "GBPT",
+    "quote_id": "ETH",
+    "base": "GBPT",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GBPT_USDT",
+    "base_id": "GBPT",
+    "quote_id": "USDT",
+    "base": "GBPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GCOIN_USDT",
     "base_id": "GCOIN",
     "quote_id": "USDT",
@@ -23250,6 +23310,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IP3_USDT",
+    "base_id": "IP3",
+    "quote_id": "USDT",
+    "base": "IP3",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
