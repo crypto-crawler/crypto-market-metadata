@@ -8075,6 +8075,29 @@
   {
     "exchange": "zb",
     "market_type": "spot",
+    "symbol": "tiger_usdt",
+    "base_id": "tiger",
+    "quote_id": "usdt",
+    "base": "TIGER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "spot",
     "symbol": "tlm_qc",
     "base_id": "tlm",
     "quote_id": "qc",
