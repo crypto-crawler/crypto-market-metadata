@@ -10346,6 +10346,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "BURGERETH",
+    "base_id": "BURGER",
+    "quote_id": "ETH",
+    "base": "BURGER",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "BURGERUSDT",
     "base_id": "BURGER",
     "quote_id": "USDT",
@@ -32144,7 +32168,7 @@
     "base": "OGN",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -33643,6 +33667,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "PEOPLEETH",
+    "base_id": "PEOPLE",
+    "quote_id": "ETH",
+    "base": "PEOPLE",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 92141578.0
     },
     "info": {}
@@ -44036,6 +44084,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 90000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "UNFIETH",
+    "base_id": "UNFI",
+    "quote_id": "ETH",
+    "base": "UNFI",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
     },
     "info": {}
   },
