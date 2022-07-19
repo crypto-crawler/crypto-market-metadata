@@ -12288,6 +12288,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DCRN_USDT",
+    "base_id": "DCRN",
+    "quote_id": "USDT",
+    "base": "DCRN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DCR_BTC",
     "base_id": "DCR",
     "quote_id": "BTC",
@@ -17611,6 +17631,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FIU_USDT",
+    "base_id": "FIU",
+    "quote_id": "USDT",
+    "base": "FIU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -49013,7 +49053,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "info": {}

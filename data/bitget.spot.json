@@ -4964,6 +4964,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FIUUSDT_SPBL",
+    "base_id": "FIU",
+    "quote_id": "USDT",
+    "base": "FIU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FLOKIUSDT_SPBL",
     "base_id": "FLOKI",
     "quote_id": "USDT",
@@ -8783,6 +8806,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "OGVUSDT_SPBL",
+    "base_id": "OGV",
+    "quote_id": "USDT",
+    "base": "OGV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
