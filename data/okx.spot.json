@@ -1980,6 +1980,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BTC-EURT",
+    "base_id": "BTC",
+    "quote_id": "EURT",
+    "base": "BTC",
+    "quote": "EURT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BTC-USDC",
     "base_id": "BTC",
     "quote_id": "USDC",
@@ -4648,6 +4671,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ETH-EURT",
+    "base_id": "ETH",
+    "quote_id": "EURT",
+    "base": "ETH",
+    "quote": "EURT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ETH-USDC",
     "base_id": "ETH",
     "quote_id": "USDC",
@@ -4757,6 +4803,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "EURT-USDT",
+    "base_id": "EURT",
+    "quote_id": "USDT",
+    "base": "EURT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -13313,6 +13382,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "XAUT-USDT",
+    "base_id": "XAUT",
+    "quote_id": "USDT",
+    "base": "XAUT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
