@@ -11662,6 +11662,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "SYSUSDT_SPBL",
+    "base_id": "SYS",
+    "quote_id": "USDT",
+    "base": "SYS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "TAPUSDT_SPBL",
     "base_id": "TAP",
     "quote_id": "USDT",
@@ -13405,6 +13428,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "XETAUSDT_SPBL",
+    "base_id": "XETA",
+    "quote_id": "USDT",
+    "base": "XETA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

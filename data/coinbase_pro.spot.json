@@ -186,6 +186,52 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ABT-USD",
+    "base_id": "ABT",
+    "quote_id": "USD",
+    "base": "ABT",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "ABT-USDT",
+    "base_id": "ABT",
+    "quote_id": "USDT",
+    "base": "ABT",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ACH-USD",
     "base_id": "ACH",
     "quote_id": "USD",
@@ -5676,6 +5722,52 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "GNO-USD",
+    "base_id": "GNO",
+    "quote_id": "USD",
+    "base": "GNO",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "GNO-USDT",
+    "base_id": "GNO",
+    "quote_id": "USDT",
+    "base": "GNO",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "GNT-USDC",
     "base_id": "GNT",
     "quote_id": "USDC",
@@ -8143,6 +8235,52 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 12000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "MTL-USD",
+    "base_id": "MTL",
+    "quote_id": "USD",
+    "base": "MTL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "MTL-USDT",
+    "base_id": "MTL",
+    "quote_id": "USDT",
+    "base": "MTL",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },
@@ -11234,6 +11372,98 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SWFTC-USD",
+    "base_id": "SWFTC",
+    "quote_id": "USD",
+    "base": "SWFTC",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SWFTC-USDT",
+    "base_id": "SWFTC",
+    "quote_id": "USDT",
+    "base": "SWFTC",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SYLO-USD",
+    "base_id": "SYLO",
+    "quote_id": "USD",
+    "base": "SYLO",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SYLO-USDT",
+    "base_id": "SYLO",
+    "quote_id": "USDT",
+    "base": "SYLO",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0
