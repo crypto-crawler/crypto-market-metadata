@@ -1244,6 +1244,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "AZY-USDT",
+    "base_id": "AZY",
+    "quote_id": "USDT",
+    "base": "AZY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BABYDOGE-USDC",
     "base_id": "BABYDOGE",
     "quote_id": "USDC",
