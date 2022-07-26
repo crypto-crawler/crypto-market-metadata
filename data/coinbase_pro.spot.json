@@ -8426,6 +8426,52 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "NEST-USD",
+    "base_id": "NEST",
+    "quote_id": "USD",
+    "base": "NEST",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "NEST-USDT",
+    "base_id": "NEST",
+    "quote_id": "USDT",
+    "base": "NEST",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "NKN-BTC",
     "base_id": "NKN",
     "quote_id": "BTC",

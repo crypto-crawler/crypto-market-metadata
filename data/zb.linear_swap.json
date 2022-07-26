@@ -110,6 +110,60 @@
   {
     "exchange": "zb",
     "market_type": "linear_swap",
+    "symbol": "AVAX_USDT",
+    "base_id": "AVAX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AVAX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
+    "symbol": "AXS_USDT",
+    "base_id": "AXS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AXS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
     "symbol": "BCH_USDT",
     "base_id": "BCH",
     "quote_id": "USDT",
@@ -223,6 +277,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "DOT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
+    "symbol": "DYDX_USDT",
+    "base_id": "DYDX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DYDX",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
@@ -507,6 +588,60 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
+    "symbol": "NEAR_USDT",
+    "base_id": "NEAR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEAR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "linear_swap",
+    "symbol": "OP_USDT",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 999999999.0
     },
     "contract_value": 1.0,
