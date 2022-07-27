@@ -698,6 +698,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ADA_BTC",
+    "base_id": "ADA",
+    "quote_id": "BTC",
+    "base": "ADA",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 5e-6,
+      "max": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ADA_USDC",
     "base_id": "ADA",
     "quote_id": "USDC",
@@ -17300,6 +17324,30 @@
     "quantity_limit": {
       "min": 5.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "EOS_BTC",
+    "base_id": "EOS",
+    "quote_id": "BTC",
+    "base": "EOS",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 5e-6,
+      "max": 100.0
     },
     "info": {}
   },
@@ -35582,7 +35630,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -45074,6 +45122,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "STAT_USDT",
+    "base_id": "STAT",
+    "quote_id": "USDT",
+    "base": "STAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "STA_USDT",
     "base_id": "STA",
     "quote_id": "USDT",
@@ -48236,6 +48308,30 @@
     "quantity_limit": {
       "min": 5.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "TRX_BTC",
+    "base_id": "TRX",
+    "quote_id": "BTC",
+    "base": "TRX",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 5e-6,
+      "max": 100.0
     },
     "info": {}
   },
