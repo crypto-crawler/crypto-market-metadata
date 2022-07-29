@@ -1129,6 +1129,29 @@
   {
     "exchange": "zb",
     "market_type": "spot",
+    "symbol": "bna_usdt",
+    "base_id": "bna",
+    "quote_id": "usdt",
+    "base": "BNA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "zb",
+    "market_type": "spot",
     "symbol": "bnt_qc",
     "base_id": "bnt",
     "quote_id": "qc",
