@@ -13202,6 +13202,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HIBAYC-USDT",
+    "base_id": "HIBAYC",
+    "quote_id": "USDT",
+    "base": "HIBAYC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HNT-BTC",
     "base_id": "HNT",
     "quote_id": "BTC",
@@ -25262,7 +25286,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -30019,6 +30043,30 @@
     },
     "quantity_limit": {
       "min": 20.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "WOMBAT-USDT",
+    "base_id": "WOMBAT",
+    "quote_id": "USDT",
+    "base": "WOMBAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}

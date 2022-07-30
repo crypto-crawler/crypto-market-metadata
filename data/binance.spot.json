@@ -8666,6 +8666,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "BONDETH",
+    "base_id": "BOND",
+    "quote_id": "ETH",
+    "base": "BOND",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "BONDUSDT",
     "base_id": "BOND",
     "quote_id": "USDT",
@@ -40388,6 +40412,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 90000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "STORJTRY",
+    "base_id": "STORJ",
+    "quote_id": "TRY",
+    "base": "STORJ",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
     },
     "info": {}
   },
