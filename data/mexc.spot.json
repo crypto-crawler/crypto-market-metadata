@@ -40442,6 +40442,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "RED_USDT",
+    "base_id": "RED",
+    "quote_id": "USDT",
+    "base": "RED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "REEF3L_USDT",
     "base_id": "REEF3L",
     "quote_id": "USDT",
@@ -48040,6 +48064,30 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "TOWN_USDT",
+    "base_id": "TOWN",
+    "quote_id": "USDT",
+    "base": "TOWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
