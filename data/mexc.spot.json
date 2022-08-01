@@ -27818,6 +27818,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "LAIKA_USDT",
+    "base_id": "LAIKA",
+    "quote_id": "USDT",
+    "base": "LAIKA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "LAMB_USDT",
     "base_id": "LAMB",
     "quote_id": "USDT",
@@ -27951,6 +27975,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "LBLOCK_USDT",
+    "base_id": "LBLOCK",
+    "quote_id": "USDT",
+    "base": "LBLOCK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -29031,6 +29079,54 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "LOVELY3L_USDT",
+    "base_id": "LOVELY3L",
+    "quote_id": "USDT",
+    "base": "LOVELY3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "LOVELY3S_USDT",
+    "base_id": "LOVELY3S",
+    "quote_id": "USDT",
+    "base": "LOVELY3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -33182,8 +33278,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
-      "lot_size": 0.01
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,

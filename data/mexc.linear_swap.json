@@ -1663,7 +1663,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -3512,6 +3512,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "LOVELY_USDT",
+    "base_id": "LOVELY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LOVELY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "LPT_USDT",
     "base_id": "LPT",
     "quote_id": "USDT",
@@ -5335,7 +5362,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
