@@ -380,6 +380,33 @@
   {
     "exchange": "binance",
     "market_type": "inverse_swap",
+    "symbol": "ENSUSD_PERP",
+    "base_id": "ENS",
+    "quote_id": "USD",
+    "settle_id": "ENS",
+    "base": "ENS",
+    "quote": "USD",
+    "settle": "ENS",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
     "symbol": "EOSUSD_PERP",
     "base_id": "EOS",
     "quote_id": "USD",

@@ -33278,8 +33278,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1.0
+      "tick_size": 1e-9,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
@@ -39530,6 +39530,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "QNT_USDT",
+    "base_id": "QNT",
+    "quote_id": "USDT",
+    "base": "QNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "QRDO_USDT",
     "base_id": "QRDO",
     "quote_id": "USDT",
@@ -42231,6 +42255,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "SBCC_USDT",
+    "base_id": "SBCC",
+    "quote_id": "USDT",
+    "base": "SBCC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
