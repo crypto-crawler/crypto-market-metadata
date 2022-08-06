@@ -15771,6 +15771,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ELT_USDT",
+    "base_id": "ELT",
+    "quote_id": "USDT",
+    "base": "ELT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ELU_USDT",
     "base_id": "ELU",
     "quote_id": "USDT",
@@ -29488,6 +29508,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MBX_USDT",
+    "base_id": "MBX",
+    "quote_id": "USDT",
+    "base": "MBX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}

@@ -17738,6 +17738,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "ETCTRY",
+    "base_id": "ETC",
+    "quote_id": "TRY",
+    "base": "ETC",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 922327.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "ETCTUSD",
     "base_id": "ETC",
     "quote_id": "TUSD",
@@ -33116,6 +33140,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "OPETH",
+    "base_id": "OP",
+    "quote_id": "ETH",
+    "base": "OP",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 913205152.0
     },
     "info": {}
   },

@@ -650,6 +650,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "AUCTIONBUSD",
+    "base_id": "AUCTION",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "AUCTION",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "AUDIOUSDT",
     "base_id": "AUDIO",
     "quote_id": "USDT",
@@ -4585,6 +4612,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
+    "symbol": "UNIBUSD",
+    "base_id": "UNI",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "UNI",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
     },
     "contract_value": 1.0,
     "info": {}

@@ -416,6 +416,29 @@
   {
     "exchange": "bitmex",
     "market_type": "quanto_swap",
+    "symbol": "OPUSD",
+    "base_id": "OP",
+    "quote_id": "USD",
+    "settle_id": "XBt",
+    "base": "OP",
+    "quote": "USD",
+    "settle": "XBt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.0001,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "quanto_swap",
     "symbol": "SOLUSD",
     "base_id": "SOL",
     "quote_id": "USD",

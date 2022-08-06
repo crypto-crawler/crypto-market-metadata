@@ -10478,7 +10478,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -13206,6 +13206,30 @@
     "base_id": "HIBAYC",
     "quote_id": "USDT",
     "base": "HIBAYC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HIPUNKS-USDT",
+    "base_id": "HIPUNKS",
+    "quote_id": "USDT",
+    "base": "HIPUNKS",
     "quote": "USDT",
     "active": true,
     "margin": false,

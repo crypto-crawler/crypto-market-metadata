@@ -618,6 +618,34 @@
   {
     "exchange": "gate",
     "market_type": "inverse_future",
+    "symbol": "BTC_USD_20220819",
+    "base_id": "BTC",
+    "quote_id": "USD",
+    "settle_id": "BTC",
+    "base": "BTC",
+    "quote": "USD",
+    "settle": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1660896000000,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "inverse_future",
     "symbol": "BTC_USD_20220930",
     "base_id": "BTC",
     "quote_id": "USD",
