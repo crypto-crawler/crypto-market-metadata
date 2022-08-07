@@ -38930,6 +38930,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "POR_USDT",
+    "base_id": "POR",
+    "quote_id": "USDT",
+    "base": "POR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "POSI_USDT",
     "base_id": "POSI",
     "quote_id": "USDT",
