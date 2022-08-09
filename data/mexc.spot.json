@@ -4178,6 +4178,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "AURA_USDT",
+    "base_id": "AURA",
+    "quote_id": "USDT",
+    "base": "AURA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "AURORA_USDT",
     "base_id": "AURORA",
     "quote_id": "USDT",
@@ -18074,6 +18098,54 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ETHS_USDT",
+    "base_id": "ETHS",
+    "quote_id": "USDT",
+    "base": "ETHS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "ETHW_USDT",
+    "base_id": "ETHW",
+    "quote_id": "USDT",
+    "base": "ETHW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ETH_BTC",
     "base_id": "ETH",
     "quote_id": "BTC",
@@ -27350,7 +27422,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -53670,6 +53742,30 @@
     "base_id": "XRP",
     "quote_id": "USDT",
     "base": "XRP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "XSPECTAR_USDT",
+    "base_id": "XSPECTAR",
+    "quote_id": "USDT",
+    "base": "XSPECTAR",
     "quote": "USDT",
     "active": true,
     "margin": false,
