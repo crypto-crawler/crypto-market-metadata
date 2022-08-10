@@ -255,6 +255,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ACH-USDT",
+    "base_id": "ACH",
+    "quote_id": "USDT",
+    "base": "ACH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ADA-BTC",
     "base_id": "ADA",
     "quote_id": "BTC",
@@ -2415,6 +2438,29 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "BOND-USDT",
+    "base_id": "BOND",
+    "quote_id": "USDT",
+    "base": "BOND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -8914,6 +8960,29 @@
     "quote_id": "USD",
     "base": "OP",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "OP-USDT",
+    "base_id": "OP",
+    "quote_id": "USDT",
+    "base": "OP",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {

@@ -3797,6 +3797,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ETH/AED",
+    "base_id": "XETH",
+    "quote_id": "AED",
+    "base": "ETH",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ETH/AUD",
     "base_id": "XETH",
     "quote_id": "ZAUD",
@@ -11985,6 +12008,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "USD/AED",
+    "base_id": "ZUSD",
+    "quote_id": "AED",
+    "base": "USD",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "USD/CAD",
     "base_id": "ZUSD",
     "quote_id": "ZCAD",
@@ -12623,6 +12669,29 @@
     },
     "quantity_limit": {
       "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XBT/AED",
+    "base_id": "XXBT",
+    "quote_id": "AED",
+    "base": "BTC",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
