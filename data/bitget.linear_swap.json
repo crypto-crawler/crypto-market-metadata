@@ -1380,6 +1380,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "QTUMUSDT_UMCBL",
+    "base_id": "QTUM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "QTUM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "REEFUSDT_UMCBL",
     "base_id": "REEF",
     "quote_id": "USDT",
@@ -1737,6 +1763,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "TRBUSDT_UMCBL",
+    "base_id": "TRB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TRB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "contract_value": 1.0,
     "info": {}

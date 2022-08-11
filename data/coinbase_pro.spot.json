@@ -2425,6 +2425,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BOBA-USDT",
+    "base_id": "BOBA",
+    "quote_id": "USDT",
+    "base": "BOBA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BOND-USD",
     "base_id": "BOND",
     "quote_id": "USD",
@@ -6632,6 +6655,29 @@
     "quote_id": "USD",
     "base": "JASMY",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "JASMY-USDT",
+    "base_id": "JASMY",
+    "quote_id": "USDT",
+    "base": "JASMY",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {
