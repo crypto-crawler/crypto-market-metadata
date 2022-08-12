@@ -2325,6 +2325,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BSX/EUR",
+    "base_id": "BSX",
+    "quote_id": "ZEUR",
+    "base": "BSX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 2500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BSX/USD",
+    "base_id": "BSX",
+    "quote_id": "ZUSD",
+    "base": "BSX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 2500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BTT/EUR",
     "base_id": "BTT",
     "quote_id": "ZEUR",
