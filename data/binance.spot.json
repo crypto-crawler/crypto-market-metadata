@@ -19010,6 +19010,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "FILETH",
+    "base_id": "FIL",
+    "quote_id": "ETH",
+    "base": "FIL",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "FILTRY",
     "base_id": "FIL",
     "quote_id": "TRY",
@@ -46868,6 +46892,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 90000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "WINGETH",
+    "base_id": "WING",
+    "quote_id": "ETH",
+    "base": "WING",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 913205152.0
     },
     "info": {}
   },
