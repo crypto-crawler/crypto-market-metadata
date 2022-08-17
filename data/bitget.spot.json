@@ -8259,6 +8259,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "MHUNTUSDT_SPBL",
+    "base_id": "MHUNT",
+    "quote_id": "USDT",
+    "base": "MHUNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "MIST_USDT",
     "base_id": "MIST",
     "quote_id": "USDT",

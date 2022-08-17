@@ -1109,6 +1109,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "BRISE_USDT",
+    "base_id": "BRISE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BRISE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 40000.0
+    },
+    "contract_value": 1000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BSV_USDT",
     "base_id": "BSV",
     "quote_id": "USDT",
@@ -1425,7 +1452,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000000.0
+      "max": 40000000.0
     },
     "contract_value": 1.0,
     "info": {}
