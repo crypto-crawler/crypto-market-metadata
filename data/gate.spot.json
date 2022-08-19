@@ -5662,6 +5662,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BDX_USDT",
+    "base_id": "BDX",
+    "quote_id": "USDT",
+    "base": "BDX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BEAM3L_USDT",
     "base_id": "BEAM3L",
     "quote_id": "USDT",

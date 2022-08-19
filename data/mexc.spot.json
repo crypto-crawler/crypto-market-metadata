@@ -17546,6 +17546,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ENSDOMAIN_USDT",
+    "base_id": "ENSDOMAIN",
+    "quote_id": "USDT",
+    "base": "ENSDOMAIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ENS_USDC",
     "base_id": "ENS",
     "quote_id": "USDC",
@@ -20174,7 +20198,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -47354,6 +47378,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "STRM_BTC",
+    "base_id": "STRM",
+    "quote_id": "BTC",
+    "base": "STRM",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 5e-6,
+      "max": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "STRM_USDT",
     "base_id": "STRM",
     "quote_id": "USDT",
@@ -50498,6 +50546,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "UMAMI_USDT",
+    "base_id": "UMAMI",
+    "quote_id": "USDT",
+    "base": "UMAMI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "UMA_ETH",
     "base_id": "UMA",
     "quote_id": "ETH",
@@ -51951,6 +52023,54 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "VINU3L_USDT",
+    "base_id": "VINU3L",
+    "quote_id": "USDT",
+    "base": "VINU3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "VINU3S_USDT",
+    "base_id": "VINU3S",
+    "quote_id": "USDT",
+    "base": "VINU3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
