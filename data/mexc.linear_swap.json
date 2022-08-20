@@ -2176,7 +2176,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -3485,6 +3485,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "LAZIO_USDT",
+    "base_id": "LAZIO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LAZIO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 8000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "LDO_USDT",
     "base_id": "LDO",
     "quote_id": "USDT",
@@ -4538,6 +4565,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "PORTO_USDT",
+    "base_id": "PORTO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PORTO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "PSG_USDT",
     "base_id": "PSG",
     "quote_id": "USDT",
@@ -4911,6 +4965,33 @@
       "max": 1500000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SANTOS_USDT",
+    "base_id": "SANTOS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SANTOS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 22000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
@@ -5370,6 +5451,33 @@
       "max": 250000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "STG_USDT",
+    "base_id": "STG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 7000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

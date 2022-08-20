@@ -19160,7 +19160,7 @@
     "base": "FIO",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -19184,7 +19184,7 @@
     "base": "FIO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -21212,6 +21212,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 90000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "GLMBUSD",
+    "base_id": "GLM",
+    "quote_id": "BUSD",
+    "base": "GLM",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -23840,7 +23864,7 @@
     "base": "IMX",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -23864,7 +23888,7 @@
     "base": "IMX",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -39944,7 +39968,7 @@
     "base": "SPELL",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -39992,7 +40016,7 @@
     "base": "SPELL",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -40154,6 +40178,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "SSVBUSD",
+    "base_id": "SSV",
+    "quote_id": "BUSD",
+    "base": "SSV",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "SSVETH",
     "base_id": "SSV",
     "quote_id": "ETH",
@@ -40292,6 +40340,78 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "STGBTC",
+    "base_id": "STG",
+    "quote_id": "BTC",
+    "base": "STG",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "STGBUSD",
+    "base_id": "STG",
+    "quote_id": "BUSD",
+    "base": "STG",
+    "quote": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "STGUSDT",
+    "base_id": "STG",
+    "quote_id": "USDT",
+    "base": "STG",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 913205152.0
     },
     "info": {}
   },
