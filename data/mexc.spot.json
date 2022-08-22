@@ -33410,6 +33410,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "MMO_USDT",
+    "base_id": "MMO",
+    "quote_id": "USDT",
+    "base": "MMO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "MMUI_USDT",
     "base_id": "MMUI",
     "quote_id": "USDT",
@@ -55958,7 +55982,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
