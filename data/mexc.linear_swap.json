@@ -299,6 +299,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ALPINE_USDT",
+    "base_id": "ALPINE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ALPINE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ANC_USDT",
     "base_id": "ANC",
     "quote_id": "USDT",
@@ -1398,7 +1425,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 150000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3107,6 +3134,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "INJ_USDT",
+    "base_id": "INJ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "INJ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 500000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "IOST_USDT",
     "base_id": "IOST",
     "quote_id": "USDT",
@@ -4800,7 +4854,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 1500000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6555,7 +6609,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 1200000.0
     },
     "contract_value": 1.0,
     "info": {}
