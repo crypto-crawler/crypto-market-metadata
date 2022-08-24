@@ -8431,6 +8431,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BVT_USDT",
+    "base_id": "BVT",
+    "quote_id": "USDT",
+    "base": "BVT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BXC_ETH",
     "base_id": "BXC",
     "quote_id": "ETH",

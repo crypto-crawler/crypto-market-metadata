@@ -8581,6 +8581,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "NYM/XBT",
+    "base_id": "NYM",
+    "quote_id": "XXBT",
+    "base": "NYM",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "OCEAN/EUR",
     "base_id": "OCEAN",
     "quote_id": "ZEUR",

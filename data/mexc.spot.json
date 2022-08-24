@@ -3218,6 +3218,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ARTEQ_USDT",
+    "base_id": "ARTEQ",
+    "quote_id": "USDT",
+    "base": "ARTEQ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ARTIC_USDT",
     "base_id": "ARTIC",
     "quote_id": "USDT",
@@ -11478,6 +11502,30 @@
     "base_id": "COCOS",
     "quote_id": "USDT",
     "base": "COCOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "CODE_USDT",
+    "base_id": "CODE",
+    "quote_id": "USDT",
+    "base": "CODE",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -27206,7 +27254,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -38367,6 +38415,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "PACHA_USDT",
+    "base_id": "PACHA",
+    "quote_id": "USDT",
+    "base": "PACHA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
