@@ -1122,6 +1122,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "doteur",
+    "base_id": "DOT",
+    "quote_id": "EUR",
+    "base": "DOT",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "dotusd",
+    "base_id": "DOT",
+    "quote_id": "USD",
+    "base": "DOT",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "dydxeur",
     "base_id": "DYDX",
     "quote_id": "EUR",
@@ -2976,6 +3016,46 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "soleur",
+    "base_id": "SOL",
+    "quote_id": "EUR",
+    "base": "SOL",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "solusd",
+    "base_id": "SOL",
+    "quote_id": "USD",
+    "base": "SOL",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "info": {}
   },
