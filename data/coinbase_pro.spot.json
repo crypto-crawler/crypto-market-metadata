@@ -2865,12 +2865,35 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "CBETH-ETH",
+    "base_id": "CBETH",
+    "quote_id": "ETH",
+    "base": "CBETH",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "notional_min": 0.002
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "CBETH-USD",
     "base_id": "CBETH",
     "quote_id": "USD",
     "base": "CBETH",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
