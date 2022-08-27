@@ -2995,7 +2995,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 86250862.5086
+      "max": 92710533.5289
     },
     "info": {}
   },
@@ -3019,7 +3019,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 42920056.7291
+      "max": 41066441.932
     },
     "info": {}
   },
@@ -4003,7 +4003,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 831688037.4333
+      "max": 867628552.3731
     },
     "info": {}
   },
@@ -4147,7 +4147,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 2705.6022
+      "max": 2711.9955
     },
     "info": {}
   },
@@ -4171,7 +4171,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 3576.182
+      "max": 3628.7218
     },
     "info": {}
   },
@@ -4195,7 +4195,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 10087188.3935
+      "max": 9966218.8512
     },
     "info": {}
   },
@@ -7771,7 +7771,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 12187.1092
+      "max": 12649.8735
     },
     "info": {}
   },
@@ -8803,7 +8803,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 375505789.9727
+      "max": 368779570.5097
     },
     "info": {}
   },
@@ -8827,7 +8827,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 2021089630.9316
+      "max": 2090149036.7152
     },
     "info": {}
   },
@@ -9235,7 +9235,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 23490.4812
+      "max": 23708.4072
     },
     "info": {}
   },
@@ -9259,7 +9259,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 3105221091.7452
+      "max": 3169598315.4308
     },
     "info": {}
   },
@@ -9643,7 +9643,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 699747482.4306
+      "max": 744842773.406
     },
     "info": {}
   },
@@ -9667,7 +9667,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 53891934.9547
+      "max": 50471801.6238
     },
     "info": {}
   },
@@ -14779,7 +14779,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 1042588375.2305
+      "max": 1133199188.8269
     },
     "info": {}
   },
@@ -14803,7 +14803,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 1346.6042
+      "max": 1236.2215
     },
     "info": {}
   },
@@ -15427,7 +15427,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 2396432.4414
+      "max": 2445767.7584
     },
     "info": {}
   },
@@ -15451,7 +15451,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 2037078369.0635
+      "max": 1960610482.9584
     },
     "info": {}
   },
@@ -16579,7 +16579,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 53793702.9995
+      "max": 54043701.5381
     },
     "info": {}
   },
@@ -17755,7 +17755,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 11492478.7605
+      "max": 12150055.9763
     },
     "info": {}
   },
@@ -17779,7 +17779,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4198961.6793
+      "max": 4166789.8521
     },
     "info": {}
   },
@@ -18428,6 +18428,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 640000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "nodlusdt",
+    "base_id": "nodl",
+    "quote_id": "usdt",
+    "base": "NODL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 11111111.0
     },
     "info": {}
   },
@@ -19466,6 +19490,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "orcusdt",
+    "base_id": "orc",
+    "quote_id": "usdt",
+    "base": "ORC",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 5678140.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "oxtbtc",
     "base_id": "oxt",
     "quote_id": "btc",
@@ -20011,7 +20059,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 984268.4264
+      "max": 988842.6731
     },
     "info": {}
   },
@@ -20995,7 +21043,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45525.1808
+      "max": 47486.9791
     },
     "info": {}
   },
@@ -21307,7 +21355,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 258057.2393
+      "max": 260662.5367
     },
     "info": {}
   },
@@ -22220,6 +22268,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 59000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "ryomausdt",
+    "base_id": "ryoma",
+    "quote_id": "usdt",
+    "base": "RYOMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 37500937.0
     },
     "info": {}
   },
@@ -23707,7 +23779,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 61437695.3247
+      "max": 61723218.2242
     },
     "info": {}
   },
@@ -26131,7 +26203,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 28072.1693
+      "max": 30069.0856
     },
     "info": {}
   },
@@ -26155,7 +26227,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 24095.1839
+      "max": 22624.0694
     },
     "info": {}
   },
@@ -28843,7 +28915,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 11756263.0213
+      "max": 11469880.0948
     },
     "info": {}
   },
@@ -28867,7 +28939,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 1600.1424
+      "max": 1639.8632
     },
     "info": {}
   },
@@ -29731,7 +29803,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 141975308.6419
+      "max": 152106342.1731
     },
     "info": {}
   },
@@ -29755,7 +29827,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 8828609813.8597
+      "max": 8238314130.5685
     },
     "info": {}
   },

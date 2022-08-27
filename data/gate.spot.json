@@ -2162,6 +2162,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AM_USDT",
+    "base_id": "AM",
+    "quote_id": "USDT",
+    "base": "AM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ANC3L_USDT",
     "base_id": "ANC3L",
     "quote_id": "USDT",
@@ -33615,6 +33635,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NODL_USDT",
+    "base_id": "NODL",
+    "quote_id": "USDT",
+    "base": "NODL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NOIA_ETH",
     "base_id": "NOIA",
     "quote_id": "ETH",
@@ -42117,6 +42157,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SAUBER_USDT",
+    "base_id": "SAUBER",
+    "quote_id": "USDT",
+    "base": "SAUBER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}
