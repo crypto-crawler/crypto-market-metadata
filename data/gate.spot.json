@@ -43344,6 +43344,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SHPING_USDT",
+    "base_id": "SHPING",
+    "quote_id": "USDT",
+    "base": "SHPING",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SHR_ETH",
     "base_id": "SHR",
     "quote_id": "ETH",
@@ -45178,6 +45198,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SQUIDGROW_USDT",
+    "base_id": "SQUIDGROW",
+    "quote_id": "USDT",
+    "base": "SQUIDGROW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
     },
     "info": {}
   },

@@ -7586,6 +7586,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "DC-USDT",
+    "base_id": "DC",
+    "quote_id": "USDT",
+    "base": "DC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DCR-BTC",
     "base_id": "DCR",
     "quote_id": "BTC",
