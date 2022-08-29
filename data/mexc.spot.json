@@ -3842,6 +3842,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ATID_USDT",
+    "base_id": "ATID",
+    "quote_id": "USDT",
+    "base": "ATID",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ATK_USDT",
     "base_id": "ATK",
     "quote_id": "USDT",
@@ -16514,6 +16538,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "DUST_USDT",
+    "base_id": "DUST",
+    "quote_id": "USDT",
+    "base": "DUST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "DVC_USDT",
     "base_id": "DVC",
     "quote_id": "USDT",
@@ -20895,6 +20943,30 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "FRTS_USDT",
+    "base_id": "FRTS",
+    "quote_id": "USDT",
+    "base": "FRTS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -28862,7 +28934,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
