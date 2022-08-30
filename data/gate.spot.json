@@ -23563,6 +23563,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "IHC_USDT",
+    "base_id": "IHC",
+    "quote_id": "USDT",
+    "base": "IHC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "IHT_ETH",
     "base_id": "IHT",
     "quote_id": "ETH",
@@ -45208,6 +45228,46 @@
     "base_id": "SPS",
     "quote_id": "USDT",
     "base": "SPS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SPUME_ETH",
+    "base_id": "SPUME",
+    "quote_id": "ETH",
+    "base": "SPUME",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SPUME_USDT",
+    "base_id": "SPUME",
+    "quote_id": "USDT",
+    "base": "SPUME",
     "quote": "USDT",
     "active": true,
     "margin": false,

@@ -6780,6 +6780,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "JNSUSDT_SPBL",
+    "base_id": "JNS",
+    "quote_id": "USDT",
+    "base": "JNS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "JOEUSDT_SPBL",
     "base_id": "JOE",
     "quote_id": "USDT",
