@@ -1479,6 +1479,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "AURORA-USD",
+    "base_id": "AURORA",
+    "quote_id": "USD",
+    "base": "AURORA",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "AVAX-BTC",
     "base_id": "AVAX",
     "quote_id": "BTC",
@@ -8564,6 +8587,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "MXC-USD",
+    "base_id": "MXC",
+    "quote_id": "USD",
+    "base": "MXC",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "NCT-EUR",
     "base_id": "NCT",
     "quote_id": "EUR",
@@ -9098,7 +9144,7 @@
     "quote_id": "USD",
     "base": "OOKI",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
