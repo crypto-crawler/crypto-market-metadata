@@ -23834,6 +23834,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RVN-USDT",
+    "base_id": "RVN",
+    "quote_id": "USDT",
+    "base": "RVN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "SAND-USDT",
     "base_id": "SAND",
     "quote_id": "USDT",
