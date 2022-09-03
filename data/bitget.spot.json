@@ -8469,6 +8469,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "MENGOUSDT_SPBL",
+    "base_id": "MENGO",
+    "quote_id": "USDT",
+    "base": "MENGO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "METISUSDT_SPBL",
     "base_id": "METIS",
     "quote_id": "USDT",
@@ -8830,6 +8853,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "NAPUSDT_SPBL",
+    "base_id": "NAP",
+    "quote_id": "USDT",
+    "base": "NAP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -14073,6 +14119,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "XMONUSDT_SPBL",
+    "base_id": "XMON",
+    "quote_id": "USDT",
+    "base": "XMON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1e-6
     },
     "info": {}
   },

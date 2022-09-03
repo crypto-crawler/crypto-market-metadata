@@ -2594,6 +2594,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "FOOTBALL_USDT",
+    "base_id": "FOOTBALL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FOOTBALL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 500000.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "FREE_USDT",
     "base_id": "FREE",
     "quote_id": "USDT",
