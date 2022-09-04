@@ -40344,6 +40344,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "REDTOKEN_USDT",
+    "base_id": "REDTOKEN",
+    "quote_id": "USDT",
+    "base": "REDTOKEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RED_ETH",
     "base_id": "RED",
     "quote_id": "ETH",
@@ -51253,6 +51273,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "VINU_USDT",
+    "base_id": "VINU",
+    "quote_id": "USDT",
+    "base": "VINU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VISR_ETH",
     "base_id": "VISR",
     "quote_id": "ETH",
@@ -53787,6 +53827,46 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XMON_ETH",
+    "base_id": "XMON",
+    "quote_id": "ETH",
+    "base": "XMON",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XMON_USDT",
+    "base_id": "XMON",
+    "quote_id": "USDT",
+    "base": "XMON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "info": {}
   },
