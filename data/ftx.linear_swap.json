@@ -2417,6 +2417,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "LUNC-PERP",
+    "base_id": "LUNC",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "LUNC",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 5e-8,
+      "lot_size": 1000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "MANA-PERP",
     "base_id": "MANA",
     "quote_id": "USD",
@@ -4135,6 +4158,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
+    "symbol": "USTC-PERP",
+    "base_id": "USTC",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "USTC",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
     },
     "contract_value": 1.0,
     "info": {}

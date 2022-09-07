@@ -4552,12 +4552,12 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 1500000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -4938,6 +4938,33 @@
       "max": 75000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "REN_USDT",
+    "base_id": "REN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "REN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 300000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -6604,7 +6631,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 1.0,
       "lot_size": 1.0
     },
     "quantity_limit": {
