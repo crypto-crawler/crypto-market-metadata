@@ -682,6 +682,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "APEAMC/USD",
+    "base_id": "APEAMC",
+    "quote_id": "USD",
+    "base": "APEAMC",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0025,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "APHA/USD",
     "base_id": "APHA",
     "quote_id": "USD",
@@ -3734,7 +3754,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-6,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "info": {}
@@ -3875,7 +3895,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 10000.0
+      "lot_size": 100000.0
     },
     "info": {}
   },
@@ -4214,7 +4234,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-6,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "info": {}
@@ -4415,7 +4435,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 1000000.0
+      "lot_size": 10000000.0
     },
     "info": {}
   },
@@ -4435,7 +4455,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 1000000.0
+      "lot_size": 10000000.0
     },
     "info": {}
   },
@@ -6434,7 +6454,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-8,
+      "tick_size": 1e-7,
       "lot_size": 1000.0
     },
     "info": {}
@@ -6454,7 +6474,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 5e-8,
+      "tick_size": 1e-7,
       "lot_size": 1000.0
     },
     "info": {}
@@ -6634,7 +6654,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 5e-8,
       "lot_size": 1000.0
     },
     "info": {}
@@ -6654,7 +6674,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 5e-8,
       "lot_size": 1000.0
     },
     "info": {}
@@ -10434,7 +10454,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 5e-8,
       "lot_size": 1000.0
     },
     "info": {}
@@ -10454,7 +10474,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 5e-8,
       "lot_size": 1000.0
     },
     "info": {}
@@ -10994,7 +11014,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.005,
       "lot_size": 0.001
     },
     "info": {}
@@ -11114,7 +11134,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.005,
       "lot_size": 0.001
     },
     "info": {}
