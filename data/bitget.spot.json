@@ -11418,6 +11418,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "SKEBUSDT_SPBL",
+    "base_id": "SKEB",
+    "quote_id": "USDT",
+    "base": "SKEB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "SLGUSDT_SPBL",
     "base_id": "SLG",
     "quote_id": "USDT",

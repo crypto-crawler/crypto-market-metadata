@@ -11433,6 +11433,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SKEB-USDT",
+    "base_id": "SKEB",
+    "quote_id": "USDT",
+    "base": "SKEB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SKL-USDT",
     "base_id": "SKL",
     "quote_id": "USDT",
