@@ -2440,6 +2440,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "LUNA2-PERP",
+    "base_id": "LUNA2",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "LUNA2",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "LUNC-PERP",
     "base_id": "LUNC",
     "quote_id": "USD",

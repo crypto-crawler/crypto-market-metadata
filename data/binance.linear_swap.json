@@ -56,6 +56,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "1000LUNCUSDT",
+    "base_id": "1000LUNC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1000LUNC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "1000SHIBBUSD",
     "base_id": "1000SHIB",
     "quote_id": "BUSD",

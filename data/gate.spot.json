@@ -51473,6 +51473,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "VOLT_USDT",
+    "base_id": "VOLT",
+    "quote_id": "USDT",
+    "base": "VOLT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VOXEL_USDT",
     "base_id": "VOXEL",
     "quote_id": "USDT",
@@ -53566,6 +53586,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XELS_USDT",
+    "base_id": "XELS",
+    "quote_id": "USDT",
+    "base": "XELS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}

@@ -1978,6 +1978,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "LUNC-USDT-SWAP",
+    "base_id": "LUNC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LUNC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "MANA-USDT-SWAP",
     "base_id": "MANA",
     "quote_id": "USDT",
