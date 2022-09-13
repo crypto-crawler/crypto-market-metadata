@@ -8714,6 +8714,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tSWEAT:USD",
+    "base_id": "SWEAT",
+    "quote_id": "USD",
+    "base": "SWEAT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 7000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSWEAT:UST",
+    "base_id": "SWEAT",
+    "quote_id": "UST",
+    "base": "SWEAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 7000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tSXXUSD",
     "base_id": "SXX",
     "quote_id": "USD",

@@ -6253,6 +6253,52 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "HBAR-USD",
+    "base_id": "HBAR",
+    "quote_id": "USD",
+    "base": "HBAR",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "HBAR-USDT",
+    "base_id": "HBAR",
+    "quote_id": "USDT",
+    "base": "HBAR",
+    "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "HIGH-EUR",
     "base_id": "HIGH",
     "quote_id": "EUR",

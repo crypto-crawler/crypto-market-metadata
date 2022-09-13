@@ -1589,6 +1589,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "FLUX-PERP",
+    "base_id": "FLUX",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "FLUX",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "FTM-PERP",
     "base_id": "FTM",
     "quote_id": "USD",
@@ -3445,6 +3468,29 @@
     "precision": {
       "tick_size": 0.0005,
       "lot_size": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
+    "symbol": "RVN-PERP",
+    "base_id": "RVN",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "RVN",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 5e-6,
+      "lot_size": 10.0
     },
     "contract_value": 1.0,
     "info": {}
