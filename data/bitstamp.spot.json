@@ -2382,6 +2382,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "neareur",
+    "base_id": "NEAR",
+    "quote_id": "EUR",
+    "base": "NEAR",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "nearusd",
+    "base_id": "NEAR",
+    "quote_id": "USD",
+    "base": "NEAR",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "nexoeur",
     "base_id": "NEXO",
     "quote_id": "EUR",

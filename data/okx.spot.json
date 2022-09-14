@@ -7615,6 +7615,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "LING-USDT",
+    "base_id": "LING",
+    "quote_id": "USDT",
+    "base": "LING",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "LINK-BTC",
     "base_id": "LINK",
     "quote_id": "BTC",
@@ -12278,6 +12301,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SWEAT-USDT",
+    "base_id": "SWEAT",
+    "quote_id": "USDT",
+    "base": "SWEAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 500.0
     },
     "info": {}
   },

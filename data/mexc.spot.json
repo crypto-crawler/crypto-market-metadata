@@ -33062,7 +33062,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -40998,6 +40998,30 @@
     "base_id": "POSI",
     "quote_id": "USDT",
     "base": "POSI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "POTATOZ_USDT",
+    "base_id": "POTATOZ",
+    "quote_id": "USDT",
+    "base": "POTATOZ",
     "quote": "USDT",
     "active": true,
     "margin": false,
