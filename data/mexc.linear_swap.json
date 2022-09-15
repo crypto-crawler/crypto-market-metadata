@@ -4700,6 +4700,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "PHB_USDT",
+    "base_id": "PHB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PHB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "PIT_USDT",
     "base_id": "PIT",
     "quote_id": "USDT",
@@ -4857,6 +4884,33 @@
       "max": 100000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "PUNDIX_USDT",
+    "base_id": "PUNDIX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PUNDIX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
