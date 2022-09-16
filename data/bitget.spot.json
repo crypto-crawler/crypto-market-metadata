@@ -544,6 +544,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "AMPLUSDT_SPBL",
+    "base_id": "AMPL",
+    "quote_id": "USDT",
+    "base": "AMPL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "AMPUSDT_SPBL",
     "base_id": "AMP",
     "quote_id": "USDT",
@@ -4867,6 +4890,29 @@
     },
     "quantity_limit": {
       "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "ETHWUSDT_SPBL",
+    "base_id": "ETHW",
+    "quote_id": "USDT",
+    "base": "ETHW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -10180,8 +10226,7 @@
       "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 0.001,
-      "max": 0.001
+      "min": 0.001
     },
     "info": {}
   },
