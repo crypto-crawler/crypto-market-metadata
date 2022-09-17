@@ -1951,7 +1951,7 @@
     "quote_id": "BIDR",
     "base": "ALICE",
     "quote": "BIDR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -2456,7 +2456,7 @@
     "base": "AMB",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -5047,7 +5047,7 @@
     "quote_id": "BIDR",
     "base": "AVAX",
     "quote": "BIDR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -14071,7 +14071,7 @@
     "quote_id": "ETH",
     "base": "DATA",
     "quote": "ETH",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -21170,6 +21170,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "GASBUSD",
+    "base_id": "GAS",
+    "quote_id": "BUSD",
+    "base": "GAS",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "GBPBUSD",
     "base_id": "GBP",
     "quote_id": "BUSD",
@@ -21247,7 +21271,7 @@
     "quote_id": "ETH",
     "base": "GHST",
     "quote": "ETH",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -28183,19 +28207,19 @@
     "quote_id": "TRY",
     "base": "LUNA",
     "quote": "TRY",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
+      "tick_size": 0.01,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.001,
-      "max": 9221525.0
+      "min": 0.1,
+      "max": 9222449.0
     },
     "info": {}
   },
@@ -28351,7 +28375,7 @@
     "quote_id": "BIDR",
     "base": "MANA",
     "quote": "BIDR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -31196,6 +31220,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 90000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "NEBLBUSD",
+    "base_id": "NEBL",
+    "quote_id": "BUSD",
+    "base": "NEBL",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -35402,6 +35450,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "PROSBUSD",
+    "base_id": "PROS",
+    "quote_id": "BUSD",
+    "base": "PROS",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "PROSETH",
     "base_id": "PROS",
     "quote_id": "ETH",
@@ -36415,7 +36487,7 @@
     "quote_id": "BNB",
     "base": "RARE",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -38600,7 +38672,7 @@
     "base": "SANTOS",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -38648,7 +38720,7 @@
     "base": "SANTOS",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -46010,6 +46082,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "VIBBUSD",
+    "base_id": "VIB",
+    "quote_id": "BUSD",
+    "base": "VIB",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "VIBEBTC",
     "base_id": "VIBE",
     "quote_id": "BTC",
@@ -46303,7 +46399,7 @@
     "quote_id": "ETH",
     "base": "VOXEL",
     "quote": "ETH",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,

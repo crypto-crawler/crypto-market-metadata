@@ -4993,13 +4993,36 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ETHW-USDC",
+    "base_id": "ETHW",
+    "quote_id": "USDC",
+    "base": "ETHW",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ETHW-USDT",
     "base_id": "ETHW",
     "quote_id": "USDT",
     "base": "ETHW",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

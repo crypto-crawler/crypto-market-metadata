@@ -3944,6 +3944,33 @@
   {
     "exchange": "binance",
     "market_type": "linear_swap",
+    "symbol": "PHBBUSD",
+    "base_id": "PHB",
+    "quote_id": "BUSD",
+    "settle_id": "BUSD",
+    "base": "PHB",
+    "quote": "BUSD",
+    "settle": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "linear_swap",
     "symbol": "QTUMUSDT",
     "base_id": "QTUM",
     "quote_id": "USDT",

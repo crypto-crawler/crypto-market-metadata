@@ -2446,7 +2446,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 0.01,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4719,7 +4719,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 100000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5856,6 +5856,33 @@
       "max": 9000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SWEAT_USDT",
+    "base_id": "SWEAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SWEAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 500000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {

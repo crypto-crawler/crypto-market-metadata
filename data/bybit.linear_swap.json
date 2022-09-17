@@ -1973,6 +1973,33 @@
   {
     "exchange": "bybit",
     "market_type": "linear_swap",
+    "symbol": "ETHWUSDT",
+    "base_id": "ETHW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETHW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.005,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 1000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
     "symbol": "FILUSDT",
     "base_id": "FIL",
     "quote_id": "USDT",

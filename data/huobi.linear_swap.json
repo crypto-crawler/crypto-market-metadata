@@ -1198,6 +1198,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "ETHW-USDT",
+    "base_id": "ETHW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETHW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "FIL-USDT",
     "base_id": "FIL",
     "quote_id": "USDT",
