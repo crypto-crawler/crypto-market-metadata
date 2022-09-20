@@ -11462,7 +11462,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -18938,6 +18938,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ETHF_USDT",
+    "base_id": "ETHF",
+    "quote_id": "USDT",
+    "base": "ETHF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ETHPAD_USDT",
     "base_id": "ETHPAD",
     "quote_id": "USDT",
@@ -20882,6 +20906,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "FOF_USDT",
+    "base_id": "FOF",
+    "quote_id": "USDT",
+    "base": "FOF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "FON_USDT",
     "base_id": "FON",
     "quote_id": "USDT",
@@ -22094,7 +22142,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -26078,7 +26126,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -37326,6 +37374,30 @@
     "base_id": "NU",
     "quote_id": "USDT",
     "base": "NU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "NVIR_USDT",
+    "base_id": "NVIR",
+    "quote_id": "USDT",
+    "base": "NVIR",
     "quote": "USDT",
     "active": true,
     "margin": false,

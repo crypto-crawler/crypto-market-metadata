@@ -6669,6 +6669,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "INJ-USD",
+    "base_id": "INJ",
+    "quote_id": "USD",
+    "base": "INJ",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "INV-EUR",
     "base_id": "INV",
     "quote_id": "EUR",
@@ -10033,6 +10056,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "PUNDIX-USD",
+    "base_id": "PUNDIX",
+    "quote_id": "USD",
+    "base": "PUNDIX",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "notional_min": 1.0
@@ -13494,6 +13540,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "XMON-USD",
+    "base_id": "XMON",
+    "quote_id": "USD",
+    "base": "XMON",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "notional_min": 1.0
