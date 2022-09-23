@@ -2,6 +2,33 @@
   {
     "exchange": "mexc",
     "market_type": "inverse_swap",
+    "symbol": "ATOM_USD",
+    "base_id": "ATOM",
+    "quote_id": "USD",
+    "settle_id": "ATOM",
+    "base": "ATOM",
+    "quote": "USD",
+    "settle": "ATOM",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
     "symbol": "BTC_USD",
     "base_id": "BTC",
     "quote_id": "USD",
@@ -24,6 +51,60 @@
       "max": 30000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
+    "symbol": "CHZ_USD",
+    "base_id": "CHZ",
+    "quote_id": "USD",
+    "settle_id": "CHZ",
+    "base": "CHZ",
+    "quote": "USD",
+    "settle": "CHZ",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
+    "symbol": "ETC_USD",
+    "base_id": "ETC",
+    "quote_id": "USD",
+    "settle_id": "ETC",
+    "base": "ETC",
+    "quote": "USD",
+    "settle": "ETC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

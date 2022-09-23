@@ -112,6 +112,28 @@
   {
     "exchange": "bitmex",
     "market_type": "spot",
+    "symbol": "TRX_USDT",
+    "base_id": "TRX",
+    "quote_id": "USDT",
+    "settle_id": "",
+    "base": "TRX",
+    "quote": "USDT",
+    "settle": "",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 100000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "spot",
     "symbol": "UNI_USDT",
     "base_id": "UNI",
     "quote_id": "USDT",

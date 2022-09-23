@@ -27243,6 +27243,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LEMN_USDT",
+    "base_id": "LEMN",
+    "quote_id": "USDT",
+    "base": "LEMN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LEMO_ETH",
     "base_id": "LEMO",
     "quote_id": "ETH",
@@ -56425,7 +56445,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-9,
       "lot_size": 0.001
     },
     "info": {}
@@ -56445,7 +56465,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
