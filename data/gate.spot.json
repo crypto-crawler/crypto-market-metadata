@@ -6382,6 +6382,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BITCI_USDT",
+    "base_id": "BITCI",
+    "quote_id": "USDT",
+    "base": "BITCI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BIT_USDT",
     "base_id": "BIT",
     "quote_id": "USDT",
@@ -11763,7 +11783,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.001
     },
     "info": {}
@@ -11783,7 +11803,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
