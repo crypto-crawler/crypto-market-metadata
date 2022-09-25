@@ -1001,6 +1001,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "BITCI_USDT",
+    "base_id": "BITCI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BITCI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BIT_USDT",
     "base_id": "BIT",
     "quote_id": "USDT",
@@ -5505,6 +5532,33 @@
       "max": 30000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SNFT_USDT",
+    "base_id": "SNFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SNFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 30000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
