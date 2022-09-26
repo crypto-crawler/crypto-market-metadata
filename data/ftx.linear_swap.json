@@ -1474,6 +1474,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "ETHW-PERP",
+    "base_id": "ETHW",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "ETHW",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "EXCH-PERP",
     "base_id": "EXCH",
     "quote_id": "USD",
