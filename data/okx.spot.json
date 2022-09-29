@@ -744,7 +744,7 @@
     "base": "APE",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -2745,7 +2745,7 @@
     "base": "CHZ",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -4815,7 +4815,7 @@
     "base": "ETC",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -4953,7 +4953,7 @@
     "base": "ETH",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -8344,7 +8344,7 @@
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 50000.0
+      "min": 10000.0
     },
     "info": {}
   },
@@ -8367,7 +8367,7 @@
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 50000.0
+      "min": 10000.0
     },
     "info": {}
   },
@@ -12461,7 +12461,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 500.0
+      "min": 100.0
     },
     "info": {}
   },
