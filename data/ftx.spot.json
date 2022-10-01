@@ -2954,7 +2954,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.005,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "info": {}
@@ -9502,6 +9502,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "SYN/USD",
+    "base_id": "SYN",
+    "quote_id": "USD",
+    "base": "SYN",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "THETABEAR/USD",
     "base_id": "THETABEAR",
     "quote_id": "USD",
@@ -9674,7 +9694,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00005,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "info": {}
