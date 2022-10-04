@@ -8258,6 +8258,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tSMRUSD",
+    "base_id": "SMR",
+    "quote_id": "USD",
+    "base": "SMR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSMRUST",
+    "base_id": "SMR",
+    "quote_id": "UST",
+    "base": "SMR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tSNTUSD",
     "base_id": "SNT",
     "quote_id": "USD",

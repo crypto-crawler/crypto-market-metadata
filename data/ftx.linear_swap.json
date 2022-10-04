@@ -1681,6 +1681,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "FTXDXY-PERP",
+    "base_id": "FTXDXY",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "FTXDXY",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "FXS-PERP",
     "base_id": "FXS",
     "quote_id": "USD",
