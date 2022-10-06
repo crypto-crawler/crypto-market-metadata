@@ -453,7 +453,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500000.0
+      "max": 300000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2208,7 +2208,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5000000.0
+      "max": 2000000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -2532,7 +2532,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8000000.0
+      "max": 10000000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -2613,7 +2613,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000000.0
+      "max": 10000000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -2913,6 +2913,33 @@
       "max": 400000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "GMX_USDT",
+    "base_id": "GMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
@@ -3234,7 +3261,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000000.0
+      "max": 15000000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -6312,7 +6339,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2000000.0
+      "max": 1000000.0
     },
     "contract_value": 0.1,
     "info": {}

@@ -1394,7 +1394,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.005,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "info": {}
@@ -5322,6 +5322,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "GMX/USD",
+    "base_id": "GMX",
+    "quote_id": "USD",
+    "base": "GMX",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.005,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "GODS/USD",
     "base_id": "GODS",
     "quote_id": "USD",
@@ -5954,7 +5974,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 0.05,
       "lot_size": 0.0001
     },
     "info": {}
@@ -7656,6 +7676,26 @@
     "precision": {
       "tick_size": 0.0005,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
+    "symbol": "MYC/USD",
+    "base_id": "MYC",
+    "quote_id": "USD",
+    "base": "MYC",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
     },
     "info": {}
   },
