@@ -17983,6 +17983,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FDC_USDT",
+    "base_id": "FDC",
+    "quote_id": "USDT",
+    "base": "FDC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FDT_USDT",
     "base_id": "FDT",
     "quote_id": "USDT",
@@ -39409,6 +39429,26 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PUMLX_USDT",
+    "base_id": "PUMLX",
+    "quote_id": "USDT",
+    "base": "PUMLX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
