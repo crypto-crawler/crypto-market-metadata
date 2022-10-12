@@ -874,7 +874,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0025,
       "lot_size": 0.01
     },
     "info": {}
@@ -7022,6 +7022,26 @@
   {
     "exchange": "ftx",
     "market_type": "spot",
+    "symbol": "MAGIC/USD",
+    "base_id": "MAGIC",
+    "quote_id": "USD",
+    "base": "MAGIC",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "spot",
     "symbol": "MANA/USD",
     "base_id": "MANA",
     "quote_id": "USD",
@@ -7195,7 +7215,7 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 100.0
+      "lot_size": 1000.0
     },
     "info": {}
   },
@@ -10494,7 +10514,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.000025,
       "lot_size": 1.0
     },
     "info": {}
@@ -11174,7 +11194,7 @@
       "taker": 0.0007
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 5e-7,
       "lot_size": 100.0
     },
     "info": {}

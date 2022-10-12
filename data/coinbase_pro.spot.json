@@ -2,6 +2,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "00-USD",
+    "base_id": "00",
+    "quote_id": "USD",
+    "base": "00",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "1INCH-BTC",
     "base_id": "1INCH",
     "quote_id": "BTC",

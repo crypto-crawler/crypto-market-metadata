@@ -19143,6 +19143,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FPFT_USDT",
+    "base_id": "FPFT",
+    "quote_id": "USDT",
+    "base": "FPFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FRAX_ETH",
     "base_id": "FRAX",
     "quote_id": "ETH",
@@ -28875,7 +28895,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "info": {}

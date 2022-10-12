@@ -12146,6 +12146,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GEM-USDT",
+    "base_id": "GEM",
+    "quote_id": "USDT",
+    "base": "GEM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GENS-USDT",
     "base_id": "GENS",
     "quote_id": "USDT",
@@ -21438,6 +21462,54 @@
     "base_id": "OXT",
     "quote_id": "USDT",
     "base": "OXT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "P00LS-USDC",
+    "base_id": "P00LS",
+    "quote_id": "USDC",
+    "base": "P00LS",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "P00LS-USDT",
+    "base_id": "P00LS",
+    "quote_id": "USDT",
+    "base": "P00LS",
     "quote": "USDT",
     "active": true,
     "margin": false,
