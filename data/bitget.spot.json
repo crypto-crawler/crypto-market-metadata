@@ -10414,6 +10414,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "NMRUSDT_SPBL",
+    "base_id": "NMR",
+    "quote_id": "USDT",
+    "base": "NMR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "NPTUSDT_SPBL",
     "base_id": "NPT",
     "quote_id": "USDT",
@@ -10451,6 +10474,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "NUUSDT_SPBL",
+    "base_id": "NU",
+    "quote_id": "USDT",
+    "base": "NU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
