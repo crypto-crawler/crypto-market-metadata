@@ -12001,6 +12001,52 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "QKCUSDT_SPBL",
+    "base_id": "QKC",
+    "quote_id": "USDT",
+    "base": "QKC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "QNTUSDT_SPBL",
+    "base_id": "QNT",
+    "quote_id": "USDT",
+    "base": "QNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "QRDOUSDT_SPBL",
     "base_id": "QRDO",
     "quote_id": "USDT",
@@ -16068,7 +16114,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
