@@ -600,6 +600,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "BTC-USDC-SWAP",
+    "base_id": "BTC",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "BTC",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.0001,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "BTC-USDT-SWAP",
     "base_id": "BTC",
     "quote_id": "USDT",
@@ -1323,6 +1349,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ETH-USDC-SWAP",
+    "base_id": "ETH",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "ETH",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {

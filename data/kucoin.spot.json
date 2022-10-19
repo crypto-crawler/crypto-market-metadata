@@ -13634,6 +13634,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HIOD-USDT",
+    "base_id": "HIOD",
+    "quote_id": "USDT",
+    "base": "HIOD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HIODBS-USDT",
     "base_id": "HIODBS",
     "quote_id": "USDT",
@@ -15327,6 +15351,30 @@
     },
     "precision": {
       "tick_size": 1e-9,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "KICKS-USDT",
+    "base_id": "KICKS",
+    "quote_id": "USDT",
+    "base": "KICKS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
