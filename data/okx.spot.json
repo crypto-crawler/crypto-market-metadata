@@ -123,7 +123,7 @@
     "base": "AAVE",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -899,6 +899,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "APT-USDC",
+    "base_id": "APT",
+    "quote_id": "USDC",
+    "base": "APT",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "APT-USDT",
+    "base_id": "APT",
+    "quote_id": "USDT",
+    "base": "APT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AR-USDC",
     "base_id": "AR",
     "quote_id": "USDC",
@@ -1664,7 +1710,7 @@
     "base": "BCH",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -2400,7 +2446,7 @@
     "base": "CEL",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -11393,7 +11439,7 @@
     "base": "SAND",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

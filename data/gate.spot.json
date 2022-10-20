@@ -2642,6 +2642,86 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "APRT_USDT",
+    "base_id": "APRT",
+    "quote_id": "USDT",
+    "base": "APRT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "APT3L_USDT",
+    "base_id": "APT3L",
+    "quote_id": "USDT",
+    "base": "APT3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "APT3S_USDT",
+    "base_id": "APT3S",
+    "quote_id": "USDT",
+    "base": "APT3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "APT_BTC",
+    "base_id": "APT",
+    "quote_id": "BTC",
+    "base": "APT",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "APT_ETH",
     "base_id": "APT",
     "quote_id": "ETH",
@@ -2654,7 +2734,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-8,
       "lot_size": 0.001
     },
     "info": {}
@@ -2674,7 +2754,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "info": {}

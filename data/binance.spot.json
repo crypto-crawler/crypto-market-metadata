@@ -3506,6 +3506,126 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "APTBTC",
+    "base_id": "APT",
+    "quote_id": "BTC",
+    "base": "APT",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 8384883677.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "APTBUSD",
+    "base_id": "APT",
+    "quote_id": "BUSD",
+    "base": "APT",
+    "quote": "BUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "APTEUR",
+    "base_id": "APT",
+    "quote_id": "EUR",
+    "base": "APT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "APTTRY",
+    "base_id": "APT",
+    "quote_id": "TRY",
+    "base": "APT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 922327.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "APTUSDT",
+    "base_id": "APT",
+    "quote_id": "USDT",
+    "base": "APT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "ARBNB",
     "base_id": "AR",
     "quote_id": "BNB",
@@ -3848,7 +3968,7 @@
     "base": "ARPA",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -3920,7 +4040,7 @@
     "base": "ARPA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -9458,6 +9578,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "BTCPLN",
+    "base_id": "BTC",
+    "quote_id": "PLN",
+    "base": "BTC",
+    "quote": "PLN",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.00001,
+      "max": 9223.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "BTCRUB",
     "base_id": "BTC",
     "quote_id": "RUB",
@@ -10700,6 +10844,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 922320.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "BUSDPLN",
+    "base_id": "BUSD",
+    "quote_id": "PLN",
+    "base": "BUSD",
+    "quote": "PLN",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -18332,6 +18500,30 @@
     "quantity_limit": {
       "min": 0.0001,
       "max": 90000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ETHPLN",
+    "base_id": "ETH",
+    "quote_id": "PLN",
+    "base": "ETH",
+    "quote": "PLN",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 92233.0
     },
     "info": {}
   },
@@ -37496,7 +37688,7 @@
     "base": "REQ",
     "quote": "BUSD",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -37544,7 +37736,7 @@
     "base": "REQ",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.001

@@ -1850,6 +1850,30 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tBTCTRY",
+    "base_id": "BTC",
+    "quote_id": "TRY",
+    "base": "BTC",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tBTCUSD",
     "base_id": "BTC",
     "quote_id": "USD",
@@ -9380,6 +9404,30 @@
     "quantity_limit": {
       "min": 24.0,
       "max": 1000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tTRYUST",
+    "base_id": "TRY",
+    "quote_id": "UST",
+    "base": "TRY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 5000000.0
     },
     "info": {}
   },

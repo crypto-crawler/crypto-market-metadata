@@ -1198,6 +1198,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "APT/EUR",
+    "base_id": "APT",
+    "quote_id": "ZEUR",
+    "base": "APT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "APT/USD",
+    "base_id": "APT",
+    "quote_id": "ZUSD",
+    "base": "APT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ARPA/EUR",
     "base_id": "ARPA",
     "quote_id": "ZEUR",
