@@ -23976,6 +23976,30 @@
     "info": {}
   },
   {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "GRND_USDT",
+    "base_id": "GRND",
+    "quote_id": "USDT",
+    "base": "GRND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
     "exchange": "mxc",
     "market_type": "spot",
     "symbol": "GRO_USDT",
@@ -34694,7 +34718,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -35727,6 +35751,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "MTD_USDT",
+    "base_id": "MTD",
+    "quote_id": "USDT",
+    "base": "MTD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -43326,6 +43374,30 @@
     "base_id": "QUROZ",
     "quote_id": "USDT",
     "base": "QUROZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "QVI_USDT",
+    "base_id": "QVI",
+    "quote_id": "USDT",
+    "base": "QVI",
     "quote": "USDT",
     "active": true,
     "margin": false,
