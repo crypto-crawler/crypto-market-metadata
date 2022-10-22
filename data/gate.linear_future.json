@@ -1346,6 +1346,34 @@
   {
     "exchange": "gate",
     "market_type": "linear_future",
+    "symbol": "BTC_USDT_20221104",
+    "base_id": "BTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00025,
+      "taker": 0.00025
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.0001,
+    "delivery_date": 1667548800000,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_future",
     "symbol": "BTC_USDT_20221230",
     "base_id": "BTC",
     "quote_id": "USDT",
