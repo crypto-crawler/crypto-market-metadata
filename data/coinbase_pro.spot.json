@@ -13226,6 +13226,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "WAXL-USD",
+    "base_id": "WAXL",
+    "quote_id": "USD",
+    "base": "WAXL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "WBTC-BTC",
     "base_id": "WBTC",
     "quote_id": "BTC",
