@@ -2233,6 +2233,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "KLAY-PERP",
+    "base_id": "KLAY",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "KLAY",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.000025,
+      "lot_size": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "KLUNC-PERP",
     "base_id": "KLUNC",
     "quote_id": "USD",

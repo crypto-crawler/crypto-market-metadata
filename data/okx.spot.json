@@ -738,6 +738,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "APE-BTC",
+    "base_id": "APE",
+    "quote_id": "BTC",
+    "base": "APE",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "APE-USDC",
     "base_id": "APE",
     "quote_id": "USDC",
@@ -2440,6 +2463,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "CEL-BTC",
+    "base_id": "CEL",
+    "quote_id": "BTC",
+    "base": "CEL",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "CEL-USDC",
     "base_id": "CEL",
     "quote_id": "USDC",
@@ -3262,6 +3308,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CSPR-BTC",
+    "base_id": "CSPR",
+    "quote_id": "BTC",
+    "base": "CSPR",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
@@ -4211,6 +4280,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "DYDX-BTC",
+    "base_id": "DYDX",
+    "quote_id": "BTC",
+    "base": "DYDX",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "DYDX-USDC",
     "base_id": "DYDX",
     "quote_id": "USDC",
@@ -4596,6 +4688,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ENS-BTC",
+    "base_id": "ENS",
+    "quote_id": "BTC",
+    "base": "ENS",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -5079,6 +5194,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ETHW-BTC",
+    "base_id": "ETHW",
+    "quote_id": "BTC",
+    "base": "ETHW",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -8294,11 +8432,11 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-12,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -8368,6 +8506,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "LUNC-BTC",
+    "base_id": "LUNC",
+    "quote_id": "BTC",
+    "base": "LUNC",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0
     },
     "info": {}
   },
@@ -8575,6 +8736,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "MATIC-BTC",
+    "base_id": "MATIC",
+    "quote_id": "BTC",
+    "base": "MATIC",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -10398,6 +10582,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PEOPLE-BTC",
+    "base_id": "PEOPLE",
+    "quote_id": "BTC",
+    "base": "PEOPLE",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PEOPLE-USDC",
     "base_id": "PEOPLE",
     "quote_id": "USDC",
@@ -10484,6 +10691,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "PHA-BTC",
+    "base_id": "PHA",
+    "quote_id": "BTC",
+    "base": "PHA",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
@@ -11565,6 +11795,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SHIB-BTC",
+    "base_id": "SHIB",
+    "quote_id": "BTC",
+    "base": "SHIB",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 50000.0
     },
     "info": {}
   },
@@ -12698,6 +12951,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "TAMA-BTC",
+    "base_id": "TAMA",
+    "quote_id": "BTC",
+    "base": "TAMA",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "TAMA-USDT",
     "base_id": "TAMA",
     "quote_id": "USDT",
@@ -13612,6 +13888,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "USTC-BTC",
+    "base_id": "USTC",
+    "quote_id": "BTC",
+    "base": "USTC",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
