@@ -2515,7 +2515,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -7620,6 +7620,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ITAUSDT_SPBL",
+    "base_id": "ITA",
+    "quote_id": "USDT",
+    "base": "ITA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "IUSDUSDT_SPBL",
     "base_id": "IUSD",
     "quote_id": "USDT",
@@ -12351,6 +12374,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "REDUSDT_SPBL",
+    "base_id": "RED",
+    "quote_id": "USDT",
+    "base": "RED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "RENUSDT_SPBL",
     "base_id": "REN",
     "quote_id": "USDT",
@@ -14924,6 +14970,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "TRIVIAUSDT_SPBL",
+    "base_id": "TRIVIA",
+    "quote_id": "USDT",
+    "base": "TRIVIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "TRXBTC_SPBL",
     "base_id": "TRX",
     "quote_id": "BTC",
@@ -16499,6 +16568,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "XCNUSDT_SPBL",
+    "base_id": "XCN",
+    "quote_id": "USDT",
+    "base": "XCN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "XDCUSDT_SPBL",
     "base_id": "XDC",
     "quote_id": "USDT",
@@ -16648,6 +16740,29 @@
     },
     "quantity_limit": {
       "min": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "XPRUSDT_SPBL",
+    "base_id": "XPR",
+    "quote_id": "USDT",
+    "base": "XPR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

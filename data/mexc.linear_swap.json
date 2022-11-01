@@ -102,7 +102,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 50000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -669,7 +669,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2000000.0
+      "max": 675000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -912,7 +912,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8000000.0
+      "max": 2500000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -1290,7 +1290,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 600000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -1749,7 +1749,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 750000.0
+      "max": 500000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -1965,7 +1965,34 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4500000.0
+      "max": 2300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "CVX_USDT",
+    "base_id": "CVX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CVX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2073,7 +2100,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 500.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -2181,7 +2208,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500000.0
+      "max": 85000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -2478,7 +2505,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 350000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -3396,7 +3423,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500000.0
+      "max": 150000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3882,7 +3909,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2000000.0
+      "max": 650000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -4206,7 +4233,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000000.0
+      "max": 800000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -4476,7 +4503,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 570000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -4800,7 +4827,34 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 300000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "OSMO_USDT",
+    "base_id": "OSMO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OSMO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5097,7 +5151,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 680000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5119,12 +5173,12 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 100000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -5848,12 +5902,12 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 58000000.0
+      "max": 3800000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -6042,7 +6096,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9000000.0
+      "max": 3000000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -6123,7 +6177,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 900000.0
+      "max": 470000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6825,7 +6879,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 600000.0
+      "max": 200000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -6852,7 +6906,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5000000.0
+      "max": 2000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6879,7 +6933,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7000000.0
+      "max": 3500000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -6906,7 +6960,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5000000.0
+      "max": 1500000.0
     },
     "contract_value": 0.0001,
     "info": {}
@@ -7068,7 +7122,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1800000.0
+      "max": 1100000.0
     },
     "contract_value": 1.0,
     "info": {}

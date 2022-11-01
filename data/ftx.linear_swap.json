@@ -2095,6 +2095,29 @@
   {
     "exchange": "ftx",
     "market_type": "linear_swap",
+    "symbol": "INJ-PERP",
+    "base_id": "INJ",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "INJ",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 0.00025,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
     "symbol": "IOST-PERP",
     "base_id": "IOST",
     "quote_id": "USD",
@@ -2156,6 +2179,29 @@
     },
     "precision": {
       "tick_size": 2.5e-6,
+      "lot_size": 100.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "ftx",
+    "market_type": "linear_swap",
+    "symbol": "JPY-PERP",
+    "base_id": "JPY",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "JPY",
+    "quote": "USD",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0007
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "contract_value": 1.0,

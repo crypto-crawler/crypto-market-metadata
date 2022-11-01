@@ -928,7 +928,7 @@
     "base": "APT",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -2457,6 +2457,52 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CEEK-USDC",
+    "base_id": "CEEK",
+    "quote_id": "USDC",
+    "base": "CEEK",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CEEK-USDT",
+    "base_id": "CEEK",
+    "quote_id": "USDT",
+    "base": "CEEK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
@@ -7460,7 +7506,7 @@
     "base": "KLAY",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -8771,7 +8817,7 @@
     "base": "MATIC",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -11893,6 +11939,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SKEB-USDC",
+    "base_id": "SKEB",
+    "quote_id": "USDC",
+    "base": "SKEB",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SKEB-USDT",
     "base_id": "SKEB",
     "quote_id": "USDT",
@@ -12060,7 +12129,7 @@
     "base": "SNX",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -12704,7 +12773,7 @@
     "base": "SUSHI",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -12964,6 +13033,29 @@
     },
     "precision": {
       "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TAMA-USDC",
+    "base_id": "TAMA",
+    "quote_id": "USDC",
+    "base": "TAMA",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -14912,7 +15004,7 @@
     "base": "XMR",
     "quote": "USDC",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
