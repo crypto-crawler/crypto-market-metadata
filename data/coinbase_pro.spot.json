@@ -8537,6 +8537,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "MNDE-USD",
+    "base_id": "MNDE",
+    "quote_id": "USD",
+    "base": "MNDE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "MONA-USD",
     "base_id": "MONA",
     "quote_id": "USD",
@@ -8649,6 +8672,29 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 12000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "MSOL-USD",
+    "base_id": "MSOL",
+    "quote_id": "USD",
+    "base": "MSOL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },
