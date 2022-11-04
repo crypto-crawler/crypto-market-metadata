@@ -13850,6 +13850,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HISQUIGGLE-USDT",
+    "base_id": "HISQUIGGLE",
+    "quote_id": "USDT",
+    "base": "HISQUIGGLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HNT-BTC",
     "base_id": "HNT",
     "quote_id": "BTC",
@@ -31627,6 +31651,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XCV-USDT",
+    "base_id": "XCV",
+    "quote_id": "USDT",
+    "base": "XCV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}

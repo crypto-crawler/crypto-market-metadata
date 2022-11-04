@@ -2741,8 +2741,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.000016,
-      "max": 1500.0
+      "notional_min": 1.0
     },
     "info": {}
   },
@@ -8542,7 +8541,7 @@
     "quote_id": "USD",
     "base": "MNDE",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -8683,7 +8682,7 @@
     "quote_id": "USD",
     "base": "MSOL",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
