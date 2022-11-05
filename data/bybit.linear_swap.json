@@ -777,7 +777,7 @@
     },
     "quantity_limit": {
       "min": 0.1,
-      "max": 6500.0
+      "max": 50000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4396,6 +4396,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 25000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
+    "symbol": "SWEATUSDT",
+    "base_id": "SWEAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SWEAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 2000000.0
     },
     "contract_value": 1.0,
     "info": {}

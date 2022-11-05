@@ -7221,6 +7221,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "HFTUSDT_SPBL",
+    "base_id": "HFT",
+    "quote_id": "USDT",
+    "base": "HFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "HIGHUSDT_SPBL",
     "base_id": "HIGH",
     "quote_id": "USDT",
@@ -12262,6 +12285,29 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "RADUSDT_SPBL",
+    "base_id": "RAD",
+    "quote_id": "USDT",
+    "base": "RAD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
