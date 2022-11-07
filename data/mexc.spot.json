@@ -12914,6 +12914,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "CRETA_USDT",
+    "base_id": "CRETA",
+    "quote_id": "USDT",
+    "base": "CRETA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "CRF_USDT",
     "base_id": "CRF",
     "quote_id": "USDT",
@@ -25502,7 +25526,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
