@@ -3252,6 +3252,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "WEMIX-USDT-SWAP",
+    "base_id": "WEMIX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WEMIX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "WNCG-USDT-SWAP",
     "base_id": "WNCG",
     "quote_id": "USDT",
