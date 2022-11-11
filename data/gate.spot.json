@@ -32548,7 +32548,7 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.001
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -49478,6 +49478,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TAMA_USDT",
+    "base_id": "TAMA",
+    "quote_id": "USDT",
+    "base": "TAMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "info": {}
   },

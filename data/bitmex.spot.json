@@ -46,6 +46,28 @@
   {
     "exchange": "bitmex",
     "market_type": "spot",
+    "symbol": "BMEX_USDT",
+    "base_id": "BMEX",
+    "quote_id": "USDT",
+    "settle_id": "",
+    "base": "BMEX",
+    "quote": "USDT",
+    "settle": "",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "spot",
     "symbol": "ETH_USDT",
     "base_id": "ETH",
     "quote_id": "USDT",
@@ -122,8 +144,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.001,
-      "taker": 0.001
+      "maker": 0.0,
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.01,
