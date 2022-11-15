@@ -6718,6 +6718,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "HNT-USDC",
+    "base_id": "HNT",
+    "quote_id": "USDC",
+    "base": "HNT",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "HNT-USDT",
+    "base_id": "HNT",
+    "quote_id": "USDT",
+    "base": "HNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "HYC-USDT",
     "base_id": "HYC",
     "quote_id": "USDT",
@@ -12543,7 +12589,7 @@
     "base": "SRM",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
