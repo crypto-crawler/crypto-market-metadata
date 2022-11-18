@@ -10173,6 +10173,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "MOONUSDT_SPBL",
+    "base_id": "MOON",
+    "quote_id": "USDT",
+    "base": "MOON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "MOVEZUSDT_SPBL",
     "base_id": "MOVEZ",
     "quote_id": "USDT",
