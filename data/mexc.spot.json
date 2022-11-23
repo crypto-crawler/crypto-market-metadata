@@ -9122,6 +9122,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "BTC_BUSD",
+    "base_id": "BTC",
+    "quote_id": "BUSD",
+    "base": "BTC",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "BTC_TRYB",
     "base_id": "BTC",
     "quote_id": "TRYB",
@@ -12950,7 +12974,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -19730,6 +19754,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ETH_BUSD",
+    "base_id": "ETH",
+    "quote_id": "BUSD",
+    "base": "ETH",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ETH_USDC",
     "base_id": "ETH",
     "quote_id": "USDC",
@@ -21866,6 +21914,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "FPFT_USDT",
+    "base_id": "FPFT",
+    "quote_id": "USDT",
+    "base": "FPFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "FREE3L_USDT",
     "base_id": "FREE3L",
     "quote_id": "USDT",
@@ -22431,7 +22503,7 @@
     },
     "precision": {
       "tick_size": 1e-13,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
@@ -30150,6 +30222,30 @@
     "base_id": "KRIDA",
     "quote_id": "USDT",
     "base": "KRIDA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "KROM_USDT",
+    "base_id": "KROM",
+    "quote_id": "USDT",
+    "base": "KROM",
     "quote": "USDT",
     "active": true,
     "margin": false,
