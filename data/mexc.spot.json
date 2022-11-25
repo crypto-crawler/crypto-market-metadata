@@ -818,6 +818,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ADA_BUSD",
+    "base_id": "ADA",
+    "quote_id": "BUSD",
+    "base": "ADA",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "ADA_USDC",
     "base_id": "ADA",
     "quote_id": "USDC",
@@ -7504,6 +7528,30 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "BNB_BUSD",
+    "base_id": "BNB",
+    "quote_id": "BUSD",
+    "base": "BNB",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 5.0,
@@ -15734,7 +15782,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-11,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -59306,6 +59354,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "XRP_BUSD",
+    "base_id": "XRP",
+    "quote_id": "BUSD",
+    "base": "XRP",
+    "quote": "BUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "XRP_ETH",
     "base_id": "XRP",
     "quote_id": "ETH",
@@ -60663,6 +60735,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "ZENI_USDT",
+    "base_id": "ZENI",
+    "quote_id": "USDT",
+    "base": "ZENI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

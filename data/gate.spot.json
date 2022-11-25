@@ -38655,6 +38655,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PIAS_USDT",
+    "base_id": "PIAS",
+    "quote_id": "USDT",
+    "base": "PIAS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PICKLE_ETH",
     "base_id": "PICKLE",
     "quote_id": "ETH",
