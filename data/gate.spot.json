@@ -51424,6 +51424,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TSUKA_USDT",
+    "base_id": "TSUKA",
+    "quote_id": "USDT",
+    "base": "TSUKA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TTK_USDT",
     "base_id": "TTK",
     "quote_id": "USDT",
