@@ -10317,6 +10317,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "PYR-USD",
+    "base_id": "PYR",
+    "quote_id": "USD",
+    "base": "PYR",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "QI-USD",
     "base_id": "QI",
     "quote_id": "USD",
