@@ -19898,6 +19898,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "NAVI-USDT",
+    "base_id": "NAVI",
+    "quote_id": "USDT",
+    "base": "NAVI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "NDAU-USDT",
     "base_id": "NDAU",
     "quote_id": "USDT",
