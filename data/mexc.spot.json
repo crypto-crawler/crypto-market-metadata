@@ -10370,6 +10370,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "CARE_USDT",
+    "base_id": "CARE",
+    "quote_id": "USDT",
+    "base": "CARE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "CART_USDT",
     "base_id": "CART",
     "quote_id": "USDT",
@@ -20690,6 +20714,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "FEN_USDT",
+    "base_id": "FEN",
+    "quote_id": "USDT",
+    "base": "FEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "FET_USDT",
     "base_id": "FET",
     "quote_id": "USDT",
@@ -22048,6 +22096,30 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "FREEDOM_USDT",
+    "base_id": "FREEDOM",
+    "quote_id": "USDT",
+    "base": "FREEDOM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
@@ -39182,7 +39254,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

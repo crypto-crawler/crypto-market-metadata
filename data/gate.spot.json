@@ -9211,6 +9211,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CARE_USDT",
+    "base_id": "CARE",
+    "quote_id": "USDT",
+    "base": "CARE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CART_ETH",
     "base_id": "CART",
     "quote_id": "ETH",
@@ -53627,6 +53647,26 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "VRJAM_USDT",
+    "base_id": "VRJAM",
+    "quote_id": "USDT",
+    "base": "VRJAM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "info": {}
   },
