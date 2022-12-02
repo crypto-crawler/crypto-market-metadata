@@ -1202,6 +1202,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIRTNT_USDT",
+    "base_id": "AIRTNT",
+    "quote_id": "USDT",
+    "base": "AIRTNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIR_USDT",
     "base_id": "AIR",
     "quote_id": "USDT",
@@ -47336,8 +47356,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.001
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "info": {}
   },

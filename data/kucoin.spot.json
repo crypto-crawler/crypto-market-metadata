@@ -1514,6 +1514,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ALT-USDT",
+    "base_id": "ALT",
+    "quote_id": "USDT",
+    "base": "ALT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AMB-BTC",
     "base_id": "AMB",
     "quote_id": "BTC",
@@ -11174,7 +11198,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -14022,6 +14046,30 @@
     "base_id": "HIODBS",
     "quote_id": "USDT",
     "base": "HIODBS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HIPENGUINS-USDT",
+    "base_id": "HIPENGUINS",
+    "quote_id": "USDT",
+    "base": "HIPENGUINS",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -19838,7 +19886,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
