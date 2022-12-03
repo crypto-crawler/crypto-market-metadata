@@ -1722,7 +1722,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6200000.0
+      "max": 7000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1875,16 +1875,16 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
+      "maker": 0.0,
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 275000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -2829,7 +2829,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500000.0
+      "max": 50000.0
     },
     "contract_value": 0.001,
     "info": {}
@@ -4206,7 +4206,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 150000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4368,7 +4368,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 900000.0
+      "max": 1100000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6482,6 +6482,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "TWT_USDT",
+    "base_id": "TWT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TWT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "UMA_USDT",
     "base_id": "UMA",
     "quote_id": "USDT",
@@ -6609,7 +6636,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 130000.0
     },
     "contract_value": 100.0,
     "info": {}
