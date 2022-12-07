@@ -4615,6 +4615,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "EGLD-USD",
+    "base_id": "EGLD",
+    "quote_id": "USD",
+    "base": "EGLD",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ELA-USD",
     "base_id": "ELA",
     "quote_id": "USD",
@@ -5885,7 +5908,7 @@
     "quote_id": "USD",
     "base": "GHST",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -7529,7 +7552,7 @@
     "quote_id": "USD",
     "base": "LIT",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,

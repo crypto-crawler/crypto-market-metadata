@@ -13351,6 +13351,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DEBT_USDT",
+    "base_id": "DEBT",
+    "quote_id": "USDT",
+    "base": "DEBT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DEFILAND_ETH",
     "base_id": "DEFILAND",
     "quote_id": "ETH",
