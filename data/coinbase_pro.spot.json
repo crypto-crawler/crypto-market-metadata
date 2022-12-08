@@ -995,6 +995,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ANT-USD",
+    "base_id": "ANT",
+    "quote_id": "USD",
+    "base": "ANT",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "APE-EUR",
     "base_id": "APE",
     "quote_id": "EUR",
@@ -4620,7 +4643,7 @@
     "quote_id": "USD",
     "base": "EGLD",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -7883,6 +7906,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "MAGIC-USD",
+    "base_id": "MAGIC",
+    "quote_id": "USD",
+    "base": "MAGIC",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "notional_min": 1.0
@@ -11308,6 +11354,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "RPL-USD",
+    "base_id": "RPL",
+    "quote_id": "USD",
+    "base": "RPL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "SAND-USD",
     "base_id": "SAND",
     "quote_id": "USD",
@@ -13598,7 +13667,7 @@
     "quote_id": "GBP",
     "base": "WCFG",
     "quote": "GBP",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
