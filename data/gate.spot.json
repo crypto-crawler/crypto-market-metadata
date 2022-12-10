@@ -40095,6 +40095,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PRIMAL_USDT",
+    "base_id": "PRIMAL",
+    "quote_id": "USDT",
+    "base": "PRIMAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PRISM_ETH",
     "base_id": "PRISM",
     "quote_id": "ETH",
@@ -40129,6 +40149,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PRMX_USDT",
+    "base_id": "PRMX",
+    "quote_id": "USDT",
+    "base": "PRMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
     },
     "info": {}
   },
