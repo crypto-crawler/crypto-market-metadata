@@ -17330,6 +17330,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "matchusdt",
+    "base_id": "match",
+    "quote_id": "usdt",
+    "base": "MATCH",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3723008190.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "maticbtc",
     "base_id": "matic",
     "quote_id": "btc",
@@ -19219,7 +19243,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 17141153.6741
+      "max": 19441603.3405
     },
     "info": {}
   },
@@ -22723,7 +22747,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 82314.714
+      "max": 92096.6168
     },
     "info": {}
   },
@@ -23059,7 +23083,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 552131.252
+      "max": 485690.1232
     },
     "info": {}
   },
@@ -28460,6 +28484,54 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 1004722.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "usdjusdd",
+    "base_id": "usdj",
+    "quote_id": "usdd",
+    "base": "USDJ",
+    "quote": "USDD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 961538.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "usdjusdt",
+    "base_id": "usdj",
+    "quote_id": "usdt",
+    "base": "USDJ",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 961538.0
     },
     "info": {}
   },

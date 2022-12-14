@@ -1056,7 +1056,7 @@
     "info": {}
   },
   {
-    "exchange": "mxc",
+    "exchange": "mexc",
     "market_type": "spot",
     "symbol": "AFC_USDT",
     "base_id": "AFC",
@@ -1066,7 +1066,7 @@
     "active": true,
     "margin": false,
     "fees": {
-      "maker": 0.002,
+      "maker": 0.0,
       "taker": 0.002
     },
     "precision": {
@@ -4994,6 +4994,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "AVL_USDT",
+    "base_id": "AVL",
+    "quote_id": "USDT",
+    "base": "AVL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "AVN_USDT",
     "base_id": "AVN",
     "quote_id": "USDT",
@@ -5895,6 +5919,30 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "BAR_USDT",
+    "base_id": "BAR",
+    "quote_id": "USDT",
+    "base": "BAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -17342,7 +17390,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -33519,6 +33567,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "MAFA_USDT",
+    "base_id": "MAFA",
+    "quote_id": "USDT",
+    "base": "MAFA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
