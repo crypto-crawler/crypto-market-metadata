@@ -64,7 +64,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.15
     },
     "info": {}
   },
@@ -87,7 +87,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.15
     },
     "info": {}
   },
@@ -110,7 +110,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.15
     },
     "info": {}
   },
@@ -133,7 +133,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.15
     },
     "info": {}
   },
@@ -156,7 +156,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.15
     },
     "info": {}
   },
@@ -179,7 +179,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.15
     },
     "info": {}
   },
@@ -2939,7 +2939,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.15
+      "min": 0.2
     },
     "info": {}
   },
@@ -2962,7 +2962,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.15
+      "min": 0.2
     },
     "info": {}
   },
@@ -2985,7 +2985,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.15
+      "min": 0.2
     },
     "info": {}
   },
@@ -3008,7 +3008,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.15
+      "min": 0.2
     },
     "info": {}
   },
@@ -4573,6 +4573,52 @@
     },
     "quantity_limit": {
       "min": 1.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EUL/EUR",
+    "base_id": "EUL",
+    "quote_id": "ZEUR",
+    "base": "EUL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EUL/USD",
+    "base_id": "EUL",
+    "quote_id": "ZUSD",
+    "base": "EUL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -10690,7 +10736,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 1.5
     },
     "info": {}
   },
@@ -10713,7 +10759,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 1.5
     },
     "info": {}
   },
@@ -10736,7 +10782,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 1.5
     },
     "info": {}
   },
@@ -10759,7 +10805,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 1.5
     },
     "info": {}
   },
@@ -13710,6 +13756,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "WAXL/EUR",
+    "base_id": "WAXL",
+    "quote_id": "ZEUR",
+    "base": "WAXL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "WAXL/USD",
+    "base_id": "WAXL",
+    "quote_id": "ZUSD",
+    "base": "WAXL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "WBTC/EUR",
     "base_id": "WBTC",
     "quote_id": "ZEUR",
@@ -14853,7 +14945,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.002
     },
     "info": {}
   },
@@ -14876,7 +14968,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.002
     },
     "info": {}
   },
@@ -14899,7 +14991,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.002
     },
     "info": {}
   },
@@ -14922,7 +15014,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.002
     },
     "info": {}
   },
@@ -14945,7 +15037,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.002
     },
     "info": {}
   },
@@ -14968,7 +15060,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.002
     },
     "info": {}
   },
@@ -15037,7 +15129,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.13
+      "min": 0.15
     },
     "info": {}
   },
@@ -15060,7 +15152,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.13
+      "min": 0.15
     },
     "info": {}
   },
@@ -15083,7 +15175,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 0.13
+      "min": 0.15
     },
     "info": {}
   },
