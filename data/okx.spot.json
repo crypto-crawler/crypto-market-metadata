@@ -5614,6 +5614,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "FLOKI-USDC",
+    "base_id": "FLOKI",
+    "quote_id": "USDC",
+    "base": "FLOKI",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "FLOKI-USDT",
+    "base_id": "FLOKI",
+    "quote_id": "USDT",
+    "base": "FLOKI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "FLOW-BTC",
     "base_id": "FLOW",
     "quote_id": "BTC",
