@@ -1957,6 +1957,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BNB-USDC",
+    "base_id": "BNB",
+    "quote_id": "USDC",
+    "base": "BNB",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "BNB-USDT",
+    "base_id": "BNB",
+    "quote_id": "USDT",
+    "base": "BNB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BNT-BTC",
     "base_id": "BNT",
     "quote_id": "BTC",
