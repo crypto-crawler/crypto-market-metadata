@@ -1122,6 +1122,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "dogeeur",
+    "base_id": "DOGE",
+    "quote_id": "EUR",
+    "base": "DOGE",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "dogeusd",
+    "base_id": "DOGE",
+    "quote_id": "USD",
+    "base": "DOGE",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "doteur",
     "base_id": "DOT",
     "quote_id": "EUR",
