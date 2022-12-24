@@ -6541,6 +6541,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "GEARUSDT_SPBL",
+    "base_id": "GEAR",
+    "quote_id": "USDT",
+    "base": "GEAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "GENEUSDT_SPBL",
     "base_id": "GENE",
     "quote_id": "USDT",
