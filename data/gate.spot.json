@@ -32435,6 +32435,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MINE_USDT",
+    "base_id": "MINE",
+    "quote_id": "USDT",
+    "base": "MINE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MINI_ETH",
     "base_id": "MINI",
     "quote_id": "ETH",
