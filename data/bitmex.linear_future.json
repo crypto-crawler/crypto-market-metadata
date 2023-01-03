@@ -554,6 +554,30 @@
   {
     "exchange": "bitmex",
     "market_type": "linear_future",
+    "symbol": "XBTUSDTH23",
+    "base_id": "XBT",
+    "quote_id": "USDT",
+    "settle_id": "USDt",
+    "base": "BTC",
+    "quote": "USDT",
+    "settle": "USDt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.5,
+      "lot_size": 1000.0
+    },
+    "contract_value": 1e-6,
+    "delivery_date": 1680264000000,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "linear_future",
     "symbol": "XBTUSDTM22",
     "base_id": "XBT",
     "quote_id": "USDT",
