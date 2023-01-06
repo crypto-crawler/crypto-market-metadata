@@ -1242,6 +1242,33 @@
     "info": {}
   },
   {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "BONK_USDT",
+    "base_id": "BONK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BONK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
+    },
+    "contract_value": 1000000.0,
+    "info": {}
+  },
+  {
     "exchange": "mxc",
     "market_type": "linear_swap",
     "symbol": "BP_USDT",
@@ -2281,7 +2308,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0
+      "taker": 0.0006
     },
     "precision": {
       "tick_size": 1e-6,
@@ -2632,7 +2659,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0
+      "taker": 0.0006
     },
     "precision": {
       "tick_size": 0.01,
