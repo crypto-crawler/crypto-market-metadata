@@ -17306,6 +17306,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "maskusdd",
+    "base_id": "mask",
+    "quote_id": "usdd",
+    "base": "MASK",
+    "quote": "USDD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 440528.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "maskusdt",
     "base_id": "mask",
     "quote_id": "usdt",
@@ -19315,7 +19339,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 24355892.5375
+      "max": 22771149.943
     },
     "info": {}
   },
@@ -22843,7 +22867,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 108975.0058
+      "max": 119204.5387
     },
     "info": {}
   },

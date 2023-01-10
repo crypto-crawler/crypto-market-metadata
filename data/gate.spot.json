@@ -24363,6 +24363,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "IAZUKI_USDT",
+    "base_id": "IAZUKI",
+    "quote_id": "USDT",
+    "base": "IAZUKI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "IBAYC_USDT",
     "base_id": "IBAYC",
     "quote_id": "USDT",
@@ -35128,7 +35148,7 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.001
+      "lot_size": 0.01
     },
     "info": {}
   },
