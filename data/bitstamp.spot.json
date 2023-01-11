@@ -1582,6 +1582,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "flreur",
+    "base_id": "FLR",
+    "quote_id": "EUR",
+    "base": "FLR",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "flrusd",
+    "base_id": "FLR",
+    "quote_id": "USD",
+    "base": "FLR",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "ftmeur",
     "base_id": "FTM",
     "quote_id": "EUR",

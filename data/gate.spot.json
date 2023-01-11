@@ -19203,6 +19203,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FLR_USDT",
+    "base_id": "FLR",
+    "quote_id": "USDT",
+    "base": "FLR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FLURRY_USDT",
     "base_id": "FLURRY",
     "quote_id": "USDT",
@@ -30647,8 +30667,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.0001
+      "tick_size": 1e-9,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -30667,8 +30687,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -43824,6 +43844,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RPL_USDT",
+    "base_id": "RPL",
+    "quote_id": "USDT",
+    "base": "RPL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RSR_USDT",
     "base_id": "RSR",
     "quote_id": "USDT",
@@ -44796,8 +44836,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
-      "lot_size": 0.001
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -44816,8 +44856,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.001
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "info": {}
   },
