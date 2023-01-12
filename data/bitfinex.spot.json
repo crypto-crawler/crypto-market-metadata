@@ -4579,7 +4579,7 @@
     },
     "quantity_limit": {
       "min": 26.0,
-      "max": 250000.0
+      "max": 500000.0
     },
     "info": {}
   },
@@ -4603,7 +4603,7 @@
     },
     "quantity_limit": {
       "min": 26.0,
-      "max": 250000.0
+      "max": 500000.0
     },
     "info": {}
   },
@@ -10220,6 +10220,30 @@
     "quantity_limit": {
       "min": 16.0,
       "max": 50000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tWBTBTC",
+    "base_id": "WBT",
+    "quote_id": "BTC",
+    "base": "WBTC",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10.0
     },
     "info": {}
   },

@@ -5618,6 +5618,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "chzusdd",
+    "base_id": "chz",
+    "quote_id": "usdd",
+    "base": "CHZ",
+    "quote": "USDD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 9398496.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "chzusdt",
     "base_id": "chz",
     "quote_id": "usdt",
@@ -10988,6 +11012,30 @@
     "quantity_limit": {
       "min": 0.0001,
       "max": 96289.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "flrusdt",
+    "base_id": "flr",
+    "quote_id": "usdt",
+    "base": "FLR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
     },
     "info": {}
   },
@@ -19363,7 +19411,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 22400779.1575
+      "max": 22264169.2076
     },
     "info": {}
   },
@@ -22891,7 +22939,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 123276.3622
+      "max": 110383.8119
     },
     "info": {}
   },
@@ -27980,6 +28028,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 9293680.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "tusdusdd",
+    "base_id": "tusd",
+    "quote_id": "usdd",
+    "base": "TUSD",
+    "quote": "USDD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
     },
     "info": {}
   },
