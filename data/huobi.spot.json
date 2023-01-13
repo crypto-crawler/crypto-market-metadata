@@ -2258,6 +2258,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "atomusdd",
+    "base_id": "atom",
+    "quote_id": "usdd",
+    "base": "ATOM",
+    "quote": "USDD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 110497.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "atomusdt",
     "base_id": "atom",
     "quote_id": "usdt",
@@ -2540,6 +2564,30 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 36219.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "avaxusdd",
+    "base_id": "avax",
+    "quote_id": "usdd",
+    "base": "AVAX",
+    "quote": "USDD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 87412.0
     },
     "info": {}
   },
@@ -19411,7 +19459,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 22264169.2076
+      "max": 19211333.0159
     },
     "info": {}
   },
@@ -22939,7 +22987,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 110383.8119
+      "max": 114670.6511
     },
     "info": {}
   },

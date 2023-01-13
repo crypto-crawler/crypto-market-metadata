@@ -2102,6 +2102,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AMKT_USDT",
+    "base_id": "AMKT",
+    "quote_id": "USDT",
+    "base": "AMKT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AMPL3L_USDT",
     "base_id": "AMPL3L",
     "quote_id": "USDT",
@@ -23657,6 +23677,46 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HIFI_ETH",
+    "base_id": "HIFI",
+    "quote_id": "ETH",
+    "base": "HIFI",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HIFI_USDT",
+    "base_id": "HIFI",
+    "quote_id": "USDT",
+    "base": "HIFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },

@@ -14234,6 +14234,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HIMFERS-USDT",
+    "base_id": "HIMFERS",
+    "quote_id": "USDT",
+    "base": "HIMFERS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HIOD-USDT",
     "base_id": "HIOD",
     "quote_id": "USDT",
