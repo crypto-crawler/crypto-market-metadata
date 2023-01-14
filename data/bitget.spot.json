@@ -15031,6 +15031,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "TIMEUSDT_SPBL",
+    "base_id": "TIME",
+    "quote_id": "USDT",
+    "base": "TIME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "TITANUSDT_SPBL",
     "base_id": "TITAN",
     "quote_id": "USDT",
