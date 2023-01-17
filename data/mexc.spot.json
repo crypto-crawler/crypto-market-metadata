@@ -18038,7 +18038,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -25407,6 +25407,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "GRV_USDT",
+    "base_id": "GRV",
+    "quote_id": "USDT",
+    "base": "GRV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -53632,6 +53656,30 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "T23_USDT",
+    "base_id": "T23",
+    "quote_id": "USDT",
+    "base": "T23",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
