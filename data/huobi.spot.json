@@ -14630,7 +14630,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -15620,6 +15620,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 221287895.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "krrxusdt",
+    "base_id": "krrx",
+    "quote_id": "usdt",
+    "base": "KRRX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 3225764.0
     },
     "info": {}
   },
@@ -19483,7 +19507,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 20031353.4227
+      "max": 21505778.5091
     },
     "info": {}
   },
@@ -22550,7 +22574,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -23011,7 +23035,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 98702.213
+      "max": 91839.1903
     },
     "info": {}
   },
