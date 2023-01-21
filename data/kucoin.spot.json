@@ -25274,6 +25274,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RPL-USDT",
+    "base_id": "RPL",
+    "quote_id": "USDT",
+    "base": "RPL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "RSR-BTC",
     "base_id": "RSR",
     "quote_id": "BTC",

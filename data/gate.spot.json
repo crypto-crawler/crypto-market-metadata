@@ -3582,6 +3582,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ASTRA_USDT",
+    "base_id": "ASTRA",
+    "quote_id": "USDT",
+    "base": "ASTRA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ASTRO_ETH",
     "base_id": "ASTRO",
     "quote_id": "ETH",
@@ -13764,6 +13784,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DESO_USDT",
+    "base_id": "DESO",
+    "quote_id": "USDT",
+    "base": "DESO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
