@@ -11011,6 +11011,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "COREUM_USDT",
+    "base_id": "COREUM",
+    "quote_id": "USDT",
+    "base": "COREUM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CORE_ETH",
     "base_id": "CORE",
     "quote_id": "ETH",
