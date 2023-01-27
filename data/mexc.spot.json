@@ -44522,6 +44522,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "POMG_USDT",
+    "base_id": "POMG",
+    "quote_id": "USDT",
+    "base": "POMG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "POM_USDT",
     "base_id": "POM",
     "quote_id": "USDT",
