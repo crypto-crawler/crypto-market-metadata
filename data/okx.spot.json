@@ -6494,7 +6494,7 @@
     "base": "GMX",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -8173,7 +8173,7 @@
     "base": "LDO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -8955,7 +8955,7 @@
     "base": "MAGIC",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -14336,6 +14336,29 @@
     "quote_id": "USDT",
     "base": "USDP",
     "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "USDT-USDC",
+    "base_id": "USDT",
+    "quote_id": "USDC",
+    "base": "USDT",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {

@@ -11083,8 +11083,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.0001
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -15003,7 +15003,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "info": {}
@@ -22723,6 +22723,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GRV_USDT",
+    "base_id": "GRV",
+    "quote_id": "USDT",
+    "base": "GRV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GSE_ETH",
     "base_id": "GSE",
     "quote_id": "ETH",
@@ -26157,6 +26177,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "JAM_USDT",
+    "base_id": "JAM",
+    "quote_id": "USDT",
+    "base": "JAM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
@@ -40447,8 +40487,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.1
+      "tick_size": 1e-10,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -54286,6 +54326,26 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "VINU_TRY",
+    "base_id": "VINU",
+    "quote_id": "TRY",
+    "base": "VINU",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}

@@ -12314,6 +12314,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "CLEV_USDT",
+    "base_id": "CLEV",
+    "quote_id": "USDT",
+    "base": "CLEV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "CLIFF_USDT",
     "base_id": "CLIFF",
     "quote_id": "USDT",
@@ -28754,6 +28778,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "IMGNAI_USDT",
+    "base_id": "IMGNAI",
+    "quote_id": "USDT",
+    "base": "IMGNAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "IMPT_USDT",
     "base_id": "IMPT",
     "quote_id": "USDT",
@@ -34742,7 +34790,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -39614,7 +39662,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -45014,7 +45062,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -47827,6 +47875,54 @@
     },
     "quantity_limit": {
       "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "RNDR3L_USDT",
+    "base_id": "RNDR3L",
+    "quote_id": "USDT",
+    "base": "RNDR3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "RNDR3S_USDT",
+    "base_id": "RNDR3S",
+    "quote_id": "USDT",
+    "base": "RNDR3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 5000000.0
     },
     "info": {}
