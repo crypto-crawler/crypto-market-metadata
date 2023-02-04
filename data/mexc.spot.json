@@ -34730,6 +34730,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "LYRA_USDT",
+    "base_id": "LYRA",
+    "quote_id": "USDT",
+    "base": "LYRA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "LZ_USDT",
     "base_id": "LZ",
     "quote_id": "USDT",
