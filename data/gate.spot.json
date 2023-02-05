@@ -23243,6 +23243,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HADES_USDT",
+    "base_id": "HADES",
+    "quote_id": "USDT",
+    "base": "HADES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HAI_ETH",
     "base_id": "HAI",
     "quote_id": "ETH",
