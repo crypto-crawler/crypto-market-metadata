@@ -25043,6 +25043,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "IDOODLES_USDT",
+    "base_id": "IDOODLES",
+    "quote_id": "USDT",
+    "base": "IDOODLES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "IDV_ETH",
     "base_id": "IDV",
     "quote_id": "ETH",
@@ -40495,6 +40515,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "POP_BTC",
+    "base_id": "POP",
+    "quote_id": "BTC",
+    "base": "POP",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "POP_USDT",
     "base_id": "POP",
     "quote_id": "USDT",
@@ -40507,7 +40547,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-9,
       "lot_size": 1.0
     },
     "info": {}
