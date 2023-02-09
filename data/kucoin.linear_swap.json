@@ -71,6 +71,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "AGIXUSDTM",
+    "base_id": "AGIX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AGIX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "AGLDUSDTM",
     "base_id": "AGLD",
     "quote_id": "USDT",
@@ -1157,6 +1180,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "FTT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "FXSUSDTM",
+    "base_id": "FXS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FXS",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

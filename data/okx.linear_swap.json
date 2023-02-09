@@ -938,6 +938,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "CORE-USDT-SWAP",
+    "base_id": "CORE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CORE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "CQT-USDT-SWAP",
     "base_id": "CQT",
     "quote_id": "USDT",
