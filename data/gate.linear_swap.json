@@ -3053,6 +3053,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "GFT_USDT",
+    "base_id": "GFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "GITCOIN_USDT",
     "base_id": "GITCOIN",
     "quote_id": "USDT",
@@ -4290,6 +4317,33 @@
       "max": 1000000.0
     },
     "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "MAGIC_USDT",
+    "base_id": "MAGIC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MAGIC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -6045,6 +6099,33 @@
       "max": 1000000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "RPL_USDT",
+    "base_id": "RPL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RPL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
