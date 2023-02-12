@@ -34055,6 +34055,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MOONEY_USDT",
+    "base_id": "MOONEY",
+    "quote_id": "USDT",
+    "base": "MOONEY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MOON_USDT",
     "base_id": "MOON",
     "quote_id": "USDT",
@@ -55466,7 +55486,7 @@
     },
     "precision": {
       "tick_size": 1.0,
-      "lot_size": 0.001
+      "lot_size": 0.0001
     },
     "info": {}
   },
