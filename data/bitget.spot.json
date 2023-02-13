@@ -15537,6 +15537,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "THALESUSDT_SPBL",
+    "base_id": "THALES",
+    "quote_id": "USDT",
+    "base": "THALES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "THENAUSDT_SPBL",
     "base_id": "THENA",
     "quote_id": "USDT",
