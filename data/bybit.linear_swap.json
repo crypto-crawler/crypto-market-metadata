@@ -2621,6 +2621,33 @@
   {
     "exchange": "bybit",
     "market_type": "linear_swap",
+    "symbol": "HOOKUSDT",
+    "base_id": "HOOK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HOOK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 20000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
     "symbol": "HOTUSDT",
     "base_id": "HOT",
     "quote_id": "USDT",

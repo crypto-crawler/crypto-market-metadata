@@ -12698,6 +12698,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GFT-BTC",
+    "base_id": "GFT",
+    "quote_id": "BTC",
+    "base": "GFT",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "GFT-USDT",
+    "base_id": "GFT",
+    "quote_id": "USDT",
+    "base": "GFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GGG-USDT",
     "base_id": "GGG",
     "quote_id": "USDT",
