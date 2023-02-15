@@ -288,6 +288,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "AR-USDT-SWAP",
+    "base_id": "AR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "ASTR-USDT-SWAP",
     "base_id": "ASTR",
     "quote_id": "USDT",
@@ -3481,6 +3507,32 @@
       "min": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "WOO-USDT-SWAP",
+    "base_id": "WOO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WOO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

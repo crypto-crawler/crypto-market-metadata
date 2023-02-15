@@ -6982,6 +6982,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BLUR_USDT",
+    "base_id": "BLUR",
+    "quote_id": "USDT",
+    "base": "BLUR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BLY_BTC",
     "base_id": "BLY",
     "quote_id": "BTC",
@@ -43044,6 +43064,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RDNT_USDT",
+    "base_id": "RDNT",
+    "quote_id": "USDT",
+    "base": "RDNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RDN_ETH",
     "base_id": "RDN",
     "quote_id": "ETH",
@@ -47137,6 +47177,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SMART_USDT",
+    "base_id": "SMART",
+    "quote_id": "USDT",
+    "base": "SMART",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -55305,8 +55365,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },

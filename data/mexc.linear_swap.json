@@ -812,6 +812,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "AZERO_USDT",
+    "base_id": "AZERO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AZERO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 20000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BABYDOGE_USDT",
     "base_id": "BABYDOGE",
     "quote_id": "USDT",

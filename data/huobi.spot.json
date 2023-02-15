@@ -3818,6 +3818,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "blurusdt",
+    "base_id": "blur",
+    "quote_id": "usdt",
+    "base": "BLUR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "blzbtc",
     "base_id": "blz",
     "quote_id": "btc",
@@ -19675,7 +19699,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18302775.6557
+      "max": 17988706.2209
     },
     "info": {}
   },
