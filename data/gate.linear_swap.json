@@ -1190,6 +1190,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BLUR_USDT",
+    "base_id": "BLUR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BLUR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BLZ_USDT",
     "base_id": "BLZ",
     "quote_id": "USDT",
@@ -2805,6 +2832,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "FLOKI_USDT",
+    "base_id": "FLOKI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLOKI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 10000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10000.0,
     "info": {}
   },
   {

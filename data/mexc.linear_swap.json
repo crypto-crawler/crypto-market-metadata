@@ -1217,6 +1217,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "BLUR_USDT",
+    "base_id": "BLUR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BLUR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 25000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BLZ_USDT",
     "base_id": "BLZ",
     "quote_id": "USDT",
@@ -3828,7 +3855,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 350000.0
+      "max": 270000.0
     },
     "contract_value": 1.0,
     "info": {}

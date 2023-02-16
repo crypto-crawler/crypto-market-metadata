@@ -682,6 +682,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ACS_USDT",
+    "base_id": "ACS",
+    "quote_id": "USDT",
+    "base": "ACS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ACX_USDT",
     "base_id": "ACX",
     "quote_id": "USDT",
@@ -16224,7 +16244,7 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.001
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -16243,8 +16263,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -18763,6 +18783,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FER_USDT",
+    "base_id": "FER",
+    "quote_id": "USDT",
+    "base": "FER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FET_ETH",
     "base_id": "FET",
     "quote_id": "ETH",
@@ -19597,6 +19637,26 @@
     "precision": {
       "tick_size": 1e-13,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FNZ_USDT",
+    "base_id": "FNZ",
+    "quote_id": "USDT",
+    "base": "FNZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -40495,6 +40555,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "POLYX_USDT",
+    "base_id": "POLYX",
+    "quote_id": "USDT",
+    "base": "POLYX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "POLY_ETH",
     "base_id": "POLY",
     "quote_id": "ETH",
@@ -55277,6 +55357,26 @@
     "base_id": "WALLET",
     "quote_id": "USDT",
     "base": "WALLET",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WALV_USDT",
+    "base_id": "WALV",
+    "quote_id": "USDT",
+    "base": "WALV",
     "quote": "USDT",
     "active": true,
     "margin": false,
