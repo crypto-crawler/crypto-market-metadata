@@ -4166,11 +4166,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 5.0,
+      "min": 1.0,
       "max": 5000000.0
     },
     "info": {}
@@ -4190,11 +4190,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 5.0,
+      "min": 1.0,
       "max": 5000000.0
     },
     "info": {}
@@ -29282,6 +29282,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "IGU_USDT",
+    "base_id": "IGU",
+    "quote_id": "USDT",
+    "base": "IGU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "IHC_USDT",
     "base_id": "IHC",
     "quote_id": "USDT",
@@ -39434,6 +39458,54 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "MX3L_USDT",
+    "base_id": "MX3L",
+    "quote_id": "USDT",
+    "base": "MX3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "MX3S_USDT",
+    "base_id": "MX3S",
+    "quote_id": "USDT",
+    "base": "MX3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "MXEN_USDT",
     "base_id": "MXEN",
     "quote_id": "USDT",
@@ -41175,6 +41247,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "NOTHERDEED_USDT",
+    "base_id": "NOTHERDEED",
+    "quote_id": "USDT",
+    "base": "NOTHERDEED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

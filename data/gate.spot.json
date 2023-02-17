@@ -14271,6 +14271,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DHB_USDT",
+    "base_id": "DHB",
+    "quote_id": "USDT",
+    "base": "DHB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DHV_ETH",
     "base_id": "DHV",
     "quote_id": "ETH",

@@ -474,7 +474,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1000.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -4220,6 +4220,54 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BLUR2L-USDT",
+    "base_id": "BLUR2L",
+    "quote_id": "USDT",
+    "base": "BLUR2L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BLUR2S-USDT",
+    "base_id": "BLUR2S",
+    "quote_id": "USDT",
+    "base": "BLUR2S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9999999999999.0
     },
     "info": {}
   },
@@ -27667,6 +27715,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SSV-USDT",
+    "base_id": "SSV",
+    "quote_id": "USDT",
+    "base": "SSV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
       "max": 10000000000.0
     },
     "info": {}
