@@ -11738,6 +11738,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FLOKI-USDC",
+    "base_id": "FLOKI",
+    "quote_id": "USDC",
+    "base": "FLOKI",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1e-10
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "FLOKI-USDT",
+    "base_id": "FLOKI",
+    "quote_id": "USDT",
+    "base": "FLOKI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1e-10
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FLOW-BTC",
     "base_id": "FLOW",
     "quote_id": "BTC",
@@ -15270,6 +15318,54 @@
     "base_id": "IDEX",
     "quote_id": "USDT",
     "base": "IDEX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "IGU-BTC",
+    "base_id": "IGU",
+    "quote_id": "BTC",
+    "base": "IGU",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "IGU-USDT",
+    "base_id": "IGU",
+    "quote_id": "USDT",
+    "base": "IGU",
     "quote": "USDT",
     "active": true,
     "margin": false,

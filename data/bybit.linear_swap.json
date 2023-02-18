@@ -2648,6 +2648,33 @@
   {
     "exchange": "bybit",
     "market_type": "linear_swap",
+    "symbol": "HIGHUSDT",
+    "base_id": "HIGH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HIGH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0005,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 15000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
     "symbol": "HNTUSDT",
     "base_id": "HNT",
     "quote_id": "USDT",

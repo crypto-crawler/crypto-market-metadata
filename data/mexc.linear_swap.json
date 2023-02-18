@@ -110,6 +110,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ACS_USDT",
+    "base_id": "ACS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ACS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 12500.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ADA_USDT",
     "base_id": "ADA",
     "quote_id": "USDT",
@@ -1101,7 +1128,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 600000.0
+      "max": 450000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1371,7 +1398,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3200.0
+      "max": 2000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3774,7 +3801,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000000.0
+      "max": 7500000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -6555,7 +6582,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60000000.0
+      "max": 40000000.0
     },
     "contract_value": 1.0,
     "info": {}
