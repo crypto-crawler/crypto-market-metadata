@@ -32810,6 +32810,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "KWENTA_USDT",
+    "base_id": "KWENTA",
+    "quote_id": "USDT",
+    "base": "KWENTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "KWT_USDT",
     "base_id": "KWT",
     "quote_id": "USDT",
@@ -53220,6 +53244,30 @@
     "fees": {
       "maker": 0.0,
       "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "SQUAD_USDT",
+    "base_id": "SQUAD",
+    "quote_id": "USDT",
+    "base": "SQUAD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
     },
     "precision": {
       "tick_size": 0.00001,

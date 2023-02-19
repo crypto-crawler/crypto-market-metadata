@@ -290,6 +290,30 @@
   {
     "exchange": "bitmex",
     "market_type": "inverse_future",
+    "symbol": "XBTM23",
+    "base_id": "XBT",
+    "quote_id": "USD",
+    "settle_id": "XBt",
+    "base": "BTC",
+    "quote": "USD",
+    "settle": "XBt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.5,
+      "lot_size": 100.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1688126400000,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "inverse_future",
     "symbol": "XBTN22",
     "base_id": "XBT",
     "quote_id": "USD",
