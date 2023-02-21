@@ -938,6 +938,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "agixusdt",
+    "base_id": "agix",
+    "quote_id": "usdt",
+    "base": "AGIX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1704739.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "agldbtc",
     "base_id": "agld",
     "quote_id": "btc",
@@ -12674,6 +12698,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "grailusdt",
+    "base_id": "grail",
+    "quote_id": "usdt",
+    "base": "GRAIL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.00001,
+      "max": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "grsbtc",
     "base_id": "grs",
     "quote_id": "btc",
@@ -19747,7 +19795,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 21510002.151
+      "max": 21762579.7172
     },
     "info": {}
   },
@@ -24812,6 +24860,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 32868787.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "sdaousdt",
+    "base_id": "sdao",
+    "quote_id": "usdt",
+    "base": "SDAO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 781250.0
     },
     "info": {}
   },

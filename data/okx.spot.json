@@ -938,7 +938,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -961,7 +961,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -5781,7 +5781,7 @@
     "base": "FLOKI",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

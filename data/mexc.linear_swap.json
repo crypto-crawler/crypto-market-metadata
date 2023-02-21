@@ -1884,7 +1884,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 280000.0
+      "max": 160000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5043,7 +5043,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 570000.0
+      "max": 450000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -6617,6 +6617,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "STX_USDT",
+    "base_id": "STX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4500.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "SUSHI_USDT",
     "base_id": "SUSHI",
     "quote_id": "USDT",
@@ -7257,7 +7284,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500000.0
+      "max": 1100000.0
     },
     "contract_value": 1.0,
     "info": {}

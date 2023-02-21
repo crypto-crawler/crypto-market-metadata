@@ -1640,6 +1640,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "FLOKI-USDT-SWAP",
+    "base_id": "FLOKI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLOKI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "FTM-USDT-SWAP",
     "base_id": "FTM",
     "quote_id": "USDT",
