@@ -1352,6 +1352,33 @@
   {
     "exchange": "bybit",
     "market_type": "linear_swap",
+    "symbol": "CFXUSDT",
+    "base_id": "CFX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CFX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 250000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
     "symbol": "CHRUSDT",
     "base_id": "CHR",
     "quote_id": "USDT",
@@ -3721,6 +3748,33 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 930.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
+    "symbol": "NKNUSDT",
+    "base_id": "NKN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NKN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 350000.0
     },
     "contract_value": 1.0,
     "info": {}
