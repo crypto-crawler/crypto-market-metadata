@@ -1122,6 +1122,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AGLA_USDT",
+    "base_id": "AGLA",
+    "quote_id": "USDT",
+    "base": "AGLA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AGLD_ETH",
     "base_id": "AGLD",
     "quote_id": "ETH",

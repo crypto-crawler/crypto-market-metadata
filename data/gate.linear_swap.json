@@ -3269,6 +3269,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "GMX_USDT",
+    "base_id": "GMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "GRIN_USDT",
     "base_id": "GRIN",
     "quote_id": "USDT",
@@ -6946,6 +6973,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "SXP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SYN_USDT",
+    "base_id": "SYN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SYN",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

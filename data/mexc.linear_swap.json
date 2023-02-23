@@ -1325,6 +1325,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "BNXNEW_USDT",
+    "base_id": "BNXNEW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BNXNEW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 60000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BNX_USDT",
     "base_id": "BNX",
     "quote_id": "USDT",
@@ -1879,7 +1906,7 @@
       "taker": 0.0003
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -3558,7 +3585,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1700000.0
+      "max": 1300000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -4395,7 +4422,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 38000000.0
+      "max": 23000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6879,7 +6906,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 200000.0
+      "max": 150000.0
     },
     "contract_value": 0.1,
     "info": {}

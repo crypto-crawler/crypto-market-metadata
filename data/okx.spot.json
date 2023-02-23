@@ -11870,6 +11870,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "RADAR-USDC",
+    "base_id": "RADAR",
+    "quote_id": "USDC",
+    "base": "RADAR",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "RADAR-USDT",
+    "base_id": "RADAR",
+    "quote_id": "USDT",
+    "base": "RADAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "RAY-USDT",
     "base_id": "RAY",
     "quote_id": "USDT",
