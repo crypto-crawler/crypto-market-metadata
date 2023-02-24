@@ -1346,6 +1346,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tBLUR:USD",
+    "base_id": "BLUR",
+    "quote_id": "USD",
+    "base": "BLUR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 75000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tBLUR:UST",
+    "base_id": "BLUR",
+    "quote_id": "UST",
+    "base": "BLUR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 75000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tBMIUSD",
     "base_id": "BMI",
     "quote_id": "USD",
@@ -7028,6 +7076,30 @@
     "quantity_limit": {
       "min": 2.0,
       "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tNXRA:USD",
+    "base_id": "NXRA",
+    "quote_id": "USD",
+    "base": "NXRA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 200000.0
     },
     "info": {}
   },

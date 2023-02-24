@@ -8390,7 +8390,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -48650,6 +48650,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "RILLA_USDT",
+    "base_id": "RILLA",
+    "quote_id": "USDT",
+    "base": "RILLA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "RING_USDT",
     "base_id": "RING",
     "quote_id": "USDT",
@@ -55411,6 +55435,54 @@
     },
     "quantity_limit": {
       "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "SYN3L_USDT",
+    "base_id": "SYN3L",
+    "quote_id": "USDT",
+    "base": "SYN3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "SYN3S_USDT",
+    "base_id": "SYN3S",
+    "quote_id": "USDT",
+    "base": "SYN3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 5000000.0
     },
     "info": {}
@@ -65296,6 +65368,30 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "ZYB_USDC",
+    "base_id": "ZYB",
+    "quote_id": "USDC",
+    "base": "ZYB",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,

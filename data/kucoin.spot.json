@@ -6098,6 +6098,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CFX2L-USDT",
+    "base_id": "CFX2L",
+    "quote_id": "USDT",
+    "base": "CFX2L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 99999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "CFX2S-USDT",
+    "base_id": "CFX2S",
+    "quote_id": "USDT",
+    "base": "CFX2S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CGG-USDT",
     "base_id": "CGG",
     "quote_id": "USDT",
@@ -14899,6 +14947,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HISEALS-USDT",
+    "base_id": "HISEALS",
+    "quote_id": "USDT",
+    "base": "HISEALS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
