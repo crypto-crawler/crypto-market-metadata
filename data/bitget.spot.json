@@ -2521,7 +2521,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -3800,6 +3800,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "COLLABUSDT_SPBL",
+    "base_id": "COLLAB",
+    "quote_id": "USDT",
+    "base": "COLLAB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -7222,6 +7245,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "GMDUSDT_SPBL",
+    "base_id": "GMD",
+    "quote_id": "USDT",
+    "base": "GMD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "GMTUSDT_SPBL",
     "base_id": "GMT",
     "quote_id": "USDT",
@@ -7920,11 +7966,11 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1.0,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -9254,6 +9300,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "KWENTAUSDT_SPBL",
+    "base_id": "KWENTA",
+    "quote_id": "USDT",
+    "base": "KWENTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "KYOKOUSDT_SPBL",
     "base_id": "KYOKO",
     "quote_id": "USDT",
@@ -10166,6 +10235,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "LYRAUSDT_SPBL",
+    "base_id": "LYRA",
+    "quote_id": "USDT",
+    "base": "LYRA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -12066,6 +12158,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "OPXUSDT_SPBL",
+    "base_id": "OPX",
+    "quote_id": "USDT",
+    "base": "OPX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ORAIUSDT_SPBL",
     "base_id": "ORAI",
     "quote_id": "USDT",
@@ -13498,6 +13613,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "RDPXUSDT_SPBL",
+    "base_id": "RDPX",
+    "quote_id": "USDT",
+    "base": "RDPX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -17354,6 +17492,29 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "VSTAUSDT_SPBL",
+    "base_id": "VSTA",
+    "quote_id": "USDT",
+    "base": "VSTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
