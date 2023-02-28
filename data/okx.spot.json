@@ -2469,7 +2469,7 @@
     "base": "BTM",
     "quote": "BTC",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -2492,7 +2492,7 @@
     "base": "BTM",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -2871,6 +2871,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CGL-USDT",
+    "base_id": "CGL",
+    "quote_id": "USDT",
+    "base": "CGL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
@@ -6666,6 +6689,52 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "GOAL-USDC",
+    "base_id": "GOAL",
+    "quote_id": "USDC",
+    "base": "GOAL",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "GOAL-USDT",
+    "base_id": "GOAL",
+    "quote_id": "USDT",
+    "base": "GOAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },

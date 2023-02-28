@@ -9455,6 +9455,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "LEASHUSDT_SPBL",
+    "base_id": "LEASH",
+    "quote_id": "USDT",
+    "base": "LEASH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "LEVERUSDT_SPBL",
     "base_id": "LEVER",
     "quote_id": "USDT",
@@ -12459,6 +12482,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "PAWUSDT_SPBL",
+    "base_id": "PAW",
+    "quote_id": "USDT",
+    "base": "PAW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
