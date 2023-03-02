@@ -1597,6 +1597,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "AZEROUSDT_SPBL",
+    "base_id": "AZERO",
+    "quote_id": "USDT",
+    "base": "AZERO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BABYDOGEUSDT_SPBL",
     "base_id": "BABYDOGE",
     "quote_id": "USDT",
@@ -6403,6 +6426,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "FLMUSDT_SPBL",
+    "base_id": "FLM",
+    "quote_id": "USDT",
+    "base": "FLM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -11366,6 +11412,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "NEOUSDT_SPBL",
+    "base_id": "NEO",
+    "quote_id": "USDT",
+    "base": "NEO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "NEXOUSDT_SPBL",
     "base_id": "NEXO",
     "quote_id": "USDT",
@@ -15139,6 +15208,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SONNEUSDT_SPBL",
+    "base_id": "SONNE",
+    "quote_id": "USDT",
+    "base": "SONNE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },

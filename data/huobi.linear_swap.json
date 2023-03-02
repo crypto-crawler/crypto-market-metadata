@@ -1359,6 +1359,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "FLOKI-USDT",
+    "base_id": "FLOKI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLOKI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "FLOW-USDT",
     "base_id": "FLOW",
     "quote_id": "USDT",
@@ -2918,6 +2941,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "SSV-USDT",
+    "base_id": "SSV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SSV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {

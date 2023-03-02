@@ -3622,6 +3622,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ASTO_USDT",
+    "base_id": "ASTO",
+    "quote_id": "USDT",
+    "base": "ASTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ASTR3L_USDT",
     "base_id": "ASTR3L",
     "quote_id": "USDT",
@@ -22723,6 +22743,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GRAIL_USDT",
+    "base_id": "GRAIL",
+    "quote_id": "USDT",
+    "base": "GRAIL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GRAP_ETH",
     "base_id": "GRAP",
     "quote_id": "ETH",
@@ -41329,6 +41369,26 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PRIME_USDT",
+    "base_id": "PRIME",
+    "quote_id": "USDT",
+    "base": "PRIME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "info": {}
   },

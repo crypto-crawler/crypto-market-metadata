@@ -4214,6 +4214,33 @@
   {
     "exchange": "bybit",
     "market_type": "linear_swap",
+    "symbol": "RPLUSDT",
+    "base_id": "RPL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RPL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.005,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 1000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
     "symbol": "RSRUSDT",
     "base_id": "RSR",
     "quote_id": "USDT",
@@ -4612,6 +4639,33 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 18000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
+    "symbol": "SSVUSDT",
+    "base_id": "SSV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SSV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.005,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 1000.0
     },
     "contract_value": 1.0,
     "info": {}

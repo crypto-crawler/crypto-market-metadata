@@ -1154,6 +1154,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AIPAD-USDT",
+    "base_id": "AIPAD",
+    "quote_id": "USDT",
+    "base": "AIPAD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AKRO-BTC",
     "base_id": "AKRO",
     "quote_id": "BTC",
@@ -4268,6 +4292,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 9999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BLZ-USDT",
+    "base_id": "BLZ",
+    "quote_id": "USDT",
+    "base": "BLZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
