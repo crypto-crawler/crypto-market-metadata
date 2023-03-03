@@ -170,6 +170,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "3KM_USDT",
+    "base_id": "3KM",
+    "quote_id": "USDT",
+    "base": "3KM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "4PLAY_USDT",
     "base_id": "4PLAY",
     "quote_id": "USDT",
@@ -2243,7 +2267,7 @@
     "margin": false,
     "fees": {
       "maker": 0.0,
-      "taker": 0.002
+      "taker": 0.001
     },
     "precision": {
       "tick_size": 1e-7,
@@ -56066,6 +56090,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "TAO1_USDT",
+    "base_id": "TAO1",
+    "quote_id": "USDT",
+    "base": "TAO1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "TAO_USDT",
     "base_id": "TAO",
     "quote_id": "USDT",
@@ -56078,7 +56126,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.01,
       "lot_size": 0.01
     },
     "quantity_limit": {
