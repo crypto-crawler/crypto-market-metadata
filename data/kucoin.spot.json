@@ -5018,6 +5018,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BTC-GBP",
+    "base_id": "BTC",
+    "quote_id": "GBP",
+    "base": "BTC",
+    "quote": "GBP",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.00001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BTC-PAX",
     "base_id": "BTC",
     "quote_id": "PAX",
@@ -11023,6 +11047,30 @@
     "quote_id": "EUR",
     "base": "ETH",
     "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ETH-GBP",
+    "base_id": "ETH",
+    "quote_id": "GBP",
+    "base": "ETH",
+    "quote": "GBP",
     "active": true,
     "margin": false,
     "fees": {
@@ -31675,6 +31723,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "USDT-GBP",
+    "base_id": "USDT",
+    "quote_id": "GBP",
+    "base": "USDT",
+    "quote": "GBP",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

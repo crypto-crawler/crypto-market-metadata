@@ -761,6 +761,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "COCOSUSDTM",
+    "base_id": "COCOS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COCOS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "COMPUSDTM",
     "base_id": "COMP",
     "quote_id": "USDT",
@@ -2739,11 +2762,57 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "SSVUSDTM",
+    "base_id": "SSV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SSV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "STORJUSDTM",
     "base_id": "STORJ",
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "STORJ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "STXUSDTM",
+    "base_id": "STX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STX",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
