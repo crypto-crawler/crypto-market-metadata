@@ -324,6 +324,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "ARUSDTM",
+    "base_id": "AR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "ASTRUSDTM",
     "base_id": "ASTR",
     "quote_id": "USDT",
@@ -756,6 +779,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "CKBUSDTM",
+    "base_id": "CKB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CKB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -1239,6 +1285,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "FLOKIUSDTM",
+    "base_id": "FLOKI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLOKI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {
