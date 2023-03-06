@@ -18854,7 +18854,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -19407,6 +19407,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "EDE_USDT",
+    "base_id": "EDE",
+    "quote_id": "USDT",
+    "base": "EDE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -21726,6 +21750,30 @@
     "base_id": "EYES",
     "quote_id": "USDT",
     "base": "EYES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "FACTR_USDT",
+    "base_id": "FACTR",
+    "quote_id": "USDT",
+    "base": "FACTR",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -44426,6 +44474,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "PARMA_USDT",
+    "base_id": "PARMA",
+    "quote_id": "USDT",
+    "base": "PARMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "PATH_USDT",
     "base_id": "PATH",
     "quote_id": "USDT",
@@ -48543,6 +48615,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "REDLC_USDT",
+    "base_id": "REDLC",
+    "quote_id": "USDT",
+    "base": "REDLC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
