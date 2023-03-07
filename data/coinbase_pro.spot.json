@@ -7984,6 +7984,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "LSETH-USD",
+    "base_id": "LSETH",
+    "quote_id": "USD",
+    "base": "LSETH",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "LTC-BTC",
     "base_id": "LTC",
     "quote_id": "BTC",

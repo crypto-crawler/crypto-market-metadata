@@ -7845,6 +7845,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "HALOUSDT_SPBL",
+    "base_id": "HALO",
+    "quote_id": "USDT",
+    "base": "HALO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "HAMIUSDT_SPBL",
     "base_id": "HAMI",
     "quote_id": "USDT",
