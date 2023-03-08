@@ -600,6 +600,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "BNXUSDT_UMCBL",
+    "base_id": "BNX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BNX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "BTCUSDT_UMCBL",
     "base_id": "BTC",
     "quote_id": "USDT",
@@ -2491,6 +2517,32 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "SSVUSDT_UMCBL",
+    "base_id": "SSV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SSV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "contract_value": 1.0,
     "info": {}
