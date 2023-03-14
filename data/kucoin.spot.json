@@ -20138,6 +20138,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MINA-USDT",
+    "base_id": "MINA",
+    "quote_id": "USDT",
+    "base": "MINA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MIR-KCS",
     "base_id": "MIR",
     "quote_id": "KCS",
@@ -34442,6 +34466,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "XRD-USDT",
+    "base_id": "XRD",
+    "quote_id": "USDT",
+    "base": "XRD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "XRP-BTC",
     "base_id": "XRP",
     "quote_id": "BTC",
@@ -34718,7 +34766,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
