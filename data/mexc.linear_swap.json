@@ -3512,6 +3512,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "GPT_USDT",
+    "base_id": "GPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1500.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "GRT_USDT",
     "base_id": "GRT",
     "quote_id": "USDT",
