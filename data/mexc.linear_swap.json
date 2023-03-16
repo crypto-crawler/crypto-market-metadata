@@ -1983,16 +1983,16 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
-      "taker": 0.0006
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 11500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2667,7 +2667,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400000.0
+      "max": 300000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3423,7 +3423,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 70000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -4854,7 +4854,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 850000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5286,7 +5286,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500000.0
+      "max": 1200000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5547,16 +5547,16 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
-      "taker": 0.0006
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 15000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5880,7 +5880,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400000.0
+      "max": 300000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -6941,6 +6941,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "TOMO_USDT",
+    "base_id": "TOMO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TOMO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3500.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "TONCOIN_USDT",
     "base_id": "TONCOIN",
     "quote_id": "USDT",
@@ -7125,6 +7152,33 @@
       "max": 50000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "T_USDT",
+    "base_id": "T",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "T",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 11000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
