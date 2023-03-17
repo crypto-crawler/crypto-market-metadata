@@ -2675,6 +2675,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DZOO_USDT",
+    "base_id": "DZOO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DZOO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1250.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "EDEN_USDT",
     "base_id": "EDEN",
     "quote_id": "USDT",

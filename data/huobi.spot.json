@@ -8762,6 +8762,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "dzoousdt",
+    "base_id": "dzoo",
+    "quote_id": "usdt",
+    "base": "DZOO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 500000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "edenusdt",
     "base_id": "eden",
     "quote_id": "usdt",
@@ -19891,7 +19915,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25664487.045
+      "max": 26311875.8079
     },
     "info": {}
   },
