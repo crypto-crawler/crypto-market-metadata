@@ -14,7 +14,6 @@ fn main() {
         "coinbase_pro",
         "deribit",
         "dydx",
-        "ftx",
         "gate",
         "huobi",
         "kraken",
