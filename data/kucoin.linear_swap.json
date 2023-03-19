@@ -2003,6 +2003,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "LQTYUSDTM",
+    "base_id": "LQTY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LQTY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "LRCUSDTM",
     "base_id": "LRC",
     "quote_id": "USDT",
@@ -3135,6 +3158,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "TRX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "TUSDTM",
+    "base_id": "T",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "T",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

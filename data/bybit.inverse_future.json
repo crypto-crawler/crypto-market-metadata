@@ -141,6 +141,34 @@
   },
   {
     "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "BTCUSDU23",
+    "base_id": "BTC",
+    "quote_id": "USD",
+    "settle_id": "BTC",
+    "base": "BTC",
+    "quote": "USD",
+    "settle": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.5,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1695945600000,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
     "market_type": "inverse_swap",
     "symbol": "BTCUSDZ21",
     "base_id": "BTC",
@@ -333,6 +361,34 @@
     },
     "contract_value": 1.0,
     "delivery_date": 1696032000000,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "inverse_future",
+    "symbol": "ETHUSDU23",
+    "base_id": "ETH",
+    "quote_id": "USD",
+    "settle_id": "ETH",
+    "base": "ETH",
+    "quote": "USD",
+    "settle": "ETH",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1695945600000,
     "info": {}
   },
   {

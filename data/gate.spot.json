@@ -48464,6 +48464,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SOMM_USDT",
+    "base_id": "SOMM",
+    "quote_id": "USDT",
+    "base": "SOMM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SONAR_ETH",
     "base_id": "SONAR",
     "quote_id": "ETH",

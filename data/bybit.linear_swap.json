@@ -588,7 +588,7 @@
     },
     "quantity_limit": {
       "min": 0.01,
-      "max": 30000.0
+      "max": 70000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2378,6 +2378,33 @@
   {
     "exchange": "bybit",
     "market_type": "linear_swap",
+    "symbol": "FLRUSDT",
+    "base_id": "FLR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 900000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
     "symbol": "FTMUSDT",
     "base_id": "FTM",
     "quote_id": "USDT",
@@ -2614,6 +2641,33 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 440.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
+    "symbol": "GPTUSDT",
+    "base_id": "GPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00005,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 200000.0
     },
     "contract_value": 1.0,
     "info": {}
