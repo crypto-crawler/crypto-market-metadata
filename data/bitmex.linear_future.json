@@ -146,6 +146,30 @@
   {
     "exchange": "bitmex",
     "market_type": "linear_future",
+    "symbol": "ARBUSDTM23",
+    "base_id": "ARB",
+    "quote_id": "USDT",
+    "settle_id": "USDt",
+    "base": "ARB",
+    "quote": "USDT",
+    "settle": "USDt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1000.0
+    },
+    "contract_value": 0.001,
+    "delivery_date": 1688126400000,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "linear_future",
     "symbol": "BCHZ21",
     "base_id": "BCH",
     "quote_id": "XBT",
