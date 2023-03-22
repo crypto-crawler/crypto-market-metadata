@@ -18935,7 +18935,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "info": {}
@@ -27203,6 +27203,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "KAS_USDT",
+    "base_id": "KAS",
+    "quote_id": "USDT",
+    "base": "KAS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "KAVA3L_USDT",
     "base_id": "KAVA3L",
     "quote_id": "USDT",
@@ -31227,7 +31247,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-16,
+      "tick_size": 1e-10,
       "lot_size": 1.0
     },
     "info": {}
@@ -31247,8 +31267,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-13,
-      "lot_size": 1.0
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
@@ -45416,8 +45436,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-12,
-      "lot_size": 1.0
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },

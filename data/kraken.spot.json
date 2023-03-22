@@ -5867,6 +5867,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "GMX/EUR",
+    "base_id": "GMX",
+    "quote_id": "ZEUR",
+    "base": "GMX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.05
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "GMX/USD",
+    "base_id": "GMX",
+    "quote_id": "ZUSD",
+    "base": "GMX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.05
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "GNO/ETH",
     "base_id": "GNO",
     "quote_id": "XETH",
