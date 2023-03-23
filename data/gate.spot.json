@@ -25523,6 +25523,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ID_USDT",
+    "base_id": "ID",
+    "quote_id": "USDT",
+    "base": "ID",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "IGU_USDT",
     "base_id": "IGU",
     "quote_id": "USDT",
@@ -38869,6 +38889,26 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "OPTIMUS_USDT",
+    "base_id": "OPTIMUS",
+    "quote_id": "USDT",
+    "base": "OPTIMUS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
