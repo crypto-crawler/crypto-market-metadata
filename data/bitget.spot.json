@@ -16165,6 +16165,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "STABLZUSDT_SPBL",
+    "base_id": "STABLZ",
+    "quote_id": "USDT",
+    "base": "STABLZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "STARLUSDT_SPBL",
     "base_id": "STARL",
     "quote_id": "USDT",
