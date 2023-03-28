@@ -7231,6 +7231,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "GCAKEUSDT_SPBL",
+    "base_id": "GCAKE",
+    "quote_id": "USDT",
+    "base": "GCAKE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "GDXUSDT_SPBL",
     "base_id": "GDX",
     "quote_id": "USDT",
