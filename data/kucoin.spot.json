@@ -2330,6 +2330,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ARB3L-USDT",
+    "base_id": "ARB3L",
+    "quote_id": "USDT",
+    "base": "ARB3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 99999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ARB3S-USDT",
+    "base_id": "ARB3S",
+    "quote_id": "USDT",
+    "base": "ARB3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ARKER-USDT",
     "base_id": "ARKER",
     "quote_id": "USDT",
