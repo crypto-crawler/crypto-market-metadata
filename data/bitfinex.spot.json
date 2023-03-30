@@ -1706,6 +1706,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tBRISE:USD",
+    "base_id": "BRISE",
+    "quote_id": "USD",
+    "base": "BRISE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tBRISE:UST",
+    "base_id": "BRISE",
+    "quote_id": "UST",
+    "base": "BRISE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tBSVBTC",
     "base_id": "BSV",
     "quote_id": "BTC",
