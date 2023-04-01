@@ -5745,7 +5745,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1200000.0
+      "max": 1400000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -7339,6 +7339,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 24000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SUPER_USDT",
+    "base_id": "SUPER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SUPER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 15000.0
     },
     "contract_value": 10.0,
     "info": {}
