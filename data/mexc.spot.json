@@ -12902,7 +12902,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -18014,7 +18014,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -39482,6 +39482,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "ML_USDT",
+    "base_id": "ML",
+    "quote_id": "USDT",
+    "base": "ML",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "MMETA_USDT",
     "base_id": "MMETA",
     "quote_id": "USDT",
@@ -39495,6 +39519,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "MMFARB_USDT",
+    "base_id": "MMFARB",
+    "quote_id": "USDT",
+    "base": "MMFARB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -49811,7 +49859,7 @@
     "margin": false,
     "fees": {
       "maker": 0.0,
-      "taker": 0.001
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.00001,
@@ -54710,7 +54758,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {

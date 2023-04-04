@@ -3148,6 +3148,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "TLMUSDT_UMCBL",
+    "base_id": "TLM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TLM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "TOMOUSDT_UMCBL",
     "base_id": "TOMO",
     "quote_id": "USDT",
