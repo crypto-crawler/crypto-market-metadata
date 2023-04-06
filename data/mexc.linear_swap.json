@@ -421,7 +421,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -507,7 +507,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 100000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1911,7 +1911,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 550000.0
+      "max": 400000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2910,7 +2910,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2500.0
+      "max": 3250.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -4822,7 +4822,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -6388,7 +6388,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -6477,6 +6477,33 @@
       "max": 2000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "RIO_USDT",
+    "base_id": "RIO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RIO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 2500.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -6663,7 +6690,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250000.0
+      "max": 180000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8715,7 +8742,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1150000.0
+      "max": 850000.0
     },
     "contract_value": 1.0,
     "info": {}
