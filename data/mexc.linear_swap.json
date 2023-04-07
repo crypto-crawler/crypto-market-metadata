@@ -984,8 +984,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
-      "taker": 0.0006
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.001,
@@ -993,7 +993,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 75000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -1590,6 +1590,33 @@
       "max": 900000.0
     },
     "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "BSW_USDT",
+    "base_id": "BSW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BSW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 11000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -2793,8 +2820,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
-      "taker": 0.0006
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.001,
@@ -2802,7 +2829,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 90000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -3766,7 +3793,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0006
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.0001,
@@ -3774,7 +3801,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 750000.0
+      "max": 90000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5853,7 +5880,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1900000.0
+      "max": 2050000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -8328,8 +8355,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
-      "taker": 0.0006
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.01,
@@ -8337,7 +8364,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 80000.0
     },
     "contract_value": 0.01,
     "info": {}
