@@ -19743,6 +19743,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FLOKI_BTC",
+    "base_id": "FLOKI",
+    "quote_id": "BTC",
+    "base": "FLOKI",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-14,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FLOKI_ETH",
+    "base_id": "FLOKI",
+    "quote_id": "ETH",
+    "base": "FLOKI",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FLOKI_USDT",
     "base_id": "FLOKI",
     "quote_id": "USDT",
@@ -31123,6 +31163,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LSD_USDT",
+    "base_id": "LSD",
+    "quote_id": "USDT",
+    "base": "LSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LSK_BTC",
     "base_id": "LSK",
     "quote_id": "BTC",
@@ -39549,6 +39609,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ORTB_USDT",
+    "base_id": "ORTB",
+    "quote_id": "USDT",
+    "base": "ORTB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },

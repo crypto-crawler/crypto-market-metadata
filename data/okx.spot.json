@@ -15412,6 +15412,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "WIFI-USDT",
+    "base_id": "WIFI",
+    "quote_id": "USDT",
+    "base": "WIFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "WIN-USDT",
     "base_id": "WIN",
     "quote_id": "USDT",
