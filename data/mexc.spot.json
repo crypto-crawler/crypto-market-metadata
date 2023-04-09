@@ -54842,6 +54842,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "SNP_USDT",
+    "base_id": "SNP",
+    "quote_id": "USDT",
+    "base": "SNP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "SNT_BTC",
     "base_id": "SNT",
     "quote_id": "BTC",
