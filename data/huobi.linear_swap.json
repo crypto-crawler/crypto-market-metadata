@@ -2486,6 +2486,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "OG-USDT",
+    "base_id": "OG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "OKB-USDT",
     "base_id": "OKB",
     "quote_id": "USDT",
