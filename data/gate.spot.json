@@ -44424,6 +44424,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "REIGN_USDT",
+    "base_id": "REIGN",
+    "quote_id": "USDT",
+    "base": "REIGN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "REI_BTC",
     "base_id": "REI",
     "quote_id": "BTC",

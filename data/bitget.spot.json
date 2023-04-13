@@ -10529,6 +10529,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "LSDETFUSDT_SPBL",
+    "base_id": "LSDETF",
+    "quote_id": "USDT",
+    "base": "LSDETF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "LSDUSDT_SPBL",
     "base_id": "LSD",
     "quote_id": "USDT",
@@ -13192,6 +13215,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "PENDLEUSDT_SPBL",
+    "base_id": "PENDLE",
+    "quote_id": "USDT",
+    "base": "PENDLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.00001
     },
     "info": {}
   },

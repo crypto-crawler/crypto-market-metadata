@@ -363,8 +363,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
-      "taker": 0.0006
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.01,
@@ -372,7 +372,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 4750.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -645,6 +645,33 @@
       "max": 100000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "ARBGPT_USDT",
+    "base_id": "ARBGPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ARBGPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 740.0
+    },
+    "contract_value": 10000.0,
     "info": {}
   },
   {
@@ -1379,6 +1406,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "BNT_USDT",
+    "base_id": "BNT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BNT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BNXNEW_USDT",
     "base_id": "BNXNEW",
     "quote_id": "USDT",
@@ -2046,7 +2100,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6000.0
+      "max": 9000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3350,6 +3404,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "FLOKICEO_USDT",
+    "base_id": "FLOKICEO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLOKICEO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 18000.0
+    },
+    "contract_value": 10000000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "FLOKI_USDT",
     "base_id": "FLOKI",
     "quote_id": "USDT",
@@ -4395,7 +4476,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60000.0
+      "max": 45000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5205,7 +5286,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1080000.0
+      "max": 1100000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -8745,6 +8826,33 @@
       "max": 5000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "XVS_USDT",
+    "base_id": "XVS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XVS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
