@@ -10418,6 +10418,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "etnusdt",
+    "base_id": "etn",
+    "quote_id": "usdt",
+    "base": "ETN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 399361022.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "eulusdc",
     "base_id": "eul",
     "quote_id": "usdc",
@@ -20035,7 +20059,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 26212917.2697
+      "max": 26091888.8258
     },
     "info": {}
   },
