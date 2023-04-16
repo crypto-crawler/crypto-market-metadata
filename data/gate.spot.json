@@ -60013,6 +60013,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "YESP_USDT",
+    "base_id": "YESP",
+    "quote_id": "USDT",
+    "base": "YESP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "YFDAI_ETH",
     "base_id": "YFDAI",
     "quote_id": "ETH",
