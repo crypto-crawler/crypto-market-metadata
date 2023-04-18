@@ -156,7 +156,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000000.0
+      "max": 2250000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -213,6 +213,33 @@
       "max": 1800000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "AIDOGE_USDT",
+    "base_id": "AIDOGE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AIDOGE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3500.0
+    },
+    "contract_value": 100000000000.0,
     "info": {}
   },
   {
@@ -3445,7 +3472,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 1e-12,
+      "tick_size": 1e-13,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4503,7 +4530,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45000.0
+      "max": 32000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5969,6 +5996,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "OAX_USDT",
+    "base_id": "OAX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OAX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 2500.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "OCEAN_USDT",
     "base_id": "OCEAN",
     "quote_id": "USDT",
@@ -6150,7 +6204,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1350000.0
+      "max": 980000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6207,6 +6261,33 @@
       "max": 10000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "PAXG_USDT",
+    "base_id": "PAXG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PAXG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {
