@@ -1242,6 +1242,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIDOGE_USDT",
+    "base_id": "AIDOGE",
+    "quote_id": "USDT",
+    "base": "AIDOGE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-14,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIOZ_ETH",
     "base_id": "AIOZ",
     "quote_id": "ETH",
@@ -11984,6 +12004,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CROWN_USDT",
+    "base_id": "CROWN",
+    "quote_id": "USDT",
+    "base": "CROWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
