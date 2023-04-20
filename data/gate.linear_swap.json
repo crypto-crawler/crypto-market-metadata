@@ -1001,6 +1001,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BAIDOGE_USDT",
+    "base_id": "BAIDOGE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BAIDOGE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BAKE_USDT",
     "base_id": "BAKE",
     "quote_id": "USDT",
@@ -5937,6 +5964,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "PEPE_USDT",
+    "base_id": "PEPE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PEPE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 10000000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10000000.0,
     "info": {}
   },
   {
