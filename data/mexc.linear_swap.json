@@ -9313,5 +9313,32 @@
     },
     "contract_value": 1.0,
     "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "ZZZ_USDT",
+    "base_id": "ZZZ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZZZ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1800.0
+    },
+    "contract_value": 10.0,
+    "info": {}
   }
 ]
