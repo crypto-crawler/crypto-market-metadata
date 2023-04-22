@@ -6509,6 +6509,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "POLYX_USDT",
+    "base_id": "POLYX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POLYX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3800.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "PORTO_USDT",
     "base_id": "PORTO",
     "quote_id": "USDT",
@@ -8715,7 +8742,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9200.0
+      "max": 28000.0
     },
     "contract_value": 10000.0,
     "info": {}

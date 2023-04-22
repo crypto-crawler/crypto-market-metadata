@@ -209,6 +209,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ACH-USDT",
+    "base_id": "ACH",
+    "quote_id": "USDT",
+    "base": "ACH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ACT-USDT",
     "base_id": "ACT",
     "quote_id": "USDT",
@@ -8828,6 +8851,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "LQTY-USDT",
+    "base_id": "LQTY",
+    "quote_id": "USDT",
+    "base": "LQTY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
