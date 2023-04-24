@@ -10090,8 +10090,8 @@
     "active": true,
     "margin": false,
     "fees": {
-      "maker": 0.002,
-      "taker": 0.002
+      "maker": 0.0,
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.0001,
@@ -42146,6 +42146,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "NAV_USDT",
+    "base_id": "NAV",
+    "quote_id": "USDT",
+    "base": "NAV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "NAXAR_USDT",
     "base_id": "NAXAR",
     "quote_id": "USDT",
@@ -43782,6 +43806,30 @@
     "base_id": "NSURE",
     "quote_id": "USDT",
     "base": "NSURE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "NTN_USDT",
+    "base_id": "NTN",
+    "quote_id": "USDT",
+    "base": "NTN",
     "quote": "USDT",
     "active": true,
     "margin": false,
