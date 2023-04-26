@@ -439,6 +439,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "AIDOGE-USDT",
+    "base_id": "AIDOGE",
+    "quote_id": "USDT",
+    "base": "AIDOGE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AKITA-USDT",
     "base_id": "AKITA",
     "quote_id": "USDT",
@@ -2135,6 +2158,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "BONE-USDT",
+    "base_id": "BONE",
+    "quote_id": "USDT",
+    "base": "BONE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

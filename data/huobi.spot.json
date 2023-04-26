@@ -4154,6 +4154,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "boneusdt",
+    "base_id": "bone",
+    "quote_id": "usdt",
+    "base": "BONE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 465116.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "bonkusdd",
     "base_id": "bonk",
     "quote_id": "usdd",
@@ -20155,7 +20179,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 32571444.7559
+      "max": 32724840.9999
     },
     "info": {}
   },
@@ -22028,6 +22052,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 5678140.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "osmousdt",
+    "base_id": "osmo",
+    "quote_id": "usdt",
+    "base": "OSMO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1300000.0
     },
     "info": {}
   },
