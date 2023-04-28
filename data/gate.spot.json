@@ -8222,6 +8222,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BRN_USDT",
+    "base_id": "BRN",
+    "quote_id": "USDT",
+    "base": "BRN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BRT_USDT",
     "base_id": "BRT",
     "quote_id": "USDT",
@@ -26935,8 +26955,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.01
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -47804,6 +47824,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SHARBI_USDT",
+    "base_id": "SHARBI",
+    "quote_id": "USDT",
+    "base": "SHARBI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SHARE_ETH",
     "base_id": "SHARE",
     "quote_id": "ETH",
@@ -54158,6 +54198,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TRCL_USDT",
+    "base_id": "TRCL",
+    "quote_id": "USDT",
+    "base": "TRCL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },

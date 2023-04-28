@@ -140,6 +140,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "AIDOGE-USDT",
+    "base_id": "AIDOGE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AIDOGE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "ALGO-USDT",
     "base_id": "ALGO",
     "quote_id": "USDT",
