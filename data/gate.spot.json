@@ -16991,6 +16991,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "EDU_USDT",
+    "base_id": "EDU",
+    "quote_id": "USDT",
+    "base": "EDU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "EFI_ETH",
     "base_id": "EFI",
     "quote_id": "ETH",
@@ -23156,6 +23176,26 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GOMINING_USDT",
+    "base_id": "GOMINING",
+    "quote_id": "USDT",
+    "base": "GOMINING",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "info": {}
