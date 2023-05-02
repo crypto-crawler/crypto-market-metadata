@@ -1262,7 +1262,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -28768,6 +28768,30 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "HAHA_USDT",
+    "base_id": "HAHA",
+    "quote_id": "USDT",
+    "base": "HAHA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
