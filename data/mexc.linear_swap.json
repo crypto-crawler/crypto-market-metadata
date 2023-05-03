@@ -318,7 +318,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2200.0
+      "max": 7400.0
     },
     "contract_value": 100000000000.0,
     "info": {}
@@ -4646,6 +4646,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "IDEX_USDT",
+    "base_id": "IDEX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IDEX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ID_USDT",
     "base_id": "ID",
     "quote_id": "USDT",
@@ -6555,7 +6582,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7500.0
+      "max": 24000.0
     },
     "contract_value": 10000000.0,
     "info": {}
@@ -7041,7 +7068,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 17200.0
+      "max": 48000.0
     },
     "contract_value": 100000000.0,
     "info": {}
@@ -8958,7 +8985,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 28000.0
+      "max": 48000.0
     },
     "contract_value": 10000.0,
     "info": {}
