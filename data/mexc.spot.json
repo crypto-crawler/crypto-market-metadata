@@ -1538,6 +1538,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "AIEN_USDT",
+    "base_id": "AIEN",
+    "quote_id": "USDT",
+    "base": "AIEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "AI_USDT",
     "base_id": "AI",
     "quote_id": "USDT",
@@ -26006,7 +26030,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -38738,6 +38762,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "MCADE_USDT",
+    "base_id": "MCADE",
+    "quote_id": "USDT",
+    "base": "MCADE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "MCASH_USDT",
     "base_id": "MCASH",
     "quote_id": "USDT",
@@ -45206,7 +45254,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

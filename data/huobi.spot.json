@@ -20179,7 +20179,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 38154009.4887
+      "max": 36237021.6319
     },
     "info": {}
   },
@@ -27428,6 +27428,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 292397.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "suiusdt",
+    "base_id": "sui",
+    "quote_id": "usdt",
+    "base": "SUI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
     },
     "info": {}
   },

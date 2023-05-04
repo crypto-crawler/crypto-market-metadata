@@ -12564,6 +12564,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "OGGYUSDT_SPBL",
+    "base_id": "OGGY",
+    "quote_id": "USDT",
+    "base": "OGGY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "OGNUSDT_SPBL",
     "base_id": "OGN",
     "quote_id": "USDT",
@@ -16971,6 +16994,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SUIUSDT_SPBL",
+    "base_id": "SUI",
+    "quote_id": "USDT",
+    "base": "SUI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {

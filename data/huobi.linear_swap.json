@@ -3176,6 +3176,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "SUI-USDT",
+    "base_id": "SUI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SUI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "SUSHI-USDT",
     "base_id": "SUSHI",
     "quote_id": "USDT",

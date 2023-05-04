@@ -5443,7 +5443,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -6096,7 +6096,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6000.0
+      "max": 7000.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -6693,6 +6693,33 @@
       "max": 100000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "POGAI_USDT",
+    "base_id": "POGAI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POGAI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1400.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {
@@ -8075,6 +8102,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "SUI_USDT",
+    "base_id": "SUI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SUI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 65000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "SUN_USDT",
     "base_id": "SUN",
     "quote_id": "USDT",
@@ -9309,7 +9363,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500.0
+      "max": 3250.0
     },
     "contract_value": 100.0,
     "info": {}
