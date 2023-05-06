@@ -20179,7 +20179,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 35440229.2828
+      "max": 37974474.5488
     },
     "info": {}
   },
@@ -25574,7 +25574,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -29252,6 +29252,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 100000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "turbousdt",
+    "base_id": "turbo",
+    "quote_id": "usdt",
+    "base": "TURBO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1697792869.0
     },
     "info": {}
   },

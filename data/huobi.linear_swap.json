@@ -3521,6 +3521,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "WOJAK-USDT",
+    "base_id": "WOJAK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WOJAK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "WOO-USDT",
     "base_id": "WOO",
     "quote_id": "USDT",

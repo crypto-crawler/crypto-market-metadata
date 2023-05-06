@@ -6212,6 +6212,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "POGAI_USDT",
+    "base_id": "POGAI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POGAI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 10000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "POLIS_USDT",
     "base_id": "POLIS",
     "quote_id": "USDT",
@@ -6882,6 +6909,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "RIF_USDT",
+    "base_id": "RIF",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RIF",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
