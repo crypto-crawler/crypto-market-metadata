@@ -2424,7 +2424,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3200.0
+      "max": 10500.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -3774,7 +3774,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 28000.0
+      "max": 44000.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -4422,7 +4422,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2200.0
+      "max": 3200.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -4881,7 +4881,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 34000.0
+      "max": 65000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6077,6 +6077,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "MONG_USDT",
+    "base_id": "MONG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MONG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3400.0
+    },
+    "contract_value": 10000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "MTL_USDT",
     "base_id": "MTL",
     "quote_id": "USDT",
@@ -6825,7 +6852,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5600.0
+      "max": 7000.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -8715,7 +8742,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3200.0
+      "max": 4800.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -9771,6 +9798,33 @@
       "max": 1650000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "ZIX_USDT",
+    "base_id": "ZIX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZIX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5200.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {
