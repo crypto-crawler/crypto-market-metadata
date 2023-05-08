@@ -15071,6 +15071,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DINO_USDT",
+    "base_id": "DINO",
+    "quote_id": "USDT",
+    "base": "DINO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DIONE_USDT",
     "base_id": "DIONE",
     "quote_id": "USDT",

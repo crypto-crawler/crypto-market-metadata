@@ -15165,6 +15165,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "RIBBITUSDT_SPBL",
+    "base_id": "RIBBIT",
+    "quote_id": "USDT",
+    "base": "RIBBIT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "RIN_USDT",
     "base_id": "RIN",
     "quote_id": "USDT",
