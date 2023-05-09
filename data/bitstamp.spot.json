@@ -3262,6 +3262,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "suieur",
+    "base_id": "SUI",
+    "quote_id": "EUR",
+    "base": "SUI",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "suiusd",
+    "base_id": "SUI",
+    "quote_id": "USD",
+    "base": "SUI",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "sushieur",
     "base_id": "SUSHI",
     "quote_id": "EUR",
