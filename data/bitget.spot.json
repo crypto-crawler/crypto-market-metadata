@@ -9574,6 +9574,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "KASUSDT_SPBL",
+    "base_id": "KAS",
+    "quote_id": "USDT",
+    "base": "KAS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "KAVAUSDT_SPBL",
     "base_id": "KAVA",
     "quote_id": "USDT",
@@ -13468,6 +13491,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "PCIUSDT_SPBL",
+    "base_id": "PCI",
+    "quote_id": "USDT",
+    "base": "PCI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

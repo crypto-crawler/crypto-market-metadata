@@ -623,6 +623,29 @@
   {
     "exchange": "bitmex",
     "market_type": "linear_swap",
+    "symbol": "PEPEUSDT",
+    "base_id": "PEPE",
+    "quote_id": "USDT",
+    "settle_id": "USDt",
+    "base": "PEPE",
+    "quote": "USDT",
+    "settle": "USDt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 10000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "linear_swap",
     "symbol": "SANDUSDT",
     "base_id": "SAND",
     "quote_id": "USDT",
