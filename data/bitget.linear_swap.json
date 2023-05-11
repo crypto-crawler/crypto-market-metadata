@@ -1120,6 +1120,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "CTKUSDT_UMCBL",
+    "base_id": "CTK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CTK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "CTSIUSDT_UMCBL",
     "base_id": "CTSI",
     "quote_id": "USDT",
@@ -2153,6 +2179,32 @@
     },
     "quantity_limit": {
       "min": 6.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "IOTXUSDT_UMCBL",
+    "base_id": "IOTX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IOTX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3590,6 +3642,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "STMXUSDT_UMCBL",
+    "base_id": "STMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "STORJUSDT_UMCBL",
     "base_id": "STORJ",
     "quote_id": "USDT",
@@ -3869,6 +3947,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "UMAUSDT_UMCBL",
+    "base_id": "UMA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UMA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}
