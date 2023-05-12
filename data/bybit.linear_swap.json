@@ -2,6 +2,33 @@
   {
     "exchange": "bybit",
     "market_type": "linear_swap",
+    "symbol": "10000LADYSUSDT",
+    "base_id": "10000LADYS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "10000LADYS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 5e-7,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 16000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bybit",
+    "market_type": "linear_swap",
     "symbol": "10000NFTUSDT",
     "base_id": "10000NFT",
     "quote_id": "USDT",
