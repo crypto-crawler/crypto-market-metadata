@@ -2090,6 +2090,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "arixusdt",
+    "base_id": "arix",
+    "quote_id": "usdt",
+    "base": "ARIX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1958096.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "arknusdt",
     "base_id": "arkn",
     "quote_id": "usdt",
@@ -20251,7 +20275,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 43816200.5638
+      "max": 42964152.9523
     },
     "info": {}
   },
