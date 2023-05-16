@@ -2162,6 +2162,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "CAPO_USDT",
+    "base_id": "CAPO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CAPO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6400.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "CAW_USDT",
     "base_id": "CAW",
     "quote_id": "USDT",
@@ -7962,6 +7989,33 @@
       "max": 100000.0
     },
     "contract_value": 10000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SIMPSON_USDT",
+    "base_id": "SIMPSON",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SIMPSON",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4000.0
+    },
+    "contract_value": 100000000000.0,
     "info": {}
   },
   {
