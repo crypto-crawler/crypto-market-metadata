@@ -7845,6 +7845,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "LMWR/EUR",
+    "base_id": "LMWR",
+    "quote_id": "ZEUR",
+    "base": "LMWR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LMWR/USD",
+    "base_id": "LMWR",
+    "quote_id": "ZUSD",
+    "base": "LMWR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "LPT/EUR",
     "base_id": "LPT",
     "quote_id": "ZEUR",
@@ -10139,6 +10185,52 @@
     },
     "quantity_limit": {
       "min": 0.003
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PEPE/EUR",
+    "base_id": "PEPE",
+    "quote_id": "ZEUR",
+    "base": "PEPE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PEPE/USD",
+    "base_id": "PEPE",
+    "quote_id": "ZUSD",
+    "base": "PEPE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500000.0
     },
     "info": {}
   },
