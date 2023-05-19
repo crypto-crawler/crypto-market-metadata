@@ -6231,7 +6231,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 13600.0
+      "max": 35000.0
     },
     "contract_value": 10000000.0,
     "info": {}
@@ -7932,7 +7932,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 34000.0
+      "max": 260000.0
     },
     "contract_value": 10000000000.0,
     "info": {}
@@ -8259,6 +8259,33 @@
       "max": 8000.0
     },
     "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SQUAD_USDT",
+    "base_id": "SQUAD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SQUAD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 9000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
