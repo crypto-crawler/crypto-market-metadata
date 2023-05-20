@@ -4778,6 +4778,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BOB-USDT",
+    "base_id": "BOB",
+    "quote_id": "USDT",
+    "base": "BOB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BOBA-USDT",
     "base_id": "BOBA",
     "quote_id": "USDT",

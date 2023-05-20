@@ -16826,6 +16826,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "lhinuusdt",
+    "base_id": "lhinu",
+    "quote_id": "usdt",
+    "base": "LHINU",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "likeusdt",
     "base_id": "like",
     "quote_id": "usdt",
@@ -20323,7 +20347,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 44775828.8395
+      "max": 45550868.4372
     },
     "info": {}
   },
