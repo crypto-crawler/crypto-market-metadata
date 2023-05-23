@@ -7994,6 +7994,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tPEPE:USD",
+    "base_id": "PEPE",
+    "quote_id": "USD",
+    "base": "PEPE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 50000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tPEPE:UST",
+    "base_id": "PEPE",
+    "quote_id": "UST",
+    "base": "PEPE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 50000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tPLANETS:USD",
     "base_id": "PLANETS",
     "quote_id": "USD",
