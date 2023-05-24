@@ -46084,6 +46084,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RFD_USDT",
+    "base_id": "RFD",
+    "quote_id": "USDT",
+    "base": "RFD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RFOX_ETH",
     "base_id": "RFOX",
     "quote_id": "ETH",
@@ -47276,7 +47296,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "info": {}
@@ -50538,6 +50558,26 @@
     "precision": {
       "tick_size": 1e-11,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SOULS_USDT",
+    "base_id": "SOULS",
+    "quote_id": "USDT",
+    "base": "SOULS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },

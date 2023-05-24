@@ -27290,6 +27290,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RFD-USDT",
+    "base_id": "RFD",
+    "quote_id": "USDT",
+    "base": "RFD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "RFOX-USDT",
     "base_id": "RFOX",
     "quote_id": "USDT",
