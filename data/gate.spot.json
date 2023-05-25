@@ -7122,6 +7122,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BISO_USDT",
+    "base_id": "BISO",
+    "quote_id": "USDT",
+    "base": "BISO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BITCI_USDT",
     "base_id": "BITCI",
     "quote_id": "USDT",

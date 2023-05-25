@@ -554,6 +554,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "acsusdt",
+    "base_id": "acs",
+    "quote_id": "usdt",
+    "base": "ACS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 241662638.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "actbtc",
     "base_id": "act",
     "quote_id": "btc",
@@ -20395,7 +20419,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 46753669.1466
+      "max": 47786250.0259
     },
     "info": {}
   },
