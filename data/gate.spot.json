@@ -32775,6 +32775,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MAJO_USDT",
+    "base_id": "MAJO",
+    "quote_id": "USDT",
+    "base": "MAJO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MANA3L_USDT",
     "base_id": "MANA3L",
     "quote_id": "USDT",
@@ -54017,6 +54037,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TENET_USDT",
+    "base_id": "TENET",
+    "quote_id": "USDT",
+    "base": "TENET",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "info": {}

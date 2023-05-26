@@ -7346,6 +7346,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "SAMO_USDT",
+    "base_id": "SAMO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SAMO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "SAND_USDT",
     "base_id": "SAND",
     "quote_id": "USDT",
