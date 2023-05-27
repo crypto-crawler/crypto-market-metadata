@@ -34010,6 +34010,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "VERSE-USDT",
+    "base_id": "VERSE",
+    "quote_id": "USDT",
+    "base": "VERSE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "VET-BTC",
     "base_id": "VET",
     "quote_id": "BTC",
