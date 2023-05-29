@@ -202,6 +202,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "4TOKEN_USDT",
+    "base_id": "4TOKEN",
+    "quote_id": "USDT",
+    "base": "4TOKEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "88MPH_ETH",
     "base_id": "88MPH",
     "quote_id": "ETH",
