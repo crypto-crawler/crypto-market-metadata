@@ -38915,6 +38915,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "OBI_USDT",
+    "base_id": "OBI",
+    "quote_id": "USDT",
+    "base": "OBI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "OCC_USDT",
     "base_id": "OCC",
     "quote_id": "USDT",
@@ -59107,6 +59127,26 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WISTA_USDT",
+    "base_id": "WISTA",
+    "quote_id": "USDT",
+    "base": "WISTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },

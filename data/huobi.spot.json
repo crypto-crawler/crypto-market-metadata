@@ -11714,6 +11714,54 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "fnsabtc",
+    "base_id": "fnsa",
+    "quote_id": "btc",
+    "base": "FNSA",
+    "quote": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35997.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "fnsausdt",
+    "base_id": "fnsa",
+    "quote_id": "usdt",
+    "base": "FNSA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 34129.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "forbtc",
     "base_id": "for",
     "quote_id": "btc",
@@ -20419,7 +20467,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 49244208.4528
+      "max": 51701658.9488
     },
     "info": {}
   },
