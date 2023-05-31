@@ -11066,6 +11066,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tWHBT:USD",
+    "base_id": "WHBT",
+    "quote_id": "USD",
+    "base": "WBT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 12500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tWHBT:UST",
+    "base_id": "WHBT",
+    "quote_id": "UST",
+    "base": "WBT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 12500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tWILD:USD",
     "base_id": "WILD",
     "quote_id": "USD",

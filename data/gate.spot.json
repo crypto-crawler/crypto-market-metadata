@@ -26783,6 +26783,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "INFRA_USDT",
+    "base_id": "INFRA",
+    "quote_id": "USDT",
+    "base": "INFRA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ING_USDT",
     "base_id": "ING",
     "quote_id": "USDT",
@@ -62227,6 +62247,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZAT_USDT",
+    "base_id": "ZAT",
+    "quote_id": "USDT",
+    "base": "ZAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "info": {}
   },
