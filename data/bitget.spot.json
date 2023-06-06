@@ -9115,6 +9115,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "INUUSDT_SPBL",
+    "base_id": "INU",
+    "quote_id": "USDT",
+    "base": "INU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 897.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "IOTXUSDT_SPBL",
     "base_id": "IOTX",
     "quote_id": "USDT",
