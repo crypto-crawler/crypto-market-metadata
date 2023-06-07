@@ -3502,6 +3502,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARKS_USDT",
+    "base_id": "ARKS",
+    "quote_id": "USDT",
+    "base": "ARKS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARMOR_ETH",
     "base_id": "ARMOR",
     "quote_id": "ETH",
@@ -8955,10 +8975,10 @@
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 0.0001
+      "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 0.0001
+      "min": 0.00001
     },
     "info": {}
   },
@@ -8978,10 +8998,10 @@
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 0.0001
+      "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 0.0001
+      "min": 0.00001
     },
     "info": {}
   },
@@ -9001,10 +9021,10 @@
     },
     "precision": {
       "tick_size": 0.1,
-      "lot_size": 0.0001
+      "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 0.0001
+      "min": 0.00001
     },
     "info": {}
   },
@@ -57127,6 +57147,9 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
