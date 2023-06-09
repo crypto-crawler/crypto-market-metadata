@@ -12506,6 +12506,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "gasusdt",
+    "base_id": "gas",
+    "quote_id": "usdt",
+    "base": "GAS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 366300.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "gbpusdt",
     "base_id": "gbp",
     "quote_id": "usdt",
@@ -20467,7 +20491,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 49424101.7706
+      "max": 53709455.1993
     },
     "info": {}
   },

@@ -1122,6 +1122,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "dgldeur",
+    "base_id": "DGLD",
+    "quote_id": "EUR",
+    "base": "DGLD",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "dgldusd",
+    "base_id": "DGLD",
+    "quote_id": "USD",
+    "base": "DGLD",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "dogeeur",
     "base_id": "DOGE",
     "quote_id": "EUR",
@@ -2096,6 +2136,46 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "ldoeur",
+    "base_id": "LDO",
+    "quote_id": "EUR",
+    "base": "LDO",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "ldousd",
+    "base_id": "LDO",
+    "quote_id": "USD",
+    "base": "LDO",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "info": {}
   },

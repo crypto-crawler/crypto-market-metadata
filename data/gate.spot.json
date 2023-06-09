@@ -7122,6 +7122,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BIOP_USDT",
+    "base_id": "BIOP",
+    "quote_id": "USDT",
+    "base": "BIOP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BIRD_ETH",
     "base_id": "BIRD",
     "quote_id": "ETH",
@@ -19763,6 +19783,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FERC_USDT",
+    "base_id": "FERC",
+    "quote_id": "USDT",
+    "base": "FERC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FER_USDT",
     "base_id": "FER",
     "quote_id": "USDT",
@@ -21717,6 +21757,46 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FURUCOMBO_ETH",
+    "base_id": "FURUCOMBO",
+    "quote_id": "ETH",
+    "base": "FURUCOMBO",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FURUCOMBO_USDT",
+    "base_id": "FURUCOMBO",
+    "quote_id": "USDT",
+    "base": "FURUCOMBO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -41367,8 +41447,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.01
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
