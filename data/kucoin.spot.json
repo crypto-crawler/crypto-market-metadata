@@ -1442,6 +1442,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ALGODOWN-USDT",
+    "base_id": "ALGODOWN",
+    "quote_id": "USDT",
+    "base": "ALGODOWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ALGOUP-USDT",
+    "base_id": "ALGOUP",
+    "quote_id": "USDT",
+    "base": "ALGOUP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ALICE-BTC",
     "base_id": "ALICE",
     "quote_id": "BTC",
@@ -2078,7 +2126,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -12338,6 +12386,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FILDOWN-USDT",
+    "base_id": "FILDOWN",
+    "quote_id": "USDT",
+    "base": "FILDOWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "FILUP-USDT",
+    "base_id": "FILUP",
+    "quote_id": "USDT",
+    "base": "FILUP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FITFI-USDC",
     "base_id": "FITFI",
     "quote_id": "USDC",
@@ -13454,7 +13550,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "quantity_limit": {

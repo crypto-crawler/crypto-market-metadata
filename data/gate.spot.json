@@ -11683,8 +11683,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -17335,6 +17335,26 @@
     "base_id": "EDU",
     "quote_id": "USDT",
     "base": "EDU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "EEG_USDT",
+    "base_id": "EEG",
+    "quote_id": "USDT",
+    "base": "EEG",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -42047,7 +42067,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "info": {}
