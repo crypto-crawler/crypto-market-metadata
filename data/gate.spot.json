@@ -6614,7 +6614,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-13,
       "lot_size": 1.0
     },
     "info": {}
@@ -13244,6 +13244,26 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CTY_USDT",
+    "base_id": "CTY",
+    "quote_id": "USDT",
+    "base": "CTY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -25657,6 +25677,26 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HOME_USDT",
+    "base_id": "HOME",
+    "quote_id": "USDT",
+    "base": "HOME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -42147,8 +42187,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.01
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
@@ -60528,8 +60568,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 0.001
+      "tick_size": 1e-9,
+      "lot_size": 1.0
     },
     "info": {}
   },
