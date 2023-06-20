@@ -9491,6 +9491,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BUSD_ETH",
+    "base_id": "BUSD",
+    "quote_id": "ETH",
+    "base": "BUSD",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BUSD_USDT",
+    "base_id": "BUSD",
+    "quote_id": "USDT",
+    "base": "BUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BUSY_USDT",
     "base_id": "BUSY",
     "quote_id": "USDT",
@@ -15183,8 +15223,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -15203,8 +15243,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -41547,8 +41587,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.1
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -56164,6 +56204,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TUSD_USDT",
+    "base_id": "TUSD",
+    "quote_id": "USDT",
+    "base": "TUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TVK_ETH",
     "base_id": "TVK",
     "quote_id": "ETH",
@@ -57172,8 +57232,8 @@
     "active": true,
     "margin": false,
     "fees": {
-      "maker": 0.002,
-      "taker": 0.002
+      "maker": 0.001,
+      "taker": 0.001
     },
     "precision": {
       "tick_size": 0.0001,
@@ -57238,6 +57298,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "USDP_USDT",
+    "base_id": "USDP",
+    "quote_id": "USDT",
+    "base": "USDP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "info": {}
   },

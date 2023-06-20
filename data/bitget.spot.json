@@ -8742,6 +8742,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "HAMUSDT_SPBL",
+    "base_id": "HAM",
+    "quote_id": "USDT",
+    "base": "HAM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "HELLOUSDT_SPBL",
     "base_id": "HELLO",
     "quote_id": "USDT",
@@ -19379,6 +19402,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "UNLEASHUSDT_SPBL",
+    "base_id": "UNLEASH",
+    "quote_id": "USDT",
+    "base": "UNLEASH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
