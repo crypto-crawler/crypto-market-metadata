@@ -1322,6 +1322,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AG_USDT",
+    "base_id": "AG",
+    "quote_id": "USDT",
+    "base": "AG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AICODE_USDT",
     "base_id": "AICODE",
     "quote_id": "USDT",
@@ -42267,8 +42287,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
