@@ -20823,6 +20823,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FNSA_BTC",
+    "base_id": "FNSA",
+    "quote_id": "BTC",
+    "base": "FNSA",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FNSA_USDT",
+    "base_id": "FNSA",
+    "quote_id": "USDT",
+    "base": "FNSA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FNZ_USDT",
     "base_id": "FNZ",
     "quote_id": "USDT",

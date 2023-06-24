@@ -1822,6 +1822,34 @@
   {
     "exchange": "gate",
     "market_type": "linear_future",
+    "symbol": "BTC_USDT_20230707",
+    "base_id": "BTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00015,
+      "taker": 0.00025
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.0001,
+    "delivery_date": 1688716800000,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_future",
     "symbol": "BTC_USDT_20230929",
     "base_id": "BTC",
     "quote_id": "USDT",
@@ -2041,6 +2069,34 @@
     },
     "contract_value": 0.01,
     "delivery_date": 1688112000000,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_future",
+    "symbol": "ETH_USDT_20230707",
+    "base_id": "ETH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00015,
+      "taker": 0.00025
+    },
+    "precision": {
+      "tick_size": 0.05,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "delivery_date": 1688716800000,
     "info": {}
   },
   {

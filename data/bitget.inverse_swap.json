@@ -80,6 +80,58 @@
   {
     "exchange": "bitget",
     "market_type": "inverse_swap",
+    "symbol": "DOGEUSD_DMCBL",
+    "base_id": "DOGE",
+    "quote_id": "USD",
+    "settle_id": "DOGE",
+    "base": "DOGE",
+    "quote": "USD",
+    "settle": "DOGE",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
+    "symbol": "DOTUSD_DMCBL",
+    "base_id": "DOT",
+    "quote_id": "USD",
+    "settle_id": "DOT",
+    "base": "DOT",
+    "quote": "USD",
+    "settle": "DOT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
     "symbol": "EOSUSD_DMCBL",
     "base_id": "EOS",
     "quote_id": "USD",
@@ -177,6 +229,32 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
+    "symbol": "TRXUSD_DMCBL",
+    "base_id": "TRX",
+    "quote_id": "USD",
+    "settle_id": "TRX",
+    "base": "TRX",
+    "quote": "USD",
+    "settle": "TRX",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}
