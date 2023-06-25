@@ -380,6 +380,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "1000YURI_USDT",
+    "base_id": "1000YURI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1000YURI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3500.0
+    },
+    "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "1INCH_USDT",
     "base_id": "1INCH",
     "quote_id": "USDT",

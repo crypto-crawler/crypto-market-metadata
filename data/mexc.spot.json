@@ -62366,7 +62366,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -65474,6 +65474,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "TCGC_USDT",
+    "base_id": "TCGC",
+    "quote_id": "USDT",
+    "base": "TCGC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "TCT_USDT",
     "base_id": "TCT",
     "quote_id": "USDT",
@@ -66999,6 +67023,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "TOX_USDT",
+    "base_id": "TOX",
+    "quote_id": "USDT",
+    "base": "TOX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
