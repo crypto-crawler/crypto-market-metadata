@@ -6799,6 +6799,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FAVORUSDT_SPBL",
+    "base_id": "FAVOR",
+    "quote_id": "USDT",
+    "base": "FAVOR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FERCUSDT_SPBL",
     "base_id": "FERC",
     "quote_id": "USDT",
@@ -14247,6 +14270,29 @@
     },
     "quantity_limit": {
       "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "PEPE2USDT_SPBL",
+    "base_id": "PEPE2",
+    "quote_id": "USDT",
+    "base": "PEPE2",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
