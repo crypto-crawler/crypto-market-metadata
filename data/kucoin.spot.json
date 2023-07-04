@@ -3002,6 +3002,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AURA-USDT",
+    "base_id": "AURA",
+    "quote_id": "USDT",
+    "base": "AURA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AURORA-USDT",
     "base_id": "AURORA",
     "quote_id": "USDT",
@@ -25507,6 +25531,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "PENDLE-USDT",
+    "base_id": "PENDLE",
+    "quote_id": "USDT",
+    "base": "PENDLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}

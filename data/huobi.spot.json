@@ -20515,7 +20515,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 94467490.8612
+      "max": 85875368.704
     },
     "info": {}
   },
@@ -22868,6 +22868,30 @@
     "quantity_limit": {
       "min": 0.0001,
       "max": 300.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "pendleusdt",
+    "base_id": "pendle",
+    "quote_id": "usdt",
+    "base": "PENDLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 806451.0
     },
     "info": {}
   },
