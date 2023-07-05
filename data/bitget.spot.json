@@ -10631,6 +10631,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "LBRUSDT_SPBL",
+    "base_id": "LBR",
+    "quote_id": "USDT",
+    "base": "LBR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "LDOUSDT_SPBL",
     "base_id": "LDO",
     "quote_id": "USDT",
@@ -20846,6 +20869,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "WOOOUSDT_SPBL",
+    "base_id": "WOOO",
+    "quote_id": "USDT",
+    "base": "WOOO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },

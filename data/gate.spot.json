@@ -3362,6 +3362,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARB_USDC",
+    "base_id": "ARB",
+    "quote_id": "USDC",
+    "base": "ARB",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARB_USDT",
     "base_id": "ARB",
     "quote_id": "USDT",
@@ -4816,6 +4836,26 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "AVAX_USDC",
+    "base_id": "AVAX",
+    "quote_id": "USDC",
+    "base": "AVAX",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
     },
     "info": {}
   },
@@ -7862,6 +7902,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BNB_USDC",
+    "base_id": "BNB",
+    "quote_id": "USDC",
+    "base": "BNB",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BNB_USDT",
     "base_id": "BNB",
     "quote_id": "USDT",
@@ -9030,6 +9090,29 @@
     "quote_id": "USD",
     "base": "BTC",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BTC_USDC",
+    "base_id": "BTC",
+    "quote_id": "USDC",
+    "base": "BTC",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -14903,8 +14986,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.001
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
@@ -15996,6 +16079,26 @@
     "quote_id": "USD",
     "base": "DOGE",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DOGE_USDC",
+    "base_id": "DOGE",
+    "quote_id": "USDC",
+    "base": "DOGE",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -19186,7 +19289,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -19202,6 +19305,29 @@
     "quote_id": "USD",
     "base": "ETH",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ETH_USDC",
+    "base_id": "ETH",
+    "quote_id": "USDC",
+    "base": "ETH",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -20188,6 +20314,26 @@
     "quote_id": "TRY",
     "base": "FIL",
     "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FIL_USDC",
+    "base_id": "FIL",
+    "quote_id": "USDC",
+    "base": "FIL",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -30603,6 +30749,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LBR_USDT",
+    "base_id": "LBR",
+    "quote_id": "USDT",
+    "base": "LBR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LDO3L_USDT",
     "base_id": "LDO3L",
     "quote_id": "USDT",
@@ -32698,7 +32864,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -32714,6 +32880,29 @@
     "quote_id": "USD",
     "base": "LTC",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.003
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LTC_USDC",
+    "base_id": "LTC",
+    "quote_id": "USDC",
+    "base": "LTC",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -33740,6 +33929,26 @@
     "quote_id": "USD",
     "base": "MATIC",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MATIC_USDC",
+    "base_id": "MATIC",
+    "quote_id": "USDC",
+    "base": "MATIC",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -40855,6 +41064,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "OP_USDC",
+    "base_id": "OP",
+    "quote_id": "USDC",
+    "base": "OP",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "OP_USDT",
     "base_id": "OP",
     "quote_id": "USDT",
@@ -41989,6 +42218,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PEPE_USDC",
+    "base_id": "PEPE",
+    "quote_id": "USDC",
+    "base": "PEPE",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -49384,6 +49633,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SHIB_USDC",
+    "base_id": "SHIB",
+    "quote_id": "USDC",
+    "base": "SHIB",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SHIB_USDT",
     "base_id": "SHIB",
     "quote_id": "USDT",
@@ -50969,6 +51238,26 @@
     "quote_id": "USD",
     "base": "SOL",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SOL_USDC",
+    "base_id": "SOL",
+    "quote_id": "USDC",
+    "base": "SOL",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -53089,6 +53378,26 @@
     "quote_id": "TRY",
     "base": "SUI",
     "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SUI_USDC",
+    "base_id": "SUI",
+    "quote_id": "USDC",
+    "base": "SUI",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -56104,6 +56413,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TRX_USDC",
+    "base_id": "TRX",
+    "quote_id": "USDC",
+    "base": "TRX",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TRX_USDT",
     "base_id": "TRX",
     "quote_id": "USDT",
@@ -57499,7 +57828,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -57523,7 +57852,7 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.01
+      "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 1.0
@@ -61841,6 +62170,26 @@
     "quote_id": "USD",
     "base": "XRP",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XRP_USDC",
+    "base_id": "XRP",
+    "quote_id": "USDC",
+    "base": "XRP",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
