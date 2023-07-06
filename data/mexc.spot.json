@@ -1658,6 +1658,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "AGRO_USDT",
+    "base_id": "AGRO",
+    "quote_id": "USDT",
+    "base": "AGRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "AGV_USDT",
     "base_id": "AGV",
     "quote_id": "USDT",
@@ -20991,6 +21015,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "DPEX_USDT",
+    "base_id": "DPEX",
+    "quote_id": "USDT",
+    "base": "DPEX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -71196,6 +71244,30 @@
     "fees": {
       "maker": 0.0,
       "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "VMPX_USDT",
+    "base_id": "VMPX",
+    "quote_id": "USDT",
+    "base": "VMPX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.00001,

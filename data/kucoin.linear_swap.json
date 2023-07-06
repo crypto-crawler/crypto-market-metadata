@@ -2808,6 +2808,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "MDTUSDTM",
+    "base_id": "MDT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MDT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "MINAUSDTM",
     "base_id": "MINA",
     "quote_id": "USDT",
@@ -4413,6 +4436,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "XECUSDTM",
+    "base_id": "XEC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XEC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {

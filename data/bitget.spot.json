@@ -6776,6 +6776,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "EVMPXUSDT_SPBL",
+    "base_id": "EVMPX",
+    "quote_id": "USDT",
+    "base": "EVMPX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FASTUSDT_SPBL",
     "base_id": "FAST",
     "quote_id": "USDT",
@@ -19463,6 +19486,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "TYPEUSDT_SPBL",
+    "base_id": "TYPE",
+    "quote_id": "USDT",
+    "base": "TYPE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "UFOUSDT_SPBL",
     "base_id": "UFO",
     "quote_id": "USDT",
@@ -20117,6 +20163,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "VMPXERC20USDT_SPBL",
+    "base_id": "VMPXERC20",
+    "quote_id": "USDT",
+    "base": "VMPXERC20",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
