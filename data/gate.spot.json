@@ -2362,6 +2362,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AMC_USDT",
+    "base_id": "AMC",
+    "quote_id": "USDT",
+    "base": "AMC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AME_ETH",
     "base_id": "AME",
     "quote_id": "ETH",
@@ -5694,7 +5714,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-8,
       "lot_size": 0.001
     },
     "info": {}
@@ -6434,7 +6454,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-12,
       "lot_size": 0.01
     },
     "info": {}
@@ -9626,8 +9646,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
+      "tick_size": 1e-8,
+      "lot_size": 0.0001
     },
     "info": {}
   },
@@ -15934,6 +15954,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DOGE2_USDT",
+    "base_id": "DOGE2",
+    "quote_id": "USDT",
+    "base": "DOGE2",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DOGE3L_USDT",
     "base_id": "DOGE3L",
     "quote_id": "USDT",
@@ -19246,7 +19286,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -20501,7 +20541,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-11,
       "lot_size": 0.001
     },
     "info": {}
@@ -21001,7 +21041,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "info": {}
@@ -22181,7 +22221,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-11,
       "lot_size": 0.001
     },
     "info": {}
@@ -22201,7 +22241,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -24501,7 +24541,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-12,
       "lot_size": 0.01
     },
     "info": {}
@@ -25321,7 +25361,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-12,
       "lot_size": 0.001
     },
     "info": {}
@@ -25821,7 +25861,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-13,
       "lot_size": 0.01
     },
     "info": {}
@@ -30081,7 +30121,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-10,
       "lot_size": 0.001
     },
     "info": {}
@@ -30581,7 +30621,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-11,
       "lot_size": 0.01
     },
     "info": {}
@@ -30941,7 +30981,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-12,
       "lot_size": 0.001
     },
     "info": {}
@@ -34076,7 +34116,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-10,
       "lot_size": 0.001
     },
     "info": {}
@@ -47925,7 +47965,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-13,
       "lot_size": 0.01
     },
     "info": {}
@@ -47945,7 +47985,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-11,
       "lot_size": 0.01
     },
     "info": {}
@@ -49547,6 +49587,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SHIB2_USDT",
+    "base_id": "SHIB2",
+    "quote_id": "USDT",
+    "base": "SHIB2",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
     },
     "info": {}
   },
@@ -55565,7 +55625,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-13,
       "lot_size": 0.01
     },
     "info": {}
@@ -55585,7 +55645,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-10,
       "lot_size": 0.1
     },
     "info": {}
@@ -58057,7 +58117,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-12,
       "lot_size": 0.001
     },
     "info": {}
@@ -63937,7 +63997,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-11,
       "lot_size": 1.0
     },
     "info": {}
@@ -63957,7 +64017,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-10,
       "lot_size": 0.1
     },
     "info": {}
