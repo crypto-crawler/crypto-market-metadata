@@ -137,6 +137,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "100000BABYDOGE2_USDT",
+    "base_id": "100000BABYDOGE2",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "100000BABYDOGE2",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6700.0
+    },
+    "contract_value": 1000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "100000BABYDOGE_USDT",
     "base_id": "100000BABYDOGE",
     "quote_id": "USDT",
@@ -265,6 +292,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 18000.0
+    },
+    "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "1000DOGE2_USDT",
+    "base_id": "1000DOGE2",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1000DOGE2",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6000.0
     },
     "contract_value": 100000.0,
     "info": {}
