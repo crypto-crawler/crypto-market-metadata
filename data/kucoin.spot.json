@@ -7130,6 +7130,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "COMPDOWN-USDT",
+    "base_id": "COMPDOWN",
+    "quote_id": "USDT",
+    "base": "COMPDOWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "COMPUP-USDT",
+    "base_id": "COMPUP",
+    "quote_id": "USDT",
+    "base": "COMPUP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "COOHA-USDT",
     "base_id": "COOHA",
     "quote_id": "USDT",
@@ -11126,7 +11174,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -22028,6 +22076,54 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MKRDOWN-USDT",
+    "base_id": "MKRDOWN",
+    "quote_id": "USDT",
+    "base": "MKRDOWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MKRUP-USDT",
+    "base_id": "MKRUP",
+    "quote_id": "USDT",
+    "base": "MKRUP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
     },
     "info": {}
   },

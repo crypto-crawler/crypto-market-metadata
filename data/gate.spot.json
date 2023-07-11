@@ -42984,6 +42984,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PLANET_USDT",
+    "base_id": "PLANET",
+    "quote_id": "USDT",
+    "base": "PLANET",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PLATO_USDT",
     "base_id": "PLATO",
     "quote_id": "USDT",
@@ -57707,6 +57727,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "UNT_USDT",
+    "base_id": "UNT",
+    "quote_id": "USDT",
+    "base": "UNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
