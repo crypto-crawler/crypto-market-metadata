@@ -6218,6 +6218,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tKAVA:USD",
+    "base_id": "KAVA",
+    "quote_id": "USD",
+    "base": "KAVA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tKAVA:UST",
+    "base_id": "KAVA",
+    "quote_id": "UST",
+    "base": "KAVA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tKNCBTC",
     "base_id": "KNC",
     "quote_id": "BTC",
