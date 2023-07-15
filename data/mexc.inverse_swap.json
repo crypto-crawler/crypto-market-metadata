@@ -2,6 +2,33 @@
   {
     "exchange": "mexc",
     "market_type": "inverse_swap",
+    "symbol": "ADA_USD",
+    "base_id": "ADA",
+    "quote_id": "USD",
+    "settle_id": "ADA",
+    "base": "ADA",
+    "quote": "USD",
+    "settle": "ADA",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
     "symbol": "ATOM_USD",
     "base_id": "ATOM",
     "quote_id": "USD",
@@ -130,6 +157,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 200000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
+    "symbol": "XLM_USD",
+    "base_id": "XLM",
+    "quote_id": "USD",
+    "settle_id": "XLM",
+    "base": "XLM",
+    "quote": "USD",
+    "settle": "XLM",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000.0
     },
     "contract_value": 10.0,
     "info": {}

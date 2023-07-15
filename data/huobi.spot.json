@@ -12362,6 +12362,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "fxsusdt",
+    "base_id": "fxs",
+    "quote_id": "usdt",
+    "base": "FXS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 150375.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "fxusdt",
     "base_id": "fx",
     "quote_id": "usdt",
@@ -20563,7 +20587,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 98988594.7923
+      "max": 85540017.8518
     },
     "info": {}
   },
