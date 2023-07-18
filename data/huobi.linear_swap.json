@@ -3521,6 +3521,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "USTC-USDT",
+    "base_id": "USTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "USTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "VET-USDT",
     "base_id": "VET",
     "quote_id": "USDT",

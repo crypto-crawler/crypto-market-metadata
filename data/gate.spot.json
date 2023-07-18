@@ -38164,6 +38164,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NEON_USDT",
+    "base_id": "NEON",
+    "quote_id": "USDT",
+    "base": "NEON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NEO_BTC",
     "base_id": "NEO",
     "quote_id": "BTC",

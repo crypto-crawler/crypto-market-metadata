@@ -20587,7 +20587,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 88816805.6842
+      "max": 87131113.384
     },
     "info": {}
   },
@@ -32564,6 +32564,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 1214181.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "wstusdtusdt",
+    "base_id": "wstusdt",
+    "quote_id": "usdt",
+    "base": "WSTUSDT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
     },
     "info": {}
   },
