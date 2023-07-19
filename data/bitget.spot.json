@@ -1288,6 +1288,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ARKMUSDT_SPBL",
+    "base_id": "ARKM",
+    "quote_id": "USDT",
+    "base": "ARKM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ARMY_USDT",
     "base_id": "ARMY",
     "quote_id": "USDT",

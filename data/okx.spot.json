@@ -3008,7 +3008,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -3353,7 +3353,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -5860,7 +5860,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -6113,7 +6113,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -8367,7 +8367,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -12530,7 +12530,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -13773,6 +13773,52 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "STETH-ETH",
+    "base_id": "STETH",
+    "quote_id": "ETH",
+    "base": "STETH",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "STETH-USDT",
+    "base_id": "STETH",
+    "quote_id": "USDT",
+    "base": "STETH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -15428,7 +15474,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -16118,7 +16164,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
