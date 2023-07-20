@@ -3582,6 +3582,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARKM_USDT",
+    "base_id": "ARKM",
+    "quote_id": "USDT",
+    "base": "ARKM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARKS_USDT",
     "base_id": "ARKS",
     "quote_id": "USDT",
@@ -59399,6 +59419,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WAGMIGAMES_USDT",
+    "base_id": "WAGMIGAMES",
+    "quote_id": "USDT",
+    "base": "WAGMIGAMES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
     },
     "info": {}
   },
