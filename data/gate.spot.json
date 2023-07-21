@@ -8534,7 +8534,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-10,
       "lot_size": 1.0
     },
     "info": {}
@@ -14494,6 +14494,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DCK_USDT",
+    "base_id": "DCK",
+    "quote_id": "USDT",
+    "base": "DCK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DCRN_USDT",
     "base_id": "DCRN",
     "quote_id": "USDT",
@@ -15846,8 +15866,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.001
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -26433,6 +26453,26 @@
     "base_id": "HT3S",
     "quote_id": "USDT",
     "base": "HT3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HTM_USDT",
+    "base_id": "HTM",
+    "quote_id": "USDT",
+    "base": "HTM",
     "quote": "USDT",
     "active": true,
     "margin": false,
