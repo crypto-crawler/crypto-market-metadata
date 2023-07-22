@@ -3866,6 +3866,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "STMXUSDTM",
+    "base_id": "STMX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STMX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "STORJUSDTM",
     "base_id": "STORJ",
     "quote_id": "USDT",
