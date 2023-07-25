@@ -15895,6 +15895,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "WLD-USDT",
+    "base_id": "WLD",
+    "quote_id": "USDT",
+    "base": "WLD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "WNCG-USDT",
     "base_id": "WNCG",
     "quote_id": "USDT",
