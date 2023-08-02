@@ -25,6 +25,29 @@
   {
     "exchange": "bitmex",
     "market_type": "inverse_swap",
+    "symbol": "XBTETH",
+    "base_id": "XBT",
+    "quote_id": "ETH",
+    "settle_id": "XBt",
+    "base": "XBTETH",
+    "quote": "BTC",
+    "settle": "XBt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "inverse_swap",
     "symbol": "XBTEUR",
     "base_id": "XBT",
     "quote_id": "EUR",
