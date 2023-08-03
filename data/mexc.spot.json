@@ -9362,6 +9362,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "BITCOIN1_USDT",
+    "base_id": "BITCOIN1",
+    "quote_id": "USDT",
+    "base": "BITCOIN1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "BITWELL_USDT",
     "base_id": "BITWELL",
     "quote_id": "USDT",
@@ -31024,6 +31048,30 @@
     "precision": {
       "tick_size": 1e-16,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "GOS_USDT",
+    "base_id": "GOS",
+    "quote_id": "USDT",
+    "base": "GOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
@@ -56102,7 +56150,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -66950,7 +66998,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
