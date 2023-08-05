@@ -15814,6 +15814,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DMC_USDT",
+    "base_id": "DMC",
+    "quote_id": "USDT",
+    "base": "DMC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DMLG_USDT",
     "base_id": "DMLG",
     "quote_id": "USDT",
@@ -59599,6 +59619,26 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "VTS_USDT",
+    "base_id": "VTS",
+    "quote_id": "USDT",
+    "base": "VTS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
