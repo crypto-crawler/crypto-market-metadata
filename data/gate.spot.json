@@ -56673,6 +56673,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TROSS_USDT",
+    "base_id": "TROSS",
+    "quote_id": "USDT",
+    "base": "TROSS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TROY_ETH",
     "base_id": "TROY",
     "quote_id": "ETH",
