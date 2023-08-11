@@ -2127,7 +2127,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 32000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -2640,7 +2640,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1200000.0
+      "max": 2600000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3801,7 +3801,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 240000.0
+      "max": 280000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -6366,7 +6366,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 450000.0
+      "max": 570000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -7530,6 +7530,33 @@
       "max": 10000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "OXT_USDT",
+    "base_id": "OXT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OXT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 2250.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -9228,7 +9255,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 32000.0
+      "max": 48000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9525,7 +9552,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2400.0
+      "max": 3600.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -9876,7 +9903,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 75000.0
     },
     "contract_value": 10000.0,
     "info": {}
