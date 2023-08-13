@@ -24338,6 +24338,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "EPIKO_USDT",
+    "base_id": "EPIKO",
+    "quote_id": "USDT",
+    "base": "EPIKO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "EPK_USDT",
     "base_id": "EPK",
     "quote_id": "USDT",
