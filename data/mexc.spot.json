@@ -1850,6 +1850,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "AIBUDDY_USDT",
+    "base_id": "AIBUDDY",
+    "quote_id": "USDT",
+    "base": "AIBUDDY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "AICODE_USDT",
     "base_id": "AICODE",
     "quote_id": "USDT",
@@ -58646,12 +58670,12 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
-      "max": 5000000.0
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -61940,6 +61964,30 @@
     "quantity_limit": {
       "min": 5.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "SEILOR_USDT",
+    "base_id": "SEILOR",
+    "quote_id": "USDT",
+    "base": "SEILOR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -75966,6 +76014,30 @@
     "base_id": "WOPT",
     "quote_id": "USDT",
     "base": "WOPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "WPAY_USDT",
+    "base_id": "WPAY",
+    "quote_id": "USDT",
+    "base": "WPAY",
     "quote": "USDT",
     "active": true,
     "margin": false,
