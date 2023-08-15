@@ -1462,6 +1462,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIEPK_USDT",
+    "base_id": "AIEPK",
+    "quote_id": "USDT",
+    "base": "AIEPK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIE_USDT",
     "base_id": "AIE",
     "quote_id": "USDT",
@@ -26301,8 +26321,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.001
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -49607,6 +49627,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SEILOR_USDT",
+    "base_id": "SEILOR",
+    "quote_id": "USDT",
+    "base": "SEILOR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "info": {}
   },
