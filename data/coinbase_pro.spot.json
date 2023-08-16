@@ -677,7 +677,7 @@
     "quote_id": "EUR",
     "base": "ALCX",
     "quote": "EUR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -1138,7 +1138,7 @@
     "quote_id": "USDT",
     "base": "API3",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -3559,7 +3559,7 @@
     "quote_id": "USDT",
     "base": "COVAL",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -5954,7 +5954,7 @@
     "quote_id": "USDT",
     "base": "FOX",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -10504,7 +10504,7 @@
     "quote_id": "USDT",
     "base": "POLY",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -11782,6 +11782,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SEI-USD",
+    "base_id": "SEI",
+    "quote_id": "USD",
+    "base": "SEI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "notional_min": 1.0

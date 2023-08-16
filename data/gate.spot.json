@@ -1402,6 +1402,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIBB_USDT",
+    "base_id": "AIBB",
+    "quote_id": "USDT",
+    "base": "AIBB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AICODE_USDT",
     "base_id": "AICODE",
     "quote_id": "USDT",
@@ -14107,6 +14127,26 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CYBER_USDT",
+    "base_id": "CYBER",
+    "quote_id": "USDT",
+    "base": "CYBER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -49653,6 +49693,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SEI_TRY",
+    "base_id": "SEI",
+    "quote_id": "TRY",
+    "base": "SEI",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SEI_USDT",
+    "base_id": "SEI",
+    "quote_id": "USDT",
+    "base": "SEI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SENATE_USDT",
     "base_id": "SENATE",
     "quote_id": "USDT",
@@ -61557,8 +61637,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
