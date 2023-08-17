@@ -232,6 +232,29 @@
   {
     "exchange": "bitmex",
     "market_type": "linear_swap",
+    "symbol": "CYBERUSDT",
+    "base_id": "CYBER",
+    "quote_id": "USDT",
+    "settle_id": "USDt",
+    "base": "CYBER",
+    "quote": "USDT",
+    "settle": "USDt",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitmex",
+    "market_type": "linear_swap",
     "symbol": "DEFIMEXTUSDT",
     "base_id": "DEFIMEXT",
     "quote_id": "USDT",
