@@ -13174,6 +13174,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CRVUSD_USDT",
+    "base_id": "CRVUSD",
+    "quote_id": "USDT",
+    "base": "CRVUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CRV_BTC",
     "base_id": "CRV",
     "quote_id": "BTC",

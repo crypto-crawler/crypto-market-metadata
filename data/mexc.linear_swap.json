@@ -2937,7 +2937,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 55000.0
+      "max": 68000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3531,7 +3531,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8000.0
+      "max": 13000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4641,6 +4641,33 @@
       "max": 60000.0
     },
     "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "FORTH_USDT",
+    "base_id": "FORTH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FORTH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 7500.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -6204,7 +6231,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60000.0
+      "max": 180000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -8769,7 +8796,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 14000.0
+      "max": 55000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9201,7 +9228,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000000.0
+      "max": 12000000.0
     },
     "contract_value": 0.1,
     "info": {}
