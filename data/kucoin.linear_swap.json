@@ -600,6 +600,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "BAKEUSDTM",
+    "base_id": "BAKE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BAKE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "BALUSDTM",
     "base_id": "BAL",
     "quote_id": "USDT",
@@ -1216,6 +1239,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "CYBERUSDTM",
+    "base_id": "CYBER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CYBER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
