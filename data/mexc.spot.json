@@ -10562,6 +10562,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "BOB2_USDT",
+    "base_id": "BOB2",
+    "quote_id": "USDT",
+    "base": "BOB2",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-16,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "BOBA3L_USDT",
     "base_id": "BOBA3L",
     "quote_id": "USDT",
@@ -30374,7 +30398,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -49480,6 +49504,30 @@
     "precision": {
       "tick_size": 1e-10,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "NGC_USDT",
+    "base_id": "NGC",
+    "quote_id": "USDT",
+    "base": "NGC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
