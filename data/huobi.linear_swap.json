@@ -1175,6 +1175,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "CYBER-USDT",
+    "base_id": "CYBER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CYBER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "DASH-USDT",
     "base_id": "DASH",
     "quote_id": "USDT",

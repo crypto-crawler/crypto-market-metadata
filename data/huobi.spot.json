@@ -32654,7 +32654,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -33212,6 +33212,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 100000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "xfiusdt",
+    "base_id": "xfi",
+    "quote_id": "usdt",
+    "base": "XFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 831117.0
     },
     "info": {}
   },
