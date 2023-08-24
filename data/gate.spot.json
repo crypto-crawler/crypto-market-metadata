@@ -32989,6 +32989,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LPT_TRY",
+    "base_id": "LPT",
+    "quote_id": "TRY",
+    "base": "LPT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LPT_USDT",
     "base_id": "LPT",
     "quote_id": "USDT",
@@ -57727,6 +57747,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TYPE_USDT",
+    "base_id": "TYPE",
+    "quote_id": "USDT",
+    "base": "TYPE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
