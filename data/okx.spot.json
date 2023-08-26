@@ -4493,13 +4493,13 @@
     "base": "DORA",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -5022,7 +5022,7 @@
     "base": "ENJ",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
