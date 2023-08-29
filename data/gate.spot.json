@@ -1602,6 +1602,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AITECH_USDT",
+    "base_id": "AITECH",
+    "quote_id": "USDT",
+    "base": "AITECH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AKITA_USDT",
     "base_id": "AKITA",
     "quote_id": "USDT",
@@ -57427,6 +57447,26 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TSUGT_USDT",
+    "base_id": "TSUGT",
+    "quote_id": "USDT",
+    "base": "TSUGT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },
