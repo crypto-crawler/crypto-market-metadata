@@ -1015,12 +1015,12 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250000.0
+      "max": 470000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -1177,7 +1177,7 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -2235,7 +2235,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 30000.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -3850,7 +3850,7 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4827,7 +4827,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2000000.0
+      "max": 2600000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5362,7 +5362,7 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7724,6 +7724,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "PEPECOMMUNITY_USDT",
+    "base_id": "PEPECOMMUNITY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PEPECOMMUNITY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4200.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "PEPE_USDT",
     "base_id": "PEPE",
     "quote_id": "USDT",
@@ -9871,7 +9898,7 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {

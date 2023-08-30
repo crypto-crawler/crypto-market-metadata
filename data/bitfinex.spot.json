@@ -10274,6 +10274,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tTOMI:USD",
+    "base_id": "TOMI",
+    "quote_id": "USD",
+    "base": "TOMI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 16500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tTOMI:UST",
+    "base_id": "TOMI",
+    "quote_id": "UST",
+    "base": "TOMI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 16500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tTONUSD",
     "base_id": "TON",
     "quote_id": "USD",
