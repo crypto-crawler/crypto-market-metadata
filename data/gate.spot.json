@@ -45564,6 +45564,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PYME_USDT",
+    "base_id": "PYME",
+    "quote_id": "USDT",
+    "base": "PYME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PYM_USDT",
     "base_id": "PYM",
     "quote_id": "USDT",
