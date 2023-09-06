@@ -1425,7 +1425,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500000.0
+      "max": 3000000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -2073,7 +2073,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 380000.0
+      "max": 190000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -2424,7 +2424,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 35000.0
+      "max": 80000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -7130,6 +7130,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "NEXT_USDT",
+    "base_id": "NEXT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEXT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "NFT_USDT",
     "base_id": "NFT",
     "quote_id": "USDT",
@@ -7932,7 +7959,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000.0
+      "max": 20000.0
     },
     "contract_value": 100000.0,
     "info": {}
