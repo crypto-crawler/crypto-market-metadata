@@ -2726,7 +2726,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2847,7 +2847,7 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 5.0,
@@ -15938,6 +15938,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "CLORE_USDT",
+    "base_id": "CLORE",
+    "quote_id": "USDT",
+    "base": "CLORE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "CLOUD_USDT",
     "base_id": "CLOUD",
     "quote_id": "USDT",
@@ -19982,7 +20006,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -32630,7 +32654,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -33206,7 +33230,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -50126,7 +50150,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -63938,6 +63962,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "SHEPE_USDT",
+    "base_id": "SHEPE",
+    "quote_id": "USDT",
+    "base": "SHEPE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "SHFT_USDT",
     "base_id": "SHFT",
     "quote_id": "USDT",
@@ -74919,6 +74967,30 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "VEXT_USDT",
+    "base_id": "VEXT",
+    "quote_id": "USDT",
+    "base": "VEXT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
