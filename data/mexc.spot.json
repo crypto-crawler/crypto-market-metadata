@@ -70754,6 +70754,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "TIM_USDT",
+    "base_id": "TIM",
+    "quote_id": "USDT",
+    "base": "TIM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "TIN_USDT",
     "base_id": "TIN",
     "quote_id": "USDT",
