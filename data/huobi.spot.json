@@ -4970,6 +4970,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "btcpyusd",
+    "base_id": "btc",
+    "quote_id": "pyusd",
+    "base": "BTC",
+    "quote": "PYUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1e-6,
+      "max": 38.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "btcrub",
     "base_id": "btc",
     "quote_id": "rub",
@@ -10508,6 +10532,30 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 5000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "ethpyusd",
+    "base_id": "eth",
+    "quote_id": "pyusd",
+    "base": "ETH",
+    "quote": "PYUSD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 607.0
     },
     "info": {}
   },
