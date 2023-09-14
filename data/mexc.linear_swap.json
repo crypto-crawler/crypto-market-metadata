@@ -3080,6 +3080,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "CLORE_USDT",
+    "base_id": "CLORE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CLORE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3200.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "CLV_USDT",
     "base_id": "CLV",
     "quote_id": "USDT",
@@ -3531,7 +3558,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 37000.0
+      "max": 70000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9201,7 +9228,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3700000.0
+      "max": 7000000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -10659,7 +10686,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 2000000.0
     },
     "contract_value": 1.0,
     "info": {}
