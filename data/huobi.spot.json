@@ -14186,6 +14186,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "hifiusdt",
+    "base_id": "hifi",
+    "quote_id": "usdt",
+    "base": "HIFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "hitbtc",
     "base_id": "hit",
     "quote_id": "btc",
