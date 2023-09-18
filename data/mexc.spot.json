@@ -14402,6 +14402,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "CCN_USDT",
+    "base_id": "CCN",
+    "quote_id": "USDT",
+    "base": "CCN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "CCT_USDC",
     "base_id": "CCT",
     "quote_id": "USDC",
@@ -72764,6 +72788,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "TRUMP2024_USDT",
+    "base_id": "TRUMP2024",
+    "quote_id": "USDT",
+    "base": "TRUMP2024",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
     },
     "info": {}
   },
