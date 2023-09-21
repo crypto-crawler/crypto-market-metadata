@@ -13938,6 +13938,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "VARA-USD",
+    "base_id": "VARA",
+    "quote_id": "USD",
+    "base": "VARA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "VET-USD",
     "base_id": "VET",
     "quote_id": "USD",
