@@ -11666,6 +11666,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "BRAD_USDT",
+    "base_id": "BRAD",
+    "quote_id": "USDT",
+    "base": "BRAD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-16,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "BRDG_USDT",
     "base_id": "BRDG",
     "quote_id": "USDT",
@@ -54626,6 +54650,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "PACOIN_USDT",
+    "base_id": "PACOIN",
+    "quote_id": "USDT",
+    "base": "PACOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "PAC_USDT",
     "base_id": "PAC",
     "quote_id": "USDT",
@@ -81278,7 +81326,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {

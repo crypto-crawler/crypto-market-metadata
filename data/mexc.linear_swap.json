@@ -183,7 +183,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 40000.0
+      "max": 20000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -966,7 +966,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 12000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1317,7 +1317,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 20000.0
+      "max": 9000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -1668,7 +1668,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 110000.0
+      "max": 20000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2316,7 +2316,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6000.0
+      "max": 3700.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3180,7 +3180,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 6000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -3774,7 +3774,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 18000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3882,7 +3882,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45000.0
+      "max": 11000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -4633,7 +4633,7 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7123,6 +7123,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 150000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "MULTI_USDT",
+    "base_id": "MULTI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MULTI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 7000.0
     },
     "contract_value": 1.0,
     "info": {}
