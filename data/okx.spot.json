@@ -7960,6 +7960,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "JPG-USDT",
+    "base_id": "JPG",
+    "quote_id": "USDT",
+    "base": "JPG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "JST-USDC",
     "base_id": "JST",
     "quote_id": "USDC",
