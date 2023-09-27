@@ -32882,6 +32882,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "wsmusdt",
+    "base_id": "wsm",
+    "quote_id": "usdt",
+    "base": "WSM",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 29673590.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "wstusdtusdt",
     "base_id": "wstusdt",
     "quote_id": "usdt",
