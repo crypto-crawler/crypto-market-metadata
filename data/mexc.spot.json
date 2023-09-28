@@ -7994,6 +7994,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "BART2_USDT",
+    "base_id": "BART2",
+    "quote_id": "USDT",
+    "base": "BART2",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-16,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "BARTSIMPSON_USDT",
     "base_id": "BARTSIMPSON",
     "quote_id": "USDT",
@@ -38439,6 +38463,30 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "JPG_USDT",
+    "base_id": "JPG",
+    "quote_id": "USDT",
+    "base": "JPG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {

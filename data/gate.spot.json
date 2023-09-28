@@ -3622,6 +3622,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARCH_USDT",
+    "base_id": "ARCH",
+    "quote_id": "USDT",
+    "base": "ARCH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARCX_ETH",
     "base_id": "ARCX",
     "quote_id": "ETH",
@@ -60337,7 +60357,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "info": {}
