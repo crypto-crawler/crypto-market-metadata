@@ -2003,6 +2003,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "GFTUSDTM",
+    "base_id": "GFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "GLMRUSDTM",
     "base_id": "GLMR",
     "quote_id": "USDT",
@@ -5011,6 +5034,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "XVSUSDTM",
+    "base_id": "XVS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XVS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

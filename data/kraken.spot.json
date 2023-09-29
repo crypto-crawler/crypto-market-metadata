@@ -9961,6 +9961,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "OP/EUR",
+    "base_id": "OP",
+    "quote_id": "ZEUR",
+    "base": "OP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 4.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "OP/USD",
+    "base_id": "OP",
+    "quote_id": "ZUSD",
+    "base": "OP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 4.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ORCA/EUR",
     "base_id": "ORCA",
     "quote_id": "ZEUR",

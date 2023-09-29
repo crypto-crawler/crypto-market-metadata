@@ -1811,6 +1811,33 @@
   {
     "exchange": "bitfinex",
     "market_type": "linear_swap",
+    "symbol": "tWLDF0:USTF0",
+    "base_id": "WLDF0",
+    "quote_id": "USTF0",
+    "settle_id": "USTF0",
+    "base": "WLD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0002,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 50000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "linear_swap",
     "symbol": "tXAGF0:USTF0",
     "base_id": "XAGF0",
     "quote_id": "USTF0",
