@@ -19654,6 +19654,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ETC_TRY",
+    "base_id": "ETC",
+    "quote_id": "TRY",
+    "base": "ETC",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ETC_USDT",
     "base_id": "ETC",
     "quote_id": "USDT",
@@ -61045,6 +61065,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "VRA_TRY",
+    "base_id": "VRA",
+    "quote_id": "TRY",
+    "base": "VRA",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VRA_USDT",
     "base_id": "VRA",
     "quote_id": "USDT",
@@ -61058,7 +61098,7 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.001
+      "lot_size": 0.1
     },
     "info": {}
   },
