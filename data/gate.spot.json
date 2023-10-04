@@ -9302,6 +9302,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BSV_TRY",
+    "base_id": "BSV",
+    "quote_id": "TRY",
+    "base": "BSV",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BSV_USDT",
     "base_id": "BSV",
     "quote_id": "USDT",
