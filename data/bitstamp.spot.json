@@ -2842,6 +2842,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "pyusdeur",
+    "base_id": "PYUSD",
+    "quote_id": "EUR",
+    "base": "PYUSD",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "pyusdusd",
     "base_id": "PYUSD",
     "quote_id": "USD",
