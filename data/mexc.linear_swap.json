@@ -920,6 +920,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ALPACA_USDT",
+    "base_id": "ALPACA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ALPACA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 12000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ALPHA_USDT",
     "base_id": "ALPHA",
     "quote_id": "USDT",
@@ -5181,6 +5208,33 @@
       "max": 36000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "GRIMACE_USDT",
+    "base_id": "GRIMACE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GRIMACE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1800.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
