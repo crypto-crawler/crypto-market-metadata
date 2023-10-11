@@ -7479,6 +7479,33 @@
     "info": {}
   },
   {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "NTRN_USDT",
+    "base_id": "NTRN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NTRN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4800.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
     "exchange": "mxc",
     "market_type": "linear_swap",
     "symbol": "NU_USDT",
@@ -9749,6 +9776,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "STRAX_USDT",
+    "base_id": "STRAX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STRAX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 12000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "STX_USDT",
     "base_id": "STX",
     "quote_id": "USDT",
@@ -10120,6 +10174,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 100000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "TOMI_USDT",
+    "base_id": "TOMI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TOMI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 9000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -10848,7 +10929,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000.0
+      "max": 43000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11037,7 +11118,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6600.0
+      "max": 13000.0
     },
     "contract_value": 100.0,
     "info": {}

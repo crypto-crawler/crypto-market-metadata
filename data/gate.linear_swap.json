@@ -43,7 +43,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.01,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -178,7 +178,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.00005,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -610,7 +610,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -1042,7 +1042,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -2203,7 +2203,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.05,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2878,7 +2878,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -2905,7 +2905,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -3040,7 +3040,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.01,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -3418,7 +3418,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.00005,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -4120,7 +4120,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.0005,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4876,7 +4876,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.01,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -5065,7 +5065,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -5551,7 +5551,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -6038,6 +6038,33 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "NEO_USDT",
+    "base_id": "NEO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -6793,7 +6820,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-10,
       "lot_size": 10000000.0
     },
     "quantity_limit": {
@@ -7279,7 +7306,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7711,7 +7738,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -8305,7 +8332,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.005,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -9088,7 +9115,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
