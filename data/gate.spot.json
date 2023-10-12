@@ -47393,6 +47393,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RAFT_USDT",
+    "base_id": "RAFT",
+    "quote_id": "USDT",
+    "base": "RAFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RAGE_USDT",
     "base_id": "RAGE",
     "quote_id": "USDT",
