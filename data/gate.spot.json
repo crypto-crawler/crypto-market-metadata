@@ -60485,6 +60485,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "VC_USDT",
+    "base_id": "VC",
+    "quote_id": "USDT",
+    "base": "VC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VDR_USDT",
     "base_id": "VDR",
     "quote_id": "USDT",
