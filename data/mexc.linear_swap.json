@@ -2351,6 +2351,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "BOND_USDT",
+    "base_id": "BOND",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BOND",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1800.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BONE_USDT",
     "base_id": "BONE",
     "quote_id": "USDT",
@@ -10173,7 +10200,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5200.0
+      "max": 7000.0
     },
     "contract_value": 10000.0,
     "info": {}

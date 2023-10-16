@@ -1595,6 +1595,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BOND_USDT",
+    "base_id": "BOND",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BOND",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BONK_USDT",
     "base_id": "BONK",
     "quote_id": "USDT",
