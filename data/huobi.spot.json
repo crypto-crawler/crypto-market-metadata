@@ -4346,6 +4346,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "borgusdt",
+    "base_id": "borg",
+    "quote_id": "usdt",
+    "base": "BORG",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 6082725.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "boringbtc",
     "base_id": "boring",
     "quote_id": "btc",
@@ -27644,6 +27668,30 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 52110.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "ssxusdt",
+    "base_id": "ssx",
+    "quote_id": "usdt",
+    "base": "SSX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 55780599.0
     },
     "info": {}
   },
