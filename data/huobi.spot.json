@@ -5858,6 +5858,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "cgptusdt",
+    "base_id": "cgpt",
+    "quote_id": "usdt",
+    "base": "CGPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 23046784.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "chadusdt",
     "base_id": "chad",
     "quote_id": "usdt",
