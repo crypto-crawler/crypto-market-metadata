@@ -1371,7 +1371,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 12000.0
+      "max": 15000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9803,6 +9803,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "STEEM_USDT",
+    "base_id": "STEEM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STEEM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6800.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "STEPN_USDT",
     "base_id": "STEPN",
     "quote_id": "USDT",
@@ -10497,7 +10524,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3600.0
+      "max": 5400.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -11901,7 +11928,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5500.0
+      "max": 18000.0
     },
     "contract_value": 100.0,
     "info": {}
