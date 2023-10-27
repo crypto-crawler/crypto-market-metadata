@@ -13641,6 +13641,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SPURS-USDT",
+    "base_id": "SPURS",
+    "quote_id": "USDT",
+    "base": "SPURS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SRM-BTC",
     "base_id": "SRM",
     "quote_id": "BTC",
