@@ -20829,6 +20829,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FDUSD_TRY",
+    "base_id": "FDUSD",
+    "quote_id": "TRY",
+    "base": "FDUSD",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FDUSD_USDT",
+    "base_id": "FDUSD",
+    "quote_id": "USDT",
+    "base": "FDUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FEAR_ETH",
     "base_id": "FEAR",
     "quote_id": "ETH",
