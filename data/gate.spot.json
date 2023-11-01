@@ -57813,6 +57813,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TIA_TRY",
+    "base_id": "TIA",
+    "quote_id": "TRY",
+    "base": "TIA",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TIA_USDT",
+    "base_id": "TIA",
+    "quote_id": "USDT",
+    "base": "TIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TIDAL_ETH",
     "base_id": "TIDAL",
     "quote_id": "ETH",

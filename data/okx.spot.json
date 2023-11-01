@@ -14607,6 +14607,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "TIA-USDT",
+    "base_id": "TIA",
+    "quote_id": "USDT",
+    "base": "TIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "TMTG-USDT",
     "base_id": "TMTG",
     "quote_id": "USDT",
