@@ -22929,6 +22929,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FTN_USDT",
+    "base_id": "FTN",
+    "quote_id": "USDT",
+    "base": "FTN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FTRB_USDT",
     "base_id": "FTRB",
     "quote_id": "USDT",
@@ -31103,6 +31123,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KNFT_USDT",
+    "base_id": "KNFT",
+    "quote_id": "USDT",
+    "base": "KNFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -57845,8 +57885,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.01
+      "tick_size": 0.001,
+      "lot_size": 0.0001
     },
     "info": {}
   },
