@@ -10130,6 +10130,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "BITS_USDT",
+    "base_id": "BITS",
+    "quote_id": "USDT",
+    "base": "BITS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "BITWELL_USDT",
     "base_id": "BITWELL",
     "quote_id": "USDT",
@@ -47606,12 +47630,12 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
-      "lot_size": 1.0
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
-      "max": 5000000.0
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -74698,8 +74722,8 @@
     "active": true,
     "margin": false,
     "fees": {
-      "maker": 0.002,
-      "taker": 0.002
+      "maker": 0.0,
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.00001,
@@ -74707,7 +74731,7 @@
     },
     "quantity_limit": {
       "min": 5.0,
-      "max": 5000000.0
+      "max": 2000000.0
     },
     "info": {}
   },
