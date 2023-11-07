@@ -10734,6 +10734,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CAKE_TRY",
+    "base_id": "CAKE",
+    "quote_id": "TRY",
+    "base": "CAKE",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CAKE_USDT",
     "base_id": "CAKE",
     "quote_id": "USDT",
@@ -10746,8 +10766,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.001
+      "tick_size": 0.001,
+      "lot_size": 0.0001
     },
     "info": {}
   },
@@ -58487,6 +58507,26 @@
     "precision": {
       "tick_size": 1e-12,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TOKEN_USDT",
+    "base_id": "TOKEN",
+    "quote_id": "USDT",
+    "base": "TOKEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
