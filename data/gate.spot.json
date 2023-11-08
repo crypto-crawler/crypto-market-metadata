@@ -1014,8 +1014,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -1586,6 +1586,26 @@
     "base_id": "AIR",
     "quote_id": "USDT",
     "base": "AIR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "AIS_USDT",
+    "base_id": "AIS",
+    "quote_id": "USDT",
+    "base": "AIS",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -4502,6 +4522,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ASTR_TRY",
+    "base_id": "ASTR",
+    "quote_id": "TRY",
+    "base": "ASTR",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ASTR_USDT",
     "base_id": "ASTR",
     "quote_id": "USDT",
@@ -4514,8 +4554,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.1
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -24889,6 +24929,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GMT_TRY",
+    "base_id": "GMT",
+    "quote_id": "TRY",
+    "base": "GMT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GMT_USDT",
     "base_id": "GMT",
     "quote_id": "USDT",
@@ -24901,8 +24961,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.001
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -62757,8 +62817,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.001
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "info": {}
   },
@@ -64117,8 +64177,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.01
+      "tick_size": 1e-7,
+      "lot_size": 1.0
     },
     "info": {}
   },
