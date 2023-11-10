@@ -51053,6 +51053,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SATS_USDT",
+    "base_id": "SATS",
+    "quote_id": "USDT",
+    "base": "SATS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SAUBER_USDT",
     "base_id": "SAUBER",
     "quote_id": "USDT",
@@ -57185,7 +57205,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "info": {}
@@ -66759,6 +66779,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZBU_USDT",
+    "base_id": "ZBU",
+    "quote_id": "USDT",
+    "base": "ZBU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
     },
     "info": {}
   },

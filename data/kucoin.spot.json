@@ -686,8 +686,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -19650,7 +19650,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.001,
+      "min": 0.01,
       "max": 10000000000.0
     },
     "info": {}
@@ -21762,7 +21762,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -26966,7 +26966,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -29300,6 +29300,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 99999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SATS-USDT",
+    "base_id": "SATS",
+    "quote_id": "USDT",
+    "base": "SATS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1000000.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -35750,8 +35774,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -38342,8 +38366,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.01,
