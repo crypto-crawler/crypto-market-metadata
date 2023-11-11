@@ -1458,7 +1458,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.01,
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -10386,7 +10386,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.01,
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -17106,7 +17106,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.001,
+      "min": 0.01,
       "max": 10000000000.0
     },
     "info": {}
@@ -20994,7 +20994,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 10000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -21018,7 +21018,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 10000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -25628,6 +25628,54 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ORDIDOWN-USDT",
+    "base_id": "ORDIDOWN",
+    "quote_id": "USDT",
+    "base": "ORDIDOWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ORDIUP-USDT",
+    "base_id": "ORDIUP",
+    "quote_id": "USDT",
+    "base": "ORDIUP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 999999999999.0
     },
     "info": {}
   },
@@ -31482,7 +31530,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -31674,7 +31722,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -38826,7 +38874,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
