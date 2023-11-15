@@ -10298,6 +10298,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tTIAUSD",
+    "base_id": "TIA",
+    "quote_id": "USD",
+    "base": "TIA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tTIAUST",
+    "base_id": "TIA",
+    "quote_id": "UST",
+    "base": "TIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tTLOS:USD",
     "base_id": "TLOS",
     "quote_id": "USD",
