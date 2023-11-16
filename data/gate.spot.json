@@ -4742,6 +4742,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ATEM_USDT",
+    "base_id": "ATEM",
+    "quote_id": "USDT",
+    "base": "ATEM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ATK_ETH",
     "base_id": "ATK",
     "quote_id": "ETH",
@@ -32289,6 +32309,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LAVASWAP_USDT",
+    "base_id": "LAVASWAP",
+    "quote_id": "USDT",
+    "base": "LAVASWAP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LAVA_ETH",
     "base_id": "LAVA",
     "quote_id": "ETH",
@@ -48487,6 +48527,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "RATS_USDT",
+    "base_id": "RATS",
+    "quote_id": "USDT",
+    "base": "RATS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "info": {}
   },
