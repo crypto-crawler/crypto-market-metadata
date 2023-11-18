@@ -3626,6 +3626,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "beamxusdt",
+    "base_id": "beamx",
+    "quote_id": "usdt",
+    "base": "BEAMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 137155397.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "benjiusdt",
     "base_id": "benji",
     "quote_id": "usdt",
@@ -24962,6 +24986,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "ratsusdt",
+    "base_id": "rats",
+    "quote_id": "usdt",
+    "base": "RATS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 15873015873.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "rcccbtc",
     "base_id": "rccc",
     "quote_id": "btc",
@@ -26204,6 +26252,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 45808520.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "satsusdt",
+    "base_id": "sats",
+    "quote_id": "usdt",
+    "base": "SATS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 7000000000000.0
     },
     "info": {}
   },
