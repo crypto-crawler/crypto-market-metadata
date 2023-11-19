@@ -66122,6 +66122,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "SAI_USDT",
+    "base_id": "SAI",
+    "quote_id": "USDT",
+    "base": "SAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "SAKAI_USDT",
     "base_id": "SAKAI",
     "quote_id": "USDT",
@@ -81638,7 +81662,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -83080,6 +83104,30 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "XAI1_USDT",
+    "base_id": "XAI1",
+    "quote_id": "USDT",
+    "base": "XAI1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-15,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
