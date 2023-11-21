@@ -12215,6 +12215,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PYTH-USDT",
+    "base_id": "PYTH",
+    "quote_id": "USDT",
+    "base": "PYTH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "QOM-USDT",
     "base_id": "QOM",
     "quote_id": "USDT",
