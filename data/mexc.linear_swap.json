@@ -1663,12 +1663,12 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6000.0
+      "max": 30000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5386,7 +5386,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0001
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.0001,
@@ -5394,7 +5394,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500000.0
+      "max": 180000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6504,6 +6504,33 @@
       "max": 3800000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "KOIN_USDT",
+    "base_id": "KOIN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KOIN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 8600.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -8796,7 +8823,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6250.0
+      "max": 32000.0
     },
     "contract_value": 10.0,
     "info": {}
