@@ -232,7 +232,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -426,9 +426,36 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 60000.0
     },
     "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "1000RATS_USDT",
+    "base_id": "1000RATS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1000RATS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -5394,7 +5421,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 180000.0
+      "max": 400000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6528,7 +6555,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8600.0
+      "max": 25000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9517,7 +9544,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0001
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 1e-6,
@@ -9525,7 +9552,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 13500000.0
+      "max": 11500000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9741,7 +9768,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4000000.0
+      "max": 10000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -11445,6 +11472,33 @@
       "max": 500000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "VRTX_USDT",
+    "base_id": "VRTX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VRTX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 18000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
