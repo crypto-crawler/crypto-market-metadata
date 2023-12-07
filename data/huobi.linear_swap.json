@@ -2089,7 +2089,7 @@
       "tick_size": 0.0001,
       "lot_size": 1.0
     },
-    "contract_value": 10.0,
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -3705,6 +3705,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "STX-USDT",
+    "base_id": "STX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "SUI-USDT",
     "base_id": "SUI",
     "quote_id": "USDT",
@@ -3815,6 +3838,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "TOKEN-USDT",
+    "base_id": "TOKEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TOKEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -4018,7 +4064,7 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 10.0,

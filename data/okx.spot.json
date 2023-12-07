@@ -439,6 +439,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "AGIX-USDT",
+    "base_id": "AGIX",
+    "quote_id": "USDT",
+    "base": "AGIX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AGLD-USDC",
     "base_id": "AGLD",
     "quote_id": "USDC",
@@ -1342,7 +1365,7 @@
     "base": "AUCTION",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -6005,6 +6028,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "FET-USDT",
+    "base_id": "FET",
+    "quote_id": "USDT",
+    "base": "FET",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "FIL-BTC",
     "base_id": "FIL",
     "quote_id": "BTC",
@@ -7908,6 +7954,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "INJ-USDT",
+    "base_id": "INJ",
+    "quote_id": "USDT",
+    "base": "INJ",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -14130,7 +14199,7 @@
     "base": "SSV",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -14291,7 +14360,7 @@
     "base": "STETH",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

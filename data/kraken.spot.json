@@ -10743,6 +10743,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PYTH/EUR",
+    "base_id": "PYTH",
+    "quote_id": "ZEUR",
+    "base": "PYTH",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PYTH/USD",
+    "base_id": "PYTH",
+    "quote_id": "ZUSD",
+    "base": "PYTH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PYUSD/EUR",
     "base_id": "PYUSD",
     "quote_id": "ZEUR",
@@ -12416,6 +12462,29 @@
     },
     "quantity_limit": {
       "min": 2.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SOL/ETH",
+    "base_id": "SOL",
+    "quote_id": "XETH",
+    "base": "SOL",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.2
     },
     "info": {}
   },

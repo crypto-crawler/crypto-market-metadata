@@ -7362,6 +7362,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "JTO-USD",
+    "base_id": "JTO",
+    "quote_id": "USD",
+    "base": "JTO",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "JUP-USD",
     "base_id": "JUP",
     "quote_id": "USD",
@@ -10504,7 +10527,7 @@
     "quote_id": "USD",
     "base": "POLY",
     "quote": "USD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -11013,7 +11036,7 @@
     "quote_id": "USD",
     "base": "QUICK",
     "quote": "USD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,

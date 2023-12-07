@@ -3170,6 +3170,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "bananausdt",
+    "base_id": "banana",
+    "quote_id": "usdt",
+    "base": "BANANA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 59916.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "bandbtc",
     "base_id": "band",
     "quote_id": "btc",
@@ -13490,6 +13514,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "grokusdt",
+    "base_id": "grok",
+    "quote_id": "usdt",
+    "base": "GROK",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 86717483.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "grsbtc",
     "base_id": "grs",
     "quote_id": "btc",
@@ -20462,7 +20510,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -25628,6 +25676,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 8000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "riousdt",
+    "base_id": "rio",
+    "quote_id": "usdt",
+    "base": "RIO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1668123.0
     },
     "info": {}
   },

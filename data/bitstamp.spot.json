@@ -1522,6 +1522,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "eurcveur",
+    "base_id": "EURCV",
+    "quote_id": "EUR",
+    "base": "EURCV",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "eurcvusdt",
+    "base_id": "EURCV",
+    "quote_id": "USDT",
+    "base": "EURCV",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "euroceur",
     "base_id": "EUROC",
     "quote_id": "EUR",
