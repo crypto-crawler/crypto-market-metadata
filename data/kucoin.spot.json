@@ -3050,6 +3050,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AUCTION-USDT",
+    "base_id": "AUCTION",
+    "quote_id": "USDT",
+    "base": "AUCTION",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AUDIO-BTC",
     "base_id": "AUDIO",
     "quote_id": "BTC",
@@ -18050,6 +18074,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "JTO-USDT",
+    "base_id": "JTO",
+    "quote_id": "USDT",
+    "base": "JTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "JUP-ETH",
     "base_id": "JUP",
     "quote_id": "ETH",
@@ -25982,8 +26030,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -26654,8 +26702,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
