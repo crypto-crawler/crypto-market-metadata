@@ -646,6 +646,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "AUCTIONUSDTM",
+    "base_id": "AUCTION",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AUCTION",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "AUDIOUSDTM",
     "base_id": "AUDIO",
     "quote_id": "USDT",
@@ -2803,6 +2826,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "JTOUSDTM",
+    "base_id": "JTO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "JTO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
