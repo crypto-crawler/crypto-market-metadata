@@ -31346,6 +31346,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "FROGE_USDT",
+    "base_id": "FROGE",
+    "quote_id": "USDT",
+    "base": "FROGE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-15,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "FROGGY_USDT",
     "base_id": "FROGGY",
     "quote_id": "USDT",
@@ -56775,6 +56799,30 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "OGGYETH_USDT",
+    "base_id": "OGGYETH",
+    "quote_id": "USDT",
+    "base": "OGGYETH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
