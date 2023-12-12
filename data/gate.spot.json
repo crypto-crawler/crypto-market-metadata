@@ -9002,6 +9002,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BONK_TRY",
+    "base_id": "BONK",
+    "quote_id": "TRY",
+    "base": "BONK",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BONK_USDT",
     "base_id": "BONK",
     "quote_id": "USDT",
@@ -44624,6 +44644,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PACE_USDT",
+    "base_id": "PACE",
+    "quote_id": "USDT",
+    "base": "PACE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PAF_USDT",
     "base_id": "PAF",
     "quote_id": "USDT",
@@ -61927,6 +61967,9 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
