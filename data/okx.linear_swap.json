@@ -1276,6 +1276,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "CTC-USDT-SWAP",
+    "base_id": "CTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "CVC-USDT-SWAP",
     "base_id": "CVC",
     "quote_id": "USDT",
@@ -3058,7 +3084,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4053,6 +4079,32 @@
       "min": 1.0
     },
     "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "TURBO-USDT-SWAP",
+    "base_id": "TURBO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TURBO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10000.0,
     "info": {}
   },
   {
