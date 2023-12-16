@@ -264,7 +264,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3300.0
+      "max": 1600.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -480,7 +480,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 11000.0
+      "max": 3400.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -5159,6 +5159,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "FUN_USDT",
+    "base_id": "FUN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FUN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 2300.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "FXS_USDT",
     "base_id": "FXS",
     "quote_id": "USDT",
@@ -7778,6 +7805,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "MYRIA_USDT",
+    "base_id": "MYRIA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MYRIA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 14000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "NEAR_USDT",
     "base_id": "NEAR",
     "quote_id": "USDT",
@@ -8880,6 +8934,33 @@
       "max": 30000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "PROM_USDT",
+    "base_id": "PROM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PROM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
