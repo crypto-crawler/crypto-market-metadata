@@ -602,6 +602,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ACE1_USDT",
+    "base_id": "ACE1",
+    "quote_id": "USDT",
+    "base": "ACE1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ACE_USDT",
     "base_id": "ACE",
     "quote_id": "USDT",
@@ -9896,6 +9916,26 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BTCS_USDT",
+    "base_id": "BTCS",
+    "quote_id": "USDT",
+    "base": "BTCS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "info": {}
   },
@@ -24061,8 +24101,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.0001
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "info": {}
   },
@@ -24081,8 +24121,8 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 0.001
     },
     "info": {}
   },
