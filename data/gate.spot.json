@@ -1562,6 +1562,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIMX_USDT",
+    "base_id": "AIMX",
+    "quote_id": "USDT",
+    "base": "AIMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIOZ_ETH",
     "base_id": "AIOZ",
     "quote_id": "ETH",
@@ -37858,6 +37878,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MICE_USDT",
+    "base_id": "MICE",
+    "quote_id": "USDT",
+    "base": "MICE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "info": {}
   },
