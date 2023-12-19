@@ -83,6 +83,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ACE_USDT",
+    "base_id": "ACE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ACE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ACH_USDT",
     "base_id": "ACH",
     "quote_id": "USDT",

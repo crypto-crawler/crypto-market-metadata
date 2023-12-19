@@ -8722,6 +8722,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BNSX_USDT",
+    "base_id": "BNSX",
+    "quote_id": "USDT",
+    "base": "BNSX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BNTY_ETH",
     "base_id": "BNTY",
     "quote_id": "ETH",
@@ -53027,6 +53047,26 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SERSH_USDT",
+    "base_id": "SERSH",
+    "quote_id": "USDT",
+    "base": "SERSH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "info": {}
   },
