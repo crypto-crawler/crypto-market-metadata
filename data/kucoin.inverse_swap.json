@@ -48,6 +48,29 @@
   {
     "exchange": "kucoin",
     "market_type": "inverse_swap",
+    "symbol": "SOLUSDM",
+    "base_id": "SOL",
+    "quote_id": "USD",
+    "settle_id": "SOL",
+    "base": "SOL",
+    "quote": "USD",
+    "settle": "SOL",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "inverse_swap",
     "symbol": "XBTUSDM",
     "base_id": "XBT",
     "quote_id": "USD",

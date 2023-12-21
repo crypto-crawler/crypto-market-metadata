@@ -6879,6 +6879,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "JTO/EUR",
+    "base_id": "JTO",
+    "quote_id": "ZEUR",
+    "base": "JTO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "JTO/USD",
+    "base_id": "JTO",
+    "quote_id": "ZUSD",
+    "base": "JTO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "JUNO/EUR",
     "base_id": "JUNO",
     "quote_id": "ZEUR",
@@ -10530,6 +10576,52 @@
     },
     "quantity_limit": {
       "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "POL/EUR",
+    "base_id": "POL",
+    "quote_id": "ZEUR",
+    "base": "POL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 9.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "POL/USD",
+    "base_id": "POL",
+    "quote_id": "ZUSD",
+    "base": "POL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 9.0
     },
     "info": {}
   },
