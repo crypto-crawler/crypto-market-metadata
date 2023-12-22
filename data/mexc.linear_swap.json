@@ -3998,6 +3998,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DATA_USDT",
+    "base_id": "DATA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DATA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "DCERC_USDT",
     "base_id": "DCERC",
     "quote_id": "USDT",
