@@ -2693,6 +2693,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BONK/EUR",
+    "base_id": "BONK",
+    "quote_id": "ZEUR",
+    "base": "BONK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 350000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BONK/USD",
+    "base_id": "BONK",
+    "quote_id": "ZUSD",
+    "base": "BONK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 350000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BRICK/EUR",
     "base_id": "BRICK",
     "quote_id": "ZEUR",

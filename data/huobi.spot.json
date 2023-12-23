@@ -9218,6 +9218,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "doviusdt",
+    "base_id": "dovi",
+    "quote_id": "usdt",
+    "base": "DOVI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 800000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "dtabtc",
     "base_id": "dta",
     "quote_id": "btc",
@@ -27236,6 +27260,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 50000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "sillyusdt",
+    "base_id": "silly",
+    "quote_id": "usdt",
+    "base": "SILLY",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 14008348.0
     },
     "info": {}
   },
