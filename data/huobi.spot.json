@@ -19058,6 +19058,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "mapusdt",
+    "base_id": "map",
+    "quote_id": "usdt",
+    "base": "MAP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 24182317.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "maskusdd",
     "base_id": "mask",
     "quote_id": "usdd",

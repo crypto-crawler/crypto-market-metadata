@@ -1782,6 +1782,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AISWAP_USDT",
+    "base_id": "AISWAP",
+    "quote_id": "USDT",
+    "base": "AISWAP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIS_USDT",
     "base_id": "AIS",
     "quote_id": "USDT",
