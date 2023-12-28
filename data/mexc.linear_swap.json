@@ -1776,7 +1776,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7500.0
+      "max": 5000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1992,7 +1992,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 26000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -2775,7 +2775,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 137000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -7989,6 +7989,33 @@
       "max": 84000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "NFP_USDT",
+    "base_id": "NFP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NFP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 17000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

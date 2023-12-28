@@ -3836,6 +3836,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "FORTH_USDT",
+    "base_id": "FORTH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FORTH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "FRONT_USDT",
     "base_id": "FRONT",
     "quote_id": "USDT",
@@ -6622,6 +6649,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "NEXO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "NFP_USDT",
+    "base_id": "NFP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NFP",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
