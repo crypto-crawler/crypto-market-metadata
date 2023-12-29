@@ -264,7 +264,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 550.0
+      "max": 1600.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -591,6 +591,33 @@
       "max": 40000.0
     },
     "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "1CAT_USDT",
+    "base_id": "1CAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1CAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 14000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -1830,7 +1857,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 42500.0
+      "max": 750000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5178,7 +5205,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 360000.0
+      "max": 2500000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6231,7 +6258,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2400.0
+      "max": 26000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -7905,7 +7932,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 47000.0
+      "max": 650000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9849,7 +9876,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 12000.0
+      "max": 17000.0
     },
     "contract_value": 10000000.0,
     "info": {}
@@ -10038,7 +10065,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18340000.0
+      "max": 180000000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -10068,6 +10095,33 @@
       "max": 100000.0
     },
     "contract_value": 10000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SILLY_USDT",
+    "base_id": "SILLY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SILLY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 15000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -10281,7 +10335,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 17000.0
+      "max": 150000.0
     },
     "contract_value": 0.1,
     "info": {}
