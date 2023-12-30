@@ -18806,12 +18806,12 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.01
+      "tick_size": 1e-11,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
-      "max": 5000000.0
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -19142,7 +19142,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -25082,6 +25082,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "DOVA_USDT",
+    "base_id": "DOVA",
+    "quote_id": "USDT",
+    "base": "DOVA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "DPET_USDT",
     "base_id": "DPET",
     "quote_id": "USDT",
@@ -26348,6 +26372,30 @@
     "quantity_limit": {
       "min": 5.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "ECC_USDT",
+    "base_id": "ECC",
+    "quote_id": "USDT",
+    "base": "ECC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -36207,6 +36255,30 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "GP4U_USDT",
+    "base_id": "GP4U",
+    "quote_id": "USDT",
+    "base": "GP4U",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -53858,6 +53930,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "MOONFT_USDT",
+    "base_id": "MOONFT",
+    "quote_id": "USDT",
+    "base": "MOONFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "MOONSEER_USDT",
     "base_id": "MOONSEER",
     "quote_id": "USDT",
@@ -55934,7 +56030,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-12,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -63830,7 +63926,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -68330,6 +68426,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "REACH_USDT",
+    "base_id": "REACH",
+    "quote_id": "USDT",
+    "base": "REACH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "REAL_USDT",
     "base_id": "REAL",
     "quote_id": "USDT",
@@ -68924,6 +69044,30 @@
     "quantity_limit": {
       "min": 5.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "REX_USDT",
+    "base_id": "REX",
+    "quote_id": "USDT",
+    "base": "REX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -70959,6 +71103,30 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "SAIX_USDT",
+    "base_id": "SAIX",
+    "quote_id": "USDT",
+    "base": "SAIX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -73142,7 +73310,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -77334,6 +77502,30 @@
     "base_id": "STA",
     "quote_id": "USDT",
     "base": "STA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "STBOT_USDT",
+    "base_id": "STBOT",
+    "quote_id": "USDT",
+    "base": "STBOT",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -90842,6 +91034,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "XPET_USDT",
+    "base_id": "XPET",
+    "quote_id": "USDT",
+    "base": "XPET",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "XPLA_USDT",
     "base_id": "XPLA",
     "quote_id": "USDT",
@@ -92654,7 +92870,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.01
     },
     "quantity_limit": {

@@ -7643,6 +7643,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "METIS_USDT",
+    "base_id": "METIS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "METIS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0003
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 2400.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "MINA_USDT",
     "base_id": "MINA",
     "quote_id": "USDT",
