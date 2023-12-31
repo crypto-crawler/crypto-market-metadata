@@ -36098,6 +36098,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "GOON_USDT",
+    "base_id": "GOON",
+    "quote_id": "USDT",
+    "base": "GOON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "GOO_USDT",
     "base_id": "GOO",
     "quote_id": "USDT",
@@ -93494,7 +93518,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
