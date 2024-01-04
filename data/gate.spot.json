@@ -9522,6 +9522,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BRCT_USDT",
+    "base_id": "BRCT",
+    "quote_id": "USDT",
+    "base": "BRCT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BRICK_USDT",
     "base_id": "BRICK",
     "quote_id": "USDT",
@@ -27722,6 +27742,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HER_USDT",
+    "base_id": "HER",
+    "quote_id": "USDT",
+    "base": "HER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "info": {}
