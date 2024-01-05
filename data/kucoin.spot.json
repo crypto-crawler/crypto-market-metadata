@@ -2,6 +2,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "1CAT-USDT",
+    "base_id": "1CAT",
+    "quote_id": "USDT",
+    "base": "1CAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "1EARTH-USDT",
     "base_id": "1EARTH",
     "quote_id": "USDT",
@@ -29107,6 +29131,30 @@
     },
     "quantity_limit": {
       "min": 10000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "RAY-USDT",
+    "base_id": "RAY",
+    "quote_id": "USDT",
+    "base": "RAY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
