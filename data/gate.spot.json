@@ -20966,7 +20966,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "info": {}
@@ -69441,6 +69441,26 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZKF_USDT",
+    "base_id": "ZKF",
+    "quote_id": "USDT",
+    "base": "ZKF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "info": {}
