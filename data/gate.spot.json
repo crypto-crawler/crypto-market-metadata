@@ -7322,6 +7322,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BDIN_USDT",
+    "base_id": "BDIN",
+    "quote_id": "USDT",
+    "base": "BDIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BDP_ETH",
     "base_id": "BDP",
     "quote_id": "ETH",
