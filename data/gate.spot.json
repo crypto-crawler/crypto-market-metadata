@@ -55233,6 +55233,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SMILE_USDT",
+    "base_id": "SMILE",
+    "quote_id": "USDT",
+    "base": "SMILE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SMTY_ETH",
     "base_id": "SMTY",
     "quote_id": "ETH",
