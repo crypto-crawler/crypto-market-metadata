@@ -2246,8 +2246,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.0001
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -5030,8 +5030,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -17438,8 +17438,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -28075,6 +28075,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "PORT3-USDT",
+    "base_id": "PORT3",
+    "quote_id": "USDT",
+    "base": "PORT3",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}

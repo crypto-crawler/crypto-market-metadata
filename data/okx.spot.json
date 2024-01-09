@@ -2371,6 +2371,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BONK-USDT",
+    "base_id": "BONK",
+    "quote_id": "USDT",
+    "base": "BONK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BORA-USDT",
     "base_id": "BORA",
     "quote_id": "USDT",
@@ -8437,6 +8460,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "JTO-USDT",
+    "base_id": "JTO",
+    "quote_id": "USDT",
+    "base": "JTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

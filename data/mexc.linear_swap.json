@@ -1001,6 +1001,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "AI_USDT",
+    "base_id": "AI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 14000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "AKITA_USDT",
     "base_id": "AKITA",
     "quote_id": "USDT",
@@ -1695,7 +1722,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 330000.0
+      "max": 19300.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -4044,7 +4071,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000.0
+      "max": 4900.0
     },
     "contract_value": 100.0,
     "info": {}
