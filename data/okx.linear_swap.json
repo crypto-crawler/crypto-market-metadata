@@ -2004,6 +2004,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "GAL-USDT-SWAP",
+    "base_id": "GAL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GAL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "GALA-USDT-SWAP",
     "base_id": "GALA",
     "quote_id": "USDT",
@@ -3013,6 +3039,32 @@
       "min": 1.0
     },
     "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "MOVR-USDT-SWAP",
+    "base_id": "MOVR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MOVR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
