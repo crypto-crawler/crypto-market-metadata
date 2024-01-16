@@ -30842,6 +30842,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "trollusdt",
+    "base_id": "troll",
+    "quote_id": "usdt",
+    "base": "TROLL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 22476961114857.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "truusdt",
     "base_id": "tru",
     "quote_id": "usdt",
