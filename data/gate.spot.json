@@ -6062,6 +6062,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BABYELON_USDT",
+    "base_id": "BABYELON",
+    "quote_id": "USDT",
+    "base": "BABYELON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-14,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BABYGROK_USDT",
     "base_id": "BABYGROK",
     "quote_id": "USDT",
