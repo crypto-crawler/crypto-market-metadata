@@ -4727,6 +4727,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ICE_USDT",
+    "base_id": "ICE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ICE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ICP_USDT",
     "base_id": "ICP",
     "quote_id": "USDT",
@@ -7162,6 +7189,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "OMG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "ONDO_USDT",
+    "base_id": "ONDO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ONDO",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
@@ -10902,7 +10956,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000000.0
+      "max": 100000000.0
     },
     "contract_value": 1.0,
     "info": {}

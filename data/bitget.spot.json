@@ -2422,6 +2422,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BABYELONUSDT_SPBL",
+    "base_id": "BABYELON",
+    "quote_id": "USDT",
+    "base": "BABYELON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-15,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BABYGROKUSDT_SPBL",
     "base_id": "BABYGROK",
     "quote_id": "USDT",
@@ -20048,6 +20071,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SAROSUSDT_SPBL",
+    "base_id": "SAROS",
+    "quote_id": "USDT",
+    "base": "SAROS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0

@@ -610,7 +610,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7572,8 +7572,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0002,
-      "taker": 0.0006
+      "maker": 0.0001,
+      "taker": 0.0005
     },
     "precision": {
       "tick_size": 0.001,
@@ -7581,7 +7581,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 70000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8016,6 +8016,33 @@
       "max": 18000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "MYRO_USDT",
+    "base_id": "MYRO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MYRO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 8500.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -10222,7 +10249,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
