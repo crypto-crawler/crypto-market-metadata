@@ -3990,7 +3990,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 21500.0
+      "max": 13000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8561,6 +8561,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ONDO_USDT",
+    "base_id": "ONDO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ONDO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0001,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ONE_USDT",
     "base_id": "ONE",
     "quote_id": "USDT",
@@ -8661,7 +8688,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 59000.0
+      "max": 52400.0
     },
     "contract_value": 1.0,
     "info": {}
