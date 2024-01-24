@@ -6002,6 +6002,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tINJUSD",
+    "base_id": "INJ",
+    "quote_id": "USD",
+    "base": "INJ",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1350.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tINJUST",
+    "base_id": "INJ",
+    "quote_id": "UST",
+    "base": "INJ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1350.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tIOTBTC",
     "base_id": "IOT",
     "quote_id": "BTC",
@@ -6836,6 +6884,54 @@
     "quantity_limit": {
       "min": 0.6,
       "max": 50000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tLIFIII:USD",
+    "base_id": "LIFIII",
+    "quote_id": "USD",
+    "base": "LIF3",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 800000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tLIFIII:UST",
+    "base_id": "LIFIII",
+    "quote_id": "UST",
+    "base": "LIF3",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 800000.0
     },
     "info": {}
   },
