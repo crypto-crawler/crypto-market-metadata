@@ -15770,6 +15770,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GTAI-USDT",
+    "base_id": "GTAI",
+    "quote_id": "USDT",
+    "base": "GTAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GTC-BTC",
     "base_id": "GTC",
     "quote_id": "BTC",
@@ -18651,7 +18675,7 @@
     "exchange": "kucoin",
     "market_type": "spot",
     "symbol": "KAGI-USDT",
-    "base_id": "KAGI",
+    "base_id": "kAGI",
     "quote_id": "USDT",
     "base": "KAGI",
     "quote": "USDT",
@@ -18735,6 +18759,30 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "KALT-USDT",
+    "base_id": "kALT",
+    "quote_id": "USDT",
+    "base": "KALT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {

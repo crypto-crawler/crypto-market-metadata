@@ -2762,6 +2762,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ALT_TRY",
+    "base_id": "ALT",
+    "quote_id": "TRY",
+    "base": "ALT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ALT_USDT",
+    "base_id": "ALT",
+    "quote_id": "USDT",
+    "base": "ALT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ALU_ETH",
     "base_id": "ALU",
     "quote_id": "ETH",
@@ -23381,7 +23421,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.001
     },
     "info": {}
@@ -27062,6 +27102,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GTAI_USDT",
+    "base_id": "GTAI",
+    "quote_id": "USDT",
+    "base": "GTAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}
@@ -69962,6 +70022,26 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZKB_USDT",
+    "base_id": "ZKB",
+    "quote_id": "USDT",
+    "base": "ZKB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
     },
     "info": {}
   },
