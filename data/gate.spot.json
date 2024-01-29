@@ -34369,6 +34369,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LIGO_USDT",
+    "base_id": "LIGO",
+    "quote_id": "USDT",
+    "base": "LIGO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LIKE_ETH",
     "base_id": "LIKE",
     "quote_id": "ETH",
