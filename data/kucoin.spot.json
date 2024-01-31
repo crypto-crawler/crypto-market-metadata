@@ -914,6 +914,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AFG-USDT",
+    "base_id": "AFG",
+    "quote_id": "USDT",
+    "base": "AFG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AFK-USDC",
     "base_id": "AFK",
     "quote_id": "USDC",
@@ -10023,6 +10047,30 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "DMAIL-USDT",
+    "base_id": "DMAIL",
+    "quote_id": "USDT",
+    "base": "DMAIL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -22718,7 +22766,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -38539,6 +38587,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "WEN-USDT",
+    "base_id": "WEN",
+    "quote_id": "USDT",
+    "base": "WEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}

@@ -12571,7 +12571,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 1500000.0
+      "max": 10000000.0
     },
     "info": {}
   },
@@ -12595,7 +12595,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 1500000.0
+      "max": 10000000.0
     },
     "info": {}
   },
@@ -12836,6 +12836,54 @@
     "quantity_limit": {
       "min": 0.02,
       "max": 20000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tZETA:USD",
+    "base_id": "ZETA",
+    "quote_id": "USD",
+    "base": "ZETA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 350000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tZETA:UST",
+    "base_id": "ZETA",
+    "quote_id": "UST",
+    "base": "ZETA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 350000.0
     },
     "info": {}
   },
