@@ -1178,6 +1178,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "aitechusdt",
+    "base_id": "aitech",
+    "quote_id": "usdt",
+    "base": "AITECH",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 17528483.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "aiusdt",
     "base_id": "ai",
     "quote_id": "usdt",
@@ -1262,7 +1286,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -16676,6 +16700,30 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 333544.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "jupusdt",
+    "base_id": "jup",
+    "quote_id": "usdt",
+    "base": "JUP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000000.0
     },
     "info": {}
   },
