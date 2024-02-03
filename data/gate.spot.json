@@ -16666,7 +16666,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-11,
       "lot_size": 1.0
     },
     "info": {}
@@ -29114,6 +29114,26 @@
     "quote_id": "HT",
     "base": "HTX",
     "quote": "HT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HTX_USDT",
+    "base_id": "HTX",
+    "quote_id": "USDT",
+    "base": "HTX",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {
@@ -47224,6 +47244,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PIVX_TRY",
+    "base_id": "PIVX",
+    "quote_id": "TRY",
+    "base": "PIVX",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PIVX_USDT",
+    "base_id": "PIVX",
+    "quote_id": "USDT",
+    "base": "PIVX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PIXEL_USDT",
     "base_id": "PIXEL",
     "quote_id": "USDT",
@@ -48268,6 +48328,26 @@
     "base_id": "POP",
     "quote_id": "USDT",
     "base": "POP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PORK_USDT",
+    "base_id": "PORK",
+    "quote_id": "USDT",
+    "base": "PORK",
     "quote": "USDT",
     "active": true,
     "margin": false,

@@ -1877,6 +1877,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ASMUSDT_SPBL",
+    "base_id": "ASM",
+    "quote_id": "USDT",
+    "base": "ASM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ASRUSDT_SPBL",
     "base_id": "ASR",
     "quote_id": "USDT",
@@ -16311,7 +16334,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -25272,6 +25295,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "VRUSDT_SPBL",
+    "base_id": "VR",
+    "quote_id": "USDT",
+    "base": "VR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "VSCUSDT_SPBL",
     "base_id": "VSC",
     "quote_id": "USDT",
@@ -26579,7 +26625,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {

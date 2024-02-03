@@ -4994,6 +4994,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BMX-USDT",
+    "base_id": "BMX",
+    "quote_id": "USDT",
+    "base": "BMX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BNB-BTC",
     "base_id": "BNB",
     "quote_id": "BTC",
@@ -13338,7 +13362,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -18614,8 +18638,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.0001
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -18728,7 +18752,7 @@
     "base": "JUP",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -20630,8 +20654,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -22520,7 +22544,7 @@
     "base": "MANTA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -33710,8 +33734,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
