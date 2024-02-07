@@ -3506,6 +3506,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tDYMUSD",
+    "base_id": "DYM",
+    "quote_id": "USD",
+    "base": "DYM",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 11000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tDYMUST",
+    "base_id": "DYM",
+    "quote_id": "UST",
+    "base": "DYM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 11000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tEDOBTC",
     "base_id": "EDO",
     "quote_id": "BTC",
@@ -5108,6 +5156,54 @@
     "quantity_limit": {
       "min": 2.0,
       "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tGMMT:USD",
+    "base_id": "GMMT",
+    "quote_id": "USD",
+    "base": "GMMT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tGMMT:UST",
+    "base_id": "GMMT",
+    "quote_id": "UST",
+    "base": "GMMT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
     },
     "info": {}
   },
@@ -10890,7 +10986,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 28.0,
+      "min": 3.0,
       "max": 2500000.0
     },
     "info": {}
@@ -10914,7 +11010,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 28.0,
+      "min": 3.0,
       "max": 2500000.0
     },
     "info": {}
@@ -11852,6 +11948,54 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 12500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tWIFUSD",
+    "base_id": "WIF",
+    "quote_id": "USD",
+    "base": "WIF",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tWIFUST",
+    "base_id": "WIF",
+    "quote_id": "UST",
+    "base": "WIF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000.0
     },
     "info": {}
   },

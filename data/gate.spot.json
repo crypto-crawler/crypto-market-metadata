@@ -19314,6 +19314,46 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DYM_TRY",
+    "base_id": "DYM",
+    "quote_id": "TRY",
+    "base": "DYM",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DYM_USDT",
+    "base_id": "DYM",
+    "quote_id": "USDT",
+    "base": "DYM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DYP_ETH",
     "base_id": "DYP",
     "quote_id": "ETH",
@@ -37677,6 +37717,26 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MAVIA_USDT",
+    "base_id": "MAVIA",
+    "quote_id": "USDT",
+    "base": "MAVIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "info": {}

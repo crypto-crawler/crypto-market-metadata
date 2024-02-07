@@ -4538,6 +4538,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DYM_USDT",
+    "base_id": "DYM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DYM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4200.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "DZOO_USDT",
     "base_id": "DZOO",
     "quote_id": "USDT",
@@ -11793,7 +11820,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 32000.0
+      "max": 19000.0
     },
     "contract_value": 10000.0,
     "info": {}
