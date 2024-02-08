@@ -24722,6 +24722,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "NAVX-USDT",
+    "base_id": "NAVX",
+    "quote_id": "USDT",
+    "base": "NAVX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "NDAU-USDT",
     "base_id": "NDAU",
     "quote_id": "USDT",
@@ -25003,6 +25027,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "NETVR-USDT",
+    "base_id": "NETVR",
+    "quote_id": "USDT",
+    "base": "NETVR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -37160,7 +37208,7 @@
     "base": "USDD",
     "quote": "USDC",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -37184,7 +37232,7 @@
     "base": "USDD",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
