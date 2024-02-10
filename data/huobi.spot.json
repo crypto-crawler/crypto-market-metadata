@@ -18290,6 +18290,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "lmwrusdt",
+    "base_id": "lmwr",
+    "quote_id": "usdt",
+    "base": "LMWR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 2502502.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "lnbtc",
     "base_id": "ln",
     "quote_id": "btc",
@@ -33956,6 +33980,30 @@
     "quantity_limit": {
       "min": 0.0001,
       "max": 38461.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "whalesusdt",
+    "base_id": "whales",
+    "quote_id": "usdt",
+    "base": "WHALES",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1294883.0
     },
     "info": {}
   },
