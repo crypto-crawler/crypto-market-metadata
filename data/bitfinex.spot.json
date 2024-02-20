@@ -10394,6 +10394,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tSTRK:USD",
+    "base_id": "STRK",
+    "quote_id": "USD",
+    "base": "STRK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 30000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSTRK:UST",
+    "base_id": "STRK",
+    "quote_id": "UST",
+    "base": "STRK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 30000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tSUIUSD",
     "base_id": "SUI",
     "quote_id": "USD",

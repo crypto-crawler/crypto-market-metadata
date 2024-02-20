@@ -2883,7 +2883,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7700.0
+      "max": 5500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9066,7 +9066,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 148000.0
+      "max": 55000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -9147,7 +9147,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 386000.0
+      "max": 300000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9177,6 +9177,33 @@
       "max": 100000.0
     },
     "contract_value": 1000000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "PIXEL_USDT",
+    "base_id": "PIXEL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PIXEL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -12309,6 +12336,33 @@
       "max": 36000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "VTHO_USDT",
+    "base_id": "VTHO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VTHO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3500.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {
