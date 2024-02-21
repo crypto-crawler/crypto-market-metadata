@@ -13181,6 +13181,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "STRK/EUR",
+    "base_id": "STRK",
+    "quote_id": "ZEUR",
+    "base": "STRK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "STRK/USD",
+    "base_id": "STRK",
+    "quote_id": "ZUSD",
+    "base": "STRK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "STX/EUR",
     "base_id": "STX",
     "quote_id": "ZEUR",

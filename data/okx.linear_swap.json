@@ -3382,6 +3382,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "OM-USDT-SWAP",
+    "base_id": "OM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "OMG-USDT-SWAP",
     "base_id": "OMG",
     "quote_id": "USDT",
@@ -3403,6 +3429,32 @@
       "min": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ONE-USDT-SWAP",
+    "base_id": "ONE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ONE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -4157,6 +4209,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "STRK-USDT-SWAP",
+    "base_id": "STRK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STRK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
