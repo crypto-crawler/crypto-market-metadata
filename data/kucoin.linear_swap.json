@@ -3613,6 +3613,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "MAVIAUSDTM",
+    "base_id": "MAVIA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MAVIA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "MAVUSDTM",
     "base_id": "MAV",
     "quote_id": "USDT",

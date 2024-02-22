@@ -9157,6 +9157,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "MOBILE-USD",
+    "base_id": "MOBILE",
+    "quote_id": "USD",
+    "base": "MOBILE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "MONA-USD",
     "base_id": "MONA",
     "quote_id": "USD",
@@ -12726,6 +12749,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "STRK-USD",
+    "base_id": "STRK",
+    "quote_id": "USD",
+    "base": "STRK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
