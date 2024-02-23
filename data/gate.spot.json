@@ -28569,6 +28569,26 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HGPT_USDT",
+    "base_id": "HGPT",
+    "quote_id": "USDT",
+    "base": "HGPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HIBIKI_USDT",
     "base_id": "HIBIKI",
     "quote_id": "USDT",
@@ -59506,6 +59526,26 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "STX_TRY",
+    "base_id": "STX",
+    "quote_id": "TRY",
+    "base": "STX",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
       "lot_size": 0.001
     },
     "info": {}

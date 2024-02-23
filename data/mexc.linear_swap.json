@@ -7994,6 +7994,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "MOBILE_USDT",
+    "base_id": "MOBILE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MOBILE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4500.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "MONG_USDT",
     "base_id": "MONG",
     "quote_id": "USDT",
