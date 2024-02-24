@@ -8035,7 +8035,7 @@
     "base": "ICX",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -13963,6 +13963,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SLN-USDT",
+    "base_id": "SLN",
+    "quote_id": "USDT",
+    "base": "SLN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SLP-USDC",
     "base_id": "SLP",
     "quote_id": "USDC",
@@ -15119,7 +15142,7 @@
     "base": "T",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
