@@ -18658,6 +18658,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DECHAT_USDT",
+    "base_id": "DECHAT",
+    "quote_id": "USDT",
+    "base": "DECHAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DEFILAND_ETH",
     "base_id": "DEFILAND",
     "quote_id": "ETH",
@@ -45652,6 +45675,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MOBILE_USDT",
+    "base_id": "MOBILE",
+    "quote_id": "USDT",
+    "base": "MOBILE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MOBI_BTC",
     "base_id": "MOBI",
     "quote_id": "BTC",
@@ -68922,6 +68968,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SYNO_USDT",
+    "base_id": "SYNO",
+    "quote_id": "USDT",
+    "base": "SYNO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

@@ -9506,6 +9506,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "DECHAT-USDT",
+    "base_id": "DECHAT",
+    "quote_id": "USDT",
+    "base": "DECHAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DEFI-USDT",
     "base_id": "DEFI",
     "quote_id": "USDT",
@@ -31268,6 +31292,30 @@
     "quantity_limit": {
       "min": 1000000.0,
       "max": 100000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SAVM-USDT",
+    "base_id": "SAVM",
+    "quote_id": "USDT",
+    "base": "SAVM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
     },
     "info": {}
   },

@@ -1969,6 +1969,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ASTOUSDT_SPBL",
+    "base_id": "ASTO",
+    "quote_id": "USDT",
+    "base": "ASTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ASTRUSDT_SPBL",
     "base_id": "ASTR",
     "quote_id": "USDT",
@@ -12118,10 +12141,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.0
     },
     "info": {}
   },
