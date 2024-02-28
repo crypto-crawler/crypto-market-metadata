@@ -245,6 +245,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "AGI_USDT",
+    "base_id": "AGI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AGI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "AGLD_USDT",
     "base_id": "AGLD",
     "quote_id": "USDT",
@@ -7670,6 +7697,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ORN_USDT",
+    "base_id": "ORN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ORN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "OXT_USDT",
     "base_id": "OXT",
     "quote_id": "USDT",
@@ -7945,6 +7999,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "PIXEL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "PNG_USDT",
+    "base_id": "PNG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PNG",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
