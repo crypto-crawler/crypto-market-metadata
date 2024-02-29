@@ -48,6 +48,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "$GPTUSDT_SPBL",
+    "base_id": "$GPT",
+    "quote_id": "USDT",
+    "base": "$GPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "$REKTUSDT_SPBL",
     "base_id": "$REKT",
     "quote_id": "USDT",
@@ -3022,6 +3045,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "BBLUSDT_SPBL",
+    "base_id": "BBL",
+    "quote_id": "USDT",
+    "base": "BBL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
@@ -11691,6 +11737,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "ICEUSDT_SPBL",
+    "base_id": "ICE",
+    "quote_id": "USDT",
+    "base": "ICE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0

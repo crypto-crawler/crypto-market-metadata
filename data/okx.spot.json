@@ -7500,6 +7500,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "GPT-USDT",
+    "base_id": "GPT",
+    "quote_id": "USDT",
+    "base": "GPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "GRT-BTC",
     "base_id": "GRT",
     "quote_id": "BTC",

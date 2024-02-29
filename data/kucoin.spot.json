@@ -4226,6 +4226,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BBL-USDT",
+    "base_id": "BBL",
+    "quote_id": "USDT",
+    "base": "BBL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BCD-BTC",
     "base_id": "BCD",
     "quote_id": "BTC",
@@ -17594,6 +17618,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ICE-USDT",
+    "base_id": "ICE",
+    "quote_id": "USDT",
+    "base": "ICE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ICP-BTC",
     "base_id": "ICP",
     "quote_id": "BTC",
@@ -25184,7 +25232,7 @@
     "base": "NFT",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -34160,7 +34208,7 @@
     "base": "SUN",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
