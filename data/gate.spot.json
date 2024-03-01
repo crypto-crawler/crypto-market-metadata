@@ -55576,6 +55576,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PORTAL_USDT",
+    "base_id": "PORTAL",
+    "quote_id": "USDT",
+    "base": "PORTAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PORTO_USDT",
     "base_id": "PORTO",
     "quote_id": "USDT",
@@ -72054,6 +72077,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TUNE_USDT",
+    "base_id": "TUNE",
+    "quote_id": "USDT",
+    "base": "TUNE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
