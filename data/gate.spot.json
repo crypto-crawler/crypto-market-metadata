@@ -2804,6 +2804,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ALITA_USDT",
+    "base_id": "ALITA",
+    "quote_id": "USDT",
+    "base": "ALITA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ALI_USDT",
     "base_id": "ALI",
     "quote_id": "USDT",
@@ -61558,6 +61581,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SAVM_USDT",
+    "base_id": "SAVM",
+    "quote_id": "USDT",
+    "base": "SAVM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

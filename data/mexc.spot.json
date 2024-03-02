@@ -1670,7 +1670,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1910,7 +1910,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2174,7 +2174,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-14,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2918,7 +2918,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -3063,6 +3063,30 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "AIWLD_USDT",
+    "base_id": "AIWLD",
+    "quote_id": "USDT",
+    "base": "AIWLD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -8774,7 +8798,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-12,
+      "tick_size": 1e-14,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -16742,7 +16766,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -22142,7 +22166,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -33482,6 +33506,30 @@
   {
     "exchange": "mexc",
     "market_type": "spot",
+    "symbol": "FEL_USDT",
+    "base_id": "FEL",
+    "quote_id": "USDT",
+    "base": "FEL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
     "symbol": "FEN_USDT",
     "base_id": "FEN",
     "quote_id": "USDT",
@@ -37766,7 +37814,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-10,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -37862,7 +37910,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -39784,6 +39832,30 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "GOLDEN_USDT",
+    "base_id": "GOLDEN",
+    "quote_id": "USDT",
+    "base": "GOLDEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-14,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 5.0,
@@ -47102,7 +47174,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-12,
+      "tick_size": 1e-14,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -51446,7 +51518,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-14,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -51638,7 +51710,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-14,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -55454,7 +55526,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-10,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -56674,12 +56746,12 @@
     "active": true,
     "margin": false,
     "fees": {
-      "maker": 0.001,
-      "taker": 0.001
+      "maker": 0.0,
+      "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
-      "lot_size": 1.0
+      "tick_size": 1e-7,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 5.0,
@@ -56846,7 +56918,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -57830,7 +57902,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-12,
+      "tick_size": 1e-14,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -57998,7 +58070,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-15,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -60326,7 +60398,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-15,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -61142,7 +61214,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -62060,6 +62132,30 @@
     "quantity_limit": {
       "min": 5.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "NAVIST_USDT",
+    "base_id": "NAVIST",
+    "quote_id": "USDT",
+    "base": "NAVIST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -64502,7 +64598,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -66230,7 +66326,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-12,
+      "tick_size": 1e-14,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -68486,7 +68582,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-13,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -72542,7 +72638,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-15,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -75254,7 +75350,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-13,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -76406,7 +76502,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -77966,7 +78062,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -78638,7 +78734,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-14,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -79886,7 +79982,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -81590,7 +81686,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-15,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -81758,7 +81854,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-15,
+      "tick_size": 1e-16,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -83414,7 +83510,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -86246,7 +86342,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -88004,6 +88100,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "spot",
+    "symbol": "SYNCHRONI_USDT",
+    "base_id": "SYNCHRONI",
+    "quote_id": "USDT",
+    "base": "SYNCHRONI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 5.0,
+      "max": 2000000.0
     },
     "info": {}
   },
@@ -90926,7 +91046,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-15,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -91838,7 +91958,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-13,
+      "tick_size": 1e-15,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -97934,7 +98054,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -98990,7 +99110,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-14,
+      "tick_size": 1e-16,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -101078,7 +101198,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.01
     },
     "quantity_limit": {

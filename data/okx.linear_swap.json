@@ -1432,6 +1432,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "DGB-USDT-SWAP",
+    "base_id": "DGB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DGB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "DMAIL-USDT-SWAP",
     "base_id": "DMAIL",
     "quote_id": "USDT",
@@ -1686,7 +1712,7 @@
     "quantity_limit": {
       "min": 1.0
     },
-    "contract_value": 1.0,
+    "contract_value": 10.0,
     "info": {}
   },
   {
