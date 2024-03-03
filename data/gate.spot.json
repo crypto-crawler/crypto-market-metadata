@@ -80905,6 +80905,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ZF_USDT",
+    "base_id": "ZF",
+    "quote_id": "USDT",
+    "base": "ZF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ZIG_USDT",
     "base_id": "ZIG",
     "quote_id": "USDT",
