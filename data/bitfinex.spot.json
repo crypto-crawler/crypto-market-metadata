@@ -1106,6 +1106,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tAZERO:USD",
+    "base_id": "AZERO",
+    "quote_id": "USD",
+    "base": "AZERO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 45000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tAZERO:UST",
+    "base_id": "AZERO",
+    "quote_id": "UST",
+    "base": "AZERO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 45000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tB21X:USD",
     "base_id": "B21X",
     "quote_id": "USD",

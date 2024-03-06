@@ -6995,6 +6995,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "MYRO_USDT",
+    "base_id": "MYRO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MYRO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "NEAR_USDT",
     "base_id": "NEAR",
     "quote_id": "USDT",
