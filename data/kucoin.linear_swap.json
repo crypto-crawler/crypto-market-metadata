@@ -830,6 +830,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "AXLUSDTM",
+    "base_id": "AXL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AXL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "AXSUSDTM",
     "base_id": "AXS",
     "quote_id": "USDT",
@@ -4183,6 +4206,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "OMUSDTM",
+    "base_id": "OM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
