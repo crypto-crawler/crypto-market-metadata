@@ -25250,6 +25250,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "portalusdt",
+    "base_id": "portal",
+    "quote_id": "usdt",
+    "base": "PORTAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 3333333.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "porusdt",
     "base_id": "por",
     "quote_id": "usdt",

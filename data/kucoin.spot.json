@@ -866,6 +866,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AEG-USDT",
+    "base_id": "AEG",
+    "quote_id": "USDT",
+    "base": "AEG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AERGO-BTC",
     "base_id": "AERGO",
     "quote_id": "BTC",
@@ -36811,6 +36835,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "TUSD-USDT",
+    "base_id": "TUSD",
+    "quote_id": "USDT",
+    "base": "TUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
