@@ -94,6 +94,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "10000WENUSDTM",
+    "base_id": "10000WEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "10000WEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "1000BONKUSDTM",
     "base_id": "1000BONK",
     "quote_id": "USDT",

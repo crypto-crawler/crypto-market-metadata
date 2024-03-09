@@ -27578,6 +27578,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "scausdt",
+    "base_id": "sca",
+    "quote_id": "usdt",
+    "base": "SCA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "scbtc",
     "base_id": "sc",
     "quote_id": "btc",
