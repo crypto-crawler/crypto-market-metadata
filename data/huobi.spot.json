@@ -6722,6 +6722,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "closedaiusdt",
+    "base_id": "closedai",
+    "quote_id": "usdt",
+    "base": "CLOSEDAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1224289911.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "clvbtc",
     "base_id": "clv",
     "quote_id": "btc",

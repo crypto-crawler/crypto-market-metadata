@@ -6712,6 +6712,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AWT_USDT",
+    "base_id": "AWT",
+    "quote_id": "USDT",
+    "base": "AWT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AXIS_ETH",
     "base_id": "AXIS",
     "quote_id": "ETH",
@@ -64643,11 +64666,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1.0
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -75672,6 +75695,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "VSC_USDT",
+    "base_id": "VSC",
+    "quote_id": "USDT",
+    "base": "VSC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
