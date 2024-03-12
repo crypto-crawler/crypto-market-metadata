@@ -4079,6 +4079,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "FORT_USDT",
+    "base_id": "FORT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FORT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "FRONT_USDT",
     "base_id": "FRONT",
     "quote_id": "USDT",
@@ -8669,6 +8696,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "RADAR_USDT",
+    "base_id": "RADAR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RADAR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "RAD_USDT",
     "base_id": "RAD",
     "quote_id": "USDT",
@@ -9285,6 +9339,33 @@
       "max": 1000000.0
     },
     "contract_value": 10000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SCA_USDT",
+    "base_id": "SCA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SCA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -10824,6 +10905,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "VANRY_USDT",
+    "base_id": "VANRY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VANRY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
