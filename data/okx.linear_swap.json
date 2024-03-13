@@ -3824,6 +3824,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "RAY-USDT-SWAP",
+    "base_id": "RAY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RAY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "RDNT-USDT-SWAP",
     "base_id": "RDNT",
     "quote_id": "USDT",
@@ -4859,6 +4885,32 @@
       "min": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "VELO-USDT-SWAP",
+    "base_id": "VELO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VELO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {
