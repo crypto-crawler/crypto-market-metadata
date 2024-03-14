@@ -301,6 +301,52 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "AEVOUSDTM",
+    "base_id": "AEVO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AEVO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "AGIUSDTM",
+    "base_id": "AGI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AGI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "AGIXUSDTM",
     "base_id": "AGIX",
     "quote_id": "USDT",

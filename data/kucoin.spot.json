@@ -938,6 +938,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AEVO-USDT",
+    "base_id": "AEVO",
+    "quote_id": "USDT",
+    "base": "AEVO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AFG-USDT",
     "base_id": "AFG",
     "quote_id": "USDT",
@@ -14774,8 +14798,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
@@ -18602,6 +18626,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ISME-USDT",
+    "base_id": "ISME",
+    "quote_id": "USDT",
+    "base": "ISME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ISP-USDT",
     "base_id": "ISP",
     "quote_id": "USDT",
@@ -20083,6 +20131,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "KNGL-USDT",
+    "base_id": "kNGL",
+    "quote_id": "USDT",
+    "base": "KNGL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
