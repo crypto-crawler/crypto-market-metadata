@@ -6603,6 +6603,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "HNT/EUR",
+    "base_id": "HNT",
+    "quote_id": "ZEUR",
+    "base": "HNT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "HNT/USD",
+    "base_id": "HNT",
+    "quote_id": "ZUSD",
+    "base": "HNT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ICP/EUR",
     "base_id": "ICP",
     "quote_id": "ZEUR",

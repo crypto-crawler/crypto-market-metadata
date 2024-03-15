@@ -1122,6 +1122,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ALITAUSDT_SPBL",
+    "base_id": "ALITA",
+    "quote_id": "USDT",
+    "base": "ALITA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ALIUSDT_SPBL",
     "base_id": "ALI",
     "quote_id": "USDT",
