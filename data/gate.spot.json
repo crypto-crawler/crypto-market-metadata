@@ -10953,6 +10953,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BOME_USDT",
+    "base_id": "BOME",
+    "quote_id": "USDT",
+    "base": "BOME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BONDED_ETH",
     "base_id": "BONDED",
     "quote_id": "ETH",
@@ -12888,6 +12911,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BVM_USDT",
+    "base_id": "BVM",
+    "quote_id": "USDT",
+    "base": "BVM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -56227,6 +56273,29 @@
     "base_id": "POOL",
     "quote_id": "USDT",
     "base": "POOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "POPCAT_USDT",
+    "base_id": "POPCAT",
+    "quote_id": "USDT",
+    "base": "POPCAT",
     "quote": "USDT",
     "active": true,
     "margin": false,
