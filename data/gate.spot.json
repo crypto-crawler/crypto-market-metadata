@@ -10953,6 +10953,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BOME_TRY",
+    "base_id": "BOME",
+    "quote_id": "TRY",
+    "base": "BOME",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BOME_USDT",
     "base_id": "BOME",
     "quote_id": "USDT",
@@ -29508,6 +29531,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GEC_USDT",
+    "base_id": "GEC",
+    "quote_id": "USDT",
+    "base": "GEC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GEL_ETH",
     "base_id": "GEL",
     "quote_id": "ETH",
@@ -35706,6 +35752,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IQ50_USDT",
+    "base_id": "IQ50",
+    "quote_id": "USDT",
+    "base": "IQ50",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -65342,6 +65411,29 @@
     "base_id": "SMURFCAT",
     "quote_id": "USDT",
     "base": "SMURFCAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SNAP_USDT",
+    "base_id": "SNAP",
+    "quote_id": "USDT",
+    "base": "SNAP",
     "quote": "USDT",
     "active": true,
     "margin": false,
