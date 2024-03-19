@@ -2802,7 +2802,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1300.0
+      "max": 6250.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -4970,6 +4970,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ETHFI_USDT",
+    "base_id": "ETHFI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETHFI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 8750.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ETHW_USDT",
     "base_id": "ETHW",
     "quote_id": "USDT",
@@ -5421,7 +5448,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9000.0
+      "max": 5300.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5934,7 +5961,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 33000.0
+      "max": 15700.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -6663,7 +6690,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400000.0
+      "max": 280000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8040,7 +8067,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2300.0
+      "max": 9500.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -8904,7 +8931,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 35500.0
+      "max": 18000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10824,6 +10851,33 @@
       "max": 2670000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SLERF_USDT",
+    "base_id": "SLERF",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SLERF",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 7500.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

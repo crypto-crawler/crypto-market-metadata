@@ -7898,6 +7898,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tMPCUSD",
+    "base_id": "MPC",
+    "quote_id": "USD",
+    "base": "MPC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 125000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tMPCUST",
+    "base_id": "MPC",
+    "quote_id": "UST",
+    "base": "MPC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 125000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tMXNT:USD",
     "base_id": "MXNT",
     "quote_id": "USD",

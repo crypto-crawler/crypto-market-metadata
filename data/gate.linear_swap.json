@@ -3701,6 +3701,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ETHFI_USDT",
+    "base_id": "ETHFI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ETHFI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ETHW_USDT",
     "base_id": "ETHW",
     "quote_id": "USDT",
@@ -5316,6 +5343,33 @@
       "max": 10000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "IQ50_USDT",
+    "base_id": "IQ50",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IQ50",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 10000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10000.0,
     "info": {}
   },
   {
@@ -8502,6 +8556,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "PRIME_USDT",
+    "base_id": "PRIME",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PRIME",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
