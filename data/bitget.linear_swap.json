@@ -3746,6 +3746,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "METISUSDT_UMCBL",
+    "base_id": "METIS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "METIS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "MINAUSDT_UMCBL",
     "base_id": "MINA",
     "quote_id": "USDT",

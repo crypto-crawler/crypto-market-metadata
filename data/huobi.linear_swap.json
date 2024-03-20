@@ -3981,6 +3981,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "SLERF-USDT",
+    "base_id": "SLERF",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SLERF",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "SLP-USDT",
     "base_id": "SLP",
     "quote_id": "USDT",
@@ -5172,6 +5195,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "ZK-USDT",
+    "base_id": "ZK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
