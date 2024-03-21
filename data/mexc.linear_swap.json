@@ -434,6 +434,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "1000IQ50_USDT",
+    "base_id": "1000IQ50",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1000IQ50",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1500.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "1000LADYS_USDT",
     "base_id": "1000LADYS",
     "quote_id": "USDT",
@@ -3801,7 +3828,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 485000.0
+      "max": 600000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -7068,7 +7095,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 490000.0
+      "max": 700000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -9687,7 +9714,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000.0
+      "max": 6600.0
     },
     "contract_value": 1.0,
     "info": {}
