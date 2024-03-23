@@ -11522,6 +11522,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BREED_USDT",
+    "base_id": "BREED",
+    "quote_id": "USDT",
+    "base": "BREED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BRICK_USDT",
     "base_id": "BRICK",
     "quote_id": "USDT",
@@ -14685,6 +14708,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CHATAI_USDT",
+    "base_id": "CHATAI",
+    "quote_id": "USDT",
+    "base": "CHATAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
