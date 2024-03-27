@@ -25778,6 +25778,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "pumpusdt",
+    "base_id": "pump",
+    "quote_id": "usdt",
+    "base": "PUMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 82101806239.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "pundixbtc",
     "base_id": "pundix",
     "quote_id": "btc",
