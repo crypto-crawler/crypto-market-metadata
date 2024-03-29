@@ -345,7 +345,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1850.0
+      "max": 1500.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -2856,7 +2856,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 52000.0
+      "max": 34000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3882,7 +3882,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 900000.0
+      "max": 1000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4206,7 +4206,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7500.0
+      "max": 17000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6933,7 +6933,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 118000.0
+      "max": 130000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -7635,7 +7635,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 360000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8823,7 +8823,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250000.0
+      "max": 300000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9825,6 +9825,33 @@
       "max": 100000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "PUNDU_USDT",
+    "base_id": "PUNDU",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PUNDU",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -12225,7 +12252,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250000.0
+      "max": 170000.0
     },
     "contract_value": 10.0,
     "info": {}
