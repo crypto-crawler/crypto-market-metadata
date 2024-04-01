@@ -71944,6 +71944,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TELE_USDT",
+    "base_id": "TELE",
+    "quote_id": "USDT",
+    "base": "TELE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TEM_USDT",
     "base_id": "TEM",
     "quote_id": "USDT",
@@ -75624,6 +75647,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "UP_USDT",
+    "base_id": "UP",
+    "quote_id": "USDT",
+    "base": "UP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
