@@ -10610,6 +10610,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "enausdt",
+    "base_id": "ena",
+    "quote_id": "usdt",
+    "base": "ENA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 16666666.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "enjbtc",
     "base_id": "enj",
     "quote_id": "btc",
@@ -20588,6 +20612,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 69966423.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "mewusdt",
+    "base_id": "mew",
+    "quote_id": "usdt",
+    "base": "MEW",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 104766893.0
     },
     "info": {}
   },
