@@ -3242,6 +3242,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "DEGEN_USDT",
+    "base_id": "DEGEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DEGEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "DEGO_USDT",
     "base_id": "DEGO",
     "quote_id": "USDT",
@@ -3642,6 +3669,33 @@
       "max": 1000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "ELA_USDT",
+    "base_id": "ELA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ELA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -12417,6 +12471,33 @@
       "max": 1000000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "W_USDT",
+    "base_id": "W",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "W",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

@@ -23690,6 +23690,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MEW-USDT",
+    "base_id": "MEW",
+    "quote_id": "USDT",
+    "base": "MEW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MFT-BTC",
     "base_id": "MFT",
     "quote_id": "BTC",
@@ -31790,8 +31814,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
@@ -39499,6 +39523,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "W-USDT",
+    "base_id": "W",
+    "quote_id": "USDT",
+    "base": "W",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
