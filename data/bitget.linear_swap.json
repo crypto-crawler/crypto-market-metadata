@@ -392,6 +392,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "AIUSDT_UMCBL",
+    "base_id": "AI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "ALGOUSDT_UMCBL",
     "base_id": "ALGO",
     "quote_id": "USDT",
@@ -2049,6 +2075,32 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "ENAUSDT_UMCBL",
+    "base_id": "ENA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ENA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5893,6 +5945,32 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "WUSDT_UMCBL",
+    "base_id": "W",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "W",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "quantity_limit": {
