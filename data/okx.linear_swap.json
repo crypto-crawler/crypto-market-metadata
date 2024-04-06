@@ -5618,6 +5618,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "ZEUS-USDT-SWAP",
+    "base_id": "ZEUS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZEUS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "ZIL-USDT-SWAP",
     "base_id": "ZIL",
     "quote_id": "USDT",

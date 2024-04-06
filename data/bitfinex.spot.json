@@ -12602,6 +12602,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tWXXUSD",
+    "base_id": "WXX",
+    "quote_id": "USD",
+    "base": "W",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tWXXUST",
+    "base_id": "WXX",
+    "quote_id": "UST",
+    "base": "W",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tXAUT:BTC",
     "base_id": "XAUT",
     "quote_id": "BTC",

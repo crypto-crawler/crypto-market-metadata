@@ -938,6 +938,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AERO-USDT",
+    "base_id": "AERO",
+    "quote_id": "USDT",
+    "base": "AERO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AEVO-USDT",
     "base_id": "AEVO",
     "quote_id": "USDT",
