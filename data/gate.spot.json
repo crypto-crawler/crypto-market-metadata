@@ -80522,6 +80522,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "W_TRY",
+    "base_id": "W",
+    "quote_id": "TRY",
+    "base": "W",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "W_USDT",
     "base_id": "W",
     "quote_id": "USDT",
