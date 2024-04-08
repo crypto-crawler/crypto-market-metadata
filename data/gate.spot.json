@@ -15619,6 +15619,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CKB_TRY",
+    "base_id": "CKB",
+    "quote_id": "TRY",
+    "base": "CKB",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CKB_USDT",
     "base_id": "CKB",
     "quote_id": "USDT",
@@ -47639,6 +47662,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MOJITO_USDT",
+    "base_id": "MOJITO",
+    "quote_id": "USDT",
+    "base": "MOJITO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MOJO_USDT",
     "base_id": "MOJO",
     "quote_id": "USDT",
@@ -55419,6 +55465,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PENDLE_TRY",
+    "base_id": "PENDLE",
+    "quote_id": "TRY",
+    "base": "PENDLE",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
