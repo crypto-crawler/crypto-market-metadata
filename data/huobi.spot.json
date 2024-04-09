@@ -2594,6 +2594,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "astousdt",
+    "base_id": "asto",
+    "quote_id": "usdt",
+    "base": "ASTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 13935340.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "astrusdt",
     "base_id": "astr",
     "quote_id": "usdt",
@@ -6062,7 +6086,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -16994,6 +17018,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "juiceusdt",
+    "base_id": "juice",
+    "quote_id": "usdt",
+    "base": "JUICE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 7500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "jumbousdt",
     "base_id": "jumbo",
     "quote_id": "usdt",
@@ -27062,7 +27110,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -31532,6 +31580,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 350000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "tnsrusdt",
+    "base_id": "tnsr",
+    "quote_id": "usdt",
+    "base": "TNSR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 2500000.0
     },
     "info": {}
   },

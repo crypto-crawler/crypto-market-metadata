@@ -5842,6 +5842,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "CHATAIUSDT_SPBL",
+    "base_id": "CHATAI",
+    "quote_id": "USDT",
+    "base": "CHATAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "CHATUSDT_SPBL",
     "base_id": "CHAT",
     "quote_id": "USDT",
@@ -26151,6 +26174,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "TNSRUSDT_SPBL",
+    "base_id": "TNSR",
+    "quote_id": "USDT",
+    "base": "TNSR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },

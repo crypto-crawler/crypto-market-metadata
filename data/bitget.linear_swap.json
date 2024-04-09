@@ -1770,6 +1770,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "CVCUSDT_UMCBL",
+    "base_id": "CVC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CVC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "CVXUSDT_UMCBL",
     "base_id": "CVX",
     "quote_id": "USDT",
@@ -5507,6 +5533,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "TNSRUSDT_UMCBL",
+    "base_id": "TNSR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TNSR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}

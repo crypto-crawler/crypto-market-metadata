@@ -3998,6 +3998,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "FARM_USDT",
+    "base_id": "FARM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FARM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "FET_USDT",
     "base_id": "FET",
     "quote_id": "USDT",
@@ -11357,6 +11384,33 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "TNSR_USDT",
+    "base_id": "TNSR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TNSR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
