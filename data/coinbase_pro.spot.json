@@ -12113,6 +12113,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "SHDW-USD",
+    "base_id": "SHDW",
+    "quote_id": "USD",
+    "base": "SHDW",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "SHIB-EUR",
     "base_id": "SHIB",
     "quote_id": "EUR",

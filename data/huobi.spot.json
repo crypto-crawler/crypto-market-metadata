@@ -27890,6 +27890,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "sagausdt",
+    "base_id": "saga",
+    "quote_id": "usdt",
+    "base": "SAGA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "sandbtc",
     "base_id": "sand",
     "quote_id": "btc",
