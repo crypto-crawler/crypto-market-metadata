@@ -37298,6 +37298,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "zbcnusdt",
+    "base_id": "zbcn",
+    "quote_id": "usdt",
+    "base": "ZBCN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 306166187.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "zbcusdt",
     "base_id": "zbc",
     "quote_id": "usdt",
