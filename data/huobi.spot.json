@@ -19874,6 +19874,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "masausdt",
+    "base_id": "masa",
+    "quote_id": "usdt",
+    "base": "MASA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "maskusdd",
     "base_id": "mask",
     "quote_id": "usdd",
@@ -24068,6 +24092,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 1780000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "openusdt",
+    "base_id": "open",
+    "quote_id": "usdt",
+    "base": "OPEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35335600.0
     },
     "info": {}
   },
