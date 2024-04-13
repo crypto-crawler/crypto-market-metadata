@@ -4395,6 +4395,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "TAO-USDT",
+    "base_id": "TAO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TAO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "THETA-USDT",
     "base_id": "THETA",
     "quote_id": "USDT",

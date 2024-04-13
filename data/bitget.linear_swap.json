@@ -2472,6 +2472,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "FRONTUSDT_UMCBL",
+    "base_id": "FRONT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FRONT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "FTMUSDT_UMCBL",
     "base_id": "FTM",
     "quote_id": "USDT",
@@ -4441,6 +4467,32 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "ORNUSDT_UMCBL",
+    "base_id": "ORN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ORN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}
