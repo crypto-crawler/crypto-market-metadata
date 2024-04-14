@@ -6160,6 +6160,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ATLASDEX_USDT",
+    "base_id": "ATLASDEX",
+    "quote_id": "USDT",
+    "base": "ATLASDEX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ATLAS_USDT",
     "base_id": "ATLAS",
     "quote_id": "USDT",
