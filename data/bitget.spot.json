@@ -10363,6 +10363,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FOMOUSDT_SPBL",
+    "base_id": "FOMO",
+    "quote_id": "USDT",
+    "base": "FOMO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FONUSDT_SPBL",
     "base_id": "FON",
     "quote_id": "USDT",
