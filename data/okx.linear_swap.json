@@ -3408,6 +3408,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "MEW-USDT-SWAP",
+    "base_id": "MEW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MEW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "MINA-USDT-SWAP",
     "base_id": "MINA",
     "quote_id": "USDT",
@@ -5233,6 +5259,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "WEMIX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "WIF-USDT-SWAP",
+    "base_id": "WIF",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WIF",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

@@ -11433,6 +11433,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "MEW-USDT",
+    "base_id": "MEW",
+    "quote_id": "USDT",
+    "base": "MEW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "MILO-USDT",
     "base_id": "MILO",
     "quote_id": "USDT",
@@ -18258,6 +18281,29 @@
     },
     "quantity_limit": {
       "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "WIF-USDT",
+    "base_id": "WIF",
+    "quote_id": "USDT",
+    "base": "WIF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

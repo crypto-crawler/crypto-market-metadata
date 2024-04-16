@@ -298,6 +298,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "3ULL_USDT",
+    "base_id": "3ULL",
+    "quote_id": "USDT",
+    "base": "3ULL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "4TOKEN_USDT",
     "base_id": "4TOKEN",
     "quote_id": "USDT",
@@ -6517,11 +6540,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.1
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "info": {}
   },
@@ -10210,6 +10233,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BLENDR_USDT",
+    "base_id": "BLENDR",
+    "quote_id": "USDT",
+    "base": "BLENDR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -30629,6 +30675,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GEMAI_USDT",
+    "base_id": "GEMAI",
+    "quote_id": "USDT",
+    "base": "GEMAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -65686,6 +65755,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SHARK_USDT",
+    "base_id": "SHARK",
+    "quote_id": "USDT",
+    "base": "SHARK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

@@ -4484,6 +4484,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "FOXY_USDT",
+    "base_id": "FOXY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FOXY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "FRONT_USDT",
     "base_id": "FRONT",
     "quote_id": "USDT",
@@ -11418,6 +11445,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "TAO_USDT",
+    "base_id": "TAO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TAO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
