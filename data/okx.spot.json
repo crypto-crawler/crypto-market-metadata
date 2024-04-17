@@ -13802,6 +13802,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PRCL-USDT",
+    "base_id": "PRCL",
+    "quote_id": "USDT",
+    "base": "PRCL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PROPS-ETH",
     "base_id": "PROPS",
     "quote_id": "ETH",
@@ -19730,6 +19753,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ZBCN-USDT",
+    "base_id": "ZBCN",
+    "quote_id": "USDT",
+    "base": "ZBCN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0
     },
     "info": {}
   },
