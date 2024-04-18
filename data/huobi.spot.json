@@ -3626,6 +3626,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "basebotusdt",
+    "base_id": "basebot",
+    "quote_id": "usdt",
+    "base": "BASEBOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 90000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "batbtc",
     "base_id": "bat",
     "quote_id": "btc",
@@ -23852,6 +23876,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 310000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "omniusdt",
+    "base_id": "omni",
+    "quote_id": "usdt",
+    "base": "OMNI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
     },
     "info": {}
   },

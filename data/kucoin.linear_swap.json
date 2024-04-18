@@ -3984,6 +3984,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "MEWUSDTM",
+    "base_id": "MEW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MEW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "MINAUSDTM",
     "base_id": "MINA",
     "quote_id": "USDT",
@@ -4390,6 +4413,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "OMNIUSDTM",
+    "base_id": "OMNI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OMNI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
       "lot_size": 1.0
     },
     "contract_value": 0.1,
