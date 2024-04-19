@@ -9842,6 +9842,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "DEGEN-USDT",
+    "base_id": "DEGEN",
+    "quote_id": "USDT",
+    "base": "DEGEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DEGO-ETH",
     "base_id": "DEGO",
     "quote_id": "ETH",
@@ -10934,7 +10958,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
