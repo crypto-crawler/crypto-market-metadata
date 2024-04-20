@@ -669,7 +669,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 34000.0
+      "max": 61000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -1155,7 +1155,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 90000.0
+      "max": 170000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1668,7 +1668,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 310000.0
+      "max": 385000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2316,7 +2316,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 85000.0
+      "max": 128000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -4152,7 +4152,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 550000.0
+      "max": 920000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5016,7 +5016,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 185000.0
+      "max": 232000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5124,7 +5124,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 20000.0
+      "max": 33500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5610,7 +5610,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 21500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5691,7 +5691,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5500.0
+      "max": 2700.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -6150,7 +6150,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 310000.0
+      "max": 560000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8237,6 +8237,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "MERL_USDT",
+    "base_id": "MERL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MERL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10500.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "METIS_USDT",
     "base_id": "METIS",
     "quote_id": "USDT",
@@ -8607,7 +8634,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 105000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -8877,7 +8904,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9000.0
+      "max": 17000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9390,7 +9417,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18000.0
+      "max": 35000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -9714,7 +9741,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 16000.0
+      "max": 37500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9903,7 +9930,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 85000.0
+      "max": 150000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -10389,7 +10416,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 37000000.0
+      "max": 77000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -11874,7 +11901,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 63000.0
+      "max": 120000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -12009,7 +12036,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4300000.0
+      "max": 6700000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -12927,7 +12954,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45000.0
+      "max": 105000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13386,7 +13413,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 286000.0
+      "max": 500000.0
     },
     "contract_value": 1.0,
     "info": {}

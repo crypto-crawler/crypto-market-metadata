@@ -2438,8 +2438,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
@@ -23858,6 +23858,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MERL-USDT",
+    "base_id": "MERL",
+    "quote_id": "USDT",
+    "base": "MERL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "METIS-USDT",
     "base_id": "METIS",
     "quote_id": "USDT",
@@ -39428,6 +39452,30 @@
     "quantity_limit": {
       "min": 10.0,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "VINU-USDT",
+    "base_id": "VINU",
+    "quote_id": "USDT",
+    "base": "VINU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000000.0,
+      "max": 1000000000000.0
     },
     "info": {}
   },
