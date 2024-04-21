@@ -59052,6 +59052,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PROPSTOKEN_ETH",
+    "base_id": "PROPSTOKEN",
+    "quote_id": "ETH",
+    "base": "PROPSTOKEN",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PROPSTOKEN_USDT",
+    "base_id": "PROPSTOKEN",
+    "quote_id": "USDT",
+    "base": "PROPSTOKEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PROPS_ETH",
     "base_id": "PROPS",
     "quote_id": "ETH",
