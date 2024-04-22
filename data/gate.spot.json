@@ -46148,6 +46148,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MEMERUNE_USDT",
+    "base_id": "MEMERUNE",
+    "quote_id": "USDT",
+    "base": "MEMERUNE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MEMETOON_USDT",
     "base_id": "MEMETOON",
     "quote_id": "USDT",
@@ -64735,6 +64758,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SATOSHI_USDT",
+    "base_id": "SATOSHI",
+    "quote_id": "USDT",
+    "base": "SATOSHI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
