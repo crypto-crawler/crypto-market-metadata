@@ -1932,6 +1932,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "APUUSDT_SPBL",
+    "base_id": "APU",
+    "quote_id": "USDT",
+    "base": "APU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "AQTUSDT_SPBL",
     "base_id": "AQT",
     "quote_id": "USDT",
@@ -2549,6 +2572,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "ATORUSDT_SPBL",
+    "base_id": "ATOR",
+    "quote_id": "USDT",
+    "base": "ATOR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },

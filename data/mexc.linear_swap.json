@@ -5772,7 +5772,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 870000.0
+      "max": 650000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -7275,16 +7275,16 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0001,
-      "taker": 0.0005
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 16500.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -8013,7 +8013,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 24000.0
+      "max": 17000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -11280,7 +11280,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 12400.0
+      "max": 6200.0
     },
     "contract_value": 10.0,
     "info": {}
