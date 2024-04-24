@@ -9019,6 +9019,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BD20_USDT",
+    "base_id": "BD20",
+    "quote_id": "USDT",
+    "base": "BD20",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BDIN_USDT",
     "base_id": "BDIN",
     "quote_id": "USDT",
@@ -22251,11 +22274,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1.0
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.01
     },
     "info": {}
   },
@@ -22274,7 +22297,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -35412,6 +35435,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HYCO_USDT",
+    "base_id": "HYCO",
+    "quote_id": "USDT",
+    "base": "HYCO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -56115,6 +56161,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PBUX_USDT",
+    "base_id": "PBUX",
+    "quote_id": "USDT",
+    "base": "PBUX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PBX_ETH",
     "base_id": "PBX",
     "quote_id": "ETH",
@@ -63092,6 +63161,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RINGAI_USDT",
+    "base_id": "RINGAI",
+    "quote_id": "USDT",
+    "base": "RINGAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RING_ETH",
     "base_id": "RING",
     "quote_id": "ETH",
@@ -64281,6 +64373,29 @@
     "precision": {
       "tick_size": 1e-9,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SAFE_USDT",
+    "base_id": "SAFE",
+    "quote_id": "USDT",
+    "base": "SAFE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -69483,6 +69598,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SPOT_USDT",
+    "base_id": "SPOT",
+    "quote_id": "USDT",
+    "base": "SPOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -84216,6 +84354,29 @@
     "base_id": "XY",
     "quote_id": "USDT",
     "base": "XY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "Y8U_USDT",
+    "base_id": "Y8U",
+    "quote_id": "USDT",
+    "base": "Y8U",
     "quote": "USDT",
     "active": true,
     "margin": false,

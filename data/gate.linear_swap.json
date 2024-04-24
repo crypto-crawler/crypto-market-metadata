@@ -434,6 +434,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "AKT_USDT",
+    "base_id": "AKT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AKT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ALCX_USDT",
     "base_id": "ALCX",
     "quote_id": "USDT",
@@ -5969,6 +5996,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "KARRAT_USDT",
+    "base_id": "KARRAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KARRAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "KAS_USDT",
     "base_id": "KAS",
     "quote_id": "USDT",
@@ -10284,6 +10338,33 @@
       "max": 10000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SAFE_USDT",
+    "base_id": "SAFE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SAFE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
