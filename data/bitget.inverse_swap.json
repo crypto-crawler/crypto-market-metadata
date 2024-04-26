@@ -236,6 +236,32 @@
   {
     "exchange": "bitget",
     "market_type": "inverse_swap",
+    "symbol": "SOLUSD_DMCBL",
+    "base_id": "SOL",
+    "quote_id": "USD",
+    "settle_id": "SOL",
+    "base": "SOL",
+    "quote": "USD",
+    "settle": "SOL",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
     "symbol": "TRXUSD_DMCBL",
     "base_id": "TRX",
     "quote_id": "USD",
