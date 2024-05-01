@@ -738,6 +738,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ALGO-TRY",
+    "base_id": "ALGO",
+    "quote_id": "TRY",
+    "base": "ALGO",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ALGO-USDC",
     "base_id": "ALGO",
     "quote_id": "USDC",
@@ -4021,6 +4044,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CORE-TRY",
+    "base_id": "CORE",
+    "quote_id": "TRY",
+    "base": "CORE",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -10743,6 +10789,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "LTC-TRY",
+    "base_id": "LTC",
+    "quote_id": "TRY",
+    "base": "LTC",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "LTC-USDC",
     "base_id": "LTC",
     "quote_id": "USDC",
@@ -11968,7 +12037,7 @@
     "base": "MSN",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -14670,6 +14739,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "RUNECOIN-USDT",
+    "base_id": "RUNECOIN",
+    "quote_id": "USDT",
+    "base": "RUNECOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
@@ -19313,6 +19405,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "XRP-TRY",
+    "base_id": "XRP",
+    "quote_id": "TRY",
+    "base": "XRP",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 1.0
