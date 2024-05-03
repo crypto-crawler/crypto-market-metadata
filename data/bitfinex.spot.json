@@ -10466,6 +10466,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tSPEC:USD",
+    "base_id": "SPEC",
+    "quote_id": "USD",
+    "base": "SPEC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 22000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSPEC:UST",
+    "base_id": "SPEC",
+    "quote_id": "UST",
+    "base": "SPEC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 22000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tSPELL:MIM",
     "base_id": "SPELL",
     "quote_id": "MIM",
