@@ -43250,6 +43250,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ZERO-USDT",
+    "base_id": "ZERO",
+    "quote_id": "USDT",
+    "base": "ZERO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ZETA-USDT",
     "base_id": "ZETA",
     "quote_id": "USDT",
