@@ -48789,6 +48789,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MODE_USDT",
+    "base_id": "MODE",
+    "quote_id": "USDT",
+    "base": "MODE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MOFI_USDT",
     "base_id": "MOFI",
     "quote_id": "USDT",
@@ -80577,6 +80600,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "VV_USDT",
+    "base_id": "VV",
+    "quote_id": "USDT",
+    "base": "VV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VXT_USDT",
     "base_id": "VXT",
     "quote_id": "USDT",
@@ -86238,6 +86284,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZENT_USDT",
+    "base_id": "ZENT",
+    "quote_id": "USDT",
+    "base": "ZENT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
