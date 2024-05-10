@@ -1909,6 +1909,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "APRSUSDT_SPBL",
+    "base_id": "APRS",
+    "quote_id": "USDT",
+    "base": "APRS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "APTUSDT_SPBL",
     "base_id": "APT",
     "quote_id": "USDT",
@@ -18669,7 +18692,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -23490,6 +23513,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "ROSXUSDT_SPBL",
+    "base_id": "ROSX",
+    "quote_id": "USDT",
+    "base": "ROSX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
