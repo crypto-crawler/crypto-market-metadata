@@ -7920,7 +7920,7 @@
     "base": "GLM",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -9506,6 +9506,29 @@
     "quote_id": "EUR",
     "base": "JTO",
     "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "JTO-USDC",
+    "base_id": "JTO",
+    "quote_id": "USDC",
+    "base": "JTO",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -16424,6 +16447,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SUI-USDC",
+    "base_id": "SUI",
+    "quote_id": "USDC",
+    "base": "SUI",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SUI-USDT",
     "base_id": "SUI",
     "quote_id": "USDT",
@@ -18660,6 +18706,29 @@
     "quote_id": "EUR",
     "base": "WIF",
     "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "WIF-USDC",
+    "base_id": "WIF",
+    "quote_id": "USDC",
+    "base": "WIF",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
