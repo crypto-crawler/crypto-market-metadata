@@ -8608,6 +8608,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BB_TRY",
+    "base_id": "BB",
+    "quote_id": "TRY",
+    "base": "BB",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BB_USDT",
+    "base_id": "BB",
+    "quote_id": "USDT",
+    "base": "BB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BCCOIN_USDT",
     "base_id": "BCCOIN",
     "quote_id": "USDT",
