@@ -13456,6 +13456,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BUBBLE_USDT",
+    "base_id": "BUBBLE",
+    "quote_id": "USDT",
+    "base": "BUBBLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BURP_ETH",
     "base_id": "BURP",
     "quote_id": "ETH",
@@ -32016,6 +32039,29 @@
     "base_id": "GMEE",
     "quote_id": "USDT",
     "base": "GMEE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GME_USDT",
+    "base_id": "GME",
+    "quote_id": "USDT",
+    "base": "GME",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -82707,6 +82753,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WSDM_USDT",
+    "base_id": "WSDM",
+    "quote_id": "USDT",
+    "base": "WSDM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
