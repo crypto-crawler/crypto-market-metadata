@@ -156,7 +156,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 23300.0
+      "max": 7000.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -267,6 +267,33 @@
       "max": 10000.0
     },
     "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "10000STARL_USDT",
+    "base_id": "10000STARL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "10000STARL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -1479,7 +1506,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 34056.0
+      "max": 10000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3747,7 +3774,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 16500.0
+      "max": 20000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -5745,7 +5772,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 600000.0
+      "max": 500000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -7508,6 +7535,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "LFT_USDT",
+    "base_id": "LFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1500.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "LINA_USDT",
     "base_id": "LINA",
     "quote_id": "USDT",
@@ -8850,7 +8904,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 36000.0
+      "max": 24000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9066,7 +9120,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4000.0
+      "max": 14000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -10983,7 +11037,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 44000.0
+      "max": 28500.0
     },
     "contract_value": 1.0,
     "info": {}

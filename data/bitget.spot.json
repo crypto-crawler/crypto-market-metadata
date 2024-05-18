@@ -5719,6 +5719,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "CATAUSDT_SPBL",
+    "base_id": "CATA",
+    "quote_id": "USDT",
+    "base": "CATA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "CATBOYUSDT_SPBL",
     "base_id": "CATBOY",
     "quote_id": "USDT",
@@ -7352,6 +7375,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "CUUSDT_SPBL",
+    "base_id": "CU",
+    "quote_id": "USDT",
+    "base": "CU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 0.0
@@ -13212,6 +13258,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "HODLUSDT_SPBL",
+    "base_id": "HODL",
+    "quote_id": "USDT",
+    "base": "HODL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-13,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 0.0
