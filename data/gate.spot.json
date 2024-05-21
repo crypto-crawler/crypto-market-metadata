@@ -20153,6 +20153,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DECENTRALIZED_USDT",
+    "base_id": "DECENTRALIZED",
+    "quote_id": "USDT",
+    "base": "DECENTRALIZED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DECHAT_USDT",
     "base_id": "DECHAT",
     "quote_id": "USDT",
@@ -53294,6 +53317,29 @@
     "base_id": "NUM",
     "quote_id": "USDT",
     "base": "NUM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NUTS_USDT",
+    "base_id": "NUTS",
+    "quote_id": "USDT",
+    "base": "NUTS",
     "quote": "USDT",
     "active": true,
     "margin": false,
