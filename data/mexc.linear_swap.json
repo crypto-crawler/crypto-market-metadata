@@ -372,7 +372,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1750.0
+      "max": 1220.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -2802,7 +2802,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 255000.0
+      "max": 180000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4835,6 +4835,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DRIFT_USDT",
+    "base_id": "DRIFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DRIFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "DUSK_USDT",
     "base_id": "DUSK",
     "quote_id": "USDT",
@@ -5124,7 +5151,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 232000.0
+      "max": 175000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -7797,7 +7824,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 185000.0
+      "max": 138000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -9795,7 +9822,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 17000.0
+      "max": 12000.0
     },
     "contract_value": 1.0,
     "info": {}
