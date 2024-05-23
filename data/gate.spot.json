@@ -5450,6 +5450,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARROW_USDT",
+    "base_id": "ARROW",
+    "quote_id": "USDT",
+    "base": "ARROW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARRR_ETH",
     "base_id": "ARRR",
     "quote_id": "ETH",
@@ -23096,11 +23119,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.1
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "info": {}
   },

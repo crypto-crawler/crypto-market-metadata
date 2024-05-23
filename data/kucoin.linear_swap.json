@@ -6561,6 +6561,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "VENOMUSDTM",
+    "base_id": "VENOM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VENOM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "VETUSDTM",
     "base_id": "VET",
     "quote_id": "USDT",
