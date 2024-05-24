@@ -750,7 +750,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 200000.0
+      "max": 66000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -1506,7 +1506,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 7000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -2235,7 +2235,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 125000.0
+      "max": 87000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3418,12 +3418,12 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 7200.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5016,7 +5016,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 210000.0
+      "max": 125000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5151,7 +5151,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 175000.0
+      "max": 135000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -6096,7 +6096,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 210000.0
+      "max": 175000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -8151,6 +8151,33 @@
       "max": 70000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "MASA_USDT",
+    "base_id": "MASA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MASA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 13000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -13008,7 +13035,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5300.0
+      "max": 3700.0
     },
     "contract_value": 10000.0,
     "info": {}

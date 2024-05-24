@@ -11255,7 +11255,7 @@
     "base": "MANA",
     "quote": "BTC",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -14713,6 +14713,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "RNDR-USDC",
+    "base_id": "RNDR",
+    "quote_id": "USDC",
+    "base": "RNDR",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 1.0
