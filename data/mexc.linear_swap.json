@@ -2019,7 +2019,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 420000.0
+      "max": 300000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8156,6 +8156,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "MAPO_USDT",
+    "base_id": "MAPO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MAPO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "MASA_USDT",
     "base_id": "MASA",
     "quote_id": "USDT",
@@ -9552,7 +9579,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 26000.0
+      "max": 18000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12738,7 +12765,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 23500.0
+      "max": 16500.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -12954,7 +12981,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250000.0
+      "max": 210000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13035,7 +13062,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3700.0
+      "max": 1800.0
     },
     "contract_value": 10000.0,
     "info": {}
