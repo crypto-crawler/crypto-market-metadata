@@ -1074,7 +1074,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2850000.0
+      "max": 2160000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -2343,7 +2343,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 27500.0
+      "max": 16800.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -4854,7 +4854,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000.0
+      "max": 6000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5529,7 +5529,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18000.0
+      "max": 14000.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -7014,7 +7014,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1590000.0
+      "max": 1150000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -7095,7 +7095,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 48000.0
+      "max": 55000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8175,7 +8175,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 22000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -9201,7 +9201,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 14000.0
+      "max": 10000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -11882,6 +11882,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "SPEC_USDT",
+    "base_id": "SPEC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SPEC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 15000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "SPELL_USDT",
     "base_id": "SPELL",
     "quote_id": "USDT",
@@ -13062,7 +13089,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1800.0
+      "max": 875.0
     },
     "contract_value": 10000.0,
     "info": {}
