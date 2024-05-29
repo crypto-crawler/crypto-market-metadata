@@ -12194,6 +12194,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tVELAR:USD",
+    "base_id": "VELAR",
+    "quote_id": "USD",
+    "base": "VELAR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tVELAR:UST",
+    "base_id": "VELAR",
+    "quote_id": "UST",
+    "base": "VELAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 250000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tVELO:USD",
     "base_id": "VELO",
     "quote_id": "USD",
