@@ -264,7 +264,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 5000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -777,7 +777,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1050000.0
+      "max": 780000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1992,7 +1992,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 7000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3045,7 +3045,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7000.0
+      "max": 3500.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -4206,7 +4206,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 200000.0
+      "max": 105000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -7284,7 +7284,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 21500.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -7581,7 +7581,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500.0
+      "max": 700.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -9258,6 +9258,33 @@
       "max": 400000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "NYAN_USDT",
+    "base_id": "NYAN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NYAN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10500.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -13710,7 +13737,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 13200.0
+      "max": 10000.0
     },
     "contract_value": 10.0,
     "info": {}
