@@ -15251,6 +15251,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SATS-USDC",
+    "base_id": "SATS",
+    "quote_id": "USDC",
+    "base": "SATS",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SATS-USDT",
     "base_id": "SATS",
     "quote_id": "USDT",
