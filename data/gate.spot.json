@@ -7629,6 +7629,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BACGAMES_USDT",
+    "base_id": "BACGAMES",
+    "quote_id": "USDT",
+    "base": "BACGAMES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BACON_USDT",
     "base_id": "BACON",
     "quote_id": "USDT",
@@ -52336,6 +52359,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NEXG_USDT",
+    "base_id": "NEXG",
+    "quote_id": "USDT",
+    "base": "NEXG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NEXO_ETH",
     "base_id": "NEXO",
     "quote_id": "ETH",
@@ -65722,6 +65768,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "RUBY_USDT",
+    "base_id": "RUBY",
+    "quote_id": "USDT",
+    "base": "RUBY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
