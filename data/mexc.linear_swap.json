@@ -48,7 +48,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 11500.0
+      "max": 22000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -966,7 +966,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 410000.0
+      "max": 620000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -1020,7 +1020,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 85000.0
+      "max": 120000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3612,7 +3612,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5700.0
+      "max": 4000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3936,7 +3936,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 460000.0
+      "max": 350000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6744,7 +6744,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 820000.0
+      "max": 2400000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -7635,7 +7635,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15500000.0
+      "max": 18500000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9768,7 +9768,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 83000.0
+      "max": 120000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -12638,6 +12638,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "TAIKO_USDT",
+    "base_id": "TAIKO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TAIKO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6500.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "TAO_USDT",
     "base_id": "TAO",
     "quote_id": "USDT",
@@ -14007,7 +14034,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250000.0
+      "max": 500000.0
     },
     "contract_value": 1.0,
     "info": {}
