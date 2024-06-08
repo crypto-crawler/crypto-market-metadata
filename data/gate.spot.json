@@ -39331,6 +39331,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "JUM_USDT",
+    "base_id": "JUM",
+    "quote_id": "USDT",
+    "base": "JUM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "JUP_TRY",
     "base_id": "JUP",
     "quote_id": "TRY",

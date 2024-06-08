@@ -16309,6 +16309,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "XDG/GBP",
+    "base_id": "XXDG",
+    "quote_id": "ZGBP",
+    "base": "DOGE",
+    "quote": "GBP",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "XDG/USD",
     "base_id": "XXDG",
     "quote_id": "ZUSD",
