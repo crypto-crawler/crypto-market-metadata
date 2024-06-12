@@ -3252,6 +3252,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "IOUSDT_UMCBL",
+    "base_id": "IO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "JASMYUSDT_UMCBL",
     "base_id": "JASMY",
     "quote_id": "USDT",
