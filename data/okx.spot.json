@@ -1566,6 +1566,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ATH-USDT",
+    "base_id": "ATH",
+    "quote_id": "USDT",
+    "base": "ATH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ATOM-BTC",
     "base_id": "ATOM",
     "quote_id": "BTC",

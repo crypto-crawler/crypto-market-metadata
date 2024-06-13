@@ -2714,6 +2714,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "athusdt",
+    "base_id": "ath",
+    "quote_id": "usdt",
+    "base": "ATH",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 26253609.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "atmusdt",
     "base_id": "atm",
     "quote_id": "usdt",
@@ -25940,6 +25964,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 4000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "pizzausdt",
+    "base_id": "pizza",
+    "quote_id": "usdt",
+    "base": "PIZZA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 150000.0
     },
     "info": {}
   },
