@@ -1327,7 +1327,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -9157,6 +9157,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BCP_USDT",
+    "base_id": "BCP",
+    "quote_id": "USDT",
+    "base": "BCP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BCUG_ETH",
     "base_id": "BCUG",
     "quote_id": "ETH",
@@ -14918,6 +14941,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CCD_USDT",
+    "base_id": "CCD",
+    "quote_id": "USDT",
+    "base": "CCD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -23667,6 +23713,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DUREV_USDT",
+    "base_id": "DUREV",
+    "quote_id": "USDT",
+    "base": "DUREV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DUSK_ETH",
     "base_id": "DUSK",
     "quote_id": "ETH",
@@ -24999,6 +25068,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "EMBER_USDT",
+    "base_id": "EMBER",
+    "quote_id": "USDT",
+    "base": "EMBER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -58309,6 +58401,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PEIPEI_USDT",
+    "base_id": "PEIPEI",
+    "quote_id": "USDT",
+    "base": "PEIPEI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PENDLE_ETH",
     "base_id": "PENDLE",
     "quote_id": "ETH",
@@ -85521,6 +85636,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XGN_USDT",
+    "base_id": "XGN",
+    "quote_id": "USDT",
+    "base": "XGN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

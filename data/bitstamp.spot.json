@@ -2082,6 +2082,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "gyenusd",
+    "base_id": "GYEN",
+    "quote_id": "USD",
+    "base": "GYEN",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-7
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "hbareur",
     "base_id": "HBAR",
     "quote_id": "EUR",
@@ -4776,6 +4796,26 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "zusdusd",
+    "base_id": "ZUSD",
+    "quote_id": "USD",
+    "base": "ZUSD",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "info": {}
   }
