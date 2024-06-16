@@ -19656,6 +19656,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DADDY_USDT",
+    "base_id": "DADDY",
+    "quote_id": "USDT",
+    "base": "DADDY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DAFI_ETH",
     "base_id": "DAFI",
     "quote_id": "ETH",
