@@ -1058,6 +1058,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tAUSDT:USD",
+    "base_id": "AUSDT",
+    "quote_id": "USD",
+    "base": "AUSDT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tAUSDT:UST",
+    "base_id": "AUSDT",
+    "quote_id": "UST",
+    "base": "AUSDT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 5000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tAVAX:BTC",
     "base_id": "AVAX",
     "quote_id": "BTC",
@@ -13973,7 +14021,7 @@
     "symbol": "tZKXUSD",
     "base_id": "ZKX",
     "quote_id": "USD",
-    "base": "ZKX",
+    "base": "ZK",
     "quote": "USD",
     "active": true,
     "margin": false,
@@ -13997,7 +14045,7 @@
     "symbol": "tZKXUST",
     "base_id": "ZKX",
     "quote_id": "UST",
-    "base": "ZKX",
+    "base": "ZK",
     "quote": "USDT",
     "active": true,
     "margin": false,

@@ -5634,6 +5634,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARTFI_USDT",
+    "base_id": "ARTFI",
+    "quote_id": "USDT",
+    "base": "ARTFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARTY_USDT",
     "base_id": "ARTY",
     "quote_id": "USDT",
@@ -18581,6 +18604,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CST_USDT",
+    "base_id": "CST",
+    "quote_id": "USDT",
+    "base": "CST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -42802,6 +42848,29 @@
     },
     "quantity_limit": {
       "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LEGION_USDT",
+    "base_id": "LEGION",
+    "quote_id": "USDT",
+    "base": "LEGION",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -79147,6 +79216,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "UDAO_USDT",
+    "base_id": "UDAO",
+    "quote_id": "USDT",
+    "base": "UDAO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "UDO_ETH",
     "base_id": "UDO",
     "quote_id": "ETH",
@@ -88935,11 +89027,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.0001
+      "tick_size": 0.001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.0001
+      "min": 0.01
     },
     "info": {}
   },
@@ -88958,7 +89050,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
