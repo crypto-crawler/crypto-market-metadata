@@ -26546,6 +26546,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "porkusdt",
+    "base_id": "pork",
+    "quote_id": "usdt",
+    "base": "PORK",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 7158196134574.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "portalbtc",
     "base_id": "portal",
     "quote_id": "btc",
