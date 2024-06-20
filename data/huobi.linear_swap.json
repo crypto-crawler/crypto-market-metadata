@@ -761,6 +761,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "BEER-USDT",
+    "base_id": "BEER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BEER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "BICO-USDT",
     "base_id": "BICO",
     "quote_id": "USDT",
