@@ -742,6 +742,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "bonkeur",
+    "base_id": "BONK",
+    "quote_id": "EUR",
+    "base": "BONK",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "bonkusd",
+    "base_id": "BONK",
+    "quote_id": "USD",
+    "base": "BONK",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "btceur",
     "base_id": "BTC",
     "quote_id": "EUR",

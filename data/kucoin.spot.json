@@ -21770,6 +21770,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "LISTA-USDT",
+    "base_id": "LISTA",
+    "quote_id": "USDT",
+    "base": "LISTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "LIT-BTC",
     "base_id": "LIT",
     "quote_id": "BTC",
@@ -23222,8 +23246,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -44344,6 +44368,30 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ZRO-USDT",
+    "base_id": "ZRO",
+    "quote_id": "USDT",
+    "base": "ZRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 1.0,

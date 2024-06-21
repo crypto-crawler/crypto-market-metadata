@@ -20840,6 +20840,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ZRO-USDT",
+    "base_id": "ZRO",
+    "quote_id": "USDT",
+    "base": "ZRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ZRX-BTC",
     "base_id": "ZRX",
     "quote_id": "BTC",

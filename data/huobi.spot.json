@@ -38042,6 +38042,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "xzkusdt",
+    "base_id": "xzk",
+    "quote_id": "usdt",
+    "base": "XZK",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 7153075.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "yambtc",
     "base_id": "yam",
     "quote_id": "btc",
@@ -39284,6 +39308,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 3333333.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "zrousdt",
+    "base_id": "zro",
+    "quote_id": "usdt",
+    "base": "ZRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 251256.0
     },
     "info": {}
   },
