@@ -34154,6 +34154,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "SMH-USDT",
+    "base_id": "SMH",
+    "quote_id": "USDT",
+    "base": "SMH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "SMOLE-USDT",
     "base_id": "SMOLE",
     "quote_id": "USDT",
