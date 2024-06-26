@@ -32225,6 +32225,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GEOD_USDT",
+    "base_id": "GEOD",
+    "quote_id": "USDT",
+    "base": "GEOD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GETA_USDT",
     "base_id": "GETA",
     "quote_id": "USDT",
@@ -35869,7 +35892,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
