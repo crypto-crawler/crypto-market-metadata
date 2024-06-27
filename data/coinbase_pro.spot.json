@@ -2562,6 +2562,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BLAST-USD",
+    "base_id": "BLAST",
+    "quote_id": "USD",
+    "base": "BLAST",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BLUR-USD",
     "base_id": "BLUR",
     "quote_id": "USD",
