@@ -58079,6 +58079,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "OWN_USDT",
+    "base_id": "OWN",
+    "quote_id": "USDT",
+    "base": "OWN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "OXT_ETH",
     "base_id": "OXT",
     "quote_id": "ETH",
@@ -68099,6 +68122,29 @@
     },
     "quantity_limit": {
       "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SCRAT_USDT",
+    "base_id": "SCRAT",
+    "quote_id": "USDT",
+    "base": "SCRAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -79018,6 +79064,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TST_USDT",
+    "base_id": "TST",
+    "quote_id": "USDT",
+    "base": "TST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TSUGT_USDT",
     "base_id": "TSUGT",
     "quote_id": "USDT",
@@ -82852,7 +82921,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -89040,6 +89109,29 @@
     "base_id": "ZEUS",
     "quote_id": "USDT",
     "base": "ZEUS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZEX_USDT",
+    "base_id": "ZEX",
+    "quote_id": "USDT",
+    "base": "ZEX",
     "quote": "USDT",
     "active": true,
     "margin": false,

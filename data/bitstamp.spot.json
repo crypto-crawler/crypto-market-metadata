@@ -2182,6 +2182,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "icpeur",
+    "base_id": "ICP",
+    "quote_id": "EUR",
+    "base": "ICP",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "icpusd",
+    "base_id": "ICP",
+    "quote_id": "USD",
+    "base": "ICP",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "imxeur",
     "base_id": "IMX",
     "quote_id": "EUR",

@@ -1820,6 +1820,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "APECOINUSDT_SPBL",
+    "base_id": "APECOIN",
+    "quote_id": "USDT",
+    "base": "APECOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "APEUSDT_SPBL",
     "base_id": "APE",
     "quote_id": "USDT",
@@ -13693,7 +13716,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -17670,7 +17693,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -19704,7 +19727,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -26149,7 +26172,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -28015,6 +28038,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "SWGTUSDT_SPBL",
+    "base_id": "SWGT",
+    "quote_id": "USDT",
+    "base": "SWGT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "SXCHUSDT_SPBL",
     "base_id": "SXCH",
     "quote_id": "USDT",
@@ -29396,6 +29442,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "TSTUSDT_SPBL",
+    "base_id": "TST",
+    "quote_id": "USDT",
+    "base": "TST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },

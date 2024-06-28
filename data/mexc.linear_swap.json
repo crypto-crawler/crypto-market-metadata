@@ -2729,6 +2729,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "BLAST_USDT",
+    "base_id": "BLAST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BLAST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 12000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BLOCK_USDT",
     "base_id": "BLOCK",
     "quote_id": "USDT",
@@ -2775,7 +2802,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 33000.0
+      "max": 52000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5016,7 +5043,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 115000.0
+      "max": 138000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9390,7 +9417,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 17000.0
+      "max": 27000.0
     },
     "contract_value": 10.0,
     "info": {}
