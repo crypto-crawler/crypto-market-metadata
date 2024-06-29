@@ -14973,6 +14973,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CAW_USDT",
+    "base_id": "CAW",
+    "quote_id": "USDT",
+    "base": "CAW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CBAB_USDT",
     "base_id": "CBAB",
     "quote_id": "USDT",
@@ -42489,6 +42512,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LANDWOLF_USDT",
+    "base_id": "LANDWOLF",
+    "quote_id": "USDT",
+    "base": "LANDWOLF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LAND_USDT",
     "base_id": "LAND",
     "quote_id": "USDT",
@@ -47628,7 +47674,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.001
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -54219,6 +54268,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NPC_USDT",
+    "base_id": "NPC",
+    "quote_id": "USDT",
+    "base": "NPC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NPT_USDT",
     "base_id": "NPT",
     "quote_id": "USDT",
@@ -57751,6 +57823,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ORNG_USDT",
+    "base_id": "ORNG",
+    "quote_id": "USDT",
+    "base": "ORNG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
