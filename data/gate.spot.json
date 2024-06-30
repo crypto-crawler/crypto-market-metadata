@@ -83487,6 +83487,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "WATERSOL_USDT",
+    "base_id": "WATERSOL",
+    "quote_id": "USDT",
+    "base": "WATERSOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "WATT_USDT",
     "base_id": "WATT",
     "quote_id": "USDT",
