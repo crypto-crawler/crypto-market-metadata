@@ -68614,6 +68614,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SEAT_USDT",
+    "base_id": "SEAT",
+    "quote_id": "USDT",
+    "base": "SEAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SECOND_USDT",
     "base_id": "SECOND",
     "quote_id": "USDT",
