@@ -729,7 +729,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-9,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1117,7 +1117,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -4819,6 +4819,29 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "BOMBUSDT_SPBL",
+    "base_id": "BOMB",
+    "quote_id": "USDT",
+    "base": "BOMB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -14747,6 +14770,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "JAILUSDT_SPBL",
+    "base_id": "JAIL",
+    "quote_id": "USDT",
+    "base": "JAIL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "JANUSDT_SPBL",
     "base_id": "JAN",
     "quote_id": "USDT",
@@ -23808,6 +23854,29 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "QUBICUSDT_SPBL",
+    "base_id": "QUBIC",
+    "quote_id": "USDT",
+    "base": "QUBIC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0
