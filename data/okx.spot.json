@@ -4602,6 +4602,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "CTC-USDC",
+    "base_id": "CTC",
+    "quote_id": "USDC",
+    "base": "CTC",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "CTC-USDT",
     "base_id": "CTC",
     "quote_id": "USDT",
@@ -7362,6 +7385,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "FRONT-USDC",
+    "base_id": "FRONT",
+    "quote_id": "USDC",
+    "base": "FRONT",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "FRONT-USDT",
     "base_id": "FRONT",
     "quote_id": "USDT",
@@ -7857,11 +7903,11 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -13769,10 +13815,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -18632,6 +18678,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "W-USDC",
+    "base_id": "W",
+    "quote_id": "USDC",
+    "base": "W",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "W-USDT",
     "base_id": "W",
     "quote_id": "USDT",
@@ -20604,6 +20673,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ZENT-USDC",
+    "base_id": "ZENT",
+    "quote_id": "USDC",
+    "base": "ZENT",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
