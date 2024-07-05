@@ -25322,6 +25322,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MOG-USDT",
+    "base_id": "MOG",
+    "quote_id": "USDT",
+    "base": "MOG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100000.0,
+      "max": 1000000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MON-USDT",
     "base_id": "MON",
     "quote_id": "USDT",

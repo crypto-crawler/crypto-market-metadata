@@ -10430,6 +10430,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BILLY_USDT",
+    "base_id": "BILLY",
+    "quote_id": "USDT",
+    "base": "BILLY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BIN_ETH",
     "base_id": "BIN",
     "quote_id": "ETH",
@@ -36064,6 +36087,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HIVP_USDT",
+    "base_id": "HIVP",
+    "quote_id": "USDT",
+    "base": "HIVP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HLG_USDT",
     "base_id": "HLG",
     "quote_id": "USDT",
@@ -56423,6 +56469,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "OM_TRY",
+    "base_id": "OM",
+    "quote_id": "TRY",
+    "base": "OM",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
