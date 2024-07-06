@@ -23728,6 +23728,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DROPS_USDT",
+    "base_id": "DROPS",
+    "quote_id": "USDT",
+    "base": "DROPS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DSD_ETH",
     "base_id": "DSD",
     "quote_id": "ETH",
