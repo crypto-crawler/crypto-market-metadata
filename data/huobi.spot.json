@@ -9818,6 +9818,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "dopusdt",
+    "base_id": "dop",
+    "quote_id": "usdt",
+    "base": "DOP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 40000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "dorausdt",
     "base_id": "dora",
     "quote_id": "usdt",
