@@ -4889,6 +4889,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DOP_USDT",
+    "base_id": "DOP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DOP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 17000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "DORA_USDT",
     "base_id": "DORA",
     "quote_id": "USDT",
@@ -7338,7 +7365,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 600000.0
+      "max": 2000000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -8445,7 +8472,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 120000.0
+      "max": 80000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9201,7 +9228,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 21000.0
+      "max": 60000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -12954,7 +12981,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 35000.0
+      "max": 23000.0
     },
     "contract_value": 1.0,
     "info": {}

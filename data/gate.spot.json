@@ -6781,6 +6781,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ATRS_USDT",
+    "base_id": "ATRS",
+    "quote_id": "USDT",
+    "base": "ATRS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ATR_USDT",
     "base_id": "ATR",
     "quote_id": "USDT",
@@ -33228,6 +33251,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GMWAGMI_USDT",
+    "base_id": "GMWAGMI",
+    "quote_id": "USDT",
+    "base": "GMWAGMI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
