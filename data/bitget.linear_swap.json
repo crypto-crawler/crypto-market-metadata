@@ -4422,6 +4422,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "MOCAUSDT_UMCBL",
+    "base_id": "MOCA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MOCA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "MOVRUSDT_UMCBL",
     "base_id": "MOVR",
     "quote_id": "USDT",
