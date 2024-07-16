@@ -1001,6 +1001,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "AERO_USDT",
+    "base_id": "AERO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AERO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3750.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "AEVO_USDT",
     "base_id": "AEVO",
     "quote_id": "USDT",
@@ -1020,7 +1047,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 375000.0
+      "max": 225000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3693,7 +3720,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 14000.0
+      "max": 6000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -4071,7 +4098,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 340000.0
+      "max": 270000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4233,7 +4260,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000000.0
+      "max": 20000000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -4476,7 +4503,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1750000.0
+      "max": 1400000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5664,7 +5691,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 24000.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -8256,7 +8283,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 650000.0
+      "max": 520000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -9228,7 +9255,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 74000.0
+      "max": 60000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9822,7 +9849,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18000.0
+      "max": 11000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10173,7 +10200,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 420000.0
+      "max": 340000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10551,7 +10578,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 16000.0
+      "max": 11500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13359,7 +13386,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 240000.0
     },
     "contract_value": 10.0,
     "info": {}

@@ -4832,6 +4832,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "CXT-USDT",
+    "base_id": "CXT",
+    "quote_id": "USDT",
+    "base": "CXT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "DAI-USDT",
     "base_id": "DAI",
     "quote_id": "USDT",
@@ -14808,6 +14831,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "RENDER-USDT",
+    "base_id": "RENDER",
+    "quote_id": "USDT",
+    "base": "RENDER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

@@ -5013,6 +5013,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BOOMUSDT_SPBL",
+    "base_id": "BOOM",
+    "quote_id": "USDT",
+    "base": "BOOM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BOOUSDT_SPBL",
     "base_id": "BOO",
     "quote_id": "USDT",
@@ -27349,6 +27372,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "SPIKEUSDT_SPBL",
+    "base_id": "SPIKE",
+    "quote_id": "USDT",
+    "base": "SPIKE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "SPIRITUSDT_SPBL",
     "base_id": "SPIRIT",
     "quote_id": "USDT",
@@ -30704,7 +30750,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
