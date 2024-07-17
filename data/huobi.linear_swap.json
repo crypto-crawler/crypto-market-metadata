@@ -3268,6 +3268,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "MOCA-USDT",
+    "base_id": "MOCA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MOCA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "MTL-USDT",
     "base_id": "MTL",
     "quote_id": "USDT",
