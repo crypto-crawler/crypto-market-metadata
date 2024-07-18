@@ -453,6 +453,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "A8_USDT",
+    "base_id": "A8",
+    "quote_id": "USDT",
+    "base": "A8",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AAA_ETH",
     "base_id": "AAA",
     "quote_id": "ETH",
@@ -83918,6 +83941,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WATER_USDT",
+    "base_id": "WATER",
+    "quote_id": "USDT",
+    "base": "WATER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },

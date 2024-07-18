@@ -117,6 +117,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "A8-USD",
+    "base_id": "A8",
+    "quote_id": "USD",
+    "base": "A8",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "AAVE-BTC",
     "base_id": "AAVE",
     "quote_id": "BTC",

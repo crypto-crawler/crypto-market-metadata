@@ -3728,6 +3728,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "DOP_USDT",
+    "base_id": "DOP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DOP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "DOT_USDT",
     "base_id": "DOT",
     "quote_id": "USDT",
@@ -4801,6 +4828,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "FTN_USDT",
+    "base_id": "FTN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FTN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -12255,6 +12309,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "TAI_USDT",
+    "base_id": "TAI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TAI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

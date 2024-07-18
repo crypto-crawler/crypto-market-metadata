@@ -12482,6 +12482,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tUXLINK:USD",
+    "base_id": "UXLINK",
+    "quote_id": "USD",
+    "base": "UXLINK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tUXLINK:UST",
+    "base_id": "UXLINK",
+    "quote_id": "UST",
+    "base": "UXLINK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tVEEUSD",
     "base_id": "VEE",
     "quote_id": "USD",
