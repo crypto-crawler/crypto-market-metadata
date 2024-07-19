@@ -18609,6 +18609,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "UXLINK-USDT",
+    "base_id": "UXLINK",
+    "quote_id": "USDT",
+    "base": "UXLINK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "VALUE-USDT",
     "base_id": "VALUE",
     "quote_id": "USDT",

@@ -5306,6 +5306,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "UXLINK-USDT-SWAP",
+    "base_id": "UXLINK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UXLINK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "VELO-USDT-SWAP",
     "base_id": "VELO",
     "quote_id": "USDT",

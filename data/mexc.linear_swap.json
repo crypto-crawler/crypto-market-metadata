@@ -1371,7 +1371,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4100000.0
+      "max": 2700000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -4368,7 +4368,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2400000.0
+      "max": 1950000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6366,7 +6366,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 270000.0
+      "max": 150000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -6690,7 +6690,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 120000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -7662,7 +7662,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7000.0
+      "max": 10000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -8310,7 +8310,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 70000.0
+      "max": 56000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12036,7 +12036,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60000000.0
+      "max": 36000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -13548,7 +13548,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 32000.0
+      "max": 23000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -13738,6 +13738,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "UXLINK_USDT",
+    "base_id": "UXLINK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UXLINK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 30000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -14817,7 +14844,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 880000.0
+      "max": 710000.0
     },
     "contract_value": 1.0,
     "info": {}
