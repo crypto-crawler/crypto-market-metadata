@@ -1458,6 +1458,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "BONDUSDT_UMCBL",
+    "base_id": "BOND",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BOND",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "BRETTUSDT_UMCBL",
     "base_id": "BRETT",
     "quote_id": "USDT",
@@ -2330,7 +2356,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -2803,6 +2829,32 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "GASUSDT_UMCBL",
+    "base_id": "GAS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GAS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}
@@ -5398,7 +5450,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -6533,6 +6585,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "USDC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "UXLINKUSDT_UMCBL",
+    "base_id": "UXLINK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UXLINK",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

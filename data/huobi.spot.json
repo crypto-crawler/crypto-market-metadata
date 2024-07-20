@@ -15194,6 +15194,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "gusdt",
+    "base_id": "g",
+    "quote_id": "usdt",
+    "base": "G",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 22123893.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "gvebtc",
     "base_id": "gve",
     "quote_id": "btc",
