@@ -1016,6 +1016,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "BANANAUSDT_UMCBL",
+    "base_id": "BANANA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BANANA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "BANDUSDT_UMCBL",
     "base_id": "BAND",
     "quote_id": "USDT",

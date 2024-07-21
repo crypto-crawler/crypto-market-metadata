@@ -1911,7 +1911,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 88000.0
+      "max": 70000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -2371,6 +2371,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 800000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "BANANA_USDT",
+    "base_id": "BANANA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BANANA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4250.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -6987,7 +7014,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60000.0
+      "max": 48000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -7311,7 +7338,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 110000.0
+      "max": 88000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9228,7 +9255,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 100000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10227,7 +10254,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 340000.0
+      "max": 270000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11820,7 +11847,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 75000.0
+      "max": 60000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13494,7 +13521,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4000.0
+      "max": 2400.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -15114,7 +15141,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2800000.0
+      "max": 2300000.0
     },
     "contract_value": 10.0,
     "info": {}
