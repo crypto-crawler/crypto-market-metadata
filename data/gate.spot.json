@@ -28336,6 +28336,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FEARNOT_USDT",
+    "base_id": "FEARNOT",
+    "quote_id": "USDT",
+    "base": "FEARNOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FEAR_ETH",
     "base_id": "FEAR",
     "quote_id": "ETH",
