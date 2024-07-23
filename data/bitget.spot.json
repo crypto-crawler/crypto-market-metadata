@@ -16820,6 +16820,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "LIQUIDIUMTOKENUSDT_SPBL",
+    "base_id": "LIQUIDIUMTOKEN",
+    "quote_id": "USDT",
+    "base": "LIQUIDIUMTOKEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "LISTAUSDT_SPBL",
     "base_id": "LISTA",
     "quote_id": "USDT",
@@ -20212,6 +20235,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "NFMUSDT_SPBL",
+    "base_id": "NFM",
+    "quote_id": "USDT",
+    "base": "NFM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
@@ -33947,6 +33993,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "ZKLUSDT_SPBL",
+    "base_id": "ZKL",
+    "quote_id": "USDT",
+    "base": "ZKL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {

@@ -44429,6 +44429,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LIQUIDIUM_USDT",
+    "base_id": "LIQUIDIUM",
+    "quote_id": "USDT",
+    "base": "LIQUIDIUM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LIQUIDUS_ETH",
     "base_id": "LIQUIDUS",
     "quote_id": "ETH",
@@ -75238,6 +75261,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "STRUMP_USDT",
+    "base_id": "STRUMP",
+    "quote_id": "USDT",
+    "base": "STRUMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "STR_ETH",
     "base_id": "STR",
     "quote_id": "ETH",
@@ -90420,6 +90466,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZKL_USDT",
+    "base_id": "ZKL",
+    "quote_id": "USDT",
+    "base": "ZKL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
