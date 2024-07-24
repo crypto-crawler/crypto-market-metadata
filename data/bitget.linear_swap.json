@@ -462,7 +462,7 @@
       "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.7
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}
@@ -4571,6 +4571,32 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "MYROUSDT_UMCBL",
+    "base_id": "MYRO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MYRO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}

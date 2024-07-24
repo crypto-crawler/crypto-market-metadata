@@ -831,7 +831,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6250.0
+      "max": 13000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -2157,6 +2157,33 @@
       "max": 480000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "AVAIL_USDT",
+    "base_id": "AVAIL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AVAIL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4750.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -4746,7 +4773,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 40000.0
+      "max": 100000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -8850,7 +8877,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 38000.0
+      "max": 23000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -10446,6 +10473,33 @@
       "max": 125000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "PIRATE_USDT",
+    "base_id": "PIRATE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PIRATE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4250.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -12117,7 +12171,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18000.0
+      "max": 23000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12657,7 +12711,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000000.0
+      "max": 40000000.0
     },
     "contract_value": 1.0,
     "info": {}

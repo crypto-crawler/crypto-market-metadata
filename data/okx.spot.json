@@ -5039,6 +5039,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "DEGEN-USDT",
+    "base_id": "DEGEN",
+    "quote_id": "USDT",
+    "base": "DEGEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "DEP-USDC",
     "base_id": "DEP",
     "quote_id": "USDC",
@@ -15797,6 +15820,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SLERF-USDT",
+    "base_id": "SLERF",
+    "quote_id": "USDT",
+    "base": "SLERF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
