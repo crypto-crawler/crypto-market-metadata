@@ -8398,6 +8398,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "LRDS-USD",
+    "base_id": "LRDS",
+    "quote_id": "USD",
+    "base": "LRDS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "LSETH-ETH",
     "base_id": "LSETH",
     "quote_id": "ETH",

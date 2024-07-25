@@ -22706,6 +22706,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "LRDS-USDT",
+    "base_id": "LRDS",
+    "quote_id": "USDT",
+    "base": "LRDS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "LSK-BTC",
     "base_id": "LSK",
     "quote_id": "BTC",
@@ -36832,6 +36856,30 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SYNT-USDT",
+    "base_id": "SYNT",
+    "quote_id": "USDT",
+    "base": "SYNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 10.0,
