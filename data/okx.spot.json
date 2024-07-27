@@ -7638,6 +7638,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "G-USDT",
+    "base_id": "G",
+    "quote_id": "USDT",
+    "base": "G",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "GAL-EUR",
     "base_id": "GAL",
     "quote_id": "EUR",
