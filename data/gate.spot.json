@@ -15680,6 +15680,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CENS_USDT",
+    "base_id": "CENS",
+    "quote_id": "USDT",
+    "base": "CENS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CERE_ETH",
     "base_id": "CERE",
     "quote_id": "ETH",
@@ -40953,7 +40976,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -53640,6 +53663,29 @@
     "base_id": "NEER",
     "quote_id": "USDT",
     "base": "NEER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NEIRO_USDT",
+    "base_id": "NEIRO",
+    "quote_id": "USDT",
+    "base": "NEIRO",
     "quote": "USDT",
     "active": true,
     "margin": false,
