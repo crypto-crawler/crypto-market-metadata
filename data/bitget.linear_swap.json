@@ -3994,7 +3994,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -5384,6 +5384,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "POPCATUSDT_UMCBL",
+    "base_id": "POPCAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POPCAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "PORTALUSDT_UMCBL",
     "base_id": "PORTAL",
     "quote_id": "USDT",
@@ -6555,10 +6581,10 @@
     "exchange": "bitget",
     "market_type": "linear_swap",
     "symbol": "TONUSDT_UMCBL",
-    "base_id": "TON",
+    "base_id": "TONCOIN",
     "quote_id": "USDT",
     "settle_id": "USDT",
-    "base": "TON",
+    "base": "TONCOIN",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
