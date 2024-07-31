@@ -12194,6 +12194,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tTURBO:USD",
+    "base_id": "TURBO",
+    "quote_id": "USD",
+    "base": "TURBO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tTURBO:UST",
+    "base_id": "TURBO",
+    "quote_id": "UST",
+    "base": "TURBO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tUDCUSD",
     "base_id": "UDC",
     "quote_id": "USD",

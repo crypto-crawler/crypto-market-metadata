@@ -21314,6 +21314,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "L3-USDT",
+    "base_id": "L3",
+    "quote_id": "USDT",
+    "base": "L3",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "LABS-ETH",
     "base_id": "LABS",
     "quote_id": "ETH",
@@ -22734,6 +22758,30 @@
     "base_id": "LRDS",
     "quote_id": "USDT",
     "base": "LRDS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "LSD-USDT",
+    "base_id": "LSD",
+    "quote_id": "USDT",
+    "base": "LSD",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -36494,8 +36542,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
