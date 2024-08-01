@@ -30368,6 +30368,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FOXSY_USDT",
+    "base_id": "FOXSY",
+    "quote_id": "USDT",
+    "base": "FOXSY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FOXY_USDT",
     "base_id": "FOXY",
     "quote_id": "USDT",
@@ -36767,6 +36790,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HMSTR_USDT",
+    "base_id": "HMSTR",
+    "quote_id": "USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
