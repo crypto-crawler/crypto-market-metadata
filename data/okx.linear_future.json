@@ -23546,6 +23546,33 @@
   {
     "exchange": "okx",
     "market_type": "linear_future",
+    "symbol": "HMSTR-USDT-250207",
+    "base_id": "HMSTR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "delivery_date": 1738915200000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_future",
     "symbol": "LINK-USDT-220304",
     "base_id": "LINK",
     "quote_id": "USDT",
@@ -28177,11 +28204,11 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.001,
-      "lot_size": 1.0
+      "tick_size": 0.0001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 1.0,
     "delivery_date": 1738310400000,
@@ -28195,6 +28222,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "TEST02",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1738915200000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_future",
+    "symbol": "TEST03-USDT-250207",
+    "base_id": "TEST03",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TEST03",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

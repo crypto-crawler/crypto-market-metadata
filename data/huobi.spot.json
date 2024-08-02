@@ -34178,6 +34178,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "tybengusdt",
+    "base_id": "tybeng",
+    "quote_id": "usdt",
+    "base": "TYBENG",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 269541778.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "ucbtc",
     "base_id": "uc",
     "quote_id": "btc",
