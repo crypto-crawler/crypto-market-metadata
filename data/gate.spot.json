@@ -49133,6 +49133,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MAX_USDT",
+    "base_id": "MAX",
+    "quote_id": "USDT",
+    "base": "MAX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MBLK_USDT",
     "base_id": "MBLK",
     "quote_id": "USDT",
@@ -54707,6 +54730,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NEIROETH_USDT",
+    "base_id": "NEIROETH",
+    "quote_id": "USDT",
+    "base": "NEIROETH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -72509,6 +72555,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SKOP_USDT",
+    "base_id": "SKOP",
+    "quote_id": "USDT",
+    "base": "SKOP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SKRT_USDT",
     "base_id": "SKRT",
     "quote_id": "USDT",
@@ -86167,7 +86236,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
