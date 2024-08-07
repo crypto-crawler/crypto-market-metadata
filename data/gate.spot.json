@@ -20346,6 +20346,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CWIF_USDT",
+    "base_id": "CWIF",
+    "quote_id": "USDT",
+    "base": "CWIF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CWS_ETH",
     "base_id": "CWS",
     "quote_id": "ETH",
@@ -20455,6 +20478,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CYBERARENA_USDT",
+    "base_id": "CYBERARENA",
+    "quote_id": "USDT",
+    "base": "CYBERARENA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

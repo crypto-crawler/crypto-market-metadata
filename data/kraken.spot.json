@@ -12698,6 +12698,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "RENDER/EUR",
+    "base_id": "RENDER",
+    "quote_id": "ZEUR",
+    "base": "RENDER",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RENDER/USD",
+    "base_id": "RENDER",
+    "quote_id": "ZUSD",
+    "base": "RENDER",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "REP/ETH",
     "base_id": "XREP",
     "quote_id": "XETH",
