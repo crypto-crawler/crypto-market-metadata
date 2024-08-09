@@ -3889,6 +3889,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CXT/EUR",
+    "base_id": "CXT",
+    "quote_id": "ZEUR",
+    "base": "CXT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CXT/USD",
+    "base_id": "CXT",
+    "quote_id": "ZUSD",
+    "base": "CXT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DAI/EUR",
     "base_id": "DAI",
     "quote_id": "ZEUR",

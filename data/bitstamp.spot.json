@@ -4682,6 +4682,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "xdceur",
+    "base_id": "XDC",
+    "quote_id": "EUR",
+    "base": "XDC",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "xdcusd",
+    "base_id": "XDC",
+    "quote_id": "USD",
+    "base": "XDC",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "xlmbtc",
     "base_id": "XLM",
     "quote_id": "BTC",
