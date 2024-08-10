@@ -54556,6 +54556,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NCN_USDT",
+    "base_id": "NCN",
+    "quote_id": "USDT",
+    "base": "NCN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NCT_ETH",
     "base_id": "NCT",
     "quote_id": "ETH",
@@ -87017,6 +87040,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WHY_USDT",
+    "base_id": "WHY",
+    "quote_id": "USDT",
+    "base": "WHY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
