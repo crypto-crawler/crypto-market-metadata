@@ -1727,6 +1727,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AUCTION/EUR",
+    "base_id": "AUCTION",
+    "quote_id": "ZEUR",
+    "base": "AUCTION",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AUCTION/USD",
+    "base_id": "AUCTION",
+    "quote_id": "ZUSD",
+    "base": "AUCTION",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AUD/JPY",
     "base_id": "ZAUD",
     "quote_id": "ZJPY",
@@ -3561,6 +3607,52 @@
     },
     "quantity_limit": {
       "min": 20.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CPOOL/EUR",
+    "base_id": "CPOOL",
+    "quote_id": "ZEUR",
+    "base": "CPOOL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CPOOL/USD",
+    "base_id": "CPOOL",
+    "quote_id": "ZUSD",
+    "base": "CPOOL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
     },
     "info": {}
   },
@@ -8167,6 +8259,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "KMNO/EUR",
+    "base_id": "KMNO",
+    "quote_id": "ZEUR",
+    "base": "KMNO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "KMNO/USD",
+    "base_id": "KMNO",
+    "quote_id": "ZUSD",
+    "base": "KMNO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "KNC/ETH",
     "base_id": "KNC",
     "quote_id": "XETH",
@@ -12100,6 +12238,98 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PRCL/EUR",
+    "base_id": "PRCL",
+    "quote_id": "ZEUR",
+    "base": "PRCL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PRCL/USD",
+    "base_id": "PRCL",
+    "quote_id": "ZUSD",
+    "base": "PRCL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PRIME/EUR",
+    "base_id": "PRIME",
+    "quote_id": "ZEUR",
+    "base": "PRIME",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PRIME/USD",
+    "base_id": "PRIME",
+    "quote_id": "ZUSD",
+    "base": "PRIME",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PSTAKE/EUR",
     "base_id": "PSTAKE",
     "quote_id": "ZEUR",
@@ -15596,6 +15826,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "TURBO/EUR",
+    "base_id": "TURBO",
+    "quote_id": "ZEUR",
+    "base": "TURBO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 2000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TURBO/USD",
+    "base_id": "TURBO",
+    "quote_id": "ZUSD",
+    "base": "TURBO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 2000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "TUSD/EUR",
     "base_id": "TUSD",
     "quote_id": "ZEUR",
@@ -18189,6 +18465,98 @@
     },
     "quantity_limit": {
       "min": 11.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ZEX/EUR",
+    "base_id": "ZEX",
+    "quote_id": "ZEUR",
+    "base": "ZEX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ZEX/USD",
+    "base_id": "ZEX",
+    "quote_id": "ZUSD",
+    "base": "ZEX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ZK/EUR",
+    "base_id": "ZK",
+    "quote_id": "ZEUR",
+    "base": "ZK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ZK/USD",
+    "base_id": "ZK",
+    "quote_id": "ZUSD",
+    "base": "ZK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },

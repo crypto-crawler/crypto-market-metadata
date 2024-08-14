@@ -5834,6 +5834,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "EPX_USDT",
+    "base_id": "EPX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EPX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 750.0
+    },
+    "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ERN_USDT",
     "base_id": "ERN",
     "quote_id": "USDT",
@@ -5848,12 +5875,12 @@
       "taker": 0.0001
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60000.0
+      "max": 3000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8232,6 +8259,33 @@
       "max": 25000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "KP3R_USDT",
+    "base_id": "KP3R",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KP3R",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1500.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
