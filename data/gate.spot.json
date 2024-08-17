@@ -43315,6 +43315,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "KNINE_USDT",
+    "base_id": "KNINE",
+    "quote_id": "USDT",
+    "base": "KNINE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "KNJ_USDT",
     "base_id": "KNJ",
     "quote_id": "USDT",
@@ -78339,6 +78362,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SWGT_USDT",
+    "base_id": "SWGT",
+    "quote_id": "USDT",
+    "base": "SWGT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

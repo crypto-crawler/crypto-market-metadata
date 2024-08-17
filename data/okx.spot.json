@@ -3199,6 +3199,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BTC-AUD",
+    "base_id": "BTC",
+    "quote_id": "AUD",
+    "base": "BTC",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-7
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BTC-BRL",
     "base_id": "BTC",
     "quote_id": "BRL",
@@ -6758,6 +6781,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ETH-AUD",
+    "base_id": "ETH",
+    "quote_id": "AUD",
+    "base": "ETH",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-7
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -19023,6 +19069,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "USDC-AUD",
+    "base_id": "USDC",
+    "quote_id": "AUD",
+    "base": "USDC",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "USDC-BRL",
     "base_id": "USDC",
     "quote_id": "BRL",
@@ -19132,6 +19201,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "USDT-AUD",
+    "base_id": "USDT",
+    "quote_id": "AUD",
+    "base": "USDT",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
