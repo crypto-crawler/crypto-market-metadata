@@ -55217,6 +55217,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NETMIND_USDT",
+    "base_id": "NETMIND",
+    "quote_id": "USDT",
+    "base": "NETMIND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NETT_USDT",
     "base_id": "NETT",
     "quote_id": "USDT",
