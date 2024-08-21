@@ -347,6 +347,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ACX-USD",
+    "base_id": "ACX",
+    "quote_id": "USD",
+    "base": "ACX",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ADA-BTC",
     "base_id": "ADA",
     "quote_id": "BTC",
@@ -5618,6 +5641,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "EURC-USDC",
+    "base_id": "EURC",
+    "quote_id": "USDC",
+    "base": "EURC",
+    "quote": "USDC",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0

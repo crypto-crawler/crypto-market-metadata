@@ -22106,6 +22106,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "modeusdt",
+    "base_id": "mode",
+    "quote_id": "usdt",
+    "base": "MODE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 45766590.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "mogusdt",
     "base_id": "mog",
     "quote_id": "usdt",
