@@ -2,6 +2,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "0DOG_USDT",
+    "base_id": "0DOG",
+    "quote_id": "USDT",
+    "base": "0DOG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "10SET_USDT",
     "base_id": "10SET",
     "quote_id": "USDT",
@@ -12258,6 +12281,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BN_USDT",
+    "base_id": "BN",
+    "quote_id": "USDT",
+    "base": "BN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -77969,6 +78015,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SUNDOG_USDT",
+    "base_id": "SUNDOG",
+    "quote_id": "USDT",
+    "base": "SUNDOG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SUNNY_ETH",
     "base_id": "SUNNY",
     "quote_id": "ETH",
@@ -81373,6 +81442,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TOSHI_USDT",
+    "base_id": "TOSHI",
+    "quote_id": "USDT",
+    "base": "TOSHI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

@@ -13322,6 +13322,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "fofarusdt",
+    "base_id": "fofar",
+    "quote_id": "usdt",
+    "base": "FOFAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 94339622.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "forbtc",
     "base_id": "for",
     "quote_id": "btc",
@@ -32156,6 +32180,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 35714285.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "suncatusdt",
+    "base_id": "suncat",
+    "quote_id": "usdt",
+    "base": "SUNCAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 107526881.0
     },
     "info": {}
   },
