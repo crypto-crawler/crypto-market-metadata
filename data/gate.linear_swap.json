@@ -542,6 +542,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ALPACA_USDT",
+    "base_id": "ALPACA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ALPACA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ALPHA_USDT",
     "base_id": "ALPHA",
     "quote_id": "USDT",
@@ -2643,6 +2670,33 @@
       "max": 10000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "CAT_USDT",
+    "base_id": "CAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 100000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {
@@ -8561,6 +8615,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "NEIROETH_USDT",
+    "base_id": "NEIROETH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEIROETH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "NEO_USDT",
     "base_id": "NEO",
     "quote_id": "USDT",
@@ -12329,6 +12410,33 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SUNDOG_USDT",
+    "base_id": "SUNDOG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SUNDOG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
