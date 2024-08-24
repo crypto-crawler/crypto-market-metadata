@@ -3912,6 +3912,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "POPCAT-USDT",
+    "base_id": "POPCAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POPCAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "PORTAL-USDT",
     "base_id": "PORTAL",
     "quote_id": "USDT",

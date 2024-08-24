@@ -18864,11 +18864,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.1
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "info": {}
   },
@@ -65182,6 +65182,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PUGGY_USDT",
+    "base_id": "PUGGY",
+    "quote_id": "USDT",
+    "base": "PUGGY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PUMLX_USDT",
     "base_id": "PUMLX",
     "quote_id": "USDT",
@@ -71479,10 +71502,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.001
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 1.0
     },
     "info": {}
   },
@@ -81134,6 +81157,29 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TOK_USDT",
+    "base_id": "TOK",
+    "quote_id": "USDT",
+    "base": "TOK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
