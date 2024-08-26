@@ -453,7 +453,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 40000.0
+      "max": 28000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -3936,7 +3936,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7000.0
+      "max": 10000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -4233,7 +4233,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 130000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -4854,7 +4854,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 20000.0
+      "max": 50000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5934,7 +5934,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000.0
+      "max": 4200.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -6474,7 +6474,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45000.0
+      "max": 70000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -9471,7 +9471,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 130000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10524,7 +10524,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18500.0
+      "max": 21000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -11523,7 +11523,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 195000.0
+      "max": 155000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -12387,7 +12387,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 120000000.0
+      "max": 190000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -14123,6 +14123,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "SUNWUKONG_USDT",
+    "base_id": "SUNWUKONG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SUNWUKONG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1750.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "SUN_USDT",
     "base_id": "SUN",
     "quote_id": "USDT",
@@ -14655,7 +14682,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 340000.0
+      "max": 540000.0
     },
     "contract_value": 1.0,
     "info": {}
