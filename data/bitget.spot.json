@@ -9142,6 +9142,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "DOGSUSDT_SPBL",
+    "base_id": "DOGS",
+    "quote_id": "USDT",
+    "base": "DOGS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "DOGUSDT_SPBL",
     "base_id": "DOG",
     "quote_id": "USDT",
@@ -22151,6 +22174,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "ORDERUSDT_SPBL",
+    "base_id": "ORDER",
+    "quote_id": "USDT",
+    "base": "ORDER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },

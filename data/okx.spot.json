@@ -5752,6 +5752,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "DOGS-USDT",
+    "base_id": "DOGS",
+    "quote_id": "USDT",
+    "base": "DOGS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "DOME-USDC",
     "base_id": "DOME",
     "quote_id": "USDC",
