@@ -44740,6 +44740,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LAZYCAT_USDT",
+    "base_id": "LAZYCAT",
+    "quote_id": "USDT",
+    "base": "LAZYCAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LBA_ETH",
     "base_id": "LBA",
     "quote_id": "ETH",
@@ -68509,6 +68532,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "RFRM_USDT",
+    "base_id": "RFRM",
+    "quote_id": "USDT",
+    "base": "RFRM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
