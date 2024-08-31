@@ -24056,6 +24056,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DOM_USDT",
+    "base_id": "DOM",
+    "quote_id": "USDT",
+    "base": "DOM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DON_USDT",
     "base_id": "DON",
     "quote_id": "USDT",
@@ -47872,6 +47895,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LTD_USDT",
+    "base_id": "LTD",
+    "quote_id": "USDT",
+    "base": "LTD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LTO_ETH",
     "base_id": "LTO",
     "quote_id": "ETH",
@@ -62278,6 +62324,29 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PHIL_USDT",
+    "base_id": "PHIL",
+    "quote_id": "USDT",
+    "base": "PHIL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {

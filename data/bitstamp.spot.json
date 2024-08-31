@@ -1182,6 +1182,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "ctxeur",
+    "base_id": "CTX",
+    "quote_id": "EUR",
+    "base": "CTX",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "ctxusd",
+    "base_id": "CTX",
+    "quote_id": "USD",
+    "base": "CTX",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "cvxeur",
     "base_id": "CVX",
     "quote_id": "EUR",
@@ -2876,6 +2916,46 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "mogeur",
+    "base_id": "MOG",
+    "quote_id": "EUR",
+    "base": "MOG",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "mogusd",
+    "base_id": "MOG",
+    "quote_id": "USD",
+    "base": "MOG",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
     },
     "info": {}
   },
