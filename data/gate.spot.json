@@ -67869,6 +67869,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "REEF_TRY",
+    "base_id": "REEF",
+    "quote_id": "TRY",
+    "base": "REEF",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "REEF_USDT",
     "base_id": "REEF",
     "quote_id": "USDT",
@@ -78831,6 +78854,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SVL_USDT",
+    "base_id": "SVL",
+    "quote_id": "USDT",
+    "base": "SVL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },

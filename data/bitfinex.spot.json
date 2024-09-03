@@ -9770,6 +9770,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tPOLUSD",
+    "base_id": "POL",
+    "quote_id": "USD",
+    "base": "POL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 65000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tPOLUST",
+    "base_id": "POL",
+    "quote_id": "UST",
+    "base": "POL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 65000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tPORTAL:USD",
     "base_id": "PORTAL",
     "quote_id": "USD",
