@@ -7474,6 +7474,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "CPOOLUSDT_SPBL",
+    "base_id": "CPOOL",
+    "quote_id": "USDT",
+    "base": "CPOOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "CREOUSDT_SPBL",
     "base_id": "CREO",
     "quote_id": "USDT",

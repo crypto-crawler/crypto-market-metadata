@@ -10959,6 +10959,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "POL-USD",
+    "base_id": "POL",
+    "quote_id": "USD",
+    "base": "POL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "POLS-USD",
     "base_id": "POLS",
     "quote_id": "USD",

@@ -4682,6 +4682,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "weneur",
+    "base_id": "WEN",
+    "quote_id": "EUR",
+    "base": "WEN",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "wenusd",
+    "base_id": "WEN",
+    "quote_id": "USD",
+    "base": "WEN",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "wifeur",
     "base_id": "WIF",
     "quote_id": "EUR",

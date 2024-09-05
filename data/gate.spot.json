@@ -73705,6 +73705,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SLF_USDT",
+    "base_id": "SLF",
+    "quote_id": "USDT",
+    "base": "SLF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SLG_USDT",
     "base_id": "SLG",
     "quote_id": "USDT",
@@ -86221,6 +86244,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "VISTA_USDT",
+    "base_id": "VISTA",
+    "quote_id": "USDT",
+    "base": "VISTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
