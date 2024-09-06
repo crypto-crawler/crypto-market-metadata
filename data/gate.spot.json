@@ -48619,6 +48619,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MAK_USDT",
+    "base_id": "MAK",
+    "quote_id": "USDT",
+    "base": "MAK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MANA3L_USDT",
     "base_id": "MANA3L",
     "quote_id": "USDT",
@@ -69774,7 +69797,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {

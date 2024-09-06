@@ -9290,6 +9290,33 @@
   {
     "exchange": "okx",
     "market_type": "linear_future",
+    "symbol": "CATI-USDT-250307",
+    "base_id": "CATI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CATI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "delivery_date": 1741334400000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_future",
     "symbol": "DOGS-USDT-250207",
     "base_id": "DOGS",
     "quote_id": "USDT",
