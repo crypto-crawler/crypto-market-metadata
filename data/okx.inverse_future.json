@@ -7562,6 +7562,33 @@
   {
     "exchange": "okx",
     "market_type": "inverse_future",
+    "symbol": "BTC-USD-240920",
+    "base_id": "BTC",
+    "quote_id": "USD",
+    "settle_id": "BTC",
+    "base": "BTC",
+    "quote": "USD",
+    "settle": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
+    "delivery_date": 1726819200000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "inverse_future",
     "symbol": "BTC-USD-240927",
     "base_id": "BTC",
     "quote_id": "USD",
@@ -18870,6 +18897,33 @@
     },
     "contract_value": 10.0,
     "delivery_date": 1726214400000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "inverse_future",
+    "symbol": "ETH-USD-240920",
+    "base_id": "ETH",
+    "quote_id": "USD",
+    "settle_id": "ETH",
+    "base": "ETH",
+    "quote": "USD",
+    "settle": "ETH",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "delivery_date": 1726819200000,
     "info": {}
   },
   {

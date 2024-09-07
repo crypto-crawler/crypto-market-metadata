@@ -14899,6 +14899,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BYIN_USDT",
+    "base_id": "BYIN",
+    "quote_id": "USDT",
+    "base": "BYIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BYN_ETH",
     "base_id": "BYN",
     "quote_id": "ETH",
@@ -15726,6 +15749,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CATI_USDT",
+    "base_id": "CATI",
+    "quote_id": "USDT",
+    "base": "CATI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

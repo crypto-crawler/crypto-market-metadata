@@ -1016,6 +1016,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "BRETT-USDT-SWAP",
+    "base_id": "BRETT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BRETT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "BSV-USDT-SWAP",
     "base_id": "BSV",
     "quote_id": "USDT",
@@ -1167,6 +1193,32 @@
       "min": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "CAT-USDT-SWAP",
+    "base_id": "CAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {
@@ -3767,6 +3819,32 @@
       "min": 0.1
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "NEIROETH-USDT-SWAP",
+    "base_id": "NEIROETH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEIROETH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
