@@ -6455,6 +6455,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "CECUSDT_SPBL",
+    "base_id": "CEC",
+    "quote_id": "USDT",
+    "base": "CEC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "CEEKUSDT_SPBL",
     "base_id": "CEEK",
     "quote_id": "USDT",
@@ -32138,7 +32161,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
