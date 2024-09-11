@@ -21855,6 +21855,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DEFIBOX_USDT",
+    "base_id": "DEFIBOX",
+    "quote_id": "USDT",
+    "base": "DEFIBOX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DEFILAND_ETH",
     "base_id": "DEFILAND",
     "quote_id": "ETH",
