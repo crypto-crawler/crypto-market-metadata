@@ -1442,6 +1442,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "egldeur",
+    "base_id": "EGLD",
+    "quote_id": "EUR",
+    "base": "EGLD",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "egldusd",
+    "base_id": "EGLD",
+    "quote_id": "USD",
+    "base": "EGLD",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "enjeur",
     "base_id": "ENJ",
     "quote_id": "EUR",
