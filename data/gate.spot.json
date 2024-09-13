@@ -40939,6 +40939,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ISLM_USDT",
+    "base_id": "ISLM",
+    "quote_id": "USDT",
+    "base": "ISLM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ISME_USDT",
     "base_id": "ISME",
     "quote_id": "USDT",

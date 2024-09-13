@@ -26882,6 +26882,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "polbtc",
+    "base_id": "pol",
+    "quote_id": "btc",
+    "base": "POL",
+    "quote": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 34535156.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "polcusdt",
     "base_id": "polc",
     "quote_id": "usdt",
@@ -26972,6 +26996,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 821018.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "polusdt",
+    "base_id": "pol",
+    "quote_id": "usdt",
+    "base": "POL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 34535156.0
     },
     "info": {}
   },
