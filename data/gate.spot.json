@@ -15663,6 +15663,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CATEETH_USDT",
+    "base_id": "CATEETH",
+    "quote_id": "USDT",
+    "base": "CATEETH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CATE_USDT",
     "base_id": "CATE",
     "quote_id": "USDT",
@@ -58229,6 +58252,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "OCTA_USDT",
+    "base_id": "OCTA",
+    "quote_id": "USDT",
+    "base": "OCTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
