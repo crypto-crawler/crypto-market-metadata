@@ -13029,7 +13029,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -21813,6 +21813,29 @@
     "base_id": "DDOS",
     "quote_id": "USDT",
     "base": "DDOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DEAI_USDT",
+    "base_id": "DEAI",
+    "quote_id": "USDT",
+    "base": "DEAI",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -51797,6 +51820,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MIRX_USDT",
+    "base_id": "MIRX",
+    "quote_id": "USDT",
+    "base": "MIRX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MIR_ETH",
     "base_id": "MIR",
     "quote_id": "ETH",
@@ -55516,6 +55562,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NEIROCTO_USDT",
+    "base_id": "NEIROCTO",
+    "quote_id": "USDT",
+    "base": "NEIROCTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
