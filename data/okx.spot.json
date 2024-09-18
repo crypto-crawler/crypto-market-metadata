@@ -3199,6 +3199,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BTC-AED",
+    "base_id": "BTC",
+    "quote_id": "AED",
+    "base": "BTC",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-9
+    },
+    "quantity_limit": {
+      "min": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BTC-AUD",
     "base_id": "BTC",
     "quote_id": "AUD",
@@ -6827,6 +6850,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ETH-AED",
+    "base_id": "ETH",
+    "quote_id": "AED",
+    "base": "ETH",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.00001
     },
     "info": {}
   },
@@ -19408,6 +19454,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "USDT-AED",
+    "base_id": "USDT",
+    "quote_id": "AED",
+    "base": "USDT",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
