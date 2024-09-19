@@ -27578,6 +27578,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "NOTAI-USDT",
+    "base_id": "NOTAI",
+    "quote_id": "USDT",
+    "base": "NOTAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "NRFB-BTC",
     "base_id": "NRFB",
     "quote_id": "BTC",
