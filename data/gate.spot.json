@@ -85302,6 +85302,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "USBT_USDT",
+    "base_id": "USBT",
+    "quote_id": "USDT",
+    "base": "USBT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "USDC_USDT",
     "base_id": "USDC",
     "quote_id": "USDT",
