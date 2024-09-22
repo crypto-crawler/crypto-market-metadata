@@ -31495,6 +31495,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FOURCOIN_USDT",
+    "base_id": "FOURCOIN",
+    "quote_id": "USDT",
+    "base": "FOURCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FOUR_USDT",
     "base_id": "FOUR",
     "quote_id": "USDT",
@@ -53866,6 +53889,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MSQ_USDT",
+    "base_id": "MSQ",
+    "quote_id": "USDT",
+    "base": "MSQ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
