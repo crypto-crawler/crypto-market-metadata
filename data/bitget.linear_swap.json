@@ -574,6 +574,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "ALEOUSDT_UMCBL",
+    "base_id": "ALEO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ALEO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "ALGOUSDT_UMCBL",
     "base_id": "ALGO",
     "quote_id": "USDT",
@@ -891,6 +917,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "ARKM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "ARKUSDT_UMCBL",
+    "base_id": "ARK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ARK",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

@@ -22418,6 +22418,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "moodengusdt",
+    "base_id": "moodeng",
+    "quote_id": "usdt",
+    "base": "MOODENG",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 33955857.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "moovusdt",
     "base_id": "moov",
     "quote_id": "usdt",
@@ -36620,6 +36644,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 2141327.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "watusdt",
+    "base_id": "wat",
+    "quote_id": "usdt",
+    "base": "WAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1500000000.0
     },
     "info": {}
   },

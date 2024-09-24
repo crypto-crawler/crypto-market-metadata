@@ -3807,6 +3807,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "COW-USD",
+    "base_id": "COW",
+    "quote_id": "USD",
+    "base": "COW",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "CRO-EUR",
     "base_id": "CRO",
     "quote_id": "EUR",
@@ -15134,6 +15157,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "WELL-USD",
+    "base_id": "WELL",
+    "quote_id": "USD",
+    "base": "WELL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "WLUNA-BTC",
     "base_id": "WLUNA",
     "quote_id": "BTC",
@@ -15945,7 +15991,7 @@
     "quote_id": "USD",
     "base": "ZETACHAIN",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
