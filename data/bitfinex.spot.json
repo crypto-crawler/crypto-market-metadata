@@ -6386,6 +6386,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tHMSTR:USD",
+    "base_id": "HMSTR",
+    "quote_id": "USD",
+    "base": "HMSTR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 600000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tHMSTR:UST",
+    "base_id": "HMSTR",
+    "quote_id": "UST",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 600000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tHMTUSD",
     "base_id": "HMT",
     "quote_id": "USD",
