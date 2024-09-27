@@ -18410,6 +18410,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HMSTR-USDT",
+    "base_id": "HMSTR",
+    "quote_id": "USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HNT-BTC",
     "base_id": "HNT",
     "quote_id": "BTC",
@@ -36758,8 +36782,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,

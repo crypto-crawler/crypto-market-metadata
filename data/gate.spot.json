@@ -34065,6 +34065,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GEEK_USDT",
+    "base_id": "GEEK",
+    "quote_id": "USDT",
+    "base": "GEEK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GEF_USDT",
     "base_id": "GEF",
     "quote_id": "USDT",
@@ -38192,11 +38215,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -62452,6 +62475,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PEOPLEFB_USDT",
+    "base_id": "PEOPLEFB",
+    "quote_id": "USDT",
+    "base": "PEOPLEFB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PEOPLE_TRY",
     "base_id": "PEOPLE",
     "quote_id": "TRY",
@@ -75372,6 +75418,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SNIFT_USDT",
+    "base_id": "SNIFT",
+    "quote_id": "USDT",
+    "base": "SNIFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

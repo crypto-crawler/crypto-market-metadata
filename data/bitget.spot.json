@@ -12613,6 +12613,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "GEEKUSDT_SPBL",
+    "base_id": "GEEK",
+    "quote_id": "USDT",
+    "base": "GEEK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "GEMSUSDT_SPBL",
     "base_id": "GEMS",
     "quote_id": "USDT",
@@ -14339,6 +14362,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "HMSTRUSDT_SPBL",
+    "base_id": "HMSTR",
+    "quote_id": "USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 0.0
@@ -27870,6 +27916,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SNIFTUSDT_SPBL",
+    "base_id": "SNIFT",
+    "quote_id": "USDT",
+    "base": "SNIFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },

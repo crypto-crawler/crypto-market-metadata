@@ -9363,6 +9363,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "HMSTR-USDT",
+    "base_id": "HMSTR",
+    "quote_id": "USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "HNT-USDC",
     "base_id": "HNT",
     "quote_id": "USDC",

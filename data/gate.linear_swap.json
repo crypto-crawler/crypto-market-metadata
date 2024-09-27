@@ -5942,6 +5942,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "HMSTR_USDT",
+    "base_id": "HMSTR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "HNT_USDT",
     "base_id": "HNT",
     "quote_id": "USDT",
