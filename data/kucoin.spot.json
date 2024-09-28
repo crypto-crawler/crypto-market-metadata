@@ -9722,6 +9722,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "DAPP-USDT",
+    "base_id": "DAPP",
+    "quote_id": "USDT",
+    "base": "DAPP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DAPPT-BTC",
     "base_id": "DAPPT",
     "quote_id": "BTC",
@@ -18416,7 +18440,7 @@
     "base": "HMSTR",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -25898,6 +25922,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MOODENG-USDT",
+    "base_id": "MOODENG",
+    "quote_id": "USDT",
+    "base": "MOODENG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MOOV-USDT",
     "base_id": "MOOV",
     "quote_id": "USDT",
@@ -30896,7 +30944,7 @@
     "base": "POL",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
