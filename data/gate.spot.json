@@ -298,6 +298,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "3AC_USDT",
+    "base_id": "3AC",
+    "quote_id": "USDT",
+    "base": "3AC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "3KM_USDT",
     "base_id": "3KM",
     "quote_id": "USDT",
@@ -81856,6 +81879,29 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TIMES_USDT",
+    "base_id": "TIMES",
+    "quote_id": "USDT",
+    "base": "TIMES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
