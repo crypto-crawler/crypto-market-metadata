@@ -14702,7 +14702,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -31467,6 +31467,29 @@
     "base_id": "UNICE",
     "quote_id": "USDT",
     "base": "UNICE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "UNIOUSDT_SPBL",
+    "base_id": "UNIO",
+    "quote_id": "USDT",
+    "base": "UNIO",
     "quote": "USDT",
     "active": true,
     "margin": false,

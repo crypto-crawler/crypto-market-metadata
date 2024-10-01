@@ -4130,6 +4130,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tEIGEN:USD",
+    "base_id": "EIGEN",
+    "quote_id": "USD",
+    "base": "EIGEN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 14000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tEIGEN:UST",
+    "base_id": "EIGEN",
+    "quote_id": "UST",
+    "base": "EIGEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 14000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tENAUSD",
     "base_id": "ENA",
     "quote_id": "USD",

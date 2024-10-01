@@ -2290,6 +2290,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "COSUSDT_UMCBL",
+    "base_id": "COS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "COTIUSDT_UMCBL",
     "base_id": "COTI",
     "quote_id": "USDT",
