@@ -1926,6 +1926,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "EIGEN-USDT-SWAP",
+    "base_id": "EIGEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EIGEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "ELON-USDT-SWAP",
     "base_id": "ELON",
     "quote_id": "USDT",

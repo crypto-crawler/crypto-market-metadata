@@ -26599,6 +26599,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "EIGEN_USDT",
+    "base_id": "EIGEN",
+    "quote_id": "USDT",
+    "base": "EIGEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "EJS_USDT",
     "base_id": "EJS",
     "quote_id": "USDT",
@@ -32517,6 +32540,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FTON_USDT",
+    "base_id": "FTON",
+    "quote_id": "USDT",
+    "base": "FTON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {

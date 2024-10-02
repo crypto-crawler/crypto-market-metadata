@@ -12242,6 +12242,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "EIGEN-USDT",
+    "base_id": "EIGEN",
+    "quote_id": "USDT",
+    "base": "EIGEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ELA-BTC",
     "base_id": "ELA",
     "quote_id": "BTC",
@@ -15356,6 +15380,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "FTON-USDT",
+    "base_id": "FTON",
+    "quote_id": "USDT",
+    "base": "FTON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 1000000000.0
     },
     "info": {}
   },
