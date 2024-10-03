@@ -25177,6 +25177,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "DRINK_USDT",
+    "base_id": "DRINK",
+    "quote_id": "USDT",
+    "base": "DRINK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "DROPS_USDT",
     "base_id": "DROPS",
     "quote_id": "USDT",
