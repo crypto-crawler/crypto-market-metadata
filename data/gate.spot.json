@@ -45361,6 +45361,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LAY3R_USDT",
+    "base_id": "LAY3R",
+    "quote_id": "USDT",
+    "base": "LAY3R",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LAYER_ETH",
     "base_id": "LAYER",
     "quote_id": "ETH",
@@ -47843,6 +47866,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LOULOU_USDT",
+    "base_id": "LOULOU",
+    "quote_id": "USDT",
+    "base": "LOULOU",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
