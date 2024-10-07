@@ -48855,6 +48855,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LUNARLENS_USDT",
+    "base_id": "LUNARLENS",
+    "quote_id": "USDT",
+    "base": "LUNARLENS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LUNA_ETH",
     "base_id": "LUNA",
     "quote_id": "ETH",

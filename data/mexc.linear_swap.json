@@ -2378,6 +2378,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ATM_USDT",
+    "base_id": "ATM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ATM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 13000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ATOM_USDT",
     "base_id": "ATOM",
     "quote_id": "USDT",
@@ -5070,7 +5097,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1150000.0
+      "max": 800000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9139,7 +9166,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0003
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.001,
@@ -9147,7 +9174,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 12000.0
+      "max": 22000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -10632,7 +10659,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 48000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -15060,7 +15087,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1900.0
+      "max": 3000.0
     },
     "contract_value": 100.0,
     "info": {}
