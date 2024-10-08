@@ -453,7 +453,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18000.0
+      "max": 12500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5178,7 +5178,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4500.0
+      "max": 5400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9849,7 +9849,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 630.0
+      "max": 440.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -10443,7 +10443,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 56000.0
+      "max": 45000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -10983,7 +10983,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 22000.0
+      "max": 17000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -11577,7 +11577,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 95000.0
+      "max": 48000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -12306,7 +12306,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 120000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -12930,6 +12930,33 @@
       "max": 17500.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "PYR_USDT",
+    "base_id": "PYR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PYR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 25000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -15141,7 +15168,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 26000.0
+      "max": 21000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -15357,7 +15384,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 48000.0
+      "max": 38000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -15846,6 +15873,33 @@
       "max": 900000.0
     },
     "contract_value": 100000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "TROY_USDT",
+    "base_id": "TROY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TROY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 21000.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {
@@ -16518,7 +16572,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8800.0
+      "max": 10500.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -17571,7 +17625,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1050000.0
+      "max": 840000.0
     },
     "contract_value": 1.0,
     "info": {}

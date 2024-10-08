@@ -33030,6 +33030,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FWOG_USDT",
+    "base_id": "FWOG",
+    "quote_id": "USDT",
+    "base": "FWOG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FXF_ETH",
     "base_id": "FXF",
     "quote_id": "ETH",
@@ -72448,6 +72471,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SCF_USDT",
+    "base_id": "SCF",
+    "quote_id": "USDT",
+    "base": "SCF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
