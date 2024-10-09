@@ -7250,6 +7250,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CATS-USDT",
+    "base_id": "CATS",
+    "quote_id": "USDT",
+    "base": "CATS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CBC-BTC",
     "base_id": "CBC",
     "quote_id": "BTC",
@@ -7768,6 +7792,30 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "CHO-USDT",
+    "base_id": "CHO",
+    "quote_id": "USDT",
+    "base": "CHO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 10.0,
@@ -11246,8 +11294,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 10.0,
@@ -12272,7 +12320,7 @@
     "base": "EIGEN",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -30686,8 +30734,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.0001
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 100.0,
@@ -34070,8 +34118,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 10.0,
@@ -37856,7 +37904,7 @@
     "base": "TAO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

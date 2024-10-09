@@ -15962,6 +15962,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CATS_USDT",
+    "base_id": "CATS",
+    "quote_id": "USDT",
+    "base": "CATS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CAT_USDT",
     "base_id": "CAT",
     "quote_id": "USDT",
@@ -55686,6 +55709,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NAWS_USDT",
+    "base_id": "NAWS",
+    "quote_id": "USDT",
+    "base": "NAWS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NAX_ETH",
     "base_id": "NAX",
     "quote_id": "ETH",
@@ -90582,6 +90628,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WPAY_USDT",
+    "base_id": "WPAY",
+    "quote_id": "USDT",
+    "base": "WPAY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

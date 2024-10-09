@@ -10053,6 +10053,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "MEW/EUR",
+    "base_id": "MEW",
+    "quote_id": "ZEUR",
+    "base": "MEW",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MEW/USD",
+    "base_id": "MEW",
+    "quote_id": "ZUSD",
+    "base": "MEW",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MINA/EUR",
     "base_id": "MINA",
     "quote_id": "ZEUR",
