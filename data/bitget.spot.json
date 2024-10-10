@@ -21741,6 +21741,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "OGLGUSDT_SPBL",
+    "base_id": "OGLG",
+    "quote_id": "USDT",
+    "base": "OGLG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "OGNUSDT_SPBL",
     "base_id": "OGN",
     "quote_id": "USDT",
