@@ -1639,6 +1639,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "CATSUSDTM",
+    "base_id": "CATS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CATS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "CELOUSDTM",
     "base_id": "CELO",
     "quote_id": "USDT",

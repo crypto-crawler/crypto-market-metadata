@@ -6271,6 +6271,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "CARVUSDT_SPBL",
+    "base_id": "CARV",
+    "quote_id": "USDT",
+    "base": "CARV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "CATAUSDT_SPBL",
     "base_id": "CATA",
     "quote_id": "USDT",

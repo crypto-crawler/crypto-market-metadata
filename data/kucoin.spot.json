@@ -7154,6 +7154,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CARV-USDT",
+    "base_id": "CARV",
+    "quote_id": "USDT",
+    "base": "CARV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CAS-BTC",
     "base_id": "CAS",
     "quote_id": "BTC",
@@ -18331,6 +18355,30 @@
     },
     "quantity_limit": {
       "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HIPPO-USDT",
+    "base_id": "HIPPO",
+    "quote_id": "USDT",
+    "base": "HIPPO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
