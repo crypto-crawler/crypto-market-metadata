@@ -53835,6 +53835,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MOODENGETH_USDT",
+    "base_id": "MOODENGETH",
+    "quote_id": "USDT",
+    "base": "MOODENGETH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MOODENG_USDT",
     "base_id": "MOODENG",
     "quote_id": "USDT",
@@ -54904,6 +54927,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MUA_USDT",
+    "base_id": "MUA",
+    "quote_id": "USDT",
+    "base": "MUA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
