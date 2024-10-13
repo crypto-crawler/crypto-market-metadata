@@ -37332,6 +37332,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HAMSTER_USDT",
+    "base_id": "HAMSTER",
+    "quote_id": "USDT",
+    "base": "HAMSTER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HAM_USDT",
     "base_id": "HAM",
     "quote_id": "USDT",
@@ -63227,6 +63250,29 @@
     },
     "precision": {
       "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PEPPER_USDT",
+    "base_id": "PEPPER",
+    "quote_id": "USDT",
+    "base": "PEPPER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -90259,6 +90305,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WMTX_USDT",
+    "base_id": "WMTX",
+    "quote_id": "USDT",
+    "base": "WMTX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
