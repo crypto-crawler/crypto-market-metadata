@@ -37378,6 +37378,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HANA_USDT",
+    "base_id": "HANA",
+    "quote_id": "USDT",
+    "base": "HANA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HAO_BTC",
     "base_id": "HAO",
     "quote_id": "BTC",
@@ -49005,7 +49028,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -71441,6 +71464,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RUNESX_USDT",
+    "base_id": "RUNESX",
+    "quote_id": "USDT",
+    "base": "RUNESX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RUNE_ETH",
     "base_id": "RUNE",
     "quote_id": "ETH",
@@ -75674,6 +75720,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SMILEAI_USDT",
+    "base_id": "SMILEAI",
+    "quote_id": "USDT",
+    "base": "SMILEAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

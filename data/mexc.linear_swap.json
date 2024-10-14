@@ -4187,6 +4187,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "CARV_USDT",
+    "base_id": "CARV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CARV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 400.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "CATDOG_USDT",
     "base_id": "CATDOG",
     "quote_id": "USDT",
@@ -4611,7 +4638,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5200000.0
+      "max": 4200000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -7500,7 +7527,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 24000.0
+      "max": 19000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -8040,7 +8067,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45000.0
+      "max": 22000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10686,7 +10713,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 30000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -16248,7 +16275,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 360000.0
+      "max": 290000.0
     },
     "contract_value": 1.0,
     "info": {}

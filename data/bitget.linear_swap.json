@@ -2030,6 +2030,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "CATSUSDT_UMCBL",
+    "base_id": "CATS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CATS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "CELOUSDT_UMCBL",
     "base_id": "CELO",
     "quote_id": "USDT",
