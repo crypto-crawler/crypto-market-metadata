@@ -14934,11 +14934,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.01
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -21082,6 +21082,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CYCON_USDT",
+    "base_id": "CYCON",
+    "quote_id": "USDT",
+    "base": "CYCON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CYS_ETH",
     "base_id": "CYS",
     "quote_id": "ETH",
@@ -22148,6 +22171,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DEEP_USDT",
+    "base_id": "DEEP",
+    "quote_id": "USDT",
+    "base": "DEEP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -24574,7 +24620,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -34879,7 +34925,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-9,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -47448,7 +47494,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -66749,6 +66795,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PUFFER_USDT",
+    "base_id": "PUFFER",
+    "quote_id": "USDT",
+    "base": "PUFFER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PUGGY_USDT",
     "base_id": "PUGGY",
     "quote_id": "USDT",
@@ -75031,7 +75100,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -84064,6 +84133,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TRKX_USDT",
+    "base_id": "TRKX",
+    "quote_id": "USDT",
+    "base": "TRKX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TROLL_USDT",
     "base_id": "TROLL",
     "quote_id": "USDT",
@@ -91290,11 +91382,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.01
+      "tick_size": 1e-8,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
