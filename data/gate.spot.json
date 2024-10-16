@@ -32892,6 +32892,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FUD_USDT",
+    "base_id": "FUD",
+    "quote_id": "USDT",
+    "base": "FUD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FUEL_ETH",
     "base_id": "FUEL",
     "quote_id": "ETH",
@@ -60083,6 +60106,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "OMNIA_USDT",
+    "base_id": "OMNIA",
+    "quote_id": "USDT",
+    "base": "OMNIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
