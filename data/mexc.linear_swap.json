@@ -2181,7 +2181,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 10000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5205,7 +5205,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4000.0
+      "max": 3200.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5456,6 +5456,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DBR_USDT",
+    "base_id": "DBR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DBR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 20000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "DCERC_USDT",
     "base_id": "DCERC",
     "quote_id": "USDT",
@@ -5556,7 +5583,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 750.0
+      "max": 20000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -5610,7 +5637,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 200000.0
+      "max": 240000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -7670,6 +7697,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "GOAT_USDT",
+    "base_id": "GOAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GOAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 650.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "GODS_USDT",
     "base_id": "GODS",
     "quote_id": "USDT",
@@ -8013,7 +8067,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500.0
+      "max": 1800.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10929,7 +10983,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 48000.0
+      "max": 76000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11280,7 +11334,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 380000.0
+      "max": 450000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13170,7 +13224,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9000.0
+      "max": 14500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13575,7 +13629,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400000.0
+      "max": 42000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -17085,7 +17139,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 350.0
+      "max": 1100.0
     },
     "contract_value": 10000.0,
     "info": {}

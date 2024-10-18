@@ -4165,6 +4165,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "DBR/EUR",
+    "base_id": "DBR",
+    "quote_id": "ZEUR",
+    "base": "DBR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DBR/USD",
+    "base_id": "DBR",
+    "quote_id": "ZUSD",
+    "base": "DBR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DENT/EUR",
     "base_id": "DENT",
     "quote_id": "ZEUR",
