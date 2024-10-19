@@ -782,6 +782,32 @@
   {
     "exchange": "okx",
     "market_type": "inverse_swap",
+    "symbol": "SUI-USD-SWAP",
+    "base_id": "SUI",
+    "quote_id": "USD",
+    "settle_id": "SUI",
+    "base": "SUI",
+    "quote": "USD",
+    "settle": "SUI",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "inverse_swap",
     "symbol": "SUSHI-USD-SWAP",
     "base_id": "SUSHI",
     "quote_id": "USD",
@@ -823,6 +849,32 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "inverse_swap",
+    "symbol": "TON-USD-SWAP",
+    "base_id": "TON",
+    "quote_id": "USD",
+    "settle_id": "TON",
+    "base": "TON",
+    "quote": "USD",
+    "settle": "TON",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {

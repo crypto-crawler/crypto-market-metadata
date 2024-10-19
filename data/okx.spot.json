@@ -2417,6 +2417,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BANANA-USDT",
+    "base_id": "BANANA",
+    "quote_id": "USDT",
+    "base": "BANANA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BAND-USDC",
     "base_id": "BAND",
     "quote_id": "USDC",
