@@ -7799,6 +7799,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "EURC-USDC",
+    "base_id": "EURC",
+    "quote_id": "USDC",
+    "base": "EURC",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "EURT-USDT",
     "base_id": "EURT",
     "quote_id": "USDT",

@@ -3170,6 +3170,30 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tCNHT:USD",
+    "base_id": "CNHT",
+    "quote_id": "USD",
+    "base": "CNHT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 34.0,
+      "max": 350000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tCOMP:USD",
     "base_id": "COMP",
     "quote_id": "USD",
@@ -10820,6 +10844,54 @@
     "quantity_limit": {
       "min": 10.0,
       "max": 200000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSCROLL:USD",
+    "base_id": "SCROLL",
+    "quote_id": "USD",
+    "base": "SCR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tSCROLL:UST",
+    "base_id": "SCROLL",
+    "quote_id": "UST",
+    "base": "SCR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35000.0
     },
     "info": {}
   },
