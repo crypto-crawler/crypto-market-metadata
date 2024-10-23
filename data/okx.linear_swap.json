@@ -4890,6 +4890,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "SCR-USDT-SWAP",
+    "base_id": "SCR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SCR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "SHIB-USDT-SWAP",
     "base_id": "SHIB",
     "quote_id": "USDT",
@@ -5581,10 +5607,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 10000.0,
     "info": {}

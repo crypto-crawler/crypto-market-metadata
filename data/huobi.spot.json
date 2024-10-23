@@ -30410,6 +30410,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "scrusdt",
+    "base_id": "scr",
+    "quote_id": "usdt",
+    "base": "SCR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 769230.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "scusdt",
     "base_id": "sc",
     "quote_id": "usdt",

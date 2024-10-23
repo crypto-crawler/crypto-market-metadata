@@ -27230,6 +27230,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "SCRUSDT_SPBL",
+    "base_id": "SCR",
+    "quote_id": "USDT",
+    "base": "SCR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "SDEXUSDT_SPBL",
     "base_id": "SDEX",
     "quote_id": "USDT",
