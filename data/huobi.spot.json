@@ -12722,6 +12722,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "fartcoinusdt",
+    "base_id": "fartcoin",
+    "quote_id": "usdt",
+    "base": "FARTCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 33046926.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "fct2usdt",
     "base_id": "fct2",
     "quote_id": "usdt",
@@ -31130,6 +31154,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "slopusdt",
+    "base_id": "slop",
+    "quote_id": "usdt",
+    "base": "SLOP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 51229508.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "slothusdt",
     "base_id": "sloth",
     "quote_id": "usdt",
@@ -34142,7 +34190,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "quantity_limit": {

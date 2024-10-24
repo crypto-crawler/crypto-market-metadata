@@ -2394,6 +2394,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "GOAT-USDT",
+    "base_id": "GOAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GOAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "GRT-USDT",
     "base_id": "GRT",
     "quote_id": "USDT",

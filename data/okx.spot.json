@@ -6419,6 +6419,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "DOTR-USDT",
+    "base_id": "DOTR",
+    "quote_id": "USDT",
+    "base": "DOTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "DYDX-BTC",
     "base_id": "DYDX",
     "quote_id": "BTC",
