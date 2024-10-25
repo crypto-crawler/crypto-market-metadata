@@ -2902,6 +2902,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "meweur",
+    "base_id": "MEW",
+    "quote_id": "EUR",
+    "base": "MEW",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "mewusd",
+    "base_id": "MEW",
+    "quote_id": "USD",
+    "base": "MEW",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "mkrbtc",
     "base_id": "MKR",
     "quote_id": "BTC",
@@ -4796,6 +4836,46 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "wooeur",
+    "base_id": "WOO",
+    "quote_id": "EUR",
+    "base": "WOO",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "woousd",
+    "base_id": "WOO",
+    "quote_id": "USD",
+    "base": "WOO",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
     },
     "info": {}
   },

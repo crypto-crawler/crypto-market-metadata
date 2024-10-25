@@ -11393,7 +11393,7 @@
     "base": "KLAY",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -22214,6 +22214,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "X-USDT",
+    "base_id": "X",
+    "quote_id": "USDT",
+    "base": "X",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0
     },
     "info": {}
   },
