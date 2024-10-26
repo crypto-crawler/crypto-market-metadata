@@ -17244,6 +17244,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CHEEMS_USDT",
+    "base_id": "CHEEMS",
+    "quote_id": "USDT",
+    "base": "CHEEMS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CHEQ_USDT",
     "base_id": "CHEQ",
     "quote_id": "USDT",
@@ -69735,6 +69758,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RECT_USDT",
+    "base_id": "RECT",
+    "quote_id": "USDT",
+    "base": "RECT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "REDO_USDT",
     "base_id": "REDO",
     "quote_id": "USDT",
@@ -95269,6 +95315,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZAAR_USDT",
+    "base_id": "ZAAR",
+    "quote_id": "USDT",
+    "base": "ZAAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },

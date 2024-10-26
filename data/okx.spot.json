@@ -3843,6 +3843,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "CAT-USDT",
+    "base_id": "CAT",
+    "quote_id": "USDT",
+    "base": "CAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "CATI-USDC",
     "base_id": "CATI",
     "quote_id": "USDC",
@@ -22226,7 +22249,7 @@
     "base": "X",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

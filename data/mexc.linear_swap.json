@@ -1641,7 +1641,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000000.0
+      "max": 3600000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4395,7 +4395,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 35000.0
+      "max": 50500.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -4614,6 +4614,33 @@
       "max": 130000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "CHEEMS_USDT",
+    "base_id": "CHEEMS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CHEEMS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000.0
+    },
+    "contract_value": 10000000.0,
     "info": {}
   },
   {
@@ -6752,6 +6779,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "FARTCOIN_USDT",
+    "base_id": "FARTCOIN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FARTCOIN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 4500.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "FB_USDT",
     "base_id": "FB",
     "quote_id": "USDT",
@@ -7908,6 +7962,33 @@
       "max": 17000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "GRASS_USDT",
+    "base_id": "GRASS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GRASS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -10119,7 +10200,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5000.0
+      "max": 65000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -10362,7 +10443,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 105000.0
+      "max": 40000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -11086,12 +11167,12 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 76000.0
+      "max": 75000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11415,7 +11496,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 17000.0
+      "max": 20500.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -13764,7 +13845,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000000.0
+      "max": 190000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -14277,7 +14358,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 110000.0
+      "max": 75000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -15573,7 +15654,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 53000.0
+      "max": 35000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -15789,7 +15870,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 240000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -18084,7 +18165,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 100000.0
     },
     "contract_value": 10000.0,
     "info": {}
