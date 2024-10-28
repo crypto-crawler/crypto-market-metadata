@@ -698,6 +698,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "actsolusdt",
+    "base_id": "actsol",
+    "quote_id": "usdt",
+    "base": "ACTSOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 25740025.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "actusdt",
     "base_id": "act",
     "quote_id": "usdt",
@@ -3764,6 +3788,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 90000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "banusdt",
+    "base_id": "ban",
+    "quote_id": "usdt",
+    "base": "BAN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 83333333.0
     },
     "info": {}
   },

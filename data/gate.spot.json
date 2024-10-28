@@ -36198,6 +36198,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GOLDENCAT_USDT",
+    "base_id": "GOLDENCAT",
+    "quote_id": "USDT",
+    "base": "GOLDENCAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GOLDMINER_USDT",
     "base_id": "GOLDMINER",
     "quote_id": "USDT",
