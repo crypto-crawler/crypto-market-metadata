@@ -8974,6 +8974,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BASEBEARCUTE_USDT",
+    "base_id": "BASEBEARCUTE",
+    "quote_id": "USDT",
+    "base": "BASEBEARCUTE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BASEPTL_ETH",
     "base_id": "BASEPTL",
     "quote_id": "ETH",
@@ -36560,6 +36583,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GRASS_USDT",
+    "base_id": "GRASS",
+    "quote_id": "USDT",
+    "base": "GRASS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GRBE_USDT",
     "base_id": "GRBE",
     "quote_id": "USDT",
@@ -43280,6 +43326,52 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KAIA3L_USDT",
+    "base_id": "KAIA3L",
+    "quote_id": "USDT",
+    "base": "KAIA3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KAIA3S_USDT",
+    "base_id": "KAIA3S",
+    "quote_id": "USDT",
+    "base": "KAIA3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
