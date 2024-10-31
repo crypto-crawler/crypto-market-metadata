@@ -45313,6 +45313,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "KRO_USDT",
+    "base_id": "KRO",
+    "quote_id": "USDT",
+    "base": "KRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "KSM3L_USDT",
     "base_id": "KSM3L",
     "quote_id": "USDT",

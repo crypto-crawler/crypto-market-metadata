@@ -20618,6 +20618,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "luceusdt",
+    "base_id": "luce",
+    "quote_id": "usdt",
+    "base": "LUCE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 26136957.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "lunabtc",
     "base_id": "luna",
     "quote_id": "btc",
