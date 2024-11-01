@@ -18314,6 +18314,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "kaiausdt",
+    "base_id": "kaia",
+    "quote_id": "usdt",
+    "base": "KAIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 2343566.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "kaiusdt",
     "base_id": "kai",
     "quote_id": "usdt",
@@ -19142,7 +19166,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "quantity_limit": {
