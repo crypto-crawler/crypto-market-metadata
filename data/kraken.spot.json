@@ -17022,6 +17022,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "USDG/USD",
+    "base_id": "USDG",
+    "quote_id": "ZUSD",
+    "base": "USDG",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDG/USDC",
+    "base_id": "USDG",
+    "quote_id": "USDC",
+    "base": "USDG",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "USDS/EUR",
     "base_id": "USDS",
     "quote_id": "ZEUR",
