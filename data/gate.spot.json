@@ -19120,6 +19120,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "COW_USDT",
+    "base_id": "COW",
+    "quote_id": "USDT",
+    "base": "COW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CPAN_USDT",
     "base_id": "CPAN",
     "quote_id": "USDT",
@@ -76911,11 +76934,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-12,
-      "lot_size": 1.0
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.01
     },
     "info": {}
   },
