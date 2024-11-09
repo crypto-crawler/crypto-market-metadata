@@ -18080,6 +18080,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CLND_USDT",
+    "base_id": "CLND",
+    "quote_id": "USDT",
+    "base": "CLND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CLORE_USDT",
     "base_id": "CLORE",
     "quote_id": "USDT",
@@ -24582,6 +24605,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DOGEGOV_USDT",
+    "base_id": "DOGEGOV",
+    "quote_id": "USDT",
+    "base": "DOGEGOV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
