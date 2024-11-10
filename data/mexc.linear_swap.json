@@ -1020,7 +1020,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 240000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -3099,7 +3099,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 230000.0
+      "max": 200000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -4449,7 +4449,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 210000.0
+      "max": 35000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -4935,7 +4935,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 21000.0
+      "max": 15000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -6231,7 +6231,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000000.0
+      "max": 18000000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -6285,7 +6285,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 450000.0
+      "max": 320000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -6366,7 +6366,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 11000.0
+      "max": 8500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -8229,7 +8229,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 14000.0
+      "max": 10000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -8607,7 +8607,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 725000.0
+      "max": 580000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -8985,7 +8985,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 38000.0
+      "max": 32000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9255,7 +9255,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 130000.0
+      "max": 105000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9282,7 +9282,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 20000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10902,7 +10902,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 200000.0
+      "max": 90000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11172,7 +11172,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 40000.0
+      "max": 32000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -13629,7 +13629,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 21000.0
+      "max": 15000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13791,7 +13791,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 18000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -14223,7 +14223,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 190000000.0
+      "max": 230000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -15087,7 +15087,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 450000.0
+      "max": 220000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -15897,7 +15897,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 80000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -16086,7 +16086,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 650000.0
+      "max": 450000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -17760,7 +17760,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1040.0
+      "max": 1300.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -18759,7 +18759,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 63000.0
+      "max": 45000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -19056,7 +19056,34 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000.0
+      "max": 8000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "ZEX_USDT",
+    "base_id": "ZEX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZEX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3250.0
     },
     "contract_value": 10.0,
     "info": {}
