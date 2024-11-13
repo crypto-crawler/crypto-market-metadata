@@ -24561,10 +24561,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.1
+      "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.001
     },
     "info": {}
   },
@@ -63996,6 +63996,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PEAQ_USDT",
+    "base_id": "PEAQ",
+    "quote_id": "USDT",
+    "base": "PEAQ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PEARL_USDT",
     "base_id": "PEARL",
     "quote_id": "USDT",
@@ -64833,7 +64856,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
