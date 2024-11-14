@@ -278,8 +278,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -11462,8 +11462,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.01,
@@ -23822,8 +23822,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.0001
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -28195,6 +28195,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "NOOB-USDT",
+    "base_id": "NOOB",
+    "quote_id": "USDT",
+    "base": "NOOB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -32582,8 +32606,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -36350,8 +36374,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -39902,8 +39926,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -41275,6 +41299,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "USDC-EUR",
+    "base_id": "USDC",
+    "quote_id": "EUR",
+    "base": "USDC",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -42734,8 +42782,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -44072,7 +44120,7 @@
     "base": "X",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
