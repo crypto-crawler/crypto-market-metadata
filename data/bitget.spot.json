@@ -1993,7 +1993,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -3759,7 +3759,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -5232,7 +5232,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -11164,7 +11164,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -11549,7 +11549,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -12263,6 +12263,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "FREDUSDT_SPBL",
+    "base_id": "FRED",
+    "quote_id": "USDT",
+    "base": "FRED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
@@ -14515,6 +14538,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "HAPPYUSDT_SPBL",
+    "base_id": "HAPPY",
+    "quote_id": "USDT",
+    "base": "HAPPY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "HELLOUSDT_SPBL",
     "base_id": "HELLO",
     "quote_id": "USDT",
@@ -16417,7 +16463,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -17336,7 +17382,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -17689,7 +17735,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.01,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -18490,7 +18536,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -18602,7 +18648,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -20423,7 +20469,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -21744,6 +21790,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "NSUSDT_SPBL",
+    "base_id": "NS",
+    "quote_id": "USDT",
+    "base": "NS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
@@ -23833,7 +23902,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -27294,7 +27363,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -27906,7 +27975,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -28020,6 +28089,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SHOGGOTHUSDT_SPBL",
+    "base_id": "SHOGGOTH",
+    "quote_id": "USDT",
+    "base": "SHOGGOTH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
@@ -31588,7 +31680,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
