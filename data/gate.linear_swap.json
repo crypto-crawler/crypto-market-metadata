@@ -6185,6 +6185,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "HAPPY_USDT",
+    "base_id": "HAPPY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HAPPY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "HBAR_USDT",
     "base_id": "HBAR",
     "quote_id": "USDT",
@@ -12903,6 +12930,33 @@
       "max": 10000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SOLO_USDT",
+    "base_id": "SOLO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SOLO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
