@@ -6050,6 +6050,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "btfusdt",
+    "base_id": "btf",
+    "quote_id": "usdt",
+    "base": "BTF",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 340000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "btgbtc",
     "base_id": "btg",
     "quote_id": "btc",
@@ -11372,6 +11396,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "elizausdt",
+    "base_id": "eliza",
+    "quote_id": "usdt",
+    "base": "ELIZA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 66666666.0
     },
     "info": {}
   },
