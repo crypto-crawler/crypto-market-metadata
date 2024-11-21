@@ -31658,6 +31658,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PNDR-USDT",
+    "base_id": "PNDR",
+    "quote_id": "USDT",
+    "base": "PNDR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "PNT-BTC",
     "base_id": "PNT",
     "quote_id": "BTC",

@@ -1247,6 +1247,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "BANUSDTM",
+    "base_id": "BAN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BAN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "BATUSDTM",
     "base_id": "BAT",
     "quote_id": "USDT",
@@ -2280,6 +2303,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "DEGENUSDTM",
+    "base_id": "DEGEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DEGEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
