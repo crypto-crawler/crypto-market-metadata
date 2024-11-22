@@ -496,6 +496,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "ARKM-USDT-SWAP",
+    "base_id": "ARKM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ARKM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "ASTR-USDT-SWAP",
     "base_id": "ASTR",
     "quote_id": "USDT",
@@ -1687,6 +1713,32 @@
       "min": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "DEGEN-USDT-SWAP",
+    "base_id": "DEGEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DEGEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -5067,6 +5119,32 @@
       "min": 0.1
     },
     "contract_value": 1000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "SLERF-USDT-SWAP",
+    "base_id": "SLERF",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SLERF",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

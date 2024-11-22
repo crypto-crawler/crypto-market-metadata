@@ -5798,6 +5798,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "EURQ/EUR",
+    "base_id": "EURQ",
+    "quote_id": "ZEUR",
+    "base": "EURQ",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EURQ/USD",
+    "base_id": "EURQ",
+    "quote_id": "ZUSD",
+    "base": "EURQ",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "EURT/EUR",
     "base_id": "EURT",
     "quote_id": "ZEUR",
@@ -10829,6 +10875,52 @@
     },
     "quantity_limit": {
       "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MORPHO/EUR",
+    "base_id": "MORPHO",
+    "quote_id": "ZEUR",
+    "base": "MORPHO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MORPHO/USD",
+    "base_id": "MORPHO",
+    "quote_id": "ZUSD",
+    "base": "MORPHO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
@@ -17280,6 +17372,75 @@
     "quote_id": "USDC",
     "base": "USDG",
     "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDQ/USD",
+    "base_id": "USDQ",
+    "quote_id": "ZUSD",
+    "base": "USDQ",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDQ/USDC",
+    "base_id": "USDQ",
+    "quote_id": "USDC",
+    "base": "USDQ",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDQ/USDT",
+    "base_id": "USDQ",
+    "quote_id": "USDT",
+    "base": "USDQ",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {

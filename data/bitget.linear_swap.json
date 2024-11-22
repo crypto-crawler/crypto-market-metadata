@@ -6008,6 +6008,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "MORPHOUSDT_UMCBL",
+    "base_id": "MORPHO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MORPHO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "MOVRUSDT_UMCBL",
     "base_id": "MOVR",
     "quote_id": "USDT",
@@ -7869,6 +7895,32 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "SCRTUSDT_UMCBL",
+    "base_id": "SCRT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SCRT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {

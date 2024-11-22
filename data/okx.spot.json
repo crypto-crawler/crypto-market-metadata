@@ -1618,7 +1618,7 @@
     "base": "ARKM",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -5850,7 +5850,7 @@
     "base": "DEGEN",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -14124,6 +14124,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "MORPHO-USDT",
+    "base_id": "MORPHO",
+    "quote_id": "USDT",
+    "base": "MORPHO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "MOVEZ-USDC",
     "base_id": "MOVEZ",
     "quote_id": "USDC",
@@ -18523,7 +18546,7 @@
     "base": "SLERF",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
