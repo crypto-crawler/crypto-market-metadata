@@ -11672,6 +11672,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BITCAT_USDT",
+    "base_id": "BITCAT",
+    "quote_id": "USDT",
+    "base": "BITCAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BITCI_USDT",
     "base_id": "BITCI",
     "quote_id": "USDT",
@@ -14943,7 +14966,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -52994,6 +53017,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MEMEFI_USDT",
+    "base_id": "MEMEFI",
+    "quote_id": "USDT",
+    "base": "MEMEFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MEMERUNE_USDT",
     "base_id": "MEMERUNE",
     "quote_id": "USDT",
@@ -53528,6 +53574,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ME_USDT",
+    "base_id": "ME",
+    "quote_id": "USDT",
+    "base": "ME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -71382,6 +71451,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "REKTCOIN_USDT",
+    "base_id": "REKTCOIN",
+    "quote_id": "USDT",
+    "base": "REKTCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },

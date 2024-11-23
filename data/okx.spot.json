@@ -13526,6 +13526,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "MEMEFI-USDC",
+    "base_id": "MEMEFI",
+    "quote_id": "USDC",
+    "base": "MEMEFI",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "MEMEFI-USDT",
+    "base_id": "MEMEFI",
+    "quote_id": "USDT",
+    "base": "MEMEFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "MENGO-USDT",
     "base_id": "MENGO",
     "quote_id": "USDT",
@@ -15326,7 +15372,7 @@
     "base": "OL",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
