@@ -15386,6 +15386,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FRED-USDT",
+    "base_id": "FRED",
+    "quote_id": "USDT",
+    "base": "FRED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FRM-USDT",
     "base_id": "FRM",
     "quote_id": "USDT",
@@ -17803,6 +17827,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HAPPY-USDT",
+    "base_id": "HAPPY",
+    "quote_id": "USDT",
+    "base": "HAPPY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -34778,6 +34826,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RWA-USDT",
+    "base_id": "RWA",
+    "quote_id": "USDT",
+    "base": "RWA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "SAFE-USDT",
     "base_id": "SAFE",
     "quote_id": "USDT",
@@ -46915,6 +46987,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ZRC-USDT",
+    "base_id": "ZRC",
+    "quote_id": "USDT",
+    "base": "ZRC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}

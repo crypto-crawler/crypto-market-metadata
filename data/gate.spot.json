@@ -40354,7 +40354,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -73807,6 +73807,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RWA_USDT",
+    "base_id": "RWA",
+    "quote_id": "USDT",
+    "base": "RWA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SAFEMARS_USDT",
     "base_id": "SAFEMARS",
     "quote_id": "USDT",
@@ -76141,7 +76164,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -81043,6 +81066,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "STIX_USDT",
+    "base_id": "STIX",
+    "quote_id": "USDT",
+    "base": "STIX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "STI_USDT",
     "base_id": "STI",
     "quote_id": "USDT",
@@ -84688,6 +84734,52 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TIA3L_USDT",
+    "base_id": "TIA3L",
+    "quote_id": "USDT",
+    "base": "TIA3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TIA3S_USDT",
+    "base_id": "TIA3S",
+    "quote_id": "USDT",
+    "base": "TIA3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
