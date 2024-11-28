@@ -19298,6 +19298,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "l3usdt",
+    "base_id": "l3",
+    "quote_id": "usdt",
+    "base": "L3",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1176470.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "ladysusdt",
     "base_id": "ladys",
     "quote_id": "usdt",
@@ -20539,7 +20563,7 @@
     },
     "quantity_limit": {
       "min": 0.001,
-      "max": 30303.0
+      "max": 500000000.0
     },
     "info": {}
   },

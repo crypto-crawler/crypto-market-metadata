@@ -4757,6 +4757,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "MEMEFIUSDTM",
+    "base_id": "MEMEFI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MEMEFI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "MEMEUSDTM",
     "base_id": "MEME",
     "quote_id": "USDT",
@@ -8510,6 +8533,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "ZRCUSDTM",
+    "base_id": "ZRC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZRC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 10.0,

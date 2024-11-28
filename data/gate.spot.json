@@ -40020,6 +40020,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HOLD_USDT",
+    "base_id": "HOLD",
+    "quote_id": "USDT",
+    "base": "HOLD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HOME_USDT",
     "base_id": "HOME",
     "quote_id": "USDT",
@@ -65672,6 +65695,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PFT_USDT",
+    "base_id": "PFT",
+    "quote_id": "USDT",
+    "base": "PFT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PGC_USDT",
     "base_id": "PGC",
     "quote_id": "USDT",
@@ -66643,6 +66689,29 @@
     },
     "quantity_limit": {
       "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PLENA_USDT",
+    "base_id": "PLENA",
+    "quote_id": "USDT",
+    "base": "PLENA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -82779,6 +82848,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SUPRA_USDT",
+    "base_id": "SUPRA",
+    "quote_id": "USDT",
+    "base": "SUPRA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SUP_USDT",
     "base_id": "SUP",
     "quote_id": "USDT",
@@ -84871,11 +84963,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 1.0
+      "tick_size": 0.001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.01
     },
     "info": {}
   },
@@ -93555,6 +93647,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "WOD_USDT",
+    "base_id": "WOD",
+    "quote_id": "USDT",
+    "base": "WOD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "WOJAK_USDT",
     "base_id": "WOJAK",
     "quote_id": "USDT",
@@ -96094,10 +96209,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 1.0
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.01
     },
     "info": {}
   },
