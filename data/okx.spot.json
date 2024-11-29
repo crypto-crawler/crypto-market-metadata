@@ -1635,6 +1635,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ARTY-USDC",
+    "base_id": "ARTY",
+    "quote_id": "USDC",
+    "base": "ARTY",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ARTY-USDT",
     "base_id": "ARTY",
     "quote_id": "USDT",
@@ -2868,6 +2891,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "BIGTIME-USDC",
+    "base_id": "BIGTIME",
+    "quote_id": "USDC",
+    "base": "BIGTIME",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 10.0
@@ -11226,6 +11272,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "KAIA-USDC",
+    "base_id": "KAIA",
+    "quote_id": "USDC",
+    "base": "KAIA",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "KAIA-USDT",
     "base_id": "KAIA",
     "quote_id": "USDT",
@@ -13135,6 +13204,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "MAJOR-USDC",
+    "base_id": "MAJOR",
+    "quote_id": "USDC",
+    "base": "MAJOR",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "MAJOR-USDT",
+    "base_id": "MAJOR",
+    "quote_id": "USDT",
+    "base": "MAJOR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "MANA-BTC",
     "base_id": "MANA",
     "quote_id": "BTC",
@@ -14164,6 +14279,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "MORPHO-USDC",
+    "base_id": "MORPHO",
+    "quote_id": "USDC",
+    "base": "MORPHO",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -17794,10 +17932,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -18258,6 +18396,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SCR-USDC",
+    "base_id": "SCR",
+    "quote_id": "USDC",
+    "base": "SCR",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -19109,6 +19270,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SPURS-USDC",
+    "base_id": "SPURS",
+    "quote_id": "USDC",
+    "base": "SPURS",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -24261,6 +24445,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ZEUS-USDC",
+    "base_id": "ZEUS",
+    "quote_id": "USDC",
+    "base": "ZEUS",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
