@@ -13082,6 +13082,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tUSTBL:USD",
+    "base_id": "USTBL",
+    "quote_id": "USD",
+    "base": "USTBL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tUSTBL:UST",
+    "base_id": "USTBL",
+    "quote_id": "UST",
+    "base": "USTBL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tUSTUSD",
     "base_id": "UST",
     "quote_id": "USD",

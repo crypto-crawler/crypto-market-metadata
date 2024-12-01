@@ -94,6 +94,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "1DOLLAR_USDT",
+    "base_id": "1DOLLAR",
+    "quote_id": "USDT",
+    "base": "1DOLLAR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "1EARTH_USDT",
     "base_id": "1EARTH",
     "quote_id": "USDT",
@@ -10935,6 +10958,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BELLS_USDT",
+    "base_id": "BELLS",
+    "quote_id": "USDT",
+    "base": "BELLS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -28532,10 +28578,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 1.0
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.01
     },
     "info": {}
   },
@@ -50391,7 +50437,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -98485,6 +98531,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ZEREBRO_USDT",
+    "base_id": "ZEREBRO",
+    "quote_id": "USDT",
+    "base": "ZEREBRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
