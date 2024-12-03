@@ -2761,6 +2761,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIXBT_USDT",
+    "base_id": "AIXBT",
+    "quote_id": "USDT",
+    "base": "AIXBT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIX_USDT",
     "base_id": "AIX",
     "quote_id": "USDT",
@@ -7764,6 +7787,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "AVAAI_USDT",
+    "base_id": "AVAAI",
+    "quote_id": "USDT",
+    "base": "AVAAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -28600,7 +28646,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -37200,6 +37246,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GOUT_USDT",
+    "base_id": "GOUT",
+    "quote_id": "USDT",
+    "base": "GOUT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -64496,6 +64565,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PAI_USDT",
+    "base_id": "PAI",
+    "quote_id": "USDT",
+    "base": "PAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
