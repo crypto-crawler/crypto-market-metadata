@@ -11847,6 +11847,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "OMNI/EUR",
+    "base_id": "OMNI",
+    "quote_id": "ZEUR",
+    "base": "OMNI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "OMNI/USD",
+    "base_id": "OMNI",
+    "quote_id": "ZUSD",
+    "base": "OMNI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ONDO/EUR",
     "base_id": "ONDO",
     "quote_id": "ZEUR",
