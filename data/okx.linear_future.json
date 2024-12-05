@@ -25625,6 +25625,33 @@
   {
     "exchange": "okx",
     "market_type": "linear_future",
+    "symbol": "HYPE-USDT-250606",
+    "base_id": "HYPE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HYPE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.1,
+    "delivery_date": 1749196800000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_future",
     "symbol": "LINK-USDT-220304",
     "base_id": "LINK",
     "quote_id": "USDT",
