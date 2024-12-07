@@ -7799,6 +7799,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ETH-USD",
+    "base_id": "ETH",
+    "quote_id": "USD",
+    "base": "ETH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ETH-USDC",
     "base_id": "ETH",
     "quote_id": "USDC",
@@ -19138,6 +19161,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SOL-USD",
+    "base_id": "SOL",
+    "quote_id": "USD",
+    "base": "SOL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SOL-USDC",
     "base_id": "SOL",
     "quote_id": "USDC",
@@ -24664,7 +24710,7 @@
     "base": "ZKJ",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

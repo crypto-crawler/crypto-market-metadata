@@ -245,6 +245,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ACX_USDT",
+    "base_id": "ACX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ACX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ADA_USDT",
     "base_id": "ADA",
     "quote_id": "USDT",
@@ -5969,6 +5996,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "F_USDT",
+    "base_id": "F",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "F",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "GALA_USDT",
     "base_id": "GALA",
     "quote_id": "USDT",
@@ -11283,6 +11337,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "ORCA_USDT",
+    "base_id": "ORCA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ORCA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {

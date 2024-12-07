@@ -32282,6 +32282,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "sovrnusdt",
+    "base_id": "sovrn",
+    "quote_id": "usdt",
+    "base": "SOVRN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 51733057.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "sparkletusdt",
     "base_id": "sparklet",
     "quote_id": "usdt",
