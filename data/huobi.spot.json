@@ -29186,6 +29186,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "rayusdt",
+    "base_id": "ray",
+    "quote_id": "usdt",
+    "base": "RAY",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 110000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "rcccbtc",
     "base_id": "rccc",
     "quote_id": "btc",
@@ -39139,7 +39163,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1245330012.0
+      "max": 3344481605351.0
     },
     "info": {}
   },

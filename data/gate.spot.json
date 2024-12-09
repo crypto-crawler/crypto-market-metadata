@@ -11468,6 +11468,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BGSC_USDT",
+    "base_id": "BGSC",
+    "quote_id": "USDT",
+    "base": "BGSC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BGT_USDT",
     "base_id": "BGT",
     "quote_id": "USDT",
@@ -80991,6 +81014,29 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SPX_USDT",
+    "base_id": "SPX",
+    "quote_id": "USDT",
+    "base": "SPX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
