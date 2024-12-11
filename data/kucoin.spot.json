@@ -4310,8 +4310,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
@@ -20822,8 +20822,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
@@ -21811,6 +21811,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "KIP-USDT",
+    "base_id": "KIP",
+    "quote_id": "USDT",
+    "base": "KIP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -24206,8 +24230,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
@@ -25802,6 +25826,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ME-USDT",
+    "base_id": "ME",
+    "quote_id": "USDT",
+    "base": "ME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MELOS-USDT",
     "base_id": "MELOS",
     "quote_id": "USDT",
@@ -27139,6 +27187,30 @@
     },
     "quantity_limit": {
       "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MOZ-USDT",
+    "base_id": "MOZ",
+    "quote_id": "USDT",
+    "base": "MOZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -32174,8 +32246,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 1.0,
@@ -41587,6 +41659,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "U2U-USDT",
+    "base_id": "U2U",
+    "quote_id": "USDT",
+    "base": "U2U",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}

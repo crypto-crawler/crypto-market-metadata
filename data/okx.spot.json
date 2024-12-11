@@ -13664,6 +13664,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ME-USDT",
+    "base_id": "ME",
+    "quote_id": "USDT",
+    "base": "ME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "MEME-USDT",
     "base_id": "MEME",
     "quote_id": "USDT",
@@ -14406,7 +14429,7 @@
     "base": "MOVE",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -19138,6 +19161,75 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SOL-AED",
+    "base_id": "SOL",
+    "quote_id": "AED",
+    "base": "SOL",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-7
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SOL-AUD",
+    "base_id": "SOL",
+    "quote_id": "AUD",
+    "base": "SOL",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SOL-BRL",
+    "base_id": "SOL",
+    "quote_id": "BRL",
+    "base": "SOL",
+    "quote": "BRL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SOL-BTC",
     "base_id": "SOL",
     "quote_id": "BTC",
@@ -19201,6 +19293,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SOL-TRY",
+    "base_id": "SOL",
+    "quote_id": "TRY",
+    "base": "SOL",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-7
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -23623,6 +23738,75 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "XRP-AED",
+    "base_id": "XRP",
+    "quote_id": "AED",
+    "base": "XRP",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "XRP-AUD",
+    "base_id": "XRP",
+    "quote_id": "AUD",
+    "base": "XRP",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "XRP-BRL",
+    "base_id": "XRP",
+    "quote_id": "BRL",
+    "base": "XRP",
+    "quote": "BRL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "XRP-BTC",
     "base_id": "XRP",
     "quote_id": "BTC",
@@ -23728,7 +23912,30 @@
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 0.0001
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "XRP-USD",
+    "base_id": "XRP",
+    "quote_id": "USD",
+    "base": "XRP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 1.0

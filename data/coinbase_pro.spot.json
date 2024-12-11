@@ -6593,6 +6593,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "GIGA-USD",
+    "base_id": "GIGA",
+    "quote_id": "USD",
+    "base": "GIGA",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "GLM-EUR",
     "base_id": "GLM",
     "quote_id": "EUR",
@@ -9240,6 +9263,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "ME-USD",
+    "base_id": "ME",
+    "quote_id": "USD",
+    "base": "ME",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "notional_min": 1.0
@@ -14386,6 +14432,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "TURBO-USD",
+    "base_id": "TURBO",
+    "quote_id": "USD",
+    "base": "TURBO",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0

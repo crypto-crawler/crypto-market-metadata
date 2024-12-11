@@ -14642,7 +14642,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -17163,6 +17163,29 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "KOMAUSDT_SPBL",
+    "base_id": "KOMA",
+    "quote_id": "USDT",
+    "base": "KOMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0
@@ -20012,6 +20035,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "MEUSDT_SPBL",
+    "base_id": "ME",
+    "quote_id": "USDT",
+    "base": "ME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "MEWUSDT_SPBL",
     "base_id": "MEW",
     "quote_id": "USDT",
@@ -20997,6 +21043,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "MOZUSDT_SPBL",
+    "base_id": "MOZ",
+    "quote_id": "USDT",
+    "base": "MOZ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },

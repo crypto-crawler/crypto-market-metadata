@@ -8129,6 +8129,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "KOMA_USDT",
+    "base_id": "KOMA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KOMA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "KSM_USDT",
     "base_id": "KSM",
     "quote_id": "USDT",
@@ -9614,6 +9641,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ME_USDT",
+    "base_id": "ME",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ME",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "MGT_USDT",
     "base_id": "MGT",
     "quote_id": "USDT",
@@ -10149,6 +10203,33 @@
       "max": 10000000.0
     },
     "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "MOZ_USDT",
+    "base_id": "MOZ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MOZ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -16028,6 +16109,33 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "U2U_USDT",
+    "base_id": "U2U",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "U2U",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
