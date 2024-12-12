@@ -164,6 +164,60 @@
   {
     "exchange": "mexc",
     "market_type": "inverse_swap",
+    "symbol": "LINK_USD",
+    "base_id": "LINK",
+    "quote_id": "USD",
+    "settle_id": "LINK",
+    "base": "LINK",
+    "quote": "USD",
+    "settle": "LINK",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
+    "symbol": "LTC_USD",
+    "base_id": "LTC",
+    "quote_id": "USD",
+    "settle_id": "LTC",
+    "base": "LTC",
+    "quote": "USD",
+    "settle": "LTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
     "symbol": "XLM_USD",
     "base_id": "XLM",
     "quote_id": "USD",
