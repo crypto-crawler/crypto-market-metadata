@@ -19322,6 +19322,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HOLD-USDT",
+    "base_id": "HOLD",
+    "quote_id": "USDT",
+    "base": "HOLD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HON-USDT",
     "base_id": "HON",
     "quote_id": "USDT",
@@ -23036,6 +23060,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "LINGO-USDT",
+    "base_id": "LINGO",
+    "quote_id": "USDT",
+    "base": "LINGO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -27091,6 +27139,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MONKY-USDT",
+    "base_id": "MONKY",
+    "quote_id": "USDT",
+    "base": "MONKY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
