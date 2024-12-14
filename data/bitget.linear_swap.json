@@ -1354,6 +1354,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "AVAUSDT_UMCBL",
+    "base_id": "AVA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AVA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "AVAXUSDT_UMCBL",
     "base_id": "AVAX",
     "quote_id": "USDT",
@@ -9705,6 +9731,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "VELO1",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "VELOUSDT_UMCBL",
+    "base_id": "VELO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VELO",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

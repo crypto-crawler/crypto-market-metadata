@@ -2324,6 +2324,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIAGENT_USDT",
+    "base_id": "AIAGENT",
+    "quote_id": "USDT",
+    "base": "AIAGENT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIBB_USDT",
     "base_id": "AIBB",
     "quote_id": "USDT",
@@ -10893,6 +10916,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BEANS_USDT",
+    "base_id": "BEANS",
+    "quote_id": "USDT",
+    "base": "BEANS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -28140,6 +28186,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ELIZASOL_USDT",
+    "base_id": "ELIZASOL",
+    "quote_id": "USDT",
+    "base": "ELIZASOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ELIZA_USDT",
     "base_id": "ELIZA",
     "quote_id": "USDT",
@@ -29889,6 +29958,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ETHERPARTY_USDT",
+    "base_id": "ETHERPARTY",
+    "quote_id": "USDT",
+    "base": "ETHERPARTY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -51667,7 +51759,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {

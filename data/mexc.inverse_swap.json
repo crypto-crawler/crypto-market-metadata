@@ -12,8 +12,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0001,
-      "taker": 0.0005
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.0001,
@@ -21,7 +21,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 5000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -49,6 +49,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 50000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
+    "symbol": "AVAX_USD",
+    "base_id": "AVAX",
+    "quote_id": "USD",
+    "settle_id": "AVAX",
+    "base": "AVAX",
+    "quote": "USD",
+    "settle": "AVAX",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -103,6 +130,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 50000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
+    "symbol": "DOGE_USD",
+    "base_id": "DOGE",
+    "quote_id": "USD",
+    "settle_id": "DOGE",
+    "base": "DOGE",
+    "quote": "USD",
+    "settle": "DOGE",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -218,6 +272,60 @@
   {
     "exchange": "mexc",
     "market_type": "inverse_swap",
+    "symbol": "SOL_USD",
+    "base_id": "SOL",
+    "quote_id": "USD",
+    "settle_id": "SOL",
+    "base": "SOL",
+    "quote": "USD",
+    "settle": "SOL",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
+    "symbol": "SUI_USD",
+    "base_id": "SUI",
+    "quote_id": "USD",
+    "settle_id": "SUI",
+    "base": "SUI",
+    "quote": "USD",
+    "settle": "SUI",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "inverse_swap",
     "symbol": "XLM_USD",
     "base_id": "XLM",
     "quote_id": "USD",
@@ -255,8 +363,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0001,
-      "taker": 0.0005
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.0001,
@@ -264,7 +372,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 5000.0
     },
     "contract_value": 10.0,
     "info": {}
