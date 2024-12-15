@@ -1418,6 +1418,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "alchusdt",
+    "base_id": "alch",
+    "quote_id": "usdt",
+    "base": "ALCH",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 7446016.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "algobtc",
     "base_id": "algo",
     "quote_id": "btc",
@@ -22916,6 +22940,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 10446046.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "mndeusdt",
+    "base_id": "mnde",
+    "quote_id": "usdt",
+    "base": "MNDE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 5571030.0
     },
     "info": {}
   },

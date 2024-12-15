@@ -22232,6 +22232,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CYBRO_USDT",
+    "base_id": "CYBRO",
+    "quote_id": "USDT",
+    "base": "CYBRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CYCON_USDT",
     "base_id": "CYCON",
     "quote_id": "USDT",
@@ -76201,6 +76224,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SCARCITY_USDT",
+    "base_id": "SCARCITY",
+    "quote_id": "USDT",
+    "base": "SCARCITY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
