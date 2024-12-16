@@ -8115,6 +8115,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AVC_USDT",
+    "base_id": "AVC",
+    "quote_id": "USDT",
+    "base": "AVC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AVT_USDT",
     "base_id": "AVT",
     "quote_id": "USDT",
@@ -24817,6 +24840,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DMCK_USDT",
+    "base_id": "DMCK",
+    "quote_id": "USDT",
+    "base": "DMCK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
