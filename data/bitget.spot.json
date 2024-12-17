@@ -1401,6 +1401,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ALGOUSDT_SPBL",
+    "base_id": "ALGO",
+    "quote_id": "USDT",
+    "base": "ALGO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ALICEUSDT_SPBL",
     "base_id": "ALICE",
     "quote_id": "USDT",
@@ -15213,6 +15236,29 @@
     "precision": {
       "tick_size": 1e-13,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "HOLDCOINUSDT_SPBL",
+    "base_id": "HOLDCOIN",
+    "quote_id": "USDT",
+    "base": "HOLDCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0
@@ -33305,6 +33351,29 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "VANAUSDT_SPBL",
+    "base_id": "VANA",
+    "quote_id": "USDT",
+    "base": "VANA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0
