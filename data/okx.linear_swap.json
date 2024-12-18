@@ -4630,6 +4630,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "PENGU-USDT-SWAP",
+    "base_id": "PENGU",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PENGU",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "PEOPLE-USDT-SWAP",
     "base_id": "PEOPLE",
     "quote_id": "USDT",
@@ -6211,6 +6237,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "VANA-USDT-SWAP",
+    "base_id": "VANA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VANA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {

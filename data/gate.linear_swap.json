@@ -502,7 +502,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -718,7 +718,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -1636,7 +1636,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -1960,7 +1960,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -2176,7 +2176,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -2311,7 +2311,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -2446,7 +2446,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -2716,7 +2716,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -3175,7 +3175,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -4201,7 +4201,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -4525,7 +4525,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -4714,7 +4714,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -5146,7 +5146,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -5848,7 +5848,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -6496,7 +6496,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -6712,7 +6712,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-10,
       "lot_size": 10000000.0
     },
     "quantity_limit": {
@@ -6982,7 +6982,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -7036,7 +7036,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7657,7 +7657,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7783,6 +7783,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "IRIS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "ISLAND_USDT",
+    "base_id": "ISLAND",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ISLAND",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
@@ -7954,7 +7981,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -8116,7 +8143,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -8683,7 +8710,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -8872,7 +8899,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -9385,7 +9412,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -9682,7 +9709,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-9,
       "lot_size": 1000000.0
     },
     "quantity_limit": {
@@ -9898,7 +9925,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -10141,7 +10168,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -10168,7 +10195,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-9,
       "lot_size": 100000.0
     },
     "quantity_limit": {
@@ -11032,7 +11059,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -11626,7 +11653,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -11815,7 +11842,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -12179,6 +12206,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "PENGU_USDT",
+    "base_id": "PENGU",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PENGU",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "PEOPLE_USDT",
     "base_id": "PEOPLE",
     "quote_id": "USDT",
@@ -12490,7 +12544,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -12679,7 +12733,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -13840,7 +13894,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -14002,7 +14056,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -14596,7 +14650,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -14677,7 +14731,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -14785,7 +14839,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -14839,7 +14893,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -15082,7 +15136,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.01,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -15365,6 +15419,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "STREAM_USDT",
+    "base_id": "STREAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STREAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "STRK_USDT",
     "base_id": "STRK",
     "quote_id": "USDT",
@@ -15541,7 +15622,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -15595,7 +15676,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -16567,7 +16648,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -16918,7 +16999,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -17053,7 +17134,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -17458,7 +17539,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-7,
       "lot_size": 10000.0
     },
     "quantity_limit": {
@@ -18430,7 +18511,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {

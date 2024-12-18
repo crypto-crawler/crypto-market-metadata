@@ -11203,6 +11203,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "MOODENG/EUR",
+    "base_id": "MOODENG",
+    "quote_id": "ZEUR",
+    "base": "MOODENG",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 20.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MOODENG/USD",
+    "base_id": "MOODENG",
+    "quote_id": "ZUSD",
+    "base": "MOODENG",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 20.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MOON/EUR",
     "base_id": "MOON",
     "quote_id": "ZEUR",
@@ -13106,6 +13152,52 @@
     },
     "quantity_limit": {
       "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PNUT/EUR",
+    "base_id": "PNUT",
+    "quote_id": "ZEUR",
+    "base": "PNUT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PNUT/USD",
+    "base_id": "PNUT",
+    "quote_id": "ZUSD",
+    "base": "PNUT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3.0
     },
     "info": {}
   },
