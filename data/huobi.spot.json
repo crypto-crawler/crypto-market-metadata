@@ -6554,6 +6554,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "bullyusdt",
+    "base_id": "bully",
+    "quote_id": "usdt",
+    "base": "BULLY",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 11199462.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "butbtc",
     "base_id": "but",
     "quote_id": "btc",
@@ -21020,6 +21044,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 3500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "lunasolusdt",
+    "base_id": "lunasol",
+    "quote_id": "usdt",
+    "base": "LUNASOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 12616704.0
     },
     "info": {}
   },

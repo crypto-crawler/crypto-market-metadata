@@ -14594,6 +14594,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FARTCOIN-USDT",
+    "base_id": "FARTCOIN",
+    "quote_id": "USDT",
+    "base": "FARTCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FCD-USDT",
     "base_id": "FCD",
     "quote_id": "USDT",
@@ -16058,6 +16082,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FUEL-USDT",
+    "base_id": "FUEL",
+    "quote_id": "USDT",
+    "base": "FUEL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FURY-USDT",
     "base_id": "FURY",
     "quote_id": "USDT",
@@ -16386,7 +16434,7 @@
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -19514,6 +19562,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HPOS10I-USDT",
+    "base_id": "HPOS10I",
+    "quote_id": "USDT",
+    "base": "HPOS10I",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HSK-USDT",
     "base_id": "HSK",
     "quote_id": "USDT",
@@ -20752,6 +20824,30 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ITHACA-USDT",
+    "base_id": "ITHACA",
+    "quote_id": "USDT",
+    "base": "ITHACA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 1.0,
@@ -31736,7 +31832,7 @@
     "base": "PENGU",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

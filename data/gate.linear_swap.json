@@ -3539,6 +3539,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "CGPT_USDT",
+    "base_id": "CGPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CGPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "CHEEMS_USDT",
     "base_id": "CHEEMS",
     "quote_id": "USDT",
@@ -7449,6 +7476,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "HYPE_USDT",
+    "base_id": "HYPE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HYPE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
