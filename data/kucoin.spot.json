@@ -14546,6 +14546,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "EYWA-USDT",
+    "base_id": "EYWA",
+    "quote_id": "USDT",
+    "base": "EYWA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "F-USDT",
     "base_id": "F",
     "quote_id": "USDT",
@@ -15403,6 +15427,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "FOMO-USDT",
+    "base_id": "FOMO",
+    "quote_id": "USDT",
+    "base": "FOMO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -18475,6 +18523,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HFUN-USDT",
+    "base_id": "HFUN",
+    "quote_id": "USDT",
+    "base": "HFUN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
       "max": 10000000000.0
     },
     "info": {}
@@ -22555,6 +22627,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "KOS-USDT",
+    "base_id": "KOS",
+    "quote_id": "USDT",
+    "base": "KOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -33650,6 +33746,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PURR-USDT",
+    "base_id": "PURR",
+    "quote_id": "USDT",
+    "base": "PURR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "PUSH-BTC",
     "base_id": "PUSH",
     "quote_id": "BTC",
@@ -43376,7 +43496,7 @@
     "base": "USUAL",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
