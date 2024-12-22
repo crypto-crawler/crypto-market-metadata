@@ -730,6 +730,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "AIXBTUSDT_UMCBL",
+    "base_id": "AIXBT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AIXBT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "AKTUSDT_UMCBL",
     "base_id": "AKT",
     "quote_id": "USDT",
@@ -2342,6 +2368,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "CGPTUSDT_UMCBL",
+    "base_id": "CGPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CGPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "CHESSUSDT_UMCBL",
     "base_id": "CHESS",
     "quote_id": "USDT",
@@ -3531,6 +3583,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "FARTCOINUSDT_UMCBL",
+    "base_id": "FARTCOIN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FARTCOIN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}

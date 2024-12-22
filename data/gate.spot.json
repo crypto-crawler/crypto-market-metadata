@@ -49897,6 +49897,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LKY_USDT",
+    "base_id": "LKY",
+    "quote_id": "USDT",
+    "base": "LKY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LLT_SNET",
     "base_id": "LLT",
     "quote_id": "SNET",
