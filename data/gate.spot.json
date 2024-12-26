@@ -1660,6 +1660,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ADX_TRY",
+    "base_id": "ADX",
+    "quote_id": "TRY",
+    "base": "ADX",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ADX_USDT",
     "base_id": "ADX",
     "quote_id": "USDT",
@@ -11994,6 +12017,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BIO_USDT",
+    "base_id": "BIO",
+    "quote_id": "USDT",
+    "base": "BIO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BIRD_ETH",
     "base_id": "BIRD",
     "quote_id": "ETH",
@@ -16951,6 +16997,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CATI_TRY",
+    "base_id": "CATI",
+    "quote_id": "TRY",
+    "base": "CATI",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CATI_USDT",
     "base_id": "CATI",
     "quote_id": "USDT",
@@ -16987,6 +17056,29 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "CAT_TRY",
+    "base_id": "CAT",
+    "quote_id": "TRY",
+    "base": "CAT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -93165,7 +93257,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -98987,6 +99079,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XT_USDT",
+    "base_id": "XT",
+    "quote_id": "USDT",
+    "base": "XT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
