@@ -40538,6 +40538,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "TEVA-USDT",
+    "base_id": "TEVA",
+    "quote_id": "USDT",
+    "base": "TEVA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "TFUEL-BTC",
     "base_id": "TFUEL",
     "quote_id": "BTC",
@@ -40670,8 +40694,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
