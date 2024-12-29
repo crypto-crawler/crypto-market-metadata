@@ -29930,6 +29930,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ESCC_USDT",
+    "base_id": "ESCC",
+    "quote_id": "USDT",
+    "base": "ESCC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ESD_ETH",
     "base_id": "ESD",
     "quote_id": "ETH",
