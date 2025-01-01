@@ -32786,6 +32786,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "sporeusdt",
+    "base_id": "spore",
+    "quote_id": "usdt",
+    "base": "SPORE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 17596339.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "sprtusdt",
     "base_id": "sprt",
     "quote_id": "usdt",
@@ -33615,6 +33639,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 15228812.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "strxusdt",
+    "base_id": "strx",
+    "quote_id": "usdt",
+    "base": "STRX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {

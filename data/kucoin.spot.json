@@ -14690,6 +14690,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FB-USDT",
+    "base_id": "FB",
+    "quote_id": "USDT",
+    "base": "FB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FCD-USDT",
     "base_id": "FCD",
     "quote_id": "USDT",
@@ -34843,6 +34867,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "REKT-USDT",
+    "base_id": "REKT",
+    "quote_id": "USDT",
+    "base": "REKT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000000.0,
       "max": 10000000000.0
     },
     "info": {}
