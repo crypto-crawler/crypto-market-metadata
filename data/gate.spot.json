@@ -46541,6 +46541,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "KEKIUS_USDT",
+    "base_id": "KEKIUS",
+    "quote_id": "USDT",
+    "base": "KEKIUS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "KEX_ETH",
     "base_id": "KEX",
     "quote_id": "ETH",
@@ -51022,6 +51045,29 @@
     "base_id": "LOE",
     "quote_id": "USDT",
     "base": "LOE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LOFI_USDT",
+    "base_id": "LOFI",
+    "quote_id": "USDT",
+    "base": "LOFI",
     "quote": "USDT",
     "active": true,
     "margin": false,
