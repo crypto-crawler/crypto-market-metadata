@@ -2906,6 +2906,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ARCSOL-USDT",
+    "base_id": "ARCSOL",
+    "quote_id": "USDT",
+    "base": "ARCSOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ARKER-USDT",
     "base_id": "ARKER",
     "quote_id": "USDT",
@@ -34891,7 +34915,7 @@
     },
     "quantity_limit": {
       "min": 1000000.0,
-      "max": 10000000000.0
+      "max": 1000000000000.0
     },
     "info": {}
   },
