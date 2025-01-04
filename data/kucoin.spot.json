@@ -5498,6 +5498,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BIO-USDT",
+    "base_id": "BIO",
+    "quote_id": "USDT",
+    "base": "BIO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BLAST-USDT",
     "base_id": "BLAST",
     "quote_id": "USDT",
@@ -39859,6 +39883,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SWARMS-USDT",
+    "base_id": "SWARMS",
+    "quote_id": "USDT",
+    "base": "SWARMS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
