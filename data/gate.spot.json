@@ -68682,6 +68682,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PIN_USDT",
+    "base_id": "PIN",
+    "quote_id": "USDT",
+    "base": "PIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PIP_USDT",
     "base_id": "PIP",
     "quote_id": "USDT",
