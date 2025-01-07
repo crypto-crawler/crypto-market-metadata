@@ -5504,7 +5504,7 @@
     "base": "BIO",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -28034,6 +28034,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MTOS-USDT",
+    "base_id": "MTOS",
+    "quote_id": "USDT",
+    "base": "MTOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MTRG-USDT",
     "base_id": "MTRG",
     "quote_id": "USDT",
@@ -36784,6 +36808,30 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SERAPH-USDT",
+    "base_id": "SERAPH",
+    "quote_id": "USDT",
+    "base": "SERAPH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 1.0,

@@ -34154,6 +34154,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "swarmsusdt",
+    "base_id": "swarms",
+    "quote_id": "usdt",
+    "base": "SWARMS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3236245.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "sweatusdt",
     "base_id": "sweat",
     "quote_id": "usdt",
