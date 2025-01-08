@@ -19529,6 +19529,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SONIC-USDT",
+    "base_id": "SONIC",
+    "quote_id": "USDT",
+    "base": "SONIC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SOS-USDC",
     "base_id": "SOS",
     "quote_id": "USDC",

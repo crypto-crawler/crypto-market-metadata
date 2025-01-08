@@ -882,6 +882,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "btcrlusd",
+    "base_id": "BTC",
+    "quote_id": "RLUSD",
+    "base": "BTCRL",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "btcusd",
     "base_id": "BTC",
     "quote_id": "USD",
@@ -1727,6 +1747,26 @@
     "quote_id": "PAX",
     "base": "ETH",
     "quote": "PAX",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "ethrlusd",
+    "base_id": "ETH",
+    "quote_id": "RLUSD",
+    "base": "ETHRL",
+    "quote": "USD",
     "active": true,
     "margin": true,
     "fees": {
@@ -3702,6 +3742,66 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "rlusdeur",
+    "base_id": "RLUSD",
+    "quote_id": "EUR",
+    "base": "RLUSD",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "rlusdusd",
+    "base_id": "RLUSD",
+    "quote_id": "USD",
+    "base": "RLUSD",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "rlusdusdt",
+    "base_id": "RLUSD",
+    "quote_id": "USDT",
+    "base": "RLUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "rlyeur",
     "base_id": "RLY",
     "quote_id": "EUR",
@@ -5275,6 +5375,26 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "xrprlusd",
+    "base_id": "XRP",
+    "quote_id": "RLUSD",
+    "base": "XRPRL",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
       "lot_size": 0.00001
     },
     "info": {}
