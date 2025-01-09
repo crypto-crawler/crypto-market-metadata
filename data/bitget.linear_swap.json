@@ -1406,6 +1406,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "AVAAIUSDT_UMCBL",
+    "base_id": "AVAAI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AVAAI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "AVAILUSDT_UMCBL",
     "base_id": "AVAIL",
     "quote_id": "USDT",
@@ -10797,6 +10823,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "XRP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "XTERUSDT_UMCBL",
+    "base_id": "XTER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XTER",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
