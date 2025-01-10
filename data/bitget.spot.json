@@ -6754,6 +6754,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "CATGOLDUSDT_SPBL",
+    "base_id": "CATGOLD",
+    "quote_id": "USDT",
+    "base": "CATGOLD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "CATGPTUSDT_SPBL",
     "base_id": "CATGPT",
     "quote_id": "USDT",
@@ -10227,6 +10250,29 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "DUSDT_SPBL",
+    "base_id": "D",
+    "quote_id": "USDT",
+    "base": "D",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
