@@ -4740,6 +4740,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "DRV/EUR",
+    "base_id": "DRV",
+    "quote_id": "ZEUR",
+    "base": "DRV",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DRV/USD",
+    "base_id": "DRV",
+    "quote_id": "ZUSD",
+    "base": "DRV",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DYDX/EUR",
     "base_id": "DYDX",
     "quote_id": "ZEUR",

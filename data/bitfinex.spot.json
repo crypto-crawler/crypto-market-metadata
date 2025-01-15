@@ -5162,6 +5162,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tEURR:USD",
+    "base_id": "EURR",
+    "quote_id": "USD",
+    "base": "EURR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tEURR:UST",
+    "base_id": "EURR",
+    "quote_id": "UST",
+    "base": "EURR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tEURUST",
     "base_id": "EUR",
     "quote_id": "UST",
@@ -13178,6 +13226,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tUSDR:USD",
+    "base_id": "USDR",
+    "quote_id": "USD",
+    "base": "USDR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tUSDR:UST",
+    "base_id": "USDR",
+    "quote_id": "UST",
+    "base": "USDR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tUST:CNHT",
     "base_id": "UST",
     "quote_id": "CNHT",
@@ -14408,7 +14504,7 @@
     "base": "XLM",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.001,
       "taker": 0.002
