@@ -49800,6 +49800,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LEGEND_USDT",
+    "base_id": "LEGEND",
+    "quote_id": "USDT",
+    "base": "LEGEND",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LEGION_USDT",
     "base_id": "LEGION",
     "quote_id": "USDT",
@@ -50991,6 +51014,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LIY_USDT",
+    "base_id": "LIY",
+    "quote_id": "USDT",
+    "base": "LIY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -93007,6 +93053,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "UNILAYER_USDT",
+    "base_id": "UNILAYER",
+    "quote_id": "USDT",
+    "base": "UNILAYER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
