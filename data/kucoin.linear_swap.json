@@ -8311,6 +8311,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "TRUMPUSDTM",
+    "base_id": "TRUMP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TRUMP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "TRUUSDTM",
     "base_id": "TRU",
     "quote_id": "USDT",

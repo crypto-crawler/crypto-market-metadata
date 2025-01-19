@@ -17666,6 +17666,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "TRUMP/EUR",
+    "base_id": "TRUMP",
+    "quote_id": "ZEUR",
+    "base": "TRUMP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.2
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TRUMP/USD",
+    "base_id": "TRUMP",
+    "quote_id": "ZUSD",
+    "base": "TRUMP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.2
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "TRX/ETH",
     "base_id": "TRX",
     "quote_id": "XETH",

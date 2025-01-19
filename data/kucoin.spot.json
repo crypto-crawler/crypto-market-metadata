@@ -42554,6 +42554,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "TRUMP-USDT",
+    "base_id": "TRUMP",
+    "quote_id": "USDT",
+    "base": "TRUMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "TRVL-BTC",
     "base_id": "TRVL",
     "quote_id": "BTC",
