@@ -21737,6 +21737,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "TRUMP-USD",
+    "base_id": "TRUMP",
+    "quote_id": "USD",
+    "base": "TRUMP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TRUMP-USDT",
+    "base_id": "TRUMP",
+    "quote_id": "USDT",
+    "base": "TRUMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "TRX-BTC",
     "base_id": "TRX",
     "quote_id": "BTC",
