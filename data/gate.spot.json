@@ -18986,6 +18986,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CHIRP_USDT",
+    "base_id": "CHIRP",
+    "quote_id": "USDT",
+    "base": "CHIRP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CHKN_USDT",
     "base_id": "CHKN",
     "quote_id": "USDT",
@@ -32532,10 +32555,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -55823,6 +55846,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MELANIA_TRY",
+    "base_id": "MELANIA",
+    "quote_id": "TRY",
+    "base": "MELANIA",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MELANIA_USDT",
+    "base_id": "MELANIA",
+    "quote_id": "USDT",
+    "base": "MELANIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MELD_USDT",
     "base_id": "MELD",
     "quote_id": "USDT",
@@ -78901,6 +78970,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SBR1_USDT",
+    "base_id": "SBR1",
+    "quote_id": "USDT",
+    "base": "SBR1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SBR_ETH",
     "base_id": "SBR",
     "quote_id": "ETH",
@@ -91694,6 +91786,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TRUMP_TRY",
+    "base_id": "TRUMP",
+    "quote_id": "TRY",
+    "base": "TRUMP",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },

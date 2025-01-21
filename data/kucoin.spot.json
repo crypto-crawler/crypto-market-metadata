@@ -8210,6 +8210,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CHIRP-USDT",
+    "base_id": "CHIRP",
+    "quote_id": "USDT",
+    "base": "CHIRP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CHMB-USDT",
     "base_id": "CHMB",
     "quote_id": "USDT",
@@ -26714,6 +26738,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MELANIA-USDT",
+    "base_id": "MELANIA",
+    "quote_id": "USDT",
+    "base": "MELANIA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MELOS-USDT",
     "base_id": "MELOS",
     "quote_id": "USDT",
@@ -30475,6 +30523,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "OBT-USDT",
+    "base_id": "OBT",
+    "quote_id": "USDT",
+    "base": "OBT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
