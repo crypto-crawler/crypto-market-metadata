@@ -43,10 +43,10 @@
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 0.1,
     "info": {}
@@ -1265,10 +1265,10 @@
     },
     "precision": {
       "tick_size": 0.1,
-      "lot_size": 0.1
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "contract_value": 0.01,
     "info": {}
@@ -1941,10 +1941,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "contract_value": 1000.0,
     "info": {}
@@ -2305,10 +2305,10 @@
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 0.1
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "contract_value": 10.0,
     "info": {}
@@ -3111,10 +3111,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 100.0,
     "info": {}
@@ -3325,6 +3325,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "J-USDT-SWAP",
+    "base_id": "J",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "J",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -4645,10 +4671,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 10.0,
     "info": {}
@@ -6335,10 +6361,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "contract_value": 1000.0,
     "info": {}
@@ -6595,10 +6621,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 1000.0,
     "info": {}
@@ -7037,10 +7063,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 100.0,
     "info": {}
@@ -7089,10 +7115,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.1
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "contract_value": 100.0,
     "info": {}

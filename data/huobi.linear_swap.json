@@ -2900,6 +2900,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "J-USDT",
+    "base_id": "J",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "J",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "JASMY-USDT",
     "base_id": "JASMY",
     "quote_id": "USDT",

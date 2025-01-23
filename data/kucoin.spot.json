@@ -11546,6 +11546,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "DIGIMON-USDT",
+    "base_id": "DIGIMON",
+    "quote_id": "USDT",
+    "base": "DIGIMON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DINO-USDT",
     "base_id": "DINO",
     "quote_id": "USDT",
@@ -21379,6 +21403,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "J-USDT",
+    "base_id": "J",
+    "quote_id": "USDT",
+    "base": "J",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -45578,6 +45626,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "VTHO-USDT",
+    "base_id": "VTHO",
+    "quote_id": "USDT",
+    "base": "VTHO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "VXV-USDT",
     "base_id": "VXV",
     "quote_id": "USDT",
@@ -48686,7 +48758,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {

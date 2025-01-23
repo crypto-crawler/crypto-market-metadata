@@ -11341,6 +11341,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "J-USDT",
+    "base_id": "J",
+    "quote_id": "USDT",
+    "base": "J",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "JFI-USDT",
     "base_id": "JFI",
     "quote_id": "USDT",
@@ -16854,7 +16877,7 @@
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1000.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -18707,7 +18730,7 @@
     "base": "S",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -21754,6 +21777,98 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TRUMP-AED",
+    "base_id": "TRUMP",
+    "quote_id": "AED",
+    "base": "TRUMP",
+    "quote": "AED",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TRUMP-AUD",
+    "base_id": "TRUMP",
+    "quote_id": "AUD",
+    "base": "TRUMP",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TRUMP-BRL",
+    "base_id": "TRUMP",
+    "quote_id": "BRL",
+    "base": "TRUMP",
+    "quote": "BRL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TRUMP-EUR",
+    "base_id": "TRUMP",
+    "quote_id": "EUR",
+    "base": "TRUMP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
