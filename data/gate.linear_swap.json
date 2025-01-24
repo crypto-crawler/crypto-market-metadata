@@ -1109,6 +1109,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ANIME_USDT",
+    "base_id": "ANIME",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ANIME",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ANKR_USDT",
     "base_id": "ANKR",
     "quote_id": "USDT",
@@ -14069,6 +14096,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "QKC_USDT",
+    "base_id": "QKC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "QKC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "QNT_USDT",
     "base_id": "QNT",
     "quote_id": "USDT",
@@ -18254,6 +18308,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "VINE_USDT",
+    "base_id": "VINE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VINE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "VINU_USDT",
     "base_id": "VINU",
     "quote_id": "USDT",
@@ -19464,6 +19545,33 @@
       "max": 10000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "YULI_USDT",
+    "base_id": "YULI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "YULI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {

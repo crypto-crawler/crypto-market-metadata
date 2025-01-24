@@ -1083,6 +1083,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ANIME-USDT",
+    "base_id": "ANIME",
+    "quote_id": "USDT",
+    "base": "ANIME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ANT-BTC",
     "base_id": "ANT",
     "quote_id": "BTC",
@@ -11347,7 +11370,7 @@
     "base": "J",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

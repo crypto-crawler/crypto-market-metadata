@@ -2354,6 +2354,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ANIME-USDT",
+    "base_id": "ANIME",
+    "quote_id": "USDT",
+    "base": "ANIME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ANKR-BTC",
     "base_id": "ANKR",
     "quote_id": "BTC",
@@ -2606,8 +2630,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -13274,6 +13298,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "EMYC-USDT",
+    "base_id": "EMYC",
+    "quote_id": "USDT",
+    "base": "EMYC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ENA-USDT",
     "base_id": "ENA",
     "quote_id": "USDT",
@@ -20510,8 +20558,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -36650,6 +36698,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "S-USDC",
+    "base_id": "S",
+    "quote_id": "USDC",
+    "base": "S",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "S-USDT",
+    "base_id": "S",
+    "quote_id": "USDT",
+    "base": "S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "SAFE-USDT",
     "base_id": "SAFE",
     "quote_id": "USDT",
@@ -48530,6 +48626,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "XYRO-USDT",
+    "base_id": "XYRO",
+    "quote_id": "USDT",
+    "base": "XYRO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "YFDAI-BTC",
     "base_id": "YFDAI",
     "quote_id": "BTC",
@@ -48715,6 +48835,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "YULI-USDT",
+    "base_id": "YULI",
+    "quote_id": "USDT",
+    "base": "YULI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
