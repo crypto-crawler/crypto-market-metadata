@@ -10651,7 +10651,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0001
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.00001,
@@ -10659,7 +10659,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4500000.0
+      "max": 180000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -20220,6 +20220,33 @@
       "max": 2000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "SLC_USDT",
+    "base_id": "SLC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SLC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 330.0
+    },
+    "contract_value": 10000.0,
     "info": {}
   },
   {
