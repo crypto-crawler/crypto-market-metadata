@@ -23209,6 +23209,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "VINE-USDT",
+    "base_id": "VINE",
+    "quote_id": "USDT",
+    "base": "VINE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "VRA-USDC",
     "base_id": "VRA",
     "quote_id": "USDC",
