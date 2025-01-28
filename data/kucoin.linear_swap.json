@@ -4644,6 +4644,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "KCSUSDTM",
+    "base_id": "KCS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KCS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "KDAUSDTM",
     "base_id": "KDA",
     "quote_id": "USDT",
@@ -8956,6 +8979,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "VINEUSDTM",
+    "base_id": "VINE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VINE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

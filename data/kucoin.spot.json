@@ -10298,6 +10298,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "D-USDT",
+    "base_id": "D",
+    "quote_id": "USDT",
+    "base": "D",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DACC-BTC",
     "base_id": "DACC",
     "quote_id": "BTC",
@@ -20128,6 +20152,30 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HQ-USDT",
+    "base_id": "HQ",
+    "quote_id": "USDT",
+    "base": "HQ",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 1.0,
