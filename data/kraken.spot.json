@@ -324,6 +324,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ACX/EUR",
+    "base_id": "ACX",
+    "quote_id": "ZEUR",
+    "base": "ACX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ACX/USD",
+    "base_id": "ACX",
+    "quote_id": "ZUSD",
+    "base": "ACX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ADA/AUD",
     "base_id": "ADA",
     "quote_id": "ZAUD",
@@ -3889,6 +3935,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CLV/EUR",
+    "base_id": "CLV",
+    "quote_id": "ZEUR",
+    "base": "CLV",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CLV/USD",
+    "base_id": "CLV",
+    "quote_id": "ZUSD",
+    "base": "CLV",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "COMP/ETH",
     "base_id": "COMP",
     "quote_id": "XETH",
@@ -7264,6 +7356,52 @@
     },
     "quantity_limit": {
       "min": 150.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FLUX/EUR",
+    "base_id": "FLUX",
+    "quote_id": "ZEUR",
+    "base": "FLUX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FLUX/USD",
+    "base_id": "FLUX",
+    "quote_id": "ZUSD",
+    "base": "FLUX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
