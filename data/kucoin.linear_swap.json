@@ -1593,6 +1593,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "BERAUSDTM",
+    "base_id": "BERA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BERA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "BIGTIMEUSDTM",
     "base_id": "BIGTIME",
     "quote_id": "USDT",

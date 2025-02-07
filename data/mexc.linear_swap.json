@@ -2432,6 +2432,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ANLOG_USDT",
+    "base_id": "ANLOG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ANLOG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3333.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ANT_USDT",
     "base_id": "ANT",
     "quote_id": "USDT",
@@ -4120,14 +4147,14 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3333.0
+      "max": 50000.0
     },
-    "contract_value": 1.0,
+    "contract_value": 0.1,
     "info": {}
   },
   {
@@ -5605,14 +5632,14 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3333.0
+      "max": 200.0
     },
-    "contract_value": 1.0,
+    "contract_value": 100000.0,
     "info": {}
   },
   {
@@ -5964,6 +5991,33 @@
       "max": 16000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "CHEX_USDT",
+    "base_id": "CHEX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CHEX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 850.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -12139,7 +12193,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -14415,6 +14469,33 @@
       "max": 160000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "MBX_USDT",
+    "base_id": "MBX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MBX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 650.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

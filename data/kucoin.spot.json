@@ -2918,8 +2918,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -5443,6 +5443,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BERA-USDT",
+    "base_id": "BERA",
+    "quote_id": "USDT",
+    "base": "BERA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -12278,8 +12302,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -20966,8 +20990,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -22190,8 +22214,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -32006,8 +32030,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -35846,8 +35870,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
@@ -38678,7 +38702,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -40622,8 +40646,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -45758,8 +45782,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,
@@ -46598,8 +46622,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1e-6
+      "tick_size": 1e-8,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 0.1,

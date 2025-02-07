@@ -248,7 +248,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 165.0
+      "min": 130.0
     },
     "info": {}
   },
@@ -271,7 +271,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 165.0
+      "min": 130.0
     },
     "info": {}
   },
@@ -2923,6 +2923,98 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BERA/EUR",
+    "base_id": "BERA",
+    "quote_id": "ZEUR",
+    "base": "BERA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BERA/USD",
+    "base_id": "BERA",
+    "quote_id": "ZUSD",
+    "base": "BERA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BERA/USDC",
+    "base_id": "BERA",
+    "quote_id": "USDC",
+    "base": "BERA",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BERA/USDT",
+    "base_id": "BERA",
+    "quote_id": "USDT",
+    "base": "BERA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BICO/EUR",
     "base_id": "BICO",
     "quote_id": "ZEUR",
@@ -4135,7 +4227,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 20.0
+      "min": 12.0
     },
     "info": {}
   },
@@ -4158,7 +4250,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 20.0
+      "min": 12.0
     },
     "info": {}
   },
@@ -4273,7 +4365,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 60.0
+      "min": 45.0
     },
     "info": {}
   },
@@ -4296,7 +4388,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 60.0
+      "min": 45.0
     },
     "info": {}
   },
@@ -4319,7 +4411,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 60.0
+      "min": 45.0
     },
     "info": {}
   },
@@ -4342,7 +4434,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 60.0
+      "min": 45.0
     },
     "info": {}
   },
@@ -4825,7 +4917,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 200.0
+      "min": 170.0
     },
     "info": {}
   },
@@ -4848,7 +4940,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 200.0
+      "min": 170.0
     },
     "info": {}
   },
@@ -8275,7 +8367,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 4.0
+      "min": 3.5
     },
     "info": {}
   },
@@ -8298,7 +8390,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 4.0
+      "min": 3.5
     },
     "info": {}
   },
@@ -11633,7 +11725,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 25.0
+      "min": 3.5
     },
     "info": {}
   },
@@ -11656,7 +11748,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 25.0
+      "min": 3.5
     },
     "info": {}
   },
@@ -12691,7 +12783,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 7.0
+      "min": 5.0
     },
     "info": {}
   },
@@ -12714,7 +12806,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 7.0
+      "min": 5.0
     },
     "info": {}
   },
@@ -15842,7 +15934,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 8.0
+      "min": 5.5
     },
     "info": {}
   },
@@ -15865,7 +15957,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 8.0
+      "min": 5.5
     },
     "info": {}
   },
@@ -21155,7 +21247,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 1750.0
+      "min": 165.0
     },
     "info": {}
   },
@@ -21178,7 +21270,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 1750.0
+      "min": 165.0
     },
     "info": {}
   },

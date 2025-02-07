@@ -2493,6 +2493,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BERA-USD",
+    "base_id": "BERA",
+    "quote_id": "USD",
+    "base": "BERA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BICO-EUR",
     "base_id": "BICO",
     "quote_id": "EUR",
@@ -5701,7 +5724,7 @@
     "quote_id": "USD",
     "base": "ETHFI",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
