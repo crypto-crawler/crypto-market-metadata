@@ -347,6 +347,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ACH-USD",
+    "base_id": "ACH",
+    "quote_id": "USD",
+    "base": "ACH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ACH-USDT",
     "base_id": "ACH",
     "quote_id": "USDT",
@@ -2647,6 +2670,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BANANA-USD",
+    "base_id": "BANANA",
+    "quote_id": "USD",
+    "base": "BANANA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BANANA-USDT",
     "base_id": "BANANA",
     "quote_id": "USDT",
@@ -2946,13 +2992,36 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BERA-USD",
+    "base_id": "BERA",
+    "quote_id": "USD",
+    "base": "BERA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BERA-USDT",
     "base_id": "BERA",
     "quote_id": "USDT",
     "base": "BERA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -4918,6 +4987,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CITY-USD",
+    "base_id": "CITY",
+    "quote_id": "USD",
+    "base": "CITY",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -6988,6 +7080,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "DUCK-USD",
+    "base_id": "DUCK",
+    "quote_id": "USD",
+    "base": "DUCK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
@@ -10099,6 +10214,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "GOAT-USD",
+    "base_id": "GOAT",
+    "quote_id": "USD",
+    "base": "GOAT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "GOAT-USDT",
     "base_id": "GOAT",
     "quote_id": "USDT",
@@ -10205,6 +10343,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "GPT-USD",
+    "base_id": "GPT",
+    "quote_id": "USD",
+    "base": "GPT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 10.0
@@ -11608,6 +11769,29 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "JST-USD",
+    "base_id": "JST",
+    "quote_id": "USD",
+    "base": "JST",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 100.0
@@ -14210,6 +14394,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "MEME-USD",
+    "base_id": "MEME",
+    "quote_id": "USD",
+    "base": "MEME",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },
@@ -17482,6 +17689,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PIXEL-USD",
+    "base_id": "PIXEL",
+    "quote_id": "USD",
+    "base": "PIXEL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PIXEL-USDT",
     "base_id": "PIXEL",
     "quote_id": "USDT",
@@ -18287,6 +18517,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "RADAR-USD",
+    "base_id": "RADAR",
+    "quote_id": "USD",
+    "base": "RADAR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "RADAR-USDC",
     "base_id": "RADAR",
     "quote_id": "USDC",
@@ -19076,6 +19329,29 @@
     "quote": "USDT",
     "active": true,
     "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SAFE-USD",
+    "base_id": "SAFE",
+    "quote_id": "USD",
+    "base": "SAFE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -23462,6 +23738,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "VELODROME-USD",
+    "base_id": "VELODROME",
+    "quote_id": "USD",
+    "base": "VELODROME",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "VELODROME-USDC",
     "base_id": "VELODROME",
     "quote_id": "USDC",
@@ -24077,6 +24376,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "WIN-USD",
+    "base_id": "WIN",
+    "quote_id": "USD",
+    "base": "WIN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100000.0
     },
     "info": {}
   },
@@ -24974,6 +25296,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "XR-USD",
+    "base_id": "XR",
+    "quote_id": "USD",
+    "base": "XR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
@@ -26009,6 +26354,29 @@
     },
     "quantity_limit": {
       "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ZETA-USD",
+    "base_id": "ZETA",
+    "quote_id": "USD",
+    "base": "ZETA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
