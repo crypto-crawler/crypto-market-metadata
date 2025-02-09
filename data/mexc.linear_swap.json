@@ -3126,7 +3126,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 750000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3512,6 +3512,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "B3_USDT",
+    "base_id": "B3",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "B3",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 333.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "BABYDOGE_USDT",
     "base_id": "BABYDOGE",
     "quote_id": "USDT",
@@ -3855,7 +3882,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 950000.0
+      "max": 1200000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8440,7 +8467,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -10389,7 +10416,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 880000.0
+      "max": 1300000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11361,7 +11388,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 110000.0
+      "max": 170000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -16383,7 +16410,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 60000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -17814,7 +17841,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 40000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -23411,6 +23438,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "TST_USDT",
+    "base_id": "TST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1300.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "TURBO_USDT",
     "base_id": "TURBO",
     "quote_id": "USDT",
@@ -26103,7 +26157,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 75000.0
     },
     "contract_value": 10.0,
     "info": {}
