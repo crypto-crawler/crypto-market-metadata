@@ -33381,6 +33381,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "TSTBSCUSDT_SPBL",
+    "base_id": "TSTBSC",
+    "quote_id": "USDT",
+    "base": "TSTBSC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "TSTUSDT_SPBL",
     "base_id": "TST",
     "quote_id": "USDT",
