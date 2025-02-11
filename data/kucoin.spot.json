@@ -2426,6 +2426,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ANLOG-USDT",
+    "base_id": "ANLOG",
+    "quote_id": "USDT",
+    "base": "ANLOG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ANT-BTC",
     "base_id": "ANT",
     "quote_id": "BTC",
@@ -8252,6 +8276,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "CHEEMS-USDT",
+    "base_id": "CHEEMS",
+    "quote_id": "USDT",
+    "base": "CHEEMS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000000.0,
+      "max": 1000000000000.0
     },
     "info": {}
   },
@@ -21595,6 +21643,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "JAILSTOOL-USDT",
+    "base_id": "JAILSTOOL",
+    "quote_id": "USDT",
+    "base": "JAILSTOOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -43219,6 +43291,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "TSTBSC-USDT",
+    "base_id": "TSTBSC",
+    "quote_id": "USDT",
+    "base": "TSTBSC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

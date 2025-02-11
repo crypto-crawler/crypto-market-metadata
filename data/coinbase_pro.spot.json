@@ -2079,6 +2079,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "B3-USD",
+    "base_id": "B3",
+    "quote_id": "USD",
+    "base": "B3",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BADGER-EUR",
     "base_id": "BADGER",
     "quote_id": "EUR",
