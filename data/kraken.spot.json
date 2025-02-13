@@ -4993,6 +4993,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "DOGS/EUR",
+    "base_id": "DOGS",
+    "quote_id": "ZEUR",
+    "base": "DOGS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DOGS/USD",
+    "base_id": "DOGS",
+    "quote_id": "ZUSD",
+    "base": "DOGS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DOT/AUD",
     "base_id": "DOT",
     "quote_id": "ZAUD",
@@ -13273,6 +13319,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "NOT/EUR",
+    "base_id": "NOT",
+    "quote_id": "ZEUR",
+    "base": "NOT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "NOT/USD",
+    "base_id": "NOT",
+    "quote_id": "ZUSD",
+    "base": "NOT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "NTRN/EUR",
     "base_id": "NTRN",
     "quote_id": "ZEUR",
@@ -18936,6 +19028,29 @@
     "quote_id": "USDC",
     "base": "TON",
     "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.75
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TON/USDT",
+    "base_id": "TON",
+    "quote_id": "USDT",
+    "base": "TON",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {
