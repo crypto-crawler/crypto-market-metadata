@@ -38846,6 +38846,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GMRT_USDT",
+    "base_id": "GMRT",
+    "quote_id": "USDT",
+    "base": "GMRT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GMRX_USDT",
     "base_id": "GMRX",
     "quote_id": "USDT",
@@ -45565,6 +45588,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "IP_USDT",
+    "base_id": "IP",
+    "quote_id": "USDT",
+    "base": "IP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "IQ50_USDT",
     "base_id": "IQ50",
     "quote_id": "USDT",
@@ -50415,6 +50461,29 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LAYER_TRY",
+    "base_id": "LAYER",
+    "quote_id": "TRY",
+    "base": "LAYER",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -75165,10 +75234,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -81774,6 +81843,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SHELL_USDT",
+    "base_id": "SHELL",
+    "quote_id": "USDT",
+    "base": "SHELL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
