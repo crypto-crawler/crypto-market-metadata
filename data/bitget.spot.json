@@ -1324,8 +1324,8 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1.0
+      "tick_size": 1e-7,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0
@@ -5905,6 +5905,29 @@
     "base_id": "BRN",
     "quote_id": "USDT",
     "base": "BRN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "BROCCOLIUSDT_SPBL",
+    "base_id": "BROCCOLI",
+    "quote_id": "USDT",
+    "base": "BROCCOLI",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -22234,7 +22257,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
