@@ -2435,10 +2435,10 @@
     },
     "precision": {
       "tick_size": 0.1,
-      "lot_size": 0.001
+      "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.0001
     },
     "contract_value": 1.0,
     "info": {}
@@ -4890,6 +4890,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "GPSUSDT_UMCBL",
+    "base_id": "GPS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GPS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "GRASSUSDT_UMCBL",
     "base_id": "GRASS",
     "quote_id": "USDT",
@@ -5611,6 +5637,32 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "JAILSTOOLUSDT_UMCBL",
+    "base_id": "JAILSTOOL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "JAILSTOOL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "contract_value": 1.0,
     "info": {}

@@ -4809,6 +4809,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CYBER/EUR",
+    "base_id": "CYBER",
+    "quote_id": "ZEUR",
+    "base": "CYBER",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CYBER/USD",
+    "base_id": "CYBER",
+    "quote_id": "ZUSD",
+    "base": "CYBER",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DAI/EUR",
     "base_id": "DAI",
     "quote_id": "ZEUR",
@@ -20696,6 +20742,52 @@
     },
     "quantity_limit": {
       "min": 34.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VELODROME/EUR",
+    "base_id": "VELODROME",
+    "quote_id": "ZEUR",
+    "base": "VELODROME",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VELODROME/USD",
+    "base_id": "VELODROME",
+    "quote_id": "ZUSD",
+    "base": "VELODROME",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },

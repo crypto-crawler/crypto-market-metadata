@@ -1339,6 +1339,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "B3USDTM",
+    "base_id": "B3",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "B3",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "BABYBNBUSDTM",
     "base_id": "BABYBNB",
     "quote_id": "USDT",
@@ -3994,6 +4017,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "HEIUSDTM",
+    "base_id": "HEI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HEI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
