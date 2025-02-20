@@ -3014,6 +3014,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIX9_TRY",
+    "base_id": "AIX9",
+    "quote_id": "TRY",
+    "base": "AIX9",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIX9_USDT",
     "base_id": "AIX9",
     "quote_id": "USDT",
@@ -19015,6 +19038,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CGX_USDT",
+    "base_id": "CGX",
+    "quote_id": "USDT",
+    "base": "CGX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CHAIN_ETH",
     "base_id": "CHAIN",
     "quote_id": "ETH",
@@ -26020,6 +26066,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "DIN_TRY",
+    "base_id": "DIN",
+    "quote_id": "TRY",
+    "base": "DIN",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -43624,6 +43693,29 @@
     "quote_id": "USDT",
     "base": "HT",
     "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HVLO_TRY",
+    "base_id": "HVLO",
+    "quote_id": "TRY",
+    "base": "HVLO",
+    "quote": "TRY",
     "active": true,
     "margin": false,
     "fees": {
@@ -81753,11 +81845,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.0001
+      "min": 0.01
     },
     "info": {}
   },

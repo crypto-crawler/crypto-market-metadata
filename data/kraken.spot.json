@@ -13710,6 +13710,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "OM/EUR",
+    "base_id": "OM",
+    "quote_id": "ZEUR",
+    "base": "OM",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "OM/USD",
+    "base_id": "OM",
+    "quote_id": "ZUSD",
+    "base": "OM",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "OMG/ETH",
     "base_id": "OMG",
     "quote_id": "XETH",
