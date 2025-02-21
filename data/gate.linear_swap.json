@@ -9020,6 +9020,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "KAITO_USDT",
+    "base_id": "KAITO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KAITO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "KARRAT_USDT",
     "base_id": "KARRAT",
     "quote_id": "USDT",
@@ -13767,6 +13794,33 @@
       "max": 1000000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "PI_USDT",
+    "base_id": "PI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

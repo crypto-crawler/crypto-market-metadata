@@ -8007,6 +8007,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "KAITO-USD",
+    "base_id": "KAITO",
+    "quote_id": "USD",
+    "base": "KAITO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "KARRAT-USD",
     "base_id": "KARRAT",
     "quote_id": "USD",
@@ -11840,7 +11863,7 @@
     "quote_id": "USD",
     "base": "PYTH",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -14285,7 +14308,7 @@
     "quote_id": "USD",
     "base": "TAO",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
