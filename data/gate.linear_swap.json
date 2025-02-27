@@ -542,6 +542,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "AIC_USDT",
+    "base_id": "AIC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AIC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "AIFUN_USDT",
     "base_id": "AIFUN",
     "quote_id": "USDT",
@@ -14906,6 +14933,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "RED_USDT",
+    "base_id": "RED",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RED",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "REEF_USDT",
     "base_id": "REEF",
     "quote_id": "USDT",
@@ -20544,6 +20598,33 @@
       "max": 1000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "ZOO_USDT",
+    "base_id": "ZOO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZOO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 100000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100000.0,
     "info": {}
   },
   {
