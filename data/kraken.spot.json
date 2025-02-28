@@ -21208,6 +21208,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "VVV/EUR",
+    "base_id": "VVV",
+    "quote_id": "ZEUR",
+    "base": "VVV",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VVV/USD",
+    "base_id": "VVV",
+    "quote_id": "ZUSD",
+    "base": "VVV",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "W/EUR",
     "base_id": "W",
     "quote_id": "ZEUR",
