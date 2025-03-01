@@ -32186,6 +32186,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "shellusdt",
+    "base_id": "shell",
+    "quote_id": "usdt",
+    "base": "SHELL",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1597699.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "shibusdc",
     "base_id": "shib",
     "quote_id": "usdc",

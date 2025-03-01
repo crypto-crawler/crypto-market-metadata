@@ -16754,6 +16754,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FWOG-USDT",
+    "base_id": "FWOG",
+    "quote_id": "USDT",
+    "base": "FWOG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FX-BTC",
     "base_id": "FX",
     "quote_id": "BTC",
@@ -27338,6 +27362,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MEMHASH-USDT",
+    "base_id": "MEMHASH",
+    "quote_id": "USDT",
+    "base": "MEMHASH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MERL-USDT",
     "base_id": "MERL",
     "quote_id": "USDT",
@@ -31352,7 +31400,7 @@
     "base": "OM",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
