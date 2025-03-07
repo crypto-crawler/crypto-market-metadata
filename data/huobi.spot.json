@@ -12782,12 +12782,12 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.001,
-      "max": 100000.0
+      "min": 1.0,
+      "max": 125000000.0
     },
     "info": {}
   },
@@ -30284,6 +30284,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 3637686.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "redusdt",
+    "base_id": "red",
+    "quote_id": "usdt",
+    "base": "RED",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 2000000.0
     },
     "info": {}
   },

@@ -3717,7 +3717,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -3740,7 +3740,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -4545,7 +4545,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -4568,7 +4568,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -16263,6 +16263,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "RED/EUR",
+    "base_id": "RED",
+    "quote_id": "ZEUR",
+    "base": "RED",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RED/USD",
+    "base_id": "RED",
+    "quote_id": "ZUSD",
+    "base": "RED",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "REN/EUR",
     "base_id": "REN",
     "quote_id": "ZEUR",
@@ -19403,7 +19449,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -19426,7 +19472,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
