@@ -11954,6 +11954,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "elxusdt",
+    "base_id": "elx",
+    "quote_id": "usdt",
+    "base": "ELX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 20000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "embtc",
     "base_id": "em",
     "quote_id": "btc",
@@ -16004,6 +16028,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 9057971.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "grokcoinusdt",
+    "base_id": "grokcoin",
+    "quote_id": "usdt",
+    "base": "GROKCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 38461538.0
     },
     "info": {}
   },

@@ -5861,6 +5861,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ELX_USDT",
+    "base_id": "ELX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ELX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ENA_USDT",
     "base_id": "ENA",
     "quote_id": "USDT",
@@ -11153,6 +11180,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "MINT_USDT",
+    "base_id": "MINT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MINT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "MKISHU_USDT",
     "base_id": "MKISHU",
     "quote_id": "USDT",
@@ -15333,6 +15387,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "ROAM_USDT",
+    "base_id": "ROAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ROAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

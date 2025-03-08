@@ -17873,6 +17873,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PI-BRL",
+    "base_id": "PI",
+    "quote_id": "BRL",
+    "base": "PI",
+    "quote": "BRL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "PI-EUR",
+    "base_id": "PI",
+    "quote_id": "EUR",
+    "base": "PI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PI-TRY",
     "base_id": "PI",
     "quote_id": "TRY",

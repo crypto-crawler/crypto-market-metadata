@@ -5798,6 +5798,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ELX/EUR",
+    "base_id": "ELX",
+    "quote_id": "ZEUR",
+    "base": "ELX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ELX/USD",
+    "base_id": "ELX",
+    "quote_id": "ZUSD",
+    "base": "ELX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ENA/EUR",
     "base_id": "ENA",
     "quote_id": "ZEUR",
@@ -9541,6 +9587,52 @@
     },
     "quantity_limit": {
       "min": 325.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "IP/EUR",
+    "base_id": "IP",
+    "quote_id": "ZEUR",
+    "base": "IP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "IP/USD",
+    "base_id": "IP",
+    "quote_id": "ZUSD",
+    "base": "IP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
