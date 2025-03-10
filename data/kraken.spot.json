@@ -3521,6 +3521,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BMT/EUR",
+    "base_id": "BMT",
+    "quote_id": "ZEUR",
+    "base": "BMT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BMT/USD",
+    "base_id": "BMT",
+    "quote_id": "ZUSD",
+    "base": "BMT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BNC/EUR",
     "base_id": "BNC",
     "quote_id": "ZEUR",
