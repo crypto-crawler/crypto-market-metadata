@@ -3026,6 +3026,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BMT_USDT",
+    "base_id": "BMT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BMT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BNB_USDT",
     "base_id": "BNB",
     "quote_id": "USDT",
@@ -16089,6 +16116,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SERAPH_USDT",
+    "base_id": "SERAPH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SERAPH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

@@ -8654,8 +8654,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
@@ -9086,8 +9086,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-9,
-      "lot_size": 0.0001
+      "tick_size": 1e-10,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 100000.0,
@@ -11150,8 +11150,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
@@ -22154,6 +22154,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "JUP-USDC",
+    "base_id": "JUP",
+    "quote_id": "USDC",
+    "base": "JUP",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "JUP-USDT",
     "base_id": "JUP",
     "quote_id": "USDT",
@@ -26132,6 +26156,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "LVVA-USDT",
+    "base_id": "LVVA",
+    "quote_id": "USDT",
+    "base": "LVVA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -31634,6 +31682,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ONDO-USDC",
+    "base_id": "ONDO",
+    "quote_id": "USDC",
+    "base": "ONDO",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ONDO-USDT",
     "base_id": "ONDO",
     "quote_id": "USDT",
@@ -31650,7 +31722,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -43610,6 +43682,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "TRUMP-USDC",
+    "base_id": "TRUMP",
+    "quote_id": "USDC",
+    "base": "TRUMP",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "TRUMP-USDT",
     "base_id": "TRUMP",
     "quote_id": "USDT",
@@ -43626,7 +43722,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.01,
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}

@@ -5301,6 +5301,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BMTUSDT_SPBL",
+    "base_id": "BMT",
+    "quote_id": "USDT",
+    "base": "BMT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BNBUSDT_SPBL",
     "base_id": "BNB",
     "quote_id": "USDT",
@@ -19832,6 +19855,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "LVVAUSDT_SPBL",
+    "base_id": "LVVA",
+    "quote_id": "USDT",
+    "base": "LVVA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "LYRAUSDT_SPBL",
     "base_id": "LYRA",
     "quote_id": "USDT",
@@ -29019,7 +29065,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
