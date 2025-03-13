@@ -1571,6 +1571,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ATH-USD",
+    "base_id": "ATH",
+    "quote_id": "USD",
+    "base": "ATH",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ATOM-BTC",
     "base_id": "ATOM",
     "quote_id": "BTC",
@@ -12371,7 +12394,7 @@
     "quote_id": "USD",
     "base": "RED",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -14366,6 +14389,29 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 120000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SYRUP-USD",
+    "base_id": "SYRUP",
+    "quote_id": "USD",
+    "base": "SYRUP",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },
