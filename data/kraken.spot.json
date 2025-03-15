@@ -2601,6 +2601,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "B3/EUR",
+    "base_id": "B3",
+    "quote_id": "ZEUR",
+    "base": "B3",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "B3/USD",
+    "base_id": "B3",
+    "quote_id": "ZUSD",
+    "base": "B3",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BADGER/EUR",
     "base_id": "BADGER",
     "quote_id": "ZEUR",
