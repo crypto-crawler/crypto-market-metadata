@@ -453,7 +453,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 56000.0
+      "max": 40000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10875,7 +10875,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 22000.0
+      "max": 12000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12981,7 +12981,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3500.0
+      "max": 2300.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13062,7 +13062,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 35000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -16499,6 +16499,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "MUBARAK_USDT",
+    "base_id": "MUBARAK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MUBARAK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1500.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "MUBI_USDT",
     "base_id": "MUBI",
     "quote_id": "USDT",
@@ -17355,7 +17382,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 12000.0
+      "max": 8400.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -20298,7 +20325,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 13000.0
+      "max": 9000.0
     },
     "contract_value": 1000000.0,
     "info": {}
@@ -20568,7 +20595,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 102000.0
+      "max": 75000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -25428,7 +25455,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 36000.0
+      "max": 25000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -25914,7 +25941,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9000.0
+      "max": 6500.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -27291,7 +27318,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500.0
+      "max": 2800.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -27454,6 +27481,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 12000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "YZYSOL_USDT",
+    "base_id": "YZYSOL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "YZYSOL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 400.0
     },
     "contract_value": 100.0,
     "info": {}
