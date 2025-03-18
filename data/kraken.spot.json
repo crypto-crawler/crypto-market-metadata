@@ -11640,6 +11640,75 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "LSETH/ETH",
+    "base_id": "LSETH",
+    "quote_id": "XETH",
+    "base": "LSETH",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.005
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LSETH/EUR",
+    "base_id": "LSETH",
+    "quote_id": "ZEUR",
+    "base": "LSETH",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.005
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LSETH/USD",
+    "base_id": "LSETH",
+    "quote_id": "ZUSD",
+    "base": "LSETH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.005
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "LSK/ETH",
     "base_id": "LSK",
     "quote_id": "XETH",
