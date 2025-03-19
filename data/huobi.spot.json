@@ -12362,6 +12362,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "epicusdt",
+    "base_id": "epic",
+    "quote_id": "usdt",
+    "base": "EPIC",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 465116.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "epikht",
     "base_id": "epik",
     "quote_id": "ht",
