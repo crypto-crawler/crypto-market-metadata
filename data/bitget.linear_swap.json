@@ -4474,6 +4474,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "FORMUSDT_UMCBL",
+    "base_id": "FORM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FORM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "FORTHUSDT_UMCBL",
     "base_id": "FORTH",
     "quote_id": "USDT",
@@ -7802,6 +7828,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "NMRUSDT_UMCBL",
+    "base_id": "NMR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NMR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "NOTUSDT_UMCBL",
     "base_id": "NOT",
     "quote_id": "USDT",
@@ -10364,7 +10416,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -11331,6 +11383,32 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "TUTUSDT_UMCBL",
+    "base_id": "TUT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TUT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "contract_value": 1.0,
     "info": {}
