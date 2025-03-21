@@ -2756,6 +2756,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BID_USDT",
+    "base_id": "BID",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BID",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BIGTIME_USDT",
     "base_id": "BIGTIME",
     "quote_id": "USDT",
@@ -3323,11 +3350,65 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BROCCOLIF3B_USDT",
+    "base_id": "BROCCOLIF3B",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BROCCOLIF3B",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BROCCOLI_USDT",
     "base_id": "BROCCOLI",
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "BROCCOLI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "BR_USDT",
+    "base_id": "BR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BR",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
@@ -16379,6 +16460,33 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SIREN_USDT",
+    "base_id": "SIREN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SIREN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {

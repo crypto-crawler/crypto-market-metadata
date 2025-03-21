@@ -18586,6 +18586,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SPICE/EUR",
+    "base_id": "SPICE",
+    "quote_id": "ZEUR",
+    "base": "SPICE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SPICE/USD",
+    "base_id": "SPICE",
+    "quote_id": "ZUSD",
+    "base": "SPICE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SPX/EUR",
     "base_id": "SPX",
     "quote_id": "ZEUR",
