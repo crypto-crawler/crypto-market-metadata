@@ -1267,6 +1267,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "BROCCOLI-USDT",
+    "base_id": "BROCCOLI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BROCCOLI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "BSV-USDT",
     "base_id": "BSV",
     "quote_id": "USDT",
@@ -2435,6 +2458,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "FORM-USDT",
+    "base_id": "FORM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FORM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -6319,6 +6365,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "TUT-USDT",
+    "base_id": "TUT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TUT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
