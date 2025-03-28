@@ -2738,6 +2738,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIL_USDT",
+    "base_id": "AIL",
+    "quote_id": "USDT",
+    "base": "AIL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIMONICA_USDT",
     "base_id": "AIMONICA",
     "quote_id": "USDT",
@@ -35868,6 +35891,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FLUID_USDT",
+    "base_id": "FLUID",
+    "quote_id": "USDT",
+    "base": "FLUID",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FLURRY_USDT",
     "base_id": "FLURRY",
     "quote_id": "USDT",
@@ -46307,6 +46353,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "IMT_USDT",
+    "base_id": "IMT",
+    "quote_id": "USDT",
+    "base": "IMT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "IMX3L_USDT",
     "base_id": "IMX3L",
     "quote_id": "USDT",
@@ -50330,6 +50399,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "KILO_USDT",
+    "base_id": "KILO",
+    "quote_id": "USDT",
+    "base": "KILO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -56412,10 +56504,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 1.0
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -59506,11 +59598,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 1.0
+      "tick_size": 1e-7,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -65978,6 +66070,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NIL_TRY",
+    "base_id": "NIL",
+    "quote_id": "TRY",
+    "base": "NIL",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NIL_USDT",
     "base_id": "NIL",
     "quote_id": "USDT",
@@ -71649,6 +71764,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PARTI_TRY",
+    "base_id": "PARTI",
+    "quote_id": "TRY",
+    "base": "PARTI",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -102547,6 +102685,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WAL_USDT",
+    "base_id": "WAL",
+    "quote_id": "USDT",
+    "base": "WAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
