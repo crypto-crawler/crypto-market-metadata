@@ -4960,6 +4960,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "DOGINME-USD",
+    "base_id": "DOGINME",
+    "quote_id": "USD",
+    "base": "DOGINME",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "DOT-BTC",
     "base_id": "DOT",
     "quote_id": "BTC",
@@ -8182,6 +8205,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "KEYCAT-USD",
+    "base_id": "KEYCAT",
+    "quote_id": "USD",
+    "base": "KEYCAT",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0
