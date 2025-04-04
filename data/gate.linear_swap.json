@@ -5780,6 +5780,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "EDGE_USDT",
+    "base_id": "EDGE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EDGE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "EDU_USDT",
     "base_id": "EDU",
     "quote_id": "USDT",
@@ -17633,6 +17660,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "STO_USDT",
+    "base_id": "STO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "STPT_USDT",
     "base_id": "STPT",
     "quote_id": "USDT",
@@ -20344,6 +20398,33 @@
     "margin": true,
     "fees": {
       "maker": -0.000152,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "XAUT_USDT",
+    "base_id": "XAUT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XAUT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
       "taker": 0.00075
     },
     "precision": {
