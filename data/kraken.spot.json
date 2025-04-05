@@ -20311,6 +20311,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "TITCOIN/EUR",
+    "base_id": "TITCOIN",
+    "quote_id": "ZEUR",
+    "base": "TITCOIN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TITCOIN/USD",
+    "base_id": "TITCOIN",
+    "quote_id": "ZUSD",
+    "base": "TITCOIN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "TLM/EUR",
     "base_id": "TLM",
     "quote_id": "ZEUR",

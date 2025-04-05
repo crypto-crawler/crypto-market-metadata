@@ -93123,6 +93123,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SUT_USDT",
+    "base_id": "SUT",
+    "quote_id": "USDT",
+    "base": "SUT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SVL_USDT",
     "base_id": "SVL",
     "quote_id": "USDT",
