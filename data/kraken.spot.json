@@ -14,7 +14,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -37,7 +37,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -1865,6 +1865,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AR/EUR",
+    "base_id": "AR",
+    "quote_id": "ZEUR",
+    "base": "AR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.25
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AR/USD",
+    "base_id": "AR",
+    "quote_id": "ZUSD",
+    "base": "AR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.25
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ARB/EUR",
     "base_id": "ARB",
     "quote_id": "ZEUR",
@@ -2107,7 +2153,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -2130,7 +2176,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -2774,7 +2820,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -2797,7 +2843,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -3671,7 +3717,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -3694,7 +3740,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -5143,7 +5189,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -5166,7 +5212,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -5810,7 +5856,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -5833,7 +5879,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -6224,7 +6270,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -6293,7 +6339,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -7788,7 +7834,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -7811,7 +7857,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -7857,7 +7903,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -8547,7 +8593,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -8570,7 +8616,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -8892,7 +8938,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -8915,7 +8961,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -9398,7 +9444,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -9421,7 +9467,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -9536,7 +9582,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -9559,7 +9605,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -10318,7 +10364,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -10341,7 +10387,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -11100,7 +11146,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 0.01,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -11123,7 +11169,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 0.01,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -12871,7 +12917,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -12894,7 +12940,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -13055,7 +13101,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -13078,7 +13124,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -13216,7 +13262,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -13285,7 +13331,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -13308,7 +13354,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -13515,7 +13561,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -14021,7 +14067,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -14044,7 +14090,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -14067,7 +14113,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -14090,7 +14136,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -16459,7 +16505,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -16482,7 +16528,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -16873,7 +16919,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -16919,7 +16965,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -17103,7 +17149,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -17149,7 +17195,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -18115,7 +18161,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -18138,7 +18184,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -19058,7 +19104,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -19081,7 +19127,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -19150,7 +19196,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -19196,7 +19242,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -19621,6 +19667,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SUN/EUR",
+    "base_id": "SUN",
+    "quote_id": "ZEUR",
+    "base": "SUN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 450.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SUN/USD",
+    "base_id": "SUN",
+    "quote_id": "ZUSD",
+    "base": "SUN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 450.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SUNDOG/EUR",
     "base_id": "SUNDOG",
     "quote_id": "ZEUR",
@@ -19863,7 +19955,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -19886,7 +19978,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -20461,7 +20553,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -21312,7 +21404,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -23065,6 +23157,52 @@
     },
     "quantity_limit": {
       "min": 1.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "WIN/EUR",
+    "base_id": "WIN",
+    "quote_id": "ZEUR",
+    "base": "WIN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "WIN/USD",
+    "base_id": "WIN",
+    "quote_id": "ZUSD",
+    "base": "WIN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100000.0
     },
     "info": {}
   },
