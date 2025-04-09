@@ -21001,6 +21001,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CKP_USDT",
+    "base_id": "CKP",
+    "quote_id": "USDT",
+    "base": "CKP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CLANKER_USDT",
     "base_id": "CLANKER",
     "quote_id": "USDT",
@@ -52339,6 +52362,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "K_TRY",
+    "base_id": "K",
+    "quote_id": "TRY",
+    "base": "K",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "K_USDT",
     "base_id": "K",
     "quote_id": "USDT",
@@ -53796,6 +53842,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LGCT_TRY",
+    "base_id": "LGCT",
+    "quote_id": "TRY",
+    "base": "LGCT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -85324,7 +85393,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -93146,6 +93215,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SUT_TRY",
+    "base_id": "SUT",
+    "quote_id": "TRY",
+    "base": "SUT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SUT_USDT",
     "base_id": "SUT",
     "quote_id": "USDT",
@@ -96135,7 +96227,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -110926,7 +111018,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
