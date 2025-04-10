@@ -7516,6 +7516,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "XAUT-USDT-SWAP",
+    "base_id": "XAUT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XAUT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "XCH-USDT-SWAP",
     "base_id": "XCH",
     "quote_id": "USDT",
