@@ -6536,6 +6536,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "FHE_USDT",
+    "base_id": "FHE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FHE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "FIDA_USDT",
     "base_id": "FIDA",
     "quote_id": "USDT",
@@ -14955,6 +14982,33 @@
       "max": 1000000.0
     },
     "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "PROMPT_USDT",
+    "base_id": "PROMPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PROMPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

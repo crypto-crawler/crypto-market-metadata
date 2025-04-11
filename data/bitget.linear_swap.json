@@ -1770,6 +1770,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "BABYUSDT_UMCBL",
+    "base_id": "BABY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BABY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "BAKEUSDT_UMCBL",
     "base_id": "BAKE",
     "quote_id": "USDT",
@@ -7608,7 +7634,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -9336,6 +9362,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "PROMPTUSDT_UMCBL",
+    "base_id": "PROMPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PROMPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "PROMUSDT_UMCBL",
     "base_id": "PROM",
     "quote_id": "USDT",
@@ -10494,7 +10546,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {

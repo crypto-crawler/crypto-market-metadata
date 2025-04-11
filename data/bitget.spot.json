@@ -3756,6 +3756,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BABYUSDT_SPBL",
+    "base_id": "BABY",
+    "quote_id": "USDT",
+    "base": "BABY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BADGERUSDT_SPBL",
     "base_id": "BADGER",
     "quote_id": "USDT",
@@ -12379,6 +12402,29 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "FHEUSDT_SPBL",
+    "base_id": "FHE",
+    "quote_id": "USDT",
+    "base": "FHE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
@@ -27060,6 +27106,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "PROMPTUSDT_SPBL",
+    "base_id": "PROMPT",
+    "quote_id": "USDT",
+    "base": "PROMPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 0.0

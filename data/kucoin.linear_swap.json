@@ -1388,6 +1388,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "BABYUSDTM",
+    "base_id": "BABY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BABY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "BADGERUSDTM",
     "base_id": "BADGER",
     "quote_id": "USDT",
@@ -3624,6 +3647,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "FORTHUSDTM",
+    "base_id": "FORTH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FORTH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,

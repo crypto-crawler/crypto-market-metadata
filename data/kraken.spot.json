@@ -19414,6 +19414,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SSV/EUR",
+    "base_id": "SSV",
+    "quote_id": "ZEUR",
+    "base": "SSV",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SSV/USD",
+    "base_id": "SSV",
+    "quote_id": "ZUSD",
+    "base": "SSV",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "STEP/EUR",
     "base_id": "STEP",
     "quote_id": "ZEUR",
