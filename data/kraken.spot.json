@@ -10858,6 +10858,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "KERNEL/EUR",
+    "base_id": "KERNEL",
+    "quote_id": "ZEUR",
+    "base": "KERNEL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "KERNEL/USD",
+    "base_id": "KERNEL",
+    "quote_id": "ZUSD",
+    "base": "KERNEL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "KEY/EUR",
     "base_id": "KEY",
     "quote_id": "ZEUR",
