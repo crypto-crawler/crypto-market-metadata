@@ -10874,6 +10874,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "DARK-USDT",
+    "base_id": "DARK",
+    "quote_id": "USDT",
+    "base": "DARK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DASH-BTC",
     "base_id": "DASH",
     "quote_id": "BTC",
