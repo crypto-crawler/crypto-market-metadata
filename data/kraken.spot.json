@@ -9938,6 +9938,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "HMSTR/EUR",
+    "base_id": "HMSTR",
+    "quote_id": "ZEUR",
+    "base": "HMSTR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 960.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "HMSTR/USD",
+    "base_id": "HMSTR",
+    "quote_id": "ZUSD",
+    "base": "HMSTR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 960.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "HNT/EUR",
     "base_id": "HNT",
     "quote_id": "ZEUR",
