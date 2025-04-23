@@ -3669,6 +3669,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "CLANKER-USD",
+    "base_id": "CLANKER",
+    "quote_id": "USD",
+    "base": "CLANKER",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "CLV-EUR",
     "base_id": "CLV",
     "quote_id": "EUR",
@@ -13199,7 +13222,7 @@
     "quote_id": "USD",
     "base": "RSR",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,

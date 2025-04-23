@@ -8723,6 +8723,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "HYPER_USDT",
+    "base_id": "HYPER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HYPER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "HYPE_USDT",
     "base_id": "HYPE",
     "quote_id": "USDT",

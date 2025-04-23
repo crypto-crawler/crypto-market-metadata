@@ -10352,6 +10352,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "INIT/EUR",
+    "base_id": "INIT",
+    "quote_id": "ZEUR",
+    "base": "INIT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "INIT/USD",
+    "base_id": "INIT",
+    "quote_id": "ZUSD",
+    "base": "INIT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "INJ/EUR",
     "base_id": "INJ",
     "quote_id": "ZEUR",
@@ -16369,6 +16415,52 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PLUME/EUR",
+    "base_id": "PLUME",
+    "quote_id": "ZEUR",
+    "base": "PLUME",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PLUME/USD",
+    "base_id": "PLUME",
+    "quote_id": "ZUSD",
+    "base": "PLUME",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
     },
     "quantity_limit": {
       "min": 30.0
