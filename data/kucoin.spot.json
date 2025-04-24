@@ -8858,6 +8858,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CLANKER-USDT",
+    "base_id": "CLANKER",
+    "quote_id": "USDT",
+    "base": "CLANKER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CLAY-USDT",
     "base_id": "CLAY",
     "quote_id": "USDT",
@@ -51643,6 +51667,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ZORA-USDT",
+    "base_id": "ZORA",
+    "quote_id": "USDT",
+    "base": "ZORA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}

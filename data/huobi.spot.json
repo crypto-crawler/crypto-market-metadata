@@ -13634,6 +13634,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "fheusdt",
+    "base_id": "fhe",
+    "quote_id": "usdt",
+    "base": "FHE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 12624668.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "fightusdt",
     "base_id": "fight",
     "quote_id": "usdt",
