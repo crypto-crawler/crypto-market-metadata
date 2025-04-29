@@ -19299,6 +19299,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SNEK/EUR",
+    "base_id": "SNEK",
+    "quote_id": "ZEUR",
+    "base": "SNEK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SNEK/USD",
+    "base_id": "SNEK",
+    "quote_id": "ZUSD",
+    "base": "SNEK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SNX/AUD",
     "base_id": "SNX",
     "quote_id": "ZAUD",
