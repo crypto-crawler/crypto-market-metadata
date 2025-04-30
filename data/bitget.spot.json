@@ -2154,7 +2154,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -15619,6 +15619,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "HAEDALUSDT_SPBL",
+    "base_id": "HAEDAL",
+    "quote_id": "USDT",
+    "base": "HAEDAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "HAHAUSDT_SPBL",
     "base_id": "HAHA",
     "quote_id": "USDT",
@@ -21626,6 +21649,29 @@
     "base_id": "MIGGLES",
     "quote_id": "USDT",
     "base": "MIGGLES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "MILKUSDT_SPBL",
+    "base_id": "MILK",
+    "quote_id": "USDT",
+    "base": "MILK",
     "quote": "USDT",
     "active": true,
     "margin": false,
