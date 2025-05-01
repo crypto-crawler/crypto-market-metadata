@@ -9272,6 +9272,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "MANTLE-USD",
+    "base_id": "MANTLE",
+    "quote_id": "USD",
+    "base": "MANTLE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "MASK-EUR",
     "base_id": "MASK",
     "quote_id": "EUR",
@@ -10176,7 +10199,7 @@
     "quote_id": "USD",
     "base": "MPL",
     "quote": "USD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -16173,6 +16196,29 @@
     "base_id": "WIF",
     "quote_id": "USD",
     "base": "WIF",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "WLD-USD",
+    "base_id": "WLD",
+    "quote_id": "USD",
+    "base": "WLD",
     "quote": "USD",
     "active": true,
     "margin": false,
