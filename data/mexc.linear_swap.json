@@ -5502,7 +5502,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 11000.0
+      "max": 3600.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9039,7 +9039,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6000.0
+      "max": 9000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10929,7 +10929,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1900000.0
+      "max": 2800000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -11037,7 +11037,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 140000.0
+      "max": 110000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -12549,7 +12549,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 14000.0
+      "max": 7000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -19596,7 +19596,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3200.0
+      "max": 1700.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -21649,6 +21649,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 30000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "POPE_USDT",
+    "base_id": "POPE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POPE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -24753,7 +24780,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 280000.0
+      "max": 220000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -26022,7 +26049,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1300.0
+      "max": 3000.0
     },
     "contract_value": 1.0,
     "info": {}
