@@ -2740,7 +2740,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -6973,7 +6973,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -8004,7 +8004,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -23050,6 +23050,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "MYXUSDT_SPBL",
+    "base_id": "MYX",
+    "quote_id": "USDT",
+    "base": "MYX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "NADAUSDT_SPBL",
     "base_id": "NADA",
     "quote_id": "USDT",
@@ -30548,7 +30571,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -33087,7 +33110,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -33286,6 +33309,29 @@
     "base_id": "SYN",
     "quote_id": "USDT",
     "base": "SYN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SYRUPUSDT_SPBL",
+    "base_id": "SYRUP",
+    "quote_id": "USDT",
+    "base": "SYRUP",
     "quote": "USDT",
     "active": true,
     "margin": false,

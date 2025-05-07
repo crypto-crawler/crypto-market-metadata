@@ -540,7 +540,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -6675,6 +6675,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ARCHAI_USDT",
+    "base_id": "ARCHAI",
+    "quote_id": "USDT",
+    "base": "ARCHAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -29858,7 +29881,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -34955,7 +34978,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -44451,7 +44474,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -70247,11 +70270,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 1.0
+      "tick_size": 1e-8,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -92452,7 +92475,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -93469,7 +93492,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -96104,7 +96127,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
