@@ -7246,7 +7246,7 @@
     "quote_id": "USD",
     "base": "GUSD",
     "quote": "USD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -7269,7 +7269,7 @@
     "quote_id": "USD",
     "base": "GYEN",
     "quote": "USD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -11385,6 +11385,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "PAXG-USD",
+    "base_id": "PAXG",
+    "quote_id": "USD",
+    "base": "PAXG",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
     },
     "quantity_limit": {
       "notional_min": 1.0
