@@ -14124,6 +14124,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "JITOSOL-USDT",
+    "base_id": "JITOSOL",
+    "quote_id": "USDT",
+    "base": "JITOSOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "JOE-USD",
     "base_id": "JOE",
     "quote_id": "USD",

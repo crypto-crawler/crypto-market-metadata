@@ -1209,7 +1209,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 430000.0
+      "max": 350000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -1236,7 +1236,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1100000.0
+      "max": 900000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -3666,7 +3666,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6500.0
+      "max": 4500.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5259,7 +5259,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 40000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9255,7 +9255,34 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4500.0
+      "max": 6500.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "DOOD_USDT",
+    "base_id": "DOOD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DOOD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 75000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -9795,7 +9822,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 130000.0
+      "max": 110000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -10389,7 +10416,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 730000.0
+      "max": 580000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -11361,7 +11388,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 31000.0
+      "max": 21000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12584,6 +12611,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "GORILLABSC_USDT",
+    "base_id": "GORILLABSC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GORILLABSC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 700.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "GORK_USDT",
     "base_id": "GORK",
     "quote_id": "USDT",
@@ -13440,7 +13494,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 52000.0
+      "max": 35000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -14466,7 +14520,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400.0
+      "max": 800.0
     },
     "contract_value": 1000000000.0,
     "info": {}
@@ -17355,7 +17409,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 80000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -17382,7 +17436,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1200000.0
+      "max": 950000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -17490,7 +17544,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 240000.0
+      "max": 190000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -18030,7 +18084,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 450000.0
+      "max": 270000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -18705,7 +18759,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 130000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -20973,7 +21027,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7500.0
+      "max": 6000.0
     },
     "contract_value": 10000000.0,
     "info": {}
@@ -21513,7 +21567,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 170000.0
+      "max": 140000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -22944,7 +22998,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2100.0
+      "max": 1500.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -23349,7 +23403,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 27000000.0
+      "max": 22000000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -24186,7 +24240,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2250.0
+      "max": 28000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -24375,7 +24429,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000.0
+      "max": 8500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -25104,7 +25158,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 200000.0
+      "max": 300000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -28587,7 +28641,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5000.0
+      "max": 3500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -28776,7 +28830,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 170000.0
+      "max": 250000.0
     },
     "contract_value": 100.0,
     "info": {}
