@@ -2316,7 +2316,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 6700.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4665,7 +4665,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500.0
+      "max": 800.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -14520,7 +14520,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 800.0
+      "max": 1200.0
     },
     "contract_value": 1000000000.0,
     "info": {}
@@ -18092,6 +18092,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "MOONPIG_USDT",
+    "base_id": "MOONPIG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MOONPIG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 170.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "MORPHO_USDT",
     "base_id": "MORPHO",
     "quote_id": "USDT",
@@ -18354,7 +18381,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 75000.0
+      "max": 50000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -21864,7 +21891,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 800.0
+      "max": 1200.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -22736,6 +22763,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "RATO_USDT",
+    "base_id": "RATO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RATO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1050.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "RAY_USDT",
     "base_id": "RAY",
     "quote_id": "USDT",
@@ -23268,7 +23322,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000.0
+      "max": 1500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -28668,7 +28722,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500.0
+      "max": 900.0
     },
     "contract_value": 0.1,
     "info": {}
