@@ -2212,6 +2212,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "DOOD-USDT-SWAP",
+    "base_id": "DOOD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DOOD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "DORA-USDT-SWAP",
     "base_id": "DORA",
     "quote_id": "USDT",
