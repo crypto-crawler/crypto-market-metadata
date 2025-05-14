@@ -3837,7 +3837,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -18980,6 +18980,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "LAUNCHCOINUSDT_SPBL",
+    "base_id": "LAUNCHCOIN",
+    "quote_id": "USDT",
+    "base": "LAUNCHCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "LAYERUSDT_SPBL",
     "base_id": "LAYER",
     "quote_id": "USDT",
@@ -28490,6 +28513,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "RDACUSDT_SPBL",
+    "base_id": "RDAC",
+    "quote_id": "USDT",
+    "base": "RDAC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
