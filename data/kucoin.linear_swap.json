@@ -409,7 +409,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -3556,7 +3556,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -6124,7 +6124,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "contract_value": 0.1,
@@ -6562,7 +6562,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -6875,6 +6875,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "NTRN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "NXPCUSDTM",
+    "base_id": "NXPC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NXPC",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
@@ -8131,7 +8154,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -8644,6 +8667,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "SOLUSDCM",
+    "base_id": "SOL",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "SOL",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
@@ -10653,6 +10699,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "XRPUSDCM",
+    "base_id": "XRP",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "XRP",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
