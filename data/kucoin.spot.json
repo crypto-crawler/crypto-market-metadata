@@ -24698,6 +24698,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "LAUNCHCOIN-USDT",
+    "base_id": "LAUNCHCOIN",
+    "quote_id": "USDT",
+    "base": "LAUNCHCOIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "LAVA-USDT",
     "base_id": "LAVA",
     "quote_id": "USDT",
@@ -31938,7 +31962,7 @@
       "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}

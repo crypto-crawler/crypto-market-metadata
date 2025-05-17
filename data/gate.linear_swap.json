@@ -515,6 +515,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "AGT_USDT",
+    "base_id": "AGT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AGT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "AI16Z_USDT",
     "base_id": "AI16Z",
     "quote_id": "USDT",
@@ -10336,6 +10363,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "LAUNCHCOIN_USDT",
+    "base_id": "LAUNCHCOIN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LAUNCHCOIN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
     },
     "contract_value": 10.0,
     "info": {}
