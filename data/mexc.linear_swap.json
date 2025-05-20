@@ -1560,7 +1560,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2900.0
+      "max": 1000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -2365,7 +2365,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -3045,7 +3045,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 36000.0
+      "max": 50000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3639,7 +3639,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 38000.0
+      "max": 57000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5146,7 +5146,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7481,6 +7481,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "COLLAT_USDT",
+    "base_id": "COLLAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COLLAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 800.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "COMBO_USDT",
     "base_id": "COMBO",
     "quote_id": "USDT",
@@ -9309,7 +9336,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4300.0
+      "max": 6300.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -9822,7 +9849,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7800.0
+      "max": 5000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12495,7 +12522,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4500.0
+      "max": 8000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -12792,7 +12819,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 150000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13845,7 +13872,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2400.0
+      "max": 3600.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13899,7 +13926,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2300.0
+      "max": 3400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -14277,7 +14304,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 37000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -16383,7 +16410,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1100.0
+      "max": 1600.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -18759,7 +18786,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500.0
+      "max": 800.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -21513,7 +21540,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000.0
+      "max": 4500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -23403,7 +23430,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2200.0
+      "max": 3300.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -24456,7 +24483,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 220000.0
+      "max": 170000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -27191,6 +27218,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "TGT_USDT",
+    "base_id": "TGT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TGT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "THETA_USDT",
     "base_id": "THETA",
     "quote_id": "USDT",
@@ -28587,7 +28641,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100.0
+      "max": 150.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -29289,7 +29343,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250000.0
+      "max": 370000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -29937,7 +29991,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1050000.0
+      "max": 900000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -30342,7 +30396,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000000.0
+      "max": 15000000.0
     },
     "contract_value": 1.0,
     "info": {}
