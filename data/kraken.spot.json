@@ -5959,6 +5959,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "DEGEN/EUR",
+    "base_id": "DEGEN",
+    "quote_id": "ZEUR",
+    "base": "DEGEN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DEGEN/USD",
+    "base_id": "DEGEN",
+    "quote_id": "ZUSD",
+    "base": "DEGEN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DENT/EUR",
     "base_id": "DENT",
     "quote_id": "ZEUR",
