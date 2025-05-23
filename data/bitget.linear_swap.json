@@ -2524,6 +2524,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "BLUENEWUSDT_UMCBL",
+    "base_id": "BLUENEW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BLUENEW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "BLURUSDT_UMCBL",
     "base_id": "BLUR",
     "quote_id": "USDT",
@@ -2933,6 +2959,32 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "BUSDT_UMCBL",
+    "base_id": "B",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "B",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -12397,6 +12449,32 @@
     },
     "quantity_limit": {
       "min": 0.001
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "TGTUSDT_UMCBL",
+    "base_id": "TGT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TGT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}

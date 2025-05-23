@@ -3486,6 +3486,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "AWEUSDT_SPBL",
+    "base_id": "AWE",
+    "quote_id": "USDT",
+    "base": "AWE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "AWTUSDT_SPBL",
     "base_id": "AWT",
     "quote_id": "USDT",
@@ -6546,6 +6569,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "BUSDT_SPBL",
+    "base_id": "B",
+    "quote_id": "USDT",
+    "base": "B",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {

@@ -4533,6 +4533,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CAT/EUR",
+    "base_id": "CAT",
+    "quote_id": "ZEUR",
+    "base": "CAT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CAT/USD",
+    "base_id": "CAT",
+    "quote_id": "ZUSD",
+    "base": "CAT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "CELO/EUR",
     "base_id": "CELO",
     "quote_id": "ZEUR",
