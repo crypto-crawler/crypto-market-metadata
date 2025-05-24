@@ -807,6 +807,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "B-USDT",
+    "base_id": "B",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "B",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "BABY-USDT",
     "base_id": "BABY",
     "quote_id": "USDT",
@@ -6230,6 +6253,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "SOON-USDT",
+    "base_id": "SOON",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SOON",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
