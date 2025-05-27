@@ -6268,6 +6268,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "HUMAUSDT_UMCBL",
+    "base_id": "HUMA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HUMA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "HYPERUSDT_UMCBL",
     "base_id": "HYPER",
     "quote_id": "USDT",
@@ -14139,6 +14165,32 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "ZBCNUSDT_UMCBL",
+    "base_id": "ZBCN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZBCN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "contract_value": 1.0,
     "info": {}

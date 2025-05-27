@@ -21266,6 +21266,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "HUMA-USDT",
+    "base_id": "HUMA",
+    "quote_id": "USDT",
+    "base": "HUMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "HYDRA-USDT",
     "base_id": "HYDRA",
     "quote_id": "USDT",

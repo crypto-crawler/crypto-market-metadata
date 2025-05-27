@@ -16507,6 +16507,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "HUMAUSDT_SPBL",
+    "base_id": "HUMA",
+    "quote_id": "USDT",
+    "base": "HUMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "HYPERUSDT_SPBL",
     "base_id": "HYPER",
     "quote_id": "USDT",
@@ -35751,6 +35774,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "USD1USDT_SPBL",
+    "base_id": "USD1",
+    "quote_id": "USDT",
+    "base": "USD1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
