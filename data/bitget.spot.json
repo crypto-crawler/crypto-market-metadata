@@ -3328,6 +3328,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "AUSDT_SPBL",
+    "base_id": "A",
+    "quote_id": "USDT",
+    "base": "A",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "AVAAIUSDT_SPBL",
     "base_id": "AVAAI",
     "quote_id": "USDT",
@@ -32063,6 +32086,29 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SOPHNEWUSDT_SPBL",
+    "base_id": "SOPHNEW",
+    "quote_id": "USDT",
+    "base": "SOPHNEW",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
