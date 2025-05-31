@@ -100,7 +100,7 @@
     "base": "A",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -12083,7 +12083,7 @@
     "base": "GLMR",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -15021,6 +15021,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "KMNO-USDT",
+    "base_id": "KMNO",
+    "quote_id": "USDT",
+    "base": "KMNO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "KNC-BTC",
     "base_id": "KNC",
     "quote_id": "BTC",
@@ -16108,7 +16131,7 @@
     "base": "LOOKS",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -21444,7 +21467,7 @@
     "base": "PERP",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -23353,7 +23376,7 @@
     "base": "RON",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001

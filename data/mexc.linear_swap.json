@@ -399,7 +399,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8000.0
+      "max": 12000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -750,7 +750,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8000.0
+      "max": 12000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -1217,6 +1217,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ACT_USDC",
+    "base_id": "ACT",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "ACT",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 9200.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ACT_USDT",
     "base_id": "ACT",
     "quote_id": "USDT",
@@ -1231,7 +1258,7 @@
       "taker": 0.0
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -2343,7 +2370,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 90.0
+      "max": 150.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3377,6 +3404,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ASRR_USDT",
+    "base_id": "ASRR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ASRR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1500.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ASR_USDT",
     "base_id": "ASR",
     "quote_id": "USDT",
@@ -3693,7 +3747,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 31000.0
+      "max": 140000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4098,7 +4152,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400000.0
+      "max": 600000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -4746,7 +4800,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 450000.0
+      "max": 700000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -4854,7 +4908,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 170000.0
+      "max": 250000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5832,6 +5886,33 @@
     "info": {}
   },
   {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "BOXCAT_USDT",
+    "base_id": "BOXCAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BOXCAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1250.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
     "exchange": "mxc",
     "market_type": "linear_swap",
     "symbol": "BP_USDT",
@@ -6474,7 +6555,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 37000.0
+      "max": 55000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -6609,7 +6690,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 27000.0
+      "max": 120000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -8904,7 +8985,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 220000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -8931,7 +9012,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 22000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9282,7 +9363,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250.0
+      "max": 800.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -11037,7 +11118,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 27000.0
+      "max": 80000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -11550,7 +11631,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2300000.0
+      "max": 200000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -12468,7 +12549,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 22500.0
+      "max": 68000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -13008,7 +13089,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45000.0
+      "max": 70000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -13143,7 +13224,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 240000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13197,7 +13278,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 850.0
+      "max": 1300.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13467,7 +13548,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000.0
+      "max": 22000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -14520,7 +14601,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 41000.0
+      "max": 61000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -15384,7 +15465,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 43500.0
+      "max": 130000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -16275,7 +16356,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000.0
+      "max": 1900.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -16410,7 +16491,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2400.0
+      "max": 4000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -16464,7 +16545,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 75000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -17085,7 +17166,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400000.0
+      "max": 6500.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -17301,7 +17382,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 28000.0
+      "max": 42000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -17571,7 +17652,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 95000.0
+      "max": 130000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -18335,6 +18416,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ME_USDC",
+    "base_id": "ME",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "ME",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 5600.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ME_USDT",
     "base_id": "ME",
     "quote_id": "USDT",
@@ -18948,7 +19056,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 900.0
+      "max": 1300.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -22080,7 +22188,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6700.0
+      "max": 15000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -23074,7 +23182,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -23133,7 +23241,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 115000.0
+      "max": 170000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -23484,7 +23592,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 120.0
+      "max": 180.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -23538,7 +23646,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 170000.0
+      "max": 240000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -24024,7 +24132,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 550.0
+      "max": 3900.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -24753,7 +24861,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3750.0
+      "max": 5000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -24807,7 +24915,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400000.0
+      "max": 300000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -25482,7 +25590,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 45000.0
+      "max": 70000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -27164,6 +27272,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "STX_USDC",
+    "base_id": "STX",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "STX",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6250.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "STX_USDT",
     "base_id": "STX",
     "quote_id": "USDT",
@@ -27507,7 +27642,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 170000.0
+      "max": 250000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -27696,7 +27831,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 185000.0
+      "max": 270000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -28155,7 +28290,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 600.0
+      "max": 1000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -29135,6 +29270,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "TST_USDC",
+    "base_id": "TST",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "TST",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 8550.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "TST_USDT",
     "base_id": "TST",
     "quote_id": "USDT",
@@ -29810,6 +29972,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "VANA_USDC",
+    "base_id": "VANA",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "VANA",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6800.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "VANA_USDT",
     "base_id": "VANA",
     "quote_id": "USDT",
@@ -30342,7 +30531,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 11000.0
+      "max": 16000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -30720,7 +30909,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7000.0
+      "max": 4700.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -30774,7 +30963,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 180.0
+      "max": 90.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -31422,7 +31611,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 15000000.0
+      "max": 22000000.0
     },
     "contract_value": 1.0,
     "info": {}
