@@ -31780,6 +31780,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "EDGEN_USDT",
+    "base_id": "EDGEN",
+    "quote_id": "USDT",
+    "base": "EDGEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "EDGE_TRY",
     "base_id": "EDGE",
     "quote_id": "TRY",
@@ -43138,6 +43161,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "GOHOME_USDT",
+    "base_id": "GOHOME",
+    "quote_id": "USDT",
+    "base": "GOHOME",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -75233,6 +75279,29 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "PAPARAZZI_USDT",
+    "base_id": "PAPARAZZI",
+    "quote_id": "USDT",
+    "base": "PAPARAZZI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
