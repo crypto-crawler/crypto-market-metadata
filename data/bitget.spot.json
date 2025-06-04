@@ -4402,6 +4402,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BDXNUSDT_SPBL",
+    "base_id": "BDXN",
+    "quote_id": "USDT",
+    "base": "BDXN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BEAMUSDT_SPBL",
     "base_id": "BEAM",
     "quote_id": "USDT",
@@ -30036,6 +30059,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "RWAUSDT_SPBL",
+    "base_id": "RWA",
+    "quote_id": "USDT",
+    "base": "RWA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
     },
     "info": {}
   },
