@@ -5351,6 +5351,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ENA-USD",
+    "base_id": "ENA",
+    "quote_id": "USD",
+    "base": "ENA",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ENJ-BTC",
     "base_id": "ENJ",
     "quote_id": "BTC",
@@ -8480,6 +8503,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "LA-USD",
+    "base_id": "LA",
+    "quote_id": "USD",
+    "base": "LA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "quantity_limit": {
