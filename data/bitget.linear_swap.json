@@ -54,6 +54,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "1000000BOBUSDT_UMCBL",
+    "base_id": "1000000BOB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "1000000BOB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "1000000MOGUSDT_UMCBL",
     "base_id": "1000000MOG",
     "quote_id": "USDT",
@@ -3803,6 +3829,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "CTSI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "CUDISUSDT_UMCBL",
+    "base_id": "CUDIS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CUDIS",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
