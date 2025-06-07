@@ -7319,6 +7319,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "FLY_USDT",
+    "base_id": "FLY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "FORM_USDT",
     "base_id": "FORM",
     "quote_id": "USDT",
@@ -10689,6 +10716,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "LA_USDT",
+    "base_id": "LA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
