@@ -40466,6 +40466,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "SKATE-USDT",
+    "base_id": "SKATE",
+    "quote_id": "USDT",
+    "base": "SKATE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "SKEY-USDT",
     "base_id": "SKEY",
     "quote_id": "USDT",
@@ -52484,6 +52508,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ZEUSETH-USDT",
+    "base_id": "ZEUSETH",
+    "quote_id": "USDT",
+    "base": "ZEUSETH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-11,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000000.0,
+      "max": 100000000000000.0
     },
     "info": {}
   },
