@@ -6346,6 +6346,32 @@
   {
     "exchange": "bitget",
     "market_type": "linear_swap",
+    "symbol": "HOMEUSDT_UMCBL",
+    "base_id": "HOME",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HOME",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
     "symbol": "HOOKUSDT_UMCBL",
     "base_id": "HOOK",
     "quote_id": "USDT",
@@ -10993,6 +11019,32 @@
     },
     "quantity_limit": {
       "min": 5.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "linear_swap",
+    "symbol": "RESOLVUSDT_UMCBL",
+    "base_id": "RESOLV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RESOLV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "contract_value": 1.0,
     "info": {}
