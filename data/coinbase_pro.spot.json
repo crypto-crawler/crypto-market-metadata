@@ -3393,6 +3393,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "CAKE-USD",
+    "base_id": "CAKE",
+    "quote_id": "USD",
+    "base": "CAKE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "CBETH-ETH",
     "base_id": "CBETH",
     "quote_id": "ETH",
@@ -6101,6 +6124,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "FARTCOIN-USD",
+    "base_id": "FARTCOIN",
+    "quote_id": "USD",
+    "base": "FARTCOIN",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "notional_min": 1.0
@@ -14130,6 +14176,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SQD-USD",
+    "base_id": "SQD",
+    "quote_id": "USD",
+    "base": "SQD",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "notional_min": 1.0
