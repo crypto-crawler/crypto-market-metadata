@@ -2,6 +2,32 @@
   {
     "exchange": "bitget",
     "market_type": "inverse_swap",
+    "symbol": "AAVEUSD_DMCBL",
+    "base_id": "AAVE",
+    "quote_id": "USD",
+    "settle_id": "AAVE",
+    "base": "AAVE",
+    "quote": "USD",
+    "settle": "AAVE",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
     "symbol": "ADAUSD_DMCBL",
     "base_id": "ADA",
     "quote_id": "USD",
@@ -262,6 +288,32 @@
   {
     "exchange": "bitget",
     "market_type": "inverse_swap",
+    "symbol": "OPUSD_DMCBL",
+    "base_id": "OP",
+    "quote_id": "USD",
+    "settle_id": "OP",
+    "base": "OP",
+    "quote": "USD",
+    "settle": "OP",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
     "symbol": "SOLUSD_DMCBL",
     "base_id": "SOL",
     "quote_id": "USD",
@@ -333,6 +385,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
+    "symbol": "WIFUSD_DMCBL",
+    "base_id": "WIF",
+    "quote_id": "USD",
+    "settle_id": "WIF",
+    "base": "WIF",
+    "quote": "USD",
+    "settle": "WIF",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}
