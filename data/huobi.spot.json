@@ -7070,7 +7070,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -34796,6 +34796,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 2000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "sqdusdt",
+    "base_id": "sqd",
+    "quote_id": "usdt",
+    "base": "SQD",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 4275331.0
     },
     "info": {}
   },
