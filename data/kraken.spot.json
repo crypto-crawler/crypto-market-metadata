@@ -5085,6 +5085,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CMETH/ETH",
+    "base_id": "CMETH",
+    "quote_id": "XETH",
+    "base": "CMETH",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.002
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CMETH/USD",
+    "base_id": "CMETH",
+    "quote_id": "ZUSD",
+    "base": "CMETH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.002
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "COMP/ETH",
     "base_id": "COMP",
     "quote_id": "XETH",
@@ -14233,6 +14279,52 @@
     },
     "quantity_limit": {
       "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "METH/ETH",
+    "base_id": "METH",
+    "quote_id": "XETH",
+    "base": "METH",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.002
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "METH/USD",
+    "base_id": "METH",
+    "quote_id": "ZUSD",
+    "base": "METH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.002
     },
     "info": {}
   },
