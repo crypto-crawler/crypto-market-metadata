@@ -6626,6 +6626,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "btcusd1",
+    "base_id": "btc",
+    "quote_id": "usd1",
+    "base": "BTC",
+    "quote": "USD1",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1e-6,
+      "max": 9.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "btcusdc",
     "base_id": "btc",
     "quote_id": "usdc",
@@ -13364,6 +13388,30 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 700.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "ethusd1",
+    "base_id": "eth",
+    "quote_id": "usd1",
+    "base": "ETH",
+    "quote": "USD1",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.00001,
+      "max": 372.0
     },
     "info": {}
   },
@@ -34706,6 +34754,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "spkusdt",
+    "base_id": "spk",
+    "quote_id": "usdt",
+    "base": "SPK",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 20000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "sporeusdt",
     "base_id": "spore",
     "quote_id": "usdt",
@@ -41846,7 +41918,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {

@@ -14185,6 +14185,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "SPK-USD",
+    "base_id": "SPK",
+    "quote_id": "USD",
+    "base": "SPK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "SQD-USD",
     "base_id": "SQD",
     "quote_id": "USD",
