@@ -4098,6 +4098,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "FUSDTM",
+    "base_id": "F",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "F",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "FXSUSDTM",
     "base_id": "FXS",
     "quote_id": "USDT",
@@ -6784,6 +6807,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "MYRO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "MYXUSDTM",
+    "base_id": "MYX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MYX",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
