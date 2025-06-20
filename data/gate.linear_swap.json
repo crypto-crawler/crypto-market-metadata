@@ -11747,6 +11747,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "MAT_USDT",
+    "base_id": "MAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "MAVIA_USDT",
     "base_id": "MAVIA",
     "quote_id": "USDT",
@@ -13544,6 +13571,33 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "NEWT_USDT",
+    "base_id": "NEWT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEWT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {

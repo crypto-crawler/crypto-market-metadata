@@ -7431,6 +7431,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ESX/EUR",
+    "base_id": "ESX",
+    "quote_id": "ZEUR",
+    "base": "ESX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ESX/USD",
+    "base_id": "ESX",
+    "quote_id": "ZUSD",
+    "base": "ESX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ETC/ETH",
     "base_id": "XETC",
     "quote_id": "XETH",
@@ -13980,6 +14026,52 @@
     },
     "quantity_limit": {
       "min": 1.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MAT/EUR",
+    "base_id": "MAT",
+    "quote_id": "ZEUR",
+    "base": "MAT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MAT/USD",
+    "base_id": "MAT",
+    "quote_id": "ZUSD",
+    "base": "MAT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
