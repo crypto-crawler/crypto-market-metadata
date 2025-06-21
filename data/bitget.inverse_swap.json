@@ -54,6 +54,32 @@
   {
     "exchange": "bitget",
     "market_type": "inverse_swap",
+    "symbol": "APTUSD_DMCBL",
+    "base_id": "APT",
+    "quote_id": "USD",
+    "settle_id": "APT",
+    "base": "APT",
+    "quote": "USD",
+    "settle": "APT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_swap",
     "symbol": "AVAXUSD_DMCBL",
     "base_id": "AVAX",
     "quote_id": "USD",

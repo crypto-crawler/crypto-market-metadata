@@ -186,6 +186,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "AERO-USDT",
+    "base_id": "AERO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AERO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "AEVO-USDT",
     "base_id": "AEVO",
     "quote_id": "USDT",
@@ -2849,6 +2872,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "FUN-USDT",
+    "base_id": "FUN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FUN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {
