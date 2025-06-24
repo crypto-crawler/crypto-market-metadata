@@ -6373,6 +6373,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "DMC/EUR",
+    "base_id": "DMC",
+    "quote_id": "ZEUR",
+    "base": "DMC",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 400.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DMC/USD",
+    "base_id": "DMC",
+    "quote_id": "ZUSD",
+    "base": "DMC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 400.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DOGS/EUR",
     "base_id": "DOGS",
     "quote_id": "ZEUR",
@@ -19523,6 +19569,52 @@
     },
     "quantity_limit": {
       "min": 280.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RUJI/EUR",
+    "base_id": "RUJI",
+    "quote_id": "ZEUR",
+    "base": "RUJI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RUJI/USD",
+    "base_id": "RUJI",
+    "quote_id": "ZUSD",
+    "base": "RUJI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.0
     },
     "info": {}
   },

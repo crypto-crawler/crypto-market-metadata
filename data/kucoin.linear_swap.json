@@ -1667,6 +1667,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "BANANAS31USDTM",
+    "base_id": "BANANAS31",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BANANAS31",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "BANANAUSDTM",
     "base_id": "BANANA",
     "quote_id": "USDT",
