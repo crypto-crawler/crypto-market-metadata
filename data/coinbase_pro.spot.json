@@ -10725,6 +10725,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "NEWT-USD",
+    "base_id": "NEWT",
+    "quote_id": "USD",
+    "base": "NEWT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "NKN-BTC",
     "base_id": "NKN",
     "quote_id": "BTC",
@@ -13406,7 +13429,7 @@
     "quote_id": "USD",
     "base": "S",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,

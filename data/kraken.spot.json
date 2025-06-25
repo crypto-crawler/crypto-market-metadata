@@ -11456,6 +11456,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "JITOSOL/EUR",
+    "base_id": "JITOSOL",
+    "quote_id": "ZEUR",
+    "base": "JITOSOL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.03
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "JITOSOL/USD",
+    "base_id": "JITOSOL",
+    "quote_id": "ZUSD",
+    "base": "JITOSOL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.03
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "JST/EUR",
     "base_id": "JST",
     "quote_id": "ZEUR",
@@ -16073,6 +16119,52 @@
     },
     "quantity_limit": {
       "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "NPC/EUR",
+    "base_id": "NPC",
+    "quote_id": "ZEUR",
+    "base": "NPC",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 400.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "NPC/USD",
+    "base_id": "NPC",
+    "quote_id": "ZUSD",
+    "base": "NPC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 400.0
     },
     "info": {}
   },

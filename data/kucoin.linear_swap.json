@@ -3174,6 +3174,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "DMCUSDTM",
+    "base_id": "DMC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DMC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "DODOUSDTM",
     "base_id": "DODO",
     "quote_id": "USDT",
@@ -7004,6 +7027,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "NEWTUSDTM",
+    "base_id": "NEWT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEWT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

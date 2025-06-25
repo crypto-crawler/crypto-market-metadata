@@ -2233,6 +2233,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "DMC-USDT",
+    "base_id": "DMC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DMC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "DOGE-USDT",
     "base_id": "DOGE",
     "quote_id": "USDT",
@@ -4781,6 +4804,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "MYX-USDT",
+    "base_id": "MYX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MYX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
