@@ -19706,6 +19706,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "H-USDT",
+    "base_id": "H",
+    "quote_id": "USDT",
+    "base": "H",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "H1-USDT",
     "base_id": "H1",
     "quote_id": "USDT",
@@ -26540,6 +26564,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "LOT-USDT",
+    "base_id": "LOT",
+    "quote_id": "USDT",
+    "base": "LOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -50611,6 +50659,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XAUT-USDT",
+    "base_id": "XAUT",
+    "quote_id": "USDT",
+    "base": "XAUT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001,
       "max": 10000000000.0
     },
     "info": {}

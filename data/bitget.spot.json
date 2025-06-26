@@ -16760,6 +16760,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "HUSDT_SPBL",
+    "base_id": "H",
+    "quote_id": "USDT",
+    "base": "H",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "HYPERUSDT_SPBL",
     "base_id": "HYPER",
     "quote_id": "USDT",

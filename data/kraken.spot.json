@@ -11479,6 +11479,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "JITOSOL/SOL",
+    "base_id": "JITOSOL",
+    "quote_id": "SOL",
+    "base": "JITOSOL",
+    "quote": "SOL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.03
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "JITOSOL/USD",
     "base_id": "JITOSOL",
     "quote_id": "ZUSD",
@@ -18609,6 +18632,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "RAIIN/EUR",
+    "base_id": "RAIIN",
+    "quote_id": "ZEUR",
+    "base": "RAIIN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 14.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RAIIN/USD",
+    "base_id": "RAIIN",
+    "quote_id": "ZUSD",
+    "base": "RAIIN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 14.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "RARE/EUR",
     "base_id": "RARE",
     "quote_id": "ZEUR",
@@ -19937,6 +20006,52 @@
     },
     "quantity_limit": {
       "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SAHARA/EUR",
+    "base_id": "SAHARA",
+    "quote_id": "ZEUR",
+    "base": "SAHARA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 150.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SAHARA/USD",
+    "base_id": "SAHARA",
+    "quote_id": "ZUSD",
+    "base": "SAHARA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 150.0
     },
     "info": {}
   },
