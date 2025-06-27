@@ -1014,6 +1014,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "BANANAS31-USDT",
+    "base_id": "BANANAS31",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BANANAS31",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "BAT-USDT",
     "base_id": "BAT",
     "quote_id": "USDT",
@@ -6253,6 +6276,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "SAHARA-USDT",
+    "base_id": "SAHARA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SAHARA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {

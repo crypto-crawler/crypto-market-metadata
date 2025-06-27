@@ -23922,6 +23922,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SAHARA-USD",
+    "base_id": "SAHARA",
+    "quote_id": "USD",
+    "base": "SAHARA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SAHARA-USDT",
+    "base_id": "SAHARA",
+    "quote_id": "USDT",
+    "base": "SAHARA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SAITAMA-USDC",
     "base_id": "SAITAMA",
     "quote_id": "USDC",

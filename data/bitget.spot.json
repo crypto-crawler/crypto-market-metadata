@@ -7616,6 +7616,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "CESSUSDT_SPBL",
+    "base_id": "CESS",
+    "quote_id": "USDT",
+    "base": "CESS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "CETUSUSDT_SPBL",
     "base_id": "CETUS",
     "quote_id": "USDT",
@@ -30469,6 +30492,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "SAHARAUSDT_SPBL",
+    "base_id": "SAHARA",
+    "quote_id": "USDT",
+    "base": "SAHARA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
