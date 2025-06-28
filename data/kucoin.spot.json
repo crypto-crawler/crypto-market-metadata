@@ -2726,8 +2726,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.0001
+      "tick_size": 1e-7,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 10.0,
@@ -7574,8 +7574,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 1.0,
@@ -12470,7 +12470,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -17720,7 +17720,7 @@
     "base": "FXS",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -19718,8 +19718,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 10.0,
@@ -28934,7 +28934,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -30280,6 +30280,30 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MORE-USDT",
+    "base_id": "MORE",
+    "quote_id": "USDT",
+    "base": "MORE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 10.0,
@@ -43862,8 +43886,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 1.0,
