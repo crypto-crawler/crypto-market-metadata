@@ -24352,6 +24352,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "NODEUSDT_SPBL",
+    "base_id": "NODE",
+    "quote_id": "USDT",
+    "base": "NODE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "NOMUSDT_SPBL",
     "base_id": "NOM",
     "quote_id": "USDT",

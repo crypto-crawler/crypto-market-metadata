@@ -326,6 +326,33 @@
   {
     "exchange": "bitget",
     "market_type": "inverse_future",
+    "symbol": "BTCUSD_DMCBL_251226",
+    "base_id": "BTC",
+    "quote_id": "USD",
+    "settle_id": "BTC",
+    "base": "BTC",
+    "quote": "USD",
+    "settle": "BTC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1766707200000,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_future",
     "symbol": "ETHUSD_DMCBL_221230",
     "base_id": "ETH",
     "quote_id": "USD",
@@ -645,6 +672,33 @@
     },
     "contract_value": 1.0,
     "delivery_date": 1758844800000,
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "inverse_future",
+    "symbol": "ETHUSD_DMCBL_251226",
+    "base_id": "ETH",
+    "quote_id": "USD",
+    "settle_id": "ETH",
+    "base": "ETH",
+    "quote": "USD",
+    "settle": "ETH",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "delivery_date": 1766707200000,
     "info": {}
   }
 ]
