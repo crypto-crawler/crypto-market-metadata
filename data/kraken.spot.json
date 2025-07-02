@@ -10996,6 +10996,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ICNT/EUR",
+    "base_id": "ICNT",
+    "quote_id": "ZEUR",
+    "base": "ICNT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 8.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ICNT/USD",
+    "base_id": "ICNT",
+    "quote_id": "ZUSD",
+    "base": "ICNT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 8.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ICP/EUR",
     "base_id": "ICP",
     "quote_id": "ZEUR",
@@ -17292,6 +17338,52 @@
     },
     "quantity_limit": {
       "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PEAQ/EUR",
+    "base_id": "PEAQ",
+    "quote_id": "ZEUR",
+    "base": "PEAQ",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PEAQ/USD",
+    "base_id": "PEAQ",
+    "quote_id": "ZUSD",
+    "base": "PEAQ",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
@@ -24674,7 +24766,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 357.1429
+      "min": 400.0
     },
     "info": {}
   },
@@ -24697,7 +24789,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 357.1429
+      "min": 400.0
     },
     "info": {}
   },
