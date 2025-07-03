@@ -14055,6 +14055,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "M/EUR",
+    "base_id": "M",
+    "quote_id": "ZEUR",
+    "base": "M",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 71.4286
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "M/USD",
+    "base_id": "M",
+    "quote_id": "ZUSD",
+    "base": "M",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 71.4286
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MANA/ETH",
     "base_id": "MANA",
     "quote_id": "XETH",
@@ -14670,6 +14716,52 @@
     },
     "quantity_limit": {
       "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MERL/EUR",
+    "base_id": "MERL",
+    "quote_id": "ZEUR",
+    "base": "MERL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MERL/USD",
+    "base_id": "MERL",
+    "quote_id": "ZUSD",
+    "base": "MERL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
