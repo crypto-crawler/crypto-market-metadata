@@ -9962,6 +9962,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "CROSS-USDT",
+    "base_id": "CROSS",
+    "quote_id": "USDT",
+    "base": "CROSS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "CRPT-BTC",
     "base_id": "CRPT",
     "quote_id": "BTC",
@@ -46238,8 +46262,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 10.0,
