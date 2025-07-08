@@ -27314,6 +27314,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "npcusdt",
+    "base_id": "npc",
+    "quote_id": "usdt",
+    "base": "NPC",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 67294751.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "nptusdt",
     "base_id": "npt",
     "quote_id": "usdt",

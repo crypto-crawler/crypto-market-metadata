@@ -5419,7 +5419,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -5442,7 +5442,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -11560,7 +11560,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -11583,7 +11583,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -12687,7 +12687,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -12710,7 +12710,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -14435,7 +14435,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -14458,7 +14458,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -16344,7 +16344,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -16367,7 +16367,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -17436,6 +17436,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PARTI/EUR",
+    "base_id": "PARTI",
+    "quote_id": "ZEUR",
+    "base": "PARTI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PARTI/USD",
+    "base_id": "PARTI",
+    "quote_id": "ZUSD",
+    "base": "PARTI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PAXG/ETH",
     "base_id": "PAXG",
     "quote_id": "XETH",
@@ -18414,7 +18460,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -18437,7 +18483,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -18580,6 +18626,52 @@
     },
     "quantity_limit": {
       "min": 0.28
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PRO/EUR",
+    "base_id": "PRO",
+    "quote_id": "ZEUR",
+    "base": "PRO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PRO/USD",
+    "base_id": "PRO",
+    "quote_id": "ZUSD",
+    "base": "PRO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
@@ -22858,6 +22950,52 @@
     },
     "quantity_limit": {
       "min": 150.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TANSSI/EUR",
+    "base_id": "TANSSI",
+    "quote_id": "ZEUR",
+    "base": "TANSSI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 85.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TANSSI/USD",
+    "base_id": "TANSSI",
+    "quote_id": "ZUSD",
+    "base": "TANSSI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 85.0
     },
     "info": {}
   },
@@ -27660,7 +27798,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -27683,7 +27821,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
