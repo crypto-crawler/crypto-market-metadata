@@ -830,6 +830,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AIOZ/EUR",
+    "base_id": "AIOZ",
+    "quote_id": "ZEUR",
+    "base": "AIOZ",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AIOZ/USD",
+    "base_id": "AIOZ",
+    "quote_id": "ZUSD",
+    "base": "AIOZ",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AIR/EUR",
     "base_id": "AIR",
     "quote_id": "ZEUR",
@@ -10760,6 +10806,52 @@
     },
     "quantity_limit": {
       "min": 95.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "HBAR/EUR",
+    "base_id": "HBAR",
+    "quote_id": "ZEUR",
+    "base": "HBAR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "HBAR/USD",
+    "base_id": "HBAR",
+    "quote_id": "ZUSD",
+    "base": "HBAR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
     },
     "info": {}
   },

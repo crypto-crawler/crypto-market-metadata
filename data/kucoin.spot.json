@@ -6098,6 +6098,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BLUM-USDT",
+    "base_id": "BLUM",
+    "quote_id": "USDT",
+    "base": "BLUM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BLUR-USDT",
     "base_id": "BLUR",
     "quote_id": "USDT",
@@ -6890,6 +6914,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BOOM-USDT",
+    "base_id": "BOOM",
+    "quote_id": "USDT",
+    "base": "BOOM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BOSON-ETH",
     "base_id": "BOSON",
     "quote_id": "ETH",
@@ -7591,6 +7639,30 @@
     "quote_id": "USD1",
     "base": "BULLA",
     "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BULLA-USDT",
+    "base_id": "BULLA",
+    "quote_id": "USDT",
+    "base": "BULLA",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {
@@ -45182,8 +45254,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.0001
+      "tick_size": 1e-8,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1000.0,
