@@ -13861,6 +13861,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "SKY-USD",
+    "base_id": "SKY",
+    "quote_id": "USD",
+    "base": "SKY",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "SNT-EUR",
     "base_id": "SNT",
     "quote_id": "EUR",
@@ -15818,6 +15841,29 @@
     },
     "quantity_limit": {
       "notional_min": 0.72
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "USDS-USD",
+    "base_id": "USDS",
+    "quote_id": "USD",
+    "base": "USDS",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },
