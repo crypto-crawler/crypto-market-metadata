@@ -1742,6 +1742,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "etceur",
+    "base_id": "ETC",
+    "quote_id": "EUR",
+    "base": "ETC",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "etcusd",
+    "base_id": "ETC",
+    "quote_id": "USD",
+    "base": "ETC",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "eth2eth",
     "base_id": "ETH2",
     "quote_id": "ETH",
