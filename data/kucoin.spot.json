@@ -7994,6 +7994,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "C-USDT",
+    "base_id": "C",
+    "quote_id": "USDT",
+    "base": "C",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "C98-USDT",
     "base_id": "C98",
     "quote_id": "USDT",
@@ -17234,6 +17258,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FRAG-USDT",
+    "base_id": "FRAG",
+    "quote_id": "USDT",
+    "base": "FRAG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FRED-USDT",
     "base_id": "FRED",
     "quote_id": "USDT",
@@ -21968,7 +22016,7 @@
     "base": "HYPE",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -37243,6 +37291,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "PUMP-USDT",
+    "base_id": "PUMP",
+    "quote_id": "USDT",
+    "base": "PUMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}

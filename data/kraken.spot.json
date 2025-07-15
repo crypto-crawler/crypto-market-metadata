@@ -18954,6 +18954,75 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PUMP/EUR",
+    "base_id": "PUMP",
+    "quote_id": "ZEUR",
+    "base": "PUMP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PUMP/SOL",
+    "base_id": "PUMP",
+    "quote_id": "SOL",
+    "base": "PUMP",
+    "quote": "SOL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PUMP/USD",
+    "base_id": "PUMP",
+    "quote_id": "ZUSD",
+    "base": "PUMP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PYTH/EUR",
     "base_id": "PYTH",
     "quote_id": "ZEUR",
