@@ -882,6 +882,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "btceurc",
+    "base_id": "BTC",
+    "quote_id": "EURC",
+    "base": "BTCE",
+    "quote": "URC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "btceurcv",
+    "base_id": "BTC",
+    "quote_id": "EURCV",
+    "base": "BTCEU",
+    "quote": "RCV",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "btcgbp",
     "base_id": "BTC",
     "quote_id": "GBP",
@@ -1836,6 +1876,46 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "etheurc",
+    "base_id": "ETH",
+    "quote_id": "EURC",
+    "base": "ETHE",
+    "quote": "URC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "etheurcv",
+    "base_id": "ETH",
+    "quote_id": "EURCV",
+    "base": "ETHEU",
+    "quote": "RCV",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
     },
     "info": {}
   },

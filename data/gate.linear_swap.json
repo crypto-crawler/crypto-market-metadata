@@ -5456,6 +5456,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "C_USDT",
+    "base_id": "C",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "C",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "DADDY_USDT",
     "base_id": "DADDY",
     "quote_id": "USDT",
@@ -20549,6 +20576,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "TAC_USDT",
+    "base_id": "TAC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TAC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "TAIKO_USDT",
     "base_id": "TAIKO",
     "quote_id": "USDT",
@@ -21865,6 +21919,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "VELVET_USDT",
+    "base_id": "VELVET",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VELVET",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
     },
     "contract_value": 100.0,
     "info": {}

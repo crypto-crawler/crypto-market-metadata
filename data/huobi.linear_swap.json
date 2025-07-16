@@ -2095,6 +2095,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "CROSS-USDT",
+    "base_id": "CROSS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CROSS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "CRV-USDT",
     "base_id": "CRV",
     "quote_id": "USDT",
@@ -5982,6 +6005,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "PUMP-USDT",
+    "base_id": "PUMP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PUMP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "PYTH-USDT",
     "base_id": "PYTH",
     "quote_id": "USDT",
@@ -7311,6 +7357,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "TAC-USDT",
+    "base_id": "TAC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TAC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
