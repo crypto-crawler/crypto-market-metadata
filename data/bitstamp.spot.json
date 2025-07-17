@@ -2102,6 +2102,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "eurcvusdc",
+    "base_id": "EURCV",
+    "quote_id": "USDC",
+    "base": "EURCV",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "eurcvusdt",
     "base_id": "EURCV",
     "quote_id": "USDT",
