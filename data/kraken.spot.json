@@ -12583,6 +12583,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "KET/EUR",
+    "base_id": "KET",
+    "quote_id": "ZEUR",
+    "base": "KET",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "KET/USD",
+    "base_id": "KET",
+    "quote_id": "ZUSD",
+    "base": "KET",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "KEY/EUR",
     "base_id": "KEY",
     "quote_id": "ZEUR",

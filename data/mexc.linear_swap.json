@@ -2532,7 +2532,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5000.0
+      "max": 7500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3234,7 +3234,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000000.0
+      "max": 2400000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9066,7 +9066,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 12500.0
+      "max": 24000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11496,7 +11496,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3.0
+      "max": 6800.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -14709,7 +14709,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 16000.0
+      "max": 10000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -15438,7 +15438,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1600.0
+      "max": 2400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -22836,7 +22836,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1300000.0
+      "max": 1000000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -26025,6 +26025,33 @@
       "max": 330000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "RION_USDT",
+    "base_id": "RION",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RION",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 240.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -29640,7 +29667,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 145000.0
+      "max": 180000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -32483,6 +32510,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "VSN_USDT",
+    "base_id": "VSN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VSN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 120.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "VTHO_USDT",
     "base_id": "VTHO",
     "quote_id": "USDT",
@@ -32907,7 +32961,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 22000.0
+      "max": 13800.0
     },
     "contract_value": 1.0,
     "info": {}

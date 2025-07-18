@@ -5604,6 +5604,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ERA-USD",
+    "base_id": "ERA",
+    "quote_id": "USD",
+    "base": "ERA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ERN-EUR",
     "base_id": "ERN",
     "quote_id": "EUR",
