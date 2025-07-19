@@ -22542,6 +22542,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PUMP-USD",
+    "base_id": "PUMP",
+    "quote_id": "USD",
+    "base": "PUMP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "PUMP-USDT",
+    "base_id": "PUMP",
+    "quote_id": "USDT",
+    "base": "PUMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PYTH-USD",
     "base_id": "PYTH",
     "quote_id": "USD",
