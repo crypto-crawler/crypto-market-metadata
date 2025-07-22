@@ -7408,6 +7408,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "TA-USDT",
+    "base_id": "TA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "TAC-USDT",
     "base_id": "TAC",
     "quote_id": "USDT",
@@ -8549,7 +8572,7 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
