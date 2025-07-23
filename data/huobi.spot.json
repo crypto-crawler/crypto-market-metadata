@@ -34394,6 +34394,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "snakesusdt",
+    "base_id": "snakes",
+    "quote_id": "usdt",
+    "base": "SNAKES",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 14285714.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "sncbtc",
     "base_id": "snc",
     "quote_id": "btc",

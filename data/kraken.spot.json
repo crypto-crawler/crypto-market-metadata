@@ -48,6 +48,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "A/EUR",
+    "base_id": "A",
+    "quote_id": "ZEUR",
+    "base": "A",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "A/USD",
+    "base_id": "A",
+    "quote_id": "ZUSD",
+    "base": "A",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AAVE/AUD",
     "base_id": "AAVE",
     "quote_id": "ZAUD",

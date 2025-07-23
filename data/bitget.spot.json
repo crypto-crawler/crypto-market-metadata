@@ -12848,6 +12848,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "FAIR3USDT_SPBL",
+    "base_id": "FAIR3",
+    "quote_id": "USDT",
+    "base": "FAIR3",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "FARMUSDT_SPBL",
     "base_id": "FARM",
     "quote_id": "USDT",
@@ -40986,6 +41009,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "ZKWASMUSDT_SPBL",
+    "base_id": "ZKWASM",
+    "quote_id": "USDT",
+    "base": "ZKWASM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 0.0
