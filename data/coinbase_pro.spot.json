@@ -8213,6 +8213,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "JITOSOL-USD",
+    "base_id": "JITOSOL",
+    "quote_id": "USD",
+    "base": "JITOSOL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "JTO-USD",
     "base_id": "JTO",
     "quote_id": "USD",
@@ -10373,6 +10396,29 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 12000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "MPLX-USD",
+    "base_id": "MPLX",
+    "quote_id": "USD",
+    "base": "MPLX",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },
