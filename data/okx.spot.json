@@ -2256,6 +2256,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ASP-USD",
+    "base_id": "ASP",
+    "quote_id": "USD",
+    "base": "ASP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ASP-USDT",
+    "base_id": "ASP",
+    "quote_id": "USDT",
+    "base": "ASP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AST-USDC",
     "base_id": "AST",
     "quote_id": "USDC",

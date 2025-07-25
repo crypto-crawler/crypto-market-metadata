@@ -3554,6 +3554,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ASP-USDT",
+    "base_id": "ASP",
+    "quote_id": "USDT",
+    "base": "ASP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ASRR-USDT",
     "base_id": "ASRR",
     "quote_id": "USDT",
@@ -14420,6 +14444,30 @@
     "quantity_limit": {
       "min": 100000.0,
       "max": 1000000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ELP-USDT",
+    "base_id": "ELP",
+    "quote_id": "USDT",
+    "base": "ELP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -40136,7 +40184,7 @@
     "base": "SAHARA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -53073,6 +53121,30 @@
     "quote": "USDT",
     "active": true,
     "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XU3O8-USDT",
+    "base_id": "XU3O8",
+    "quote_id": "USDT",
+    "base": "XU3O8",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
