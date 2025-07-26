@@ -5228,6 +5228,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "NEWT-USDT-SWAP",
+    "base_id": "NEWT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NEWT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "NFT-USDT-SWAP",
     "base_id": "NFT",
     "quote_id": "USDT",
@@ -7677,6 +7703,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "USDC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "USELESS-USDT-SWAP",
+    "base_id": "USELESS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "USELESS",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
