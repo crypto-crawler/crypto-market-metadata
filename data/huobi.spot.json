@@ -13154,6 +13154,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "esusdt",
+    "base_id": "es",
+    "quote_id": "usdt",
+    "base": "ES",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 4239084.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "esxusdt",
     "base_id": "esx",
     "quote_id": "usdt",
