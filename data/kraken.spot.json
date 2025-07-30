@@ -232,6 +232,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AB/EUR",
+    "base_id": "AB",
+    "quote_id": "ZEUR",
+    "base": "AB",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 600.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AB/USD",
+    "base_id": "AB",
+    "quote_id": "ZUSD",
+    "base": "AB",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 600.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ACA/EUR",
     "base_id": "ACA",
     "quote_id": "ZEUR",

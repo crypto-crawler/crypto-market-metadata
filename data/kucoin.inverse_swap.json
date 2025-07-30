@@ -2,6 +2,29 @@
   {
     "exchange": "kucoin",
     "market_type": "inverse_swap",
+    "symbol": "DOGEUSDM",
+    "base_id": "DOGE",
+    "quote_id": "USD",
+    "settle_id": "DOGE",
+    "base": "DOGE",
+    "quote": "USD",
+    "settle": "DOGE",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "inverse_swap",
     "symbol": "DOTUSDM",
     "base_id": "DOT",
     "quote_id": "USD",
@@ -63,6 +86,29 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "inverse_swap",
+    "symbol": "SUIUSDM",
+    "base_id": "SUI",
+    "quote_id": "USD",
+    "settle_id": "SUI",
+    "base": "SUI",
+    "quote": "USD",
+    "settle": "SUI",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
