@@ -2677,6 +2677,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BIO-USD",
+    "base_id": "BIO",
+    "quote_id": "USD",
+    "base": "BIO",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BIT-USD",
     "base_id": "BIT",
     "quote_id": "USD",
@@ -2821,7 +2844,7 @@
     "quote_id": "USD",
     "base": "BNKR",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -13507,6 +13530,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "RSC-USD",
+    "base_id": "RSC",
+    "quote_id": "USD",
+    "base": "RSC",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "notional_min": 1.0
