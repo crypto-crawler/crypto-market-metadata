@@ -14009,6 +14009,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "LOBO/EUR",
+    "base_id": "LOBO",
+    "quote_id": "ZEUR",
+    "base": "LOBO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 12500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LOBO/USD",
+    "base_id": "LOBO",
+    "quote_id": "ZUSD",
+    "base": "LOBO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 12500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "LOCKIN/EUR",
     "base_id": "LOCKIN",
     "quote_id": "ZEUR",
@@ -28447,6 +28493,52 @@
     },
     "quantity_limit": {
       "min": 1.7
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XTER/EUR",
+    "base_id": "XTER",
+    "quote_id": "ZEUR",
+    "base": "TER",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XTER/USD",
+    "base_id": "XTER",
+    "quote_id": "ZUSD",
+    "base": "TER",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
     },
     "info": {}
   },
