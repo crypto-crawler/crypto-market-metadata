@@ -6120,6 +6120,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "PROVE-USDT",
+    "base_id": "PROVE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PROVE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "PUFFER-USDT",
     "base_id": "PUFFER",
     "quote_id": "USDT",
@@ -7725,6 +7748,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "TOWNS-USDT",
+    "base_id": "TOWNS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TOWNS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
