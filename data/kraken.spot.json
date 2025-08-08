@@ -4809,6 +4809,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CARV/EUR",
+    "base_id": "CARV",
+    "quote_id": "ZEUR",
+    "base": "CARV",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CARV/USD",
+    "base_id": "CARV",
+    "quote_id": "ZUSD",
+    "base": "CARV",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "CAT/EUR",
     "base_id": "CAT",
     "quote_id": "ZEUR",
@@ -25822,6 +25868,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDG/USDT",
+    "base_id": "USDG",
+    "quote_id": "USDT",
+    "base": "USDG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
     },
     "quantity_limit": {
       "min": 5.0
