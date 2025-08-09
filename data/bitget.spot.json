@@ -6094,6 +6094,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BOSSUSDT_SPBL",
+    "base_id": "BOSS",
+    "quote_id": "USDT",
+    "base": "BOSS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BOTTOUSDT_SPBL",
     "base_id": "BOTTO",
     "quote_id": "USDT",
@@ -19687,6 +19710,29 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "KUSDT_SPBL",
+    "base_id": "K",
+    "quote_id": "USDT",
+    "base": "K",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0
