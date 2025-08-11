@@ -105250,6 +105250,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TROLLFACE_USDT",
+    "base_id": "TROLLFACE",
+    "quote_id": "USDT",
+    "base": "TROLLFACE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-12,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TROLL_USDT",
     "base_id": "TROLL",
     "quote_id": "USDT",
