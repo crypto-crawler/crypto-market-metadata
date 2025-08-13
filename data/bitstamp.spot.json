@@ -4722,6 +4722,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "solusdc",
+    "base_id": "SOL",
+    "quote_id": "USDC",
+    "base": "SOL",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "storjeur",
     "base_id": "STORJ",
     "quote_id": "EUR",
@@ -5956,6 +5976,26 @@
     "precision": {
       "tick_size": 1e-8,
       "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "xrpusdc",
+    "base_id": "XRP",
+    "quote_id": "USDC",
+    "base": "XRP",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
     },
     "info": {}
   },
