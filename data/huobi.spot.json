@@ -15938,6 +15938,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "game2usdt",
+    "base_id": "game2",
+    "quote_id": "usdt",
+    "base": "GAME2",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 175623463.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "gamebaseusdt",
     "base_id": "gamebase",
     "quote_id": "usdt",
