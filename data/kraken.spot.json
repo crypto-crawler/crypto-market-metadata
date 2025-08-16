@@ -8213,6 +8213,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ETH/EUROP",
+    "base_id": "XETH",
+    "quote_id": "EUROP",
+    "base": "ETH",
+    "quote": "EUROP",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.002
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ETH/GBP",
     "base_id": "XETH",
     "quote_id": "ZGBP",
