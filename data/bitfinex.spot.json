@@ -1994,6 +1994,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tBMN2:BTC",
+    "base_id": "BMN2",
+    "quote_id": "BTC",
+    "base": "BMN2",
+    "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tBMN2:USD",
+    "base_id": "BMN2",
+    "quote_id": "USD",
+    "base": "BMN2",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tBMNBTC",
     "base_id": "BMN",
     "quote_id": "BTC",
