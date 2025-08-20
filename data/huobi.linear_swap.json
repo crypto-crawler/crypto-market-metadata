@@ -485,6 +485,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "ALPINE-USDT",
+    "base_id": "ALPINE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ALPINE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "ALT-USDT",
     "base_id": "ALT",
     "quote_id": "USDT",
@@ -640,7 +663,7 @@
       "tick_size": 0.0001,
       "lot_size": 1.0
     },
-    "contract_value": 0.1,
+    "contract_value": 1.0,
     "info": {}
   },
   {

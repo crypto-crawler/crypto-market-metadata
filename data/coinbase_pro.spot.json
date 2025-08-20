@@ -16261,6 +16261,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "USELESS-USD",
+    "base_id": "USELESS",
+    "quote_id": "USD",
+    "base": "USELESS",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "UST-EUR",
     "base_id": "UST",
     "quote_id": "EUR",

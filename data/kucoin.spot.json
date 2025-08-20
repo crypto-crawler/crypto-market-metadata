@@ -2186,6 +2186,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ALKIMI-USDT",
+    "base_id": "ALKIMI",
+    "quote_id": "USDT",
+    "base": "ALKIMI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ALPACA-USDT",
     "base_id": "ALPACA",
     "quote_id": "USDT",
@@ -14258,6 +14282,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "EGL1-USDT",
+    "base_id": "EGL1",
+    "quote_id": "USDT",
+    "base": "EGL1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "EGLD-BTC",
     "base_id": "EGLD",
     "quote_id": "BTC",
@@ -24032,7 +24080,7 @@
     "base": "JTO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
