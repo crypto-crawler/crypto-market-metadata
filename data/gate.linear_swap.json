@@ -5456,6 +5456,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "CUDIS_USDT",
+    "base_id": "CUDIS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CUDIS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "CVC_USDT",
     "base_id": "CVC",
     "quote_id": "USDT",
@@ -18897,6 +18924,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SAPIEN_USDT",
+    "base_id": "SAPIEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SAPIEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

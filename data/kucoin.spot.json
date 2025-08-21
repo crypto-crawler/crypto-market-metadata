@@ -2984,7 +2984,7 @@
     "base": "API3",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -6184,6 +6184,30 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "BLOCKST-USD1",
+    "base_id": "BLOCKST",
+    "quote_id": "USD1",
+    "base": "BLOCKST",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 1.0,
@@ -12548,6 +12572,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "DGC-USDT",
+    "base_id": "DGC",
+    "quote_id": "USDT",
+    "base": "DGC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 1000000000000.0
     },
     "info": {}
   },
@@ -40724,6 +40772,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 99999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SAPIEN-USDT",
+    "base_id": "SAPIEN",
+    "quote_id": "USDT",
+    "base": "SAPIEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
