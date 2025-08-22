@@ -1060,6 +1060,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AKE/EUR",
+    "base_id": "AKE",
+    "quote_id": "ZEUR",
+    "base": "AKE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AKE/USD",
+    "base_id": "AKE",
+    "quote_id": "ZUSD",
+    "base": "AKE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AKT/EUR",
     "base_id": "AKT",
     "quote_id": "ZEUR",
@@ -12744,6 +12790,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "KAS/USDT",
+    "base_id": "KAS",
+    "quote_id": "USDT",
+    "base": "KAS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "KAVA/ETH",
     "base_id": "KAVA",
     "quote_id": "XETH",
@@ -18660,6 +18729,29 @@
     "quote_id": "ZUSD",
     "base": "PEAQ",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PEAQ/USDC",
+    "base_id": "PEAQ",
+    "quote_id": "USDC",
+    "base": "PEAQ",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {

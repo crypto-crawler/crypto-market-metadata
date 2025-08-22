@@ -764,6 +764,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "AKEUSDTM",
+    "base_id": "AKE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AKE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "ALCHUSDTM",
     "base_id": "ALCH",
     "quote_id": "USDT",
@@ -12195,6 +12218,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "YZYUSDTM",
+    "base_id": "YZY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "YZY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
