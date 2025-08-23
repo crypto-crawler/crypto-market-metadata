@@ -6026,6 +6026,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BERT-USDT",
+    "base_id": "BERT",
+    "quote_id": "USDT",
+    "base": "BERT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BETA-USDT",
     "base_id": "BETA",
     "quote_id": "USDT",
@@ -23174,11 +23198,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -25238,11 +25262,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -48014,11 +48038,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-7,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -48542,11 +48566,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -53395,6 +53419,30 @@
     },
     "quantity_limit": {
       "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XPIN-USDT",
+    "base_id": "XPIN",
+    "quote_id": "USDT",
+    "base": "XPIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
