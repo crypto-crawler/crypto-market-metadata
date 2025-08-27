@@ -9194,6 +9194,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tMNTUSD",
+    "base_id": "MNT",
+    "quote_id": "USD",
+    "base": "MNT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tMNTUST",
+    "base_id": "MNT",
+    "quote_id": "UST",
+    "base": "MNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 35000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tMOBUSD",
     "base_id": "MOB",
     "quote_id": "USD",

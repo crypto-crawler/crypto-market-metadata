@@ -2810,6 +2810,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BAS_USDT",
+    "base_id": "BAS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BAS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BAT_USDT",
     "base_id": "BAT",
     "quote_id": "USDT",
@@ -5677,6 +5704,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "DADDY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "DAM_USDT",
+    "base_id": "DAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DAM",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
@@ -19916,6 +19970,33 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SOMI_USDT",
+    "base_id": "SOMI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SOMI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
