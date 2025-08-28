@@ -4160,6 +4160,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BTR_USDT",
+    "base_id": "BTR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BTS_USDT",
     "base_id": "BTS",
     "quote_id": "USDT",
@@ -4371,6 +4398,33 @@
       "max": 10000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "CAMP_USDT",
+    "base_id": "CAMP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CAMP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {

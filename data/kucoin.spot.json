@@ -1538,6 +1538,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AI3-USDT",
+    "base_id": "AI3",
+    "quote_id": "USDT",
+    "base": "AI3",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AIEPK-USDT",
     "base_id": "AIEPK",
     "quote_id": "USDT",
@@ -7754,6 +7778,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BTR-USDT",
+    "base_id": "BTR",
+    "quote_id": "USDT",
+    "base": "BTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BTT-BTC",
     "base_id": "BTT",
     "quote_id": "BTC",
@@ -8323,6 +8371,30 @@
     },
     "quantity_limit": {
       "min": 0.01,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "CAMP-USDT",
+    "base_id": "CAMP",
+    "quote_id": "USDT",
+    "base": "CAMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -30536,7 +30608,7 @@
     "base": "MKR",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -44336,7 +44408,7 @@
     "base": "STORJ",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

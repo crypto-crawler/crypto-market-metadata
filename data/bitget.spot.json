@@ -6815,6 +6815,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BTRUSDT_SPBL",
+    "base_id": "BTR",
+    "quote_id": "USDT",
+    "base": "BTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BTTBTC_SPBL",
     "base_id": "BTT",
     "quote_id": "BTC",
@@ -7274,6 +7297,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "CAMPUSDT_SPBL",
+    "base_id": "CAMP",
+    "quote_id": "USDT",
+    "base": "CAMP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.0
