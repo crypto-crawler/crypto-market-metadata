@@ -1821,6 +1821,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ADA_GUSD",
+    "base_id": "ADA",
+    "quote_id": "GUSD",
+    "base": "ADA",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ADA_TRY",
     "base_id": "ADA",
     "quote_id": "TRY",
@@ -5995,7 +6018,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -15970,6 +15993,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BNB_GUSD",
+    "base_id": "BNB",
+    "quote_id": "GUSD",
+    "base": "BNB",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BNB_TRY",
     "base_id": "BNB",
     "quote_id": "TRY",
@@ -18318,6 +18364,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BTC_GUSD",
+    "base_id": "BTC",
+    "quote_id": "GUSD",
+    "base": "BTC",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BTC_TRY",
     "base_id": "BTC",
     "quote_id": "TRY",
@@ -18377,7 +18446,7 @@
     },
     "precision": {
       "tick_size": 0.1,
-      "lot_size": 0.00001
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 1e-6
@@ -18761,7 +18830,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -24637,7 +24706,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -36240,6 +36309,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ETH_GUSD",
+    "base_id": "ETH",
+    "quote_id": "GUSD",
+    "base": "ETH",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ETH_TRY",
     "base_id": "ETH",
     "quote_id": "TRY",
@@ -46311,6 +46403,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GUSD_USDT",
+    "base_id": "GUSD",
+    "quote_id": "USDT",
+    "base": "GUSD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GVR_USDT",
     "base_id": "GVR",
     "quote_id": "USDT",
@@ -49639,6 +49754,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "HYPER_GUSD",
+    "base_id": "HYPER",
+    "quote_id": "GUSD",
+    "base": "HYPER",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -59459,6 +59597,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LIVE_USDT",
+    "base_id": "LIVE",
+    "quote_id": "USDT",
+    "base": "LIVE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -69757,7 +69918,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -83991,7 +84152,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -95992,6 +96153,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SOL_GUSD",
+    "base_id": "SOL",
+    "quote_id": "GUSD",
+    "base": "SOL",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SOL_TRY",
     "base_id": "SOL",
     "quote_id": "TRY",
@@ -106193,6 +106377,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TRX_GUSD",
+    "base_id": "TRX",
+    "quote_id": "GUSD",
+    "base": "TRX",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TRX_TRY",
     "base_id": "TRX",
     "quote_id": "TRY",
@@ -108669,7 +108876,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.01
     },
     "info": {}
   },
@@ -114503,7 +114710,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-11,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -116817,6 +117024,29 @@
     },
     "precision": {
       "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "XRP_GUSD",
+    "base_id": "XRP",
+    "quote_id": "GUSD",
+    "base": "XRP",
+    "quote": "GUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
