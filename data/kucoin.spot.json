@@ -8336,7 +8336,7 @@
     "base": "C98",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -8803,6 +8803,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "CELB-USDT",
+    "base_id": "CELB",
+    "quote_id": "USDT",
+    "base": "CELB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -25898,6 +25922,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "KORI-USDT",
+    "base_id": "KORI",
+    "quote_id": "USDT",
+    "base": "KORI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "KOS-USDT",
     "base_id": "KOS",
     "quote_id": "USDT",
@@ -30427,6 +30475,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "MISSION-USDT",
+    "base_id": "MISSION",
+    "quote_id": "USDT",
+    "base": "MISSION",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -46856,7 +46928,7 @@
     "base": "TLM",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -53180,6 +53252,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XLAB-USDT",
+    "base_id": "XLAB",
+    "quote_id": "USDT",
+    "base": "XLAB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0,
+      "max": 1000000000000.0
     },
     "info": {}
   },
