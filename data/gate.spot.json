@@ -3313,6 +3313,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIOT_USDT",
+    "base_id": "AIOT",
+    "quote_id": "USDT",
+    "base": "AIOT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIOZ_ETH",
     "base_id": "AIOZ",
     "quote_id": "ETH",
@@ -15274,6 +15297,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "BLOCKST_USDT",
+    "base_id": "BLOCKST",
+    "quote_id": "USDT",
+    "base": "BLOCKST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
