@@ -7586,6 +7586,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BTC-USD1",
+    "base_id": "BTC",
+    "quote_id": "USD1",
+    "base": "BTC",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1e-6,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BTC-USDC",
     "base_id": "BTC",
     "quote_id": "USDC",
@@ -16096,6 +16120,30 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 1e-7
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "ETH-USD1",
+    "base_id": "ETH",
+    "quote_id": "USD1",
+    "base": "ETH",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.0001,
@@ -52028,6 +52076,54 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "WLFI-USD1",
+    "base_id": "WLFI",
+    "quote_id": "USD1",
+    "base": "WLFI",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "WLFI-USDT",
+    "base_id": "WLFI",
+    "quote_id": "USDT",
+    "base": "WLFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
     },
     "info": {}
   },

@@ -9614,6 +9614,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "HEMI_USDT",
+    "base_id": "HEMI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HEMI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "HFT_USDT",
     "base_id": "HFT",
     "quote_id": "USDT",
@@ -11850,6 +11877,33 @@
       "max": 10000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "LINEA_USDT",
+    "base_id": "LINEA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LINEA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -15036,6 +15090,33 @@
       "max": 1000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "NODE_USDT",
+    "base_id": "NODE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NODE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

@@ -6334,7 +6334,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -10976,7 +10976,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-12,
+      "tick_size": 1e-13,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -37304,7 +37304,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -39677,6 +39677,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "FOREST_USDT",
+    "base_id": "FOREST",
+    "quote_id": "USDT",
+    "base": "FOREST",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -52115,7 +52138,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -53405,7 +53428,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -54684,7 +54707,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -62526,7 +62549,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -63664,7 +63687,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -72549,6 +72572,29 @@
     },
     "precision": {
       "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NODE_USDT",
+    "base_id": "NODE",
+    "quote_id": "USDT",
+    "base": "NODE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -100297,7 +100343,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -113942,6 +113988,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "WLFI_USD1",
+    "base_id": "WLFI",
+    "quote_id": "USD1",
+    "base": "WLFI",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WLFI_USDT",
+    "base_id": "WLFI",
+    "quote_id": "USDT",
+    "base": "WLFI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "WLKN_USDT",
     "base_id": "WLKN",
     "quote_id": "USDT",
@@ -114871,7 +114963,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -120477,7 +120569,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-10,
       "lot_size": 0.1
     },
     "quantity_limit": {

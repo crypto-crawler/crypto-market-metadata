@@ -16951,6 +16951,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "WLFI-USD",
+    "base_id": "WLFI",
+    "quote_id": "USD",
+    "base": "WLFI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "WLUNA-BTC",
     "base_id": "WLUNA",
     "quote_id": "BTC",
