@@ -7082,6 +7082,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tHYPE:USD",
+    "base_id": "HYPE",
+    "quote_id": "USD",
+    "base": "HYPE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tHYPE:UST",
+    "base_id": "HYPE",
+    "quote_id": "UST",
+    "base": "HYPE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 1200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tICEUSD",
     "base_id": "ICE",
     "quote_id": "USD",
