@@ -22404,6 +22404,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PROMPT-USD",
+    "base_id": "PROMPT",
+    "quote_id": "USD",
+    "base": "PROMPT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PROMPT-USDT",
     "base_id": "PROMPT",
     "quote_id": "USDT",
@@ -30310,6 +30333,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "WLFI-USD",
+    "base_id": "WLFI",
+    "quote_id": "USD",
+    "base": "WLFI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },

@@ -29228,6 +29228,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "PTBUSDT_SPBL",
+    "base_id": "PTB",
+    "quote_id": "USDT",
+    "base": "PTB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "PUBLICUSDT_SPBL",
     "base_id": "PUBLIC",
     "quote_id": "USDT",
