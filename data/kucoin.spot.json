@@ -14546,6 +14546,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "EGL1-USD1",
+    "base_id": "EGL1",
+    "quote_id": "USD1",
+    "base": "EGL1",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "EGL1-USDT",
     "base_id": "EGL1",
     "quote_id": "USDT",
@@ -39194,6 +39218,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RARI-USDT",
+    "base_id": "RARI",
+    "quote_id": "USDT",
+    "base": "RARI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "RATS-USDT",
     "base_id": "RATS",
     "quote_id": "USDT",
@@ -48691,6 +48739,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "U-USDT",
+    "base_id": "U",
+    "quote_id": "USDT",
+    "base": "U",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}

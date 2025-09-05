@@ -42828,6 +42828,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GATA_USDT",
+    "base_id": "GATA",
+    "quote_id": "USDT",
+    "base": "GATA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GAT_USDT",
     "base_id": "GAT",
     "quote_id": "USDT",
@@ -73042,6 +73065,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "NOBODY_USDT",
+    "base_id": "NOBODY",
+    "quote_id": "USDT",
+    "base": "NOBODY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "NODE_USDT",
     "base_id": "NODE",
     "quote_id": "USDT",
@@ -84750,7 +84796,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -100441,7 +100487,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -106619,7 +106665,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -110323,6 +110369,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "U_USDT",
+    "base_id": "U",
+    "quote_id": "USDT",
+    "base": "U",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "VADER_ETH",
     "base_id": "VADER",
     "quote_id": "ETH",
@@ -112462,7 +112531,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {

@@ -37010,6 +37010,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "sxtusdt",
+    "base_id": "sxt",
+    "quote_id": "usdt",
+    "base": "SXT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 13125082.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "sylousdt",
     "base_id": "sylo",
     "quote_id": "usdt",
@@ -39140,6 +39164,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 30000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "ultimausdt",
+    "base_id": "ultima",
+    "quote_id": "usdt",
+    "base": "ULTIMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 133.3333
     },
     "info": {}
   },
