@@ -318,7 +318,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 48000.0
+      "max": 75000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -6636,7 +6636,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1600.0
+      "max": 2400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11928,7 +11928,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000.0
+      "max": 660.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -22871,6 +22871,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "NOICE_USDT",
+    "base_id": "NOICE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NOICE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 70.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "NOS_USDT",
     "base_id": "NOS",
     "quote_id": "USDT",
@@ -26454,7 +26481,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1800.0
+      "max": 1050.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -26481,7 +26508,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2750000.0
+      "max": 2100000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -28830,7 +28857,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 660.0
+      "max": 1000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -30558,7 +30585,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1300.0
+      "max": 800.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -32880,7 +32907,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 200.0
+      "max": 55.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -33717,7 +33744,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8500.0
+      "max": 13000.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -37011,7 +37038,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 67500.0
+      "max": 49500.0
     },
     "contract_value": 100.0,
     "info": {}
