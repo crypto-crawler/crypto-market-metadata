@@ -7500,7 +7500,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5300.0
+      "max": 7800.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -8580,7 +8580,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3600.0
+      "max": 5400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13575,7 +13575,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 650.0
+      "max": 350.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -18281,6 +18281,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "KTA_USDT",
+    "base_id": "KTA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KTA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "K_USDT",
     "base_id": "K",
     "quote_id": "USDT",
@@ -21972,7 +21999,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500.0
+      "max": 110.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -28371,7 +28398,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 13000.0
+      "max": 9000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -29910,7 +29937,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9500.0
+      "max": 5000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -31692,7 +31719,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3300.0
+      "max": 4700.0
     },
     "contract_value": 10000.0,
     "info": {}
