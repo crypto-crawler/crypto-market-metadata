@@ -6547,6 +6547,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "FLOCK-USD",
+    "base_id": "FLOCK",
+    "quote_id": "USD",
+    "base": "FLOCK",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "FLOKI-USD",
     "base_id": "FLOKI",
     "quote_id": "USD",
@@ -14567,6 +14590,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SPX-USD",
+    "base_id": "SPX",
+    "quote_id": "USD",
+    "base": "SPX",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "notional_min": 1.0

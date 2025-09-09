@@ -3107,6 +3107,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AVNT/EUR",
+    "base_id": "AVNT",
+    "quote_id": "ZEUR",
+    "base": "AVNT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AVNT/USD",
+    "base_id": "AVNT",
+    "quote_id": "ZUSD",
+    "base": "AVNT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AXS/EUR",
     "base_id": "AXS",
     "quote_id": "ZEUR",
@@ -27596,6 +27642,52 @@
     },
     "quantity_limit": {
       "min": 9.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UXLINK/EUR",
+    "base_id": "UXLINK",
+    "quote_id": "ZEUR",
+    "base": "UXLINK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UXLINK/USD",
+    "base_id": "UXLINK",
+    "quote_id": "ZUSD",
+    "base": "UXLINK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
