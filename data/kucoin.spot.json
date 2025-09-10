@@ -3602,6 +3602,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ART-USDT",
+    "base_id": "ART",
+    "quote_id": "USDT",
+    "base": "ART",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ARTFI-USDT",
     "base_id": "ARTFI",
     "quote_id": "USDT",
@@ -4580,6 +4604,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 99999999999999.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "AVNT-USDT",
+    "base_id": "AVNT",
+    "quote_id": "USDT",
+    "base": "AVNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -35322,7 +35370,7 @@
       "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -45811,6 +45859,30 @@
     },
     "quantity_limit": {
       "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SWTCH-USDT",
+    "base_id": "SWTCH",
+    "quote_id": "USDT",
+    "base": "SWTCH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

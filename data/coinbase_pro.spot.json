@@ -1939,6 +1939,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "AVNT-USD",
+    "base_id": "AVNT",
+    "quote_id": "USD",
+    "base": "AVNT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "AVT-EUR",
     "base_id": "AVT",
     "quote_id": "EUR",
@@ -6552,7 +6575,7 @@
     "quote_id": "USD",
     "base": "FLOCK",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -14604,7 +14627,7 @@
     "quote_id": "USD",
     "base": "SPX",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
