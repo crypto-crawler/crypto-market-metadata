@@ -59474,6 +59474,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LINEA_USDT",
+    "base_id": "LINEA",
+    "quote_id": "USDT",
+    "base": "LINEA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LINGO_USDT",
     "base_id": "LINGO",
     "quote_id": "USDT",

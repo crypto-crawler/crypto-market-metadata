@@ -14239,6 +14239,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "LINEA/EUR",
+    "base_id": "LINEA",
+    "quote_id": "ZEUR",
+    "base": "LINEA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LINEA/USD",
+    "base_id": "LINEA",
+    "quote_id": "ZUSD",
+    "base": "LINEA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "LINK/AUD",
     "base_id": "LINK",
     "quote_id": "ZAUD",
@@ -19592,6 +19638,52 @@
     },
     "quantity_limit": {
       "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PLAY/EUR",
+    "base_id": "PLAY",
+    "quote_id": "ZEUR",
+    "base": "PLAY",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PLAY/USD",
+    "base_id": "PLAY",
+    "quote_id": "ZUSD",
+    "base": "PLAY",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 250.0
     },
     "info": {}
   },
@@ -28872,6 +28964,29 @@
     "quote_id": "ZUSD",
     "base": "AUT",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.0015
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XAUT/USDT",
+    "base_id": "XAUT",
+    "quote_id": "USDT",
+    "base": "AUT",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {
