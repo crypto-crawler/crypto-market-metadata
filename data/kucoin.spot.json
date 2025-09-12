@@ -842,6 +842,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ADA-USD1",
+    "base_id": "ADA",
+    "quote_id": "USD1",
+    "base": "ADA",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ADA-USDC",
     "base_id": "ADA",
     "quote_id": "USDC",
@@ -4232,7 +4256,7 @@
     "base": "AUDIO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -13256,7 +13280,7 @@
     "base": "DODO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -13312,6 +13336,30 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "DOGE-USD1",
+    "base_id": "DOGE",
+    "quote_id": "USD1",
+    "base": "DOGE",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "min": 1.0,
@@ -22315,6 +22363,30 @@
     },
     "quantity_limit": {
       "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "HOLO-USDT",
+    "base_id": "HOLO",
+    "quote_id": "USDT",
+    "base": "HOLO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -36962,6 +37034,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PINGPONG-USDT",
+    "base_id": "PINGPONG",
+    "quote_id": "USDT",
+    "base": "PINGPONG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "PIP-USDT",
     "base_id": "PIP",
     "quote_id": "USDT",
@@ -37760,7 +37856,7 @@
     "base": "POND",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -43418,6 +43514,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "SOL-USD1",
+    "base_id": "SOL",
+    "quote_id": "USD1",
+    "base": "SOL",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "SOL-USDC",
     "base_id": "SOL",
     "quote_id": "USDC",
@@ -48259,6 +48379,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "TRUMP-USD1",
+    "base_id": "TRUMP",
+    "quote_id": "USD1",
+    "base": "TRUMP",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
       "max": 10000000000.0
     },
     "info": {}
@@ -54280,6 +54424,30 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "XRP-USD1",
+    "base_id": "XRP",
+    "quote_id": "USD1",
+    "base": "XRP",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.1,

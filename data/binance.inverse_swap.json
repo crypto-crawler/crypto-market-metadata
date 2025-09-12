@@ -380,6 +380,33 @@
   {
     "exchange": "binance",
     "market_type": "inverse_swap",
+    "symbol": "DOGSUSD_PERP",
+    "base_id": "DOGS",
+    "quote_id": "USD",
+    "settle_id": "DOGS",
+    "base": "DOGS",
+    "quote": "USD",
+    "settle": "DOGS",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
     "symbol": "DOTUSD_PERP",
     "base_id": "DOT",
     "quote_id": "USD",
@@ -1001,6 +1028,33 @@
   {
     "exchange": "binance",
     "market_type": "inverse_swap",
+    "symbol": "SUIUSD_PERP",
+    "base_id": "SUI",
+    "quote_id": "USD",
+    "settle_id": "SUI",
+    "base": "SUI",
+    "quote": "USD",
+    "settle": "SUI",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
     "symbol": "THETAUSD_PERP",
     "base_id": "THETA",
     "quote_id": "USD",
@@ -1089,6 +1143,60 @@
     "base": "VET",
     "quote": "USD",
     "settle": "VET",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
+    "symbol": "WIFUSD_PERP",
+    "base_id": "WIF",
+    "quote_id": "USD",
+    "settle_id": "WIF",
+    "base": "WIF",
+    "quote": "USD",
+    "settle": "WIF",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.00015,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "inverse_swap",
+    "symbol": "WLDUSD_PERP",
+    "base_id": "WLD",
+    "quote_id": "USD",
+    "settle_id": "WLD",
+    "base": "WLD",
+    "quote": "USD",
+    "settle": "WLD",
     "active": true,
     "margin": true,
     "fees": {
