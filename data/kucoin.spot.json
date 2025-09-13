@@ -48715,7 +48715,7 @@
     },
     "quantity_limit": {
       "min": 10.0,
-      "max": 245000.0
+      "max": 10000000000.0
     },
     "info": {}
   },
@@ -49062,6 +49062,30 @@
     "base_id": "U2U",
     "quote_id": "USDT",
     "base": "U2U",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "UB-USDT",
+    "base_id": "UB",
+    "quote_id": "USDT",
+    "base": "UB",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -54955,6 +54979,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "YAMA-USDT",
+    "base_id": "YAMA",
+    "quote_id": "USDT",
+    "base": "YAMA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

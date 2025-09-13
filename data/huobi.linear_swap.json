@@ -7247,6 +7247,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "SKY-USDT",
+    "base_id": "SKY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SKY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "SKYAI-USDT",
     "base_id": "SKYAI",
     "quote_id": "USDT",
@@ -8389,6 +8412,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "UB-USDT",
+    "base_id": "UB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 100.0,

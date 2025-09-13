@@ -1088,6 +1088,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AA_USDT",
+    "base_id": "AA",
+    "quote_id": "USDT",
+    "base": "AA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ABBC_USDT",
     "base_id": "ABBC",
     "quote_id": "USDT",
@@ -1650,10 +1673,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -3349,10 +3372,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -3533,10 +3556,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -5479,10 +5502,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -5502,10 +5525,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -5726,10 +5749,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -6427,10 +6450,10 @@
     },
     "precision": {
       "tick_size": 0.001,
-      "lot_size": 0.001
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.01
     },
     "info": {}
   },
@@ -9899,10 +9922,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -11230,10 +11253,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -13241,10 +13264,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -15454,10 +15477,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -15477,10 +15500,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -17170,10 +17193,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -17446,10 +17469,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -18337,10 +18360,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -19061,10 +19084,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -20667,10 +20690,10 @@
     },
     "precision": {
       "tick_size": 1e-13,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -21104,10 +21127,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -21239,10 +21262,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -21558,10 +21581,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -22064,10 +22087,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.01
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -24621,10 +24644,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -29696,10 +29719,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -31567,10 +31590,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -34133,10 +34156,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -37190,10 +37213,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -38831,10 +38854,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -40662,10 +40685,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -41053,10 +41076,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -42128,10 +42151,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -42334,7 +42357,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -42910,10 +42933,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -43804,10 +43827,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -44448,10 +44471,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -44931,10 +44954,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -45456,7 +45479,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -45664,10 +45687,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -47188,7 +47211,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -49509,10 +49532,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -51563,7 +51586,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -52529,7 +52552,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -53820,10 +53843,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -54044,10 +54067,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -54434,7 +54457,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -54526,7 +54549,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -54642,10 +54665,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -54822,7 +54845,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -55099,10 +55122,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -56599,10 +56622,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -57751,10 +57774,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -58507,10 +58530,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -59013,10 +59036,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -62987,10 +63010,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -64148,10 +64171,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -64332,10 +64355,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -69071,10 +69094,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -69255,10 +69278,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -69347,10 +69370,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -70701,10 +70724,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -70770,10 +70793,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -71388,10 +71411,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -71779,10 +71802,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -72099,6 +72122,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NETX_USDT",
+    "base_id": "NETX",
+    "quote_id": "USDT",
+    "base": "NETX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -78249,10 +78295,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -78410,10 +78456,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -82535,10 +82581,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.01
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -83578,10 +83624,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -83739,10 +83785,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -85096,10 +85142,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.01
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -85464,10 +85510,10 @@
     },
     "precision": {
       "tick_size": 1e-9,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -88843,10 +88889,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -89251,10 +89297,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -96028,10 +96074,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -96580,10 +96626,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -100327,10 +100373,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -100695,10 +100741,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -101287,10 +101333,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -102399,10 +102445,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -105178,10 +105224,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -106896,10 +106942,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -107767,10 +107813,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -108504,6 +108550,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "UB_USDT",
+    "base_id": "UB",
+    "quote_id": "USDT",
+    "base": "UB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "UDAO_USDT",
     "base_id": "UDAO",
     "quote_id": "USDT",
@@ -108954,10 +109023,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -110658,10 +110727,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -112762,10 +112831,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -113567,10 +113636,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -114943,7 +115012,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -115516,10 +115585,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -115883,7 +115952,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -115953,10 +116022,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -116045,10 +116114,10 @@
     },
     "precision": {
       "tick_size": 1e-9,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -116068,10 +116137,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -118180,10 +118249,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -118248,7 +118317,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -119726,10 +119795,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -120134,10 +120203,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -121858,10 +121927,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
