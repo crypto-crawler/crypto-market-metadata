@@ -38018,6 +38018,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PORTALS-USDT",
+    "base_id": "PORTALS",
+    "quote_id": "USDT",
+    "base": "PORTALS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "POSI-USDT",
     "base_id": "POSI",
     "quote_id": "USDT",
@@ -51290,6 +51314,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "VLR-USDT",
+    "base_id": "VLR",
+    "quote_id": "USDT",
+    "base": "VLR",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "VLX-BTC",
     "base_id": "VLX",
     "quote_id": "BTC",
@@ -53834,6 +53882,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "XL1-USDT",
+    "base_id": "XL1",
+    "quote_id": "USDT",
+    "base": "XL1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "XLAB-USDT",
     "base_id": "XLAB",
     "quote_id": "USDT",
@@ -55914,7 +55986,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

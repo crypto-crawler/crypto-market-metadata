@@ -9547,6 +9547,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "ZKC-USDT",
+    "base_id": "ZKC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZKC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "ZKJ-USDT",
     "base_id": "ZKJ",
     "quote_id": "USDT",
