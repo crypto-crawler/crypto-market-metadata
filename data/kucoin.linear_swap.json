@@ -4228,7 +4228,7 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
-    "delivery_date": 1761876000000,
+    "delivery_date": 2077408800000,
     "info": {}
   },
   {
@@ -10286,6 +10286,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "STBLUSDTM",
+    "base_id": "STBL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STBL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "STEEMUSDTM",
     "base_id": "STEEM",
     "quote_id": "USDT",
@@ -11134,6 +11157,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "TOSHIUSDTM",
+    "base_id": "TOSHI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TOSHI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {

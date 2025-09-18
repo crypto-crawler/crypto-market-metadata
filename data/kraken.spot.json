@@ -8627,6 +8627,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ETH/EURC",
+    "base_id": "XETH",
+    "quote_id": "EURC",
+    "base": "ETH",
+    "quote": "EURC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.002
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ETH/EUROP",
     "base_id": "XETH",
     "quote_id": "EUROP",
@@ -9150,6 +9173,52 @@
     },
     "quantity_limit": {
       "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EURC/EUR",
+    "base_id": "EURC",
+    "quote_id": "ZEUR",
+    "base": "EURC",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EURC/USDC",
+    "base_id": "EURC",
+    "quote_id": "USDC",
+    "base": "EURC",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
     },
     "info": {}
   },
@@ -23692,6 +23761,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SOL/EURC",
+    "base_id": "SOL",
+    "quote_id": "EURC",
+    "base": "SOL",
+    "quote": "EURC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.02
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SOL/GBP",
     "base_id": "SOL",
     "quote_id": "ZGBP",
@@ -29217,6 +29309,29 @@
     "quote_id": "ZEUR",
     "base": "BTC",
     "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.00005
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XBT/EURC",
+    "base_id": "XXBT",
+    "quote_id": "EURC",
+    "base": "BTC",
+    "quote": "EURC",
     "active": true,
     "margin": false,
     "fees": {
