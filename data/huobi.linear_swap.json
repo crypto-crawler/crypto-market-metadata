@@ -1175,6 +1175,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "BARD-USDT",
+    "base_id": "BARD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BARD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "BAT-USDT",
     "base_id": "BAT",
     "quote_id": "USDT",
@@ -7638,6 +7661,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "STBL-USDT",
+    "base_id": "STBL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STBL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "STEEM-USDT",
     "base_id": "STEEM",
     "quote_id": "USDT",
@@ -8208,6 +8254,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "TOSHI-USDT",
+    "base_id": "TOSHI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TOSHI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {

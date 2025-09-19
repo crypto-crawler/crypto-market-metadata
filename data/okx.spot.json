@@ -3498,6 +3498,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BARD-USD",
+    "base_id": "BARD",
+    "quote_id": "USD",
+    "base": "BARD",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "BARD-USDT",
+    "base_id": "BARD",
+    "quote_id": "USDT",
+    "base": "BARD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BAT-BTC",
     "base_id": "BAT",
     "quote_id": "BTC",
@@ -9300,7 +9346,7 @@
     "base": "ENA",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -25055,7 +25101,7 @@
     "base": "SKY",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
