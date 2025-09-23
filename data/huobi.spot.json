@@ -2,6 +2,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "0gusdt",
+    "base_id": "0g",
+    "quote_id": "usdt",
+    "base": "0G",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 333333.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "18cbtc",
     "base_id": "18c",
     "quote_id": "btc",

@@ -2,12 +2,132 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "0GBNB",
+    "base_id": "0G",
+    "quote_id": "BNB",
+    "base": "0G",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 46116860414.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "0GFDUSD",
+    "base_id": "0G",
+    "quote_id": "FDUSD",
+    "base": "0G",
+    "quote": "FDUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "0GTRY",
+    "base_id": "0G",
+    "quote_id": "TRY",
+    "base": "0G",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "0GUSDC",
+    "base_id": "0G",
+    "quote_id": "USDC",
+    "base": "0G",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "0GUSDT",
+    "base_id": "0G",
+    "quote_id": "USDT",
+    "base": "0G",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "1000CATBNB",
     "base_id": "1000CAT",
     "quote_id": "BNB",
     "base": "1000CAT",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -8330,6 +8450,78 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "AVNTTRY",
+    "base_id": "AVNT",
+    "quote_id": "TRY",
+    "base": "AVNT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "AVNTUSDC",
+    "base_id": "AVNT",
+    "quote_id": "USDC",
+    "base": "AVNT",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "AVNTUSDT",
+    "base_id": "AVNT",
+    "quote_id": "USDT",
+    "base": "AVNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "AWEBTC",
     "base_id": "AWE",
     "quote_id": "BTC",
@@ -8959,7 +9151,7 @@
     "quote_id": "BTC",
     "base": "BAKE",
     "quote": "BTC",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -9007,7 +9199,7 @@
     "quote_id": "TRY",
     "base": "BAKE",
     "quote": "TRY",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -9031,7 +9223,7 @@
     "quote_id": "USDT",
     "base": "BAKE",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -9500,6 +9692,126 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 90000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "BARDBNB",
+    "base_id": "BARD",
+    "quote_id": "BNB",
+    "base": "BARD",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 46116860414.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "BARDFDUSD",
+    "base_id": "BARD",
+    "quote_id": "FDUSD",
+    "base": "BARD",
+    "quote": "FDUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "BARDTRY",
+    "base_id": "BARD",
+    "quote_id": "TRY",
+    "base": "BARD",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "BARDUSDC",
+    "base_id": "BARD",
+    "quote_id": "USDC",
+    "base": "BARD",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "BARDUSDT",
+    "base_id": "BARD",
+    "quote_id": "USDT",
+    "base": "BARD",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -33055,7 +33367,7 @@
     "quote_id": "USDT",
     "base": "HIFI",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -34135,7 +34447,7 @@
     "quote_id": "BNB",
     "base": "HUMA",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -44455,7 +44767,7 @@
     "quote_id": "BTC",
     "base": "MKR",
     "quote": "BTC",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -44503,7 +44815,7 @@
     "quote_id": "TRY",
     "base": "MKR",
     "quote": "TRY",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -44527,7 +44839,7 @@
     "quote_id": "USDC",
     "base": "MKR",
     "quote": "USDC",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -44551,7 +44863,7 @@
     "quote_id": "USDT",
     "base": "MKR",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -47911,7 +48223,7 @@
     "quote_id": "BNB",
     "base": "NXPC",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -48872,7 +49184,7 @@
     "base": "OMNI",
     "quote": "USDC",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -48896,7 +49208,7 @@
     "base": "OMNI",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.001,
       "taker": 0.001
@@ -54423,6 +54735,30 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "PUMPUSDC",
+    "base_id": "PUMP",
+    "quote_id": "USDC",
+    "base": "PUMP",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -60991,6 +61327,54 @@
     "quote_id": "BTC",
     "base": "SKY",
     "quote": "BTC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 46116860414.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SKYCOINBNB",
+    "base_id": "SKYCOIN",
+    "quote_id": "BNB",
+    "base": "SKYCOIN",
+    "quote": "BNB",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SKYCOINBTC",
+    "base_id": "SKYCOIN",
+    "quote_id": "BTC",
+    "base": "SKYCOIN",
+    "quote": "BTC",
     "active": false,
     "margin": false,
     "fees": {
@@ -61004,6 +61388,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 90000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SKYCOINETH",
+    "base_id": "SKYCOIN",
+    "quote_id": "ETH",
+    "base": "SKYCOIN",
+    "quote": "ETH",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 9000000.0
     },
     "info": {}
   },
@@ -61034,12 +61442,84 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "SKYTRY",
+    "base_id": "SKY",
+    "quote_id": "TRY",
+    "base": "SKY",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SKYUSDC",
+    "base_id": "SKY",
+    "quote_id": "USDC",
+    "base": "SKY",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "SKYUSDT",
+    "base_id": "SKY",
+    "quote_id": "USDT",
+    "base": "SKY",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 913205152.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "SLFBTC",
     "base_id": "SLF",
     "quote_id": "BTC",
     "base": "SLF",
     "quote": "BTC",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -61063,7 +61543,7 @@
     "quote_id": "TRY",
     "base": "SLF",
     "quote": "TRY",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -61087,7 +61567,7 @@
     "quote_id": "USDC",
     "base": "SLF",
     "quote": "USDC",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -61111,7 +61591,7 @@
     "quote_id": "USDT",
     "base": "SLF",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -62287,7 +62767,7 @@
     "quote_id": "BNB",
     "base": "SOPH",
     "quote": "BNB",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.001,
@@ -78284,6 +78764,126 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 46116860414.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ZKCBNB",
+    "base_id": "ZKC",
+    "quote_id": "BNB",
+    "base": "ZKC",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 46116860414.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ZKCFDUSD",
+    "base_id": "ZKC",
+    "quote_id": "FDUSD",
+    "base": "ZKC",
+    "quote": "FDUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ZKCTRY",
+    "base_id": "ZKC",
+    "quote_id": "TRY",
+    "base": "ZKC",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ZKCUSDC",
+    "base_id": "ZKC",
+    "quote_id": "USDC",
+    "base": "ZKC",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "ZKCUSDT",
+    "base_id": "ZKC",
+    "quote_id": "USDT",
+    "base": "ZKC",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
     },
     "info": {}
   },
