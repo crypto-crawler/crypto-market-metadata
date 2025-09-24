@@ -3215,7 +3215,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 40.0
+      "min": 2.0
     },
     "info": {}
   },
@@ -3238,7 +3238,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 40.0
+      "min": 2.0
     },
     "info": {}
   },
@@ -4343,6 +4343,29 @@
     },
     "quantity_limit": {
       "min": 3.7
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BLESS/USD",
+    "base_id": "BLESS",
+    "quote_id": "ZUSD",
+    "base": "BLESS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
     },
     "info": {}
   },
@@ -9238,6 +9261,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EURC/USD",
+    "base_id": "EURC",
+    "quote_id": "ZUSD",
+    "base": "EURC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -14302,6 +14348,52 @@
     },
     "quantity_limit": {
       "min": 2.2
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LCAP/EUR",
+    "base_id": "LCAP",
+    "quote_id": "ZEUR",
+    "base": "LCAP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.4
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LCAP/USD",
+    "base_id": "LCAP",
+    "quote_id": "ZUSD",
+    "base": "LCAP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.4
     },
     "info": {}
   },
@@ -27331,6 +27423,98 @@
     "quote_id": "ZUSD",
     "base": "USDD",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDE/EUR",
+    "base_id": "USDE",
+    "quote_id": "ZEUR",
+    "base": "USDE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDE/USD",
+    "base_id": "USDE",
+    "quote_id": "ZUSD",
+    "base": "USDE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDE/USDC",
+    "base_id": "USDE",
+    "quote_id": "USDC",
+    "base": "USDE",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDE/USDT",
+    "base_id": "USDE",
+    "quote_id": "USDT",
+    "base": "USDE",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {
