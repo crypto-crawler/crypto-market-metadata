@@ -3623,6 +3623,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "CFG-USD",
+    "base_id": "CFG",
+    "quote_id": "USD",
+    "base": "CFG",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "CGLD-BTC",
     "base_id": "CGLD",
     "quote_id": "BTC",
@@ -15811,6 +15834,29 @@
     },
     "precision": {
       "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "TROLL-USD",
+    "base_id": "TROLL",
+    "quote_id": "USD",
+    "base": "TROLL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {

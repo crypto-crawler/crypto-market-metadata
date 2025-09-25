@@ -15314,6 +15314,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tXPLUSD",
+    "base_id": "XPL",
+    "quote_id": "USD",
+    "base": "XPL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 70000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tXPLUST",
+    "base_id": "XPL",
+    "quote_id": "UST",
+    "base": "XPL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 70000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tXRAUSD",
     "base_id": "XRA",
     "quote_id": "USD",

@@ -3842,6 +3842,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ASTER-USDT",
+    "base_id": "ASTER",
+    "quote_id": "USDT",
+    "base": "ASTER",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ASTR-BTC",
     "base_id": "ASTR",
     "quote_id": "BTC",
@@ -18890,6 +18914,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GAIN-USDT",
+    "base_id": "GAIN",
+    "quote_id": "USDT",
+    "base": "GAIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GAL-USDT",
     "base_id": "GAL",
     "quote_id": "USDT",
@@ -20942,11 +20990,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -28238,11 +28286,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -37130,6 +37178,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PIN-USDT",
+    "base_id": "PIN",
+    "quote_id": "USDT",
+    "base": "PIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "PINGPONG-USDT",
     "base_id": "PINGPONG",
     "quote_id": "USDT",
@@ -39446,11 +39518,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}

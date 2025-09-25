@@ -33266,6 +33266,126 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "HEMIBNB",
+    "base_id": "HEMI",
+    "quote_id": "BNB",
+    "base": "HEMI",
+    "quote": "BNB",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 46116860414.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "HEMIFDUSD",
+    "base_id": "HEMI",
+    "quote_id": "FDUSD",
+    "base": "HEMI",
+    "quote": "FDUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "HEMITRY",
+    "base_id": "HEMI",
+    "quote_id": "TRY",
+    "base": "HEMI",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 9222449.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "HEMIUSDC",
+    "base_id": "HEMI",
+    "quote_id": "USDC",
+    "base": "HEMI",
+    "quote": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "HEMIUSDT",
+    "base_id": "HEMI",
+    "quote_id": "USDT",
+    "base": "HEMI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 92141578.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "HFTBTC",
     "base_id": "HFT",
     "quote_id": "BTC",
@@ -35588,6 +35708,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 922327.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "IMXUSDC",
+    "base_id": "IMX",
+    "quote_id": "USDC",
+    "base": "IMX",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -47540,6 +47684,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 90000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
+    "symbol": "NMRTRY",
+    "base_id": "NMR",
+    "quote_id": "TRY",
+    "base": "NMR",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 922327.0
     },
     "info": {}
   },
@@ -70010,6 +70178,30 @@
   {
     "exchange": "binance",
     "market_type": "spot",
+    "symbol": "TWTUSDC",
+    "base_id": "TWT",
+    "quote_id": "USDC",
+    "base": "TWT",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 900000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "binance",
+    "market_type": "spot",
     "symbol": "TWTUSDT",
     "base_id": "TWT",
     "quote_id": "USDT",
@@ -70939,7 +71131,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000000.0
+      "max": 92141578.0
     },
     "info": {}
   },
@@ -70963,7 +71155,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000000.0
+      "max": 92141578.0
     },
     "info": {}
   },
