@@ -3314,6 +3314,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "FLUID-USDT",
+    "base_id": "FLUID",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLUID",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "FORM-USDT",
     "base_id": "FORM",
     "quote_id": "USDT",
@@ -9427,6 +9450,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "XPL-USDT",
+    "base_id": "XPL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XPL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

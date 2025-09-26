@@ -5267,6 +5267,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "COAI_USDT",
+    "base_id": "COAI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COAI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "COCOS_USDT",
     "base_id": "COCOS",
     "quote_id": "USDT",
