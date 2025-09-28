@@ -45102,6 +45102,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "GOATED_USDT",
+    "base_id": "GOATED",
+    "quote_id": "USDT",
+    "base": "GOATED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "GOATSEUS_USDT",
     "base_id": "GOATSEUS",
     "quote_id": "USDT",
@@ -59606,6 +59629,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LIGHT_USDT",
+    "base_id": "LIGHT",
+    "quote_id": "USDT",
+    "base": "LIGHT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
