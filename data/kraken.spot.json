@@ -9915,6 +9915,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "FF/EUR",
+    "base_id": "FF",
+    "quote_id": "ZEUR",
+    "base": "FF",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FF/USD",
+    "base_id": "FF",
+    "quote_id": "ZUSD",
+    "base": "FF",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "FHE/EUR",
     "base_id": "FHE",
     "quote_id": "ZEUR",
