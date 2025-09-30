@@ -17320,6 +17320,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "XAN-USD",
+    "base_id": "XAN",
+    "quote_id": "USD",
+    "base": "XAN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "XCN-USD",
     "base_id": "XCN",
     "quote_id": "USD",
