@@ -2498,6 +2498,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "EDEN-USDT-SWAP",
+    "base_id": "EDEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EDEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "EFI-USDT-SWAP",
     "base_id": "EFI",
     "quote_id": "USDT",
@@ -5795,6 +5821,32 @@
       "min": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ORDER-USDT-SWAP",
+    "base_id": "ORDER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ORDER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

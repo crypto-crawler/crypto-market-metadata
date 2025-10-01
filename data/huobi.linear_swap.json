@@ -2808,6 +2808,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "EDEN-USDT",
+    "base_id": "EDEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EDEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "EGLD-USDT",
     "base_id": "EGLD",
     "quote_id": "USDT",
@@ -9381,6 +9404,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "XAN-USDT",
+    "base_id": "XAN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XAN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

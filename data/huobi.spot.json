@@ -27794,6 +27794,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "nomusdt",
+    "base_id": "nom",
+    "quote_id": "usdt",
+    "base": "NOM",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 17985611.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "normieusdt",
     "base_id": "normie",
     "quote_id": "usdt",
