@@ -4414,7 +4414,6 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
-    "delivery_date": 2077408800000,
     "info": {}
   },
   {
@@ -8164,6 +8163,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "NOMUSDTM",
+    "base_id": "NOM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NOM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "NOTUSDTM",
     "base_id": "NOT",
     "quote_id": "USDT",
@@ -11622,6 +11644,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "TRUTHUSDTM",
+    "base_id": "TRUTH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TRUTH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {

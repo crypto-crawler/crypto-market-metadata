@@ -101303,6 +101303,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "STRIKE_USDT",
+    "base_id": "STRIKE",
+    "quote_id": "USDT",
+    "base": "STRIKE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "STRK3L_USDT",
     "base_id": "STRK3L",
     "quote_id": "USDT",

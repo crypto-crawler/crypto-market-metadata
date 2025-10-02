@@ -1801,6 +1801,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "AUDD-USDC",
+    "base_id": "AUDD",
+    "quote_id": "USDC",
+    "base": "AUDD",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "AUDIO-USD",
     "base_id": "AUDIO",
     "quote_id": "USD",
@@ -17610,6 +17633,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "XSGD-USDC",
+    "base_id": "XSGD",
+    "quote_id": "USDC",
+    "base": "XSGD",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0
