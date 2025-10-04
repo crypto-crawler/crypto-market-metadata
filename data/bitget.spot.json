@@ -29918,6 +29918,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "PUSDT_SPBL",
+    "base_id": "P",
+    "quote_id": "USDT",
+    "base": "P",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "PUSHUSDT_SPBL",
     "base_id": "PUSH",
     "quote_id": "USDT",

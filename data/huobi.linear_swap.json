@@ -48,6 +48,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "2Z-USDT",
+    "base_id": "2Z",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "2Z",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "A-USDT",
     "base_id": "A",
     "quote_id": "USDT",
