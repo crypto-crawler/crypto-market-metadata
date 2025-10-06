@@ -2019,7 +2019,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 725.0
+      "max": 450.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -3585,7 +3585,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2500000.0
+      "max": 1800000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -5065,12 +5065,12 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7500.0
+      "max": 11000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -5097,7 +5097,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9000.0
+      "max": 13000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10227,9 +10227,9 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3.0
+      "max": 120.0
     },
-    "contract_value": 1.0,
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -13170,7 +13170,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 46000.0
+      "max": 65000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -14223,7 +14223,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 11000.0
+      "max": 16000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -15870,7 +15870,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 140000.0
+      "max": 92000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -18956,6 +18956,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "KGEN_USDT",
+    "base_id": "KGEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KGEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "KILO_USDT",
     "base_id": "KILO",
     "quote_id": "USDT",
@@ -20868,6 +20895,33 @@
       "max": 9000.0
     },
     "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "LYN_USDT",
+    "base_id": "LYN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LYN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -27534,7 +27588,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2500.0
+      "max": 1300.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -37011,7 +37065,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7000.0
+      "max": 4500.0
     },
     "contract_value": 100.0,
     "info": {}
