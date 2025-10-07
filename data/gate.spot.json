@@ -66661,6 +66661,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MF_USDT",
+    "base_id": "MF",
+    "quote_id": "USDT",
+    "base": "MF",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MG8_USDT",
     "base_id": "MG8",
     "quote_id": "USDT",
