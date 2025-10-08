@@ -2946,6 +2946,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "AVNT-USD",
+    "base_id": "AVNT",
+    "quote_id": "USD",
+    "base": "AVNT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "AVNT-USDT",
+    "base_id": "AVNT",
+    "quote_id": "USDT",
+    "base": "AVNT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AXS-EUR",
     "base_id": "AXS",
     "quote_id": "EUR",
@@ -27786,6 +27832,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "TOSHI-USD",
+    "base_id": "TOSHI",
+    "quote_id": "USD",
+    "base": "TOSHI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "TOSHI-USDT",
+    "base_id": "TOSHI",
+    "quote_id": "USDT",
+    "base": "TOSHI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "TOWN-USDT",
     "base_id": "TOWN",
     "quote_id": "USDT",
@@ -29379,7 +29471,7 @@
     "base": "UXLINK",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
