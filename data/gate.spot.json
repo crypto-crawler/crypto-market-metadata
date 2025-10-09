@@ -82071,6 +82071,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PIPE_USDT",
+    "base_id": "PIPE",
+    "quote_id": "USDT",
+    "base": "PIPE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PIPPIN3L_USDT",
     "base_id": "PIPPIN3L",
     "quote_id": "USDT",

@@ -1306,7 +1306,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -1329,7 +1329,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -4049,7 +4049,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -4210,7 +4210,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -9042,6 +9042,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "LINEA-USD",
+    "base_id": "LINEA",
+    "quote_id": "USD",
+    "base": "LINEA",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "LINK-BTC",
     "base_id": "LINK",
     "quote_id": "BTC",
@@ -11323,6 +11346,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "NOICE-USD",
+    "base_id": "NOICE",
+    "quote_id": "USD",
+    "base": "NOICE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "NU-BTC",
     "base_id": "NU",
     "quote_id": "BTC",
@@ -11981,7 +12027,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -13988,7 +14034,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -14057,7 +14103,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -15447,6 +15493,29 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 120000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SYND-USD",
+    "base_id": "SYND",
+    "quote_id": "USD",
+    "base": "SYND",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },
@@ -17216,7 +17285,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
