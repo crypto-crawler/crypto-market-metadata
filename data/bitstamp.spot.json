@@ -5102,6 +5102,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "toneur",
+    "base_id": "TON",
+    "quote_id": "EUR",
+    "base": "TON",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "tonusd",
+    "base_id": "TON",
+    "quote_id": "USD",
+    "base": "TON",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "traceur",
     "base_id": "TRAC",
     "quote_id": "EUR",
