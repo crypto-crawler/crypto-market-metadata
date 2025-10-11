@@ -23853,6 +23853,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SIDEKICK/EUR",
+    "base_id": "SIDEKICK",
+    "quote_id": "ZEUR",
+    "base": "SIDEKICK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SIDEKICK/USD",
+    "base_id": "SIDEKICK",
+    "quote_id": "ZUSD",
+    "base": "SIDEKICK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SIGMA/EUR",
     "base_id": "SIGMA",
     "quote_id": "ZEUR",

@@ -4994,6 +4994,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "MET-USDT-SWAP",
+    "base_id": "MET",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MET",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "METIS-USDT-SWAP",
     "base_id": "METIS",
     "quote_id": "USDT",
@@ -5145,6 +5171,32 @@
       "min": 1.0
     },
     "contract_value": 1000000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "MON-USDT-SWAP",
+    "base_id": "MON",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MON",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -9253,6 +9305,32 @@
       "min": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ZORA-USDT-SWAP",
+    "base_id": "ZORA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZORA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
