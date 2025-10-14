@@ -18080,6 +18080,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "MYX/EUR",
+    "base_id": "MYX",
+    "quote_id": "ZEUR",
+    "base": "MYX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.4
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MYX/USD",
     "base_id": "MYX",
     "quote_id": "ZUSD",
