@@ -21392,6 +21392,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PAXG-USDT",
+    "base_id": "PAXG",
+    "quote_id": "USDT",
+    "base": "PAXG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PAY-USDT",
     "base_id": "PAY",
     "quote_id": "USDT",
@@ -32055,6 +32078,52 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "YB-USD",
+    "base_id": "YB",
+    "quote_id": "USD",
+    "base": "YB",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "YB-USDT",
+    "base_id": "YB",
+    "quote_id": "USDT",
+    "base": "YB",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 1.0

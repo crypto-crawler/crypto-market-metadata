@@ -6902,8 +6902,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1,
@@ -13646,8 +13646,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 1e-8
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.01,
@@ -40514,6 +40514,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "RECALL-USDT",
+    "base_id": "RECALL",
+    "quote_id": "USDT",
+    "base": "RECALL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "RED-USDT",
     "base_id": "RED",
     "quote_id": "USDT",
@@ -52994,6 +53018,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "WBAI-USDT",
+    "base_id": "WBAI",
+    "quote_id": "USDT",
+    "base": "WBAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "WBTC-BTC",
     "base_id": "WBTC",
     "quote_id": "BTC",
@@ -54914,6 +54962,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "XMN-USDT",
+    "base_id": "XMN",
+    "quote_id": "USDT",
+    "base": "XMN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "XMR-BTC",
     "base_id": "XMR",
     "quote_id": "BTC",
@@ -55987,6 +56059,30 @@
     },
     "quantity_limit": {
       "min": 1000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "YB-USDT",
+    "base_id": "YB",
+    "quote_id": "USDT",
+    "base": "YB",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}

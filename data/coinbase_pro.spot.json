@@ -117,6 +117,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "2Z-USD",
+    "base_id": "2Z",
+    "quote_id": "USD",
+    "base": "2Z",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "A8-USD",
     "base_id": "A8",
     "quote_id": "USD",
@@ -13286,6 +13309,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "RECALL-USD",
+    "base_id": "RECALL",
+    "quote_id": "USD",
+    "base": "RECALL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "RED-USD",
     "base_id": "RED",
     "quote_id": "USD",
@@ -17909,6 +17955,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "YB-USD",
+    "base_id": "YB",
+    "quote_id": "USD",
+    "base": "YB",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "notional_min": 1.0
