@@ -16586,6 +16586,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "giggleusdt",
+    "base_id": "giggle",
+    "quote_id": "usdt",
+    "base": "GIGGLE",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.0001,
+      "max": 7917.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "glmbtc",
     "base_id": "glm",
     "quote_id": "btc",
@@ -45716,6 +45740,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 163639338.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "币安人生usdt",
+    "base_id": "币安人生",
+    "quote_id": "usdt",
+    "base": "币安人生",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 7124232.0
     },
     "info": {}
   }

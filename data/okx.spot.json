@@ -9386,6 +9386,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ENA-USD",
+    "base_id": "ENA",
+    "quote_id": "USD",
+    "base": "ENA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ENA-USDT",
     "base_id": "ENA",
     "quote_id": "USDT",
@@ -21392,6 +21415,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PAXG-USD",
+    "base_id": "PAXG",
+    "quote_id": "USD",
+    "base": "PAXG",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PAXG-USDT",
     "base_id": "PAXG",
     "quote_id": "USDT",
@@ -22002,7 +22048,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
