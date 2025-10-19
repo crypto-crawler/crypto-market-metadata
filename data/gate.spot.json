@@ -91980,6 +91980,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "RVV_USDT",
+    "base_id": "RVV",
+    "quote_id": "USDT",
+    "base": "RVV",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "RWAINC_USDT",
     "base_id": "RWAINC",
     "quote_id": "USDT",
@@ -92020,6 +92043,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "RZTO_USDT",
+    "base_id": "RZTO",
+    "quote_id": "USDT",
+    "base": "RZTO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
