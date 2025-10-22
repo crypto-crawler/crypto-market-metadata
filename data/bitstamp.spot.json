@@ -4542,6 +4542,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "sgdusd",
+    "base_id": "SGD",
+    "quote_id": "USD",
+    "base": "SGD",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "shibeur",
     "base_id": "SHIB",
     "quote_id": "EUR",

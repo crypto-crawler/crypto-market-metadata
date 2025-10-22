@@ -4648,6 +4648,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BLUAI/EUR",
+    "base_id": "BLUAI",
+    "quote_id": "ZEUR",
+    "base": "BLUAI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BLUAI/USD",
+    "base_id": "BLUAI",
+    "quote_id": "ZUSD",
+    "base": "BLUAI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BLUR/EUR",
     "base_id": "BLUR",
     "quote_id": "ZEUR",
@@ -24054,6 +24100,52 @@
     },
     "quantity_limit": {
       "min": 160000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SHX/EUR",
+    "base_id": "SHX",
+    "quote_id": "ZEUR",
+    "base": "SHX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 380.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SHX/USD",
+    "base_id": "SHX",
+    "quote_id": "ZUSD",
+    "base": "SHX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 380.0
     },
     "info": {}
   },

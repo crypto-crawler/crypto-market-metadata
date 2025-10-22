@@ -15832,6 +15832,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BLUAI_USDT",
+    "base_id": "BLUAI",
+    "quote_id": "USDT",
+    "base": "BLUAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BLUE_USDT",
     "base_id": "BLUE",
     "quote_id": "USDT",
@@ -84865,7 +84888,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -119605,7 +119628,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
