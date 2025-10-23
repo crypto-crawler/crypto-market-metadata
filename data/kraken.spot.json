@@ -2279,6 +2279,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "APR/EUR",
+    "base_id": "APR",
+    "quote_id": "ZEUR",
+    "base": "APR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "APR/USD",
+    "base_id": "APR",
+    "quote_id": "ZUSD",
+    "base": "APR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "APT/EUR",
     "base_id": "APT",
     "quote_id": "ZEUR",
@@ -5838,6 +5884,52 @@
     },
     "quantity_limit": {
       "min": 8.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CGN/EUR",
+    "base_id": "CGN",
+    "quote_id": "ZEUR",
+    "base": "CGN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CGN/USD",
+    "base_id": "CGN",
+    "quote_id": "ZUSD",
+    "base": "CGN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
     },
     "info": {}
   },

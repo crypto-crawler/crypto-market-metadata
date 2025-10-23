@@ -2954,6 +2954,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BNB-USD",
+    "base_id": "BNB",
+    "quote_id": "USD",
+    "base": "BNB",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BNKR-USD",
     "base_id": "BNKR",
     "quote_id": "USD",
@@ -8909,7 +8932,7 @@
     "quote_id": "USD",
     "base": "KTA",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
