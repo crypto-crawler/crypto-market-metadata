@@ -1231,6 +1231,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "APRUSDTM",
+    "base_id": "APR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "APR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "APTUSDTM",
     "base_id": "APT",
     "quote_id": "USDT",
@@ -4880,6 +4903,7 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "delivery_date": 1761638400000,
     "info": {}
   },
   {
@@ -5299,6 +5323,7 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "delivery_date": 1761638400000,
     "info": {}
   },
   {
@@ -6869,6 +6894,7 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "delivery_date": 1761379200000,
     "info": {}
   },
   {
@@ -7333,6 +7359,7 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "delivery_date": 1761638400000,
     "info": {}
   },
   {
