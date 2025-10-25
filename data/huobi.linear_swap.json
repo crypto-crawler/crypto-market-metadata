@@ -761,6 +761,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "APR-USDT",
+    "base_id": "APR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "APR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "APT-USDT",
     "base_id": "APT",
     "quote_id": "USDT",
@@ -4004,6 +4027,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "HANA-USDT",
+    "base_id": "HANA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HANA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "HBAR-USDT",
     "base_id": "HBAR",
     "quote_id": "USDT",
@@ -5560,6 +5606,29 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "MET-USDT",
+    "base_id": "MET",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MET",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,

@@ -23922,6 +23922,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SCA/EUR",
+    "base_id": "SCA",
+    "quote_id": "ZEUR",
+    "base": "SCA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SCA/USD",
+    "base_id": "SCA",
+    "quote_id": "ZUSD",
+    "base": "SCA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SCRT/EUR",
     "base_id": "SCRT",
     "quote_id": "ZEUR",
@@ -31736,6 +31782,52 @@
     },
     "quantity_limit": {
       "min": 0.015
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XNAP/EUR",
+    "base_id": "XNAP",
+    "quote_id": "ZEUR",
+    "base": "NAP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 60.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XNAP/USD",
+    "base_id": "XNAP",
+    "quote_id": "ZUSD",
+    "base": "NAP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 60.0
     },
     "info": {}
   },
