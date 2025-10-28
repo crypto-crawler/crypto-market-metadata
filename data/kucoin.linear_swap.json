@@ -375,6 +375,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "42USDTM",
+    "base_id": "42",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "42",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "4USDTM",
     "base_id": "4",
     "quote_id": "USDT",
@@ -3241,6 +3264,29 @@
     },
     "contract_value": 1.0,
     "delivery_date": 1743062400000,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "COMMONUSDTM",
+    "base_id": "COMMON",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COMMON",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {

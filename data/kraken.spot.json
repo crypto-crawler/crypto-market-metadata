@@ -26475,6 +26475,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SYND/EUR",
+    "base_id": "SYND",
+    "quote_id": "ZEUR",
+    "base": "SYND",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SYND/USD",
+    "base_id": "SYND",
+    "quote_id": "ZUSD",
+    "base": "SYND",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SYRUP/EUR",
     "base_id": "SYRUP",
     "quote_id": "ZEUR",
