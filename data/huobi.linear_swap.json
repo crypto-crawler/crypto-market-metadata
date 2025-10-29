@@ -2394,6 +2394,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "COMMON-USDT",
+    "base_id": "COMMON",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COMMON",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "COMP-USDT",
     "base_id": "COMP",
     "quote_id": "USDT",

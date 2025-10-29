@@ -30086,6 +30086,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "VIRTUAL-USD",
+    "base_id": "VIRTUAL",
+    "quote_id": "USD",
+    "base": "VIRTUAL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "VIRTUAL-USDT",
+    "base_id": "VIRTUAL",
+    "quote_id": "USDT",
+    "base": "VIRTUAL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "VRA-USD",
     "base_id": "VRA",
     "quote_id": "USD",
