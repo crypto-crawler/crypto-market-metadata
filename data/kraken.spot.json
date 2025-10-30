@@ -5292,6 +5292,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BOS/EUR",
+    "base_id": "BOS",
+    "quote_id": "ZEUR",
+    "base": "BOS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 550.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BOS/USD",
+    "base_id": "BOS",
+    "quote_id": "ZUSD",
+    "base": "BOS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 550.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BRICK/EUR",
     "base_id": "BRICK",
     "quote_id": "ZEUR",
@@ -15337,6 +15383,52 @@
     },
     "quantity_limit": {
       "min": 0.2
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LION/EUR",
+    "base_id": "LION",
+    "quote_id": "ZEUR",
+    "base": "LION",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 400.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "LION/USD",
+    "base_id": "LION",
+    "quote_id": "ZUSD",
+    "base": "LION",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 400.0
     },
     "info": {}
   },
@@ -29620,6 +29712,52 @@
     },
     "quantity_limit": {
       "min": 75.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VELVET/EUR",
+    "base_id": "VELVET",
+    "quote_id": "ZEUR",
+    "base": "VELVET",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 27.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VELVET/USD",
+    "base_id": "VELVET",
+    "quote_id": "ZUSD",
+    "base": "VELVET",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 27.0
     },
     "info": {}
   },

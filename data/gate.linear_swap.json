@@ -2432,6 +2432,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "AT_USDT",
+    "base_id": "AT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "AUCTION_USDT",
     "base_id": "AUCTION",
     "quote_id": "USDT",
@@ -12174,6 +12201,33 @@
       "max": 1000000.0
     },
     "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "KITE_USDT",
+    "base_id": "KITE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KITE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

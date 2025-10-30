@@ -10743,6 +10743,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "FET-USDC",
+    "base_id": "FET",
+    "quote_id": "USDC",
+    "base": "FET",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "FET-USDT",
     "base_id": "FET",
     "quote_id": "USDT",
@@ -13991,6 +14014,29 @@
     "quote_id": "EUR",
     "base": "INJ",
     "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "INJ-USDC",
+    "base_id": "INJ",
+    "quote_id": "USDC",
+    "base": "INJ",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -25775,7 +25821,7 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "lot_size": 0.001
     },
     "quantity_limit": {
       "min": 1.0

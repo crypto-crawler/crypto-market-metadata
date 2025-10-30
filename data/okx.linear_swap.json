@@ -2810,6 +2810,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "ENSO-USDT-SWAP",
+    "base_id": "ENSO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ENSO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "EOS-USDT-SWAP",
     "base_id": "EOS",
     "quote_id": "USDT",
@@ -4370,6 +4396,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "KITE-USDT-SWAP",
+    "base_id": "KITE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KITE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "KLAY-USDT-SWAP",
     "base_id": "KLAY",
     "quote_id": "USDT",
@@ -5872,7 +5924,7 @@
     "quantity_limit": {
       "min": 1.0
     },
-    "contract_value": 10.0,
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -6273,6 +6325,32 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "PI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "PIGGY-USDT-SWAP",
+    "base_id": "PIGGY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PIGGY",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
