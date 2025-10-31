@@ -4349,6 +4349,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BNB-EUR",
+    "base_id": "BNB",
+    "quote_id": "EUR",
+    "base": "BNB",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BNB-USD",
     "base_id": "BNB",
     "quote_id": "USD",
@@ -19851,6 +19874,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "NEO-EUR",
+    "base_id": "NEO",
+    "quote_id": "EUR",
+    "base": "NEO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "NEO-USD",
     "base_id": "NEO",
     "quote_id": "USD",
@@ -27757,6 +27803,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "THETA-EUR",
+    "base_id": "THETA",
+    "quote_id": "EUR",
+    "base": "THETA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },

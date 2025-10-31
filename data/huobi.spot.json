@@ -5570,6 +5570,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "bluaiusdt",
+    "base_id": "bluai",
+    "quote_id": "usdt",
+    "base": "BLUAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 43140638.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "blueusdt",
     "base_id": "blue",
     "quote_id": "usdt",

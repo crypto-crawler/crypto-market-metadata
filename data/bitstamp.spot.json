@@ -6122,6 +6122,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "xpleur",
+    "base_id": "XPL",
+    "quote_id": "EUR",
+    "base": "XPL",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "xplusd",
+    "base_id": "XPL",
+    "quote_id": "USD",
+    "base": "XPL",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "xrpbtc",
     "base_id": "XRP",
     "quote_id": "BTC",

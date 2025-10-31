@@ -17091,6 +17091,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "MET/EUR",
+    "base_id": "MET",
+    "quote_id": "ZEUR",
+    "base": "MET",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MET/USD",
+    "base_id": "MET",
+    "quote_id": "ZUSD",
+    "base": "MET",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "METH/ETH",
     "base_id": "METH",
     "quote_id": "XETH",

@@ -834,6 +834,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "AT-USDT-SWAP",
+    "base_id": "AT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "ATH-USDT-SWAP",
     "base_id": "ATH",
     "quote_id": "USDT",
@@ -6751,6 +6777,32 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "RECALL-USDT-SWAP",
+    "base_id": "RECALL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RECALL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
