@@ -4592,6 +4592,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "BAYUSDT_SPBL",
+    "base_id": "BAY",
+    "quote_id": "USDT",
+    "base": "BAY",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "BBLUSDT_SPBL",
     "base_id": "BBL",
     "quote_id": "USDT",
