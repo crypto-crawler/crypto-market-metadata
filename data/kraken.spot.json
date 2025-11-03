@@ -23048,6 +23048,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "RIVER/EUR",
+    "base_id": "RIVER",
+    "quote_id": "ZEUR",
+    "base": "RIVER",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RIVER/USD",
+    "base_id": "RIVER",
+    "quote_id": "ZUSD",
+    "base": "RIVER",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "RIZE/EUR",
     "base_id": "RIZE",
     "quote_id": "ZEUR",
