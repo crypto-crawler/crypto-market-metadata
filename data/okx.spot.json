@@ -15366,6 +15366,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "KITE-USD",
+    "base_id": "KITE",
+    "quote_id": "USD",
+    "base": "KITE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "KITE-USDT",
+    "base_id": "KITE",
+    "quote_id": "USDT",
+    "base": "KITE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "KLAY-BTC",
     "base_id": "KLAY",
     "quote_id": "BTC",
