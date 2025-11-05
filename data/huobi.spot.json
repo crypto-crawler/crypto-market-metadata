@@ -2306,6 +2306,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "aousdt",
+    "base_id": "ao",
+    "quote_id": "usdt",
+    "base": "AO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 200000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "apedusdt",
     "base_id": "aped",
     "quote_id": "usdt",

@@ -28039,6 +28039,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "TRUST/EUR",
+    "base_id": "TRUST",
+    "quote_id": "ZEUR",
+    "base": "TRUST",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TRUST/USD",
+    "base_id": "TRUST",
+    "quote_id": "ZUSD",
+    "base": "TRUST",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "TRX/ETH",
     "base_id": "TRX",
     "quote_id": "XETH",
