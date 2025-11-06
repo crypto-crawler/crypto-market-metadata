@@ -1692,6 +1692,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "BTC-USD_UM-SWAP",
+    "base_id": "BTC",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "BTC",
+    "quote": "USD_UM",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.0001,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "BTM-USDT-SWAP",
     "base_id": "BTM",
     "quote_id": "USDT",
@@ -2987,6 +3013,32 @@
       "min": 0.01
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ETH-USD_UM-SWAP",
+    "base_id": "ETH",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "ETH",
+    "quote": "USD_UM",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {
@@ -8343,6 +8395,32 @@
       "min": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "TRUST-USDT-SWAP",
+    "base_id": "TRUST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TRUST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {

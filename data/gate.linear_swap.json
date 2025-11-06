@@ -23762,6 +23762,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "TRUST_USDT",
+    "base_id": "TRUST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TRUST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "TRUTH_USDT",
     "base_id": "TRUTH",
     "quote_id": "USDT",
