@@ -11134,6 +11134,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "FOLKS/EUR",
+    "base_id": "FOLKS",
+    "quote_id": "ZEUR",
+    "base": "FOLKS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FOLKS/USD",
+    "base_id": "FOLKS",
+    "quote_id": "ZUSD",
+    "base": "FOLKS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "FOREST/EUR",
     "base_id": "FOREST",
     "quote_id": "ZEUR",

@@ -18194,6 +18194,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FOLKS-USDT",
+    "base_id": "FOLKS",
+    "quote_id": "USDT",
+    "base": "FOLKS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FOMO-USDT",
     "base_id": "FOMO",
     "quote_id": "USDT",
@@ -50426,6 +50450,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "UAI-USDT",
+    "base_id": "UAI",
+    "quote_id": "USDT",
+    "base": "UAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 1000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "UB-USDT",
     "base_id": "UB",
     "quote_id": "USDT",
@@ -54272,7 +54320,7 @@
     "base": "WOO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
