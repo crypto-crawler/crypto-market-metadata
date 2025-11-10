@@ -63170,6 +63170,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LUCIC_USDT",
+    "base_id": "LUCIC",
+    "quote_id": "USDT",
+    "base": "LUCIC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LUFFY_ETH",
     "base_id": "LUFFY",
     "quote_id": "ETH",
