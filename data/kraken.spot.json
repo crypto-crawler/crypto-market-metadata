@@ -1681,6 +1681,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ALLO/EUR",
+    "base_id": "ALLO",
+    "quote_id": "ZEUR",
+    "base": "ALLO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ALLO/USD",
+    "base_id": "ALLO",
+    "quote_id": "ZUSD",
+    "base": "ALLO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ALPHA/EUR",
     "base_id": "ALPHA",
     "quote_id": "ZEUR",
@@ -4924,6 +4970,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BMB/EUR",
+    "base_id": "BMB",
+    "quote_id": "ZEUR",
+    "base": "BMB",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BMB/USD",
+    "base_id": "BMB",
+    "quote_id": "ZUSD",
+    "base": "BMB",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BMT/EUR",
     "base_id": "BMT",
     "quote_id": "ZEUR",
@@ -7494,6 +7586,52 @@
     },
     "quantity_limit": {
       "min": 2.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DAG/EUR",
+    "base_id": "DAG",
+    "quote_id": "ZEUR",
+    "base": "DAG",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DAG/USD",
+    "base_id": "DAG",
+    "quote_id": "ZUSD",
+    "base": "DAG",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
     },
     "info": {}
   },

@@ -11720,6 +11720,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "JCT_USDT",
+    "base_id": "JCT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "JCT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "JELLYJELLY_USDT",
     "base_id": "JELLYJELLY",
     "quote_id": "USDT",
