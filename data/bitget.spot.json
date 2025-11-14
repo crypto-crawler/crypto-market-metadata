@@ -12496,6 +12496,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "ELIZAOSUSDT_SPBL",
+    "base_id": "ELIZAOS",
+    "quote_id": "USDT",
+    "base": "ELIZAOS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ELIZAUSDT_SPBL",
     "base_id": "ELIZA",
     "quote_id": "USDT",
@@ -29049,6 +29072,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
+    "symbol": "PLANCKUSDT_SPBL",
+    "base_id": "PLANCK",
+    "quote_id": "USDT",
+    "base": "PLANCK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
