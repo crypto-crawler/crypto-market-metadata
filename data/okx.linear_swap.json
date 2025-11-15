@@ -7386,6 +7386,58 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "SEI-USDT-SWAP",
+    "base_id": "SEI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SEI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "SENT-USDT-SWAP",
+    "base_id": "SENT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SENT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "SHELL-USDT-SWAP",
     "base_id": "SHELL",
     "quote_id": "USDT",

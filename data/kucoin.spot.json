@@ -4406,11 +4406,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -22358,11 +22358,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -23222,11 +23222,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -24926,7 +24926,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -28814,7 +28814,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -36878,8 +36878,8 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1,
@@ -38666,6 +38666,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "PLAYSOLANA-USDT",
+    "base_id": "PLAYSOLANA",
+    "quote_id": "USDT",
+    "base": "PLAYSOLANA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "PLD-USDT",
     "base_id": "PLD",
     "quote_id": "USDT",
@@ -40027,6 +40051,30 @@
     },
     "quantity_limit": {
       "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "PUNDIAI-USDT",
+    "base_id": "PUNDIAI",
+    "quote_id": "USDT",
+    "base": "PUNDIAI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -42302,11 +42350,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -42896,7 +42944,7 @@
     "base": "SATS",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -52142,11 +52190,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -53030,11 +53078,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.1,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -56654,11 +56702,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
