@@ -107534,6 +107534,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "TNK_USDT",
+    "base_id": "TNK",
+    "quote_id": "USDT",
+    "base": "TNK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "TNSR_TRY",
     "base_id": "TNSR",
     "quote_id": "TRY",
