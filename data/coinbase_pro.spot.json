@@ -15359,6 +15359,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "SUP-USD",
+    "base_id": "SUP",
+    "quote_id": "USD",
+    "base": "SUP",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "SUPER-USD",
     "base_id": "SUPER",
     "quote_id": "USD",
@@ -15896,6 +15919,29 @@
     "base": "TNSR",
     "quote": "USD",
     "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "TON-USD",
+    "base_id": "TON",
+    "quote_id": "USD",
+    "base": "TON",
+    "quote": "USD",
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,

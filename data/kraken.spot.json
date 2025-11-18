@@ -27648,6 +27648,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "TAKE/EUR",
+    "base_id": "TAKE",
+    "quote_id": "ZEUR",
+    "base": "TAKE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 16.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TAKE/USD",
+    "base_id": "TAKE",
+    "quote_id": "ZUSD",
+    "base": "TAKE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 16.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "TANSSI/EUR",
     "base_id": "TANSSI",
     "quote_id": "ZEUR",
