@@ -13624,7 +13624,7 @@
     "base": "HYPE",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -15533,7 +15533,7 @@
     "base": "KITE",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -33352,11 +33352,11 @@
   {
     "exchange": "okx",
     "market_type": "spot",
-    "symbol": "ZEN-USDT",
+    "symbol": "ZEN-USD",
     "base_id": "ZEN",
-    "quote_id": "USDT",
+    "quote_id": "USD",
     "base": "ZEN",
-    "quote": "USDT",
+    "quote": "USD",
     "active": true,
     "margin": false,
     "fees": {
@@ -33364,11 +33364,34 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
-      "lot_size": 1e-6
+      "tick_size": 0.01,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ZEN-USDT",
+    "base_id": "ZEN",
+    "quote_id": "USDT",
+    "base": "ZEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
