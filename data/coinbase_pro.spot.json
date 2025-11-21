@@ -1622,7 +1622,7 @@
     "quote_id": "USD",
     "base": "ASTER",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -3198,6 +3198,29 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "BOBBOB-USD",
+    "base_id": "BOBBOB",
+    "quote_id": "USD",
+    "base": "BOBBOB",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0

@@ -7262,11 +7262,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-9,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 10000.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -14534,11 +14534,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -15422,11 +15422,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.0001
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -21446,11 +21446,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -28670,11 +28670,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.01
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -37760,7 +37760,7 @@
     "base": "PEOPLE",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -38678,11 +38678,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -41222,11 +41222,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -51374,11 +51374,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
