@@ -13394,6 +13394,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "DIGI-USDT",
+    "base_id": "DIGI",
+    "quote_id": "USDT",
+    "base": "DIGI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "DIGIMON-USDT",
     "base_id": "DIGIMON",
     "quote_id": "USDT",
