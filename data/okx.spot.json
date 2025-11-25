@@ -33283,6 +33283,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ZEC-USD",
+    "base_id": "ZEC",
+    "quote_id": "USD",
+    "base": "ZEC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ZEC-USDC",
     "base_id": "ZEC",
     "quote_id": "USDC",
@@ -33318,11 +33341,11 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
-      "lot_size": 1e-6
+      "tick_size": 0.01,
+      "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "info": {}
   },
