@@ -6943,7 +6943,7 @@
     "quote_id": "USD",
     "base": "FLUID",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -8595,6 +8595,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "IRYS-USD",
+    "base_id": "IRYS",
+    "quote_id": "USD",
+    "base": "IRYS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0
@@ -17808,7 +17831,7 @@
     "quote_id": "USD",
     "base": "WMTX",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,

@@ -12100,6 +12100,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "GAME2/EUR",
+    "base_id": "GAME2",
+    "quote_id": "ZEUR",
+    "base": "GAME2",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "GAME2/USD",
+    "base_id": "GAME2",
+    "quote_id": "ZUSD",
+    "base": "GAME2",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 2500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "GARI/EUR",
     "base_id": "GARI",
     "quote_id": "ZEUR",

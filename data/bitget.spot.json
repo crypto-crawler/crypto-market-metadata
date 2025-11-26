@@ -18936,6 +18936,29 @@
   {
     "exchange": "bitget",
     "market_type": "spot",
+    "symbol": "IRYSUSDT_SPBL",
+    "base_id": "IRYS",
+    "quote_id": "USDT",
+    "base": "IRYS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitget",
+    "market_type": "spot",
     "symbol": "ISLANDUSDT_SPBL",
     "base_id": "ISLAND",
     "quote_id": "USDT",
@@ -37706,7 +37729,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {

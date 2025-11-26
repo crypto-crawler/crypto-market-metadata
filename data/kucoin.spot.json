@@ -1346,6 +1346,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "AGI-USDT",
+    "base_id": "AGI",
+    "quote_id": "USDT",
+    "base": "AGI",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "AGIX-BTC",
     "base_id": "AGIX",
     "quote_id": "BTC",
@@ -24794,6 +24818,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "IRYS-USDT",
+    "base_id": "IRYS",
+    "quote_id": "USDT",
+    "base": "IRYS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ISLAND-USDT",
     "base_id": "ISLAND",
     "quote_id": "USDT",
@@ -45392,7 +45440,7 @@
     "base": "SONIC",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
