@@ -7891,6 +7891,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "DASH-USD",
+    "base_id": "DASH",
+    "quote_id": "USD",
+    "base": "DASH",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "DASH-USDC",
     "base_id": "DASH",
     "quote_id": "USDC",
@@ -7920,14 +7943,14 @@
     "base": "DASH",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 1e-6
+      "lot_size": 0.0001
     },
     "quantity_limit": {
       "min": 0.1
