@@ -9524,6 +9524,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ESPORTS/EUR",
+    "base_id": "ESPORTS",
+    "quote_id": "ZEUR",
+    "base": "ESPORTS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 11.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ESPORTS/USD",
+    "base_id": "ESPORTS",
+    "quote_id": "ZUSD",
+    "base": "ESPORTS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 11.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ESX/EUR",
     "base_id": "ESX",
     "quote_id": "ZEUR",
