@@ -742,6 +742,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "bioeur",
+    "base_id": "BIO",
+    "quote_id": "EUR",
+    "base": "BIO",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "biousd",
+    "base_id": "BIO",
+    "quote_id": "USD",
+    "base": "BIO",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "blureur",
     "base_id": "BLUR",
     "quote_id": "EUR",
@@ -5996,6 +6036,46 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "wlfieur",
+    "base_id": "WLFI",
+    "quote_id": "EUR",
+    "base": "WLFI",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "wlfiusd",
+    "base_id": "WLFI",
+    "quote_id": "USD",
+    "base": "WLFI",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
     },
     "info": {}
   },

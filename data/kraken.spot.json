@@ -24313,6 +24313,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "RLS/EUR",
+    "base_id": "RLS",
+    "quote_id": "ZEUR",
+    "base": "RLS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RLS/USD",
+    "base_id": "RLS",
+    "quote_id": "ZUSD",
+    "base": "RLS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "RLUSD/EUR",
     "base_id": "RLUSD",
     "quote_id": "ZEUR",
