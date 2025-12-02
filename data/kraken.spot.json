@@ -5706,6 +5706,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BSU/EUR",
+    "base_id": "BSU",
+    "quote_id": "ZEUR",
+    "base": "BSU",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BSU/USD",
+    "base_id": "BSU",
+    "quote_id": "ZUSD",
+    "base": "BSU",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BSX/EUR",
     "base_id": "BSX",
     "quote_id": "ZEUR",

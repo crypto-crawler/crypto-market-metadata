@@ -13976,6 +13976,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "RLS-USD",
+    "base_id": "RLS",
+    "quote_id": "USD",
+    "base": "RLS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "RLY-EUR",
     "base_id": "RLY",
     "quote_id": "EUR",
@@ -18024,6 +18047,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "XPL-USD",
+    "base_id": "XPL",
+    "quote_id": "USD",
+    "base": "XPL",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "notional_min": 1.0
