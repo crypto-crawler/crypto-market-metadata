@@ -5706,6 +5706,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BRL1/USD",
+    "base_id": "BRL1",
+    "quote_id": "ZUSD",
+    "base": "BRL1",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BSU/EUR",
     "base_id": "BSU",
     "quote_id": "ZEUR",
