@@ -8766,6 +8766,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "JUPITER-USD",
+    "base_id": "JUPITER",
+    "quote_id": "USD",
+    "base": "JUPITER",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "KAITO-USD",
     "base_id": "KAITO",
     "quote_id": "USD",
@@ -12563,6 +12586,29 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 37000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "PLUME-USD",
+    "base_id": "PLUME",
+    "quote_id": "USD",
+    "base": "PLUME",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },
