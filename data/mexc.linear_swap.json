@@ -2235,7 +2235,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2275.0
+      "max": 3250.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -4962,7 +4962,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000.0
+      "max": 4500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -5880,7 +5880,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 70000.0
+      "max": 110000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -10254,7 +10254,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6000.0
+      "max": 9000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11896,7 +11896,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -12954,7 +12954,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 120.0
+      "max": 180.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -13494,7 +13494,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 35000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -14682,7 +14682,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6500.0
+      "max": 350.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -18543,7 +18543,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1250.0
+      "max": 1800.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -21351,7 +21351,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4800.0
+      "max": 7500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -25868,6 +25868,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "NIGHT_USDT",
+    "base_id": "NIGHT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NIGHT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 2700.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "NIKO_USDT",
     "base_id": "NIKO",
     "quote_id": "USDT",
@@ -28803,7 +28830,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25800.0
+      "max": 6000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -29613,7 +29640,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500.0
+      "max": 750.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -29721,7 +29748,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 16500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -31314,7 +31341,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000.0
+      "max": 170.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -32907,7 +32934,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 280.0
+      "max": 175.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -33474,7 +33501,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 13000.0
+      "max": 915.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -37173,7 +37200,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 13500.0
+      "max": 20000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -37848,7 +37875,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10500.0
+      "max": 15000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -39684,7 +39711,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8300.0
+      "max": 440.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -40224,7 +40251,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250.0
+      "max": 400.0
     },
     "contract_value": 10.0,
     "info": {}

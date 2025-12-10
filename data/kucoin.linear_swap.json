@@ -8903,6 +8903,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "NIGHTUSDTM",
+    "base_id": "NIGHT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NIGHT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "NILUSDTM",
     "base_id": "NIL",
     "quote_id": "USDT",
@@ -13721,6 +13744,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "WCT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "WETUSDTM",
+    "base_id": "WET",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WET",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

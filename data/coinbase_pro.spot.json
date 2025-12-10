@@ -8094,6 +8094,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "HYPER-USD",
+    "base_id": "HYPER",
+    "quote_id": "USD",
+    "base": "HYPER",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ICP-BTC",
     "base_id": "ICP",
     "quote_id": "BTC",
@@ -8771,7 +8794,7 @@
     "quote_id": "USD",
     "base": "JUPITER",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -17701,6 +17724,29 @@
     "precision": {
       "tick_size": 1e-6,
       "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "WET-USD",
+    "base_id": "WET",
+    "quote_id": "USD",
+    "base": "WET",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "notional_min": 1.0
