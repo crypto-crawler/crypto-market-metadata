@@ -10122,6 +10122,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "WET-USDT",
+    "base_id": "WET",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WET",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "WIF-USDT",
     "base_id": "WIF",
     "quote_id": "USDT",
