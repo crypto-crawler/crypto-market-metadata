@@ -1325,6 +1325,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ALMANAK_USDT",
+    "base_id": "ALMANAK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ALMANAK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ALPACA_USDT",
     "base_id": "ALPACA",
     "quote_id": "USDT",
@@ -6396,6 +6423,33 @@
       "max": 1000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "CYS_USDT",
+    "base_id": "CYS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CYS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -25026,6 +25080,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "US_USDT",
+    "base_id": "US",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "US",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
