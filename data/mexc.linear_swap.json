@@ -8256,7 +8256,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 220.0
+      "max": 320.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11847,7 +11847,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 57000.0
+      "max": 85000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12009,7 +12009,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3300.0
+      "max": 1600.0
     },
     "contract_value": 1000.0,
     "info": {}
@@ -13602,7 +13602,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50000.0
+      "max": 29200.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -15168,7 +15168,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2900.0
+      "max": 725.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -15384,7 +15384,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50.0
+      "max": 80.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -24780,7 +24780,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1165000.0
+      "max": 600000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -25504,7 +25504,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -31287,7 +31287,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 55.0
+      "max": 1650.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -31962,7 +31962,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 700.0
+      "max": 170.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -42169,6 +42169,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 10000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "YEE_USDT",
+    "base_id": "YEE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "YEE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3000.0
     },
     "contract_value": 1.0,
     "info": {}
