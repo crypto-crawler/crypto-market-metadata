@@ -1161,7 +1161,7 @@
     "quote_id": "GBP",
     "base": "ANKR",
     "quote": "GBP",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -2222,7 +2222,7 @@
     "quote_id": "EUR",
     "base": "AXS",
     "quote": "EUR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -2268,7 +2268,7 @@
     "quote_id": "USDT",
     "base": "AXS",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -2737,6 +2737,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "BEAM-USD",
+    "base_id": "BEAM",
+    "quote_id": "USD",
+    "base": "BEAM",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0
@@ -3835,7 +3858,7 @@
     "quote_id": "EUR",
     "base": "CGLD",
     "quote": "EUR",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -3858,7 +3881,7 @@
     "quote_id": "GBP",
     "base": "CGLD",
     "quote": "GBP",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -9691,7 +9714,7 @@
     "quote_id": "BTC",
     "base": "LRC",
     "quote": "BTC",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -9737,7 +9760,7 @@
     "quote_id": "USDT",
     "base": "LRC",
     "quote": "USDT",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
