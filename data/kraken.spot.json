@@ -10904,6 +10904,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "EVAA/EUR",
+    "base_id": "EVAA",
+    "quote_id": "ZEUR",
+    "base": "EVAA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EVAA/USD",
+    "base_id": "EVAA",
+    "quote_id": "ZUSD",
+    "base": "EVAA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "EWT/EUR",
     "base_id": "EWT",
     "quote_id": "ZEUR",
@@ -14348,6 +14394,52 @@
     },
     "quantity_limit": {
       "min": 0.55
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "IR/EUR",
+    "base_id": "IR",
+    "quote_id": "ZEUR",
+    "base": "IR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "IR/USD",
+    "base_id": "IR",
+    "quote_id": "ZUSD",
+    "base": "IR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
     },
     "info": {}
   },
@@ -32012,6 +32104,29 @@
     },
     "quantity_limit": {
       "min": 2.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VOOI/USD",
+    "base_id": "VOOI",
+    "quote_id": "ZUSD",
+    "base": "VOOI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
     },
     "info": {}
   },
