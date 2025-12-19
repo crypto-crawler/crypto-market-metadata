@@ -822,6 +822,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "bnbeur",
+    "base_id": "BNB",
+    "quote_id": "EUR",
+    "base": "BNB",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "bnbusd",
+    "base_id": "BNB",
+    "quote_id": "USD",
+    "base": "BNB",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "bomeeur",
     "base_id": "BOME",
     "quote_id": "EUR",
@@ -3995,6 +4035,46 @@
     },
     "precision": {
       "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "pendleeur",
+    "base_id": "PENDLE",
+    "quote_id": "EUR",
+    "base": "PENDLE",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "pendleusd",
+    "base_id": "PENDLE",
+    "quote_id": "USD",
+    "base": "PENDLE",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
       "lot_size": 0.00001
     },
     "info": {}

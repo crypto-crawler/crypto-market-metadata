@@ -3475,6 +3475,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AUDX/AUD",
+    "base_id": "AUDX",
+    "quote_id": "ZAUD",
+    "base": "AUDX",
+    "quote": "AUD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AUDX/USD",
     "base_id": "AUDX",
     "quote_id": "ZUSD",
