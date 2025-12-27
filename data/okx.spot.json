@@ -4947,6 +4947,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BRL1-BRL",
+    "base_id": "BRL1",
+    "quote_id": "BRL",
+    "base": "BRL1",
+    "quote": "BRL",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "BRL1-USDT",
+    "base_id": "BRL1",
+    "quote_id": "USDT",
+    "base": "BRL1",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BRWL-USDT",
     "base_id": "BRWL",
     "quote_id": "USDT",
