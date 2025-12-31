@@ -4457,6 +4457,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BREV_USDT",
+    "base_id": "BREV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BREV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BRIC_USDT",
     "base_id": "BRIC",
     "quote_id": "USDT",
@@ -21948,6 +21975,33 @@
       "max": 100000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SLVON_USDT",
+    "base_id": "SLVON",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SLVON",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
