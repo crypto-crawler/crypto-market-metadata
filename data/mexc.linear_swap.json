@@ -974,6 +974,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "114514_USDT",
+    "base_id": "114514",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "114514",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 33.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "1CAT_USDT",
     "base_id": "1CAT",
     "quote_id": "USDT",
@@ -27939,7 +27966,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1700.0
+      "max": 1000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -39036,7 +39063,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1600.0
+      "max": 800.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -41143,6 +41170,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 1675.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "WHITEWHALE_USDT",
+    "base_id": "WHITEWHALE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WHITEWHALE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 2200.0
     },
     "contract_value": 10.0,
     "info": {}
