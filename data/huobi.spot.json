@@ -6386,6 +6386,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "brevusdt",
+    "base_id": "brev",
+    "quote_id": "usdt",
+    "base": "BREV",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 2380952.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "briseusdt",
     "base_id": "brise",
     "quote_id": "usdt",

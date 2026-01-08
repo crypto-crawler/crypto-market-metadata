@@ -2981,7 +2981,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -3561,6 +3561,52 @@
     },
     "quantity_limit": {
       "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AUSD/EUR",
+    "base_id": "AUSD",
+    "quote_id": "ZEUR",
+    "base": "AUSD",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AUSD/USD",
+    "base_id": "AUSD",
+    "quote_id": "ZUSD",
+    "base": "AUSD",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
     },
     "info": {}
   },
@@ -18989,7 +19035,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -19012,7 +19058,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -23957,7 +24003,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -24003,7 +24049,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1e-8
     },
     "quantity_limit": {
@@ -33411,6 +33457,29 @@
     },
     "precision": {
       "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.00005
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XBT/AUSD",
+    "base_id": "XXBT",
+    "quote_id": "AUSD",
+    "base": "BTC",
+    "quote": "AUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
       "lot_size": 1e-8
     },
     "quantity_limit": {

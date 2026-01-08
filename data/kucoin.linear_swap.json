@@ -2853,6 +2853,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "BROCCOLI714USDTM",
+    "base_id": "BROCCOLI714",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BROCCOLI714",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "BRUSDTM",
     "base_id": "BR",
     "quote_id": "USDT",
@@ -4120,6 +4143,7 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "delivery_date": 1767938400000,
     "info": {}
   },
   {
