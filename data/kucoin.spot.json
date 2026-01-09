@@ -8834,6 +8834,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BYTE-USDT",
+    "base_id": "BYTE",
+    "quote_id": "USDT",
+    "base": "BYTE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BZRX-BTC",
     "base_id": "BZRX",
     "quote_id": "BTC",
@@ -25904,7 +25928,7 @@
     "base": "KAITO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005

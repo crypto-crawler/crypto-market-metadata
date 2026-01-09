@@ -11732,6 +11732,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "FLOCK/EUR",
+    "base_id": "FLOCK",
+    "quote_id": "ZEUR",
+    "base": "FLOCK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FLOCK/USD",
+    "base_id": "FLOCK",
+    "quote_id": "ZUSD",
+    "base": "FLOCK",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "FLOKI/EUR",
     "base_id": "FLOKI",
     "quote_id": "ZEUR",
@@ -19431,6 +19477,29 @@
     },
     "quantity_limit": {
       "min": 18870000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MON/AUSD",
+    "base_id": "MON",
+    "quote_id": "AUSD",
+    "base": "MON",
+    "quote": "AUSD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 40.0
     },
     "info": {}
   },
@@ -32472,6 +32541,52 @@
     },
     "quantity_limit": {
       "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VTHO/EUR",
+    "base_id": "VTHO",
+    "quote_id": "ZEUR",
+    "base": "VTHO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "VTHO/USD",
+    "base_id": "VTHO",
+    "quote_id": "ZUSD",
+    "base": "VTHO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
     },
     "info": {}
   },
