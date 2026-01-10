@@ -7256,6 +7256,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "RIVER-USDT-SWAP",
+    "base_id": "RIVER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RIVER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "RLS-USDT-SWAP",
     "base_id": "RLS",
     "quote_id": "USDT",
@@ -9981,6 +10007,32 @@
       "min": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ZAMA-USDT-SWAP",
+    "base_id": "ZAMA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZAMA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
