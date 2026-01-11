@@ -8634,7 +8634,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250.0
+      "max": 400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -14015,6 +14015,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "EPH_USDT",
+    "base_id": "EPH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EPH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 75.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "EPIC_USDT",
     "base_id": "EPIC",
     "quote_id": "USDT",
@@ -15387,6 +15414,33 @@
       "max": 150000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "FOGO_USDT",
+    "base_id": "FOGO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FOGO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 645.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
@@ -28182,7 +28236,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 70.0
+      "max": 30.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -44031,7 +44085,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 110.0
+      "max": 170.0
     },
     "contract_value": 100.0,
     "info": {}
