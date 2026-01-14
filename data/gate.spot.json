@@ -20741,7 +20741,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -42897,6 +42897,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FUNTOKEN_USDT",
+    "base_id": "FUNTOKEN",
+    "quote_id": "USDT",
+    "base": "FUNTOKEN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FUN_ETH",
     "base_id": "FUN",
     "quote_id": "ETH",
@@ -47089,7 +47112,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -58277,7 +58300,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-10,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -76699,7 +76722,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -87280,7 +87303,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -92402,10 +92425,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.001
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.1
     },
     "info": {}
   },
@@ -92424,7 +92447,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -107668,10 +107691,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.001
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.1
     },
     "info": {}
   },
@@ -112819,6 +112842,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "UNION_USDT",
+    "base_id": "UNION",
+    "quote_id": "USDT",
+    "base": "UNION",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "UNIO_USDT",
     "base_id": "UNIO",
     "quote_id": "USDT",
@@ -114061,11 +114107,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 1.0
+      "tick_size": 0.0001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "info": {}
   },
@@ -120787,7 +120833,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -122564,10 +122610,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.001
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.1
     },
     "info": {}
   },
@@ -126087,6 +126133,52 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "币安人生3L_USDT",
+    "base_id": "币安人生3L",
+    "quote_id": "USDT",
+    "base": "币安人生3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "币安人生3S_USDT",
+    "base_id": "币安人生3S",
+    "quote_id": "USDT",
+    "base": "币安人生3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
