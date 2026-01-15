@@ -11234,6 +11234,54 @@
   {
     "exchange": "bitfinex",
     "market_type": "spot",
+    "symbol": "tRLSUSD",
+    "base_id": "RLS",
+    "quote_id": "USD",
+    "base": "RLS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 4000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
+    "symbol": "tRLSUST",
+    "base_id": "RLS",
+    "quote_id": "UST",
+    "base": "RLS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.001,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 4000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitfinex",
+    "market_type": "spot",
     "symbol": "tRLYUSD",
     "base_id": "RLY",
     "quote_id": "USD",

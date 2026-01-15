@@ -26543,6 +26543,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "XAG_USDT",
+    "base_id": "XAG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XAG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "XAI_USDT",
     "base_id": "XAI",
     "quote_id": "USDT",
@@ -26646,6 +26673,33 @@
       "max": 1000000.0
     },
     "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "XAU_USDT",
+    "base_id": "XAU",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XAU",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.0001,
     "info": {}
   },
   {
@@ -28104,6 +28158,33 @@
       "max": 1000000.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "小股东_USDT",
+    "base_id": "小股东",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "小股东",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1000.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1000.0,
     "info": {}
   },
   {
