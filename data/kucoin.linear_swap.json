@@ -5375,6 +5375,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "FRAXUSDTM",
+    "base_id": "FRAX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FRAX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "FRONTUSDTM",
     "base_id": "FRONT",
     "quote_id": "USDT",
@@ -14312,6 +14335,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "XAGUSDTM",
+    "base_id": "XAG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XAG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {

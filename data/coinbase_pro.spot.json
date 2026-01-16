@@ -7191,6 +7191,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "FUN1-USD",
+    "base_id": "FUN1",
+    "quote_id": "USD",
+    "base": "FUN1",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "FX-USD",
     "base_id": "FX",
     "quote_id": "USD",
@@ -9392,7 +9415,7 @@
     "quote_id": "USD",
     "base": "LIGHTER",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,

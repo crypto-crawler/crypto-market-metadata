@@ -9236,6 +9236,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "FRAX_USDT",
+    "base_id": "FRAX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FRAX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "FRED_USDT",
     "base_id": "FRED",
     "quote_id": "USDT",
@@ -9412,7 +9439,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.00001,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -17790,6 +17817,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "OWL_USDT",
+    "base_id": "OWL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OWL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -28293,6 +28347,33 @@
       "max": 1000000.0
     },
     "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "雪球_USDT",
+    "base_id": "雪球",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "雪球",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {

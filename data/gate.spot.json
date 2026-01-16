@@ -15548,7 +15548,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -41155,6 +41155,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FOGO_USDT",
+    "base_id": "FOGO",
+    "quote_id": "USDT",
+    "base": "FOGO",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FOMO_USDT",
     "base_id": "FOMO",
     "quote_id": "USDT",
@@ -42943,6 +42966,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "FUN_USD1",
+    "base_id": "FUN",
+    "quote_id": "USD1",
+    "base": "FUN",
+    "quote": "USD1",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "FUN_USDT",
     "base_id": "FUN",
     "quote_id": "USDT",
@@ -42955,11 +43001,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
-      "lot_size": 0.1
+      "tick_size": 0.00001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -60645,7 +60691,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -80927,6 +80973,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "OWL_USDT",
+    "base_id": "OWL",
+    "quote_id": "USDT",
+    "base": "OWL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "OWN_USDT",
     "base_id": "OWN",
     "quote_id": "USDT",
@@ -98103,7 +98172,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -111101,7 +111170,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
