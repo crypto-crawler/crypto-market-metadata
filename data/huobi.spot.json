@@ -33458,6 +33458,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "riverusdt",
+    "base_id": "river",
+    "quote_id": "usdt",
+    "base": "RIVER",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 26150.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "rlcusdt",
     "base_id": "rlc",
     "quote_id": "usdt",
