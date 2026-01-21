@@ -5788,6 +5788,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ELSA-USD",
+    "base_id": "ELSA",
+    "quote_id": "USD",
+    "base": "ELSA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ENA-USD",
     "base_id": "ENA",
     "quote_id": "USD",

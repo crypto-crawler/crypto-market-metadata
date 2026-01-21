@@ -4579,6 +4579,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BDX/USD",
+    "base_id": "BDX",
+    "quote_id": "ZUSD",
+    "base": "BDX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 60.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BDXN/EUR",
     "base_id": "BDXN",
     "quote_id": "ZEUR",
@@ -11617,6 +11640,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "FIGHT/EUR",
+    "base_id": "FIGHT",
+    "quote_id": "ZEUR",
+    "base": "FIGHT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FIGHT/USD",
+    "base_id": "FIGHT",
+    "quote_id": "ZUSD",
+    "base": "FIGHT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "FIL/AUD",
     "base_id": "FIL",
     "quote_id": "ZAUD",
@@ -13773,6 +13842,52 @@
     },
     "quantity_limit": {
       "min": 95.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "GWEI/EUR",
+    "base_id": "GWEI",
+    "quote_id": "ZEUR",
+    "base": "GWEI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "GWEI/USD",
+    "base_id": "GWEI",
+    "quote_id": "ZUSD",
+    "base": "GWEI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 500.0
     },
     "info": {}
   },
@@ -26837,6 +26952,52 @@
     },
     "quantity_limit": {
       "min": 1380.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SKR/EUR",
+    "base_id": "SKR",
+    "quote_id": "ZEUR",
+    "base": "SKR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SKR/USD",
+    "base_id": "SKR",
+    "quote_id": "ZUSD",
+    "base": "SKR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 500.0
     },
     "info": {}
   },
