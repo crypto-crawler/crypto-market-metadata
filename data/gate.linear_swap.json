@@ -488,6 +488,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ACU_USDT",
+    "base_id": "ACU",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ACU",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ACX_USDT",
     "base_id": "ACX",
     "quote_id": "USDT",
@@ -10689,6 +10716,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "GWEI_USDT",
+    "base_id": "GWEI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GWEI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
