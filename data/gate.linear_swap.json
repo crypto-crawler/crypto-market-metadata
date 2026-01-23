@@ -7940,6 +7940,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ELSA_USDT",
+    "base_id": "ELSA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ELSA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ELX_USDT",
     "base_id": "ELX",
     "quote_id": "USDT",
@@ -11785,6 +11812,33 @@
     "margin": true,
     "fees": {
       "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "IMU_USDT",
+    "base_id": "IMU",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IMU",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
       "taker": 0.00075
     },
     "precision": {

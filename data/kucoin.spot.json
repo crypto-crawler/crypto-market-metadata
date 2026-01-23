@@ -18146,6 +18146,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "FIGHT-USDT",
+    "base_id": "FIGHT",
+    "quote_id": "USDT",
+    "base": "FIGHT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "FIL-USDT",
     "base_id": "FIL",
     "quote_id": "USDT",
@@ -24630,6 +24654,30 @@
     "base_id": "IMT",
     "quote_id": "USDT",
     "base": "IMT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "IMU-USDT",
+    "base_id": "IMU",
+    "quote_id": "USDT",
+    "base": "IMU",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -42944,7 +42992,7 @@
     "base": "ROSE",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -44227,6 +44275,30 @@
     },
     "quantity_limit": {
       "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "SENT-USDT",
+    "base_id": "SENT",
+    "quote_id": "USDT",
+    "base": "SENT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}

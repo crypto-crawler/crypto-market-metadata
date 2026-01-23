@@ -27855,6 +27855,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SPACE/EUR",
+    "base_id": "SPACE",
+    "quote_id": "ZEUR",
+    "base": "SPACE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 530.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SPACE/USD",
+    "base_id": "SPACE",
+    "quote_id": "ZUSD",
+    "base": "SPACE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 530.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SPELL/EUR",
     "base_id": "SPELL",
     "quote_id": "ZEUR",
