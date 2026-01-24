@@ -1282,6 +1282,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "cakeeur",
+    "base_id": "CAKE",
+    "quote_id": "EUR",
+    "base": "CAKE",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "cakeusd",
     "base_id": "CAKE",
     "quote_id": "USD",
