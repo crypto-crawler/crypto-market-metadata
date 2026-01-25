@@ -10254,7 +10254,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 270.0
+      "max": 400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12954,7 +12954,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 105.0
+      "max": 160.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -24591,7 +24591,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300000.0
+      "max": 450000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -29432,6 +29432,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "PENGUIN_USDT",
+    "base_id": "PENGUIN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PENGUIN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 120.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "PENGU_USDC",
     "base_id": "PENGU",
     "quote_id": "USDC",
@@ -32367,7 +32394,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3000.0
+      "max": 4500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -43869,7 +43896,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5000.0
+      "max": 7500.0
     },
     "contract_value": 1.0,
     "info": {}

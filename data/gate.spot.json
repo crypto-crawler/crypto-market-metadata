@@ -82491,6 +82491,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PENGUIN_USDT",
+    "base_id": "PENGUIN",
+    "quote_id": "USDT",
+    "base": "PENGUIN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PENGU_USDT",
     "base_id": "PENGU",
     "quote_id": "USDT",
