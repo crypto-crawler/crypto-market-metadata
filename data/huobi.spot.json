@@ -13178,6 +13178,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "ensousdt",
+    "base_id": "enso",
+    "quote_id": "usdt",
+    "base": "ENSO",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 333333.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "ensusdt",
     "base_id": "ens",
     "quote_id": "usdt",
