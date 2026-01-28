@@ -14492,6 +14492,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "HYPE/EUR",
+    "base_id": "HYPE",
+    "quote_id": "ZEUR",
+    "base": "HYPE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.2
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "HYPE/USD",
+    "base_id": "HYPE",
+    "quote_id": "ZUSD",
+    "base": "HYPE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.2
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "IAG/EUR",
     "base_id": "IAG",
     "quote_id": "ZEUR",
@@ -31483,6 +31529,52 @@
     },
     "quantity_limit": {
       "min": 125.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USAT/USD",
+    "base_id": "USAT",
+    "quote_id": "ZUSD",
+    "base": "USAT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USAT/USDT",
+    "base_id": "USAT",
+    "quote_id": "USDT",
+    "base": "USAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
     },
     "info": {}
   },
