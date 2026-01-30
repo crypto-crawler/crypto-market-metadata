@@ -2162,6 +2162,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "ARM_USDT",
+    "base_id": "ARM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ARM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ARPA_USDT",
     "base_id": "ARPA",
     "quote_id": "USDT",
@@ -2292,6 +2319,33 @@
       "max": 1000000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "ASML_USDT",
+    "base_id": "ASML",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ASML",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {
@@ -6401,6 +6455,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "CSCO_USDT",
+    "base_id": "CSCO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CSCO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "CSPR_USDT",
     "base_id": "CSPR",
     "quote_id": "USDT",
@@ -9443,7 +9524,7 @@
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 0.0,
       "max": 21000.0
     },
     "contract_value": 1.0,
@@ -11801,6 +11882,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "IBM_USDT",
+    "base_id": "IBM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "IBM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "ICE_USDT",
     "base_id": "ICE",
     "quote_id": "USDT",
@@ -12201,6 +12309,60 @@
       "max": 1700000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "INTC_USDT",
+    "base_id": "INTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "INTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "INX_USDT",
+    "base_id": "INX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "INX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -12629,7 +12791,7 @@
       "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 0.0,
       "max": 26000.0
     },
     "contract_value": 0.1,
@@ -13934,6 +14096,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "LLY_USDT",
+    "base_id": "LLY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LLY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "LL_USDT",
     "base_id": "LL",
     "quote_id": "USDT",
@@ -14982,6 +15171,33 @@
       "max": 1000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "MCD_USDT",
+    "base_id": "MCD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MCD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
@@ -16298,6 +16514,60 @@
     },
     "precision": {
       "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "MRVL_USDT",
+    "base_id": "MRVL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MRVL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "MSFT_USDT",
+    "base_id": "MSFT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MSFT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -25809,6 +26079,33 @@
       "max": 1000000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "UNH_USDT",
+    "base_id": "UNH",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UNH",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {

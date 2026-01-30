@@ -26694,7 +26694,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -32817,6 +32817,29 @@
     },
     "quantity_limit": {
       "min": 10000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "XAUT-TRY",
+    "base_id": "XAUT",
+    "quote_id": "TRY",
+    "base": "XAUT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.00001
     },
     "info": {}
   },

@@ -1658,6 +1658,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "BIRB-USDT",
+    "base_id": "BIRB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BIRB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "BLAST-USDT",
     "base_id": "BLAST",
     "quote_id": "USDT",

@@ -262,6 +262,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "ADA-USD_UM-SWAP",
+    "base_id": "ADA",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "ADA",
+    "quote": "USD_UM",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "AERO-USDT-SWAP",
     "base_id": "AERO",
     "quote_id": "USDT",
@@ -5275,6 +5301,32 @@
       "min": 0.1
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "LTC-USD_UM-SWAP",
+    "base_id": "LTC",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "LTC",
+    "quote": "USD_UM",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
