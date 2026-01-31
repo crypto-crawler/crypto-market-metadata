@@ -36549,6 +36549,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ZAMA/EUR",
+    "base_id": "ZAMA",
+    "quote_id": "ZEUR",
+    "base": "AMA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ZAMA/USD",
+    "base_id": "ZAMA",
+    "quote_id": "ZUSD",
+    "base": "AMA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ZBCN/EUR",
     "base_id": "ZBCN",
     "quote_id": "ZEUR",
