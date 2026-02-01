@@ -14467,7 +14467,7 @@
     },
     "quantity_limit": {
       "min": 0.1,
-      "max": 1000000.0
+      "max": 8.3647
     },
     "info": {}
   },
@@ -19988,6 +19988,30 @@
     "quantity_limit": {
       "min": 0.00001,
       "max": 1300.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "inxusdt",
+    "base_id": "inx",
+    "quote_id": "usdt",
+    "base": "INX",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 100000000.0
     },
     "info": {}
   },

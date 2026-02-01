@@ -54219,6 +54219,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "INX_USDT",
+    "base_id": "INX",
+    "quote_id": "USDT",
+    "base": "INX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "IN_USDT",
     "base_id": "IN",
     "quote_id": "USDT",
