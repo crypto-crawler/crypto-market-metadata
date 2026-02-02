@@ -5105,6 +5105,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BULLA_USDT",
+    "base_id": "BULLA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BULLA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BUSD_USDT",
     "base_id": "BUSD",
     "quote_id": "USDT",
