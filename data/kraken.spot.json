@@ -30753,6 +30753,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "TRIA/EUR",
+    "base_id": "TRIA",
+    "quote_id": "ZEUR",
+    "base": "TRIA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 125.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "TRIA/USD",
+    "base_id": "TRIA",
+    "quote_id": "ZUSD",
+    "base": "TRIA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 125.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "TRIBE/EUR",
     "base_id": "TRIBE",
     "quote_id": "ZEUR",

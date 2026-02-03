@@ -94,7 +94,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -2278,7 +2278,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -7842,7 +7842,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -9714,7 +9714,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -9974,7 +9974,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -10142,6 +10142,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "XPD-USDT-SWAP",
+    "base_id": "XPD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XPD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "XPL-USDT-SWAP",
     "base_id": "XPL",
     "quote_id": "USDT",
@@ -10163,6 +10189,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "XPT-USDT-SWAP",
+    "base_id": "XPT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XPT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {
