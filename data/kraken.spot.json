@@ -10490,6 +10490,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ETH/FIDD",
+    "base_id": "XETH",
+    "quote_id": "FIDD",
+    "base": "ETH",
+    "quote": "FIDD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ETH/GBP",
     "base_id": "XETH",
     "quote_id": "ZGBP",
@@ -11795,6 +11818,75 @@
     },
     "quantity_limit": {
       "min": 109.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FIDD/USD",
+    "base_id": "FIDD",
+    "quote_id": "ZUSD",
+    "base": "FIDD",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FIDD/USDC",
+    "base_id": "FIDD",
+    "quote_id": "USDC",
+    "base": "FIDD",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "FIDD/USDT",
+    "base_id": "FIDD",
+    "quote_id": "USDT",
+    "base": "FIDD",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
     },
     "info": {}
   },
@@ -24612,6 +24704,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "RAILS/EUR",
+    "base_id": "RAILS",
+    "quote_id": "ZEUR",
+    "base": "RAILS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RAILS/USD",
+    "base_id": "RAILS",
+    "quote_id": "ZUSD",
+    "base": "RAILS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "RARE/EUR",
     "base_id": "RARE",
     "quote_id": "ZEUR",
@@ -33743,6 +33881,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "WARD/EUR",
+    "base_id": "WARD",
+    "quote_id": "ZEUR",
+    "base": "WARD",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "WARD/USD",
+    "base_id": "WARD",
+    "quote_id": "ZUSD",
+    "base": "WARD",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "WAVES/ETH",
     "base_id": "WAVES",
     "quote_id": "XETH",
@@ -34691,6 +34875,29 @@
     "quote_id": "EUROP",
     "base": "BTC",
     "quote": "EUROP",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.00005
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "XBT/FIDD",
+    "base_id": "XXBT",
+    "quote_id": "FIDD",
+    "base": "BTC",
+    "quote": "FIDD",
     "active": true,
     "margin": false,
     "fees": {

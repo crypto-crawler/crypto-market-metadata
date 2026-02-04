@@ -16695,6 +16695,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "TRIA-USD",
+    "base_id": "TRIA",
+    "quote_id": "USD",
+    "base": "TRIA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "TRIBE-USD",
     "base_id": "TRIBE",
     "quote_id": "USD",
