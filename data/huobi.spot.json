@@ -5882,6 +5882,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "bnkrusdt",
+    "base_id": "bnkr",
+    "quote_id": "usdt",
+    "base": "BNKR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1666666666.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "bnsxusdt",
     "base_id": "bnsx",
     "quote_id": "usdt",
@@ -8612,6 +8636,54 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 140000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "clankerusdt",
+    "base_id": "clanker",
+    "quote_id": "usdt",
+    "base": "CLANKER",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.001,
+      "max": 31250.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "clawdusdt",
+    "base_id": "clawd",
+    "quote_id": "usdt",
+    "base": "CLAWD",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 6184291898.0
     },
     "info": {}
   },
@@ -14491,7 +14563,7 @@
     },
     "quantity_limit": {
       "min": 0.1,
-      "max": 0.7402
+      "max": 29135.8312
     },
     "info": {}
   },
@@ -23918,7 +23990,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "quantity_limit": {
