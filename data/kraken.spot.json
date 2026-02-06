@@ -6879,6 +6879,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CFX/EUR",
+    "base_id": "CFX",
+    "quote_id": "ZEUR",
+    "base": "CFX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "CFX/USD",
+    "base_id": "CFX",
+    "quote_id": "ZUSD",
+    "base": "CFX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "CGN/EUR",
     "base_id": "CGN",
     "quote_id": "ZEUR",

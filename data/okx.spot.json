@@ -905,7 +905,7 @@
     "base": "AEVO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -14095,6 +14095,29 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "HYPE-TRY",
+    "base_id": "HYPE",
+    "quote_id": "TRY",
+    "base": "HYPE",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -27447,7 +27470,7 @@
     "base": "SOPH",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
@@ -32622,7 +32645,7 @@
     "base": "WOO",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
