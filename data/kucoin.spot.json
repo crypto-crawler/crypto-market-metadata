@@ -170,6 +170,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "9BIT-USDT",
+    "base_id": "9BIT",
+    "quote_id": "USDT",
+    "base": "9BIT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "A-BTC",
     "base_id": "A",
     "quote_id": "BTC",

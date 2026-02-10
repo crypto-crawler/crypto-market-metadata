@@ -22979,6 +22979,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PEP/EUR",
+    "base_id": "PEP",
+    "quote_id": "ZEUR",
+    "base": "PEP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PEP/USD",
+    "base_id": "PEP",
+    "quote_id": "ZUSD",
+    "base": "PEP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 15000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PEPE/AUD",
     "base_id": "PEPE",
     "quote_id": "ZAUD",
@@ -32012,6 +32058,52 @@
     },
     "quantity_limit": {
       "min": 13500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UP/EUR",
+    "base_id": "UP",
+    "quote_id": "ZEUR",
+    "base": "UP",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UP/USD",
+    "base_id": "UP",
+    "quote_id": "ZUSD",
+    "base": "UP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
     },
     "info": {}
   },
