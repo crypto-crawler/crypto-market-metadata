@@ -12830,11 +12830,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-7,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -19147,6 +19147,30 @@
     },
     "quantity_limit": {
       "min": 100.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "FRAX-USDT",
+    "base_id": "FRAX",
+    "quote_id": "USDT",
+    "base": "FRAX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -52610,6 +52634,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "UP-USDT",
+    "base_id": "UP",
+    "quote_id": "USDT",
+    "base": "UP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "UPO-USDT",
     "base_id": "UPO",
     "quote_id": "USDT",
@@ -54566,11 +54614,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 10000.0,
       "max": 10000000000.0
     },
     "info": {}

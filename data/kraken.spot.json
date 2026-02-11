@@ -3958,6 +3958,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "AZTEC/EUR",
+    "base_id": "AZTEC",
+    "quote_id": "ZEUR",
+    "base": "AZTEC",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 150.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "AZTEC/USD",
+    "base_id": "AZTEC",
+    "quote_id": "ZUSD",
+    "base": "AZTEC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 150.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "B2/EUR",
     "base_id": "B2",
     "quote_id": "ZEUR",
