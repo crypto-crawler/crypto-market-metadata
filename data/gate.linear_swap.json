@@ -3053,6 +3053,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "AZTEC_USDT",
+    "base_id": "AZTEC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AZTEC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "A_USDT",
     "base_id": "A",
     "quote_id": "USDT",
@@ -18760,6 +18787,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 110000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "OPN_USDT",
+    "base_id": "OPN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OPN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
     },
     "contract_value": 10.0,
     "info": {}
