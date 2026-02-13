@@ -4058,6 +4058,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "aztecusdt",
+    "base_id": "aztec",
+    "quote_id": "usdt",
+    "base": "AZTEC",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 22222222.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "b2usdt",
     "base_id": "b2",
     "quote_id": "usdt",
@@ -13754,6 +13778,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "espusdt",
+    "base_id": "esp",
+    "quote_id": "usdt",
+    "base": "ESP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 8976660.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "esusdt",
     "base_id": "es",
     "quote_id": "usdt",
@@ -14563,7 +14611,7 @@
     },
     "quantity_limit": {
       "min": 0.1,
-      "max": 42090.931
+      "max": 42166.3996
     },
     "info": {}
   },
@@ -15566,12 +15614,12 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 1e-6,
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.0001,
-      "max": 96289.0
+      "min": 0.01,
+      "max": 20000000.0
     },
     "info": {}
   },

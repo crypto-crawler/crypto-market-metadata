@@ -2286,6 +2286,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "AZTEC-USD",
+    "base_id": "AZTEC",
+    "quote_id": "USD",
+    "base": "AZTEC",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "B3-USD",
     "base_id": "B3",
     "quote_id": "USD",
@@ -6193,6 +6216,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "ESP-USD",
+    "base_id": "ESP",
+    "quote_id": "USD",
+    "base": "ESP",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "notional_min": 1.0
