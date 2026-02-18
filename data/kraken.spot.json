@@ -23232,6 +23232,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PEPECOIN/EUR",
+    "base_id": "PEPECOIN",
+    "quote_id": "ZEUR",
+    "base": "PEPECOIN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 60.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PEPECOIN/USD",
+    "base_id": "PEPECOIN",
+    "quote_id": "ZUSD",
+    "base": "PEPECOIN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 60.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PERP/EUR",
     "base_id": "PERP",
     "quote_id": "ZEUR",
