@@ -8023,6 +8023,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "GWEI-USD",
+    "base_id": "GWEI",
+    "quote_id": "USD",
+    "base": "GWEI",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "GYEN-USD",
     "base_id": "GYEN",
     "quote_id": "USD",
