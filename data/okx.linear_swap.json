@@ -4240,6 +4240,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "HOOD-USDT-SWAP",
+    "base_id": "HOOD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HOOD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "HUMA-USDT-SWAP",
     "base_id": "HUMA",
     "quote_id": "USDT",
@@ -6053,6 +6079,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "MSTR-USDT-SWAP",
+    "base_id": "MSTR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MSTR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "contract_value": 1.0,
     "info": {}
@@ -9227,6 +9279,32 @@
       "min": 0.01
     },
     "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "TSLA-USDT-SWAP",
+    "base_id": "TSLA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TSLA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

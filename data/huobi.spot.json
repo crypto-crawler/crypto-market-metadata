@@ -14611,7 +14611,7 @@
     },
     "quantity_limit": {
       "min": 0.1,
-      "max": 42599.8503
+      "max": 42524.2388
     },
     "info": {}
   },
@@ -31214,7 +31214,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -33230,7 +33230,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -42722,6 +42722,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "wardusdt",
+    "base_id": "ward",
+    "quote_id": "usdt",
+    "base": "WARD",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 50000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "warusdt",
     "base_id": "war",
     "quote_id": "usdt",
@@ -44564,6 +44588,30 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 10000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "xmnusdt",
+    "base_id": "xmn",
+    "quote_id": "usdt",
+    "base": "XMN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 72674418.0
     },
     "info": {}
   },

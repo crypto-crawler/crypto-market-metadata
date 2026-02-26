@@ -22634,6 +22634,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PACT/EUR",
+    "base_id": "PACT",
+    "quote_id": "ZEUR",
+    "base": "PACT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3300.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PACT/USD",
+    "base_id": "PACT",
+    "quote_id": "ZUSD",
+    "base": "PACT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3300.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PARA/EUR",
     "base_id": "PARA",
     "quote_id": "ZEUR",
@@ -25238,6 +25284,29 @@
     "quote_id": "ZUSD",
     "base": "RAVE",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "RAVE/USDT",
+    "base_id": "RAVE",
+    "quote_id": "USDT",
+    "base": "RAVE",
+    "quote": "USDT",
     "active": true,
     "margin": false,
     "fees": {

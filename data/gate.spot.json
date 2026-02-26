@@ -26945,6 +26945,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CRYPTOBURG_USDT",
+    "base_id": "CRYPTOBURG",
+    "quote_id": "USDT",
+    "base": "CRYPTOBURG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CRYPTOFI_USDT",
     "base_id": "CRYPTOFI",
     "quote_id": "USDT",
@@ -97425,7 +97448,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
