@@ -574,6 +574,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "AMZN-USDT-SWAP",
+    "base_id": "AMZN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AMZN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "ANC-USDT-SWAP",
     "base_id": "ANC",
     "quote_id": "USDT",
@@ -796,7 +822,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -2212,6 +2238,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "COIN-USDT-SWAP",
+    "base_id": "COIN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COIN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "COMP-USDT-SWAP",
     "base_id": "COMP",
     "quote_id": "USDT",
@@ -2335,6 +2387,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "CRCL-USDT-SWAP",
+    "base_id": "CRCL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CRCL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}
@@ -2850,7 +2928,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -3006,7 +3084,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4469,6 +4547,32 @@
       "min": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "INTC-USDT-SWAP",
+    "base_id": "INTC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "INTC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -7074,6 +7178,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "PLTR-USDT-SWAP",
+    "base_id": "PLTR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PLTR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "PLUME-USDT-SWAP",
     "base_id": "PLUME",
     "quote_id": "USDT",
@@ -7088,7 +7218,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -9324,7 +9454,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
