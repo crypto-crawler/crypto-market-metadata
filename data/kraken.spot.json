@@ -26383,6 +26383,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ROBO/EUR",
+    "base_id": "ROBO",
+    "quote_id": "ZEUR",
+    "base": "ROBO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 140.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ROBO/USD",
+    "base_id": "ROBO",
+    "quote_id": "ZUSD",
+    "base": "ROBO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 140.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ROLL/EUR",
     "base_id": "ROLL",
     "quote_id": "ZEUR",

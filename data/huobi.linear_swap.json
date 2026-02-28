@@ -2992,6 +2992,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "DENT-USDT",
+    "base_id": "DENT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DENT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "DMC-USDT",
     "base_id": "DMC",
     "quote_id": "USDT",
@@ -8553,6 +8576,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "SIREN-USDT",
+    "base_id": "SIREN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SIREN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
     "info": {}
   },
   {
