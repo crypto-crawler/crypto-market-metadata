@@ -83,8 +83,31 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "2Z-EUR",
+    "base_id": "2Z",
+    "quote_id": "EUR",
+    "base": "2Z",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 10.0
@@ -99,6 +122,29 @@
     "quote_id": "USD",
     "base": "2Z",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "2Z-USDC",
+    "base_id": "2Z",
+    "quote_id": "USDC",
+    "base": "2Z",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -1348,7 +1394,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -3912,11 +3958,57 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "BARD-EUR",
+    "base_id": "BARD",
+    "quote_id": "EUR",
+    "base": "BARD",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "BARD-USD",
     "base_id": "BARD",
     "quote_id": "USD",
     "base": "BARD",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "BARD-USDC",
+    "base_id": "BARD",
+    "quote_id": "USDC",
+    "base": "BARD",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -6385,7 +6477,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -6654,6 +6746,29 @@
     "quote_id": "USDT",
     "base": "CFG",
     "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CFX-EUR",
+    "base_id": "CFX",
+    "quote_id": "EUR",
+    "base": "CFX",
+    "quote": "EUR",
     "active": true,
     "margin": false,
     "fees": {
@@ -8092,6 +8207,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CVX-EUR",
+    "base_id": "CVX",
+    "quote_id": "EUR",
+    "base": "CVX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -10249,7 +10387,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10318,7 +10456,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -10458,6 +10596,29 @@
     "precision": {
       "tick_size": 1e-7,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ENS-EUR",
+    "base_id": "ENS",
+    "quote_id": "EUR",
+    "base": "ENS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 0.1
@@ -11249,6 +11410,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ETHFI-EUR",
+    "base_id": "ETHFI",
+    "quote_id": "EUR",
+    "base": "ETHFI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ETHFI-TRY",
     "base_id": "ETHFI",
     "quote_id": "TRY",
@@ -11956,6 +12140,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "FLOKI-EUR",
+    "base_id": "FLOKI",
+    "quote_id": "EUR",
+    "base": "FLOKI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-8,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 10000.0
     },
     "info": {}
   },
@@ -12813,6 +13020,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "GALA-EUR",
+    "base_id": "GALA",
+    "quote_id": "EUR",
+    "base": "GALA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "GALA-USD",
     "base_id": "GALA",
     "quote_id": "USD",
@@ -12848,8 +13078,8 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.0001
+      "tick_size": 1e-6,
+      "lot_size": 1e-6
     },
     "quantity_limit": {
       "min": 100.0
@@ -13301,6 +13531,29 @@
     "quote_id": "USDT",
     "base": "GHST",
     "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "GLM-EUR",
+    "base_id": "GLM",
+    "quote_id": "EUR",
+    "base": "GLM",
+    "quote": "EUR",
     "active": true,
     "margin": false,
     "fees": {
@@ -15631,7 +15884,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -15677,7 +15930,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -15700,7 +15953,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -15723,7 +15976,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -16263,6 +16516,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "KAIA-EUR",
+    "base_id": "KAIA",
+    "quote_id": "EUR",
+    "base": "KAIA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "KAIA-USD",
     "base_id": "KAIA",
     "quote_id": "USD",
@@ -16298,7 +16574,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -16677,11 +16953,57 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "KITE-EUR",
+    "base_id": "KITE",
+    "quote_id": "EUR",
+    "base": "KITE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "KITE-USD",
     "base_id": "KITE",
     "quote_id": "USD",
     "base": "KITE",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "KITE-USDC",
+    "base_id": "KITE",
+    "quote_id": "USDC",
+    "base": "KITE",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -19173,7 +19495,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -20558,6 +20880,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "MORPHO-EUR",
+    "base_id": "MORPHO",
+    "quote_id": "EUR",
+    "base": "MORPHO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -23554,6 +23899,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PENDLE-EUR",
+    "base_id": "PENDLE",
+    "quote_id": "EUR",
+    "base": "PENDLE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PENDLE-USD",
     "base_id": "PENDLE",
     "quote_id": "USD",
@@ -25325,6 +25693,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PYTH-EUR",
+    "base_id": "PYTH",
+    "quote_id": "EUR",
+    "base": "PYTH",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PYTH-USD",
     "base_id": "PYTH",
     "quote_id": "USD",
@@ -26188,7 +26579,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -27039,7 +27430,7 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1e-6
     },
     "quantity_limit": {
@@ -27441,6 +27832,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SENT-EUR",
+    "base_id": "SENT",
+    "quote_id": "EUR",
+    "base": "SENT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SENT-TRY",
     "base_id": "SENT",
     "quote_id": "TRY",
@@ -27469,6 +27883,29 @@
     "quote_id": "USD",
     "base": "SENT",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "SENT-USDC",
+    "base_id": "SENT",
+    "quote_id": "USDC",
+    "base": "SENT",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -29350,6 +29787,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "STRK-EUR",
+    "base_id": "STRK",
+    "quote_id": "EUR",
+    "base": "STRK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "STRK-TRY",
     "base_id": "STRK",
     "quote_id": "TRY",
@@ -29408,11 +29868,11 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -30408,6 +30868,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "TIA-EUR",
+    "base_id": "TIA",
+    "quote_id": "EUR",
+    "base": "TIA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "TIA-TRY",
     "base_id": "TIA",
     "quote_id": "TRY",
@@ -30466,11 +30949,11 @@
       "taker": 0.001
     },
     "precision": {
-      "tick_size": 0.001,
-      "lot_size": 0.00001
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -32915,11 +33398,57 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "VIRTUAL-EUR",
+    "base_id": "VIRTUAL",
+    "quote_id": "EUR",
+    "base": "VIRTUAL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "VIRTUAL-USD",
     "base_id": "VIRTUAL",
     "quote_id": "USD",
     "base": "VIRTUAL",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "VIRTUAL-USDC",
+    "base_id": "VIRTUAL",
+    "quote_id": "USDC",
+    "base": "VIRTUAL",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
@@ -35951,6 +36480,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "ZBCN-EUR",
+    "base_id": "ZBCN",
+    "quote_id": "EUR",
+    "base": "ZBCN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "ZBCN-USD",
     "base_id": "ZBCN",
     "quote_id": "USD",
@@ -36612,6 +37164,29 @@
     },
     "quantity_limit": {
       "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "ZK-EUR",
+    "base_id": "ZK",
+    "quote_id": "EUR",
+    "base": "ZK",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
     },
     "info": {}
   },
