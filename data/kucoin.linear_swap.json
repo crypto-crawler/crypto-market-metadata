@@ -8301,6 +8301,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "MANTRAUSDTM",
+    "base_id": "MANTRA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MANTRA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "MASKUSDTM",
     "base_id": "MASK",
     "quote_id": "USDT",

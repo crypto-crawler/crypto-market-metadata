@@ -9870,6 +9870,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "LMTS-USD",
+    "base_id": "LMTS",
+    "quote_id": "USD",
+    "base": "LMTS",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "LOKA-USD",
     "base_id": "LOKA",
     "quote_id": "USD",
@@ -12450,6 +12473,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "OPN-USD",
+    "base_id": "OPN",
+    "quote_id": "USD",
+    "base": "OPN",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ORCA-EUR",
     "base_id": "ORCA",
     "quote_id": "EUR",
@@ -14678,7 +14724,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {

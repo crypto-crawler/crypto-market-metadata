@@ -7854,6 +7854,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ARC3L_USDT",
+    "base_id": "ARC3L",
+    "quote_id": "USDT",
+    "base": "ARC3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ARC3S_USDT",
+    "base_id": "ARC3S",
+    "quote_id": "USDT",
+    "base": "ARC3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ARCA_USDT",
     "base_id": "ARCA",
     "quote_id": "USDT",
@@ -57432,6 +57478,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "KATC_USDT",
+    "base_id": "KATC",
+    "quote_id": "USDT",
+    "base": "KATC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "KAT_USDT",
     "base_id": "KAT",
     "quote_id": "USDT",
@@ -66129,6 +66198,29 @@
     "base_id": "MANTA",
     "quote_id": "USDT",
     "base": "MANTA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MANTRA_USDT",
+    "base_id": "MANTRA",
+    "quote_id": "USDT",
+    "base": "MANTRA",
     "quote": "USDT",
     "active": true,
     "margin": false,

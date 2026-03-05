@@ -8166,7 +8166,7 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": -0.0001,
+      "maker": -0.00005,
       "taker": 0.00075
     },
     "precision": {
@@ -15360,6 +15360,33 @@
       "max": 1200000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "MANTRA_USDT",
+    "base_id": "MANTRA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MANTRA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 100.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -23784,6 +23811,33 @@
       "max": 1000000.0
     },
     "contract_value": 10000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "SNDK_USDT",
+    "base_id": "SNDK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SNDK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
