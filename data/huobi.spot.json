@@ -29930,6 +29930,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "opnusdt",
+    "base_id": "opn",
+    "quote_id": "usdt",
+    "base": "OPN",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1785714.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "opulusdt",
     "base_id": "opul",
     "quote_id": "usdt",

@@ -44082,7 +44082,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -53211,6 +53211,29 @@
     "base_id": "IDOODLES",
     "quote_id": "USDT",
     "base": "IDOODLES",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "IDOS_USDT",
+    "base_id": "IDOS",
+    "quote_id": "USDT",
+    "base": "IDOS",
     "quote": "USDT",
     "active": true,
     "margin": false,
@@ -80801,7 +80824,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -85142,7 +85165,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -93597,7 +93620,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -96166,7 +96189,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -120759,7 +120782,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
