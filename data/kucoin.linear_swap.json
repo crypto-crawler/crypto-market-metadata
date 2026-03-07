@@ -3710,6 +3710,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "COPPERUSDTM",
+    "base_id": "COPPER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COPPER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "COTIUSDTM",
     "base_id": "COTI",
     "quote_id": "USDT",
@@ -5842,6 +5865,29 @@
     },
     "contract_value": 100.0,
     "delivery_date": 1733205600000,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "GFUSDTM",
+    "base_id": "GF",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GF",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "contract_value": 10000.0,
     "info": {}
   },
   {
@@ -15475,6 +15521,7 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "delivery_date": 1773298800000,
     "info": {}
   },
   {
