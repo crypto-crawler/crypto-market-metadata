@@ -9020,6 +9020,60 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "EWJ_USDT",
+    "base_id": "EWJ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EWJ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "EWY_USDT",
+    "base_id": "EWY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EWY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "EXCH_USDT",
     "base_id": "EXCH",
     "quote_id": "USDT",
@@ -17952,6 +18006,33 @@
       "max": 1000000.0
     },
     "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "NG_USDT",
+    "base_id": "NG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
