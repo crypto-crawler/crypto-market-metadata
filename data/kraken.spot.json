@@ -23669,6 +23669,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "PI/EUR",
+    "base_id": "PI",
+    "quote_id": "ZEUR",
+    "base": "PI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 6.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PI/USD",
+    "base_id": "PI",
+    "quote_id": "ZUSD",
+    "base": "PI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 6.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "PIPE/EUR",
     "base_id": "PIPE",
     "quote_id": "ZEUR",
@@ -32214,7 +32260,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -32237,7 +32283,7 @@
       "taker": 0.0026
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.00001
     },
     "quantity_limit": {
@@ -32610,6 +32656,52 @@
     },
     "quantity_limit": {
       "min": 0.3
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UNITAS/USD",
+    "base_id": "UNITAS",
+    "quote_id": "ZUSD",
+    "base": "UNITAS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UNITAS/USDT",
+    "base_id": "UNITAS",
+    "quote_id": "USDT",
+    "base": "UNITAS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
     },
     "info": {}
   },
