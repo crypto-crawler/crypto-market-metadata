@@ -3705,6 +3705,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "EWY-USDT",
+    "base_id": "EWY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EWY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "F-USDT",
     "base_id": "F",
     "quote_id": "USDT",
@@ -6621,6 +6644,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "NATGAS-USDT",
+    "base_id": "NATGAS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NATGAS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
