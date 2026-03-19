@@ -1393,7 +1393,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -1555,7 +1555,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -1798,7 +1798,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -2689,7 +2689,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -4430,6 +4430,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BMNR_USDT",
+    "base_id": "BMNR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BMNR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.00005,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BMT_USDT",
     "base_id": "BMT",
     "quote_id": "USDT",
@@ -4822,7 +4849,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -5443,7 +5470,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -5956,7 +5983,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -7981,7 +8008,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -8116,7 +8143,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -8278,7 +8305,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -8980,7 +9007,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -10276,7 +10303,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -11221,7 +11248,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -11302,7 +11329,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -11518,7 +11545,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -11761,7 +11788,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -11869,7 +11896,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -11977,7 +12004,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -13516,7 +13543,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -15433,7 +15460,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -16054,7 +16081,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -16432,7 +16459,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -16486,7 +16513,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -17080,7 +17107,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -18214,7 +18241,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -18376,7 +18403,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -21130,7 +21157,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -21265,7 +21292,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 10.0
     },
     "quantity_limit": {
@@ -22480,7 +22507,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 100.0
     },
     "quantity_limit": {
@@ -23209,7 +23236,7 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
