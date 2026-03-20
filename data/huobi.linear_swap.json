@@ -3728,6 +3728,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "EWJ-USDT",
+    "base_id": "EWJ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EWJ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "EWY-USDT",
     "base_id": "EWY",
     "quote_id": "USDT",
@@ -6713,6 +6736,29 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "NASDAQ100-USDT",
+    "base_id": "NASDAQ100",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NASDAQ100",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.0001,
     "info": {}
   },
   {
