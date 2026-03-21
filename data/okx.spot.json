@@ -370,6 +370,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "AAVE-TRY",
+    "base_id": "AAVE",
+    "quote_id": "TRY",
+    "base": "AAVE",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AAVE-USD",
     "base_id": "AAVE",
     "quote_id": "USD",
@@ -1221,6 +1244,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "AIXBT-TRY",
+    "base_id": "AIXBT",
+    "quote_id": "TRY",
+    "base": "AIXBT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AIXBT-USD",
     "base_id": "AIXBT",
     "quote_id": "USD",
@@ -1973,7 +2019,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -1996,7 +2042,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -2019,7 +2065,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -2042,7 +2088,7 @@
       "lot_size": 1e-6
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -3123,7 +3169,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 100.0
     },
     "info": {}
   },
@@ -4434,7 +4480,30 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "BARD-TRY",
+    "base_id": "BARD",
+    "quote_id": "TRY",
+    "base": "BARD",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
@@ -4457,7 +4526,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 1.0
     },
     "info": {}
   },
@@ -4480,7 +4549,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 1.0
     },
     "info": {}
   },
@@ -4503,7 +4572,7 @@
       "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 10.0
+      "min": 1.0
     },
     "info": {}
   },
@@ -4848,7 +4917,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -7425,6 +7494,29 @@
     },
     "quantity_limit": {
       "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "CFG-TRY",
+    "base_id": "CFG",
+    "quote_id": "TRY",
+    "base": "CFG",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
@@ -10513,6 +10605,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "DOT-TRY",
+    "base_id": "DOT",
+    "quote_id": "TRY",
+    "base": "DOT",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "DOT-USD",
     "base_id": "DOT",
     "quote_id": "USD",
@@ -12990,7 +13105,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -18448,6 +18563,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "KITE-TRY",
+    "base_id": "KITE",
+    "quote_id": "TRY",
+    "base": "KITE",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "KITE-USD",
     "base_id": "KITE",
     "quote_id": "USD",
@@ -19798,7 +19936,7 @@
       "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -23692,6 +23830,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "NEAR-TRY",
+    "base_id": "NEAR",
+    "quote_id": "TRY",
+    "base": "NEAR",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "NEAR-USD",
     "base_id": "NEAR",
     "quote_id": "USD",
@@ -24122,7 +24283,7 @@
       "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -26797,6 +26958,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "PHA-TRY",
+    "base_id": "PHA",
+    "quote_id": "TRY",
+    "base": "PHA",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "PHA-USD",
     "base_id": "PHA",
     "quote_id": "USD",
@@ -27342,7 +27526,7 @@
       "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -29228,7 +29412,7 @@
       "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -30592,6 +30776,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "SEI-TRY",
+    "base_id": "SEI",
+    "quote_id": "TRY",
+    "base": "SEI",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "SEI-USD",
     "base_id": "SEI",
     "quote_id": "USD",
@@ -31505,7 +31712,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -37278,7 +37485,7 @@
       "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
