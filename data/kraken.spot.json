@@ -6074,6 +6074,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BONZO/EUR",
+    "base_id": "BONZO",
+    "quote_id": "ZEUR",
+    "base": "BONZO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 102.6062
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BONZO/USD",
+    "base_id": "BONZO",
+    "quote_id": "ZUSD",
+    "base": "BONZO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 102.6062
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BOS/EUR",
     "base_id": "BOS",
     "quote_id": "ZEUR",
