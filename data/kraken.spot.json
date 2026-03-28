@@ -4418,6 +4418,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BASED/EUR",
+    "base_id": "BASED",
+    "quote_id": "ZEUR",
+    "base": "BASED",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BASED/USD",
+    "base_id": "BASED",
+    "quote_id": "ZUSD",
+    "base": "BASED",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BAT/ETH",
     "base_id": "BAT",
     "quote_id": "XETH",
@@ -9380,6 +9426,52 @@
     },
     "quantity_limit": {
       "min": 125.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DUAL/EUR",
+    "base_id": "DUAL",
+    "quote_id": "ZEUR",
+    "base": "DUAL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DUAL/USD",
+    "base_id": "DUAL",
+    "quote_id": "ZUSD",
+    "base": "DUAL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1000.0
     },
     "info": {}
   },

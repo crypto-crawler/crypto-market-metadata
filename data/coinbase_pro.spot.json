@@ -891,7 +891,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -2562,6 +2562,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BASED1-USD",
+    "base_id": "BASED1",
+    "quote_id": "USD",
+    "base": "BASED1",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BAT-BTC",
     "base_id": "BAT",
     "quote_id": "BTC",
@@ -3057,7 +3080,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -3634,7 +3657,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -7088,7 +7111,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -16753,7 +16776,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
