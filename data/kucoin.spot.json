@@ -5666,6 +5666,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "BASED-USDT",
+    "base_id": "BASED",
+    "quote_id": "USDT",
+    "base": "BASED",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "BASIC-USDT",
     "base_id": "BASIC",
     "quote_id": "USDT",
@@ -56744,7 +56768,7 @@
     "base": "XAUT",
     "quote": "USDT",
     "active": true,
-    "margin": false,
+    "margin": true,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
