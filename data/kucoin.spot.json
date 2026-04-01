@@ -15434,6 +15434,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "EDGE-USDT",
+    "base_id": "EDGE",
+    "quote_id": "USDT",
+    "base": "EDGE",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "EDGEN-USDT",
     "base_id": "EDGEN",
     "quote_id": "USDT",
@@ -55987,6 +56011,30 @@
     },
     "quantity_limit": {
       "min": 1000.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "WL-USDT",
+    "base_id": "WL",
+    "quote_id": "USDT",
+    "base": "WL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}

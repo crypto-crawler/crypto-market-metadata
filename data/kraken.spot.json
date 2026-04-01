@@ -19920,6 +19920,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "MEZO/EUR",
+    "base_id": "MEZO",
+    "quote_id": "ZEUR",
+    "base": "MEZO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 12.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MEZO/USD",
+    "base_id": "MEZO",
+    "quote_id": "ZUSD",
+    "base": "MEZO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 12.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MF/EUR",
     "base_id": "MF",
     "quote_id": "ZEUR",
