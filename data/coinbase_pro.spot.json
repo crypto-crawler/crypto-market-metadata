@@ -4014,6 +4014,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "CHECK-USD",
+    "base_id": "CHECK",
+    "quote_id": "USD",
+    "base": "CHECK",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "CHZ-EUR",
     "base_id": "CHZ",
     "quote_id": "EUR",
@@ -11043,6 +11066,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "MEZO-USD",
+    "base_id": "MEZO",
+    "quote_id": "USD",
+    "base": "MEZO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "MINA-EUR",
     "base_id": "MINA",
     "quote_id": "EUR",
@@ -15346,6 +15392,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SIGN-USD",
+    "base_id": "SIGN",
+    "quote_id": "USD",
+    "base": "SIGN",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
