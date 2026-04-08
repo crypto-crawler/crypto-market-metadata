@@ -25532,6 +25532,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "QUAI/EUR",
+    "base_id": "QUAI",
+    "quote_id": "ZEUR",
+    "base": "QUAI",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 60.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "QUAI/USD",
+    "base_id": "QUAI",
+    "quote_id": "ZUSD",
+    "base": "QUAI",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 60.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "RAD/EUR",
     "base_id": "RAD",
     "quote_id": "ZEUR",
