@@ -23477,6 +23477,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CHECK_USDT",
+    "base_id": "CHECK",
+    "quote_id": "USDT",
+    "base": "CHECK",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CHEEL_TRY",
     "base_id": "CHEEL",
     "quote_id": "TRY",
@@ -65487,6 +65510,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "LWP_USDT",
+    "base_id": "LWP",
+    "quote_id": "USDT",
+    "base": "LWP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "LYM_BTC",
     "base_id": "LYM",
     "quote_id": "BTC",
@@ -71405,7 +71451,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
