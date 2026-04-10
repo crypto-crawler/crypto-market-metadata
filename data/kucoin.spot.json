@@ -13046,11 +13046,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -22454,11 +22454,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -36818,6 +36818,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "OFC-USDT",
+    "base_id": "OFC",
+    "quote_id": "USDT",
+    "base": "OFC",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "OFN-USDT",
     "base_id": "OFN",
     "quote_id": "USDT",
@@ -43856,7 +43880,7 @@
     "base": "RUNE",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.005,
       "taker": 0.005
@@ -44222,11 +44246,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -57854,11 +57878,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 10000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -60158,11 +60182,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 100.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
