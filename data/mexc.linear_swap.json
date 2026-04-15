@@ -3674,6 +3674,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ANTHROPIC_USDT",
+    "base_id": "ANTHROPIC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ANTHROPIC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 60.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ANT_USDT",
     "base_id": "ANT",
     "quote_id": "USDT",
@@ -4287,7 +4314,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2485.0
+      "max": 60.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -7122,7 +7149,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 110000.0
+      "max": 27000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -9309,7 +9336,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 85000.0
+      "max": 4800.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -17903,6 +17930,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "GENIUS_USDT",
+    "base_id": "GENIUS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GENIUS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "GESTOCK_USDT",
     "base_id": "GESTOCK",
     "quote_id": "USDT",
@@ -18138,7 +18192,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2100.0
+      "max": 1050.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -19893,7 +19947,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 5500.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -27750,7 +27804,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 10000.0
+      "max": 5000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -30072,7 +30126,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 140000.0
+      "max": 210000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -30129,6 +30183,33 @@
       "max": 4500.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "OPENAI_USDT",
+    "base_id": "OPENAI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OPENAI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 60.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {
@@ -34419,7 +34500,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 240.0
+      "max": 330.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -35229,7 +35310,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 51000.0
+      "max": 75000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -40305,7 +40386,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1080.0
+      "max": 700.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -47217,7 +47298,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30000.0
+      "max": 19250.0
     },
     "contract_value": 10.0,
     "info": {}

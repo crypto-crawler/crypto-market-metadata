@@ -58467,7 +58467,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -91403,10 +91403,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 1.0
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.01
     },
     "info": {}
   },
@@ -128915,7 +128915,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
