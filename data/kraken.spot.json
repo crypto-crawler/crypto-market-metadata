@@ -29925,6 +29925,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ST/EUR",
+    "base_id": "ST",
+    "quote_id": "ZEUR",
+    "base": "ST",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 125.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "ST/USD",
+    "base_id": "ST",
+    "quote_id": "ZUSD",
+    "base": "ST",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 125.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "STABLE/EUR",
     "base_id": "STABLE",
     "quote_id": "ZEUR",
