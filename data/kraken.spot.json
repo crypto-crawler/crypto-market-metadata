@@ -28706,6 +28706,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SIGN/EUR",
+    "base_id": "SIGN",
+    "quote_id": "ZEUR",
+    "base": "SIGN",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SIGN/USD",
+    "base_id": "SIGN",
+    "quote_id": "ZUSD",
+    "base": "SIGN",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SKR/EUR",
     "base_id": "SKR",
     "quote_id": "ZEUR",
