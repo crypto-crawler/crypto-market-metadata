@@ -2808,6 +2808,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "APXUSD/USD",
+    "base_id": "APXUSD",
+    "quote_id": "ZUSD",
+    "base": "APXUSD",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "APXUSD/USDC",
+    "base_id": "APXUSD",
+    "quote_id": "USDC",
+    "base": "APXUSD",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "AR/EUR",
     "base_id": "AR",
     "quote_id": "ZEUR",
