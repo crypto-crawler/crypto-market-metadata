@@ -4037,6 +4037,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "CHIP-USD",
+    "base_id": "CHIP",
+    "quote_id": "USD",
+    "base": "CHIP",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "CHZ-EUR",
     "base_id": "CHZ",
     "quote_id": "EUR",
@@ -12602,6 +12625,29 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "OPG-USD",
+    "base_id": "OPG",
+    "quote_id": "USD",
+    "base": "OPG",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
       "notional_min": 1.0
