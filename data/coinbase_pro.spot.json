@@ -3045,6 +3045,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "BLEND-USD",
+    "base_id": "BLEND",
+    "quote_id": "USD",
+    "base": "BLEND",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "BLUR-USD",
     "base_id": "BLUR",
     "quote_id": "USD",
@@ -5356,7 +5379,7 @@
     "quote_id": "USD",
     "base": "DIEM",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -16824,6 +16847,29 @@
     "precision": {
       "tick_size": 0.01,
       "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "TGBP-USDC",
+    "base_id": "TGBP",
+    "quote_id": "USDC",
+    "base": "TGBP",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "notional_min": 1.0

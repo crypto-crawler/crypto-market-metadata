@@ -5407,6 +5407,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BLEND/EUR",
+    "base_id": "BLEND",
+    "quote_id": "ZEUR",
+    "base": "BLEND",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BLEND/USD",
+    "base_id": "BLEND",
+    "quote_id": "ZUSD",
+    "base": "BLEND",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BLESS/USD",
     "base_id": "BLESS",
     "quote_id": "ZUSD",
@@ -26475,6 +26521,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "REPPO/EUR",
+    "base_id": "REPPO",
+    "quote_id": "ZEUR",
+    "base": "REPPO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "REPPO/USD",
+    "base_id": "REPPO",
+    "quote_id": "ZUSD",
+    "base": "REPPO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "REPV2/ETH",
     "base_id": "REPV2",
     "quote_id": "XETH",
@@ -33182,6 +33274,52 @@
     "precision": {
       "tick_size": 0.001,
       "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 12.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UMXM/EUR",
+    "base_id": "UMXM",
+    "quote_id": "ZEUR",
+    "base": "UMXM",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 12.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "UMXM/USD",
+    "base_id": "UMXM",
+    "quote_id": "ZUSD",
+    "base": "UMXM",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
     },
     "quantity_limit": {
       "min": 12.0

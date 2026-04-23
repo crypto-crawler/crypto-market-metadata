@@ -4746,7 +4746,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 650.0
+      "max": 1100.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -5232,7 +5232,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8500.0
+      "max": 5500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -6204,7 +6204,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 23000.0
+      "max": 15000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -6258,7 +6258,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1350.0
+      "max": 580.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -8634,7 +8634,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 90000.0
+      "max": 45000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -9660,7 +9660,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 9000.0
+      "max": 13000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -10686,7 +10686,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 850.0
+      "max": 4000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -11064,7 +11064,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2000.0
+      "max": 1300.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12090,7 +12090,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 180000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -14736,7 +14736,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 500000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -16437,7 +16437,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1100.0
+      "max": 1700.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -16708,6 +16708,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 85000.0
+    },
+    "contract_value": 100000.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "FLORK_USDT",
+    "base_id": "FLORK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLORK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 60.0
     },
     "contract_value": 100000.0,
     "info": {}
@@ -19596,7 +19623,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 32000.0
+      "max": 150000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -24510,7 +24537,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 500.0
+      "max": 800.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -25296,6 +25323,33 @@
       "max": 1200.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "MAGAALIENS_USDT",
+    "base_id": "MAGAALIENS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MAGAALIENS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 25.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -26481,7 +26535,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 40000.0
+      "max": 25500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -27642,7 +27696,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2000.0
+      "max": 1100.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -28155,7 +28209,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8000.0
+      "max": 4625.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -30364,7 +30418,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -30639,7 +30693,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 30.0
+      "max": 1100.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -32313,7 +32367,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1000.0
+      "max": 1500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -34932,7 +34986,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1500.0
+      "max": 950.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -38329,7 +38383,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -38820,7 +38874,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60.0
+      "max": 300.0
     },
     "contract_value": 0.001,
     "info": {}
@@ -39009,7 +39063,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 25000.0
+      "max": 16500.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -42249,7 +42303,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 3800.0
+      "max": 2350.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -45916,12 +45970,12 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-11,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2200.0
+      "max": 90000.0
     },
     "contract_value": 10000.0,
     "info": {}
@@ -46596,7 +46650,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 73000.0
+      "max": 51500.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -47865,7 +47919,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 19250.0
+      "max": 11500.0
     },
     "contract_value": 10.0,
     "info": {}
