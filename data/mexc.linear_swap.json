@@ -4727,6 +4727,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "ASTEROID1_USDT",
+    "base_id": "ASTEROID1",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ASTEROID1",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 65.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "ASTEROID_USDT",
     "base_id": "ASTEROID",
     "quote_id": "USDT",
@@ -35526,7 +35553,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2500.0
+      "max": 4000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -36120,7 +36147,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1100.0
+      "max": 1700.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -43683,6 +43710,33 @@
       "max": 3400000.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "UPEG_USDT",
+    "base_id": "UPEG",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UPEG",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 650.0
+    },
+    "contract_value": 0.0001,
     "info": {}
   },
   {
