@@ -13721,6 +13721,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "PROS-USD",
+    "base_id": "PROS",
+    "quote_id": "USD",
+    "base": "PROS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "PROVE-USD",
     "base_id": "PROVE",
     "quote_id": "USD",
@@ -17367,7 +17390,7 @@
     "quote_id": "USD",
     "base": "TRU",
     "quote": "USD",
-    "active": true,
+    "active": false,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -18336,6 +18359,29 @@
     "quote_id": "USDT",
     "base": "VGX",
     "quote": "USDT",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "VIRTUAL-USD",
+    "base_id": "VIRTUAL",
+    "quote_id": "USD",
+    "base": "VIRTUAL",
+    "quote": "USD",
     "active": false,
     "margin": false,
     "fees": {

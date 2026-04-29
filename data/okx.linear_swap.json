@@ -8348,6 +8348,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "PROS-USDT-SWAP",
+    "base_id": "PROS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PROS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "PROVE-USDT-SWAP",
     "base_id": "PROVE",
     "quote_id": "USDT",
@@ -10709,6 +10735,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "UB-USDT-SWAP",
+    "base_id": "UB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "UB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
