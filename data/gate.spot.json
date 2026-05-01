@@ -52026,6 +52026,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "HPP_USDT",
+    "base_id": "HPP",
+    "quote_id": "USDT",
+    "base": "HPP",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "HP_USDT",
     "base_id": "HP",
     "quote_id": "USDT",
@@ -68453,6 +68476,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MEGA_USDT",
+    "base_id": "MEGA",
+    "quote_id": "USDT",
+    "base": "MEGA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MELANIA_TRY",
     "base_id": "MELANIA",
     "quote_id": "TRY",
@@ -70695,7 +70741,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -112553,7 +112599,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -122116,7 +122162,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {

@@ -17090,6 +17090,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "geniususdt",
+    "base_id": "genius",
+    "quote_id": "usdt",
+    "base": "GENIUS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1805380.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "getbtc",
     "base_id": "get",
     "quote_id": "btc",
@@ -19388,6 +19412,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 11289230.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "hppusdt",
+    "base_id": "hpp",
+    "quote_id": "usdt",
+    "base": "HPP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 30000000.0
     },
     "info": {}
   },
@@ -25508,6 +25556,30 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 8000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "megausdt",
+    "base_id": "mega",
+    "quote_id": "usdt",
+    "base": "MEGA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 6250000.0
     },
     "info": {}
   },

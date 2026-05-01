@@ -5780,6 +5780,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BZ_USDT",
+    "base_id": "BZ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BZ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "B_USDT",
     "base_id": "B",
     "quote_id": "USDT",
@@ -6774,6 +6801,33 @@
       "max": 100000000.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "CL_USDT",
+    "base_id": "CL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
@@ -17125,6 +17179,33 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "MDT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 10.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "MEGA_USDT",
+    "base_id": "MEGA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MEGA",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

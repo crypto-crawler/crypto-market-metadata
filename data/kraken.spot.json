@@ -20012,6 +20012,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "MEGA/EUR",
+    "base_id": "MEGA",
+    "quote_id": "ZEUR",
+    "base": "MEGA",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "MEGA/USD",
+    "base_id": "MEGA",
+    "quote_id": "ZUSD",
+    "base": "MEGA",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MELANIA/EUR",
     "base_id": "MELANIA",
     "quote_id": "ZEUR",

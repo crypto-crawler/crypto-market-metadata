@@ -4058,6 +4058,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "ASSET-USDT",
+    "base_id": "ASSET",
+    "quote_id": "USDT",
+    "base": "ASSET",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "ASTER-USDT",
     "base_id": "ASTER",
     "quote_id": "USDT",
@@ -11534,11 +11558,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-7,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -13286,11 +13310,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 1000.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -14150,11 +14174,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -14702,7 +14726,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -16118,11 +16142,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 0.01
+      "tick_size": 0.00001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0,
+      "min": 10.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -20539,6 +20563,30 @@
     },
     "quantity_limit": {
       "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "GENIUS-USDT",
+    "base_id": "GENIUS",
+    "quote_id": "USDT",
+    "base": "GENIUS",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -26966,7 +27014,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -26990,7 +27038,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.0001
     },
     "quantity_limit": {
@@ -32138,6 +32186,30 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "MEGA-USDT",
+    "base_id": "MEGA",
+    "quote_id": "USDT",
+    "base": "MEGA",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 10.0,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "MELANIA-USDT",
     "base_id": "MELANIA",
     "quote_id": "USDT",
@@ -33710,11 +33782,11 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.00001,
-      "lot_size": 0.1
+      "tick_size": 1e-6,
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 10.0,
+      "min": 100.0,
       "max": 10000000000.0
     },
     "info": {}
@@ -48470,7 +48542,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
