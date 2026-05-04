@@ -5407,6 +5407,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "BILL/EUR",
+    "base_id": "BILL",
+    "quote_id": "ZEUR",
+    "base": "BILL",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "BILL/USD",
+    "base_id": "BILL",
+    "quote_id": "ZUSD",
+    "base": "BILL",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 200.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "BILLY/EUR",
     "base_id": "BILLY",
     "quote_id": "ZEUR",
