@@ -1559,6 +1559,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "ARMUSDTM",
+    "base_id": "ARM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ARM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "ARPAUSDTM",
     "base_id": "ARPA",
     "quote_id": "USDT",
@@ -15082,6 +15105,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "USARUSDTM",
+    "base_id": "USAR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "USAR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
