@@ -1402,6 +1402,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "chipeur",
+    "base_id": "CHIP",
+    "quote_id": "EUR",
+    "base": "CHIP",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "chipusd",
     "base_id": "CHIP",
     "quote_id": "USD",
@@ -2036,6 +2056,26 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "eigeneur",
+    "base_id": "EIGEN",
+    "quote_id": "EUR",
+    "base": "EIGEN",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.00001
     },
     "info": {}
   },
