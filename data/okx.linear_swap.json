@@ -756,6 +756,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "ANTHROPIC-USDT-SWAP",
+    "base_id": "ANTHROPIC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ANTHROPIC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "APE-USDT-SWAP",
     "base_id": "APE",
     "quote_id": "USDT",
@@ -7828,6 +7854,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "OPENAI-USDT-SWAP",
+    "base_id": "OPENAI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "OPENAI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "OPG-USDT-SWAP",
     "base_id": "OPG",
     "quote_id": "USDT",
@@ -9825,6 +9877,32 @@
       "min": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "SPACEX-USDT-SWAP",
+    "base_id": "SPACEX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SPACEX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

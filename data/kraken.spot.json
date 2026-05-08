@@ -13963,6 +13963,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "GAS/EUR",
+    "base_id": "GAS",
+    "quote_id": "ZEUR",
+    "base": "GAS",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "GAS/USD",
+    "base_id": "GAS",
+    "quote_id": "ZUSD",
+    "base": "GAS",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 1.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "GBP/USD",
     "base_id": "ZGBP",
     "quote_id": "ZUSD",
@@ -22122,6 +22168,52 @@
     },
     "quantity_limit": {
       "min": 46000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "NEO/EUR",
+    "base_id": "NEO",
+    "quote_id": "ZEUR",
+    "base": "NEO",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "NEO/USD",
+    "base_id": "NEO",
+    "quote_id": "ZUSD",
+    "base": "NEO",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.5
     },
     "info": {}
   },
