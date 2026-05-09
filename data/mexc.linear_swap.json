@@ -3819,16 +3819,16 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0004,
-      "taker": 0.001
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.1,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60.0
+      "max": 1400.0
     },
     "contract_value": 0.001,
     "info": {}
@@ -14447,6 +14447,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "DRAM_USDT",
+    "base_id": "DRAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DRAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 13000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "DRB_USDT",
     "base_id": "DRB",
     "quote_id": "USDT",
@@ -18897,6 +18924,33 @@
       "max": 1800.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "GMESTOCK_USDT",
+    "base_id": "GMESTOCK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GMESTOCK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 25000.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
@@ -29613,7 +29667,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 160000.0
+      "max": 320000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -31089,16 +31143,16 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0004,
-      "taker": 0.001
+      "maker": 0.0,
+      "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.1,
       "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 60.0
+      "max": 1500.0
     },
     "contract_value": 0.001,
     "info": {}
@@ -37883,6 +37937,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "SHARE_USDT",
+    "base_id": "SHARE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SHARE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 110.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "SHELL_USDT",
     "base_id": "SHELL",
     "quote_id": "USDT",
@@ -39522,7 +39603,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 300.0
+      "max": 1000.0
     },
     "contract_value": 0.001,
     "info": {}
@@ -44652,7 +44733,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1200.0
+      "max": 2400.0
     },
     "contract_value": 10.0,
     "info": {}

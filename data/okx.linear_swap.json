@@ -3434,6 +3434,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "DRAM-USDT-SWAP",
+    "base_id": "DRAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DRAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "DUCK-USDT-SWAP",
     "base_id": "DUCK",
     "quote_id": "USDT",
@@ -4599,6 +4625,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "GME-USDT-SWAP",
+    "base_id": "GME",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GME",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -6105,6 +6157,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "LITE-USDT-SWAP",
+    "base_id": "LITE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LITE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "contract_value": 1.0,
     "info": {}
