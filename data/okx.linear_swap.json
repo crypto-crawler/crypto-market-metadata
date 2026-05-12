@@ -11286,6 +11286,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "USO-USDT-SWAP",
+    "base_id": "USO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "USO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "USTC-USDT-SWAP",
     "base_id": "USTC",
     "quote_id": "USDT",
@@ -12087,6 +12113,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "XLE-USDT-SWAP",
+    "base_id": "XLE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XLE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {

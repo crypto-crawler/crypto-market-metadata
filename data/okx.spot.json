@@ -19667,6 +19667,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "KAT-EUR",
+    "base_id": "KAT",
+    "quote_id": "EUR",
+    "base": "KAT",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "KAT-TRY",
     "base_id": "KAT",
     "quote_id": "TRY",
@@ -19703,6 +19726,29 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "KAT-USDC",
+    "base_id": "KAT",
+    "quote_id": "USDC",
+    "base": "KAT",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -26728,6 +26774,52 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "OKB-EUR",
+    "base_id": "OKB",
+    "quote_id": "EUR",
+    "base": "OKB",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "OKB-TRY",
+    "base_id": "OKB",
+    "quote_id": "TRY",
+    "base": "OKB",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "OKB-USDC",
     "base_id": "OKB",
     "quote_id": "USDC",
@@ -26741,10 +26833,10 @@
     },
     "precision": {
       "tick_size": 0.01,
-      "lot_size": 0.0001
+      "lot_size": 0.00001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "info": {}
   },

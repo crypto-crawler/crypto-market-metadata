@@ -3498,6 +3498,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "DRAM-USDT",
+    "base_id": "DRAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DRAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "DUSK-USDT",
     "base_id": "DUSK",
     "quote_id": "USDT",
@@ -4662,10 +4685,10 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.01,
       "lot_size": 1.0
     },
-    "contract_value": 100.0,
+    "contract_value": 0.1,
     "info": {}
   },
   {
@@ -6207,6 +6230,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "LITE-USDT",
+    "base_id": "LITE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LITE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {

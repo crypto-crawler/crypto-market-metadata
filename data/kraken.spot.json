@@ -12169,6 +12169,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "EV/EUR",
+    "base_id": "EV",
+    "quote_id": "ZEUR",
+    "base": "EV",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3400.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "EV/USD",
+    "base_id": "EV",
+    "quote_id": "ZUSD",
+    "base": "EV",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3400.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "EVAA/EUR",
     "base_id": "EVAA",
     "quote_id": "ZEUR",
