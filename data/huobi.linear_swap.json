@@ -3153,6 +3153,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "CRWV-USDT",
+    "base_id": "CRWV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CRWV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "CSPR-USDT",
     "base_id": "CSPR",
     "quote_id": "USDT",
@@ -5057,6 +5080,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "HIMS-USDT",
+    "base_id": "HIMS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HIMS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
@@ -8236,6 +8282,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "PAYP-USDT",
+    "base_id": "PAYP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PAYP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "PENDLE-USDT",
     "base_id": "PENDLE",
     "quote_id": "USDT",
@@ -9377,10 +9446,10 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
-    "contract_value": 1.0,
+    "contract_value": 100.0,
     "info": {}
   },
   {
