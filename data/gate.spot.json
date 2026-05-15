@@ -3635,6 +3635,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AIGENSYN_USDT",
+    "base_id": "AIGENSYN",
+    "quote_id": "USDT",
+    "base": "AIGENSYN",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AIL_USDT",
     "base_id": "AIL",
     "quote_id": "USDT",
@@ -11988,7 +12011,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -39305,7 +39328,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -39512,7 +39535,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 0.001
     },
     "quantity_limit": {
