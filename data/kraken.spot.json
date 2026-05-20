@@ -9248,6 +9248,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "DCR/EUR",
+    "base_id": "DCR",
+    "quote_id": "ZEUR",
+    "base": "DCR",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.3
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "DCR/USD",
+    "base_id": "DCR",
+    "quote_id": "ZUSD",
+    "base": "DCR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.3
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "DEEP/EUR",
     "base_id": "DEEP",
     "quote_id": "ZEUR",
@@ -22404,6 +22450,52 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "NEX/EUR",
+    "base_id": "NEX",
+    "quote_id": "ZEUR",
+    "base": "NEX",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "NEX/USD",
+    "base_id": "NEX",
+    "quote_id": "ZUSD",
+    "base": "NEX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 3000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "NIGHT/EUR",
     "base_id": "NIGHT",
     "quote_id": "ZEUR",
@@ -24882,6 +24974,52 @@
     },
     "quantity_limit": {
       "min": 30.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PIEVERSE/EUR",
+    "base_id": "PIEVERSE",
+    "quote_id": "ZEUR",
+    "base": "PIEVERSE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 7.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "PIEVERSE/USD",
+    "base_id": "PIEVERSE",
+    "quote_id": "ZUSD",
+    "base": "PIEVERSE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 7.0
     },
     "info": {}
   },
