@@ -1971,7 +1971,7 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
@@ -3102,6 +3102,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "COST-USDT",
+    "base_id": "COST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "COST",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {
@@ -4754,7 +4777,7 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -6479,7 +6502,7 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -6493,6 +6516,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "LITE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.001,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "LLY-USDT",
+    "base_id": "LLY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LLY",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
@@ -7748,6 +7794,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "NFLX-USDT",
+    "base_id": "NFLX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NFLX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
@@ -12555,6 +12624,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "XLE-USDT",
+    "base_id": "XLE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "XLE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
