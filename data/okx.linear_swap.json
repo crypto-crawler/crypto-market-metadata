@@ -1836,7 +1836,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -4604,6 +4604,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "GEV-USDT-SWAP",
+    "base_id": "GEV",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GEV",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "GF-USDT-SWAP",
     "base_id": "GF",
     "quote_id": "USDT",
@@ -6776,7 +6802,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -11463,6 +11489,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "URNM-USDT-SWAP",
+    "base_id": "URNM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "URNM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
