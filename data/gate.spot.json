@@ -9441,7 +9441,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-11,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -101173,6 +101173,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SLX_USDT",
+    "base_id": "SLX",
+    "quote_id": "USDT",
+    "base": "SLX",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SMARTGAME_USDT",
     "base_id": "SMARTGAME",
     "quote_id": "USDT",
@@ -103154,7 +103177,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -128700,7 +128723,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {

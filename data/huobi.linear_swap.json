@@ -1083,6 +1083,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "ARM-USDT",
+    "base_id": "ARM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ARM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "ARPA-USDT",
     "base_id": "ARPA",
     "quote_id": "USDT",
@@ -2021,6 +2044,29 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "BMNR-USDT",
+    "base_id": "BMNR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BMNR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
