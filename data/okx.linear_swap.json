@@ -106,6 +106,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "AAOI-USDT-SWAP",
+    "base_id": "AAOI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AAOI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "AAPL-USDT-SWAP",
     "base_id": "AAPL",
     "quote_id": "USDT",
@@ -3044,6 +3070,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "CRWD-USDT-SWAP",
+    "base_id": "CRWD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CRWD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "CRWV-USDT-SWAP",
     "base_id": "CRWV",
     "quote_id": "USDT",
@@ -5403,6 +5455,32 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "INFQ-USDT-SWAP",
+    "base_id": "INFQ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "INFQ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}

@@ -10010,6 +10010,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "ctrusdt",
+    "base_id": "ctr",
+    "quote_id": "usdt",
+    "base": "CTR",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 33333333.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "ctsiusdt",
     "base_id": "ctsi",
     "quote_id": "usdt",
@@ -10694,7 +10718,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.0001
     },
     "quantity_limit": {
