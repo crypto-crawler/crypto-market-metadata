@@ -5126,6 +5126,7 @@
       "lot_size": 1.0
     },
     "contract_value": 100.0,
+    "delivery_date": 1780297200000,
     "info": {}
   },
   {
@@ -14064,6 +14065,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "SPCXUSDTM",
+    "base_id": "SPCX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SPCX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "SPELLUSDTM",
     "base_id": "SPELL",
     "quote_id": "USDT",
@@ -14276,6 +14300,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "STABLE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
+    "symbol": "STARUSDTM",
+    "base_id": "STAR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STAR",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,
