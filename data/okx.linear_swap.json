@@ -652,6 +652,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "AMAT-USDT-SWAP",
+    "base_id": "AMAT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AMAT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "AMD-USDT-SWAP",
     "base_id": "AMD",
     "quote_id": "USDT",
@@ -3325,6 +3351,32 @@
       "min": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "DELL-USDT-SWAP",
+    "base_id": "DELL",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "DELL",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -12009,6 +12061,32 @@
       "min": 1.0
     },
     "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "VRT-USDT-SWAP",
+    "base_id": "VRT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "VRT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
