@@ -6690,7 +6690,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 225000.0
+      "max": 330000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -7500,7 +7500,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 4500.0
+      "max": 7000.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -21756,7 +21756,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1550.0
+      "max": 2300.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -21783,7 +21783,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 5500.0
+      "max": 8500.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -27615,7 +27615,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 130.0
+      "max": 200.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -29424,7 +29424,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 400.0
+      "max": 600.0
     },
     "contract_value": 1000000.0,
     "info": {}
@@ -31530,7 +31530,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 50.0
+      "max": 7500.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -35696,6 +35696,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "QNTSTOCK_USDT",
+    "base_id": "QNTSTOCK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "QNTSTOCK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 110000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "QNT_USDT",
     "base_id": "QNT",
     "quote_id": "USDT",
@@ -39225,7 +39252,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1800.0
+      "max": 2200.0
     },
     "contract_value": 10.0,
     "info": {}
