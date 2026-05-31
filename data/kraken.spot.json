@@ -21760,6 +21760,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "MOON/ETH",
+    "base_id": "MOON",
+    "quote_id": "XETH",
+    "base": "MOON",
+    "quote": "ETH",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 220.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "MOON/EUR",
     "base_id": "MOON",
     "quote_id": "ZEUR",
@@ -23087,7 +23110,7 @@
       "lot_size": 1e-8
     },
     "quantity_limit": {
-      "min": 60.0
+      "min": 220.0
     },
     "info": {}
   },
