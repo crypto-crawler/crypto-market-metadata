@@ -1640,6 +1640,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "BB-USDT-SWAP",
+    "base_id": "BB",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BB",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "BCH-USDT-SWAP",
     "base_id": "BCH",
     "quote_id": "USDT",
@@ -6814,6 +6840,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "LUNR-USDT-SWAP",
+    "base_id": "LUNR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "LUNR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "MAGIC-USDT-SWAP",
     "base_id": "MAGIC",
     "quote_id": "USDT",
@@ -9388,6 +9440,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "RDW-USDT-SWAP",
+    "base_id": "RDW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RDW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "RECALL-USDT-SWAP",
     "base_id": "RECALL",
     "quote_id": "USDT",
@@ -10183,6 +10261,32 @@
     },
     "precision": {
       "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "SLX-USDT-SWAP",
+    "base_id": "SLX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SLX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
