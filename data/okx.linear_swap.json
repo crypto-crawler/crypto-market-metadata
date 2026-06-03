@@ -1146,6 +1146,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "ASTS-USDT-SWAP",
+    "base_id": "ASTS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ASTS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "AT-USDT-SWAP",
     "base_id": "AT",
     "quote_id": "USDT",
@@ -5384,6 +5410,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "HPE-USDT-SWAP",
+    "base_id": "HPE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "HPE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "HUMA-USDT-SWAP",
     "base_id": "HUMA",
     "quote_id": "USDT",
@@ -6282,11 +6334,11 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
-      "lot_size": 1.0
+      "tick_size": 0.001,
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 0.1
     },
     "contract_value": 10.0,
     "info": {}
@@ -8083,6 +8135,32 @@
       "min": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "NOW-USDT-SWAP",
+    "base_id": "NOW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "NOW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -10599,6 +10677,32 @@
     },
     "precision": {
       "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "SPCX-USDT-SWAP",
+    "base_id": "SPCX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SPCX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
       "lot_size": 0.01
     },
     "quantity_limit": {
