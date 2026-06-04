@@ -6685,6 +6685,29 @@
   {
     "exchange": "coinbase_pro",
     "market_type": "spot",
+    "symbol": "ETH-INR",
+    "base_id": "ETH",
+    "quote_id": "INR",
+    "base": "ETH",
+    "quote": "INR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
     "symbol": "ETH-USD",
     "base_id": "ETH",
     "quote_id": "USD",
@@ -16134,6 +16157,29 @@
     },
     "quantity_limit": {
       "notional_min": 0.72
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "SOL-INR",
+    "base_id": "SOL",
+    "quote_id": "INR",
+    "base": "SOL",
+    "quote": "INR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },

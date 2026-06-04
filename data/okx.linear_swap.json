@@ -340,6 +340,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "ADBE-USDT-SWAP",
+    "base_id": "ADBE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ADBE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "AERO-USDT-SWAP",
     "base_id": "AERO",
     "quote_id": "USDT",
@@ -1061,6 +1087,32 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ASML-USDT-SWAP",
+    "base_id": "ASML",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ASML",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 1.0,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "contract_value": 1.0,
     "info": {}
@@ -4255,6 +4307,32 @@
     },
     "precision": {
       "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "EWT-USDT-SWAP",
+    "base_id": "EWT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "EWT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
       "lot_size": 0.01
     },
     "quantity_limit": {

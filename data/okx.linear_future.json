@@ -34859,6 +34859,33 @@
   {
     "exchange": "okx",
     "market_type": "linear_future",
+    "symbol": "SLX-USD_UM_XPERP-310606",
+    "base_id": "SLX",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "SLX",
+    "quote": "USD_UM_XPERP",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "delivery_date": 1938499200000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_future",
     "symbol": "SOL-USD_UM_XPERP-310404",
     "base_id": "SOL",
     "quote_id": "USD",
