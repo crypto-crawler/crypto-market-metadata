@@ -2601,6 +2601,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "BTW-USDT",
+    "base_id": "BTW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BTW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "BULLA-USDT",
     "base_id": "BULLA",
     "quote_id": "USDT",
@@ -13669,6 +13692,29 @@
     "quote_id": "USDT",
     "settle_id": "USDT",
     "base": "ZEREBRO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "ZEST-USDT",
+    "base_id": "ZEST",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZEST",
     "quote": "USDT",
     "settle": "USDT",
     "active": true,

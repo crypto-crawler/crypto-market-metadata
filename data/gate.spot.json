@@ -518,10 +518,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -1534,7 +1534,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -1879,7 +1879,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -2063,7 +2063,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2225,10 +2225,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -6857,6 +6857,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "ANTHROPIC3L_USDT",
+    "base_id": "ANTHROPIC3L",
+    "quote_id": "USDT",
+    "base": "ANTHROPIC3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "ANTHROPIC3S_USDT",
+    "base_id": "ANTHROPIC3S",
+    "quote_id": "USDT",
+    "base": "ANTHROPIC3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "ANT_USDT",
     "base_id": "ANT",
     "quote_id": "USDT",
@@ -9166,10 +9212,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.01
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -13543,10 +13589,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -13749,7 +13795,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -15755,7 +15801,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -18734,10 +18780,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -21546,7 +21592,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -30171,10 +30217,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -40509,7 +40555,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -46471,7 +46517,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -49649,7 +49695,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -49672,7 +49718,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -55175,10 +55221,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -55629,10 +55675,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -60855,7 +60901,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -61269,7 +61315,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -61681,10 +61727,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -73060,6 +73106,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MRVL3L_USDT",
+    "base_id": "MRVL3L",
+    "quote_id": "USDT",
+    "base": "MRVL3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MRVL3S_USDT",
+    "base_id": "MRVL3S",
+    "quote_id": "USDT",
+    "base": "MRVL3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MSFTON_USDT",
     "base_id": "MSFTON",
     "quote_id": "USDT",
@@ -73762,7 +73854,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -74016,10 +74108,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -75527,7 +75619,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -81410,6 +81502,52 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "OPENAI3L_USDT",
+    "base_id": "OPENAI3L",
+    "quote_id": "USDT",
+    "base": "OPENAI3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "OPENAI3S_USDT",
+    "base_id": "OPENAI3S",
+    "quote_id": "USDT",
+    "base": "OPENAI3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "OPENPLATFORM_USDT",
     "base_id": "OPENPLATFORM",
     "quote_id": "USDT",
@@ -83240,10 +83378,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -84320,11 +84458,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.1
+      "tick_size": 0.00001,
+      "lot_size": 0.01
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 0.01
     },
     "info": {}
   },
@@ -87224,10 +87362,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -88500,10 +88638,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -90018,10 +90156,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -93184,7 +93322,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-10,
+      "tick_size": 1e-11,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -99371,7 +99509,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -99897,7 +100035,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -101525,10 +101663,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -102376,10 +102514,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -103550,6 +103688,52 @@
     },
     "quantity_limit": {
       "min": 0.1
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SPCX3L_USDT",
+    "base_id": "SPCX3L",
+    "quote_id": "USDT",
+    "base": "SPCX3L",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SPCX3S_USDT",
+    "base_id": "SPCX3S",
+    "quote_id": "USDT",
+    "base": "SPCX3S",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
     },
     "info": {}
   },
@@ -105576,7 +105760,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -106283,7 +106467,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -108082,7 +108266,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -108573,7 +108757,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -108803,7 +108987,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -109080,10 +109264,10 @@
     },
     "precision": {
       "tick_size": 0.00001,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -110175,10 +110359,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -110358,7 +110542,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -112172,10 +112356,10 @@
     },
     "precision": {
       "tick_size": 1e-8,
-      "lot_size": 0.1
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -115411,10 +115595,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -115683,7 +115867,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -119707,7 +119891,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -119846,10 +120030,10 @@
     },
     "precision": {
       "tick_size": 1e-7,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -121659,7 +121843,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 0.001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -121728,7 +121912,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -125356,10 +125540,10 @@
     },
     "precision": {
       "tick_size": 1e-6,
-      "lot_size": 0.01
+      "lot_size": 1.0
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 1.0
     },
     "info": {}
   },
@@ -125769,7 +125953,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -125879,10 +126063,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.01
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.01
+      "min": 0.1
     },
     "info": {}
   },
@@ -125968,10 +126152,10 @@
     },
     "precision": {
       "tick_size": 0.0001,
-      "lot_size": 0.001
+      "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.1
     },
     "info": {}
   },
