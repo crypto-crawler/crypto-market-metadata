@@ -38290,7 +38290,7 @@
       "lot_size": 0.1
     },
     "quantity_limit": {
-      "min": 100.0
+      "min": 1000.0
     },
     "info": {}
   },
@@ -38987,6 +38987,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "USDG-SGD",
+    "base_id": "USDG",
+    "quote_id": "SGD",
+    "base": "USDG",
+    "quote": "SGD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "USDG-USDT",
     "base_id": "USDG",
     "quote_id": "USDT",
@@ -39118,7 +39141,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
@@ -39141,7 +39164,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.1
+      "min": 1.0
     },
     "info": {}
   },
