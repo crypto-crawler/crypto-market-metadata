@@ -250,7 +250,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -1212,7 +1212,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.1,
+      "tick_size": 0.01,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -2576,6 +2576,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "BX-USDT-SWAP",
+    "base_id": "BX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "BZ-USDT-SWAP",
     "base_id": "BZ",
     "quote_id": "USDT",
@@ -2831,6 +2857,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "CGNX-USDT-SWAP",
+    "base_id": "CGNX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CGNX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -3786,7 +3838,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -8700,7 +8752,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -8778,7 +8830,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -10111,6 +10163,32 @@
       "min": 1.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ROK-USDT-SWAP",
+    "base_id": "ROK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ROK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -12118,6 +12196,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "TWLO-USDT-SWAP",
+    "base_id": "TWLO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TWLO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "UB-USDT-SWAP",
     "base_id": "UB",
     "quote_id": "USDT",
@@ -12652,7 +12756,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -14030,7 +14134,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 1.0
     },
     "quantity_limit": {
