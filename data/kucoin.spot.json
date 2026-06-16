@@ -21938,6 +21938,54 @@
   {
     "exchange": "kucoin",
     "market_type": "spot",
+    "symbol": "GRAM-USDC",
+    "base_id": "GRAM",
+    "quote_id": "USDC",
+    "base": "GRAM",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
+    "symbol": "GRAM-USDT",
+    "base_id": "GRAM",
+    "quote_id": "USDT",
+    "base": "GRAM",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 10000000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "spot",
     "symbol": "GRAPE-USDT",
     "base_id": "GRAPE",
     "quote_id": "USDT",

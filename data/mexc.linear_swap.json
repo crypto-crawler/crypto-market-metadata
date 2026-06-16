@@ -3172,7 +3172,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0002
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.00001,
@@ -11658,7 +11658,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 750.0
+      "max": 400.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -12810,8 +12810,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0,
-      "taker": 0.0002
+      "maker": 0.0001,
+      "taker": 0.0004
     },
     "precision": {
       "tick_size": 0.00001,
@@ -12819,7 +12819,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 28000.0
+      "max": 40000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -16410,7 +16410,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 2500.0
+      "max": 7850.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -16429,7 +16429,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.00001,
@@ -16788,7 +16788,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 70000.0
+      "max": 26000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -17266,7 +17266,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0002
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.001,
@@ -17293,7 +17293,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0002
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.001,
@@ -20306,6 +20306,87 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "GRAM_USD1",
+    "base_id": "GRAM",
+    "quote_id": "USD1",
+    "settle_id": "USD1",
+    "base": "GRAM",
+    "quote": "USD1",
+    "settle": "USD1",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 280.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "GRAM_USDC",
+    "base_id": "GRAM",
+    "quote_id": "USDC",
+    "settle_id": "USDC",
+    "base": "GRAM",
+    "quote": "USDC",
+    "settle": "USDC",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 280.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "GRAM_USDT",
+    "base_id": "GRAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "GRAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 280.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "GRASS_USDT",
     "base_id": "GRASS",
     "quote_id": "USDT",
@@ -21918,7 +21999,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 1200.0
+      "max": 770.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -22836,7 +22917,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 24500.0
+      "max": 16000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -23295,7 +23376,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6000.0
+      "max": 3150.0
     },
     "contract_value": 100.0,
     "info": {}
@@ -24297,6 +24378,33 @@
       "max": 140.0
     },
     "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "KIOXIASTOCK_USDT",
+    "base_id": "KIOXIASTOCK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KIOXIASTOCK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 8500.0
+    },
+    "contract_value": 0.001,
     "info": {}
   },
   {
@@ -27718,7 +27826,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -28366,7 +28474,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -32313,7 +32421,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 18250.0
+      "max": 12000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -35229,7 +35337,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 170000.0
+      "max": 250000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -39927,7 +40035,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 6600.0
+      "max": 20000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -43545,7 +43653,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 100000.0
+      "max": 72000.0
     },
     "contract_value": 0.01,
     "info": {}
@@ -45723,8 +45831,8 @@
     "active": true,
     "margin": true,
     "fees": {
-      "maker": 0.0,
-      "taker": 0.0002
+      "maker": 0.0001,
+      "taker": 0.0004
     },
     "precision": {
       "tick_size": 0.00001,
@@ -48910,7 +49018,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 1e-6,
