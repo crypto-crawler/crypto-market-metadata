@@ -3107,6 +3107,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "CIEN-USDT",
+    "base_id": "CIEN",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CIEN",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "CKB-USDT",
     "base_id": "CKB",
     "quote_id": "USDT",
@@ -4642,7 +4665,7 @@
       "tick_size": 0.0001,
       "lot_size": 1.0
     },
-    "contract_value": 0.1,
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -9220,6 +9243,29 @@
       "lot_size": 1.0
     },
     "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "PANW-USDT",
+    "base_id": "PANW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "PANW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
