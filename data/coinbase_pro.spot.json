@@ -8957,7 +8957,7 @@
       "taker": 0.005
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.0001,
       "lot_size": 0.001
     },
     "quantity_limit": {
@@ -12639,7 +12639,7 @@
     "quote_id": "USD",
     "base": "O",
     "quote": "USD",
-    "active": false,
+    "active": true,
     "margin": false,
     "fees": {
       "maker": 0.005,
@@ -14637,6 +14637,29 @@
     "quantity_limit": {
       "min": 0.1,
       "max": 140000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "coinbase_pro",
+    "market_type": "spot",
+    "symbol": "RE-USD",
+    "base_id": "RE",
+    "quote_id": "USD",
+    "base": "RE",
+    "quote": "USD",
+    "active": false,
+    "margin": false,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "notional_min": 1.0
     },
     "info": {}
   },

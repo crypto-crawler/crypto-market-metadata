@@ -27211,6 +27211,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "RE/USD",
+    "base_id": "RE",
+    "quote_id": "ZUSD",
+    "base": "RE",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 50.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "RED/EUR",
     "base_id": "RED",
     "quote_id": "ZEUR",
