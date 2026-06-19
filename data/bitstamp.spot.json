@@ -5122,6 +5122,46 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "reeur",
+    "base_id": "RE",
+    "quote_id": "EUR",
+    "base": "RE",
+    "quote": "EUR",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
+    "symbol": "reusd",
+    "base_id": "RE",
+    "quote_id": "USD",
+    "base": "RE",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "rgteur",
     "base_id": "RGT",
     "quote_id": "EUR",
