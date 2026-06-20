@@ -31604,6 +31604,29 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "RE-EUR",
+    "base_id": "RE",
+    "quote_id": "EUR",
+    "base": "RE",
+    "quote": "EUR",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "RE-TRY",
     "base_id": "RE",
     "quote_id": "TRY",
@@ -31632,6 +31655,29 @@
     "quote_id": "USD",
     "base": "RE",
     "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 10.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "RE-USDC",
+    "base_id": "RE",
+    "quote_id": "USDC",
+    "base": "RE",
+    "quote": "USDC",
     "active": true,
     "margin": false,
     "fees": {
