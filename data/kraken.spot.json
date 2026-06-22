@@ -3245,6 +3245,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "ARX/USD",
+    "base_id": "ARX",
+    "quote_id": "ZUSD",
+    "base": "ARX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 25.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "ASRR/EUR",
     "base_id": "ASRR",
     "quote_id": "ZEUR",
