@@ -32738,6 +32738,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "prosusdt",
+    "base_id": "pros",
+    "quote_id": "usdt",
+    "base": "PROS",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 1800000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "proveusdt",
     "base_id": "prove",
     "quote_id": "usdt",
@@ -42668,6 +42692,30 @@
     "quantity_limit": {
       "min": 0.01,
       "max": 8984725.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "veronausdt",
+    "base_id": "verona",
+    "quote_id": "usdt",
+    "base": "VERONA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 1000000.0
     },
     "info": {}
   },
