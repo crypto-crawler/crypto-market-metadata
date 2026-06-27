@@ -2732,6 +2732,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "CAP-USDT-SWAP",
+    "base_id": "CAP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CAP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "CAT-USDT-SWAP",
     "base_id": "CAT",
     "quote_id": "USDT",
@@ -6575,6 +6601,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "KIOXIA-USDT-SWAP",
+    "base_id": "KIOXIA",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KIOXIA",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -10884,7 +10936,7 @@
       "taker": 0.0005
     },
     "precision": {
-      "tick_size": 1e-11,
+      "tick_size": 1e-12,
       "lot_size": 1.0
     },
     "quantity_limit": {

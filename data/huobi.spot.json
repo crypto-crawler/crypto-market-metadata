@@ -8042,6 +8042,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "capusdt",
+    "base_id": "cap",
+    "quote_id": "usdt",
+    "base": "CAP",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 10000000.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "carvusdt",
     "base_id": "carv",
     "quote_id": "usdt",
@@ -14875,7 +14899,7 @@
     },
     "quantity_limit": {
       "min": 0.1,
-      "max": 20000.0
+      "max": 19810.5081
     },
     "info": {}
   },

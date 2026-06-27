@@ -16310,6 +16310,60 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "KBHLD_USDT",
+    "base_id": "KBHLD",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KBHLD",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "KBLAM_USDT",
+    "base_id": "KBLAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KBLAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "KDA_USDT",
     "base_id": "KDA",
     "quote_id": "USDT",
@@ -24243,6 +24297,33 @@
       "max": 380000.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "POPMART_USDT",
+    "base_id": "POPMART",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POPMART",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
