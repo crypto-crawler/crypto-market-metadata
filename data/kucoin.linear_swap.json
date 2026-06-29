@@ -3828,6 +3828,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "CAPUSDTM",
+    "base_id": "CAP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CAP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "contract_value": 100.0,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "CARVUSDTM",
     "base_id": "CARV",
     "quote_id": "USDT",
