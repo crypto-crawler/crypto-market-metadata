@@ -12077,6 +12077,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "STRC-USDT",
+    "base_id": "STRC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STRC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "STRK-USDT",
     "base_id": "STRK",
     "quote_id": "USDT",
@@ -12390,7 +12413,7 @@
       "taker": 0.0004
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
