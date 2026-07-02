@@ -2234,6 +2234,30 @@
   {
     "exchange": "huobi",
     "market_type": "spot",
+    "symbol": "ansemusdt",
+    "base_id": "ansem",
+    "quote_id": "usdt",
+    "base": "ANSEM",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.1,
+      "max": 8984725.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
     "symbol": "antbtc",
     "base_id": "ant",
     "quote_id": "btc",
@@ -10868,6 +10892,30 @@
     "quantity_limit": {
       "min": 0.001,
       "max": 23640.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "spot",
+    "symbol": "datausdt",
+    "base_id": "data",
+    "quote_id": "usdt",
+    "base": "DATA",
+    "quote": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.01,
+      "max": 3000000.0
     },
     "info": {}
   },
