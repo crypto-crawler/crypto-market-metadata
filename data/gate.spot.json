@@ -5995,6 +5995,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "AMDG_USDT",
+    "base_id": "AMDG",
+    "quote_id": "USDT",
+    "base": "AMDG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "AMDON_USDT",
     "base_id": "AMDON",
     "quote_id": "USDT",
@@ -26350,6 +26373,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "CRCLG_USDT",
+    "base_id": "CRCLG",
+    "quote_id": "USDT",
+    "base": "CRCLG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "CRCLON_USDT",
     "base_id": "CRCLON",
     "quote_id": "USDT",
@@ -39247,6 +39293,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "EWYG_USDT",
+    "base_id": "EWYG",
+    "quote_id": "USDT",
+    "base": "EWYG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -55001,6 +55070,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "INTCG_USDT",
+    "base_id": "INTCG",
+    "quote_id": "USDT",
+    "base": "INTCG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "INTER_TRY",
     "base_id": "INTER",
     "quote_id": "TRY",
@@ -61085,7 +61177,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -63571,11 +63663,34 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "LITEG_USDT",
+    "base_id": "LITEG",
+    "quote_id": "USDT",
+    "base": "LITEG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -69609,8 +69724,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
-      "lot_size": 0.1
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -73359,6 +73477,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "MSFTG_USDT",
+    "base_id": "MSFTG",
+    "quote_id": "USDT",
+    "base": "MSFTG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "MSFTON_USDT",
     "base_id": "MSFTON",
     "quote_id": "USDT",
@@ -73560,6 +73701,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MSTRG_USDT",
+    "base_id": "MSTRG",
+    "quote_id": "USDT",
+    "base": "MSTRG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -74273,6 +74437,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "MUG_USDT",
+    "base_id": "MUG",
+    "quote_id": "USDT",
+    "base": "MUG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -78820,6 +79007,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "NVDAG_USDT",
+    "base_id": "NVDAG",
+    "quote_id": "USDT",
+    "base": "NVDAG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -87099,6 +87309,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "PLTRG_USDT",
+    "base_id": "PLTRG",
+    "quote_id": "USDT",
+    "base": "PLTRG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "PLTRON_USDT",
     "base_id": "PLTRON",
     "quote_id": "USDT",
@@ -91278,6 +91511,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "QQQG_USDT",
+    "base_id": "QQQG",
+    "quote_id": "USDT",
+    "base": "QQQG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -101047,7 +101303,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -102265,6 +102521,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SNDKG_USDT",
+    "base_id": "SNDKG",
+    "quote_id": "USDT",
+    "base": "SNDKG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -104148,6 +104427,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "SPCXG_USDT",
+    "base_id": "SPCXG",
+    "quote_id": "USDT",
+    "base": "SPCXG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },
@@ -109792,7 +110094,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -114441,6 +114743,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "TSLAG_USDT",
+    "base_id": "TSLAG",
+    "quote_id": "USDT",
+    "base": "TSLAG",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.0001
+    },
+    "quantity_limit": {
+      "min": 0.0001
     },
     "info": {}
   },
@@ -122395,7 +122720,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -129976,7 +130301,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "quantity_limit": {
@@ -130298,7 +130623,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "quantity_limit": {
