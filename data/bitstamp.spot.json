@@ -6582,6 +6582,26 @@
   {
     "exchange": "bitstamp",
     "market_type": "spot",
+    "symbol": "usdgusd",
+    "base_id": "USDG",
+    "quote_id": "USD",
+    "base": "USDG",
+    "quote": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.005,
+      "taker": 0.005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.00001
+    },
+    "info": {}
+  },
+  {
+    "exchange": "bitstamp",
+    "market_type": "spot",
     "symbol": "usdteur",
     "base_id": "USDT",
     "quote_id": "EUR",
