@@ -13853,6 +13853,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "CZ_USDT",
+    "base_id": "CZ",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CZ",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 300.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "C_USDT",
     "base_id": "C",
     "quote_id": "USDT",
@@ -17166,7 +17193,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 16000.0
+      "max": 15000.0
     },
     "contract_value": 1.0,
     "info": {}
@@ -25887,7 +25914,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 250.0
+      "max": 150.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -45794,6 +45821,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "TCC_USDT",
+    "base_id": "TCC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TCC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 3.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "TCOM_USDT",
     "base_id": "TCOM",
     "quote_id": "USDT",
@@ -46488,7 +46542,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 8000000.0
+      "max": 4000000.0
     },
     "contract_value": 1.0,
     "info": {}
