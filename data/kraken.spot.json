@@ -22450,6 +22450,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "NATG/USD",
+    "base_id": "NATG",
+    "quote_id": "ZUSD",
+    "base": "NATG",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 0.00203
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "NEAR/EUR",
     "base_id": "NEAR",
     "quote_id": "ZEUR",
@@ -30247,6 +30270,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SN64/USD",
+    "base_id": "SN64",
+    "quote_id": "ZUSD",
+    "base": "SN64",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.3
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SNEK/EUR",
     "base_id": "SNEK",
     "quote_id": "ZEUR",
@@ -37440,6 +37486,29 @@
     },
     "quantity_limit": {
       "min": 1500.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "WEMIX/USD",
+    "base_id": "WEMIX",
+    "quote_id": "ZUSD",
+    "base": "WEMIX",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 20.0
     },
     "info": {}
   },

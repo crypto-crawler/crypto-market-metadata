@@ -3890,6 +3890,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BAC_USDT",
+    "base_id": "BAC",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BAC",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BADGER_USDT",
     "base_id": "BADGER",
     "quote_id": "USDT",
@@ -5888,6 +5915,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "BSP_USDT",
+    "base_id": "BSP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "BSP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "BSV_USDT",
     "base_id": "BSV",
     "quote_id": "USDT",
@@ -6685,14 +6739,14 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-9,
-      "lot_size": 100000.0
+      "tick_size": 0.1,
+      "lot_size": 0.01
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 230000.0
+      "max": 1000000.0
     },
-    "contract_value": 100000.0,
+    "contract_value": 0.01,
     "info": {}
   },
   {
@@ -17167,6 +17221,33 @@
     "quantity_limit": {
       "min": 1.0,
       "max": 450000.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
+    "symbol": "KSTR_USDT",
+    "base_id": "KSTR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KSTR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
     },
     "contract_value": 0.1,
     "info": {}
@@ -32024,6 +32105,33 @@
   {
     "exchange": "gate",
     "market_type": "linear_swap",
+    "symbol": "TTWO_USDT",
+    "base_id": "TTWO",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TTWO",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": -0.0001,
+      "taker": 0.00075
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1000000.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "linear_swap",
     "symbol": "TURBO_USDT",
     "base_id": "TURBO",
     "quote_id": "USDT",
@@ -33955,14 +34063,14 @@
       "taker": 0.00075
     },
     "precision": {
-      "tick_size": 1e-8,
-      "lot_size": 10000.0
+      "tick_size": 0.001,
+      "lot_size": 1.0
     },
     "quantity_limit": {
       "min": 1.0,
       "max": 1000000.0
     },
-    "contract_value": 10000.0,
+    "contract_value": 1.0,
     "info": {}
   },
   {

@@ -27325,11 +27325,11 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.01,
-      "lot_size": 0.001
+      "tick_size": 0.1,
+      "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 0.001
+      "min": 0.0001
     },
     "info": {}
   },
@@ -117663,6 +117663,29 @@
     "precision": {
       "tick_size": 0.00001,
       "lot_size": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "USDPT_USDT",
+    "base_id": "USDPT",
+    "quote_id": "USDT",
+    "base": "USDPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "info": {}
   },
