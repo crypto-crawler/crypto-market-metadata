@@ -13131,6 +13131,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "BASISCASH_USDT",
+    "base_id": "BASISCASH",
+    "quote_id": "USDT",
+    "base": "BASISCASH",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "BAS_ETH",
     "base_id": "BAS",
     "quote_id": "ETH",
@@ -14752,7 +14775,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -17451,7 +17474,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -34857,7 +34880,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -36774,7 +36797,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -46977,7 +47000,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-8,
+      "tick_size": 1e-9,
       "lot_size": 0.1
     },
     "quantity_limit": {
@@ -49994,7 +50017,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -61177,7 +61200,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -100624,6 +100647,29 @@
   {
     "exchange": "gate",
     "market_type": "spot",
+    "symbol": "SIMONSCAT_USDT",
+    "base_id": "SIMONSCAT",
+    "quote_id": "USDT",
+    "base": "SIMONSCAT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-10,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
     "symbol": "SINGLE_USDT",
     "base_id": "SINGLE",
     "quote_id": "USDT",
@@ -101257,7 +101303,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-9,
+      "tick_size": 1e-7,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -102493,7 +102539,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.001,
+      "tick_size": 0.0001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -115741,7 +115787,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -120745,7 +120791,7 @@
       "taker": 0.002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 0.01
     },
     "quantity_limit": {
@@ -121900,6 +121946,29 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "info": {}
+  },
+  {
+    "exchange": "gate",
+    "market_type": "spot",
+    "symbol": "WENSOL_USDT",
+    "base_id": "WENSOL",
+    "quote_id": "USDT",
+    "base": "WENSOL",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.002,
+      "taker": 0.002
+    },
+    "precision": {
+      "tick_size": 1e-9,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
     },
     "info": {}
   },
