@@ -30270,6 +30270,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "SN51/USD",
+    "base_id": "SN51",
+    "quote_id": "ZUSD",
+    "base": "SN51",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.4
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "SN64/USD",
     "base_id": "SN64",
     "quote_id": "ZUSD",
@@ -35574,6 +35597,75 @@
     "precision": {
       "tick_size": 0.0001,
       "lot_size": 1e-8
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDPT/USD",
+    "base_id": "USDPT",
+    "quote_id": "ZUSD",
+    "base": "USDPT",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDPT/USDC",
+    "base_id": "USDPT",
+    "quote_id": "USDC",
+    "base": "USDPT",
+    "quote": "USDC",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 5.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "USDPT/USDT",
+    "base_id": "USDPT",
+    "quote_id": "USDT",
+    "base": "USDPT",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.0001,
+      "lot_size": 0.00001
     },
     "quantity_limit": {
       "min": 5.0
