@@ -13963,6 +13963,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "WENSTOCK-USDT",
+    "base_id": "WENSTOCK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "WENSTOCK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "WET-USDT",
     "base_id": "WET",
     "quote_id": "USDT",
