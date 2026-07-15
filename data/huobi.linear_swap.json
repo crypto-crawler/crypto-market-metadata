@@ -10513,6 +10513,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "RAM-USDT",
+    "base_id": "RAM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "RAM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "RARE-USDT",
     "base_id": "RARE",
     "quote_id": "USDT",
@@ -11750,6 +11773,29 @@
       "lot_size": 1.0
     },
     "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
+    "symbol": "SNXX-USDT",
+    "base_id": "SNXX",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SNXX",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
     "info": {}
   },
   {
