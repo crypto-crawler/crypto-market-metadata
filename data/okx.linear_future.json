@@ -3350,6 +3350,33 @@
   {
     "exchange": "okx",
     "market_type": "linear_future",
+    "symbol": "BILL-USD_UM_XPERP-310718",
+    "base_id": "BILL",
+    "quote_id": "USD",
+    "settle_id": "USD",
+    "base": "BILL",
+    "quote": "USD_UM_XPERP",
+    "settle": "USD",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 100.0,
+    "delivery_date": 1942128000000,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_future",
     "symbol": "BNB-USD_UM_XPERP-310523",
     "base_id": "BNB",
     "quote_id": "USD",
