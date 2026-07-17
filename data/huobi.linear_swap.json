@@ -623,6 +623,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "AKE-USDT",
+    "base_id": "AKE",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AKE",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 1.0
+    },
+    "contract_value": 1000.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "ALAB-USDT",
     "base_id": "ALAB",
     "quote_id": "USDT",
@@ -5407,6 +5430,29 @@
   {
     "exchange": "huobi",
     "market_type": "linear_swap",
+    "symbol": "FWDI-USDT",
+    "base_id": "FWDI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FWDI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0004
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "huobi",
+    "market_type": "linear_swap",
     "symbol": "G-USDT",
     "base_id": "G",
     "quote_id": "USDT",
@@ -7195,7 +7241,7 @@
       "tick_size": 0.01,
       "lot_size": 1.0
     },
-    "contract_value": 0.001,
+    "contract_value": 0.1,
     "info": {}
   },
   {
