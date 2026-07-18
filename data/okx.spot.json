@@ -29872,7 +29872,7 @@
       "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -29895,7 +29895,7 @@
       "lot_size": 0.001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -30493,7 +30493,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -30516,7 +30516,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -30539,7 +30539,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -30562,7 +30562,7 @@
       "lot_size": 0.0001
     },
     "quantity_limit": {
-      "min": 1.0
+      "min": 10.0
     },
     "info": {}
   },
@@ -39671,6 +39671,29 @@
     },
     "quantity_limit": {
       "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "USDC-TEV",
+    "base_id": "USDC",
+    "quote_id": "TEV",
+    "base": "USDC",
+    "quote": "TEV",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.1,
+      "lot_size": 1e-6
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "info": {}
   },

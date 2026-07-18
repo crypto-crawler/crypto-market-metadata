@@ -11275,6 +11275,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "MUUUSDTM",
+    "base_id": "MUU",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "MUU",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "MVLLUSDTM",
     "base_id": "MVLL",
     "quote_id": "USDT",
@@ -18204,6 +18227,7 @@
       "lot_size": 1.0
     },
     "contract_value": 10.0,
+    "delivery_date": 1784530800000,
     "info": {}
   },
   {

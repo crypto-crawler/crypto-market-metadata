@@ -964,6 +964,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "APP-USDT-SWAP",
+    "base_id": "APP",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "APP",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "APR-USDT-SWAP",
     "base_id": "APR",
     "quote_id": "USDT",
@@ -11728,6 +11754,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "SNOW-USDT-SWAP",
+    "base_id": "SNOW",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SNOW",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.01
+    },
+    "quantity_limit": {
+      "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "SNX-USDT-SWAP",
     "base_id": "SNX",
     "quote_id": "USDT",
@@ -12033,6 +12085,32 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "SOXS-USDT-SWAP",
+    "base_id": "SOXS",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SOXS",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
     },
     "contract_value": 1.0,
     "info": {}
@@ -15415,6 +15493,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "ZM-USDT-SWAP",
+    "base_id": "ZM",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "ZM",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
