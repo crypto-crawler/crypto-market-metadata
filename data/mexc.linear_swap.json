@@ -8410,7 +8410,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 1e-6,
@@ -8418,7 +8418,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 150000.0
+      "max": 99000.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -10678,7 +10678,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0
+      "taker": 0.0002
     },
     "precision": {
       "tick_size": 0.0001,
@@ -10686,7 +10686,7 @@
     },
     "quantity_limit": {
       "min": 1.0,
-      "max": 7500.0
+      "max": 10800.0
     },
     "contract_value": 10.0,
     "info": {}
@@ -11526,6 +11526,33 @@
       "max": 100.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "CDNSSTOCK_USDT",
+    "base_id": "CDNSSTOCK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "CDNSSTOCK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1800.0
+    },
+    "contract_value": 0.01,
     "info": {}
   },
   {
@@ -17860,7 +17887,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0002
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.0001,
@@ -25053,6 +25080,33 @@
       "max": 600.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "JIMOTHY_USDT",
+    "base_id": "JIMOTHY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "JIMOTHY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0002
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 750.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -40108,7 +40162,7 @@
     "margin": true,
     "fees": {
       "maker": 0.0,
-      "taker": 0.0002
+      "taker": 0.0
     },
     "precision": {
       "tick_size": 0.0001,
@@ -43445,6 +43499,33 @@
   {
     "exchange": "mexc",
     "market_type": "linear_swap",
+    "symbol": "SNPSSTOCK_USDT",
+    "base_id": "SNPSSTOCK",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "SNPSSTOCK",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0,
+      "taker": 0.0
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 1550.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
     "symbol": "SNS_USDT",
     "base_id": "SNS",
     "quote_id": "USDT",
@@ -45249,6 +45330,33 @@
       "max": 9000.0
     },
     "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "mexc",
+    "market_type": "linear_swap",
+    "symbol": "STONKBROKER_USDT",
+    "base_id": "STONKBROKER",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "STONKBROKER",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0004,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 1e-6,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0,
+      "max": 265.0
+    },
+    "contract_value": 100.0,
     "info": {}
   },
   {
@@ -54475,7 +54583,7 @@
       "taker": 0.0002
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "quantity_limit": {

@@ -8788,6 +8788,29 @@
   {
     "exchange": "kraken",
     "market_type": "spot",
+    "symbol": "CSPR/USD",
+    "base_id": "CSPR",
+    "quote_id": "ZUSD",
+    "base": "CSPR",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 1e-7,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 600.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
     "symbol": "CTC/EUR",
     "base_id": "CTC",
     "quote_id": "ZEUR",
@@ -30274,6 +30297,29 @@
     "base_id": "SN51",
     "quote_id": "ZUSD",
     "base": "SN51",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0016,
+      "taker": 0.0026
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.00001
+    },
+    "quantity_limit": {
+      "min": 0.4
+    },
+    "info": {}
+  },
+  {
+    "exchange": "kraken",
+    "market_type": "spot",
+    "symbol": "SN62/USD",
+    "base_id": "SN62",
+    "quote_id": "ZUSD",
+    "base": "SN62",
     "quote": "USD",
     "active": true,
     "margin": false,
