@@ -760,7 +760,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -1248,7 +1248,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -1918,7 +1918,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -2961,7 +2961,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -3496,7 +3496,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -6277,7 +6277,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -7440,7 +7440,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.01,
+      "tick_size": 0.001,
       "lot_size": 1.0
     },
     "contract_value": 0.01,
@@ -8043,7 +8043,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -8622,7 +8622,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -9688,7 +9688,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -10291,7 +10291,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -10618,7 +10618,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
@@ -11568,7 +11568,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 1e-7,
+      "tick_size": 1e-8,
       "lot_size": 1.0
     },
     "contract_value": 1000.0,
@@ -12521,7 +12521,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -12567,7 +12567,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
@@ -12844,7 +12844,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -13054,7 +13054,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -13319,6 +13319,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "POPMARTUSDTM",
+    "base_id": "POPMART",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "POPMART",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.1,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "PORTALUSDTM",
     "base_id": "PORTAL",
     "quote_id": "USDT",
@@ -13541,7 +13564,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 1e-6,
+      "tick_size": 1e-7,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
@@ -14423,7 +14446,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -14446,7 +14469,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -15257,7 +15280,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -15441,7 +15464,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
@@ -16561,6 +16584,29 @@
   {
     "exchange": "kucoin",
     "market_type": "linear_swap",
+    "symbol": "TENCENTUSDTM",
+    "base_id": "TENCENT",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "TENCENT",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0006
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "contract_value": 0.01,
+    "info": {}
+  },
+  {
+    "exchange": "kucoin",
+    "market_type": "linear_swap",
     "symbol": "TERUSDTM",
     "base_id": "TER",
     "quote_id": "USDT",
@@ -16621,7 +16667,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.0001,
+      "tick_size": 0.00001,
       "lot_size": 1.0
     },
     "contract_value": 1.0,
@@ -18386,7 +18432,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 10.0,
@@ -19590,7 +19636,7 @@
       "taker": 0.0006
     },
     "precision": {
-      "tick_size": 0.00001,
+      "tick_size": 1e-6,
       "lot_size": 1.0
     },
     "contract_value": 100.0,
