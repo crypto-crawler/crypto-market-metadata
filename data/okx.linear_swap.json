@@ -366,6 +366,58 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "AEHR-USDT-SWAP",
+    "base_id": "AEHR",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AEHR",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "AEON-USDT-SWAP",
+    "base_id": "AEON",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "AEON",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "AERO-USDT-SWAP",
     "base_id": "AERO",
     "quote_id": "USDT",
@@ -5046,6 +5098,32 @@
   {
     "exchange": "okx",
     "market_type": "linear_swap",
+    "symbol": "FLY-USDT-SWAP",
+    "base_id": "FLY",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FLY",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 0.1
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
     "symbol": "FOGO-USDT-SWAP",
     "base_id": "FOGO",
     "quote_id": "USDT",
@@ -5171,6 +5249,32 @@
       "min": 1.0
     },
     "contract_value": 10.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "FWDI-USDT-SWAP",
+    "base_id": "FWDI",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "FWDI",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 1.0
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "contract_value": 1.0,
     "info": {}
   },
   {
@@ -6963,6 +7067,32 @@
     },
     "quantity_limit": {
       "min": 0.01
+    },
+    "contract_value": 1.0,
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "linear_swap",
+    "symbol": "KR200-USDT-SWAP",
+    "base_id": "KR200",
+    "quote_id": "USDT",
+    "settle_id": "USDT",
+    "base": "KR200",
+    "quote": "USDT",
+    "settle": "USDT",
+    "active": true,
+    "margin": true,
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.0005
+    },
+    "precision": {
+      "tick_size": 0.01,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 0.001
     },
     "contract_value": 1.0,
     "info": {}

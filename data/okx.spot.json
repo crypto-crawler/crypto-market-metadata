@@ -991,6 +991,75 @@
   {
     "exchange": "okx",
     "market_type": "spot",
+    "symbol": "AEON-TRY",
+    "base_id": "AEON",
+    "quote_id": "TRY",
+    "base": "AEON",
+    "quote": "TRY",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.001,
+      "lot_size": 0.001
+    },
+    "quantity_limit": {
+      "min": 1.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "AEON-USD",
+    "base_id": "AEON",
+    "quote_id": "USD",
+    "base": "AEON",
+    "quote": "USD",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
+    "symbol": "AEON-USDT",
+    "base_id": "AEON",
+    "quote_id": "USDT",
+    "base": "AEON",
+    "quote": "USDT",
+    "active": true,
+    "margin": false,
+    "fees": {
+      "maker": 0.0008,
+      "taker": 0.001
+    },
+    "precision": {
+      "tick_size": 0.00001,
+      "lot_size": 0.1
+    },
+    "quantity_limit": {
+      "min": 100.0
+    },
+    "info": {}
+  },
+  {
+    "exchange": "okx",
+    "market_type": "spot",
     "symbol": "AERGO-EUR",
     "base_id": "AERGO",
     "quote_id": "EUR",
@@ -44076,7 +44145,7 @@
     "base": "XSOXL",
     "quote": "USDT",
     "active": true,
-    "margin": true,
+    "margin": false,
     "fees": {
       "maker": 0.0008,
       "taker": 0.001
